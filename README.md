@@ -1,8 +1,8 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
+    <p><b>Domains on Adlists (01.09.2022)</b></p>
+    <img src="images/brave_8W8gGFUKHq4i.png" alt="Screenshot">
 </div>
-
-**Domains on Adlists (01.09.2022):** 1,343,368 
 
 - Unified hosts
 - Fake news 
@@ -20,7 +20,8 @@
 - Spotify ads
 - AdGuard Filter
 
-```angular2html
+```
+https://raw.githubusercontent.com/sefinek24/pihole-blocklist-collection/main/hosts
 https://hole.cert.pl/domains/domains_hosts.txt
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
@@ -61,4 +62,5 @@ https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
+https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
 ```
