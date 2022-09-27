@@ -1,7 +1,7 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
     <p><b>Domains on Adlists (01.09.2022)</b></p>
-    <img src="images/brave_8W8gGFUKHq4i.png" alt="Screenshot">
+    <img src="images/brave_0YhCQz1CCZLc.png" alt="Screenshot">
 </div>
 
 - Unified hosts
@@ -21,10 +21,8 @@
 - AdGuard Filter
 
 ```
-https://raw.githubusercontent.com/sefinek24/pihole-blocklist-collection/main/hosts
 https://hole.cert.pl/domains/domains_hosts.txt
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 https://v.firebog.net/hosts/static/w3kbl.txt
 https://adaway.org/hosts.txt
 https://v.firebog.net/hosts/AdguardDNS.txt
@@ -33,11 +31,9 @@ https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 https://v.firebog.net/hosts/Easylist.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
 https://v.firebog.net/hosts/Easyprivacy.txt
 https://v.firebog.net/hosts/Prigent-Ads.txt
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
@@ -57,10 +53,19 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-g
 https://dbl.oisd.nl
 https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/spam404.com/list.txt
-https://raw.githubusercontent.com/dfederlein/dnsbl-dfed/master/spotifyads.txt
 https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
 https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
+https://raw.githubusercontent.com/sefinek24/pihole-blocklist-collection/main/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+https://blocklistproject.github.io/Lists/tiktok.txt
+https://blocklistproject.github.io/Lists/ads.txt
+https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt
 ```
