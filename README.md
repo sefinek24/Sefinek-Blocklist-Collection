@@ -1,26 +1,39 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
-    <p><b>Domains on Adlists (01.09.2022)</b></p>
-    <img src="images/brave_0YhCQz1CCZLc.png" alt="Screenshot">
+    <p><b>Domains on Adlists (21.10.2022)</b></p>
+    <img src="images/brave_hdBlqJ28QQkR.png" alt="Screenshot">
 </div>
 
 - Unified hosts
 - Fake news 
 - Gambling
-- Porn
+- Abuse
 - Phishing & spam mails
-- Ads & mobile ads
+- Fraud
 - Malvertising
 - Malware
 - Spyware
 - Ransomware
+- Phishing
 - CryptoJacking and some telemetry
 - Analytics
 - Tracking
-- Spotify ads
 - AdGuard Filter
+- Redirect (Sites that redirect your from your intended site)
+- Scam
+- Piracy
+- Drugs
+- Gambling
+- Porn
+- Ads (YouTube / Spotify) & mobile ads etc.
+- Dating Services
+- Hate & junk
+- Block TikTok
+- Block Snapchat
+- AMP Hosts
 
 ```
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://hole.cert.pl/domains/domains_hosts.txt
 https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
 https://v.firebog.net/hosts/static/w3kbl.txt
@@ -59,7 +72,6 @@ https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
 https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
 https://raw.githubusercontent.com/sefinek24/pihole-blocklist-collection/main/hosts
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
@@ -68,4 +80,28 @@ https://blocklistproject.github.io/Lists/tiktok.txt
 https://blocklistproject.github.io/Lists/ads.txt
 https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt
+https://v.firebog.net/hosts/RPiList-Malware.txt
+https://v.firebog.net/hosts/RPiList-Phishing.txt
+https://github.com/kboghdady/youTube_ads_4_pi-hole/blob/master/youtubelist.txt
+https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
+https://blocklistproject.github.io/Lists/abuse.txt
+https://blocklistproject.github.io/Lists/drugs.txt
+https://blocklistproject.github.io/Lists/fraud.txt
+https://blocklistproject.github.io/Lists/gambling.txt
+https://blocklistproject.github.io/Lists/malware.txt
+https://blocklistproject.github.io/Lists/phishing.txt
+https://blocklistproject.github.io/Lists/piracy.txt
+https://blocklistproject.github.io/Lists/porn.txt
+https://blocklistproject.github.io/Lists/ransomware.txt
+https://blocklistproject.github.io/Lists/redirect.txt
+https://blocklistproject.github.io/Lists/scam.txt
+https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
+https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
+https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-snapchat.txt
+https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/host
+https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easylist.txt
+https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 ```
