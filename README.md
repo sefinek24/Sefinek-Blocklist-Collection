@@ -1,7 +1,7 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
     <p><b>Domains on Adlists (21.10.2022)</b></p>
-    <img src="images/brave_hdBlqJ28QQkR.png" alt="Screenshot">
+    <img src="images/brave_DvDGIMdcf28E.png" alt="Screenshot">
 </div>
 
 - Unified hosts
@@ -25,7 +25,7 @@
 - Drugs
 - Gambling
 - Porn
-- Ads (YouTube / Spotify) & mobile ads etc.
+- YouTube Spotify and mobile ads etc.
 - Dating Services
 - Hate & junk
 - Block TikTok
@@ -104,4 +104,25 @@ https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/host
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easylist.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
+https://ente.dev/api/blocklist/youtube-advertising-hosts
+https://ente.dev/api/blocklist/google-amp-hosts
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easylist_host.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/Ad_filter_list_by_Disconnect.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/KADhosts.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
+https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analytics.txt
+https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analyticsparsed
+https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_facebook0.txt
+https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/adservers-and-trackers.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/AdAway--Blocklist.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/SmartTV_ads.txt
+https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+https://raw.githubusercontent.com/w13d/adblockListABP-PiHole/master/Spotify.txt
+https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list
 ```
