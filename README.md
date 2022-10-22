@@ -28,8 +28,7 @@
 - YouTube Spotify and mobile ads etc.
 - Dating Services
 - Hate & junk
-- Block TikTok
-- Block Snapchat
+- Block TikTok and Snapchat
 - AMP Hosts
 
 ```
