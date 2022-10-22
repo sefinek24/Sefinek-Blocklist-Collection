@@ -112,7 +112,6 @@ https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
 https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analytics.txt
 https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analyticsparsed
-https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/hosts/hosts_facebook0.txt
 https://raw.githubusercontent.com/DRSDavidSoft/additional-hosts/master/domains/blacklist/adservers-and-trackers.txt
 https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt
