@@ -18,15 +18,14 @@
 - CryptoJacking and some telemetry
 - Analytics
 - Tracking
-- AdGuard Filter
+- AdGuard filter
 - Redirect (Sites that redirect your from your intended site)
 - Scam
 - Piracy
 - Drugs
-- Gambling
 - Porn
 - YouTube and mobile ads etc.
-- Dating Services
+- Dating services
 - Hate & junk
 - Block TikTok and Snapchat
 - AMP Hosts
