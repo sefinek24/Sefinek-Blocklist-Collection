@@ -1,7 +1,7 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
-    <p><b>Domains on Adlists (29.10.2022)</b></p>
-    <img src="images/brave_zwrFphQlnrn3.png" alt="Screenshot">
+    <p><b>Domains on Adlists (30.10.2022)</b></p>
+    <img src="images/brave_GeILSjPncUxl.png" alt="Screenshot">
 </div>
 
 - Unified hosts
@@ -122,7 +122,6 @@ https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 https://raw.githubusercontent.com/xlimit91/xlimit91-block-list/master/blacklist.txt
 https://raw.githubusercontent.com/1boii/hosts/main/hosts
 https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt
-https://raw.githubusercontent.com/Bon-Appetit/porn-domains/master/block.txt
 https://block.energized.pro/spark/formats/hosts
 https://block.energized.pro/bluGo/formats/hosts
 https://block.energized.pro/blu/formats/hosts
@@ -132,5 +131,4 @@ https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains.24733
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
 https://raw.githubusercontent.com/thisisu/hosts_adultxxx/master/hosts
-https://raw.githubusercontent.com/zangadoprojets/pi-hole-blocklist/main/Pornpages.txt
 ```
