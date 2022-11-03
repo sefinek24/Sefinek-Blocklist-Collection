@@ -1,7 +1,7 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
     <p><b>Domains on Adlists (03.11.2022)</b></p>
-    <img src="https://sefinek.net/images/screenshots/03.11.2022/brave_5SpEhqj3RQnA.png" alt="Screenshot">
+    <img src="images/brave_5SpEhqj3RQnA.png" alt="Screenshot">
 </div>
 
 - Unified hosts
