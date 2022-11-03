@@ -1,7 +1,7 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
-    <p><b>Domains on Adlists (30.10.2022)</b></p>
-    <img src="images/brave_GeILSjPncUxl.png" alt="Screenshot">
+    <p><b>Domains on Adlists (03.11.2022)</b></p>
+    <img src="https://sefinek.net/images/screenshots/03.11.2022/brave_5SpEhqj3RQnA.png" alt="Screenshot">
 </div>
 
 - Unified hosts
@@ -130,5 +130,5 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
 https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains.24733
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
-https://raw.githubusercontent.com/thisisu/hosts_adultxxx/master/hosts
+https://raw.githubusercontent.com/zangadoprojets/pi-hole-blocklist/main/Pornpages.txt
 ```
