@@ -120,7 +120,6 @@ https://ente.dev/api/blocklist/tv
 https://ente.dev/api/blocklist/youtube-advertising
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 https://raw.githubusercontent.com/xlimit91/xlimit91-block-list/master/blacklist.txt
-https://raw.githubusercontent.com/1boii/hosts/main/hosts
 https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt
 https://block.energized.pro/spark/formats/hosts
 https://block.energized.pro/bluGo/formats/hosts
