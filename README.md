@@ -100,7 +100,6 @@ https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/host
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easylist.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
-https://ente.dev/api/blocklist/youtube-advertising-hosts
 https://ente.dev/api/blocklist/google-amp-hosts
 https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
 https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easylist_host.txt
