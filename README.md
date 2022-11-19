@@ -71,7 +71,7 @@ https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
 https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
-https://raw.githubusercontent.com/sefinek24/pihole-blocklist-collection/main/hosts
+https://raw.githubusercontent.com/sefinek24/PiHole-Blocklist-Collection/main/hosts
 https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
