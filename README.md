@@ -30,7 +30,7 @@
 - Block TikTok and Snapchat
 - AMP Hosts
 
-## 📃 List
+## 📃 List - 98 urls
 
 ```
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
