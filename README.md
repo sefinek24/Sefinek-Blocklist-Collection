@@ -1,7 +1,7 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
     <p><b>Domains on Adlists (19.11.2022)</b></p>
-    <img src="https://sefinek.net/images/screenshots/11.11.2022/brave_HRLhikfb6v7J.png" alt="Screenshot">
+    <img src="images/brave_xzyk9SkNF4x3.png" alt="Screenshot">
 </div>
 
 - Unified hosts
@@ -127,6 +127,10 @@ https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains.24733
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
 https://raw.githubusercontent.com/zangadoprojets/pi-hole-blocklist/main/Pornpages.txt
+https://ente.dev/api/blocklist/tiktok
+https://ente.dev/api/blocklist/advertising
+https://kriskintel.com/feeds/ktip_ransomware_feeds.txt
+https://raw.githubusercontent.com/marktron/fakenews/master/fakenews
 ```
 
 ## 🔧 Regex
