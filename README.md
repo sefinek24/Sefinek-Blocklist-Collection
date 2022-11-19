@@ -1,6 +1,6 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
-    <p><b>Domains on Adlists (11.11.2022)</b></p>
+    <p><b>Domains on Adlists (19.11.2022)</b></p>
     <img src="https://sefinek.net/images/screenshots/11.11.2022/brave_HRLhikfb6v7J.png" alt="Screenshot">
 </div>
 
@@ -29,6 +29,8 @@
 - Hate & junk
 - Block TikTok and Snapchat
 - AMP Hosts
+
+## 📃 List
 
 ```
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
@@ -119,9 +121,6 @@ https://ente.dev/api/blocklist/tv
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 https://raw.githubusercontent.com/xlimit91/xlimit91-block-list/master/blacklist.txt
 https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt
-https://block.energized.pro/spark/formats/hosts
-https://block.energized.pro/bluGo/formats/hosts
-https://block.energized.pro/blu/formats/hosts
 https://block.energized.pro/porn/formats/hosts
 https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
 https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains.24733
@@ -129,3 +128,6 @@ https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-bl
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
 https://raw.githubusercontent.com/zangadoprojets/pi-hole-blocklist/main/Pornpages.txt
 ```
+
+## 🔧 Regex
+https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16
