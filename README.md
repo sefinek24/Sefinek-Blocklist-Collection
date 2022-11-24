@@ -30,7 +30,7 @@
 - Block TikTok and Snapchat
 - AMP Hosts
 
-## 📃 List - 98 urls
+## 📃 List - 97 urls
 
 ```
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
@@ -128,7 +128,6 @@ https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-bl
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
 https://raw.githubusercontent.com/zangadoprojets/pi-hole-blocklist/main/Pornpages.txt
 https://ente.dev/api/blocklist/tiktok
-https://ente.dev/api/blocklist/advertising
 https://kriskintel.com/feeds/ktip_ransomware_feeds.txt
 https://raw.githubusercontent.com/marktron/fakenews/master/fakenews
 ```
