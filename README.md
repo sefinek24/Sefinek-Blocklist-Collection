@@ -1,34 +1,31 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
-    <p><b>Domains on Adlists (19.11.2022)</b></p>
-    <img src="images/brave_xzyk9SkNF4x3.png" alt="Screenshot">
+    <img src="images/brave_xzyk9SkNF4x3.png" alt="Screenshot"><br>
+    <i>19.11.2022 [DD.MM.YYYY]</i>
 </div>
 
-- Unified hosts
-- Fake news 
-- Gambling
+- AMP Hosts
 - Abuse
-- Phishing & spam mails
-- Fraud
+- Analytics and telemetry
+- Block __TikTok__ and __Snapchat__
+- CryptoJacking
+- Dating services
+- Drugs
+- Fake news
+- Gambling
+- Hate & junk
 - Malvertising
 - Malware
-- Spyware
-- Ransomware
 - Phishing
-- CryptoJacking and some telemetry
-- Analytics
-- Tracking
-- AdGuard filter
-- Redirect (Sites that redirect your from your intended site)
-- Scam
 - Piracy
-- Drugs
 - Porn
+- Ransomware
+- Redirect *(sites that redirect your from your intended site)*
+- Scam
+- Spam mails
+- Spyware
+- Tracking
 - YouTube and mobile ads etc.
-- Dating services
-- Hate & junk
-- Block TikTok and Snapchat
-- AMP Hosts
 
 ## 📃 List - 96 urls
 
