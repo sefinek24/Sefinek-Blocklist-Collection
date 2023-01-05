@@ -45,6 +45,7 @@ https://blocklistproject.github.io/Lists/ransomware.txt
 https://blocklistproject.github.io/Lists/redirect.txt
 https://blocklistproject.github.io/Lists/scam.txt
 https://blocklistproject.github.io/Lists/tiktok.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/hosts
 https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp
 https://ente.dev/api/blocklist/google-amp-hosts
@@ -111,7 +112,6 @@ https://raw.githubusercontent.com/xlimit91/xlimit91-block-list/master/blacklist.
 https://raw.githubusercontent.com/zangadoprojets/pi-hole-blocklist/main/Pornpages.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
-https://sefinek.net/resources/PiHole-Blocklist-Collection/hosts
 https://urlhaus.abuse.ch/downloads/hostfile
 https://v.firebog.net/hosts/AdguardDNS.txt
 https://v.firebog.net/hosts/Admiral.txt
