@@ -1,7 +1,7 @@
 <div align="center">
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
     <img src="images/brave_A89UiGWS0aWb.png" alt="Screenshot"><br>
-    <i>19.11.2022 [DD.MM.YYYY]</i>
+    <i>08.01.2023 [DD.MM.YYYY]</i>
     <h2>⭐ » Star the repo if you liked it « ⭐</h2>
 </div>
 
