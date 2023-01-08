@@ -2,6 +2,7 @@
     <h1>⚠️ The Big Blocklist Collection ⚠️</h1>
     <img src="images/brave_xzyk9SkNF4x3.png" alt="Screenshot"><br>
     <i>19.11.2022 [DD.MM.YYYY]</i>
+    <h2>⭐ » Star the repo if you liked it « ⭐</h2>
 </div>
 
 - AMP Hosts
