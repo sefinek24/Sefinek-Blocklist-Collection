@@ -26,6 +26,7 @@
 - Spam mails
 - Spyware
 - Tracking
+- Useless websites
 - YouTube and mobile ads etc.
 
 ## 📃 List - 96 urls
