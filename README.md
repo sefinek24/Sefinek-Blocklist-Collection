@@ -8,7 +8,7 @@
 - AMP Hosts
 - Abuse
 - Analytics and telemetry
-- Block __TikTok__ and __Snapchat__
+- Block __TikTok__, __Snapchat__, __Omegle__, __Riot Games__, __League of Legends__
 - CryptoJacking
 - Dating services
 - Drugs
@@ -29,7 +29,7 @@
 - Useless websites
 - YouTube and mobile ads etc.
 
-## 📃 List - 96 urls
+## 📃 List - 101 urls
 
 ```
 https://adaway.org/hosts.txt
@@ -48,6 +48,8 @@ https://blocklistproject.github.io/Lists/redirect.txt
 https://blocklistproject.github.io/Lists/scam.txt
 https://blocklistproject.github.io/Lists/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/hosts
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/leagueoflegends.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/riotgames.txt
 https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp
 https://ente.dev/api/blocklist/google-amp-hosts
@@ -106,6 +108,7 @@ https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-bl
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
 https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list
 https://raw.githubusercontent.com/neodevpro/neodevhost/master/host
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-omegle.txt
 https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-snapchat.txt
 https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt
