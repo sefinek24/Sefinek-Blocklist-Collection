@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection" alt="Commit activity">
 </p>
 
-## 😎 Block
+# 😎 Block
 - AMP Hosts
 - Abuse
 - Analytics and telemetry
@@ -31,7 +31,7 @@
 - Useless websites
 - YouTube and mobile ads etc.
 
-## 📃 List - 101 urls
+# 📃 List - 101 urls
 
 ```
 https://adaway.org/hosts.txt
@@ -137,5 +137,5 @@ https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 ```
 
-## 🔧 Regex
+# 🔧 Regex
 https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16
