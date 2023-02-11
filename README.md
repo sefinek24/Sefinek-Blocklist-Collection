@@ -142,14 +142,14 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 ```
 
 # 🔧 Regex
-> https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16,
+* https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16,
 
 # 🌠 My other repositories
 * [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
 * [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
 
 # 🐈 Source of used images
-https://pinterest.com/pin/673288213025042151
+* https://pinterest.com/pin/673288213025042151
 
 <div align="center">
     <h1>⭐ Star the repo if you liked it o(>ω<)o</h1>
