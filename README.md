@@ -1,6 +1,6 @@
 <img width="43%" align="right" src="images/kitten.png" alt="">
 
-<p align="center">
+<div align="center">
     <h1>
         ✋ Best Block List Collection<br>
         for Pi-hole
@@ -9,7 +9,7 @@
     <br><br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=Stars&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=Commit+activity&style=for-the-badge" alt="Commit activity">
-</p>
+</div>
 
 # 😎 Block...
 - AMP Hosts
