@@ -8,7 +8,7 @@
 - AMP Hosts
 - Abuse
 - Analytics and telemetry
-- Block __TikTok__, __Snapchat__, __Omegle__, __Riot Games__, Valorant and __League of Legends__
+- Block __TikTok__, __Snapchat__, __Omegle__, __Riot Games__, **Valorant** and __League of Legends__
 - CryptoJacking
 - Dating services
 - Drugs
