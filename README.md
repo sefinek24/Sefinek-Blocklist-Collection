@@ -1,4 +1,4 @@
-<img width="43%" align="right" src="images/kitten.png" alt="">
+<img width="42%" align="right" src="images/kitten.png" alt="">
 
 <div align="center">
     <h1>
@@ -7,8 +7,8 @@
     </h1>
     <img src="images/brave_A89UiGWS0aWb.png" alt="Domains on Adlists">
     <br><br>
-    <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=Stars&style=for-the-badge" alt="Stars">
-    <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=Commit+activity&style=for-the-badge" alt="Commit activity">
+    <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT-ACTIVITY&style=for-the-badge" alt="Commit activity">
 </div>
 
 # 😎 Block...
