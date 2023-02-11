@@ -151,4 +151,6 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 # 🐈 Source of used images
 https://pinterest.com/pin/673288213025042151
 
-# ⭐ Star the repo if you liked it
+<div align="center">
+    <h1>⭐ Star the repo if you liked it o(>ω<)o</h1>
+</div>
