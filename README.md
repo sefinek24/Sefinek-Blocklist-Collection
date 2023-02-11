@@ -6,7 +6,9 @@
         for Pi-hole
     </h1>
     <img src="images/brave_A89UiGWS0aWb.png" alt="Domains on Adlists">
-    <br><br>
+    <br>
+    <h3>Star the repo if you liked it</h3>
+    <br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT-ACTIVITY&style=for-the-badge" alt="Commit activity">
 </div>
@@ -143,4 +145,4 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 ```
 
 # 🔧 Regex
-https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16
+> https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16
