@@ -1,4 +1,4 @@
-<img width="40%" align="right" src="images/kitten.png" alt="">
+<img width="43%" align="right" src="images/kitten.png" alt="">
 
 <h1>✋ Best Block List Collection<br>for Pi-hole</h1>
 <p>
