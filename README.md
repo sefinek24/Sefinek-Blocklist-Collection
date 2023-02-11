@@ -1,8 +1,10 @@
 <img width="40%" align="right" src="images/kitten.png" alt="">
 
 <h1>Best Blocklist Collection<br>for Pi-hole ✋</h1>
-<img src="images/brave_A89UiGWS0aWb.png" alt="Screenshot"><br>
-<img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection" alt="">
+<p>
+    <img src="images/brave_A89UiGWS0aWb.png" alt="Domains on Adlists"><br>
+    <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection" alt="Commit activity">
+</p>
 
 - AMP Hosts
 - Abuse
