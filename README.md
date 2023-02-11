@@ -6,6 +6,7 @@
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection" alt="Commit activity">
 </p>
 
+## 😎 Block
 - AMP Hosts
 - Abuse
 - Analytics and telemetry
