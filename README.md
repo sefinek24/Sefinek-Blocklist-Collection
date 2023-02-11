@@ -12,31 +12,32 @@
 </div>
 
 # 😎 Block...
-1. AMP Hosts
-2. Abuse
-3. Analytics and telemetry
-4. Block __TikTok__, __Snapchat__, __Omegle__, __Riot Games__, **Valorant** and __League of Legends__
-5. CryptoJacking
-6. Dating services
-7. Drugs
-8. Fake news
-9. Gambling
-10. Hate & junk
-11. Malvertising
-12. Malware
-13. Phishing
-14. Piracy
-15. Porn
-16. Ransomware
-17. Redirect *(sites that redirect your from your intended site)*
-18. Scam
-19. Spam mails
-20. Spyware
-21. Tracking
-22. Useless websites
-23. YouTube and mobile ads etc.
+- AMP Hosts
+- Abuse
+- Analytics and telemetry
+- Block __TikTok__, __Snapchat__, __Omegle__, __Riot Games__, **Valorant** and __League of Legends__
+- CryptoJacking
+- Dating services
+- Drugs
+- Fake news
+- Gambling
+- Hate & junk
+- Malvertising
+- Malware
+- Phishing
+- Piracy
+- Porn
+- Ransomware
+- Redirect *(sites that redirect your from your intended site)*
+- Scam
+- Spam mails
+- Spyware
+- Tracking
+- Useless websites
+- YouTube and mobile ads etc.
 
 # 📃 List - 101 urls
+
 ```
 https://adaway.org/hosts.txt
 https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
