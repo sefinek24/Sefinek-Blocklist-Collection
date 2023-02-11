@@ -1,7 +1,7 @@
 <img width="43%" align="right" src="images/kitten.png" alt="">
 
 <h1>✋ Best Block List Collection<br>for Pi-hole</h1>
-<p>
+<p align="center">
     <img src="images/brave_A89UiGWS0aWb.png" alt="Domains on Adlists">
     <br><br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=Stars&style=for-the-badge" alt="Stars">
