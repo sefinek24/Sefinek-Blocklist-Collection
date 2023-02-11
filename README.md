@@ -1,13 +1,14 @@
-
-<img width="50%" align="right" src="images/kitten.png" alt="">
-
-<img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection">
-
-
 <h1>Best Blocklist Collection for Pi-hole ✋</h1>
 <img src="images/brave_A89UiGWS0aWb.png" alt="Screenshot"><br>
 <i>08.01.2023 [DD.MM.YYYY]</i>
 <h2>⭐ » Star the repo if you liked it « ⭐</h2>
+
+<img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection" alt="">
+
+
+<img width="50%" align="right" src="images/kitten.png" alt="">
+
+
 
 - AMP Hosts
 - Abuse
