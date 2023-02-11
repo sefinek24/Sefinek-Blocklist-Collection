@@ -1,12 +1,14 @@
 <img width="40%" align="right" src="images/kitten.png" alt="">
 
-<h1>Best Blocklist Collection<br>for Pi-hole ✋</h1>
+<h1>✋ Best Block List Collection<br>for Pi-hole</h1>
 <p>
-    <img src="images/brave_A89UiGWS0aWb.png" alt="Domains on Adlists"><br>
-    <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection" alt="Commit activity">
+    <img src="images/brave_A89UiGWS0aWb.png" alt="Domains on Adlists">
+    <br><br>
+    <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=Stars" alt="Stars">
+    <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=Commit+activity" alt="Commit activity">
 </p>
 
-# 😎 Block
+# 😎 Block...
 - AMP Hosts
 - Abuse
 - Analytics and telemetry
