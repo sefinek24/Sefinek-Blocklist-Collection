@@ -5,7 +5,7 @@
         ✋ Best Block List Collection<br>
         for Pi-hole
     </h1>
-    <img src="images/brave_A89UiGWS0aWb.png" alt="Domains on Adlists"><br><br>
+    <img src="images/adlists.png.png" alt="Domains on Adlists"><br><br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
 </div>
@@ -143,5 +143,12 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 
 # 🔧 Regex
 > https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16,
+
+# 🌠 My other repositories
+* [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
+* [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
+
+# 🐈 Source of used images
+https://pinterest.com/pin/673288213025042151
 
 # ⭐ Star the repo if you liked it
