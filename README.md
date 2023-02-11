@@ -1,4 +1,4 @@
-<img width="42%" align="right" src="images/kitten.png" alt="">
+<img width="42%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 
 <div align="center">
     <h1>
