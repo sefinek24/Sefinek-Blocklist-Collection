@@ -8,7 +8,7 @@
 - AMP Hosts
 - Abuse
 - Analytics and telemetry
-- Block __TikTok__, __Snapchat__, __Omegle__, __Riot Games__ and __League of Legends__
+- Block __TikTok__, __Snapchat__, __Omegle__, __Riot Games__, Valorant and __League of Legends__
 - CryptoJacking
 - Dating services
 - Drugs
@@ -50,6 +50,7 @@ https://blocklistproject.github.io/Lists/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/hosts
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/leagueoflegends.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/riotgames.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/valorant.txt
 https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp
 https://ente.dev/api/blocklist/google-amp-hosts
@@ -72,6 +73,7 @@ https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easylist.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt
 https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
+https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
 https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
 https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
