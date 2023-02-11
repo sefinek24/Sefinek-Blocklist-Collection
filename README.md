@@ -8,7 +8,7 @@
     <img src="images/brave_A89UiGWS0aWb.png" alt="Domains on Adlists"><br><br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT-ACTIVITY&style=for-the-badge" alt="Commit activity">
-    <h3>Star the repo if you liked it</h3>
+    <h3>Star the repo if you liked it ⭐</h3>
 </div>
 
 # 😎 Block...
