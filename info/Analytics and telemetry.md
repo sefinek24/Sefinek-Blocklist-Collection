@@ -3,7 +3,7 @@
 - https://logs.datadoghq.com
 - https://collector.github.com
 
-### 🌠 ...and more
+### ...and more 🌠
 <br>
 <div align="center">
     <i>This file is not finished yet...</i>
