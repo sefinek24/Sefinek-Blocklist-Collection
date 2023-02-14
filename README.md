@@ -17,7 +17,7 @@ I use this list everyday on my PiHole (Raspberry Pi 4) and I don't have any prob
 # 😎 Block...
 - AMP Hosts
 - Abuse
-- Analytics and telemetry
+- Analytics and telemetry [[Examples]](info/Analytics%20and%20telemetry.md)
 - Block __TikTok__, __Snapchat__, __Omegle__, __Riot Games__, **Valorant** and __League of Legends__
 - CryptoJacking
 - Dating services
