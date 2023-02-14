@@ -12,7 +12,7 @@
 <br>
 
 # 📝 Information
-I use this list everyday on my PiHole (Raspberry Pi 4) and I don't have any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is link to my official CDN. Star the repo if you liked it. Have fun and stay safe! o(>ω<)o
+I use this list everyday on my PiHole (Raspberry Pi 4) and I don't have any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is link to my official CDN. Star the repository if you liked it. Have fun and stay safe! o(>ω<)o
 
 # 😎 Block...
 - AMP Hosts
