@@ -11,6 +11,9 @@
 </div>
 <br>
 
+# 📝 Information
+I use this list everyday on my PiHole (Raspberry Pi 4) and I don't have any problems with false positives. Star the repo if you liked it o(>ω<)o. Have fun!
+
 # 😎 Block...
 - AMP Hosts
 - Abuse
@@ -37,7 +40,6 @@
 - YouTube and mobile ads etc.
 
 # 📃 List - 101 urls
-
 ```
 https://adaway.org/hosts.txt
 https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
@@ -151,7 +153,3 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 
 # 🐈 Source of used images
 * https://pinterest.com/pin/673288213025042151
-
-<div align="center">
-    <h1>⭐ Star the repo if you liked it o(>ω<)o</h1>
-</div>
