@@ -4,4 +4,7 @@
 - https://collector.github.com
 
 ### 🌠 ...and more
-*This file is not finished yet...*
+<br>
+<div align="center">
+    <i>This file is not finished yet...</i>
+</div>
