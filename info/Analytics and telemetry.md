@@ -3,6 +3,5 @@
 - https://logs.datadoghq.com
 - https://collector.github.com
 
-## 🌠 ...and more
-
+### 🌠 ...and more
 *This file is not finished yet...*
