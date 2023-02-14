@@ -12,7 +12,7 @@
 <br>
 
 # 📝 Information
-I use this list everyday on my PiHole (Raspberry Pi 4) and I don't have any problems with false positives. Star the repo if you liked it o(>ω<)o. Have fun!
+I use this list everyday on my PiHole (Raspberry Pi 4) and I don't have any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is link to my official CDN. Star the repo if you liked it. Have fun and stay safe! o(>ω<)o
 
 # 😎 Block...
 - AMP Hosts
@@ -145,11 +145,11 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
 ```
 
 # 🔧 Regex
-* https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16
+- https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16
 
 # 🌠 My other repositories
-* [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
-* [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
+- [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
+- [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
 
 # 🐈 Source of used images
-* https://pinterest.com/pin/673288213025042151
+- https://pinterest.com/pin/673288213025042151
