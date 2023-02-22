@@ -11,7 +11,7 @@ If you want to block access to certain websites on your network, you can use Pi-
     - tiktok-analytics.com
     - musical.ly
     - p16-tiktokcdn-com.akamaized.net
-    - p16-tiktokcdn-com.zgslb.net
+    - p16-tiktokcdn-com.zgslb.net<br>
 
     > 📝 **Note:** TikTok is a popular social media app that has been the subject of controversy due to concerns over data privacy and security. Some users may choose to block access to TikTok on their network for these reasons.
 - Snapchat
