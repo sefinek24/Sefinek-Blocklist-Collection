@@ -37,7 +37,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - **Spam mails:** Blocks domains that send unsolicited email (spam).
 - **Spyware:** Blocks domains that distribute spyware or adware.
 - [**Tracking:**](info/Tracking.md) Blocks domains that track user activity without user consent.
-- [**Useless websites:**](info/Useless websites.md) Blocks domains that offer little or no value to users.
+- [**Useless websites:**](info/Useless%20websites.md) Blocks domains that offer little or no value to users.
 - [**YouTube and mobile ads etc.:**](info/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
 # 📃 List - 101 urls
