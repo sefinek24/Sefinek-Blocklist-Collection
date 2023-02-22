@@ -33,7 +33,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - **Porn:** Blocks domains of adult websites.
 - [**Ransomware:**](info/Ransomware.md) Blocks domains involved in ransomware attacks.
 - [**Redirect:**](info/Redirect.md) Blocks domains that redirect users to unintended websites.
-- **Scam:** Blocks domains that are known to promote scams or fraudulent activity.
+- [**Scam:**](info/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.
 - [**Spam mails:**](info/Spam%20mails.md) Blocks domains that send unsolicited email (spam).
 - [**Spyware:**](info/Spyware.md) Blocks domains that distribute spyware or adware.
 - [**Tracking:**](info/Tracking.md) Blocks domains that track user activity without user consent.
