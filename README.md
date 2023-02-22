@@ -41,7 +41,17 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 
 # 📃 List / 101 URLs / +6 milion domains
 <h3 align="center">
-    <a href="List.md">✔️ Click here to see the main list file »</a>
+    <a href="List.md">Click here to see the main list file »</a>
+</h3>
+
+# 🤔 How to install Pi-hole?
+<h3 align="center">
+    <a href="How%20to%20install%20Pi-hole.md">Click here to see tutorial »</a>
+</h3>
+
+# 💙 How to install Unbound for Pi-hole?
+<h3 align="center">
+    <a href="How%20to%20install%20Pi-hole.md">Click here to see tutorial »</a>
 </h3>
 
 # 🔧 Regex
