@@ -28,7 +28,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - [**Malvertising:**](info/Malvertising.md) Blocks domains that distribute malware via ads.
 - [**Malware:**](info/Malware.md) Blocks domains that are known to host or distribute malware.
 - [**Phishing:**](info/Phishing.md) Blocks domains involved in phishing attempts.
-- **Piracy:** Blocks domains that distribute pirated software or media.
+- [**Piracy:**](info/Piracy.md) Blocks domains that distribute pirated software or media.
 - [**Porn:**](info/Porn.md) Blocks domains of adult websites.
 - [**Ransomware:**](info/Ransomware.md) Blocks domains involved in ransomware attacks.
 - [**Redirect:**](info/Redirect.md) Blocks domains that redirect users to unintended websites.
