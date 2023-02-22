@@ -27,7 +27,7 @@ Finally, it's important to monitor Pi-hole activity to ensure that it's working 
 Using Pi-hole can be a great way to enhance online safety and protect your network from unwanted ads and malicious websites. By following these simple steps, you can set up Pi-hole on your device and start blocking unwanted domains today!
 
 # 📌 Additional information
-### 🌠 Main
+### 🌠 General
 - Pi-hole is a free and open-source DNS-based ad blocker that blocks ads and trackers at the network level.
 - It can be installed on a variety of devices, including Raspberry Pi, Docker containers, and virtual machines.
 - Pi-hole uses a variety of blocklists to block ads and trackers, including popular lists like AdBlock, EasyList, and AdAway.
