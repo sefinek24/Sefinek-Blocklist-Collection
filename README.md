@@ -11,10 +11,10 @@
 </div>
 <br>
 
-# 📝 Information
+## 📝 Information
 I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you liked it. Have fun and stay safe! o(>ω<)o
 
-# 😎 Block...
+## 😎 Block...
 - [**AMP Hosts:**](info/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**Abuse:**](info/Abuse.md) Blocks known domains involved in online abuse or harassment.
 - [**Analytics and telemetry:**](info/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
@@ -39,22 +39,22 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - [**Useless websites:**](info/Useless%20websites.md) Blocks domains that offer little or no value to users.
 - [**YouTube and mobile ads etc.:**](info/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
-# 📃 List / 101 URLs / +6 milion domains
+## 📃 List / 101 URLs / +6 milion domains
 <h3 align="center">
     <a href="List.md">Click here to see the main list file »</a>
 </h3>
 
-# 🤔 How to install Pi-hole?
+## 🤔 How to install Pi-hole?
 <h3 align="center">
     <a href="tutorials/How%20to%20install%20Pi-hole.md">Click here to see tutorial »</a>
 </h3>
 
-# 💙 How to install Unbound for Pi-hole?
+## 💙 How to install Unbound for Pi-hole?
 <h3 align="center">
     <a href="tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md">Click here to see tutorial »</a>
 </h3>
 
-# 🔧 Regex
+## 🔧 Regex
 Pi-hole allows you to use regular expressions to create [custom blocklists](https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16). This means you can block an entire domain or specific parts of a domain using a single rule.
 
 For example, the following regular expression would block all subdomains of the example.com domain:
@@ -75,15 +75,15 @@ Regular expressions can be a powerful tool for blocking unwanted content on your
     <a href="https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16">Go to recommended regex list »</a>
 </h3>
 
-# 😻 Contributing
+## 😻 Contributing
 If you have additional domains that you believe should be included in this list, please feel free to contribute by submitting a pull request.
 
-# ✋ Disclaimer
+## ✋ Disclaimer
 Please note that while this blocklist can improve privacy and security, it may also block legitimate content or services. Use at your own risk.
 
-# 🌠 My other repositories
+## 🌠 My other repositories
 - [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
 - [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
 
-# 🐈 Source of used images
+## 🐈 Source of used images
 - https://pinterest.com/pin/673288213025042151
