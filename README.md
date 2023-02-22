@@ -12,19 +12,19 @@
 <br>
 
 ## 📝 Information
-I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you liked it. Have fun and stay safe! o(>ω<)o
+I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you like it. Have fun and stay safe! o(>ω<)o
 
 ## 😎 Block...
 - [**AMP Hosts:**](info/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**Abuse:**](info/Abuse.md) Blocks known domains involved in online abuse or harassment.
-- [**Analytics and telemetry:**](info/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
-- [**Block websites and games:**](info/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
+- [**Analytics & Telemetry:**](info/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
+- [**Block Websites & Games:**](info/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
 - [**CryptoJacking:**](info/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
-- [**Dating services:**](info/Dating%20services.md) Blocks domains of dating websites and apps.
+- [**Dating Services:**](info/Dating%20services.md) Blocks domains of dating websites and apps.
 - [**Drugs:**](info/Drugs.md) Blocks domains that sell or promote drugs.
-- [**Fake news:**](info/Fake%20news.md) Blocks domains that are known to publish fake or misleading news.
+- [**Fake News:**](info/Fake%20news.md) Blocks domains that are known to publish fake or misleading news.
 - [**Gambling:**](info/Gambling.md) Blocks domains of online gambling websites.
-- [**Hate & junk:**](info/Hate%20and%20junk.md) Blocks domains promoting hate speech or spreading false information.
+- [**Hate & Junk:**](info/Hate%20and%20junk.md) Blocks domains promoting hate speech or spreading false information.
 - [**Malvertising:**](info/Malvertising.md) Blocks domains that distribute malware via ads.
 - [**Malware:**](info/Malware.md) Blocks domains that are known to host or distribute malware.
 - [**Phishing:**](info/Phishing.md) Blocks domains involved in phishing attempts.
@@ -37,7 +37,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - [**Spyware:**](info/Spyware.md) Blocks domains that distribute spyware or adware.
 - [**Tracking:**](info/Tracking.md) Blocks domains that track user activity without user consent.
 - [**Useless websites:**](info/Useless%20websites.md) Blocks domains that offer little or no value to users.
-- [**YouTube and mobile ads etc.:**](info/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
+- [**YouTube & mobile ads etc.:**](info/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
 ## 📃 List / 101 URLs / +6 milion domains
 <h3 align="center">
