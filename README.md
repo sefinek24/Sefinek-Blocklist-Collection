@@ -16,18 +16,18 @@
 I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you liked it. Have fun and stay safe! o(>ω<)o
 
 # 😎 Block...
-- **AMP Hosts:** Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
+- [**AMP Hosts:**](info/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - **Abuse:** Blocks known domains involved in online abuse or harassment.
 - [**Analytics and telemetry:**](info/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
 - **Block:** TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
 - **CryptoJacking:** Blocks domains that hijack your device to mine cryptocurrency.
-- **Dating services:** Blocks domains of dating websites and apps.
+- [**Dating services:**](info/Dating%20services.md) Blocks domains of dating websites and apps.
 - **Drugs:** Blocks domains that sell or promote drugs.
 - **Fake news:** Blocks domains that are known to publish fake or misleading news.
 - **Gambling:** Blocks domains of online gambling websites.
 - **Hate & junk:** Blocks domains promoting hate speech or spreading false information.
-- **Malvertising:** Blocks domains that distribute malware via ads.
-- **Malware:** Blocks domains that are known to host or distribute malware.
+- [**Malvertising:**](info/Malvertising.md) Blocks domains that distribute malware via ads.
+- [**Malware:**](info/Malware.md) Blocks domains that are known to host or distribute malware.
 - **Phishing:** Blocks domains involved in phishing attempts.
 - **Piracy:** Blocks domains that distribute pirated software or media.
 - **Porn:** Blocks domains of adult websites.
