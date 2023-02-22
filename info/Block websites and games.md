@@ -13,7 +13,7 @@ If you want to block access to certain websites on your network, you can use Pi-
     - p16-tiktokcdn-com.akamaized.net
     - p16-tiktokcdn-com.zgslb.net
 
-    > **Note:** TikTok is a popular social media app that has been the subject of controversy due to concerns over data privacy and security. Some users may choose to block access to TikTok on their network for these reasons.
+    > 📝 **Note:** TikTok is a popular social media app that has been the subject of controversy due to concerns over data privacy and security. Some users may choose to block access to TikTok on their network for these reasons.
 - Snapchat
     - snapchat.com
     - sc-analytics.appspot.com
@@ -22,15 +22,15 @@ If you want to block access to certain websites on your network, you can use Pi-
     - snap.com
     - snap.com.edgesuite.net
 
-    > **Note:** Snapchat is a popular messaging app that allows users to send photos and videos that disappear after a set amount of time. Some users may choose to block access to Snapchat on their network due to concerns over inappropriate content or cyberbullying.
+    > 📝 **Note:** Snapchat is a popular messaging app that allows users to send photos and videos that disappear after a set amount of time. Some users may choose to block access to Snapchat on their network due to concerns over inappropriate content or cyberbullying.
 - Omegle
     - omegle.com
 
-    > **Note:** Omegle is a website that allows users to chat with strangers anonymously. Some users may choose to block access to Omegle on their network due to concerns over inappropriate content or potentially dangerous interactions.
+    > 📝 **Note:** Omegle is a website that allows users to chat with strangers anonymously. Some users may choose to block access to Omegle on their network due to concerns over inappropriate content or potentially dangerous interactions.
 - Riot Games
     - riotgames.com
     - leagueoflegends.com
-    > Note: Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant. Some users may choose to block access to Riot Games on their network to limit gaming distractions or to prevent access to inappropriate content.
+    > 📝 **Note:** Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant. Some users may choose to block access to Riot Games on their network to limit gaming distractions or to prevent access to inappropriate content.
 - Valorant
     - playvalorant.com
 
@@ -44,7 +44,7 @@ If you want to block access to certain websites on your network, you can use Pi-
     - lol-accounts.com
     - eloboostleague.com
 
-    > **Note:** League of Legends is a popular online multiplayer game produced by Riot Games. Some users may choose to block access to League of Legends on their network to limit gaming distractions or to prevent access to inappropriate content.
+    > 📝 **Note:** League of Legends is a popular online multiplayer game produced by Riot Games. Some users may choose to block access to League of Legends on their network to limit gaming distractions or to prevent access to inappropriate content.
 
 Blocking these domains can be a good way to prevent users on your network from accessing these websites. However, it's important to note that blocking these domains will not completely prevent access to these websites, as they may be accessible through other domains or IP addresses. It's also important to keep in mind that blocking access to certain websites may not be effective in all situations, and it's always a good idea to educate yourself and others about online safety and responsible internet use.
 
