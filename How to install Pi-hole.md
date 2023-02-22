@@ -29,5 +29,3 @@ Finally, it's important to monitor Pi-hole activity to ensure that it's working 
 
 ### 📝 Conclusion
 Using Pi-hole can be a great way to enhance online safety and protect your network from unwanted ads and malicious websites. By following these simple steps, you can set up Pi-hole on your device and start blocking unwanted domains today! If you have any questions or need further assistance, don't hesitate to reach out to our support team.
-
-# 🤔 How to install Pi-hole?
