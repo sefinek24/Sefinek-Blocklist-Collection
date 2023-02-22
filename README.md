@@ -42,7 +42,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 
 # 📃 List / 101 URLs / +6 milion domains
 <h3 align="center">
-    <a href="List.md">Click here to go to the main list file »</a>
+    <a href="List.md">✔️ Click here to go to the main list file »</a>
 </h3>
 
 # 🔧 Regex
