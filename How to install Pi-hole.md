@@ -28,4 +28,4 @@ To keep Pi-hole up-to-date, you'll need to update it regularly. You can do this 
 Finally, it's important to monitor Pi-hole activity to ensure that it's working correctly. You can do this by logging in to your Pi-hole admin console and checking the dashboard for information on blocked domains and activity on your network.
 
 ### 📝 Conclusion
-Using Pi-hole can be a great way to enhance online safety and protect your network from unwanted ads and malicious websites. By following these simple steps, you can set up Pi-hole on your device and start blocking unwanted domains today! If you have any questions or need further assistance, don't hesitate to reach out to our support team.
+Using Pi-hole can be a great way to enhance online safety and protect your network from unwanted ads and malicious websites. By following these simple steps, you can set up Pi-hole on your device and start blocking unwanted domains today!
