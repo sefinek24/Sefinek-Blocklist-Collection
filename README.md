@@ -33,7 +33,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - [**Ransomware:**](info/Ransomware.md) Blocks domains involved in ransomware attacks.
 - [**Redirect:**](info/Redirect.md) Blocks domains that redirect users to unintended websites.
 - [**Scam:**](info/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.
-- [**Spam mails:**](info/Spam%20mails.md) Blocks domains that send unsolicited email (spam).
+- [**Spam mails:**](info/Spam%20mails.md) Blocks domains that send unsolicited email.
 - [**Spyware:**](info/Spyware.md) Blocks domains that distribute spyware or adware.
 - [**Tracking:**](info/Tracking.md) Blocks domains that track user activity without user consent.
 - [**Useless websites:**](info/Useless%20websites.md) Blocks domains that offer little or no value to users.
