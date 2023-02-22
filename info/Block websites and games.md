@@ -1,7 +1,7 @@
 ## 🔒 Block TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends
-Blocking access to these services, especially TikTok, Snapchat, Omegle, Riot Games, Valorant, and League of Legends, is widely recommended to enhance online safety and prevent **potential risks** such as **inappropriate content**, **cyberbullying**, and **data privacy concerns**.
+Blocking access to certain services, particularly TikTok, Snapchat, Omegle, Riot Games, Valorant, and League of Legends, is widely recommended to enhance online safety and prevent potential risks such as **inappropriate content**, **cyberbullying**, and **data privacy concerns**.
 
-If you want to block access to certain websites on your network, you can use Pi-hole to block specific domains. Here's a list of associated domains that you can block:
+If you want to block access to specific websites on your network, you can use Pi-hole to block certain domains. Below is a list of associated domains that you can block:
 
 - TikTok
   - tiktok.com
@@ -43,7 +43,7 @@ If you want to block access to certain websites on your network, you can use Pi-
   - chat.euw1.lol.riotgames.com<br><br>
   > 📝 **Note:** League of Legends is a popular online multiplayer game produced by Riot Games. Some users may choose to block access to League of Legends on their network to limit gaming distractions or to prevent access to inappropriate content.
 
-Blocking these domains can be a good way to prevent users on your network from accessing these websites. However, it's important to note that blocking these domains will not completely prevent access to these websites, as they may be accessible through other domains or IP addresses. It's also important to keep in mind that blocking access to certain websites may not be effective in all situations, and it's always a good idea to educate yourself and others about online safety and responsible internet use.
+Blocking these domains can be an effective way to prevent users on your network from accessing these websites. However, it's important to note that blocking these domains will not completely prevent access to these websites, as they may be accessible through other domains or IP addresses. Additionally, blocking access to certain websites may not be effective in all situations, and it's always a good idea to educate yourself and others about online safety and responsible internet use.
 
 It's also important to consider the reasons why you may want to block these domains. Blocking access to certain websites may be appropriate in some situations, but in other situations it may be better to use other strategies to address concerns about inappropriate content, cyberbullying, or other online safety issues.
 
