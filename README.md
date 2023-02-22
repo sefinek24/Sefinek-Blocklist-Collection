@@ -41,7 +41,9 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - [**YouTube and mobile ads etc.:**](info/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
 # 📃 List - 101 urls
-> [Go to this file with list »](List.md)
+<h3 align="center">
+    <a href="List.md">Go to this file with list »</a>
+</h3>
 
 # 🔧 Regex
 Pi-hole allows you to use regular expressions to create [custom blocklists](https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16). This means you can block an entire domain or specific parts of a domain using a single rule.
