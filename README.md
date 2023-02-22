@@ -18,8 +18,8 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 # 😎 Block...
 - **AMP Hosts:** Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - **Abuse:** Blocks known domains involved in online abuse or harassment.
-- **Analytics and telemetry:** Blocks domains that track user activity for analytics purposes. Check out [Examples](info/Analytics%20and%20telemetry.md) for more details.
-- **Block:** TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends: Blocks access to these popular websites and apps.
+- [**Analytics and telemetry:**](info/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
+- **Block:** TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
 - **CryptoJacking:** Blocks domains that hijack your device to mine cryptocurrency.
 - **Dating services:** Blocks domains of dating websites and apps.
 - **Drugs:** Blocks domains that sell or promote drugs.
