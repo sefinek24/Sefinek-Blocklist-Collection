@@ -46,12 +46,12 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 
 # 🤔 How to install Pi-hole?
 <h3 align="center">
-    <a href="How%20to%20install%20Pi-hole.md">Click here to see tutorial »</a>
+    <a href="tutorials/How%20to%20install%20Pi-hole.md">Click here to see tutorial »</a>
 </h3>
 
 # 💙 How to install Unbound for Pi-hole?
 <h3 align="center">
-    <a href="How%20to%20install%20Pi-hole.md">Click here to see tutorial »</a>
+    <a href="tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md">Click here to see tutorial »</a>
 </h3>
 
 # 🔧 Regex
