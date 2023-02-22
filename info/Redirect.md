@@ -1,6 +1,8 @@
+## 📃 Information
+Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive. These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks. Please use this list as a reference and consider other measures to further enhance online safety.
+
 ## 🌌 Redirect Domains
 Here's a list of redirect domains that you can block in Pi-hole. These are URLs that redirect the user from one web page to another. They are often used by advertisers or people trying to trick users into clicking on suspicious or dangerous links. By blocking these domains with Pi-hole, you can help protect your device from malware and scams.
-
 - tracking.clickmeter.com
 - t.co
 - lnkd.in
@@ -9,5 +11,5 @@ Here's a list of redirect domains that you can block in Pi-hole. These are URLs 
 - buff.ly
 
 ## 🐈 Thank you for reading
-By adding my list of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
 Let me know if you have any other questions or if there's anything else I can help you with.

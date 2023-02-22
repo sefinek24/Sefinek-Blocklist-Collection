@@ -11,7 +11,6 @@ Here's a sample list of dating site domains that you can block in Pi-hole:
 - hinge.co
 - plentyoffish.com
 
-
 ## 🐈 Thank you for reading
-By adding my list of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
 Let me know if you have any other questions or if there's anything else I can help you with.
