@@ -13,5 +13,5 @@ By blocking these tracking domains with Pi-hole, you can prevent your online act
 - taboola.com
 
 ## 🐈 Thank you for reading
-By adding my list of URLs to your Pi-hole, you can block tracking domains and take control of your online privacy.
+By adding my list of URLs to your [Pi-hole](https://pi-hole.net), you can block tracking domains and take control of your online privacy.
 Let me know if you have any other questions or if there's anything else I can help you with.

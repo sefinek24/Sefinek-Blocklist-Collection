@@ -20,5 +20,5 @@ Telemetry domains are websites that collect data about the performance and usage
 - sa.symcb.com
 
 ## 🐈 Thank you for reading
-By adding my list of URLs to your Pihole, you can block the listed domains.
+By adding my list of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
 Let me know if you have any other questions or if there's anything else I can help you with.

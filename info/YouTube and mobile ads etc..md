@@ -10,5 +10,5 @@ YouTube and mobile ad domains are used by advertisers to display ads on YouTube 
 - pubads.g.doubleclick.net
 
 ## 🐈 Thank you for reading
-By adding my list of URLs to your Pi-hole, you can block YouTube and mobile ad domains and enjoy a more seamless browsing experience.
+By adding my list of URLs to your [Pi-hole](https://pi-hole.net), you can block YouTube and mobile ad domains and enjoy a more seamless browsing experience.
 Let me know if you have any other questions or if there's anything else I can help you with.

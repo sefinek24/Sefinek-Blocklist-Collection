@@ -11,5 +11,5 @@ Malicious ads, also known as malvertising, are online ads that can infect device
 - rubiconproject.com
 
 ## 🐈 Thank you for reading
-By adding my list of URLs to your Pihole, you can block malicious ads and protect your devices from cyber threats.
+By adding my list of URLs to your [Pi-hole](https://pi-hole.net), you can block malicious ads and protect your devices from cyber threats.
 Let me know if you have any other questions or if there's anything else I can help you with.

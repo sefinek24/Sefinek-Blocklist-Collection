@@ -17,25 +17,25 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 
 # 😎 Block...
 - [**AMP Hosts:**](info/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
-- **Abuse:** Blocks known domains involved in online abuse or harassment.
+- [**Abuse:**](info/Abuse.md) Blocks known domains involved in online abuse or harassment.
 - [**Analytics and telemetry:**](info/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
 - **Block:** TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
-- **CryptoJacking:** Blocks domains that hijack your device to mine cryptocurrency.
+- [**CryptoJacking:**](info/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
 - [**Dating services:**](info/Dating%20services.md) Blocks domains of dating websites and apps.
-- **Drugs:** Blocks domains that sell or promote drugs.
-- **Fake news:** Blocks domains that are known to publish fake or misleading news.
-- **Gambling:** Blocks domains of online gambling websites.
-- **Hate & junk:** Blocks domains promoting hate speech or spreading false information.
+- [**Drugs:**](info/Drugs.md) Blocks domains that sell or promote drugs.
+- [**Fake news:**](info/Fake%20news.md) Blocks domains that are known to publish fake or misleading news.
+- [**Gambling:**](info/Gambling.md) Blocks domains of online gambling websites.
+- [**Hate & junk:**](info/Hate%20and%20junk.md) Blocks domains promoting hate speech or spreading false information.
 - [**Malvertising:**](info/Malvertising.md) Blocks domains that distribute malware via ads.
 - [**Malware:**](info/Malware.md) Blocks domains that are known to host or distribute malware.
 - [**Phishing:**](info/Phishing.md) Blocks domains involved in phishing attempts.
 - **Piracy:** Blocks domains that distribute pirated software or media.
 - **Porn:** Blocks domains of adult websites.
-- **Ransomware:** Blocks domains involved in ransomware attacks.
-- **Redirect:** Blocks domains that redirect users to unintended websites.
+- [**Ransomware:**](info/Ransomware.md) Blocks domains involved in ransomware attacks.
+- [**Redirect:**](info/Redirect.md) Blocks domains that redirect users to unintended websites.
 - **Scam:** Blocks domains that are known to promote scams or fraudulent activity.
-- **Spam mails:** Blocks domains that send unsolicited email (spam).
-- **Spyware:** Blocks domains that distribute spyware or adware.
+- [**Spam mails:**](info/Spam%20mails.md) Blocks domains that send unsolicited email (spam).
+- [**Spyware:**](info/Spyware.md) Blocks domains that distribute spyware or adware.
 - [**Tracking:**](info/Tracking.md) Blocks domains that track user activity without user consent.
 - [**Useless websites:**](info/Useless%20websites.md) Blocks domains that offer little or no value to users.
 - [**YouTube and mobile ads etc.:**](info/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.

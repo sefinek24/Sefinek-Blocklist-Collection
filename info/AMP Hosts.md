@@ -13,5 +13,5 @@ AMP (Accelerated Mobile Pages) domains are used by Google to speed up mobile web
 By blocking these domains with Pi-hole, you can prevent your data from being shared with third-party companies without your consent, and also improve your browsing experience by avoiding stripped-down web pages.
 
 ## 🐈 Thank you for reading
-By adding my list of URLs to your Pihole, you can block the listed domains.
+By adding my list of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
 Let me know if you have any other questions or if there's anything else I can help you with.
