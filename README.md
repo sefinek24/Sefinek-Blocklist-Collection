@@ -162,7 +162,13 @@ This regular expression matches any string that starts with any number of letter
 
 Regular expressions can be a powerful tool for blocking unwanted content on your network. However, they can also be complex to create and maintain, so it's important to test your regex rules thoroughly before implementing them on your Pi-hole.
 
-> [Go to recommended regex list.](https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16)
+> [Go to recommended regex list »](https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16)
+
+# 😻 Contributing
+If you have additional domains that you believe should be included in this list, please feel free to contribute by submitting a pull request.
+
+# ✋ Disclaimer
+Please note that while this blocklist can improve privacy and security, it may also block legitimate content or services. Use at your own risk.
 
 # 🌠 My other repositories
 - [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
