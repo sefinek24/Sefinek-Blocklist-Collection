@@ -28,7 +28,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - **Hate & junk:** Blocks domains promoting hate speech or spreading false information.
 - [**Malvertising:**](info/Malvertising.md) Blocks domains that distribute malware via ads.
 - [**Malware:**](info/Malware.md) Blocks domains that are known to host or distribute malware.
-- **Phishing:** Blocks domains involved in phishing attempts.
+- [**Phishing:**](info/Phishing.md) Blocks domains involved in phishing attempts.
 - **Piracy:** Blocks domains that distribute pirated software or media.
 - **Porn:** Blocks domains of adult websites.
 - **Ransomware:** Blocks domains involved in ransomware attacks.
@@ -36,9 +36,9 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - **Scam:** Blocks domains that are known to promote scams or fraudulent activity.
 - **Spam mails:** Blocks domains that send unsolicited email (spam).
 - **Spyware:** Blocks domains that distribute spyware or adware.
-- **Tracking:** Blocks domains that track user activity without user consent.
-- **Useless websites:** Blocks domains that offer little or no value to users.
-- **YouTube and mobile ads etc.:** Blocks domains that serve ads on YouTube and mobile devices.
+- [**Tracking:**](info/Tracking.md) Blocks domains that track user activity without user consent.
+- [**Useless websites:**](info/Useless websites.md) Blocks domains that offer little or no value to users.
+- [**YouTube and mobile ads etc.:**](info/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
 # 📃 List - 101 urls
 ```
