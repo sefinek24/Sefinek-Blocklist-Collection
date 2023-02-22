@@ -28,7 +28,8 @@ If you want to block access to certain websites on your network, you can use Pi-
   > 📝 **Note:** Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant. Some users may choose to block access to Riot Games on their network to limit gaming distractions or to prevent access to inappropriate content.
 - Valorant
   - playvalorant.com
-  - valorant-api.com<br><br>
+  - valorant-api.com
+  - content.valorant-api.com<br><br>
   > **Note:** Valorant is a popular online multiplayer game produced by Riot Games. Some users may choose to block access to Valorant on their network to limit gaming distractions or to prevent access to inappropriate content.
 - League of Legends
   - leagueoflegends.com
