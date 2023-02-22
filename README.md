@@ -18,7 +18,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - [**AMP Hosts:**](info/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**Abuse:**](info/Abuse.md) Blocks known domains involved in online abuse or harassment.
 - [**Analytics and telemetry:**](info/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
-- **Block:** TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
+- [**Block websites and games:**](info/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
 - [**CryptoJacking:**](info/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
 - [**Dating services:**](info/Dating%20services.md) Blocks domains of dating websites and apps.
 - [**Drugs:**](info/Drugs.md) Blocks domains that sell or promote drugs.
@@ -29,7 +29,7 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 - [**Malware:**](info/Malware.md) Blocks domains that are known to host or distribute malware.
 - [**Phishing:**](info/Phishing.md) Blocks domains involved in phishing attempts.
 - **Piracy:** Blocks domains that distribute pirated software or media.
-- **Porn:** Blocks domains of adult websites.
+- [**Porn:**](info/Porn.md) Blocks domains of adult websites.
 - [**Ransomware:**](info/Ransomware.md) Blocks domains involved in ransomware attacks.
 - [**Redirect:**](info/Redirect.md) Blocks domains that redirect users to unintended websites.
 - [**Scam:**](info/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.

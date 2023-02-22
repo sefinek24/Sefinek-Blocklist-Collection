@@ -2,7 +2,6 @@
 Phishing domains are websites that are designed to look like legitimate websites, with the intention of tricking users into entering their personal information, such as usernames, passwords, and credit card numbers. These websites often use social engineering techniques to convince users that they are legitimate, such as creating a sense of urgency or pretending to be a trustworthy organization.
 
 Here are some examples of phishing domains that you can block in Pi-hole:
-
 - apple-id-login.com
 - chasebank-login.com
 - facebook-account-verification.com
