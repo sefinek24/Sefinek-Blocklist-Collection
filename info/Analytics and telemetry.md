@@ -1,9 +1,13 @@
 ## 📝 Information
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive. These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks. Please use this list as a reference and consider other measures to further enhance online safety.
+Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
+These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
+Please use this list as a reference and consider other measures to further enhance online safety.
 
 ## 🌍 Analytical domains
-Analytical domains are websites that collect data about user behavior and interactions with a particular website or application. By blocking these domains with Pi-hole, you can prevent your data from being shared with third-party companies without your consent. Here are some examples of analytical domains you might want to block:
+Analytical domains are websites that collect data about user behavior and interactions with a particular website or application.
+By blocking these domains with Pi-hole, you can prevent your data from being shared with third-party companies without your consent.
 
+Here are some examples of analytical domains you might want to block:
 - doubleclick.net
 - google-analytics.com
 - googletagmanager.com
@@ -13,8 +17,10 @@ Analytical domains are websites that collect data about user behavior and intera
 - hotjar.com
 
 ## 🌍 Telemetry domains
-Telemetry domains are websites that collect data about the performance and usage of software applications. By blocking these domains with Pi-hole, you can prevent your data from being shared with the software developer or third-party companies without your consent. Here are some examples of telemetry domains you might want to block:
+Telemetry domains are websites that collect data about the performance and usage of software applications.
+By blocking these domains with Pi-hole, you can prevent your data from being shared with the software developer or third-party companies without your consent
 
+Here are some examples of telemetry domains you might want to block:
 - telemetry.microsoft.com
 - vortex.data.microsoft.com
 - watson.telemetry.microsoft.com

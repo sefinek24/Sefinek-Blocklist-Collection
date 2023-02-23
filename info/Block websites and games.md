@@ -4,9 +4,12 @@ Blocking access to certain services, particularly
 is <u><b>widely recommended</b></u> to enhance online safety and prevent potential risks such as
 <strong>inappropriate content</strong>, <strong>cyberbullying</strong>, and <strong>data privacy concerns</strong>.
 
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive. These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks. Please use this list as a reference and consider other measures to further enhance online safety.
+Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
+These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
+Please use this list as a reference and consider other measures to further enhance online safety.
 
-If you want to block access to specific websites on your network, you can use Pi-hole to block certain domains. Below is a list of associated domains that you can block:
+If you want to block access to specific websites on your network, you can use Pi-hole to block certain domains.
+Below is a list of associated domains that you can block:
 
 - TikTok
   - tiktok.com

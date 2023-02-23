@@ -9,7 +9,8 @@ Once Pi-hole is installed, you'll need to configure it to work with your network
 3. Save the settings and restart your router.
 
 ### 🛡️ Step 3: Block unwanted domains
-Pi-hole comes with a pre-installed list of domains that are known to serve ads or track your activity. However, you can also add your own list of domains to block. To do this, follow these steps:
+Pi-hole comes with a pre-installed list of domains that are known to serve ads or track your activity.
+However, you can also add your own list of domains to block. To do this, follow these steps:
 1. Log in to your Pi-hole admin console.
 2. Click on "Group Management" and create a new group.
 3. Click on "Tools" and select "Pi-hole's Blocklist" to add domains to your blocklist.
@@ -21,10 +22,12 @@ To keep Pi-hole up-to-date, you'll need to update it regularly. You can do this 
 3. Follow the prompts to update Pi-hole to the latest version.
 
 ### 📊 Step 5: Monitor Pi-hole activity
-Finally, it's important to monitor Pi-hole activity to ensure that it's working correctly. You can do this by logging in to your Pi-hole admin console and checking the dashboard for information on blocked domains and activity on your network.
+Finally, it's important to monitor Pi-hole activity to ensure that it's working correctly.
+You can do this by logging in to your Pi-hole admin console and checking the dashboard for information on blocked domains and activity on your network.
 
 ### 📝 Conclusion
-Using Pi-hole can be a great way to enhance online safety and protect your network from unwanted ads and malicious websites. By following these simple steps, you can set up Pi-hole on your device and start blocking unwanted domains today!
+Using Pi-hole can be a great way to enhance online safety and protect your network from unwanted ads and malicious websites.
+By following these simple steps, you can set up Pi-hole on your device and start blocking unwanted domains today!
 
 # 📌 Additional information
 ### 🌠 General
@@ -38,16 +41,23 @@ Using Pi-hole can be a great way to enhance online safety and protect your netwo
 - Pi-hole is not a replacement for a VPN or antivirus software, but it can be used in conjunction with them for added protection.
 
 ### 📶 Port Forwarding
-If you are running Pi-hole on a device behind a router, you may need to set up port forwarding to ensure that Pi-hole can communicate with devices on your network. To do this, you'll need to log in to your router's configuration page and forward port 53 to the IP address of the device running Pi-hole.
+If you are running Pi-hole on a device behind a router, you may need to set up port forwarding to ensure that Pi-hole can communicate with devices on your network.
+To do this, you'll need to log in to your router's configuration page and forward port 53 to the IP address of the device running Pi-hole.
 
 ### 🐧 Pi-hole on Linux
-Pi-hole is designed to work on a variety of operating systems, including Linux. If you're running Linux, you can install Pi-hole using the command line. Simply open your terminal and follow the instructions on the Pi-hole website.
+Pi-hole is designed to work on a variety of operating systems, including Linux.
+If you're running Linux, you can install Pi-hole using the command line. Simply open your terminal and follow the instructions on the Pi-hole website.
 
 ### 🚦 Testing Pi-hole
-After setting up Pi-hole, you may want to test whether it's working correctly. To do this, you can use the Pi-hole "debug" tool, which will run a series of tests and provide feedback on any issues that it finds. You can access the debug tool from your Pi-hole admin console by clicking on "Tools" and selecting "Generate Debug Log".
+After setting up Pi-hole, you may want to test whether it's working correctly.
+To do this, you can use the Pi-hole "debug" tool, which will run a series of tests and provide feedback on any issues that it finds.
+You can access the debug tool from your Pi-hole admin console by clicking on "Tools" and selecting "Generate Debug Log".
 
 ### 🌍 Pi-hole and VPNs
-If you use a virtual private network (VPN), you may need to configure Pi-hole to work with your VPN. This will involve setting up Pi-hole as your DNS server for the VPN connection. The steps for doing this will vary depending on the VPN software you're using, so be sure to check the documentation for your specific VPN.
+If you use a virtual private network (VPN), you may need to configure Pi-hole to work with your VPN.
+This will involve setting up Pi-hole as your DNS server for the VPN connection.
+The steps for doing this will vary depending on the VPN software you're using, so be sure to check the documentation for your specific VPN.
 
 ### 📉 Pi-hole Performance
-Pi-hole is designed to be lightweight and efficient, but its performance may be affected by factors such as the number of devices on your network and the complexity of the websites you're visiting. If you experience slow browsing or other issues, you may want to consider upgrading the hardware running Pi-hole or adjusting its settings to optimize performance.
+Pi-hole is designed to be lightweight and efficient, but its performance may be affected by factors such as the number of devices on your network and the complexity of the websites you're visiting.
+If you experience slow browsing or other issues, you may want to consider upgrading the hardware running Pi-hole or adjusting its settings to optimize performance.

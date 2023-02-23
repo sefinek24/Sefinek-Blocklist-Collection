@@ -58,13 +58,13 @@ I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any p
 Pi-hole allows you to use regular expressions to create [custom blocklists](https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16). This means you can block an entire domain or specific parts of a domain using a single rule.
 
 For example, the following regular expression would block all subdomains of the example.com domain:
-```sh
+```bash
 ^([A-Za-z0-9-]+\.)*example\.com$
 ```
 This regular expression matches any string that starts with any number of letters, numbers, or hyphens followed by a period, and then repeats that pattern any number of times. The string must end with "example.com".
 
 You can also use regular expressions to block specific pages on a website. For example, the following regular expression would block any URL containing the word "tracking" on the example.com domain:
-```sh
+```bash
 ^([A-Za-z0-9-]+\.)*example\.com\/.*tracking.*
 ```
 This regular expression matches any string that starts with any number of letters, numbers, or hyphens followed by a period, and then repeats that pattern any number of times. The string must then include "example.com/", followed by any number of characters, and the word "tracking".

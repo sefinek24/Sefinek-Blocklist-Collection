@@ -1,10 +1,22 @@
 ###
-# Custom domain list made by Sefinek.
+# Custom domain list made by Sefinek:
+# This file blocks access to specific websites by redirecting them to 0.0.0.0.
 #
-# Last update : 08.01.2023
-# Author      : Sefinek (https://sefinek.net) <contact@sefinek.net>
-# GitHub repo : https://github.com/sefinek24/PiHole-Blocklist-Collection
-# Main URL    : https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/hosts
+# WARNING:
+# This file contains a list of blocked websites. If you're not sure
+# what this file does, or if you don't want to block these websites, do not use
+# this file. If you're using this file, make sure to back up your original hosts
+# file before making any changes.
+#
+# Last updated      : 24.02.2023
+# Author            : Sefinek (https://sefinek.net) <contact@sefinek.net>
+# GitHub repository : https://github.com/sefinek24/PiHole-Blocklist-Collection
+# Main URL          : https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/leagueoflegends.txt
+#
+# ABOUT:
+# This file is part of the Pi-hole Blocklist Collection maintained by Sefinek. The collection is hosted on GitHub and can be accessed
+# from the Main URL provided above. If you find any issues or have suggestions, please open an issue on the GitHub repository or
+# contact the author. By using this file, you agree that the author is not responsible for any damages or losses that may arise from its use.
 ###
 
 0.0.0.0 orngur.com

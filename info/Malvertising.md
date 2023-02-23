@@ -1,8 +1,12 @@
 ## 📝 Information
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive. These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks. Please use this list as a reference and consider other measures to further enhance online safety.
+Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
+These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
+Please use this list as a reference and consider other measures to further enhance online safety.
 
 ## 🚫 Domains with Malicious Ads
-Malicious ads, also known as malvertising, are online ads that can infect devices with malware, ransomware, or other forms of cyber threats. These ads can be found on many legitimate websites, and can be difficult to identify. By blocking these domains with Pi-hole, you can prevent these ads from being displayed on your devices:
+Malicious ads, also known as malvertising, are online ads that can infect devices with malware, ransomware, or other forms of cyber threats.
+These ads can be found on many legitimate websites, and can be difficult to identify.
+By blocking these domains with Pi-hole, you can prevent these ads from being displayed on your devices:
 
 - doubleclick.net
 - googleadservices.com
