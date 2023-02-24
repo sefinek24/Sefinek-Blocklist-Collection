@@ -39,7 +39,7 @@ Below is a list of associated domains that you can block:
   - playvalorant.com
   - valorant-api.com
   - content.valorant-api.com<br><br>
-  > **Note:** Valorant is a popular online multiplayer game produced by Riot Games. Some users may choose to block access to Valorant on their network to limit gaming distractions or to prevent access to inappropriate content. [Read more »](../Why%20should%20I%20block%20Valorant.md)
+  > 📝 **Note:** Valorant is a popular online multiplayer game produced by Riot Games. Some users may choose to block access to Valorant on their network to limit gaming distractions or to prevent access to inappropriate content. [Read more »](../Why%20should%20I%20block%20Valorant.md)
 - League of Legends
   - leagueoflegends.com
   - s.lolstatic.com
