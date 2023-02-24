@@ -6,7 +6,7 @@ Please note that the following is a list of URLs available for blocking in Pi-ho
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-Here's a sample list of abuse domains that you can block in Pi-hole:
+Here's a sample list of abuse domains that you can block in [Pi-hole](../What%20is%20Pi-hole.md):
 - 1dnscontrol.com
 - 2.2o7.net
 - acs86.com
@@ -29,5 +29,5 @@ Here's a sample list of abuse domains that you can block in Pi-hole:
 Blocking these domains with Pi-hole can help improve the security and privacy of your devices and network.
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 If you have any questions or if there's anything else I can help you with, please let me know.

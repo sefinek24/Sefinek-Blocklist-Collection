@@ -10,7 +10,7 @@ Blocking these domains can protect users from harmful content and potentially ma
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-These are domains containing harmful or inappropriate content that can be blocked in Pi-hole to protect users.
+These are domains containing harmful or inappropriate content that can be blocked in [Pi-hole](../What%20is%20Pi-hole.md) to protect users.
 Here is an example list:
 - adserver.adtechus.com
 - adserver.juicyads.com
@@ -64,5 +64,5 @@ If you find yourself feeling overwhelmed or stressed by the negativity online, i
 > By taking these steps, we can help to prevent the spread of hate and discrimination online, and promote greater understanding and respect for all.
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 Let me know if you have any other questions or if there's anything else I can help you with.

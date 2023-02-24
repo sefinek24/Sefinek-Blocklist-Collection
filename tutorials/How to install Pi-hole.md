@@ -1,4 +1,4 @@
-# 🍒 How to install Pi-hole?
+# 🍒 How to install [Pi-hole](../info/What%20is%20Pi-hole.md)?
 ### 🔧 Step 1: Install Pi-hole
 To use Pi-hole, you'll need to install it on your device. You can do this by following the instructions on the Pi-hole website: https://pi-hole.net.
 
@@ -32,7 +32,7 @@ By following these simple steps, you can set up Pi-hole on your device and start
 # 📌 Additional information
 ### 🌠 General
 - Pi-hole is a free and open-source DNS-based ad blocker that blocks ads and trackers at the network level.
-- It can be installed on a variety of devices, including Raspberry Pi, Docker containers, and virtual machines.
+- It can be installed on a variety of devices, including [Raspberry Pi](../info/What%20is%20Raspberry%20Pi.md), Docker containers, and virtual machines.
 - Pi-hole uses a variety of blocklists to block ads and trackers, including popular lists like AdBlock, EasyList, and AdAway.
 - Pi-hole can also be used to block entire domains, rather than just individual ads or trackers.
 - In addition to ad-blocking, Pi-hole also provides basic network-level malware protection.

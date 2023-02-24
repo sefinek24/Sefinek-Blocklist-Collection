@@ -9,7 +9,7 @@ These are URLs that redirect the user from one web page to another.
 They are often used by advertisers or people trying to trick users into clicking on suspicious or dangerous links.
 By blocking these domains with Pi-hole, you can help protect your device from malware and scams.
 
-Here is a sample list of redirect domains to block in Pi-hole:
+Here is a sample list of redirect domains to block in [Pi-hole](../What%20is%20Pi-hole.md):
 - tracking.clickmeter.com
 - t.co
 - lnkd.in
@@ -18,5 +18,5 @@ Here is a sample list of redirect domains to block in Pi-hole:
 - buff.ly
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 Let me know if you have any other questions or if there's anything else I can help you with.

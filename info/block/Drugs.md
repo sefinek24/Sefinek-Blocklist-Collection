@@ -10,7 +10,7 @@ Please note that the following is a list of URLs available for blocking in Pi-ho
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-Here's a sample list of drug domains that you can block in Pi-hole:
+Here's a sample list of drug domains that you can block in [Pi-hole](../What%20is%20Pi-hole.md):
 - **weedmaps.com:** a website that provides information about marijuana dispensaries and delivery services.
 - **ganja.com:** a website that promotes the use of marijuana.
 - **cannabis.com:** a website that provides information about marijuana cultivation, consumption, and legalization.
@@ -26,5 +26,5 @@ There are many resources available, including hotlines, online forums, and local
 Remember, recovery is possible, and seeking help is the first step towards a healthier, happier life.
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 If you have any questions or if there's anything else I can help you with, please let me know.

@@ -15,7 +15,7 @@ Please note that the following is a list of URLs available for blocking in Pi-ho
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-Here's a sample list of AMP Hosts that you can block in Pi-hole:
+Here's a sample list of AMP Hosts that you can block in [Pi-hole](../What%20is%20Pi-hole.md):
 - amp.cloudflare.com
 - cdn.ampproject.org
 - amp.twimg.com
@@ -24,5 +24,5 @@ Here's a sample list of AMP Hosts that you can block in Pi-hole:
 By blocking these domains with Pi-hole, you can prevent your data from being shared with third-party companies without your consent, and also improve your browsing experience by avoiding stripped-down web pages.
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 Let me know if you have any other questions or if there's anything else I can help you with.

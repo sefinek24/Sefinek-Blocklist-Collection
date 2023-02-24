@@ -8,7 +8,7 @@ Please note that the following is a list of URLs available for blocking in Pi-ho
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-Here's a sample list of dating site domains that you can block in Pi-hole:
+Here's a sample list of dating site domains that you can block in [Pi-hole](../What%20is%20Pi-hole.md):
 - match.com
 - eharmony.com
 - okcupid.com
@@ -19,5 +19,5 @@ Here's a sample list of dating site domains that you can block in Pi-hole:
 - plentyoffish.com
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](https://pi-hole.net), you can block the listed domains.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 Let me know if you have any other questions or if there's anything else I can help you with.

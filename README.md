@@ -12,7 +12,7 @@
 <br>
 
 ## 📝 Information
-I use this list every day on my Pi-hole (Raspberry Pi 4), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you like it. Have fun and stay safe! o(>ω<)o
+I use this list every day on my [Pi-hole](info/What%20is%20Pi-hole.md) ([Raspberry Pi 4](info/What%20is%20Raspberry%20Pi.md)), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you like it. Have fun and stay safe! o(>ω<)o
 
 ## 😎 Block...
 - [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
