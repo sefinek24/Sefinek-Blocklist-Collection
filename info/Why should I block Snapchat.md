@@ -13,8 +13,8 @@ Additionally, Snapchat's use of facial recognition technology has raised concern
 Finally, there is the issue of cyberbullying on Snapchat. The app's anonymity and ephemeral nature can make it easier for users to engage in bullying behavior without consequences.
 This has led to some high-profile cases of cyberbullying and even suicides. While Snapchat has taken steps to combat bullying on its platform, it remains a concern for many parents and educators.
 
-By blocking Snapchat on your network using [Pi-hole](./What%20is%20Pi-hole.md), you can help protect your privacy and data security.
-[Pi-hole](./What%20is%20Pi-hole.md) is a network-level ad blocker that can also block access to specific domains and IP addresses.
+By blocking Snapchat on your network using Pi-hole, you can help protect your privacy and data security.
+Pi-hole is a network-level ad blocker that can also block access to specific domains and IP addresses.
 This means that you can prevent your devices from connecting to Snapchat's servers and potentially sharing your data or location information.
 
 Overall, while Snapchat can be a fun way to stay connected with friends, it's important to be aware of the privacy and security risks associated with the app.
