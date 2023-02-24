@@ -16,7 +16,7 @@ Since the platform allows users to share images and videos during their conversa
 This could lead to embarrassing or compromising images being shared online, potentially leading to reputational damage or even legal issues.
 
 To mitigate these risks, it is recommended that users block Omegle on their networks using tools such as [Pi-hole](./What%20is%20Pi-hole.md).
-[Pi-hole](./What%20is%20Pi-hole.md) is a network-level ad blocker that can be used to prevent access to specific websites, including Omegle. By blocking Omegle, users can protect themselves and their families from potential privacy and security risks.
+Pi-hole is a network-level ad blocker that can be used to prevent access to specific websites, including Omegle. By blocking Omegle, users can protect themselves and their families from potential privacy and security risks.
 
 In conclusion, while Omegle can be a fun and entertaining platform, it is important to be aware of the potential privacy and security risks associated with its use.
 By taking steps such as blocking the website on their networks, users can protect themselves and their loved ones from the risks posed by this platform.

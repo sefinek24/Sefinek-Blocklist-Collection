@@ -23,7 +23,7 @@ There have also been concerns about the way that TikTok handles user accounts.
 In August 2020, it was reported that the app was collecting biometric data from users without their consent.
 This included data like facial recognition patterns and voiceprints.
 
-Overall, there are a number of reasons why people might choose to block TikTok on their home network using tools like [Pi-hole](./What%20is%20Pi-hole.md).
+Overall, there are a number of reasons why people might choose to block TikTok on their home network using tools like Pi-hole.
 While the app is popular and entertaining, its privacy and security practices have raised serious concerns.
 Blocking TikTok can help to protect user data and prevent potentially sensitive information from being shared with the app's servers.
 
