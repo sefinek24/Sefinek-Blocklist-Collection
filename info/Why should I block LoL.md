@@ -24,15 +24,15 @@ In addition to blocking LoL in [Pi-hole](./What%20is%20Pi-hole.md), there are ot
 This includes muting or blocking toxic players, reporting them to game moderators, and seeking support from friends and loved ones.
 It is also essential for players to practice self-care by taking breaks from the game, engaging in other activities they enjoy, and seeking professional help if necessary.
 
-One way to mitigate the impact of LoL's toxic community is to block the game in [Pi-hole](./What%20is%20Pi-hole.md).
-[Pi-hole](./What%20is%20Pi-hole.md) is a network-level ad blocker that can be used to block access to specific websites and online services.
+One way to mitigate the impact of LoL's toxic community is to block the game in Pi-hole.
+Pi-hole is a network-level ad blocker that can be used to block access to specific websites and online services.
 By blocking access to LoL, players can avoid being exposed to toxic behavior from other players.
 
-Blocking LoL in [Pi-hole](./What%20is%20Pi-hole.md) is a simple process. First, players need to set up a [Pi-hole](./What%20is%20Pi-hole.md) server on their network.
+Blocking LoL in Pi-hole is a simple process. First, players need to set up a Pi-hole server on their network.
 Once the server is set up, they can add LoL to their blocklist. This will prevent any devices on their network from accessing the game's servers.
 
 In conclusion, while LoL can be an entertaining game, it is also known for having a toxic community.
-Blocking access to the game in [Pi-hole](./What%20is%20Pi-hole.md) can help players avoid being exposed to this toxicity and protect their mental health and well-being.
+Blocking access to the game in Pi-hole can help players avoid being exposed to this toxicity and protect their mental health and well-being.
 
 
 ## 🧠 How to Protect Your Mental Health in LoL
