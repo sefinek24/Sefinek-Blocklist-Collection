@@ -12,32 +12,32 @@
 <br>
 
 ## 📝 Information
-I use this list every day on my PiHole (Raspberry Pi 4), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you like it. Have fun and stay safe! o(>ω<)o
+I use this list every day on my Pi-hole (Raspberry Pi 4), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you like it. Have fun and stay safe! o(>ω<)o
 
 ## 😎 Block...
-- [**AMP Hosts:**](info/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
-- [**Abuse:**](info/Abuse.md) Blocks known domains involved in online abuse or harassment.
-- [**Analytics & Telemetry:**](info/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
-- [**Block Websites & Games:**](info/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
-- [**CryptoJacking:**](info/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
-- [**Dating Services:**](info/Dating%20services.md) Blocks domains of dating websites and apps.
-- [**Drugs:**](info/Drugs.md) Blocks domains that sell or promote drugs.
-- [**Fake News:**](info/Fake%20news.md) Blocks domains that are known to publish fake or misleading news.
-- [**Gambling:**](info/Gambling.md) Blocks domains of online gambling websites.
-- [**Hate & Junk:**](info/Hate%20and%20junk.md) Blocks domains promoting hate speech or spreading false information.
-- [**Malvertising:**](info/Malvertising.md) Blocks domains that distribute malware via ads.
-- [**Malware:**](info/Malware.md) Blocks domains that are known to host or distribute malware.
-- [**Phishing:**](info/Phishing.md) Blocks domains involved in phishing attempts.
-- [**Piracy:**](info/Piracy.md) Blocks domains that distribute pirated software or media.
-- [**Porn:**](info/Porn.md) Blocks domains of adult websites.
-- [**Ransomware:**](info/Ransomware.md) Blocks domains involved in ransomware attacks.
-- [**Redirect:**](info/Redirect.md) Blocks domains that redirect users to unintended websites.
-- [**Scam:**](info/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.
-- [**Spam mails:**](info/Spam%20mails.md) Blocks domains that send unsolicited email.
-- [**Spyware:**](info/Spyware.md) Blocks domains that distribute spyware or adware.
-- [**Tracking:**](info/Tracking.md) Blocks domains that track user activity without user consent.
-- [**Useless websites:**](info/Useless%20websites.md) Blocks domains that offer little or no value to users.
-- [**YouTube & mobile ads etc.:**](info/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
+- [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
+- [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
+- [**Analytics & Telemetry:**](info/block/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
+- [**Block Websites & Games:**](info/block/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
+- [**CryptoJacking:**](info/block/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
+- [**Dating Services:**](info/block/Dating%20services.md) Blocks domains of dating websites and apps.
+- [**Drugs:**](info/block/Drugs.md) Blocks domains that sell or promote drugs.
+- [**Fake News:**](info/block/Fake%20news.md) Blocks domains that are known to publish fake or misleading news.
+- [**Gambling:**](info/block/Gambling.md) Blocks domains of online gambling websites.
+- [**Hate & Junk:**](info/block/Hate%20and%20junk.md) Blocks domains promoting hate speech or spreading false information.
+- [**Malvertising:**](info/block/Malvertising.md) Blocks domains that distribute malware via ads.
+- [**Malware:**](info/block/Malware.md) Blocks domains that are known to host or distribute malware.
+- [**Phishing:**](info/block/Phishing.md) Blocks domains involved in phishing attempts.
+- [**Piracy:**](info/block/Piracy.md) Blocks domains that distribute pirated software or media.
+- [**Porn:**](info/block/Porn.md) Blocks domains of adult websites.
+- [**Ransomware:**](info/block/Ransomware.md) Blocks domains involved in ransomware attacks.
+- [**Redirect:**](info/block/Redirect.md) Blocks domains that redirect users to unintended websites.
+- [**Scam:**](info/block/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.
+- [**Spam mails:**](info/block/Spam%20mails.md) Blocks domains that send unsolicited email.
+- [**Spyware:**](info/block/Spyware.md) Blocks domains that distribute spyware or adware.
+- [**Tracking:**](info/block/Tracking.md) Blocks domains that track user activity without user consent.
+- [**Useless websites:**](info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
+- [**YouTube & mobile ads etc.:**](info/block/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
 ## 📃 List / 101 URLs / +6 milion domains
 <h3 align="center">
