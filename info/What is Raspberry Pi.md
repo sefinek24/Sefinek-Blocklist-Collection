@@ -1,5 +1,5 @@
 ## 🍓💻 What is Raspberry Pi? 
-Raspberry Pi is a credit-card sized, single-board computer 📏 developed by the Raspberry Pi Foundation in the United Kingdom 🇬🇧.
+Raspberry Pi is a credit-card sized, single-board computer developed by the Raspberry Pi Foundation in the United Kingdom 🇬🇧.
 It was first introduced in 2012 and has since become incredibly popular due to its affordability, versatility, and ease of use.
 The latest model, the Raspberry Pi 4, features a quad-core ARM Cortex-A72 processor, up to 8GB of RAM, and multiple USB and Ethernet ports.
 
@@ -7,23 +7,23 @@ The latest model, the Raspberry Pi 4, features a quad-core ARM Cortex-A72 proces
 Raspberry Pi can be used for a wide range of purposes, from education and hobby projects to professional applications in industries such as robotics, automation, and IoT (Internet of Things) 🚀.
 Some of the most common uses of Raspberry Pi include:
 
-- 🏫👨‍🎓 **Education:**
+- 🏫 **Education:**
 Raspberry Pi is widely used in schools and universities to teach programming, electronics, and computer science.
 Its low cost and small form factor make it an accessible and affordable tool for students of all ages and backgrounds.
 
-- 🎥🎵 **Media center:**
+- 🎵 **Media center:**
 Raspberry Pi can be used as a media center to stream movies, TV shows, and music from various sources such as Netflix, YouTube, and Spotify.
 It can also be used to play retro games using emulators.
 
-- 🏠🔌 **Home automation:**
+- 🏠 **Home automation:**
 Raspberry Pi can be used to control various devices and appliances in your home, such as lights, thermostats, and security cameras.
 It can also be used to create DIY projects such as a smart mirror or a voice-controlled assistant.
 
-- 🤖🛸 **Robotics:**
+- 🤖 **Robotics:**
 Raspberry Pi can be used to control robots and drones, making it a popular choice among hobbyists and professionals alike.
 Its small size and low power consumption make it an ideal platform for mobile robots.
 
-- 🌐💡 **IoT:**
+- 🌐 **IoT:**
 Raspberry Pi can be used to create IoT devices such as sensors, actuators, and gateways.
 It can also be used to collect, process, and transmit data to cloud services such as AWS, Azure, and Google Cloud.
 
