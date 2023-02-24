@@ -22,5 +22,6 @@ By adding these blocklists to Pi-hole, you can protect your network from unwante
 In addition to blocking piracy domains, Pi-hole can also block other types of unwanted content, such as ads, tracking scripts, and malicious websites, providing a comprehensive solution for protecting your network.
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block unsafe domains and protect your devices from malware.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
+If you found this repository useful or interesting, please consider starring it to show your support!
 Let me know if you have any other questions or if there's anything else I can help you with.

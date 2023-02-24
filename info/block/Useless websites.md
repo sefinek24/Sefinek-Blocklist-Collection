@@ -18,5 +18,6 @@ These are sites that are typically not needed for browsing the web, and blocking
 - pagead2.googlesyndication.com
 
 ## 🐈 Thank you for reading
-By adding this list of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block useless domains and improve the performance of your device.
-If you have any questions or if there's anything else I can help you with, please let me know.
+By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
+If you found this repository useful or interesting, please consider starring it to show your support!
+Let me know if you have any other questions or if there's anything else I can help you with.
