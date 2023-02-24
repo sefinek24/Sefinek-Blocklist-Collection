@@ -1,8 +1,7 @@
 ## 🔒 Block TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends
 Blocking access to certain services, particularly
-<code>TikTok</code>, <code>Snapchat</code>, <code>Omegle</code>, <code>Riot Games</code>, <code>Valorant</code>, and <code>League of Legends</code>,
-is <u><b>widely recommended</b></u> to enhance online safety and prevent potential risks such as
-<strong>inappropriate content</strong>, <strong>cyberbullying</strong>, and <strong>data privacy concerns</strong>.
+[TikTok](../Why%20should%20I%20block%20TikTok.md), [Snapchat](../Why%20should%20I%20block%20Snapchat.md), [Omegle](../Why%20should%20I%20block%20Omegle.md), [Riot Games](../Why%20should%20I%20block%20Riot%20Games.md), [Valorant](../Why%20should%20I%20block%20Valorant.md), and [League of Legends](../Why%20should%20I%20block%20LoL.md),
+is **widely recommended** to enhance online safety and prevent potential risks such as **inappropriate content**, **cyberbullying**, and **data privacy concerns**.
 
 Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
