@@ -14,7 +14,7 @@ https://blocklistproject.github.io/Lists/ransomware.txt
 https://blocklistproject.github.io/Lists/redirect.txt
 https://blocklistproject.github.io/Lists/scam.txt
 https://blocklistproject.github.io/Lists/tiktok.txt
-https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/leagueoflegends.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/league-of-legends.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/porn.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/riotgames.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
