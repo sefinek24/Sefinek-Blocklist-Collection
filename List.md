@@ -66,7 +66,6 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt
 https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains.24733
 https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
-https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/AdAway-Default-Blocklist.txt
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
 https://raw.githubusercontent.com/hectorm/hmirror/master/data/spam404.com/list.txt
