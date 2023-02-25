@@ -34,8 +34,7 @@ https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
 https://kriskintel.com/feeds/ktip_ransomware_feeds.txt
 https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext
 https://phishing.army/download/phishing_army_blocklist_extended.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easylist.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
