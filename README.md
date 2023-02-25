@@ -39,7 +39,7 @@ I use this list every day on my [Pi-hole](info/What%20is%20Pi-hole.md) ([Raspber
 - [**Useless websites:**](info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
 - [**YouTube & mobile ads etc.:**](info/block/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
-## 📃 List / 101 URLs / +6 milion domains
+## 📃 List / +100 URLs / +6 milion domains
 <h3 align="center">
     <a href="List.md">Click here to see the main list file »</a>
 </h3>
