@@ -1,4 +1,6 @@
-## 📥 Last update: 28.02.2023 [DD.MM.YYYY]
+<div align="center">
+    <h1>📥 Last update: 28.02.2023 [DD.MM.YYYY]</h1>
+</div>
 
 ```
 https://adaway.org/hosts.txt
