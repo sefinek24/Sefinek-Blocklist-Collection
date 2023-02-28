@@ -1,3 +1,5 @@
+## 📥 Last update: 28.02.2023 [DD.MM.YYYY]
+
 ```
 https://adaway.org/hosts.txt
 https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
