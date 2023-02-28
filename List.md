@@ -1,5 +1,9 @@
 <div align="center">
-    <h1>📥 Last update: 28.02.2023 [DD.MM.YYYY]</h1>
+    <h3>📥
+    Last update: 28.02.2023
+    </h3>
+    <i>[DD.MM.YYYY]</i>
+
 </div>
 
 ```
