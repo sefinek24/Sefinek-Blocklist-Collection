@@ -124,7 +124,7 @@ pihole -d
 ```
 
 This command will generate a debug log. Look for the following line in the log:
-```bash
+```yaml
 [✓] DNS service is running
 ```
 
