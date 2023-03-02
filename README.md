@@ -12,7 +12,14 @@
 <br>
 
 ## 📝 Information
-I use this list every day on my [Pi-hole](info/What%20is%20Pi-hole.md) ([Raspberry Pi 4](info/What%20is%20Raspberry%20Pi.md)), and I haven't had any problems with false positives. [Here](https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/<FileName>.txt) is a link to my official CDN. Please star the repository if you like it. Have fun and stay safe! o(>ω<)o
+I use this list every day on my Pi-hole (Raspberry Pi 4), and I haven't encountered any false positives.
+It's important to keep checking this repository regularly to stay up-to-date with new links or potential changes.
+If you find this repository useful, please consider starring it.
+You can also access my official CDN by clicking on the following link. Have fun and stay safe! o(>ω<)o
+
+If you have additional domains that you believe should be included in this list, please feel free to contribute by submitting a pull request.
+However, please note that while this blocklist can enhance your privacy and security, it may also inadvertently block legitimate content or services.
+Therefore, please use it at your own risk.
 
 ## 😎 Block...
 - [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
@@ -55,31 +62,11 @@ I use this list every day on my [Pi-hole](info/What%20is%20Pi-hole.md) ([Raspber
 </h3>
 
 ## 🔧 Regex
-Pi-hole allows you to use regular expressions to create [custom blocklists](https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16). This means you can block an entire domain or specific parts of a domain using a single rule.
-
-For example, the following regular expression would block all subdomains of the example.com domain:
-```bash
-^([A-Za-z0-9-]+\.)*example\.com$
-```
-This regular expression matches any string that starts with any number of letters, numbers, or hyphens followed by a period, and then repeats that pattern any number of times. The string must end with "example.com".
-
-You can also use regular expressions to block specific pages on a website. For example, the following regular expression would block any URL containing the word "tracking" on the example.com domain:
-```bash
-^([A-Za-z0-9-]+\.)*example\.com\/.*tracking.*
-```
-This regular expression matches any string that starts with any number of letters, numbers, or hyphens followed by a period, and then repeats that pattern any number of times. The string must then include "example.com/", followed by any number of characters, and the word "tracking".
-
-Regular expressions can be a powerful tool for blocking unwanted content on your network. However, they can also be complex to create and maintain, so it's important to test your regex rules thoroughly before implementing them on your Pi-hole.
-
-<h3 align="right">
-    <a href="https://github.com/mmotti/pihole-regex/blob/master/regex.list#L16">Go to recommended regex list »</a>
+<h3 align="center">
+    <a href="tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md">
+        View the regex list and read additional information »
+    </a>
 </h3>
-
-## 😻 Contributing
-If you have additional domains that you believe should be included in this list, please feel free to contribute by submitting a pull request.
-
-## ✋ Disclaimer
-Please note that while this blocklist can improve privacy and security, it may also block legitimate content or services. Use at your own risk.
 
 ## 🌠 My other repositories
 - [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
