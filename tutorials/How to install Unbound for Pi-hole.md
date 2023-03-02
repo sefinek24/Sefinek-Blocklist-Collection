@@ -1,6 +1,7 @@
 ## 🤖 How to Install Unbound for Pi-hole?
-
 If you want to improve the performance and security of your [Pi-hole](../info/What%20is%20Pi-hole.md) setup, you can install Unbound, a DNS resolver that provides more advanced features than the default DNS server used by Pi-hole.
+
+> [Unbound - Pi-hole documentation](https://docs.pi-hole.net/guides/dns/unbound/)
 
 ## ⭐ Prerequisites
 Before you start the installation process, make sure you have:
@@ -29,7 +30,7 @@ Now, you need to configure Unbound to use root hints to resolve domain names.
     sudo nano /etc/pihole/setupVars.conf
     ```
 2. Find the line that starts with `PIHOLE_DNS_1=` and change the value to `127.0.0.1#5335`:
-    ```bash
+    ```yaml
     PIHOLE_DNS_1=127.0.0.1#5335
     ```
 3. Save the changes and exit the editor by pressing `Ctrl+X`, then `Y`, and then `Enter`.
