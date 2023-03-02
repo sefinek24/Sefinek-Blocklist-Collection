@@ -18,7 +18,7 @@ sudo apt upgrade
 ## » Step 2: Install Unbound
 To install Unbound, run the following command:
 
-```csharp
+```bash
 sudo apt install unbound
 ```
 
