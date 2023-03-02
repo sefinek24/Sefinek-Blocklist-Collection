@@ -11,8 +11,8 @@ Before you start the installation process, make sure you have:
 ## » Step 1: Update Your System
 Make sure your system is up-to-date by running the following commands:
 ```bash
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt update
+sudo apt upgrade
 ```
 
 ## » Step 2: Install Unbound
