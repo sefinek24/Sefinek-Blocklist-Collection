@@ -1,5 +1,5 @@
 <div align="center">
-    <h3>📥 Last update: 02.03.2023</h3>
+    <h3>📥 Last update: 08.03.2023</h3>
     <i>[DD.MM.YYYY]</i>
 </div>
 <br>
@@ -20,7 +20,7 @@ https://blocklistproject.github.io/Lists/ransomware.txt
 https://blocklistproject.github.io/Lists/redirect.txt
 https://blocklistproject.github.io/Lists/scam.txt
 https://blocklistproject.github.io/Lists/tiktok.txt
-https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/apps/tiktok.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/league-of-legends.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/valorant.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/porn.txt
