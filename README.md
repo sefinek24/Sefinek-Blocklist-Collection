@@ -15,7 +15,7 @@
 I use this list every day on my Pi-hole (Raspberry Pi 4), and I haven't encountered any false positives.
 It's important to keep checking this repository regularly to stay up-to-date with new links or potential changes.
 If you find this repository useful, please consider starring it.
-You can also access my official CDN by clicking on the following link. Have fun and stay safe! o(>ω<)o
+You can also access my official CDN by clicking on this [link](https://cdn.sefinek.net). Have fun and stay safe! o(>ω<)o
 
 If you have additional domains that you believe should be included in this list, please feel free to contribute by submitting a pull request.
 However, please note that while this blocklist can enhance your privacy and security, it may also inadvertently block legitimate content or services.
