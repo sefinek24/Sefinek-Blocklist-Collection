@@ -17,7 +17,7 @@ It's important to keep checking this repository regularly to stay up-to-date wit
 If you find this repository useful, please consider starring it.
 You can also access my official CDN by clicking on this [link](https://cdn.sefinek.net).
 
-If you have additional domains that you believe should be included in this list, please feel free to contribute by submitting a pull request.
+If you have additional domains that you believe should be included in this list, please feel free to contribute by submitting a [Pull request](https://github.com/sefinek24/PiHole-Blocklist-Collection/pulls).
 However, please note that while this blocklist can enhance your privacy and security, it may also inadvertently block legitimate content or services.
 Therefore, please use it at your own risk.
 
