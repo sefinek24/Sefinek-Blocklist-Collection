@@ -20,11 +20,12 @@ https://blocklistproject.github.io/Lists/ransomware.txt
 https://blocklistproject.github.io/Lists/redirect.txt
 https://blocklistproject.github.io/Lists/scam.txt
 https://blocklistproject.github.io/Lists/tiktok.txt
-https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/league-of-legends.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/valorant.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/malicious-sites.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/porn.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/riotgames.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
 https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp
