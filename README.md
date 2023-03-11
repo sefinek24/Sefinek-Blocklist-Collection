@@ -53,6 +53,13 @@ Have fun and stay safe! o(>ω<)o
     <a href="List.md">Click here to see the main list file »</a>
 </h3>
 
+## 🔧 Regex list
+<h3 align="center">
+    <a href="info/Regex.md">
+        View the regex list and read additional information »
+    </a>
+</h3>
+
 ## 🤔 How to install Pi-hole?
 <h3 align="center">
     <a href="tutorials/How%20to%20install%20Pi-hole.md">Click here to see tutorial »</a>
@@ -61,13 +68,6 @@ Have fun and stay safe! o(>ω<)o
 ## 💙 How to install Unbound for Pi-hole?
 <h3 align="center">
     <a href="tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md">Click here to see tutorial »</a>
-</h3>
-
-## 🔧 Regex
-<h3 align="center">
-    <a href="tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md">
-        View the regex list and read additional information »
-    </a>
 </h3>
 
 ## 🌠 My other repositories
