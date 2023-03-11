@@ -34,12 +34,12 @@ Below is a list of associated domains that you can block:
   - riotgames.com
   - lol.secure.dyn.riotcdn.net
   - auth.riotgames.com<br><br>
-  > 📝 **Note:** Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant. Some users may choose to block access to Riot Games on their network to limit gaming distractions or to prevent access to inappropriate content. [Read more »](../Why%20should%20I%20block%20Valorant.md)
+  > 📝 **Note:** Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant. [Read more »](../Why%20should%20I%20block%20Valorant.md)
 - Valorant
   - playvalorant.com
   - valorant-api.com
   - content.valorant-api.com<br><br>
-  > 📝 **Note:** Valorant is a popular online multiplayer game produced by Riot Games. Some users may choose to block access to Valorant on their network to limit gaming distractions or to prevent access to inappropriate content. [Read more »](../Why%20should%20I%20block%20Valorant.md)
+  > 📝 **Note:** Valorant is a popular online multiplayer game produced by Riot Games. [Read more »](../Why%20should%20I%20block%20Valorant.md)
 - League of Legends
   - leagueoflegends.com
   - s.lolstatic.com
@@ -48,7 +48,7 @@ Below is a list of associated domains that you can block:
   - signup.leagueoflegends.com
   - play.eune.leagueoflegends.com
   - chat.euw1.lol.riotgames.com<br><br>
-  > 📝 **Note:** League of Legends is a popular online multiplayer game produced by Riot Games. Some users may choose to block access to League of Legends on their network to limit gaming distractions or to prevent access to inappropriate content. [Read more »](../Why%20should%20I%20block%20LoL.md)
+  > 📝 **Note:** League of Legends is a popular online multiplayer game produced by Riot Games. [Read more »](../Why%20should%20I%20block%20LoL.md)
 
 Blocking these domains can be an effective way to prevent users on your network from accessing these websites. However, it's important to note that blocking these domains will not completely prevent access to these websites, as they may be accessible through other domains or IP addresses. Additionally, blocking access to certain websites may not be effective in all situations, and it's always a good idea to educate yourself and others about online safety and responsible internet use.
 
