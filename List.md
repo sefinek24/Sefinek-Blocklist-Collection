@@ -1,5 +1,5 @@
 <div align="center">
-    <h3>📥 Last update: 08.03.2023</h3>
+    <h3>📥 Last update: 12.03.2023</h3>
     <i>[DD.MM.YYYY]</i>
 </div>
 <br>
@@ -24,7 +24,7 @@ https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/t
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/league-of-legends.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/valorant.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/porn.txt
-https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/riotgames.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/riotgames.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
 https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp
