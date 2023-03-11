@@ -21,7 +21,7 @@ If you have additional domains that you believe should be included in this list,
 However, please note that while this blocklist can enhance your privacy and security, it may also inadvertently block legitimate content or services.
 Therefore, please use it at your own risk.
 
-If you found this repository useful or interesting, please consider starring it to show your support!
+If you found this repository useful or interesting, please consider starring it to show your support!  
 Have fun and stay safe! o(>ω<)o
 
 ## 😎 Block...
