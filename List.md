@@ -40,7 +40,6 @@ https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
-https://kriskintel.com/feeds/ktip_ransomware_feeds.txt
 https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext
