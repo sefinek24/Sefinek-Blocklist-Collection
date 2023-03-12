@@ -27,6 +27,7 @@ https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/porn.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/riotgames.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/web-attacks.txt
 https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp
 https://ente.dev/api/blocklist/google-amp-hosts
