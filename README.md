@@ -3,7 +3,7 @@
     <h1>
         ✋ Best Block List Collection<br> for Pi-hole
     </h1>
-    <a href="https://raw.githubusercontent.com/sefinek24/PiHole-Blocklist-Collection/main/images/adlists.png"><img src="images/adlists.png" alt="Domains on Adlists"></a>
+    <img src="images/adlists.png" alt="Domains on Adlists">
     <br><br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">

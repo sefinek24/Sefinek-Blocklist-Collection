@@ -1,7 +1,10 @@
 <div align="center">
-    <h3>📥 Last update: 12.03.2023</h3>
-    <i>[DD.MM.YYYY]</i>
+    <h2>📥 Last update: 12.03.2023</h2>
+    [DD.MM.YYYY]
 </div>
+<h3 align="right">
+    <a href="https://sefinek.net/pihole-blocklist-customization">📝 Try blocklist generator on my website »</a>
+</h3>
 <br>
 
 ```
