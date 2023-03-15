@@ -34,12 +34,7 @@ Below is a list of associated domains that you can block:
   - riotgames.com
   - lol.secure.dyn.riotcdn.net
   - auth.riotgames.com<br><br>
-  > 📝 **Note:** Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant. [Read more »](../Why%20should%20I%20block%20Valorant.md)
-- Valorant
-  - playvalorant.com
-  - valorant-api.com
-  - content.valorant-api.com<br><br>
-  > 📝 **Note:** Valorant is a popular online multiplayer game produced by Riot Games. [Read more »](../Why%20should%20I%20block%20Valorant.md)
+  > 📝 **Note:** Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant. [Read more »](../Why%20should%20I%20block%20Riot%20Games.md)
 - League of Legends
   - leagueoflegends.com
   - s.lolstatic.com
@@ -49,6 +44,11 @@ Below is a list of associated domains that you can block:
   - play.eune.leagueoflegends.com
   - chat.euw1.lol.riotgames.com<br><br>
   > 📝 **Note:** League of Legends is a popular online multiplayer game produced by Riot Games. [Read more »](../Why%20should%20I%20block%20LoL.md)
+- Valorant
+  - playvalorant.com
+  - valorant-api.com
+  - content.valorant-api.com<br><br>
+  > 📝 **Note:** Valorant is a popular online multiplayer game produced by Riot Games. [Read more »](../Why%20should%20I%20block%20Valorant.md)
 
 Blocking these domains can be an effective way to prevent users on your network from accessing these websites. However, it's important to note that blocking these domains will not completely prevent access to these websites, as they may be accessible through other domains or IP addresses. Additionally, blocking access to certain websites may not be effective in all situations, and it's always a good idea to educate yourself and others about online safety and responsible internet use.
 
