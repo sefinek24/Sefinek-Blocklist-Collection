@@ -1,5 +1,4 @@
 <img width="42%" align="right" src="images/kitten.png" alt="Gigachad kitten">
-
 <div align="center">
     <h1>
         ✋ Best Block List Collection<br> for Pi-hole
@@ -10,6 +9,9 @@
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
 </div>
 <br>
+<a href="https://sefinek.net/pihole-blocklist-customization" target="_blank" title="Pihole Blocklist Generator - Sefinek Official Website">
+    <img src="images/generator.png" alt="">
+</a>
 
 ## 📝 Information
 I use this list every day on my Pi-hole (Raspberry Pi 4), and I haven't encountered any false positives.
@@ -23,7 +25,7 @@ Therefore, please use it at your own risk.
 If you found this repository useful or interesting, please consider starring it to show your support!  
 Have fun and stay safe! o(>ω<)o
 
-## 😎 Block...
+## ✨ Main block list
 - [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
 - [**Analytics & Telemetry:**](info/block/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
@@ -48,9 +50,8 @@ Have fun and stay safe! o(>ω<)o
 - [**Useless websites:**](info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
 - [**YouTube & mobile ads etc.:**](info/block/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
-## 📃 List / +100 URLs / +8 milion domains
-<h3 align="center">
-    <a href="List.md">Click here to see the main list file »</a>
+<h3 align="right">
+    <a href="List.md">📃 Click here to copy URL addresses »</a>
 </h3>
 
 ## 🔧 Regex list
@@ -75,4 +76,5 @@ Have fun and stay safe! o(>ω<)o
 - [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
 
 ## 🐈 Source of used images
-- https://pinterest.com/pin/673288213025042151
+- https://pinterest.com
+- https://www.freepik.com
