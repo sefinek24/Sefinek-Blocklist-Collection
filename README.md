@@ -10,7 +10,7 @@
 </div>
 <br>
 <a href="https://sefinek.net/pihole-blocklist-customization" target="_blank" title="Pihole Blocklist Generator - Sefinek Official Website">
-    <img src="images/generator.png" width="97%" align="center" alt="">
+    <img src="images/generator.png" width="95%" align="center" alt="">
 </a>
 
 ## 📝 Information
