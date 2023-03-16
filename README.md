@@ -74,8 +74,8 @@ Therefore, please use it at your own risk.
 </h3>
 
 ## 🌠 My other repositories
-- [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
-- [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
+1. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
+2. [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
 
 ## 🐈 Source of used images
 - https://pinterest.com
