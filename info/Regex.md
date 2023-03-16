@@ -1,4 +1,4 @@
-## 🔧 Regex
+# 🔧 Regex
 Pi-hole allows you to use regular expressions to create [custom blocklists](https://github.com/mmotti/pihole-regex/blob/master/regex.list). This means you can block an entire domain or specific parts of a domain using a single rule.
 
 For example, the following regular expression would block all subdomains of the example.com domain:
