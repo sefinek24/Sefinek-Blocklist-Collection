@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
 </div>
 <br>
-<a href="https://sefinek.net/pihole-blocklist-customization" target="_blank" title="Pihole Blocklist Generator - Sefinek Official Website">
+<a href="https://sefinek.net/pihole-blocklist-customization" title="Pihole Blocklist Generator - Sefinek Official Website">
     <img src="images/generator.png" width="95%" align="center" alt="">
 </a>
 
