@@ -1,23 +1,21 @@
 ## 🤔 Why should I block Valorant?
-Riot Games is a popular video game developer that has created several successful games, including League of Legends (LoL), Valorant, and Teamfight Tactics.
-These games have a large player base and are played by millions of people around the world.
-While these games can be fun and entertaining, there are several reasons why you may want to consider blocking Riot Games using [Pi-hole](./What%20is%20Pi-hole.md).
+Riot Games is a beloved game developer responsible for the creation of popular games like League of Legends (LoL), Valorant, and Teamfight Tactics.
+These games boast millions of players worldwide and offer plenty of fun and entertainment.
 
-First, Riot Games is known for collecting a significant amount of data on its players.
-This data can include your location, IP address, and even your online behavior.
-While Riot Games has stated that they use this data to improve their games and provide a better experience for their players, some people may be uncomfortable with this level of data collection.
-Blocking Riot Games using Pi-hole can help prevent them from collecting your data without your consent.
+However, if you're concerned about your online privacy, you might want to consider using Pi-hole to block Riot Games.
+The company has a history of collecting player data, including IP addresses, location, and online behavior, which some players may find discomforting.
+Although Riot Games claims they use this data to enhance player experience, blocking their access to your data through Pi-hole is an easy way to protect your privacy.
 
-Second, Riot Games has been known to have issues with toxic behavior and harassment within their games.
-While they have taken steps to address these issues, they still persist to some degree.
-By blocking Riot Games using Pi-hole, you can choose to avoid interacting with these communities altogether.
+Another reason to block Riot Games with Pi-hole is to avoid their toxic player communities.
+Although they've implemented measures to address harassment and other negative behaviors, they still exist to some extent.
+By blocking Riot Games, you can choose to steer clear of these communities entirely and have a more positive online experience.
 
-Third, blocking Riot Games using Pi-hole can help reduce the amount of distractions and time-wasting activities in your life.
-Video games can be addictive, and many people find themselves spending hours playing these games without realizing how much time has passed.
-By blocking Riot Games, you can remove the temptation to play these games and use your time for more productive activities.
+Finally, using Pi-hole to block Riot Games can help curb distractions and time-wasting activities.
+Video games can be addictive, and many players find themselves losing track of time while immersed in gameplay.
+By removing the temptation to play these games, you can focus on more productive activities and take control of your online experience.
 
-In conclusion, while Riot Games and their games can be enjoyable and entertaining, there are several reasons why you may want to consider blocking them using Pi-hole.
-Whether it is due to concerns over data collection, toxic communities, or time-wasting activities, Pi-hole can help you take control of your online experience and ensure that you are only interacting with content that aligns with your values and priorities.
+In summary, Riot Games and their games are fantastic sources of entertainment, but if you're looking to safeguard your online privacy, avoid toxic communities, or reduce time spent gaming, using Pi-hole to block Riot Games is a wise choice.
+With Pi-hole, you can control your online experience and only engage with content that aligns with your values and priorities.
 
 ## 🐈 Thank you for reading
 If you found this repository useful or interesting, please consider starring it to show your support!

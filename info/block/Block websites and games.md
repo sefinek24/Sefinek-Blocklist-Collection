@@ -3,7 +3,7 @@ Blocking access to certain services, particularly
 [TikTok](../Why%20should%20I%20block%20TikTok.md), [Snapchat](../Why%20should%20I%20block%20Snapchat.md), [Omegle](../Why%20should%20I%20block%20Omegle.md), [Riot Games](../Why%20should%20I%20block%20Riot%20Games.md), [Valorant](../Why%20should%20I%20block%20Valorant.md), and [League of Legends](../Why%20should%20I%20block%20LoL.md),
 is **widely recommended** to enhance online safety and prevent potential risks such as **inappropriate content**, **cyberbullying**, and **data privacy concerns**.
 
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
+Please note that the following list of URLs available for blocking in Pi-hole may not be comprehensive.
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
@@ -50,11 +50,15 @@ Below is a list of associated domains that you can block:
   - content.valorant-api.com<br><br>
   > 📝 **Note:** Valorant is a popular online multiplayer game produced by Riot Games. [Read more »](../Why%20should%20I%20block%20Valorant.md)
 
-Blocking these domains can be an effective way to prevent users on your network from accessing these websites. However, it's important to note that blocking these domains will not completely prevent access to these websites, as they may be accessible through other domains or IP addresses. Additionally, blocking access to certain websites may not be effective in all situations, and it's always a good idea to educate yourself and others about online safety and responsible internet use.
+Blocking access to certain domains can be an effective way to prevent users on your network from accessing specific websites.
+However, it's important to note that blocking these domains will not completely prevent access to the websites, as they may be accessible through other domains or IP addresses.
+Additionally, blocking access to certain websites may not be effective in all situations, and it's always a good idea to educate yourself and others about online safety and responsible internet use.
 
-It's also important to consider the reasons why you may want to block these domains. Blocking access to certain websites may be appropriate in some situations, but in other situations it may be better to use other strategies to address concerns about inappropriate content, cyberbullying, or other online safety issues.
+It's also important to consider the reasons why you may want to block these domains.
+While blocking access to certain websites may be appropriate in some situations, in other situations it may be better to use other strategies to address concerns about inappropriate content, cyberbullying, or other online safety issues.
 
-Blocking access to specific domains can be a good first step, but there are other measures you can take to further enhance online safety. For example, you can use content filters and parental controls, educate yourself and others about online safety and responsible internet use, and monitor internet activity to identify potential issues.
+Blocking access to specific domains can be a good first step, but there are other measures you can take to further enhance online safety.
+For example, you can use content filters and parental controls, educate yourself and others about online safety and responsible internet use, and monitor internet activity to identify potential issues.
 
 ## 🐈 Thank you for reading
 By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.

@@ -16,15 +16,15 @@
 </div>
 
 ## 📝 Information
-I use this list every day on my Pi-hole (Raspberry Pi 4), and I haven't encountered any false positives.
-It's important to keep checking this repository regularly to stay up-to-date with new links or potential changes.
+I use this list every day on my Pi-hole (Raspberry Pi 4 B & HP T630), and I haven't encountered any false positives.
+It's important to regularly check this repository for updates and potential changes.
 You can also access my official CDN by clicking on this [link](https://cdn.sefinek.net).
 
-If you have additional domains that you believe should be included in this list, please feel free to contribute by submitting a [Pull request](https://github.com/sefinek24/PiHole-Blocklist-Collection/pulls).
-However, please note that while this blocklist can enhance your privacy and security, it may also inadvertently block legitimate content or services.
+If you have additional domains that you think should be added to this list, please contribute by submitting a [Pull request](https://github.com/sefinek24/PiHole-Blocklist-Collection/pulls).
+However, please note that while this blocklist can improve your privacy and security, it may also unintentionally block legitimate content or services.
 Therefore, please use it at your own risk.
 
-⭐ If you found this repository useful or interesting, please consider starring it to show your support!  
+⭐ If you found this repository helpful or interesting, please consider giving it a star to show your support!
 👋 Have fun and stay safe! o(>ω<)o
 
 ## ✨ Main block list

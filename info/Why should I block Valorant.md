@@ -1,14 +1,12 @@
 ## 🤔 Why should I block Valorant?
-Valorant is a popular first-person shooter game developed by Riot Games, which was released in 2020.
-The game has gained a large following since its release and has become a significant part of the esports scene.
-However, some users may want to block Valorant in their [Pi-hole](./What%20is%20Pi-hole.md) for various reasons.
+Valorant is a first-person shooter game developed by Riot Games that was released in 2020.
+It has gained a large following and become a significant part of the esports scene.
+However, some users may want to block Valorant on their [Pi-hole](./What%20is%20Pi-hole.md) for various reasons.
 In this response, we will discuss what Valorant is, why people may want to block it, and how to block it in Pi-hole.
 
-Valorant is a free-to-play multiplayer first-person shooter game that is similar to games like Counter-Strike: Global Offensive and Overwatch.
+Valorant is a free-to-play multiplayer first-person shooter game that is similar to games such as Counter-Strike: Global Offensive and Overwatch.
 The game is set in a near-future world where agents with unique abilities battle it out in 5v5 matches.
 The game has a heavy focus on tactics and strategy, and each agent has their unique abilities, making it crucial to build a team that can complement each other's strengths and weaknesses.
-
-Now, let's discuss why someone may want to block Valorant in their Pi-hole.
 
 One of the main reasons why some people may choose to block Valorant is because of its anti-cheat software called Vanguard.
 This software runs in the background while you play the game and has full kernel-level access to your computer, which means it can monitor everything you do on your device.
