@@ -3,6 +3,7 @@
     <h1>
         ✋ Best Block List Collection<br> for Pi-hole
     </h1>
+    ^ outdated ^<br>
     <img src="images/adlists.png" alt="Domains on Adlists">
     <br><br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
