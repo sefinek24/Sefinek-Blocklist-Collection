@@ -24,8 +24,11 @@ If you have additional domains that you think should be added to this list, plea
 However, please note that while this blocklist can improve your privacy and security, it may also unintentionally block legitimate content or services.
 Therefore, please use it at your own risk.
 
-⭐ **If you found this repository helpful or interesting, please consider giving it a star to show your support!**  
-👋 **Have fun and stay safe!** o(>ω<)o
+<div align="center">
+    ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b>
+    <br>
+    👋 <b>Have fun and stay safe!</b> o(>ω<)o
+</div>
 
 ## ✨ Main block list
 - [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
