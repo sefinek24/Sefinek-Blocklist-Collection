@@ -1,5 +1,6 @@
 # 🔠 Regex filters provided by [MMotti](https://github.com/mmotti)
 
+
 ## 📋 Main regular expressions:
 ```regexp
 ^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
@@ -21,6 +22,7 @@
 
 ## 🗑️ Removed regular expressions:
 1. `^count(ers?)?[0-9]*[_.-]` - This expression has been removed because it was blocking access to [counter-strike.net](https://www.counter-strike.net).
+
 
 <h3>
     <a href="../../README.md">« Go to main page</a>
