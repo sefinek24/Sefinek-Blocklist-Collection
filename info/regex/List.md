@@ -33,7 +33,7 @@
     <img src="../../images/regex/main/9.png" alt="Main"><br>
     <img src="../../images/regex/main/10.png" alt="Main"><br>
     <img src="../../images/regex/main/11.png" alt="Main"><br>
-    <img src="../../images/regex/main/12.png" alt="Main">
+    <img src="../../images/regex/main/12.png" alt="Main"><br>
     <img src="../../images/regex/main/13.png" alt="Main">
 </div>
 
