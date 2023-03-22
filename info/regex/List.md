@@ -28,9 +28,9 @@
     <img src="../../images/regex/main/4.png" alt="Main">
     <img src="../../images/regex/main/5.png" alt="Main">
     <img src="../../images/regex/main/6.png" alt="Main">
-    <img src="../../images/regex/main/7.png" alt="Main">
+    <img src="../../images/regex/main/7.png" alt="Main"><br>
     <img src="../../images/regex/main/8.png" alt="Main"><br>
-    <img src="../../images/regex/main/9.png" alt="Main">
+    <img src="../../images/regex/main/9.png" alt="Main"><br>
     <img src="../../images/regex/main/10.png" alt="Main"><br>
     <img src="../../images/regex/main/11.png" alt="Main"><br>
     <img src="../../images/regex/main/12.png" alt="Main">
