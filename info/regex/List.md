@@ -46,6 +46,6 @@
 </div>
 
 <h3>
-    <div style="float:left;"><a href="Index.md">« Go back - Index.md</a></div>
-    <div style="float:right;"><a href="https://extendsclass.com/regex-tester.html">Online Regex tester and visualizer »</a></div>
+    <a href="Index.md">« Go back - Index.md</a>
+    <div align="right"><a href="https://extendsclass.com/regex-tester.html">Online Regex tester and visualizer »</a></div>
 </h3>
