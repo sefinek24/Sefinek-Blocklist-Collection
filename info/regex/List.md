@@ -1,4 +1,6 @@
-# 🔠 Regex filters provided by [MMotti](https://github.com/mmotti)
+<h1 align="center">
+    🔠 Regex filters provided by <a href="https://github.com/mmotti">MMotti</a>
+</h1>
 
 
 ## 📋 Main regular expressions:
