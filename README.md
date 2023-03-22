@@ -1,4 +1,4 @@
-<img width="42%" align="right" src="images/kitten.png" alt="Gigachad kitten">
+<img width="41%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
     <h1>
         ✋ Best Block List Collection<br> for Pi-hole
@@ -11,7 +11,7 @@
 <br>
 <div align="center">
     <a href="https://sefinek.net/pihole-blocklist-customization" title="PiHole Blocklist Generator - Sefinek Official Website">
-        <img src="images/generator.png" width="95%" alt="">
+        <img src="images/generator.png" width="94%" alt="">
     </a>
 </div>
 
