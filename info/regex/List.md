@@ -21,25 +21,29 @@
 ```
 
 ## 🤔 Explanation
-<img src="../../images/regex/main/1.png" alt="Main">
-<img src="../../images/regex/main/2.png" alt="Main">
-<img src="../../images/regex/main/3.png" alt="Main">
-<img src="../../images/regex/main/4.png" alt="Main">
-<img src="../../images/regex/main/5.png" alt="Main">
-<img src="../../images/regex/main/6.png" alt="Main">
-<img src="../../images/regex/main/7.png" alt="Main">
-<img src="../../images/regex/main/8.png" alt="Main">
-<img src="../../images/regex/main/9.png" alt="Main">
-<img src="../../images/regex/main/10.png" alt="Main">
-<img src="../../images/regex/main/11.png" alt="Main">
-<img src="../../images/regex/main/12.png" alt="Main">
-<img src="../../images/regex/main/13.png" alt="Main">
+<div align="center">
+    <img src="../../images/regex/main/1.png" alt="Main">
+    <img src="../../images/regex/main/2.png" alt="Main">
+    <img src="../../images/regex/main/3.png" alt="Main">
+    <img src="../../images/regex/main/4.png" alt="Main">
+    <img src="../../images/regex/main/5.png" alt="Main">
+    <img src="../../images/regex/main/6.png" alt="Main">
+    <img src="../../images/regex/main/7.png" alt="Main">
+    <img src="../../images/regex/main/8.png" alt="Main">
+    <img src="../../images/regex/main/9.png" alt="Main">
+    <img src="../../images/regex/main/10.png" alt="Main">
+    <img src="../../images/regex/main/11.png" alt="Main">
+    <img src="../../images/regex/main/12.png" alt="Main">
+    <img src="../../images/regex/main/13.png" alt="Main">
+</div>
 
 ## 🗑️ Removed regular expressions:
 1. `^count(ers?)?[0-9]*[_.-]` - This expression has been removed because it was blocking access to [counter-strike.net](https://www.counter-strike.net).
 
 ## 🤔 Explanation
-<img src="../../images/regex/removed/1.png" alt="Removed">
+<div align="center">
+    <img src="../../images/regex/removed/1.png" alt="Removed">
+</div>
 
 <h3>
     <a href="../../README.md">« Go to main page</a>
