@@ -58,7 +58,7 @@ Therefore, please use it at your own risk.
 
 ## 🔧 Regex list
 <h3 align="center">
-    <a href="info/Regex.md">
+    <a href="info/regex/Index.md">
         View the regex list and read additional information »
     </a>
 </h3>
