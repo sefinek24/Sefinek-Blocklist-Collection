@@ -4,7 +4,7 @@
         ✋ Best Block List Collection<br> for Pi-hole
     </h1>
     <img src="images/adlists.png" alt="Domains on Adlists"><br>
-    <br><br>
+    <br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
 </div>
