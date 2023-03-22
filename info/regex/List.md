@@ -45,7 +45,7 @@
     <img src="../../images/regex/removed/1.png" alt="Removed">
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-  <h3 align="left"><a href="Index.md">« Go back - Index.md</a></h3>
-  <h3 align="right"><a href="https://extendsclass.com/regex-tester.html">Online Regex tester and visualizer »</a></h3>
-</div>
+<h3 style="display: flex; justify-content: space-between;">
+  <div align="left"><a href="Index.md">« Go back - Index.md</a></div>
+  <div align="right"><a href="https://extendsclass.com/regex-tester.html">Online Regex tester and visualizer »</a></div>
+</h3>
