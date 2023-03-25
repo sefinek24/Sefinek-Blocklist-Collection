@@ -28,9 +28,9 @@ However, please note that while this blocklist can improve your privacy and secu
 Therefore, please use it at your own risk.
 
 <div align="center">
-    ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b>
+    ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b> ⭐
     <br>
-    👋 <b>Have fun and stay safe!</b> o(>ω<)o
+    👋 <b>Have fun and stay safe!</b> o(>ω<)o 👋
 </div>
 
 ## ✨ Main block list
