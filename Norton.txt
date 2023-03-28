@@ -21,3 +21,9 @@ Date & Time,Risk,Activity,Status,Recommended Action,IPS Alert Name,Default Actio
 19.03.2023 15:30:01,Medium,An intrusion attempt by rwgyxqmfbhamol.xyz was blocked.,Blocked,No Action Required,Malicious Site: Malicious Domain Request 108,No Action Required,No Action Required,"rwgyxqmfbhamol.xyz (139.45.197.153, 443)",https://rwgyxqmfbhamol.xyz,"DESKTOP (192.168.2.100, 1524)",rwgyxqmfbhamol.xyz (139.45.197.153),"TCP, https"
 Network traffic from <b>https://rwgyxqmfbhamol.xyz</b> matches the signature of a known attack.
 The attack was resulted from \DEVICE\HARDDISKVOLUME3\PROGRAM FILES\BRAVESOFTWARE\BRAVE-BROWSER\APPLICATION\BRAVE.EXE.
+
+Category: Intrusion Prevention
+Date & Time,Risk,Activity,Status,Recommended Action,IPS Alert Name,Default Action,Action Taken,Attacking Computer,Attacker URL,Destination Address,Source Address,Traffic Description
+28.03.2023 12:51:18,Medium,An intrusion attempt by 139.45.197.154 was blocked.,Blocked,No Action Required,Malicious Site: Malicious Domain Request 108,No Action Required,No Action Required,"139.45.197.154, 443",https://lugjdylyqc.xyz,"DESKTOP (192.168.2.100, 55249)",139.45.197.154,"TCP, https"
+Network traffic from <b>https://lugjdylyqc.xyz</b> matches the signature of a known attack.
+The attack was resulted from \DEVICE\HARDDISKVOLUME3\PROGRAM FILES\BRAVESOFTWARE\BRAVE-BROWSER\APPLICATION\BRAVE.EXE.
