@@ -1,16 +1,17 @@
 ## 🤖 How to Install Unbound for Pi-hole?
-If you want to improve the performance and security of your [Pi-hole](../info/What%20is%20Pi-hole.md) setup, you can install Unbound, a DNS resolver that provides more advanced features than the default DNS server used by Pi-hole.
+If you want to improve the performance and security of your [Pi-hole](../info/What%20is%20Pi-hole.md)
+setup, you can install Unbound, a DNS resolver that provides more advanced features than the default DNS server used by Pi-hole.
 
 > [Unbound - Pi-hole documentation](https://docs.pi-hole.net/guides/dns/unbound/)
 
 ## ⭐ Prerequisites
 Before you start the installation process, make sure you have:
-- A Raspberry Pi or something else with running Pi-hole
+- A Raspberry Pi or another device running Pi-hole
 - Access to the terminal or SSH
-- Basic knowledge of command-line interface (CLI)
+- Basic knowledge of the command-line interface (CLI)
 
 ## » Step 1: Update Your System
-Make sure your system is up-to-date by running the following commands:
+Ensure your system is up-to-date by running the following commands:
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -18,13 +19,12 @@ sudo apt upgrade
 
 ## » Step 2: Install Unbound
 To install Unbound, run the following command:
-
 ```bash
 sudo apt install unbound
 ```
 
-## » Step 3: Configure Pi-hole to Use Unbound
-Now, you need to configure Unbound to use root hints to resolve domain names.
+## » Step 3: Configure Pi-hole to use Unbound
+Next, you need to configure Pi-hole to use Unbound as its DNS resolver.
 1. Open the Pi-hole configuration file by running the following command:
     ```bash
     sudo nano /etc/pihole/setupVars.conf
@@ -36,7 +36,7 @@ Now, you need to configure Unbound to use root hints to resolve domain names.
 3. Save the changes and exit the editor by pressing `Ctrl+X`, then `Y`, and then `Enter`.
 
 ## » Step 4: Configure Unbound
-1. Now that Unbound is installed, you need to configure Pi-hole to use it as the DNS resolver.
+1. With Unbound installed, you need to configure it to work with Pi-hole by running the following command:
     ```bash
     sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf
     ```
@@ -123,11 +123,10 @@ To verify that Pi-hole is using Unbound as the DNS resolver, run the following c
 pihole -d
 ```
 
-This command will generate a debug log. Look for the following line in the log:
+This command generates a debug log. Look for the following line in the log:
 ```yaml
 [✓] DNS service is running
 ```
-
 If you see this line, Pi-hole is using Unbound as the DNS resolver.
 
 ### 🎉 Congratulations! You have successfully installed Unbound for Pi-hole.
