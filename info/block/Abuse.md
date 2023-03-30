@@ -12,6 +12,6 @@ Here are some sample URLs with a list of domains:
 Blocking these domains with Pi-hole can help improve the security and privacy of your devices and network.
 
 ## 🐈 Thank you for reading
-By adding [my list](../../List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
-If you found this repository useful or interesting, please consider starring it to show your support!
-Let me know if you have any other questions or if there's anything else I can help you with.
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../List.md).
+If you found this information helpful, please consider supporting this repository by starring it.
+If you have any questions or need further assistance, please don't hesitate to ask.

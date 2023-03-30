@@ -1,5 +1,5 @@
-## 🚫 AMP domains
-AMP (Accelerated Mobile Pages) is an open-source framework developed by Google to speed up the loading of mobile web pages. 
+## ✅ AMP domains
+AMP (Accelerated Mobile Pages) is an open-source framework developed by Google to speed up the loading of mobile web pages.
 The technology is designed to deliver content quickly on mobile devices by removing unnecessary features and optimizing the HTML code.
 
 When a web page is published in AMP format, it uses a different set of HTML tags and a streamlined version of CSS.
@@ -11,18 +11,14 @@ Publishers can also choose to serve their AMP pages through a Content Delivery N
 However, some users may prefer to block access to AMP pages for various reasons, such as privacy concerns or to reduce data usage.
 If you want to block access to AMP pages on your network, you can add the AMP domains to your Pi-hole blocklist to prevent your devices from loading the content.
 
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
-These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
-Please use this list as a reference and consider other measures to further enhance online safety.
-
 Here are some sample URLs with a list of domains:
 - https://ente.dev/api/blocklist/google-amp
 - https://ente.dev/api/blocklist/google-amp-hosts
 - https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
 
-By blocking these domains with Pi-hole, you can prevent your data from being shared with third-party companies without your consent, and also improve your browsing experience by avoiding stripped-down web pages.
+By blocking these domains with Pi-hole, you can prevent your data from being shared with third-party companies without your consent and also improve your browsing experience by avoiding stripped-down web pages.
 
 ## 🐈 Thank you for reading
-By adding [my list](../../List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
-If you found this repository useful or interesting, please consider starring it to show your support!
-Let me know if you have any other questions or if there's anything else I can help you with.
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../List.md).
+If you found this information helpful, please consider supporting this repository by starring it.
+If you have any questions or need further assistance, please don't hesitate to ask.
