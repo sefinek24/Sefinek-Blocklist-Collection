@@ -1,7 +1,7 @@
 <img width="41%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
     <h1>
-        ✋ Best Block List Collection<br> for Pi-hole
+        ✋ The best BlockList Collection<br> for Pi-hole
     </h1>
     <img src="images/adlists.png" alt="Domains on Adlists">
     <br>
@@ -36,7 +36,7 @@ Therefore, please use it at your own risk.
 ## ✨ Main block list
 - [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
-- [**Analytics & Telemetry:**](info/block/Analytics%20and%20telemetry.md) Blocks domains that track user activity for analytics purposes.
+- [**Telemetry & Tracking:**](info/block/Telemetry%20and%20Tracking.md) Blocks domains that track user activity for analytics purposes.
 - [**Block Websites & Games:**](info/block/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
 - [**CryptoJacking:**](info/block/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
 - [**Dating Services:**](info/block/Dating%20services.md) Blocks domains of dating websites and apps.
@@ -54,7 +54,6 @@ Therefore, please use it at your own risk.
 - [**Scam:**](info/block/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.
 - [**Spam mails:**](info/block/Spam%20mails.md) Blocks domains that send unsolicited email.
 - [**Spyware:**](info/block/Spyware.md) Blocks domains that distribute spyware or adware.
-- [**Tracking:**](info/block/Tracking.md) Blocks domains that track user activity without user consent.
 - [**Useless websites:**](info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
 - [**YouTube & mobile ads etc.:**](info/block/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 

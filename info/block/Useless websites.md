@@ -4,20 +4,10 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further enhance online safety.
 
 ## 🗑️ Pointless/Unused Domains
-Here's a sample list of useless domains that you can block in [Pi-hole](../What%20is%20Pi-hole.md).
-These are sites that are typically not needed for browsing the web, and blocking them can improve page load speed and device performance:
-
-- 0.r.msn.com
-- a.ads1.msn.com
-- a.ads2.msn.com
-- adnxs.com
-- b.scorecardresearch.com
-- c1.adform.net
-- cm.g.doubleclick.net
-- fonts.googleapis.com
-- pagead2.googlesyndication.com
+Here are some sample URLs with a list of domains:
+- https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
+By adding [my list](../../List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 If you found this repository useful or interesting, please consider starring it to show your support!
 Let me know if you have any other questions or if there's anything else I can help you with.

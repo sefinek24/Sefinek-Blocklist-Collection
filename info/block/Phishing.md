@@ -6,17 +6,13 @@ Please note that the following is a list of URLs available for blocking in Pi-ho
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-Here are some examples of phishing domains that you can block in [Pi-hole](../What%20is%20Pi-hole.md):
-- apple-id-login.com
-- chasebank-login.com
-- facebook-account-verification.com
-- google-security-center.com
-- microsoft-365-login.com
-- netflix-membership-confirmation.com
-- paypal-login-verification.com
-- twitter-verification-center.com
+Here are some sample URLs with a list of domains:
+- https://blocklistproject.github.io/Lists/phishing.txt
+- https://phishing.army/download/phishing_army_blocklist_extended.txt
+- https://v.firebog.net/hosts/RPiList-Phishing.txt
+- https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
+By adding [my list](../../List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 If you found this repository useful or interesting, please consider starring it to show your support!
 Let me know if you have any other questions or if there's anything else I can help you with.

@@ -7,23 +7,16 @@ Please note that the following list of URLs available for blocking in Pi-hole ma
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-If you want to block access to specific websites on your network, you can use [Pi-hole](../What%20is%20Pi-hole.md) to block certain domains.
+If you want to block access to specific websites on your network, you can use Pi-hole to block certain domains.
 Below is a list of associated domains that you can block:
 
 - TikTok
-  - tiktok.com
-  - tiktokcdn.com
-  - shop.tiktok.com
-  - musical.ly
-  - p16-va.tiktokcdn.com<br><br>
+  - https://blocklistproject.github.io/Lists/tiktok.txt
+  - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
+  - https://ente.dev/api/blocklist/tiktok
   > 📝 **Note:** TikTok is a popular social media app that has been the subject of controversy due to concerns over data privacy and security. Some users may choose to block access to TikTok on their network for these reasons. [Read more »](../Why%20should%20I%20block%20TikTok.md)
 - Snapchat
-  - snapchat.com
-  - sc-analytics.appspot.com
-  - snapads.com
-  - sc-cdn.net
-  - snap.com
-  - snap.com.edgesuite.net<br><br>
+  - https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-snapchat.txt
   > 📝 **Note:** Snapchat is a popular messaging app that allows users to send photos and videos that disappear after a set amount of time. Some users may choose to block access to Snapchat on their network due to concerns over inappropriate content or cyberbullying. [Read more »](../Why%20should%20I%20block%20Snapchat.md)
 - Omegle
   - omegle.com
@@ -31,23 +24,13 @@ Below is a list of associated domains that you can block:
   - lady.omegle.com<br><br>
   > 📝 **Note:** Omegle is a website that allows users to chat with strangers anonymously. Some users may choose to block access to Omegle on their network due to concerns over inappropriate content or potentially dangerous interactions. [Read more »](../Why%20should%20I%20block%20Omegle.md)
 - Riot Games
-  - riotgames.com
-  - lol.secure.dyn.riotcdn.net
-  - auth.riotgames.com<br><br>
+  - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/riotgames.txt
   > 📝 **Note:** Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant. [Read more »](../Why%20should%20I%20block%20Riot%20Games.md)
 - League of Legends
-  - leagueoflegends.com
-  - s.lolstatic.com
-  - loldrop.gg
-  - lol.secure.dyn.riotcdn.net
-  - signup.leagueoflegends.com
-  - play.eune.leagueoflegends.com
-  - chat.euw1.lol.riotgames.com<br><br>
+  - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/league-of-legends.txt
   > 📝 **Note:** League of Legends is a popular online multiplayer game produced by Riot Games. [Read more »](../Why%20should%20I%20block%20LoL.md)
 - Valorant
-  - playvalorant.com
-  - valorant-api.com
-  - content.valorant-api.com<br><br>
+  - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/valorant.txt
   > 📝 **Note:** Valorant is a popular online multiplayer game produced by Riot Games. [Read more »](../Why%20should%20I%20block%20Valorant.md)
 
 Blocking access to certain domains can be an effective way to prevent users on your network from accessing specific websites.
@@ -61,6 +44,6 @@ Blocking access to specific domains can be a good first step, but there are othe
 For example, you can use content filters and parental controls, educate yourself and others about online safety and responsible internet use, and monitor internet activity to identify potential issues.
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
+By adding [my list](../../List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 If you found this repository useful or interesting, please consider starring it to show your support!
 Let me know if you have any other questions or if there's anything else I can help you with.

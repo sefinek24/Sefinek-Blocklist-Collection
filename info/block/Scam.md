@@ -10,19 +10,14 @@ Please note that the following is a list of URLs available for blocking in Pi-ho
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-Here's a sample list of scam domains that you can block in [Pi-hole](../What%20is%20Pi-hole.md):
-- secureincomenetwork.com
-- myecom.club
-- homecareer.online
-- jobrize.com
-- revenuejunction.com
-- quickwork.online
-- moneyjob.online
-- sfi4.com
+Here are some sample URLs with a list of domains:
+- https://blocklistproject.github.io/Lists/scam.txt
+- https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
+- https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
 
 Please note that while blocking these domains may be an effective way to limit exposure to scam websites, it is important to also educate yourself on how to identify and avoid scams.
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
+By adding [my list](../../List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 If you found this repository useful or interesting, please consider starring it to show your support!
 Let me know if you have any other questions or if there's anything else I can help you with.

@@ -7,20 +7,10 @@ Please note that the following is a list of URLs available for blocking in Pi-ho
 These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
 Please use this list as a reference and consider other measures to further enhance online safety.
 
-Here is a sample list of ransomware domains to block in [Pi-hole](../What%20is%20Pi-hole.md):
-- 0day.kiev.ua
-- 17g1yytnmqb6gdcg.onion
-- 1ms.org
-- anarchyte.ch
-- bitcoin-escrow-s2civcid.onion
-- buybitcoins.site
-- centralshop.cn
-- cvvshop.lv
-- darkweb.wtf
-- drugsbitcoin.com
-- en35tuzqmn4lofbk.onion.pet
+Here are some sample URLs with a list of domains:
+- https://blocklistproject.github.io/Lists/ransomware.txt
 
 ## 🐈 Thank you for reading
-By adding [my list](https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
+By adding [my list](../../List.md) of URLs to your [Pi-hole](../What%20is%20Pi-hole.md), you can block the listed domains.
 If you found this repository useful or interesting, please consider starring it to show your support!
 Let me know if you have any other questions or if there's anything else I can help you with.
