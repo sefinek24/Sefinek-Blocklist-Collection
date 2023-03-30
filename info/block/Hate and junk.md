@@ -22,7 +22,7 @@ By following these guidelines and encouraging others to do the same, we can work
 1. 🔎 **Be aware of your online presence and how you engage with others.**
 Our actions online can have real-world consequences, so it is important to treat others with respect and kindness, and avoid posting or sharing negative comments or content that could contribute to hate or division.
 2. 🚫 **Avoid engaging with hateful or offensive content online,**
-including comments, posts, and messages. When we engage with this kind of content, we inadvertently give it more attention and legitimacy. Instead, report it to the relevant platform or authority so they can take appropriate action.
+including comments, posts, and messages. When we engage with this kind of content, we inadvertently give it more attention and legitimacy. Instead, report it to the relevant platform or authority, so they can take appropriate action.
 3. 🗣️ **Speak up against hate and support marginalized communities.**
 If you see or hear someone spreading hate or discrimination online, don't stay silent. Use your platform and voice to speak out against it, and show your support for those who may be targeted by hateful messages.
 4. 📝 **Protect your personal information and privacy online** by using strong passwords, avoiding sharing sensitive information, and regularly checking your security settings. This can help prevent your personal information from falling into the wrong hands, and can reduce your risk of being targeted by online harassment or scams.
