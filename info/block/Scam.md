@@ -19,5 +19,5 @@ Please note that while blocking these domains may be an effective way to limit e
 
 ## 🐈 Thank you for reading
 If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../List.md).
-If you found this information helpful, please consider supporting this repository by starring it.
-If you have any questions or need further assistance, please don't hesitate to ask.
+Please consider supporting this repository by starring it if you found this information helpful.
+If you have any questions or need further assistance, don't hesitate to ask.
