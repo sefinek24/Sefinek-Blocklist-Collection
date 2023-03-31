@@ -1,10 +1,6 @@
 ## 🎣 Phishing Domains
-Phishing domains are websites that are designed to look like legitimate websites, with the intention of tricking users into entering their personal information, such as usernames, passwords, and credit card numbers.
-These websites often use social engineering techniques to convince users that they are legitimate, such as creating a sense of urgency or pretending to be a trustworthy organization.
-
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
-These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
-Please use this list as a reference and consider other measures to further enhance online safety.
+Phishing domains are websites designed to mimic legitimate websites to deceive users into sharing sensitive information such as usernames, passwords, and credit card numbers.
+Phishing websites often use social engineering techniques, such as creating a sense of urgency or pretending to be a trustworthy organization, to trick users into divulging their personal information.
 
 Here are some sample URLs with a list of domains:
 - https://blocklistproject.github.io/Lists/phishing.txt

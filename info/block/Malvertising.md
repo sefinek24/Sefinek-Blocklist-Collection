@@ -1,13 +1,12 @@
 ## 📝 Information
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
-These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
-Please use this list as a reference and consider other measures to further enhance online safety.
+Please note that the following is a list of URLs that can be used to block certain domains in Pi-hole.
+However, this list may not be exhaustive, and users should consider additional measures to enhance online safety.
 
 ## 🚫 Domains with Malicious Ads
-Malicious ads, also known as malvertising, are online ads that can infect devices with malware, ransomware, or other forms of cyber threats.
-These ads can be found on many legitimate websites, and can be difficult to identify.
+Malicious ads, also known as malvertising, can infect devices with malware, ransomware, or other cyber threats.
+Unfortunately, these ads can be found on many legitimate websites and can be difficult to identify.
 
-Here are some sample URLs with a list of domains:
+The following URLs contain lists of domains that you may wish to block in order to improve online safety:
 - https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 - https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list
 - https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt

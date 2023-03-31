@@ -1,10 +1,12 @@
 ## 📃 Information
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
-These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
-Please use this list as a reference and consider other measures to further enhance online safety.
+Here is some additional information on pointless/unused domains:
+
+- Pointless domains refer to websites that do not serve any significant purpose, contain no valuable content or services, and are often created just for the purpose of generating ad revenue or other forms of profit.
+- Unused domains refer to registered domains that are not currently being used for any website or online service.
+- Pointless and unused domains can have a negative impact on the overall health and security of the internet by clogging up search results, serving as a source of spam or malware, and contributing to overall digital clutter.
 
 ## 🗑️ Pointless/Unused Domains
-Here are some sample URLs with a list of domains:
+Below are some example URLs with lists of pointless/unused domains that you may find helpful:
 - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
 
 ## 🐈 Thank you for reading

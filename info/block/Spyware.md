@@ -1,12 +1,14 @@
 ## 🔍 Spyware Domains
-Spyware domains are used by malicious actors to track user behavior, collect personal data, and perform other malicious activities without the user's knowledge or consent.
+Spyware domains are websites or internet domains that are used by malicious actors to track user behavior, collect personal data, and perform other malicious activities without the user's knowledge or consent.
 By blocking these domains with Pi-hole, you can improve the privacy and security of your device.
 
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
-These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
-Please use this list as a reference and consider other measures to further enhance online safety.
+Please note that the list of URLs available for blocking in Pi-hole is constantly changing and evolving, as new domains are added to the list as they are discovered.
+Therefore, the list of URLs provided in this article may not be comprehensive.
 
-Here are some sample URLs with a list of domains:
+These URLs are associated with certain domains that are known to engage in malicious activities, and blocking them on your network can help improve online safety and reduce potential risks.
+However, it is important to note that blocking these domains is only one of many measures that can be taken to enhance online safety.
+
+Here is a sample URL that contains a list of domains that can be blocked using Pi-hole:
 - https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
 
 ## 🐈 Thank you for reading

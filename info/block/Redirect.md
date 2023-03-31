@@ -1,15 +1,14 @@
 ## 📃 Information
-Please note that the following is a list of URLs available for blocking in Pi-hole, but it may not be comprehensive.
-These URLs are associated with certain domains that you may wish to block on your network to improve online safety and reduce potential risks.
-Please use this list as a reference and consider other measures to further enhance online safety.
+Here is a list of URLs containing domains that can be blocked in Pi-hole to improve online safety and reduce potential risks.
+However, please note that this list may not be exhaustive.
+We recommend using this list as a reference and considering other measures to further enhance online safety.
 
 ## 🌌 Redirect Domains
-Here's a list of redirect domains that you can block in Pi-hole.
-These are URLs that redirect the user from one web page to another.
-They are often used by advertisers or people trying to trick users into clicking on suspicious or dangerous links.
+This is a list of redirect domains that can be blocked in Pi-hole.
+These are URLs that redirect the user from one web page to another, often used by advertisers or people trying to trick users into clicking on suspicious or dangerous links.
 By blocking these domains with Pi-hole, you can help protect your device from malware and scams.
 
-Here are some sample URLs with a list of domains:
+Here is a sample URL that contains a list of domains:
 - https://blocklistproject.github.io/Lists/redirect.txt
 
 ## 🐈 Thank you for reading
