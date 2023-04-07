@@ -35,7 +35,6 @@ https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/ri
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/web-attacks.txt
-https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-snapchat.txt
 https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp-hosts
 https://ente.dev/api/blocklist/tiktok
@@ -47,6 +46,7 @@ https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
+https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
 https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -127,5 +127,4 @@ https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt
 https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
 https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts
-https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
 ```
