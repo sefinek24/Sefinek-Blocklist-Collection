@@ -1,9 +1,11 @@
 <div align="center">
-    <h1>📥 Last update: 12.03.2023</h1>
-    [DD.MM.YYYY]
+    <h1>📥 Last list update: 29.03.2023 / DD.MM.YYYY</h1>
+    <p>
+        ⭐ <b>Mark this repository with a star if you find it useful.</b> ⭐
+    </p>
 </div>
 <h3 align="right">
-    <a href="https://sefinek.net/pihole-blocklist-customization">📝 Try blocklist generator on my website »</a>
+    <a href="https://sefinek.net/pihole-blocklist-customization">🌍 Try my blocklist generator on my website »</a>
 </h3>
 <br>
 
@@ -27,62 +29,63 @@ https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/gambling
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/league-of-legends.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/valorant.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/malicious-sites.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/phishing.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/porn.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/riotgames.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/web-attacks.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-snapchat.txt
 https://dbl.oisd.nl
-https://ente.dev/api/blocklist/google-amp
 https://ente.dev/api/blocklist/google-amp-hosts
-https://ente.dev/api/blocklist/suspicious
 https://ente.dev/api/blocklist/tiktok
 https://ente.dev/api/blocklist/tv
+https://github.com/chadmayfield/pihole-blocklists/raw/master/lists/pi_blocklist_porn_all.list
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 https://hole.cert.pl/domains/domains_hosts.txt
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
-https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
+https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&mimetype=plaintext
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
 https://phishing.army/download/phishing_army_blocklist_extended.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easylist.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
 https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt
-https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
-https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
-https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
-https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
-https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/Ad_filter_list_by_Disconnect.txt
-https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/KADhosts.txt
-https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/SmartTV_ads.txt
-https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easylist_host.txt
-https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
-https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
-https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
-https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
-https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams
-https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
 https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt
 https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains.24733
+https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
 https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CountryCodesLists/France.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList-Liste-FR.txt
+https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList.txt
+https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt
+https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
-https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
-https://raw.githubusercontent.com/hectorm/hmirror/master/data/spam404.com/list.txt
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adservers.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/Ad_filter_list_by_Disconnect.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easylist_host.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/NoTrack_Tracker_Blocklist.txt
+https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/SmartTV_ads.txt
 https://raw.githubusercontent.com/marktron/fakenews/master/fakenews
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt
 https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
@@ -91,10 +94,22 @@ https://raw.githubusercontent.com/neodevpro/neodevhost/master/host
 https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-omegle.txt
 https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-snapchat.txt
 https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt
+https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt
 https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt
+https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt
+https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
+https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
+https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams
+https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.2o7Net/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Risk/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/data/UncheckyAds/hosts
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+https://raw.githubusercontent.com/w13d/adblockListABP-PiHole/master/Spotify.txt
 https://raw.githubusercontent.com/xlimit91/xlimit91-block-list/master/blacklist.txt
-https://raw.githubusercontent.com/zangadoprojets/pi-hole-blocklist/main/Pornpages.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
 https://urlhaus.abuse.ch/downloads/hostfile
@@ -110,5 +125,7 @@ https://v.firebog.net/hosts/static/w3kbl.txt
 https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
 https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt
 https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
-https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser
+https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
+https://zerodot1.gitlab.io/CoinBlockerLists/hosts
+https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
 ```
