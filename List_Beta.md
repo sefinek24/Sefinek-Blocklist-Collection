@@ -11,6 +11,7 @@
 
 ```
 https://adaway.org/hosts.txt
+https://big.oisd.nl
 https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt
 https://blocklistproject.github.io/Lists/abuse.txt
 https://blocklistproject.github.io/Lists/ads.txt
@@ -35,7 +36,6 @@ https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/ri
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/web-attacks.txt
-https://dbl.oisd.nl
 https://ente.dev/api/blocklist/google-amp-hosts
 https://ente.dev/api/blocklist/tiktok
 https://ente.dev/api/blocklist/tv
@@ -46,8 +46,8 @@ https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt
 https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
 https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
-https://malware-filter.gitlab.io/malware-filter/phishing-filter-hosts.txt
 https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt
+https://nsfw.oisd.nl
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
 https://phishing.army/download/phishing_army_blocklist_extended.txt
@@ -72,6 +72,7 @@ https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.tx
 https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
 https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
