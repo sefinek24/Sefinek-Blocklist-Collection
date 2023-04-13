@@ -109,7 +109,6 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Risk/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/data/UncheckyAds/hosts
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-https://raw.githubusercontent.com/w13d/adblockListABP-PiHole/master/Spotify.txt
 https://raw.githubusercontent.com/xlimit91/xlimit91-block-list/master/blacklist.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
