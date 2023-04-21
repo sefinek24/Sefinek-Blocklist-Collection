@@ -24,9 +24,9 @@ These are registered domains that are currently not being used in any website or
 While they may not necessarily be harmful, they can contribute to digital clutter and have a negative impact on the overall state and security of the internet.
 Unused domains can block search results, serve as a source of spam, or be susceptible to hijacking by cyber criminals for malicious purposes.
 
-> In conclusion, pointless/unused domains on the internet can have various negative impacts, ranging from spreading harmful content, promoting unethical practices, compromising security, and contributing to digital clutter.
-> It's important to be cautious while browsing the internet, report any suspicious websites, and seek help from qualified professionals if you encounter issues related to these domains.
-> Let's strive for a safer, more responsible online environment for everyone!
+In conclusion, pointless/unused domains on the internet can have various negative impacts, ranging from spreading harmful content, promoting unethical practices, compromising security, and contributing to digital clutter.
+It's important to be cautious while browsing the internet, report any suspicious websites, and seek help from qualified professionals if you encounter issues related to these domains.
+Let's strive for a safer, more responsible online environment for everyone!
 
 ## 🗑️ Pointless/Unused Domains
 Below are some example URLs with lists of pointless/unused domains that you may find helpful:
