@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>📥 Last list update: 13.04.2023 / DD.MM.YYYY</h1>
+    <h1>📥 Last list update: 02.05.2023 / DD.MM.YYYY</h1>
     <p>
         ⭐ <b>Mark this repository with a star if you find it useful.</b> ⭐
     </p>
@@ -26,6 +26,7 @@ https://blocklistproject.github.io/Lists/ransomware.txt
 https://blocklistproject.github.io/Lists/redirect.txt
 https://blocklistproject.github.io/Lists/scam.txt
 https://blocklistproject.github.io/Lists/tiktok.txt
+https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/ads-and-trackers.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/gambling.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/league-of-legends.txt
 https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/valorant.txt
@@ -49,7 +50,6 @@ https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
 https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt
 https://nsfw.oisd.nl
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
 https://phishing.army/download/phishing_army_blocklist_extended.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easylist.txt
 https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt
