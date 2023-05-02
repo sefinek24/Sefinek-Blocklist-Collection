@@ -18,6 +18,6 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 
 2. https://blocklistproject.github.io/Lists/ads.txt
    - **Modified version:** https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/blocklist/ads.txt
-   **Added:** No additional domains have been added to this blocklist.
+   - **Added:** No additional domains have been added to this blocklist.
    - **Removed:**
    The `arc.msn.com` domain has been removed from the list as it is necessary to receive benefits from Xbox Game Pass.
