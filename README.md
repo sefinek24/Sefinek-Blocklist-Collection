@@ -21,9 +21,9 @@
 ## 📝 Information
 I use this list every day on my Pi-hole (Raspberry Pi 4 B & HP T630), and I haven't encountered any false positives.
 If I do encounter a false positive or misleading block, I will report it immediately to the list creator or update the list myself if it is mine.
-Some of the blocklists have been downloaded from other creators who were less interested in the repositories with blocklists, and I have modified them to remove false alarms and similar issues.
+Some of the blocklists have been downloaded from other creators who were less interested in the repositories with blocklists, and I have [modified](Modified%20lists.md) them to remove false alarms and similar issues.
 
-You can also use the list generator on my website. You will be able to select what specifically should be blocked.
+You can also use the list generator on [my website](https://sefinek.net). You will be able to select what specifically should be blocked.
 Just like with the standard list, you can be assured that every link within the list will work.
 
 It's important to regularly check this repository for updates and potential changes. You can also access my official CDN by clicking on [this link](https://cdn.sefinek.net).
@@ -81,7 +81,7 @@ Therefore, please use it at your own risk.
 
 ## 🤝 Contributing
 We welcome your contributions! If you know of any additional domains that you believe should be included in this list, we would be grateful if you could share them with us.
-We kindly invite you to contribute to this project by submitting a pull request.
+We kindly invite you to contribute to this project by submitting a [pull request](https://github.com/sefinek24/PiHole-Blocklist-Collection/pulls).
 Your effort and input will be highly appreciated and will help us make this list even more comprehensive and useful for others.
 Thank you in advance for your valuable contribution!
 
