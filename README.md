@@ -69,15 +69,9 @@ Therefore, please use it at your own risk.
     <a href="info/regex/Index.md">View the regex list and read additional information »</a>
 </h3>
 
-## 🤔 How to install Pi-hole?
-<h3 align="center">
-    <a href="tutorials/How%20to%20install%20Pi-hole.md">Click here to see tutorial »</a>
-</h3>
-
-## 💙 How to install Unbound for Pi-hole?
-<h3 align="center">
-    <a href="tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md">Click here to see tutorial »</a>
-</h3>
+## 🤔 Tutorials
+- [How to install Pi-hole?](tutorials/How%20to%20install%20Pi-hole.md)
+- [How to install Unbound for Pi-hole?](tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md)
 
 ## 🤝 Contributing
 We welcome your contributions! If you know of any additional domains that you believe should be included in this list, we would be grateful if you could share them with us.
