@@ -21,3 +21,11 @@ The blocklists were modified to improve their effectiveness and to ensure they d
    - **Added:** No additional domains have been added to this blocklist.
    - **Removed:**
    The `arc.msn.com` domain has been removed from the list as it is necessary to receive benefits from Xbox Game Pass.
+
+<!--
+### jerryn70/GoodbyeAds
+- **Modified version:** https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/blocklist/GoodbyeAds.txt
+- **Added:** No additional domains have been added to this blocklist.
+- **Removed:**
+  The `graph.facebook.com`...
+-->
