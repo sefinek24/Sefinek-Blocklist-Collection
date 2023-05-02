@@ -36,7 +36,7 @@ Therefore, please use it at your own risk.
     👋 <b>Have fun and stay safe!</b> o(>ω<)o 👋
 </div>
 
-## ✨ Main block list
+# ✨ Main block list
 - [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
 - [**Telemetry & Tracking:**](info/block/Telemetry%20and%20Tracking.md) Blocks domains that track user activity for analytics purposes.
