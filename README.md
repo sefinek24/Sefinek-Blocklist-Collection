@@ -20,10 +20,13 @@
 
 ## 📝 Information
 I use this list every day on my Pi-hole (Raspberry Pi 4 B & HP T630), and I haven't encountered any false positives.
-It's important to regularly check this repository for updates and potential changes.
-You can also access my official CDN by clicking on [this link](https://cdn.sefinek.net).
+If I do encounter a false positive or misleading block, I will report it immediately to the list creator or update the list myself if it is mine.
+Some of the blocklists have been downloaded from other creators who were less interested in the repositories with blocklists, and I have modified them to remove false alarms and similar issues.
 
-If you have additional domains that you think should be added to this list, please contribute by submitting a [Pull request](https://github.com/sefinek24/PiHole-Blocklist-Collection/pulls).
+You can also use the list generator on my website. You will be able to select what specifically should be blocked.
+Just like with the standard list, you can be assured that every link within the list will work.
+
+It's important to regularly check this repository for updates and potential changes. You can also access my official CDN by clicking on [this link](https://cdn.sefinek.net).
 However, please note that while this blocklist can improve your privacy and security, it may also unintentionally block legitimate content or services.
 Therefore, please use it at your own risk.
 
@@ -63,9 +66,7 @@ Therefore, please use it at your own risk.
 
 ## 🔧 Regex list
 <h3 align="center">
-    <a href="info/regex/Index.md">
-        View the regex list and read additional information »
-    </a>
+    <a href="info/regex/Index.md">View the regex list and read additional information »</a>
 </h3>
 
 ## 🤔 How to install Pi-hole?
@@ -77,6 +78,9 @@ Therefore, please use it at your own risk.
 <h3 align="center">
     <a href="tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md">Click here to see tutorial »</a>
 </h3>
+
+## 🤝 Contributing
+If you have additional domains that you think should be added to this list, please contribute by submitting a pull request.
 
 ## 🌠 My other repositories
 1. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
