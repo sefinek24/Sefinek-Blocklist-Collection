@@ -1,10 +1,10 @@
-## 🤖 How to Install Unbound for Pi-hole?
+# 🤖 How to Install Unbound for Pi-hole?
 If you want to improve the performance and security of your [Pi-hole](../info/What%20is%20Pi-hole.md)
 setup, you can install Unbound, a DNS resolver that provides more advanced features than the default DNS server used by Pi-hole.
 
 > [Unbound - Pi-hole documentation](https://docs.pi-hole.net/guides/dns/unbound)
 
-## ⭐ Prerequisites
+# ⭐ Prerequisites
 Before you start the installation process, make sure you have:
 - A Raspberry Pi or another device running Pi-hole
 - Access to the terminal or SSH
@@ -129,5 +129,5 @@ This command generates a debug log. Look for the following line in the log:
 ```
 If you see this line, Pi-hole is using Unbound as the DNS resolver.
 
-## 🎉 Congratulations!
+# 🎉 Congratulations!
 You have successfully installed Unbound for Pi-hole.
