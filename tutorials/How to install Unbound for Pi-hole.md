@@ -129,4 +129,5 @@ This command generates a debug log. Look for the following line in the log:
 ```
 If you see this line, Pi-hole is using Unbound as the DNS resolver.
 
-### 🎉 Congratulations! You have successfully installed Unbound for Pi-hole.
+## 🎉 Congratulations!
+You have successfully installed Unbound for Pi-hole.
