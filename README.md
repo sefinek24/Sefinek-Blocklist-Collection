@@ -19,6 +19,10 @@
 </div>
 
 # 😻 THIS PROJECT IS STILL SUPPORTED
+I have decided to create my own list of blocked addresses, which will not only be a collection of links.
+I am doing this because I have noticed that some repositories are either inactive or their owners no longer support them.
+As a result, some blocking lists may contain many false alarms, and the owners may not merge new pull requests due to lack of time.
+
 Please check out the beta version available at: https://github.com/sefinek24/Sefinek-Blocklist-Collection.
 After the new version is finished, both repositories will be merged together.  
 The name may be changed from `sefinek24/PiHole-Blocklist-Collection` to `sefinek24/Sefinek-Blocklist-Collection`, as it will not only be a blocklist for Pi-hole.
