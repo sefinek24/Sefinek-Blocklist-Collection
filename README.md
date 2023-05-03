@@ -18,6 +18,11 @@
     </a>
 </div>
 
+# 😻 THIS PROJECT IS STILL SUPPORTED
+Please check out the beta version available at: https://github.com/sefinek24/Sefinek-Blocklist-Collection.
+After the new version is finished, both repositories will be merged together.  
+The name may be changed from `sefinek24/PiHole-Blocklist-Collection` to `sefinek24/Sefinek-Blocklist-Collection`, as it will not only be a blocklist for Pi-hole.
+
 # 📝 Information
 I use this list every day on my Pi-hole (Raspberry Pi 4 B & HP T630), and I haven't encountered any false positives.
 If I do encounter a false positive or misleading block, I will report it immediately to the list creator or update the list myself if it is mine.
