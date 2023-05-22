@@ -18,7 +18,7 @@
     </a>
 </div>
 
-# 😻 THIS PROJECT IS STILL SUPPORTED
+# 😻 THIS REPOSITORY IS STILL SUPPORTED
 I have decided to create my own list of blocked addresses, which will not only be a collection of links.
 I am doing this because I have noticed that some repositories are either inactive or their owners no longer support them.
 As a result, some blocking lists may contain many false alarms, and the owners may not merge new pull requests due to lack of time.
