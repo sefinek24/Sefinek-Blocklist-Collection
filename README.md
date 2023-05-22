@@ -1,7 +1,7 @@
 <img width="41%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
     <h1>
-        The best BlockList Collection<br> for Pi-hole ✋
+        The best Blocklist Collection<br> for Pi-hole ✋⚠️
     </h1>
     <img src="images/adlists.png" alt="Domains on Adlists">
     <br>
