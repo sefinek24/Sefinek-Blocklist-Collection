@@ -22,12 +22,12 @@ const header = size => {
 #     |_____/  |______| |_|      |_____| |_| \\_| |______| |_|\\_\\       |____/  |______|  \\____/   \\_____| |_|\\_\\ |______| |_____| |_____/     |_|
 #
 #                                   The best collection of blocklists for Pi-hole and AdGuard - https://sefinke.net
-#                                            https://github.com/sefinek24/PiHole-Blocklist-Collection
+#                                            https://github.com/sefinek24/Sefinek-Blocklist-Collection
 #
 # » Title       : Big collection of blocklist
 # » Description : This list contains a collection of everything from https://github.com/sefinek24/PiHole-BlockList-Test/tree/main/blocklist/template (without apps)
 # » Author      : Sefinek (https://sefinek.net) <contact@sefinek.net>
-# » GitHub      : https://github.com/sefinek24/PiHole-Blocklist-Collection
+# » GitHub      : https://github.com/sefinek24/Sefinek-Blocklist-Collection
 # » Release     : Default (with 0.0.0.0)
 # » Domains     : ${size}
 # » Version     : ${date.timestamp}

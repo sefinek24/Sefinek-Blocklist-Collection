@@ -32,7 +32,7 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 
 <!--
 ### jerryn70/GoodbyeAds
-- **Modified version:** https://github.com/sefinek24/PiHole-Blocklist-Collection/blob/main/blocklist/GoodbyeAds.txt
+- **Modified version:** https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/blocklist/GoodbyeAds.txt
 - **Added:** No additional domains have been added to this blocklist.
 - **Removed:**
   The `graph.facebook.com`...

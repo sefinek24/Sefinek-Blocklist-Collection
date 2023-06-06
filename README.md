@@ -75,7 +75,7 @@ Therefore, please use it at your own risk.
 
 ## 🤝 Contributing
 We welcome your contributions! If you know of any additional domains that you believe should be included in this list, we would be grateful if you could share them with us.
-We kindly invite you to contribute to this project by submitting a [pull request](https://github.com/sefinek24/PiHole-Blocklist-Collection/pulls).
+We kindly invite you to contribute to this project by submitting a [pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls).
 Your effort and input will be highly appreciated and will help us make this list even more comprehensive and useful for others.
 Thank you in advance for your valuable contribution!
 
