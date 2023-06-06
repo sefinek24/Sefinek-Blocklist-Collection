@@ -1,0 +1,176 @@
+---
+
+name: Download and generate blocklists
+
+# https://crontab.guru
+on:
+  schedule:
+    # - cron: '0 */5 * * *' # At minute 0 past every 5th hour.
+    - cron: '0 * * * *' # At minute 0.
+
+  workflow_dispatch:
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: refs/heads/main
+
+      - name: Check if folder 'forks' exists
+        run: |
+          if [ ! -d blocklist/template/forks ]; then
+            echo "Creating folder..."
+            mkdir -p blocklist/template/forks
+          else
+            echo "Folder already exists"
+          fi
+
+      - name: Download blocklists
+        run: |
+          curl https://adaway.org/hosts.txt --output blocklist/template/forks/adaway.hosts.txt
+          curl https://big.oisd.nl --output blocklist/template/forks/oisd.big.txt
+          curl https://blocklistproject.github.io/Lists/ads.txt --output blocklist/template/forks/blocklistproject.ads.txt
+          curl https://blocklistproject.github.io/Lists/drugs.txt --output blocklist/template/forks/blocklistproject.drugs.txt
+          curl https://blocklistproject.github.io/Lists/fraud.txt --output blocklist/template/forks/blocklistproject.fraud.txt
+          curl https://blocklistproject.github.io/Lists/gambling.txt --output blocklist/template/forks/blocklistproject.gambling.txt
+          curl https://blocklistproject.github.io/Lists/malware.txt --output blocklist/template/forks/blocklistproject.malware.txt
+          curl https://blocklistproject.github.io/Lists/phishing.txt --output blocklist/template/forks/blocklistproject.phishing.txt
+          curl https://blocklistproject.github.io/Lists/piracy.txt --output blocklist/template/forks/blocklistproject.piracy.txt
+          curl https://blocklistproject.github.io/Lists/porn.txt --output blocklist/template/forks/blocklistproject.porn.txt
+          curl https://blocklistproject.github.io/Lists/ransomware.txt --output blocklist/template/forks/blocklistproject.ransomware.txt
+          curl https://blocklistproject.github.io/Lists/redirect.txt --output blocklist/template/forks/blocklistproject.redirect.txt
+          curl https://blocklistproject.github.io/Lists/scam.txt --output blocklist/template/forks/blocklistproject.scam.txt
+          curl https://blocklistproject.github.io/Lists/youtube.txt --output blocklist/template/forks/blocklistproject.youtube.txt
+          curl https://ente.dev/api/blocklist/google-amp-hosts --output blocklist/template/forks/ente-dev.google-amp-hosts.txt
+          curl https://ente.dev/api/blocklist/tv --output blocklist/template/forks/ente-dev.tv.txt
+          curl https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt --output blocklist/template/forks/quidsup.notrack-malware.txt
+          curl https://hole.cert.pl/domains/domains_hosts.txt --output blocklist/template/forks/hole-cert.domains_hosts.txt
+          curl https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt --output blocklist/template/forks/frogeye.firstparty-trackers-hosts.txt
+          curl https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt --output blocklist/template/forks/justdomains.adguarddns.txt
+          curl https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt --output blocklist/template/forks/justdomains.easylist.txt
+          curl https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt --output blocklist/template/forks/justdomains.easyprivacy.txt
+          curl https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt --output blocklist/template/forks/malware-filter.urlhaus-filter-hosts-online.txt
+          curl https://nsfw.oisd.nl --output blocklist/template/forks/oisd.nsfw.txt
+          curl https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt --output blocklist/template/forks/digitalside.latestdomains.txt
+          curl https://phishing.army/download/phishing_army_blocklist_extended.txt --output blocklist/template/forks/phishingArmy.phishing_army_blocklist_extended.txt
+          curl https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easylist.txt --output blocklist/template/forks/0Zinc.easylist.txt
+          curl https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt --output blocklist/template/forks/0Zinc.easyprivacy.txt
+          curl https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt --output blocklist/template/forks/4skinSkywalker.Anti-Porn.txt
+          curl https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt --output blocklist/template/forks/anudeepND.adservers.txt
+          curl https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts --output blocklist/template/forks/AssoEchap.stalkerware-indicators.txt
+          curl https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts --output blocklist/template/forks/bigdargon.hostsVN.txt
+          curl https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains.24733 --output blocklist/template/forks/cbuijs.adult-domains.txt
+          curl https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list --output blocklist/template/forks/chadmayfield.pi_blocklist_porn_all.txt
+          curl https://raw.githubusercontent.com/craiu/mobiletrackers/master/list.txt --output blocklist/template/forks/craiu.mobiletrackers.txt
+          curl https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt --output blocklist/template/forks/crazy-max.WindowsSpyBlocker.hosts-spy.txt
+          curl https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt --output blocklist/template/forks/DandelionSprout-AntiMalwareHosts.txt
+          curl https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CountryCodesLists/France.txt --output blocklist/template/forks/deathbybandaid.CountryCodesLists-France.txt
+          curl https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList-Liste-FR.txt --output blocklist/template/forks/deathbybandaid.ParsedBlacklists-easylist-fr.txt
+          curl https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList.txt --output blocklist/template/forks/deathbybandaid.ParsedBlacklists-easylist.txt
+          curl https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt --output blocklist/template/forks/Dogino.Discord-Phishing-URLs-phishing.txt
+          curl https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt --output blocklist/template/forks/Dogino.Discord-Phishing-URLs-scam.txt
+          curl https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt --output blocklist/template/forks/durablenapkin.scamblocklist.txt
+          curl https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts --output blocklist/template/forks/FadeMind.add.2o7Net.txt
+          curl https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts --output blocklist/template/forks/FadeMind.add.Risk.txt
+          curl https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts --output blocklist/template/forks/FadeMind.add.Spam.txt
+          curl https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts --output blocklist/template/forks/FadeMind.UncheckyAds.txt
+          curl https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt --output blocklist/template/forks/hoshsadiq.adblock-nocoin-list.txt
+          curl https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt --output blocklist/template/forks/kboghdady.youtubelist.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt --output blocklist/template/forks/MajkiIT.adguard_host.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt --output blocklist/template/forks/MajkiIT.adguard_mobile_host.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adservers.txt --output blocklist/template/forks/MajkiIT.adservers.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/Ad_filter_list_by_Disconnect.txt --output blocklist/template/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easylist_host.txt --output blocklist/template/forks/MajkiIT.easylist_host.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt --output blocklist/template/forks/MajkiIT.easy_privacy_host.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt --output blocklist/template/forks/MajkiIT.gambling-hosts.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt --output blocklist/template/forks/MajkiIT.hostfile.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/NoTrack_Tracker_Blocklist.txt --output blocklist/template/forks/MajkiIT.NoTrack_Tracker_Blocklist.txt
+          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/SmartTV_ads.txt --output blocklist/template/forks/MajkiIT.SmartTV_ads.txt
+          curl https://raw.githubusercontent.com/marktron/fakenews/master/fakenews --output blocklist/template/forks/marktron.fakenews.txt
+          curl https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt --output blocklist/template/forks/mhhakim.custom-porn-blocklist.txt
+          curl https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt --output blocklist/template/forks/mhhakim.porn.txt
+          curl https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list --output blocklist/template/forks/mitchellkrogza.Stop.Google.Analytics.Ghost.Spam-INACTIVE.txt
+          curl https://raw.githubusercontent.com/neodevpro/neodevhost/master/host --output blocklist/template/forks/neodevpro.neodevhost.txt
+          curl https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt --output blocklist/template/forks/notracking.hostnames.txt
+          curl https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt --output blocklist/template/forks/PolishFiltersTeam.KADhosts.txt
+          curl https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt --output blocklist/template/forks/r-a-y.AdguardApps.txt
+          curl https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileAds.txt --output blocklist/template/forks/r-a-y.AdguardMobileAds.txt
+          curl https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt --output blocklist/template/forks/r-a-y.AdguardMobileSpyware.txt
+          curl https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware --output blocklist/template/forks/RPiList-Malware.txt
+          curl https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe --output blocklist/template/forks/RPiList-Phishing.txt
+          curl https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails --output blocklist/template/forks/RPiList.Spam-Mails.txt
+          curl https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts --output blocklist/template/forks/Sinfonietta.pornography-hosts.txt
+          curl https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams --output blocklist/template/forks/Snota418.Crypto-streams.txt
+          curl https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt --output blocklist/template/forks/Spam404.main-blacklist.txt
+          curl https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts --output blocklist/template/forks/StevenBlack.fakenews-gambling-porn.txt
+          curl https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts --output blocklist/template/forks/StevenBlack.hosts.txt
+          curl https://raw.githubusercontent.com/xlimit91/xlimit91-block-list/master/blacklist.txt --output blocklist/template/forks/xlimit91.blacklist.txt
+          curl https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt --output blocklist/template/forks/disconnectme.simple_ad.txt
+          curl https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt --output blocklist/template/forks/disconnectme.simple_malvertising.txt
+          curl https://urlhaus.abuse.ch/downloads/hostfile --output blocklist/template/forks/abuse.urlhaus.txt
+          curl https://v.firebog.net/hosts/AdguardDNS.txt --output blocklist/template/forks/firebog.AdguardDNS.txt
+          curl https://v.firebog.net/hosts/Admiral.txt --output blocklist/template/forks/firebog.Admiral.txt
+          curl https://v.firebog.net/hosts/Easylist.txt --output blocklist/template/forks/firebog.Easylist.txt
+          curl https://v.firebog.net/hosts/Easyprivacy.txt --output blocklist/template/forks/firebog.Easyprivacy.txt
+          curl https://v.firebog.net/hosts/Prigent-Ads.txt --output blocklist/template/forks/firebog.Prigent-Ads.txt
+          curl https://v.firebog.net/hosts/Prigent-Crypto.txt --output blocklist/template/forks/firebog.Prigent-Crypto.txt
+          curl https://v.firebog.net/hosts/static/w3kbl.txt --output blocklist/template/forks/firebog.w3kbl.txt
+          curl https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt --output blocklist/template/forks/developerdan.amp-hosts-extended.txt
+          curl https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt --output blocklist/template/forks/developerdan.dating-services-extended.txt
+          curl https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt --output blocklist/template/forks/developerdan.hate-and-junk-extended.txt
+          curl https://www.stopforumspam.com/downloads/toxic_domains_whole.txt --output blocklist/template/forks/stopforumspam.toxic_domains_whole.txt
+          curl https://zerodot1.gitlab.io/CoinBlockerLists/hosts --output blocklist/template/forks/zerodot1.CoinBlockerLists.txt
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: Run npm install
+        run: npm install
+
+      - name: Prepare templates
+        run: node scripts/prepare-templates.js
+
+      - name: Remove duplicates
+        run: node scripts/remove-duplicates.js
+
+      - name: Lint
+        run: node scripts/lint.js
+
+      # - name: Create everything list
+      #   run: node scripts/create-everything-list.js
+
+      - name: Generate No IP list
+        run: node scripts/generate-noip.js
+
+      - name: Generate 0.0.0.0 list
+        run: node scripts/generate-0.0.0.0.js
+
+      - name: Generate 127.0.0.1 list
+        run: node scripts/generate-127.0.0.1.js
+
+      - name: Generate AdGuard list
+        run: node scripts/generate-adguard.js
+
+      - name: Generate Dnsmasq list
+        run: node scripts/generate-dnsmasq.js
+
+      - name: Show files
+        run: ls -R /home/runner/work
+
+      - name: Commit files
+        run: |
+          git config --global user.name "Sefinek Actions"
+          git config --global user.email "sefinek.actions@gmail.com"
+          git add .
+          if [ -n "$(git status -s)" ]; then
+            git status
+            git commit -m "Download blocklists and generate new files"
+            git push
+          else
+            echo "No changes to commit"
+          fi

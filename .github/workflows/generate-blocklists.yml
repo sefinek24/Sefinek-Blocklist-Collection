@@ -1,0 +1,71 @@
+---
+
+name: Generate new committed blocklists
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.txt'
+
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: Run npm install
+        run: npm install
+
+      - name: Prepare templates
+        run: node scripts/prepare-templates.js
+
+      - name: Remove duplicates
+        run: node scripts/remove-duplicates.js
+
+      - name: Lint
+        run: node scripts/lint.js
+
+      # - name: Create everything list
+      #  run: node scripts/create-everything-list.js
+
+      - name: Generate No IP list
+        run: node scripts/generate-noip.js
+
+      - name: Generate 0.0.0.0 list
+        run: node scripts/generate-0.0.0.0.js
+
+      - name: Generate 127.0.0.1 list
+        run: node scripts/generate-127.0.0.1.js
+
+      - name: Generate AdGuard list
+        run: node scripts/generate-adguard.js
+
+      - name: Generate Dnsmasq list
+        run: node scripts/generate-dnsmasq.js
+
+      - name: Show files
+        run: ls -R /home/runner/work
+
+      - name: Commit files
+        run: |
+          git config --global user.name "Sefinek Actions"
+          git config --global user.email "sefinek.actions@gmail.com"
+          git add .
+          if [ -n "$(git status -s)" ]; then
+            git status
+            git commit -m "Update committed blocklist files"
+            git push
+          else
+            echo "No changes to commit"
+          fi

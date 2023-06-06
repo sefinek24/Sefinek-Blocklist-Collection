@@ -1,0 +1,41 @@
+{
+  "name": "sefinek-blocklist-collection",
+  "version": "0.1.0",
+  "description": "The best collection of blocklists for Pi-hole and AdGuard made by Sefinek.",
+  "main": "www/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "up": "ncu -u && npm install && npm update && npm audit fix",
+    "sync": "git pull --recurse-submodules",
+    "usm": "git submodule update --remote",
+    "mon": "nodemon www/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/PiHole-Blocklist-Collection.git"
+  },
+  "keywords": [
+    "blocklist",
+    "pihole",
+    "adguard",
+    "ublock",
+    "origin",
+    "blacklist",
+    "domains"
+  ],
+  "author": "Sefinek (https://sefinek.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sefinek24/PiHole-Blocklist-Collection/issues"
+  },
+  "homepage": "https://github.com/sefinek24/PiHole-Blocklist-Collection#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
+  }
+}
