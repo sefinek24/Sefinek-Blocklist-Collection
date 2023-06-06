@@ -60,9 +60,9 @@ Therefore, please use it at your own risk.
 - [**Useless websites:**](info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
 - [**YouTube & mobile ads etc.:**](info/block/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
-<h3 align="right">
-    <a href="lists/Index.md">📃 Click here choose your adblocker and copy URL addresses »</a>
-</h3>
+<h2 align="right">
+    <a href="lists/Index.md">📃 Choose your adblocker and copy URL addresses »</a>
+</h2>
 
 ## 🔧 Regex list
 <h3 align="center">
