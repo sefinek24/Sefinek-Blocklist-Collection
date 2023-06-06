@@ -13,7 +13,7 @@ Please use this list as a reference and consider other measures to further enhan
 Here are some sample URLs with a list of domains:
 - https://blocklistproject.github.io/Lists/porn.txt
 - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/porn.txt
-- https://github.com/chadmayfield/pihole-blocklists/raw/master/lists/pi_blocklist_porn_all.list
+- https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
 - https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt
 - https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
 - https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
@@ -28,6 +28,6 @@ Please note that this is just a small sample of porn domains, and there are many
 It's important to keep your list up to date and regularly review it to ensure that it is blocking appropriate content.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../List.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

@@ -1,7 +1,7 @@
 <img width="41%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
     <h1>
-        The best Blocklist Collection<br> for Pi-hole ✋⚠️
+        The best BlockList Collection<br> made by Sefinek ✋
     </h1>
     <img src="images/adlists.png" alt="Domains on Adlists">
     <br>
@@ -13,19 +13,10 @@
 </div>
 <br>
 <div align="center">
-    <a href="https://sefinek.net/pihole-blocklist-customization" title="PiHole Blocklist Generator - Sefinek Official Website">
+    <a href="https://sefinek.net/blocklist-generator" title="Blocklist Customization - Sefinek's Website">
         <img src="images/generator.png" width="90%" alt="">
     </a>
 </div>
-
-# 😻 THIS REPOSITORY IS STILL SUPPORTED
-I have decided to create my own list of blocked addresses, which will not only be a collection of links.
-I am doing this because I have noticed that some repositories are either inactive or their owners no longer support them.
-As a result, some blocking lists may contain many false alarms, and the owners may not merge new pull requests due to lack of time.
-
-Please check out the beta version available at: https://github.com/sefinek24/Sefinek-Blocklist-Collection.
-After the new version is finished, both repositories will be merged together.  
-The name may be changed from `sefinek24/PiHole-Blocklist-Collection` to `sefinek24/Sefinek-Blocklist-Collection`, as it will not only be a blocklist for Pi-hole.
 
 # 📝 Information
 I use this list every day on my Pi-hole (Raspberry Pi 4 B & HP T630), and I haven't encountered any false positives.
@@ -70,12 +61,12 @@ Therefore, please use it at your own risk.
 - [**YouTube & mobile ads etc.:**](info/block/YouTube%20and%20mobile%20ads%20etc..md)  Blocks domains that serve ads on YouTube and mobile devices.
 
 <h3 align="right">
-    <a href="List.md">📃 Click here to copy URL addresses »</a>
+    <a href="lists/Index.md">📃 Click here choose your adblocker and copy URL addresses »</a>
 </h3>
 
 ## 🔧 Regex list
 <h3 align="center">
-    <a href="info/regex/Index.md">View the regex list and read additional information »</a>
+    <a href="info/What is Regex.md">View the regex list and read additional information »</a>
 </h3>
 
 ## 🤔 Tutorials

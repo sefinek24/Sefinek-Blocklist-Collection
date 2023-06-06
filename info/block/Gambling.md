@@ -15,6 +15,6 @@ Please note that this list of URLs is not comprehensive and there may be other d
 Therefore, consider using this list as a reference and explore other measures to further enhance online safety.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../List.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

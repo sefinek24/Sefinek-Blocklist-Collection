@@ -23,6 +23,6 @@ Many resources are available, including hotlines, online forums, and local treat
 Remember, recovery is possible, and seeking help is the first step towards a healthier, happier life.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../List.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

@@ -23,6 +23,6 @@ By blocking these domains with Pi-hole, you can prevent your data from being sha
 However, it's worth noting that some websites may not function correctly without AMP pages, and blocking them could lead to a degraded user experience.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../List.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

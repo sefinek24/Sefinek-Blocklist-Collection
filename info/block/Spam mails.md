@@ -17,6 +17,6 @@ Here is a sample URL with a list of domains:
 While blocking these domains can limit exposure to spam mail, it's crucial to take other precautions, such as using a spam filter and being cautious when opening emails from unknown senders.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../List.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.
