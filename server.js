@@ -12,7 +12,7 @@ const app = express();
 // Set
 app.set('trust proxy', 1);
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'www', 'views'));
 
 // Use
 app.use(cors({ origin: true }));
