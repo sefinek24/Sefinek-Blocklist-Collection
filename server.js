@@ -2,9 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const path = require('node:path');
-const logger = require('./middlewares/morgan.js');
-const limiter = require('./middlewares/ratelimit.js');
-const { notFound, internalError } = require('./middlewares/other/errors.js');
+const logger = require('./www/middlewares/morgan.js');
+const limiter = require('./www/middlewares/ratelimit.js');
+const { notFound, internalError } = require('./www/middlewares/other/errors.js');
 
 // Express instance
 const app = express();

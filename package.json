@@ -2,13 +2,13 @@
   "name": "sefinek-blocklist-collection",
   "version": "0.1.0",
   "description": "The best collection of blocklists for Pi-hole and AdGuard made by Sefinek.",
-  "main": "www/index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "up": "ncu -u && npm install && npm update && npm audit fix",
     "sync": "git pull --recurse-submodules",
     "usm": "git submodule update --remote",
-    "mon": "nodemon www/index.js"
+    "mon": "nodemon index.js"
   },
   "repository": {
     "type": "git",
