@@ -2,7 +2,7 @@
     <h1>📝 Default bocklist collection</h1>
     <p>
         📄 » <b>Format: Pi-hole / 0.0.0.0 [Domain]</b><br>
-        📥 » <b>Last update: 22.05.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 12.06.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -12,6 +12,7 @@
 <br>
 
 ```dotenv
+https://blocklist.sefinek.net/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/TheBlockListProject.AdsList.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt

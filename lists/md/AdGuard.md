@@ -2,7 +2,7 @@
     <h1>📝 Default bocklist collection</h1>
     <p>
         📄 » <b>Format: AdGuard</b><br>
-        📥 » <b>Last update: 22.05.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 12.06.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -13,6 +13,7 @@
 
 ```dotenv
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+https://blocklist.sefinek.net/generated/adguard/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/adguard/ads/jerryn70.GoodbyeAds.txt
 https://blocklist.sefinek.net/generated/adguard/ads/TheBlockListProject.AdsList.txt
 https://blocklist.sefinek.net/generated/adguard/ads/yoyo.AdsTrackersEtc.txt
