@@ -21,7 +21,7 @@
 # 📝 Information
 I use this list every day on my Pi-hole (Raspberry Pi 4 B & HP T630), and I haven't encountered any false positives.
 If I do encounter a false positive or misleading block, I will report it immediately to the list creator or update the list myself if it is mine.
-Some of the blocklists have been downloaded from other creators who were less interested in the repositories with blocklists, and I have [modified](Modified%20lists.md) them to remove false alarms and similar issues.
+Some of the blocklists have been downloaded from other creators who were less interested in the repositories with blocklists, and I have [modified](lists/other/Modified%20lists.md) them to remove false alarms and similar issues.
 
 You can also use the list generator on [my website](https://sefinek.net). You will be able to select what specifically should be blocked.
 Just like with the standard list, you can be assured that every link within the list will work.
