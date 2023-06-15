@@ -1,8 +1,8 @@
 <div align="center">
-  <h2>📝 Information</h2>
+  <h1>📝 Information</h1>
   This file contains a collection of blocklists (their sources) that have been modified to not block trusted domains.
 
-  <h2>📥 Last update</h2>
+  <h1>📥 Last update</h2>
   15.06.2023 [DD.MM.YYYY]
 </div>
 
