@@ -9,23 +9,23 @@ This file contains a collection of blocklists (their sources) that have been mod
 
 
 ## blocklistproject/Lists
-#### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/abuse.txt
+#### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.abuse.txt)] • https://blocklistproject.github.io/Lists/abuse.txt
 - 🗑️ **Removed:**
     1. `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
     2. `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
     3. `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
 
-#### 2. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.malware.txt)] • https://blocklistproject.github.io/Lists/malware.txt
+#### 2. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.malware.txt)] • https://blocklistproject.github.io/Lists/malware.txt
 - 🗑️ **Removed:**
     1. `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
     2. `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
     3. `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
 
-#### 3. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/fraud.txt
+#### 3. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/fraud.txt
 - 🗑️ **Removed:**
     1. `g2a.com` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=g2a.com)
 
-#### 4. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/theblocklistproject.AdsList.txt)] • https://blocklistproject.github.io/Lists/ads.txt
+#### 4. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/blocklistproject.ads.txt)] • https://blocklistproject.github.io/Lists/ads.txt
 - 🗑️ **Removed:**
     1. `arc.msn.com` - This domain has been removed from the list as it is necessary to receive benefits from [Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass).
 
