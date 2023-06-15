@@ -1,7 +1,7 @@
-## 📝 Information
+<h2>📝 Information</h2>
 This file contains a collection of blocklists (their sources) that have been modified to not block trusted domains.
 
-## 📥 Last update
+<h2>📥 Last update</h2>
 15.06.2023 [DD.MM.YYYY]
 
 
