@@ -3,7 +3,8 @@
   This file contains a collection of blocklists (their sources) that have been modified to not block trusted domains.
 
   <h1>📥 Last update</h1>
-  15.06.2023 <code>[DD.MM.YYYY]</code>
+  15.06.2023<br>
+  <code>[DD.MM.YYYY]</code>
 </div>
 
 
