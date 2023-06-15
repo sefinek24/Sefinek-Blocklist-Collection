@@ -24,7 +24,7 @@
     👋 <b>Have fun and stay safe!</b> o(>ω<)o 👋
 </div>
 
-# 📝 Information
+## 📝 Information
 False alarms happen very rarely. Even if accidental blocking of a website occurs, I usually create a new Issue in the repository with the original blocklist.
 However, if the blocklist is of my own making, please open an Issue in this repository and inform me about the incident.
 In any case, you can always create your Pull Request, which I always encourage. Any contribution will be appreciated by me.
@@ -43,7 +43,7 @@ I kindly invite you to contribute to this project by submitting a [Pull request]
 Your effort and input will be highly appreciated and will help me make this list even more comprehensive and useful for others.
 Thank you in advance for your valuable contribution!
 
-# ✨ Main block list
+## ✨ Main block list
 - [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
 - [**Telemetry & Tracking:**](info/block/Telemetry%20and%20Tracking.md) Blocks domains that track user activity for analytics purposes.
