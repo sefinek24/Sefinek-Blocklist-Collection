@@ -65,7 +65,7 @@ async function testLinks() {
 		console.log(kleur.blue(`Total links: ${totalLinks}`));
 		console.log(kleur.green(`Successful links: ${successfulLinks}/${totalLinks}`));
 		console.log(kleur.red(`Failed links: ${failedLinks}/${totalLinks}`));
-		console.log(kleur.red(`Failed retries: ${retriesFails}/${totalLinks}`));
+		console.log(kleur.red(`Failed retries: ${retriesFails}`));
 	} catch (err) {
 		console.error('An error occurred while testing links:', err);
 	}
