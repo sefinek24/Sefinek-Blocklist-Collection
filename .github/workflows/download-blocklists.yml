@@ -2,11 +2,11 @@
 
 name: Download and generate blocklists
 
-# https://crontab.guru
 on:
-  schedule:
+  schedule: # https://crontab.guru
     # - cron: '0 */5 * * *' # At minute 0 past every 5th hour.
-    - cron: '0 * * * *' # At minute 0.
+    # - cron: '0 * * * *' # At minute 0.
+    - cron: '0 */2 * * *' # At minute 0 past every 2nd hour.
 
   workflow_dispatch:
 
@@ -19,7 +19,7 @@ jobs:
         with:
           ref: refs/heads/main
 
-      - name: Check if folder 'forks' exists
+      - name: Download blocklists
         run: |
           if [ ! -d blocklist/template/forks ]; then
             echo "Creating folder..."
@@ -27,9 +27,7 @@ jobs:
           else
             echo "Folder already exists"
           fi
-
-      - name: Download blocklists
-        run: |
+          
           curl https://adaway.org/hosts.txt --output blocklist/template/forks/adaway.hosts.txt
           curl https://big.oisd.nl --output blocklist/template/forks/oisd.big.txt
           curl https://blocklistproject.github.io/Lists/ads.txt --output blocklist/template/forks/blocklistproject.ads.txt
