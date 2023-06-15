@@ -12,29 +12,29 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 ### blocklistproject/Lists
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/abuse.txt
 - **Removed:**
-    * `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
-    * `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
-    * `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
+    1. `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
+    2. `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
+    3. `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
 
 #### 2. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.malware.txt)] • https://blocklistproject.github.io/Lists/malware.txt
 - **Removed:**
-    * `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
-    * `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
-    * `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
+    1. `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
+    2. `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
+    3. `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
 
 #### 3. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/fraud.txt
 - **Removed:**
-  The domain `g2a.com` has been removed, as the website associated with it is safe and trusted. Norton Safe Web report: https://safeweb.norton.com/report/show?url=g2a.com
+    1. `g2a.com` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=g2a.com)
 
 #### 4. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/theblocklistproject.AdsList.txt)] • https://blocklistproject.github.io/Lists/ads.txt
 - **Removed:**
-  The `arc.msn.com` domain has been removed from the list as it is necessary to receive benefits from Xbox Game Pass.
+    1. `arc.msn.com` - This domain has been removed from the list as it is necessary to receive benefits from [Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass).
 
 
 ### DandelionSprout/adfilt
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt)] • https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt 
 - **Removed:**
-    The `arc.msn.com` domain has been removed from the list as it is necessary to receive benefits from Xbox Game Pass. Bounties for ads have been also removed, see original list for bounty infomation.
+    1. `arc.msn.com` - This domain has been removed from the list as it is necessary to receive benefits from [Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass). Bounties for ads have been also removed, see original list for bounty information.
 
 
 ### jerryn70/GoodbyeAds
