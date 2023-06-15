@@ -32,7 +32,7 @@ In any case, you can always create your Pull Request, which I always encourage. 
 You have two options to choose from. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
 You will be able to select exactly what should be blocked.
 
-# ✋ Warning
+## ✋ Warning
 It is important to regularly check this repository for updates and potential changes.
 However, it should be noted that while this blocking list can improve your privacy and security, it may unintentionally block legitimate content or services. Therefore, use it at your own risk.
 
