@@ -2,7 +2,7 @@
     <h1>📝 Default bocklist collection</h1>
     <p>
         📄 » <b>Format: AdGuard</b><br>
-        📥 » <b>Last update: 12.06.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 15.06.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -110,7 +110,6 @@ https://blocklist.sefinek.net/generated/adguard/forks/StevenBlack.hosts.txt
 https://blocklist.sefinek.net/generated/adguard/forks/stopforumspam.toxic_domains_whole.txt
 https://blocklist.sefinek.net/generated/adguard/forks/xlimit91.blacklist.txt
 https://blocklist.sefinek.net/generated/adguard/forks/zerodot1.CoinBlockerLists.txt
-https://blocklist.sefinek.net/generated/adguard/fraud.txt
 https://blocklist.sefinek.net/generated/adguard/gambling.txt
 https://blocklist.sefinek.net/generated/adguard/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/adguard/games/valorant.txt

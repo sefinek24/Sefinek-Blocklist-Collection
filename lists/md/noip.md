@@ -2,7 +2,7 @@
     <h1>📝 Default bocklist collection</h1>
     <p>
         📄 » <b>Format: Without IP, only domain</b><br>
-        📥 » <b>Last update: 12.06.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 15.06.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -109,7 +109,6 @@ https://blocklist.sefinek.net/generated/noip/forks/StevenBlack.hosts.txt
 https://blocklist.sefinek.net/generated/noip/forks/stopforumspam.toxic_domains_whole.txt
 https://blocklist.sefinek.net/generated/noip/forks/xlimit91.blacklist.txt
 https://blocklist.sefinek.net/generated/noip/forks/zerodot1.CoinBlockerLists.txt
-https://blocklist.sefinek.net/generated/noip/fraud.txt
 https://blocklist.sefinek.net/generated/noip/gambling.txt
 https://blocklist.sefinek.net/generated/noip/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/noip/games/valorant.txt

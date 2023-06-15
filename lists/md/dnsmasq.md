@@ -1,8 +1,8 @@
 <div align="center">
     <h1>📝 Default bocklist collection</h1>
     <p>
-        📄 » <b>Format: Dnsmasq - server=/[Domain]/ </b><br>
-        📥 » <b>Last update: 12.06.2023 / DD.MM.YYYY</b><br>
+        📄 » <b>Format: Dnsmasq - server=/[Domain]/</b><br>
+        📥 » <b>Last update: 15.06.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -109,7 +109,6 @@ https://blocklist.sefinek.net/generated/dnsmasq/forks/StevenBlack.hosts.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/stopforumspam.toxic_domains_whole.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/xlimit91.blacklist.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/zerodot1.CoinBlockerLists.txt
-https://blocklist.sefinek.net/generated/dnsmasq/fraud.txt
 https://blocklist.sefinek.net/generated/dnsmasq/gambling.txt
 https://blocklist.sefinek.net/generated/dnsmasq/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/dnsmasq/games/valorant.txt
