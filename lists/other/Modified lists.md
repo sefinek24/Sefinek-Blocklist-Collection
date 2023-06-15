@@ -1,6 +1,9 @@
 ## 📝 Information
 This file contains a collection of blocklists (their sources) that have been modified to not block trusted domains.
 
+## 📥 Last update
+15.06.2023 [DD.MM.YYYY]
+
 
 ## pgl.yoyo.org
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt)] • https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext 
