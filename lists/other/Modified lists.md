@@ -11,8 +11,7 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 
 
 ### blocklistproject/Lists
-1. https://blocklistproject.github.io/Lists/abuse.txt
-- **Modified version:** https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt
+1. https://blocklistproject.github.io/Lists/abuse.txt [Modified version - /generated/0.0.0.0/forks/theblocklistproject.fraud.txt](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt)
     - **Removed:**
       - `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
       - `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
