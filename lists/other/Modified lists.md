@@ -6,7 +6,7 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 ### pgl.yoyo.org
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt)] • https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext 
 - **Removed:**
-   * `click.discord.com` -  This domain is used by Discord for email verification and login attempts, and therefore should not be blocked.
+    1. `click.discord.com` -  This domain is used by Discord for email verification and login attempts, and therefore should not be blocked.
 
 
 ### blocklistproject/Lists
