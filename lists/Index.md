@@ -2,9 +2,9 @@
     <h1>📥 Choose your blocker</h1>
 </div>
 
-
 - [Pi-hole [0.0.0.0]](md/Pi-hole.md)
 - [AdGuard](md/AdGuard.md)
+
 
 <div align="center">
     <h1>📝 Other lists</h1>
@@ -14,8 +14,11 @@
 - [dnsmasq [server=/]](md/dnsmasq.md)
 - [No IP [hosts]](md/noip.md)
 
+
+
+
 <div align="center">
     <a href="https://sefinek.net/blocklist-generator" title="Blocklist Customization - Sefinek's Website">
-        <img src="../images/generator.png" width="80%" alt="">
+        <img src="../images/generator.png" width="60%" alt="">
     </a>
 </div>
