@@ -27,7 +27,6 @@ https://blocklist.sefinek.net/generated/adguard/forks/AssoEchap.stalkerware-indi
 https://blocklist.sefinek.net/generated/adguard/forks/bigdargon.hostsVN.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.drugs.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.gambling.txt
-https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.malware.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.phishing.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.piracy.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.porn.txt
@@ -111,6 +110,7 @@ https://blocklist.sefinek.net/generated/adguard/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/adguard/games/valorant.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.abuse.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.fraud.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.malware.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/main.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/phishing.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/reported-by-norton.txt
