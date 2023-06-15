@@ -81,7 +81,6 @@ https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.easylist_host.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.easy_privacy_host.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.gambling-hosts.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.hostfile.txt
-https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.NoTrack_Tracker_Blocklist.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.SmartTV_ads.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/malware-filter.urlhaus-filter-hosts-online.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/marktron.fakenews.txt

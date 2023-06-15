@@ -88,7 +88,6 @@ jobs:
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt --output blocklist/template/forks/MajkiIT.easy_privacy_host.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt --output blocklist/template/forks/MajkiIT.gambling-hosts.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt --output blocklist/template/forks/MajkiIT.hostfile.txt
-          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/NoTrack_Tracker_Blocklist.txt --output blocklist/template/forks/MajkiIT.NoTrack_Tracker_Blocklist.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/SmartTV_ads.txt --output blocklist/template/forks/MajkiIT.SmartTV_ads.txt
           curl https://raw.githubusercontent.com/marktron/fakenews/master/fakenews --output blocklist/template/forks/marktron.fakenews.txt
           curl https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt --output blocklist/template/forks/mhhakim.custom-porn-blocklist.txt

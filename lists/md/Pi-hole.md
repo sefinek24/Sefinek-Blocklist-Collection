@@ -26,7 +26,6 @@ https://blocklist.sefinek.net/generated/0.0.0.0/forks/AssoEchap.stalkerware-indi
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/bigdargon.hostsVN.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.abuse.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.drugs.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.fraud.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.gambling.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.malware.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.phishing.txt
@@ -81,7 +80,6 @@ https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.easylist_host.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.easy_privacy_host.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.gambling-hosts.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.hostfile.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.NoTrack_Tracker_Blocklist.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.SmartTV_ads.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/malware-filter.urlhaus-filter-hosts-online.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/marktron.fakenews.txt

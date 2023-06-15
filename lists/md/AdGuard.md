@@ -82,7 +82,6 @@ https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.easylist_host.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.easy_privacy_host.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.gambling-hosts.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.hostfile.txt
-https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.NoTrack_Tracker_Blocklist.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.SmartTV_ads.txt
 https://blocklist.sefinek.net/generated/adguard/forks/malware-filter.urlhaus-filter-hosts-online.txt
 https://blocklist.sefinek.net/generated/adguard/forks/marktron.fakenews.txt
