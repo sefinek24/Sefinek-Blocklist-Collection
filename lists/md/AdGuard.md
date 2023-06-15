@@ -15,7 +15,7 @@
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
 https://blocklist.sefinek.net/generated/adguard/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/adguard/ads/jerryn70.GoodbyeAds.txt
-https://blocklist.sefinek.net/generated/adguard/ads/TheBlockListProject.AdsList.txt
+https://blocklist.sefinek.net/generated/adguard/ads/blocklistproject.ads.txt
 https://blocklist.sefinek.net/generated/adguard/ads/yoyo.AdsTrackersEtc.txt
 https://blocklist.sefinek.net/generated/adguard/forks/0Zinc.easylist.txt
 https://blocklist.sefinek.net/generated/adguard/forks/0Zinc.easyprivacy.txt
@@ -25,9 +25,9 @@ https://blocklist.sefinek.net/generated/adguard/forks/adaway.hosts.txt
 https://blocklist.sefinek.net/generated/adguard/forks/anudeepND.adservers.txt
 https://blocklist.sefinek.net/generated/adguard/forks/AssoEchap.stalkerware-indicators.txt
 https://blocklist.sefinek.net/generated/adguard/forks/bigdargon.hostsVN.txt
-https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.abuse.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.abuse.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.drugs.txt
-https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.fraud.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.fraud.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.gambling.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.malware.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.phishing.txt

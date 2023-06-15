@@ -14,7 +14,7 @@
 ```dotenv
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/ads/TheBlockListProject.AdsList.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/ads/blocklistproject.ads.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/0Zinc.easylist.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/0Zinc.easyprivacy.txt
@@ -24,9 +24,9 @@ https://blocklist.sefinek.net/generated/0.0.0.0/forks/adaway.hosts.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/anudeepND.adservers.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/AssoEchap.stalkerware-indicators.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/bigdargon.hostsVN.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.abuse.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.abuse.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.drugs.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.fraud.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.fraud.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.gambling.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.malware.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.phishing.txt
