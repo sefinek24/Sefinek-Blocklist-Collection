@@ -4,7 +4,7 @@
 
   <h1>📥 Last update</h1>
   15.06.2023<br>
-  <code>[DD.MM.YYYY]</code>
+  <code>DD.MM.YYYY</code>
 </div>
 
 
