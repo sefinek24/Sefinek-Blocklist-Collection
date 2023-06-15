@@ -6,21 +6,21 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 ### pgl.yoyo.org
 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt)] • https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext 
 - **Removed:**
-   The domain `click.discord.com` has been removed from this blocklist. This domain is used by Discord for email verification and login attempts, and therefore should not be blocked.
+   * `click.discord.com` -  This domain is used by Discord for email verification and login attempts, and therefore should not be blocked.
 
 
 ### blocklistproject/Lists
 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/abuse.txt
 - **Removed:**
-    - `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
-    - `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
-    - `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
+    * `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
+    * `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
+    * `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
 
 2. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.malware.txt)] • https://blocklistproject.github.io/Lists/malware.txt
 - **Removed:**
-    - `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
-    - `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
-    - `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
+    * `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
+    * `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
+    * `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
 
 3. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/fraud.txt
 - **Removed:**
