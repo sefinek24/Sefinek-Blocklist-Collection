@@ -11,7 +11,7 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further enhance online safety.
 
 Here is a sample URL with a list of drug-related domains:
-- https://blocklistproject.github.io/Lists/drugs.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.drugs.txt
 
 ## ⚠️ Important information
 Blocking drug-related domains may be an effective way to limit exposure to drug-related content, but it is not a substitute for seeking professional help for drug addiction.
@@ -23,6 +23,6 @@ Many resources are available, including hotlines, online forums, and local treat
 Remember, recovery is possible, and seeking help is the first step towards a healthier, happier life.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

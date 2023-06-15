@@ -30,9 +30,9 @@ Let's strive for a safer, more responsible online environment for everyone!
 
 ## 🗑️ Pointless/Unused Domains
 Below are some example URLs with lists of pointless/unused domains that you may find helpful:
-- https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/useless-websites.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/useless-websites.txt
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

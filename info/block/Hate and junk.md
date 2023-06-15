@@ -9,7 +9,7 @@ The URLs provided are associated with certain domains that you may wish to block
 Please use this list as a reference and consider other measures to further enhance online safety.
 
 The following is a sample list of URLs containing harmful or inappropriate content that can be blocked in Pi-hole to protect users:
-- https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/developerdan.hate-and-junk-extended.txt
 
 ## 🛡️ How to Protect Yourself from Hate on the Internet
 The internet has become an integral part of our daily lives, and it is important to take steps to protect ourselves and create a safer online space in the face of increasing hate speech and discrimination.
@@ -46,6 +46,6 @@ If you find yourself feeling overwhelmed or stressed by the negativity online, i
 > By taking these steps, we can help prevent the spread of hate and discrimination online and promote greater understanding and respect for everyone.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

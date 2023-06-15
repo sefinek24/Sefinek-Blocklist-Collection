@@ -12,13 +12,13 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further boost online safety.
 
 Here are some example URLs with a list of domains:
-- https://blocklistproject.github.io/Lists/scam.txt
-- https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
-- https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.scam.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/Dogino.Discord-Phishing-URLs-scam.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/durablenapkin.scamblocklist.txt
 
 Please note that while blocking these domains can help limit exposure to scam websites, it is important to also educate yourself on how to identify and avoid scams.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

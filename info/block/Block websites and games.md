@@ -11,39 +11,35 @@ If you want to block access to specific websites on your network, you can use Pi
 Below is a list of associated domains that you can block:
 
 - TikTok
-  - https://blocklistproject.github.io/Lists/tiktok.txt
-  - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/social/tiktok.txt
-  - https://ente.dev/api/blocklist/tiktok
+  - https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt
   > 📝 **Note:**
   > TikTok is a popular social media app that has raised concerns regarding data privacy and security.
   > Some users may choose to block access to TikTok on their network for these reasons.
   > [Read more »](../Why%20should%20I%20block%20TikTok.md)
 - Snapchat
-  - https://raw.githubusercontent.com/nickoppen/pihole-blocklists/master/blocklist-snapchat.txt
+  - https://blocklist.sefinek.net/generated/0.0.0.0/social/snapchat.txt
   > 📝 **Note:**
   > Snapchat is a popular messaging app that allows users to send photos and videos that disappear after a set amount of time.
   > Some users may choose to block access to Snapchat on their network due to concerns over inappropriate content or cyberbullying.
   > [Read more »](../Why%20should%20I%20block%20Snapchat.md)
 - Omegle
-  - omegle.com
-  - logs.omegle.com
-  - lady.omegle.com<br><br>
+  - https://blocklist.sefinek.net/generated/0.0.0.0/sites/omegle.txt
   > 📝 **Note:**
   > Omegle is a website that allows users to chat with strangers anonymously.
   > Some users may choose to block access to Omegle on their network due to concerns over inappropriate content or potentially dangerous interactions.
   > [Read more »](../Why%20should%20I%20block%20Omegle.md)
 - Riot Games
-  - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/sites/riotgames.txt
+  - https://blocklist.sefinek.net/generated/0.0.0.0/sites/riotgames.txt
   > 📝 **Note:**
   > Riot Games is a game development company that produces several popular online games, including League of Legends and Valorant.
   > [Read more »](../Why%20should%20I%20block%20Riot%20Games.md)
 - League of Legends
-  - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/league-of-legends.txt
+  - https://blocklist.sefinek.net/generated/0.0.0.0/games/league-of-legends.txt
   > 📝 **Note:**
   > League of Legends is a popular online multiplayer game produced by Riot Games.
   > [Read more »](../Why%20should%20I%20block%20LoL.md)
 - Valorant
-  - https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/games/valorant.txt
+  - https://blocklist.sefinek.net/generated/0.0.0.0/games/valorant.txt
   > 📝 **Note:**
   > Valorant is a popular online multiplayer game produced by Riot Games.
   > [Read more »](../Why%20should%20I%20block%20Valorant.md)
@@ -62,6 +58,6 @@ In conclusion, while blocking access to certain domains can be a useful tool for
 By staying informed and vigilant, we can all work together to create a safer online environment for ourselves and others.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

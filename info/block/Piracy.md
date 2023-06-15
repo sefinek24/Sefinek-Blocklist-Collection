@@ -16,11 +16,11 @@ In addition to blocking piracy domains, Pi-hole can also block other types of un
 
 📜 Where can you find piracy domain blocklists?
 Here are some sample URLs with a list of domains that you can use to block piracy domains with Pi-hole:
-- https://blocklistproject.github.io/Lists/piracy.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.piracy.txt
 
 For a complete list of blocklists that you can use with Pi-hole, please refer to the [List.md](../../lists/md/PiHole.md) file in this repository.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

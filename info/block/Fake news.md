@@ -11,11 +11,11 @@ These URLs are linked to specific domains that you may opt to block on your netw
 Please consider this list as a reference and implement additional measures to further enhance online safety.
 
 Here's an example URL with a list of domains:
-- https://raw.githubusercontent.com/marktron/fakenews/master/fakenews
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/marktron.fakenews.txt
 
 While blocking these domains can be an effective way to limit exposure to fake news content, it's equally essential to educate yourself on how to identify and avoid fake news.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

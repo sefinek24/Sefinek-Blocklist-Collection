@@ -7,9 +7,9 @@ Please note that the list of URLs provided below is not comprehensive but can se
 Blocking these URLs can improve online safety and reduce potential risks. It is also recommended to consider additional measures to enhance online safety.
 
 Here is an example of a URL that provides a list of ransomware domains:
-- https://blocklistproject.github.io/Lists/ransomware.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.ransomware.txt
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

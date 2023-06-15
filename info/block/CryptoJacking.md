@@ -13,10 +13,10 @@ The URLs are associated with certain domains that you may wish to block on your 
 It is important to use this list as a reference and consider other measures to further enhance online safety.
 
 Below are some sample URLs that can be used to block cryptojacking domains:
-- https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams
-- https://v.firebog.net/hosts/Prigent-Crypto.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/hoshsadiq.adblock-nocoin-list.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/Snota418.Crypto-streams.txt
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

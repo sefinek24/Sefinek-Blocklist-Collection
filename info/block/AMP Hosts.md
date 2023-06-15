@@ -15,14 +15,13 @@ If you want to block access to AMP pages on your network, you can add the AMP do
 However, blocking AMP pages may not be the best solution for everyone.
 
 Here are some sample URLs with a list of domains:
-- https://ente.dev/api/blocklist/google-amp
-- https://ente.dev/api/blocklist/google-amp-hosts
-- https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/developerdan.amp-hosts-extended.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/ente-dev.google-amp-hosts.txt
 
 By blocking these domains with Pi-hole, you can prevent your data from being shared with third-party companies without your consent, and potentially improve your browsing experience.
 However, it's worth noting that some websites may not function correctly without AMP pages, and blocking them could lead to a degraded user experience.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

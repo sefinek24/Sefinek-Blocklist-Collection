@@ -11,23 +11,19 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further enhance online safety.
 
 Here are some sample URLs with a list of domains:
-- https://blocklistproject.github.io/Lists/porn.txt
-- https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/blocklist/porn.txt
-- https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
-- https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt
-- https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt
-- https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
-- https://raw.githubusercontent.com/chadmayfield/pihole-blocklists/master/lists/pi_blocklist_porn_top1m.list
-- https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt
-- https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt
-- https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts
-- https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
-- https://raw.githubusercontent.com/zangadoprojets/pi-hole-blocklist/main/Pornpages.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/4skinSkywalker.Anti-Porn.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.porn.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/chadmayfield.pi_blocklist_porn_all.txtcklist_porn_all.list
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/mhhakim.custom-porn-blocklist.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/mhhakim.porn.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/oisd.nsfw.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/Sinfonietta.pornography-hosts.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/porn.txt
 
 Please note that this is just a small sample of porn domains, and there are many more out there.
 It's important to keep your list up to date and regularly review it to ensure that it is blocking appropriate content.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

@@ -12,11 +12,12 @@ These URLs are associated with specific domains that you may want to block on yo
 You can use this list as a reference and consider other measures to improve online safety further.
 
 Here is a sample URL with a list of domains:
-- https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/RPiList.Spam-Mails.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/forks/stopforumspam.toxic_domains_whole.txt
 
 While blocking these domains can limit exposure to spam mail, it's crucial to take other precautions, such as using a spam filter and being cautious when opening emails from unknown senders.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/PiHole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.
