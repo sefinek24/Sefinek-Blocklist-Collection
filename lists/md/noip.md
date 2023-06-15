@@ -75,7 +75,6 @@ https://blocklist.sefinek.net/generated/noip/forks/justdomains.easyprivacy.txt
 https://blocklist.sefinek.net/generated/noip/forks/kboghdady.youtubelist.txt
 https://blocklist.sefinek.net/generated/noip/forks/MajkiIT.adguard_host.txt
 https://blocklist.sefinek.net/generated/noip/forks/MajkiIT.adguard_mobile_host.txt
-https://blocklist.sefinek.net/generated/noip/forks/MajkiIT.adservers.txt
 https://blocklist.sefinek.net/generated/noip/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
 https://blocklist.sefinek.net/generated/noip/forks/MajkiIT.easylist_host.txt
 https://blocklist.sefinek.net/generated/noip/forks/MajkiIT.easy_privacy_host.txt

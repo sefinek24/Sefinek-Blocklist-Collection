@@ -82,7 +82,6 @@ jobs:
           curl https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt --output blocklist/template/forks/kboghdady.youtubelist.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt --output blocklist/template/forks/MajkiIT.adguard_host.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt --output blocklist/template/forks/MajkiIT.adguard_mobile_host.txt
-          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adservers.txt --output blocklist/template/forks/MajkiIT.adservers.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/Ad_filter_list_by_Disconnect.txt --output blocklist/template/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easylist_host.txt --output blocklist/template/forks/MajkiIT.easylist_host.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt --output blocklist/template/forks/MajkiIT.easy_privacy_host.txt
