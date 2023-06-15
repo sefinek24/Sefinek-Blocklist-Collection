@@ -4,13 +4,12 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 
 
 ### pgl.yoyo.org
-1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt)] • https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext 
+#### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt)] • https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext 
 - **Removed:**
    * `click.discord.com` -  This domain is used by Discord for email verification and login attempts, and therefore should not be blocked.
 
 
 ### blocklistproject/Lists
-
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/forks/theblocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/abuse.txt
 - **Removed:**
     * `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
@@ -33,12 +32,12 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 
 
 ### DandelionSprout/adfilt
-1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt)] • https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt 
+#### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt)] • https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt 
 - **Removed:**
     The `arc.msn.com` domain has been removed from the list as it is necessary to receive benefits from Xbox Game Pass. Bounties for ads have been also removed, see original list for bounty infomation.
 
 
 ### jerryn70/GoodbyeAds
-1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt)] • https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt 
+#### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt)] • https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt 
 - **Fixed:**
   * trk.mail.ru,ping [[#379]](https://github.com/jerryn70/GoodbyeAds/pull/379)
