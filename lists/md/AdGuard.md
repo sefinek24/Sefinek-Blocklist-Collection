@@ -13,9 +13,9 @@
 
 ```dotenv
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+https://blocklist.sefinek.net/generated/adguard/ads/blocklistproject.ads.txt
 https://blocklist.sefinek.net/generated/adguard/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/adguard/ads/jerryn70.GoodbyeAds.txt
-https://blocklist.sefinek.net/generated/adguard/ads/blocklistproject.ads.txt
 https://blocklist.sefinek.net/generated/adguard/ads/yoyo.AdsTrackersEtc.txt
 https://blocklist.sefinek.net/generated/adguard/forks/0Zinc.easylist.txt
 https://blocklist.sefinek.net/generated/adguard/forks/0Zinc.easyprivacy.txt
@@ -25,9 +25,7 @@ https://blocklist.sefinek.net/generated/adguard/forks/adaway.hosts.txt
 https://blocklist.sefinek.net/generated/adguard/forks/anudeepND.adservers.txt
 https://blocklist.sefinek.net/generated/adguard/forks/AssoEchap.stalkerware-indicators.txt
 https://blocklist.sefinek.net/generated/adguard/forks/bigdargon.hostsVN.txt
-https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.abuse.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.drugs.txt
-https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.fraud.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.gambling.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.malware.txt
 https://blocklist.sefinek.net/generated/adguard/forks/blocklistproject.phishing.txt
@@ -111,14 +109,16 @@ https://blocklist.sefinek.net/generated/adguard/forks/zerodot1.CoinBlockerLists.
 https://blocklist.sefinek.net/generated/adguard/gambling.txt
 https://blocklist.sefinek.net/generated/adguard/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/adguard/games/valorant.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.abuse.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/blocklistproject.fraud.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/main.txt
-https://blocklist.sefinek.net/generated/adguard/malicious/reported-by-norton.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/phishing.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/reported-by-norton.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/web-attacks.txt
 https://blocklist.sefinek.net/generated/adguard/porn.txt
 https://blocklist.sefinek.net/generated/adguard/sites/omegle.txt
 https://blocklist.sefinek.net/generated/adguard/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/adguard/social/snapchat.txt
 https://blocklist.sefinek.net/generated/adguard/social/tiktok.txt
 https://blocklist.sefinek.net/generated/adguard/useless-websites.txt
-https://blocklist.sefinek.net/generated/adguard/malicious/web-attacks.txt
 ```

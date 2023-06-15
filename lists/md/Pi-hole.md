@@ -12,9 +12,9 @@
 <br>
 
 ```dotenv
+https://blocklist.sefinek.net/generated/0.0.0.0/ads/blocklistproject.ads.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/ads/blocklistproject.ads.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/0Zinc.easylist.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/0Zinc.easyprivacy.txt
@@ -24,7 +24,6 @@ https://blocklist.sefinek.net/generated/0.0.0.0/forks/adaway.hosts.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/anudeepND.adservers.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/AssoEchap.stalkerware-indicators.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/bigdargon.hostsVN.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.abuse.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.drugs.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.gambling.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.malware.txt
@@ -109,14 +108,16 @@ https://blocklist.sefinek.net/generated/0.0.0.0/forks/zerodot1.CoinBlockerLists.
 https://blocklist.sefinek.net/generated/0.0.0.0/gambling.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/games/valorant.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.abuse.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.fraud.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/malicious/main.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/malicious/reported-by-norton.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/malicious/phishing.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/malicious/reported-by-norton.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/malicious/web-attacks.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/porn.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/sites/omegle.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/social/snapchat.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/useless-websites.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/malicious/web-attacks.txt
 ```
