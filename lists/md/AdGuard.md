@@ -113,7 +113,7 @@ https://blocklist.sefinek.net/generated/adguard/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/adguard/games/valorant.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/main.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/reported-by-norton.txt
-https://blocklist.sefinek.net/generated/adguard/phishing.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/phishing.txt
 https://blocklist.sefinek.net/generated/adguard/porn.txt
 https://blocklist.sefinek.net/generated/adguard/sites/omegle.txt
 https://blocklist.sefinek.net/generated/adguard/sites/riotgames.txt

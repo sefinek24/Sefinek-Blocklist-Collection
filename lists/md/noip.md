@@ -112,7 +112,7 @@ https://blocklist.sefinek.net/generated/noip/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/noip/games/valorant.txt
 https://blocklist.sefinek.net/generated/noip/malicious/main.txt
 https://blocklist.sefinek.net/generated/noip/malicious/reported-by-norton.txt
-https://blocklist.sefinek.net/generated/noip/phishing.txt
+https://blocklist.sefinek.net/generated/noip/malicious/phishing.txt
 https://blocklist.sefinek.net/generated/noip/porn.txt
 https://blocklist.sefinek.net/generated/noip/sites/omegle.txt
 https://blocklist.sefinek.net/generated/noip/sites/riotgames.txt

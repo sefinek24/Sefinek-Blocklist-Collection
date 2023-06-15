@@ -112,7 +112,7 @@ https://blocklist.sefinek.net/generated/dnsmasq/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/dnsmasq/games/valorant.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/main.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/reported-by-norton.txt
-https://blocklist.sefinek.net/generated/dnsmasq/phishing.txt
+https://blocklist.sefinek.net/generated/dnsmasq/malicious/phishing.txt
 https://blocklist.sefinek.net/generated/dnsmasq/porn.txt
 https://blocklist.sefinek.net/generated/dnsmasq/sites/omegle.txt
 https://blocklist.sefinek.net/generated/dnsmasq/sites/riotgames.txt
