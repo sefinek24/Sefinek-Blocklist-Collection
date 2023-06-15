@@ -30,8 +30,8 @@ jobs:
           
           curl https://adaway.org/hosts.txt --output blocklist/template/forks/adaway.hosts.txt
           curl https://big.oisd.nl --output blocklist/template/forks/oisd.big.txt
-          curl https://blocklistproject.github.io/Lists/ads.txt --output blocklist/template/forks/blocklistproject.ads.txt
           curl https://blocklistproject.github.io/Lists/abuse.txt --output blocklist/template/forks/blocklistproject.abuse.txt
+          curl https://blocklistproject.github.io/Lists/ads.txt --output blocklist/template/forks/blocklistproject.ads.txt
           curl https://blocklistproject.github.io/Lists/drugs.txt --output blocklist/template/forks/blocklistproject.drugs.txt
           curl https://blocklistproject.github.io/Lists/fraud.txt --output blocklist/template/forks/blocklistproject.fraud.txt
           curl https://blocklistproject.github.io/Lists/gambling.txt --output blocklist/template/forks/blocklistproject.gambling.txt
