@@ -40,4 +40,4 @@ The blocklists were modified to improve their effectiveness and to ensure they d
 ## jerryn70/GoodbyeAds
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt)] • https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt 
 - ✔️ **Fixed:**
-    1. trk.mail.ru,ping [[#379]](https://github.com/jerryn70/GoodbyeAds/pull/379)
+    1. `trk.mail.ru,ping` - [[#379]](https://github.com/jerryn70/GoodbyeAds/pull/379)
