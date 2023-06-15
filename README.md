@@ -18,6 +18,12 @@
     </a>
 </div>
 
+<div align="center">
+    ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b> ⭐
+    <br>
+    👋 <b>Have fun and stay safe!</b> o(>ω<)o 👋
+</div>
+
 # 📝 Information
 False alarms happen very rarely. Even if accidental blocking of a website occurs, I usually create a new Issue in the repository with the original blocklist.
 However, if the blocklist is of my own making, please open an Issue in this repository and inform me about the incident.
@@ -29,12 +35,6 @@ You will be able to select exactly what should be blocked.
 # ✋ Warning
 It is important to regularly check this repository for updates and potential changes.
 However, it should be noted that while this blocking list can improve your privacy and security, it may unintentionally block legitimate content or services. Therefore, use it at your own risk.
-
-<div align="center">
-    ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b> ⭐
-    <br>
-    👋 <b>Have fun and stay safe!</b> o(>ω<)o 👋
-</div>
 
 ## 🤝 Contributing
 I welcome your contributions!
