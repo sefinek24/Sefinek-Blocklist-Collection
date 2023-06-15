@@ -120,5 +120,5 @@ https://blocklist.sefinek.net/generated/adguard/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/adguard/social/snapchat.txt
 https://blocklist.sefinek.net/generated/adguard/social/tiktok.txt
 https://blocklist.sefinek.net/generated/adguard/useless-websites.txt
-https://blocklist.sefinek.net/generated/adguard/web-attacks.txt
+https://blocklist.sefinek.net/generated/adguard/malicious/web-attacks.txt
 ```

@@ -119,5 +119,5 @@ https://blocklist.sefinek.net/generated/noip/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/noip/social/snapchat.txt
 https://blocklist.sefinek.net/generated/noip/social/tiktok.txt
 https://blocklist.sefinek.net/generated/noip/useless-websites.txt
-https://blocklist.sefinek.net/generated/noip/web-attacks.txt
+https://blocklist.sefinek.net/generated/noip/malicious/web-attacks.txt
 ```

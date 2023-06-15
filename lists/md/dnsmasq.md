@@ -119,5 +119,5 @@ https://blocklist.sefinek.net/generated/dnsmasq/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/dnsmasq/social/snapchat.txt
 https://blocklist.sefinek.net/generated/dnsmasq/social/tiktok.txt
 https://blocklist.sefinek.net/generated/dnsmasq/useless-websites.txt
-https://blocklist.sefinek.net/generated/dnsmasq/web-attacks.txt
+https://blocklist.sefinek.net/generated/dnsmasq/malicious/web-attacks.txt
 ```

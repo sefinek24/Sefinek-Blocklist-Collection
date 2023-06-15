@@ -118,5 +118,5 @@ https://blocklist.sefinek.net/generated/0.0.0.0/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/social/snapchat.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/useless-websites.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/web-attacks.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/malicious/web-attacks.txt
 ```
