@@ -36,6 +36,10 @@ You will be able to select exactly what should be blocked.
 It is important to regularly check this repository for updates and potential changes.
 However, it should be noted that while this blocking list can improve your privacy and security, it may unintentionally block legitimate content or services. Therefore, use it at your own risk.
 
+## 📥 Update frequency
+- **Repository:** The blocklists in this repository are updated every `2 hours` by GitHub Actions.
+- **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):** It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone `GMT+01:00`; Cron: `0 0,6 * * *`; At minute 0 past hour 0 and 6;
+
 ## 🤝 Contributing
 I welcome your contributions!
 If you know of any additional domains that you believe should be included in this list, I would be grateful if you could share them with me.
