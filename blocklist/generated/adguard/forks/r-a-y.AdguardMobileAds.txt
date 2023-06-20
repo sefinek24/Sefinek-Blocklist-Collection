@@ -1,7 +1,7 @@
 ! AdguardMobileAds
 !
 ! Converted from - https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
-! Last converted - Mon, 12 Jun 2023 23:15:26 +0100
+! Last converted - Mon, 19 Jun 2023 23:38:19 +0100
 !
 
 ||dad-api.dcard.tw^
@@ -78,6 +78,12 @@
 ||reqde.afreecatv.com^
 ||adballoon.afreecatv.com^
 ||deapi.afreecatv.com^
+||ads.adadapted.com^
+||zflylg.buzz^
+||zflfoy.xyz^
+||zfkjrm.xyz^
+||zflfoy.buzz^
+||zfehvv.xyz^
 ||mtag.mman.kr^
 ||hybird.rayjump.com^
 ||anythinktech.com^
@@ -90,7 +96,6 @@
 ||ads-sdk.mattel163.com^
 ||bdapi-ads.realmemobile.com^
 ||adsfs.oppomobile.com^
-||ads.oppomobile.com^
 ||offerwall.yandex.net^
 ||adsmrapi.imbc.com^
 ||ads.imbc.com^
@@ -117,10 +122,8 @@
 ||thecatmachine.com^
 ||blueduckredapple.com^
 ||cdn.mobilefuse.com^
-||ad.mobiuspace.net^
 ||api-ad-callback.mobiuspace.net^
 ||hb.rayjump.com^
-||ad.snaptube.app^
 ||gdl.i9dhjx.ru^
 ||mobidriven.com^
 ||liftoff-creatives.io^
@@ -145,12 +148,10 @@
 ||amanad.adtdp.com^
 ||ad.sxp.smartclip.net^
 ||amazonclix.com^
-||a.4b10e98c641a81c5b43bf484d3d77057505e8229a71e12b491d30c9b.com^
 ||api.itpub.cloud^
 ||adv-front.devpnd.com^
 ||mintegral.com^
 ||x-eu.64e98469810bd13e2b45e52d19d6fddfe333b3528350d8cfa792d478.com^
-||a.471cc486764581c9508c0c803356a704c27ac3e37c1223a84557c58c.com^
 ||skadsdk.appsflyer.com^
 ||alt-ad.mail.ru^
 ||chavoads.com^
@@ -171,7 +172,6 @@
 ||vmap.v.ad-generation.jp^
 ||iyes.youku.com^
 ||adg.kajicam.com^
-||ad.endpo.in^
 ||exelbid.com^
 ||ssp-ad.momento.dev^
 ||adpies.com^
@@ -249,7 +249,6 @@
 ||promo-images.ttpsdk.info^
 ||s3.ttpsdk.info^
 ||api.applovefrom.com^
-||api.adnet.mob.com^
 ||iam.datasavannah.com^
 ||yovoads.com^
 ||restartad.com^
@@ -262,8 +261,6 @@
 ||onlineapi.youappi.com^
 ||ssp.otm-r.com^
 ||networksdk.ssacdn.com^
-||config.88-f.net^
-||cdn.88-f.net^
 ||ms.applvn.com^
 ||tapsell.ir^
 ||jioads.akamaized.net^
@@ -280,7 +277,6 @@
 ||thind-gke-euw.prd.data.corp.unity3d.com^
 ||unityads.unity3d.com^
 ||gop1.co^
-||adpriv.nikkei.com^
 ||nkis.nikkei.com^
 ||gameanalysis.appcpi.net^
 ||ads.bulldogcpi.com^
@@ -296,7 +292,6 @@
 ||activity.browser.intl.miui.com^
 ||api.brs.intl.miui.com^
 ||api.newsfeed.intl.miui.com^
-||mp.huangye.miui.com^
 ||adv.sec.intl.miui.com^
 ||adsrvr.io^
 ||t7z.cupid.iqiyi.com^
@@ -315,7 +310,6 @@
 ||tveta.naver.net^
 ||deliveryengine.adswizz.com^
 ||sitemaji.com^
-||h5.wannaplay.cn^
 ||adsapi.manhuaren.com^
 ||euadsapi.manhuaren.com^
 ||msg.ettoday.net^
@@ -437,7 +431,6 @@
 ||net.rayjump.com^
 ||ad.cauly.co.kr^
 ||config.appjolt.com^
-||rtb.platform.glispa.com^
 ||adflake.com^
 ||ads.aitype.net^
 ||ad-creatives-public.commondatastorage.googleapis.com^
@@ -457,7 +450,6 @@
 ||ad.doubleclick.net^
 ||ad.jorte.com^
 ||ad.leadboltapps.net^
-||ad.madvertise.de^
 ||ad.ohmyad.co^
 ||ad.smaad.jp^
 ||ad.vrvm.com^
@@ -489,7 +481,6 @@
 ||admarvel.s3.amazonaws.com^
 ||admedia.com^
 ||admicro1.vcmedia.vn^
-||admicro2.vcmedia.vn^
 ||admitad.com^
 ||admixer.co.kr^
 ||admixer.net^
@@ -502,17 +493,13 @@
 ||adpublisher.s3.amazonaws.com^
 ||adquota.com^
 ||ads.ad2iction.com^
-||ads.admoda.com^
 ||ads.aerserv.com^
-||ads.fotoable.com^
 ||ads.mobilefuse.net^
 ||ads.mobilityware.com^
 ||ads.mobvertising.net^
 ||ads.mopub.com^
-||ads.ookla.com^
 ||ads.pdbarea.com^
 ||ads.pinger.com^
-||ads.reward.rakuten.jp^
 ||ads.taptapnetworks.com^
 ||ads.xlxtra.com^
 ||ads.youtube.com^
@@ -682,7 +669,6 @@
 ||manage.com^
 ||mbn.com.ua^
 ||mdotm.com^
-||media.motrixi.com^
 ||medialand.ru^
 ||meendocash.com^
 ||metamx.com^
@@ -690,10 +676,7 @@
 ||mi.gdt.qq.com^
 ||mixadvert.com^
 ||mixmarket.biz^
-||mmnetwork.mobi^
-||mob.huimee.net^
 ||moba8.net^
-||mobad.ijinshan.com^
 ||mobads.baidu.com^
 ||mobads4app.com^
 ||mobclix.com^
@@ -701,7 +684,6 @@
 ||mobiads.ru^
 ||mobile-click.biz^
 ||mobile333.com^
-||mobileads.msn.com^
 ||mobilecore.com^
 ||mobiledl.adboe.com^
 ||mobon.com^
@@ -761,11 +743,8 @@
 ||silvermob.com^
 ||i.singular.net^
 ||sdk-api-v1.singular.net^
-||t.singular.net^
 ||skadnetwork.singular.net^
-||view-prod.ad.singular.net^
 ||sitescout.com^
-||slb.gedawang.com^
 ||smaclick.com^
 ||smartadserver.com^
 ||sonobi.com^
@@ -794,7 +773,6 @@
 ||tpc.googlesyndication.com^
 ||track.cpatool.net^
 ||trackimpression.com^
-||tracking.acekoala.com^
 ||tracking.applift.com^
 ||tradeadexchange.com^
 ||traff10wap.com^
@@ -809,7 +787,6 @@
 ||ultraadserver.com^
 ||umbel.com^
 ||unicume.com^
-||update.sdk.batmobi.net^
 ||upsight.com^
 ||usekahuna.com^
 ||velti.com^
@@ -840,7 +817,6 @@
 ||deloton.com^
 ||oclasrv.com^
 ||n152adserv.com^
-||rg.yottos.com^
 ||smilered.com^
 ||cloudads-a.akamaihd.net^
 ||as.uncn.jp^
@@ -858,7 +834,6 @@
 ||adcenter-api.cashwalk.co^
 ||ads.viber.com^
 ||ads-d.viber.com^
-||ads.aws.viber.com^
 ||adcs.rqmob.com^
 ||preitem.wshareit.com^
 ||mobimagic.com^
@@ -867,5 +842,4 @@
 ||newad.ifeng.com^
 ||etl.tindersparks.com^
 ||sensors.larkplayerapp.com^
-||sensors.snaptubeapp.com^
 ||log.kajicam.com^
