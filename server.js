@@ -23,6 +23,7 @@ app.use(limiter);
 
 // Static
 app.use('/generated', express.static(path.join(__dirname, 'blocklist', 'generated')));
+app.use('/logs/git', express.static(path.join(__dirname, 'logs', 'git')));
 
 // Endpoints
 app.get('/', (req, res) => res.render('index.ejs'));
