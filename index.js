@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === 'development') {
 	}
 
 	cluster.on('exit', worker => {
-		console.log(`Worker ${worker.process.pid} died`);
+		console.warn(`Worker ${worker.process.pid} died`);
 	});
 } else {
 	require('./server.js');
