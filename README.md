@@ -1,4 +1,4 @@
-<img width="41%" align="right" src="images/kitten.png" alt="Gigachad kitten">
+<img width="40%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
     <h1>
         The best BlockList Collection<br> made by Sefinek ✋
