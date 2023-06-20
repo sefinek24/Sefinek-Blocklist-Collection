@@ -22,6 +22,8 @@
     ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b> ⭐
     <br>
     👋 <b>Have fun and stay safe!</b> o(>ω<)o 👋
+    <br><br>
+    <img src="https://count.getloli.com/get/@Sefinek-Blocklist-Collection?theme=rule34" alt="Views" title="Repository views">
 </div>
 
 ## 📝 Information
