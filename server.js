@@ -5,6 +5,7 @@ const path = require('node:path');
 const logger = require('./www/middlewares/morgan.js');
 const limiter = require('./www/middlewares/ratelimit.js');
 const { notFound, internalError } = require('./www/middlewares/other/errors.js');
+const { version } = require('./package.json');
 
 // Express instance
 const app = express();
@@ -26,7 +27,7 @@ app.use('/generated', express.static(path.join(__dirname, 'blocklist', 'generate
 app.use('/logs/git', express.static(path.join(__dirname, 'logs', 'git')));
 
 // Endpoints
-app.get('/', (req, res) => res.render('index.ejs'));
+app.get('/', (req, res) => res.render('index.ejs', { version }));
 
 
 // Errors
