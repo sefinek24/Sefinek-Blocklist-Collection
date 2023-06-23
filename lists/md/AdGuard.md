@@ -2,7 +2,7 @@
     <h1>📝 Default bocklist collection</h1>
     <p>
         📄 » <b>Format: AdGuard</b><br>
-        📥 » <b>Last update: 15.06.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 23.06.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
