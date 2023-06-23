@@ -60,7 +60,6 @@ https://blocklist.sefinek.net/generated/adguard/forks/FadeMind.UncheckyAds.txt
 https://blocklist.sefinek.net/generated/adguard/forks/firebog.AdguardDNS.txt
 https://blocklist.sefinek.net/generated/adguard/forks/firebog.Admiral.txt
 https://blocklist.sefinek.net/generated/adguard/forks/firebog.Easylist.txt
-https://blocklist.sefinek.net/generated/adguard/forks/firebog.Easyprivacy.txt
 https://blocklist.sefinek.net/generated/adguard/forks/firebog.Prigent-Ads.txt
 https://blocklist.sefinek.net/generated/adguard/forks/firebog.Prigent-Crypto.txt
 https://blocklist.sefinek.net/generated/adguard/forks/firebog.w3kbl.txt
@@ -68,13 +67,10 @@ https://blocklist.sefinek.net/generated/adguard/forks/frogeye.firstparty-tracker
 https://blocklist.sefinek.net/generated/adguard/forks/hole-cert.domains_hosts.txt
 https://blocklist.sefinek.net/generated/adguard/forks/hoshsadiq.adblock-nocoin-list.txt
 https://blocklist.sefinek.net/generated/adguard/forks/justdomains.adguarddns.txt
-https://blocklist.sefinek.net/generated/adguard/forks/justdomains.easylist.txt
-https://blocklist.sefinek.net/generated/adguard/forks/justdomains.easyprivacy.txt
 https://blocklist.sefinek.net/generated/adguard/forks/kboghdady.youtubelist.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.adguard_host.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.adguard_mobile_host.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
-https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.easylist_host.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.easy_privacy_host.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.gambling-hosts.txt
 https://blocklist.sefinek.net/generated/adguard/forks/MajkiIT.hostfile.txt

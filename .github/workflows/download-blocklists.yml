@@ -49,8 +49,6 @@ jobs:
           curl https://hole.cert.pl/domains/domains_hosts.txt --output blocklist/template/forks/hole-cert.domains_hosts.txt
           curl https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt --output blocklist/template/forks/frogeye.firstparty-trackers-hosts.txt
           curl https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt --output blocklist/template/forks/justdomains.adguarddns.txt
-          curl https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt --output blocklist/template/forks/justdomains.easylist.txt
-          curl https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt --output blocklist/template/forks/justdomains.easyprivacy.txt
           curl https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt --output blocklist/template/forks/malware-filter.urlhaus-filter-hosts-online.txt
           curl https://nsfw.oisd.nl --output blocklist/template/forks/oisd.nsfw.txt
           curl https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt --output blocklist/template/forks/digitalside.latestdomains.txt
@@ -81,7 +79,6 @@ jobs:
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt --output blocklist/template/forks/MajkiIT.adguard_host.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt --output blocklist/template/forks/MajkiIT.adguard_mobile_host.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/Ad_filter_list_by_Disconnect.txt --output blocklist/template/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
-          curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easylist_host.txt --output blocklist/template/forks/MajkiIT.easylist_host.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt --output blocklist/template/forks/MajkiIT.easy_privacy_host.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt --output blocklist/template/forks/MajkiIT.gambling-hosts.txt
           curl https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt --output blocklist/template/forks/MajkiIT.hostfile.txt
@@ -111,7 +108,6 @@ jobs:
           curl https://v.firebog.net/hosts/AdguardDNS.txt --output blocklist/template/forks/firebog.AdguardDNS.txt
           curl https://v.firebog.net/hosts/Admiral.txt --output blocklist/template/forks/firebog.Admiral.txt
           curl https://v.firebog.net/hosts/Easylist.txt --output blocklist/template/forks/firebog.Easylist.txt
-          curl https://v.firebog.net/hosts/Easyprivacy.txt --output blocklist/template/forks/firebog.Easyprivacy.txt
           curl https://v.firebog.net/hosts/Prigent-Ads.txt --output blocklist/template/forks/firebog.Prigent-Ads.txt
           curl https://v.firebog.net/hosts/Prigent-Crypto.txt --output blocklist/template/forks/firebog.Prigent-Crypto.txt
           curl https://v.firebog.net/hosts/static/w3kbl.txt --output blocklist/template/forks/firebog.w3kbl.txt
