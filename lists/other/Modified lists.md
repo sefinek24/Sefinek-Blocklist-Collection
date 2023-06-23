@@ -33,14 +33,14 @@
 
 #### 4. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/blocklistproject.ads.txt)] • https://blocklistproject.github.io/Lists/ads.txt
 - 🗑️ **Removed:**
-    1. `arc.msn.com` - This domain has been removed from the list as it is necessary to receive benefits from [Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass).
+    1. `arc.msn.com` - This subdomain has been removed from the list as it is necessary to receive benefits from [Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass).
     2. `widget.trustpilot.com` - The subdomain is responsible for displaying the [trustpilot.com](https://www.trustpilot.com) widget. This widget is not an advertisement and can be useful in determining whether a particular website is trustworthy (e.g., an online store) based on user reviews. The majority of companies use Trustpilot to enhance their customer trust.
 
 
 ## DandelionSprout/adfilt
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt)] • https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt 
 - 🗑️ **Removed:**
-    1. `arc.msn.com` - This domain has been removed from the list as it is necessary to receive benefits from [Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass). Bounties for ads have been also removed, see original list for bounty information.
+    1. `arc.msn.com` - This subdomain has been removed from the list as it is necessary to receive benefits from [Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass). Bounties for ads have been also removed, see original list for bounty information.
 
 
 ## jerryn70/GoodbyeAds
