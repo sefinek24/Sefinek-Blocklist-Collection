@@ -4,7 +4,7 @@
         The best BlockList Collection<br> made by Sefinek ✋
     </h1>
     <img src="images/adlists.png" alt="Domains on Adlists" title="Screenshot from 20.06.2023 (DD.MM.YYYY).">
-    <br><br>
+    <br>
     <p>
         <a href="https://blocklist.sefinek.net">View more stats</a>
     </p>
