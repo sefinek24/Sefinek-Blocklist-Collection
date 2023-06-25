@@ -8,7 +8,7 @@ const { notFound, internalError } = require('./www/middlewares/other/errors.js')
 const { version } = require('./package.json');
 
 // Utils
-const incrementRequestCount = require('./utils/incrementRequestCount.js');
+const increment = require('./utils/increment.js');
 
 // MongoDB
 require('./database/mongoose.js');
@@ -28,16 +28,20 @@ app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false 
 app.use(logger);
 app.use(limiter);
 
-
-// Static endpoint
-app.use('/generated', incrementRequestCount, express.static(path.join(__dirname, 'blocklist', 'generated')));
+// Static
 app.use(express.static(path.join(__dirname, 'www', 'public')));
+
+
+// Blocklist
+app.use('/generated', increment.blocklist, express.static(path.join(__dirname, 'blocklist', 'generated')));
+app.get('*', increment.requests);
+
 
 // Endpoints
 app.get('/', async (req, res) => {
 	const database = await BlockListStats.findOne({ domain: process.env.DOMAIN });
 
-	res.render('index.ejs', { database, version });
+	res.status(200).render('index.ejs', { database, version });
 });
 
 
