@@ -7,6 +7,13 @@ const limiter = require('./www/middlewares/ratelimit.js');
 const { notFound, internalError } = require('./www/middlewares/other/errors.js');
 const { version } = require('./package.json');
 
+// Utils
+const incrementRequestCount = require('./utils/incrementRequestCount.js');
+
+// MongoDB
+require('./database/mongoose.js');
+const BlockListStats = require('./database/models/Blocklist');
+
 // Express instance
 const app = express();
 
@@ -22,12 +29,15 @@ app.use(logger);
 app.use(limiter);
 
 
-// Static
-app.use('/generated', express.static(path.join(__dirname, 'blocklist', 'generated')));
-app.use('/logs/git', express.static(path.join(__dirname, 'logs', 'git')));
+// Static endpoint
+app.use('/generated', incrementRequestCount, express.static(path.join(__dirname, 'blocklist', 'generated')));
 
 // Endpoints
-app.get('/', (req, res) => res.render('index.ejs', { version }));
+app.get('/', async (req, res) => {
+	const database = await BlockListStats.findOne({ domain: process.env.DOMAIN });
+
+	res.render('index.ejs', { database, version });
+});
 
 
 // Errors
