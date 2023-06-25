@@ -4,11 +4,10 @@
         The best BlockList Collection<br> made by Sefinek ✋
     </h1>
     <img src="images/adlists.png" alt="Domains on Adlists" title="Screenshot from 20.06.2023 (DD.MM.YYYY).">
-    <br>
+    <br><br>
     <p>
         <a href="https://blocklist.sefinek.net">View more stats</a>
     </p>
-    <br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
 </div>
