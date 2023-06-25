@@ -26,12 +26,20 @@
 </div>
 
 ## 📝 Information
-False alarms happen very rarely. Even if accidental blocking of a website occurs, I usually create a new Issue in the repository with the original blocklist.
-However, if the blocklist is of my own making, please open an Issue in this repository and inform me about the incident.
-In any case, you can always create your Pull Request, which I always encourage. Any contribution will be appreciated by me.
+False alarms occur very rarely.
+If accidental blocking of a legitimate website occurs, please report it to its original Creator, as some lists in this repository ([blocklist/template/forks](blocklist/template/forks) directory) are only downloaded and converted into various formats.
+Under no circumstances should they be modified because they will be overwritten by GitHub Actions.
+However, if a blocklist is not located in the aforementioned folder, you can create a new Pull Request or Issue.
 
-You have two options to choose from. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
-You will be able to select exactly what should be blocked.
+If I come across a false alarm while browsing the internet, I usually eliminate it immediately if it is within my capabilities.
+
+**To summarize:**
+- `blocklist/template/forks/*` - Files with lists downloaded by GitHub Actions and ready to be converted into various formats, e.g., from 0.0.0.0 example.com to another format. **DO NOT MODIFY** THEM, EVEN IF YOU CREATE A PULL REQUEST!
+- `blocklist/template/*` - Modified copies of other blocklists or custom lists created for this repository. **You can modify** them as they will never be overwritten in the future.
+- `blocklist/generated/*` - Blocking lists generated in various formats from the template. **DO NOT MODIFY** ANY FILE IN THIS FOLDER!
+
+> You have two options. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator. You will be able to choose what should be blocked.
+
 
 ## ✋ Warning
 It is important to regularly check this repository for updates and potential changes.
@@ -39,7 +47,7 @@ However, it should be noted that while this blocking list can improve your priva
 
 ## 📥 Update frequency
 - **Repository:**  
-The blocklists in this repository are updated every `2 hours` by GitHub Actions.
+The blocklists in this repository are updated every `2 hours` by [GitHub Actions](.github/workflows/download-blocklists.yml).
 - **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):**  
 It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone `GMT+01:00`; Cron: `0 0,6 * * *`; At minute 0 past hour 0 and 6;
 
