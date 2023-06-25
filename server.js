@@ -24,13 +24,14 @@ app.set('views', path.join(__dirname, 'www', 'views'));
 
 // Use
 app.use(cors({ origin: true }));
-app.use(helmet({ crossOriginResourcePolicy: false }));
+app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false }));
 app.use(logger);
 app.use(limiter);
 
 
 // Static endpoint
 app.use('/generated', incrementRequestCount, express.static(path.join(__dirname, 'blocklist', 'generated')));
+app.use(express.static(path.join(__dirname, 'www', 'public')));
 
 // Endpoints
 app.get('/', async (req, res) => {

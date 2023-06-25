@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container > div {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Main */
+body {
+    background-color: #000003;
+    color: #fff;
+    font-size: 19px;
+    font-family: "Cambria Math", sans-serif;
+}
+a {
+    color: cornflowerblue;
+}
+a:hover {
+    color: blue;
+}
+#header {
+    text-align: center;
+    font-size: 40px;
+}
+img {
+    max-width: 100%;
+}
+
+/* Other */
+#text {
+    text-align: center
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.container > div {
+    flex: 1 0 300px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container img {
+    width: 300px;
+}

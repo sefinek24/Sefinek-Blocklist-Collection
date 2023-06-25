@@ -11,29 +11,11 @@
     <meta property="og:site_name" content="Made by Sefinek♥">
     <meta property="og:url" content="https://blocklist.sefinek.net">
 
-    <style>
-        body {
-            background-color: #000003;
-            color: #fff;
-            font-size: 19px;
-            font-family: "Cambria Math", sans-serif;
-        }
-        h1 {
-            text-align: center
-        }
-        h2 {
-            text-align: center
-        }
-        a {
-            color: cornflowerblue;
-        }
-        a:hover {
-            color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>Blocklist Collection made by Sefinek</h1>
+    <div id="header">Blocklist Collection made by Sefinek</div>
+    <div id="text">>> ⭐ if you ❤️ <<</div>
     <hr>
 
     <ul>
@@ -44,9 +26,34 @@
         <li><b>Version:</b> v<%= version %></li>
     </ul>
 
-    <h2>>> 🌍 Stats 🌎 <<</h2>
-    <img src="<%= process.env.SEFINEK_API%>/moecounter?number=<%= database.requests.all %>">
+    <div class="container">
+        <div>
+            <h2>😻 » All requests « 😻</h2>
+            <img crossorigin="blocklist" src="<%= process.env.SEFINEK_API%>/moecounter?number=<%= database.requests.all %>&theme=gelbooru&length=9" style="width:515px!important">
+        </div>
+    </div>
 
-    <h2>>> ⭐ if you ❤️ <<</h2>
+    <div class="container">
+        <div>
+            <h2>🌍 127.0.0.1 🌎</h2>
+            <img crossorigin="blocklist" src="<%= process.env.SEFINEK_API%>/moecounter?number=<%= database.requests['127001'] %>&length=6">
+        </div>
+        <div>
+            <h2>🌍 0.0.0.0 🌎</h2>
+            <img crossorigin="blocklist" src="<%= process.env.SEFINEK_API%>/moecounter?number=<%= database.requests['00000'] %>&length=6">
+        </div>
+        <div>
+            <h2>🌍 AdGuard 🌎</h2>
+            <img crossorigin="blocklist" src="<%= process.env.SEFINEK_API%>/moecounter?number=<%= database.requests.adguard %>&length=6">
+        </div>
+        <div>
+            <h2>🌍 Dnsmasq 🌎</h2>
+            <img crossorigin="blocklist" src="<%= process.env.SEFINEK_API%>/moecounter?number=<%= database.requests.dnsmasq %>&length=6">
+        </div>
+        <div>
+            <h2>🌍 NoIP 🌎</h2>
+            <img crossorigin="blocklist" src="<%= process.env.SEFINEK_API%>/moecounter?number=<%= database.requests.noip %>&length=6">
+        </div>
+    </div>
 </body>
 </html>
