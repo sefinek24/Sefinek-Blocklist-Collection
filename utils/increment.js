@@ -25,6 +25,7 @@ module.exports.blocklist = async (req, res, next) => {
 	try {
 		const database = await BlockListStats.findOne({ domain: process.env.DOMAIN });
 		if (database && category) {
+			database.requests.all++;
 			database.requests.blocklist++;
 			database.requests[category]++;
 			await database.save();
