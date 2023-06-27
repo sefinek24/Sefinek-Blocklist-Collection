@@ -36,7 +36,7 @@ If I come across a false alarm while browsing the internet, I usually eliminate 
 **To summarize:**
 - `blocklist/template/forks/*` - Files with lists downloaded by GitHub Actions and ready to be converted into various formats, e.g., from 0.0.0.0 example.com to another format. **DO NOT MODIFY** THEM, EVEN IF YOU CREATE A PULL REQUEST!
 - `blocklist/template/*` - Modified copies of other blocklists or custom lists created for this repository. **You can modify** them as they will never be overwritten in the future.
-- `blocklist/generated/*` - Blocking lists generated in various formats from the template. **DO NOT MODIFY** ANY FILE IN THIS FOLDER!
+- `blocklist/generated/*` - Blocklists generated in various formats from the template. **DO NOT MODIFY** ANY FILE IN THIS FOLDER!
 
 > You have two options. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator. You will be able to choose what should be blocked.
 
