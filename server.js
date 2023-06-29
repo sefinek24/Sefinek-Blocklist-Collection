@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const path = require('node:path');
+const parser = require('cron-parser');
 const logger = require('./www/middlewares/morgan.js');
 const limiter = require('./www/middlewares/ratelimit.js');
 const { notFound, internalError } = require('./www/middlewares/other/errors.js');
@@ -44,6 +45,13 @@ app.get('/', async (req, res) => {
 	res.status(200).render('index.ejs', { database, version });
 });
 
+app.get('/update-frequency', (req, res) => {
+	const tz = { tz: 'Europe/Warsaw' };
+	const github = parser.parseExpression('0 */2 * * *', tz);
+	const remote = parser.parseExpression('0 0,6 * * *', tz);
+
+	res.status(200).render('update-frequency.ejs', { cron: { github: github.next().toISOString(), remote: remote.next().toISOString() }, version });
+});
 
 // Errors
 app.use(notFound);

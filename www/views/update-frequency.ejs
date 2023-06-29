@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Update frequency - Sefinek Blocklists</title>
+    <meta name="description" content="The best collection of block lists for Pi-hole and AdGuard with +100 links and +6 million domains on Adlists.">
+    <meta name="keywords" content="blocklist, pihole, adguard, ublock origin, links, urls, blacklist, polskie, listy, blokowan, polskie listy pihole, adlisty pihole, generator pihole, pihole blocklist generator, generator listy blokowan">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#000003">
+    <meta property="og:site_name" content="Made by Sefinek♥">
+    <meta property="og:url" content="https://blocklist.sefinek.net">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script>
+</head>
+<body>
+    <div id="header">Blocklist Collection made by Sefinek</div>
+    <div id="text">>> ⭐ if you ❤️ <<</div>
+    <hr>
+
+    <p>
+        <b>Your timezone:</b> <span id="user-timezone"></span>
+    </p>
+    <div>
+        <b>sefinek24/Sefinek-Blocklist-Collection:</b> <span id="github"></span>
+        <br>
+        <b>blocklist.sefinek.net:</b> <span id="remote"></span>
+    </div>
+
+    <script>
+        function showCronInfo() {
+            const userTimezone = luxon.DateTime.local().zoneName;
+            document.getElementById('user-timezone').innerHTML = userTimezone;
+
+            const github = luxon.DateTime.fromISO('<%= cron.github %>').setZone(userTimezone);
+            const remote = luxon.DateTime.fromISO('<%= cron.remote %>').setZone(userTimezone);
+
+            document.getElementById('github').innerHTML = github.toLocaleString(luxon.DateTime.DATETIME_MED);
+            document.getElementById('remote').innerHTML = remote.toLocaleString(luxon.DateTime.DATETIME_MED);
+        }
+
+        window.onload = showCronInfo;
+    </script>
+</body>
+</html>
