@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const BlockList = require('../database/models/Blocklist');
+const BlockList = require('./models/Blocklist');
 
 mongoose.connect(process.env.MONGODB_URL, {
 	useNewUrlParser: true,

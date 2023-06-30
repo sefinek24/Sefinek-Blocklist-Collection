@@ -1,4 +1,4 @@
-const increment = require('../../../utils/increment.js');
+const increment = require('../../utils/increment.js');
 
 exports.notFound = async (req, res) => {
 	res.status(404).send('<h1>404 Page was not found 📃</h1><a href="/">Go to Home page...</a>');

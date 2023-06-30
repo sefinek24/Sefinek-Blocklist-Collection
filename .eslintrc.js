@@ -7,9 +7,8 @@ module.exports = {
 		'mongo': true,
 	},
 	'parserOptions': {
-		'ecmaVersion': 2022,
+		'ecmaVersion': 2023,
 	},
-	'ignorePatterns': ['public/js/stella/slider.js', 'public/js/lazyload.js', 'public/js/bootstrap.bundle.min.js', 'public/js/jquery-3.6.4.min.js'],
 	'rules': {
 		'arrow-spacing': ['warn', { 'before': true, 'after': true }],
 		'comma-dangle': ['error', 'always-multiline'],

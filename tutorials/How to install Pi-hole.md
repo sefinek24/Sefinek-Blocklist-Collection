@@ -20,7 +20,7 @@ Pi-hole comes with a pre-installed list of domains that are known to serve ads o
 However, you can also add a custom list of domains to block. Here's how to do it:
 1. Log in to your Pi-hole admin console.
 2. Click on `Adlists`.
-3. Add new URL addresses from [this list](../lists/md/PiHole.md).
+3. Add new URL addresses from [this list](../lists/md/Pi-hole.md).
 
 ### 🔄 Step 4: Update Pi-hole
 To keep Pi-hole up-to-date, you need to update it regularly. Here's how:

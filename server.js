@@ -9,11 +9,11 @@ const { notFound, internalError } = require('./www/middlewares/other/errors.js')
 const { version } = require('./package.json');
 
 // Utils
-const increment = require('./utils/increment.js');
+const increment = require('./www/utils/increment.js');
 
 // MongoDB
-require('./database/mongoose.js');
-const BlockListStats = require('./database/models/Blocklist');
+require('./www/database/mongoose.js');
+const BlockList = require('./www/database/models/Blocklist');
 
 // Express instance
 const app = express();
@@ -40,9 +40,9 @@ app.get('*', increment.requests);
 
 // Endpoints
 app.get('/', async (req, res) => {
-	const database = await BlockListStats.findOne({ domain: process.env.DOMAIN });
+	const database = await BlockList.findOne({ domain: process.env.DOMAIN });
 
-	res.status(200).render('index.ejs', { database, version });
+	res.render('index.ejs', { database, version });
 });
 
 app.get('/update-frequency', (req, res) => {
@@ -50,8 +50,9 @@ app.get('/update-frequency', (req, res) => {
 	const github = parser.parseExpression('0 */2 * * *', tz);
 	const remote = parser.parseExpression('0 0,6 * * *', tz);
 
-	res.status(200).render('update-frequency.ejs', { cron: { github: github.next().toISOString(), remote: remote.next().toISOString() }, version });
+	res.render('update-frequency.ejs', { cron: { github: github.next().toISOString(), remote: remote.next().toISOString() }, version });
 });
+
 
 // Errors
 app.use(notFound);

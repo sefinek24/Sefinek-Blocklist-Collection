@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>Update frequency - Sefinek Blocklists</title>
-    <meta name="description" content="The best collection of block lists for Pi-hole and AdGuard with +100 links and +6 million domains on Adlists.">
-    <meta name="keywords" content="blocklist, pihole, adguard, ublock origin, links, urls, blacklist, polskie, listy, blokowan, polskie listy pihole, adlisty pihole, generator pihole, pihole blocklist generator, generator listy blokowan">
+    <meta name="description" content="This subpage displays the update time of repositories containing the list of blocklists for your time zone. You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.">
+    <meta name="keywords" content="update, frequency, pi-hole, cron, time, timezone, date, sefinek, blocklist, collection">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="theme-color" content="#000003">
@@ -15,18 +15,29 @@
     <script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script>
 </head>
 <body>
-    <div id="header">Blocklist Collection made by Sefinek</div>
-    <div id="text">>> ⭐ if you ❤️ <<</div>
+    <div id="header">Blocklist Collection made by Sefinek - v<%= version %></div>
+    <div id="text"><a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">>> ⭐ if you ❤️ <<</a></div>
     <hr>
+
+    <div class="container" style="padding-top:10px">
+        <div>
+            <a href="/" title="/">< Back</a>
+        </div>
+    </div>
 
     <p>
         <b>Your timezone:</b> <span id="user-timezone"></span>
     </p>
-    <div>
-        <b>sefinek24/Sefinek-Blocklist-Collection:</b> <span id="github"></span>
+    <p>
+        <b>Remote (GitHub):</b> <span id="github"></span>
         <br>
-        <b>blocklist.sefinek.net:</b> <span id="remote"></span>
-    </div>
+        <b>Local (blocklist.sefinek.net):</b> <span id="remote"></span>
+    </p>
+
+    <code>
+        This subpage displays the update time of repositories containing the list of blocklists for your time zone.
+        You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.
+    </code>
 
     <script>
         function showCronInfo() {

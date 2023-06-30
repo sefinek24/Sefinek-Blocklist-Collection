@@ -14,13 +14,15 @@ body {
     background-color: #000003;
     color: #fff;
     font-size: 19px;
-    font-family: "Cambria Math", sans-serif;
+    font-family: "Calibri", sans-serif;
 }
 a {
     color: cornflowerblue;
+    text-decoration: none;
 }
 a:hover {
     color: blue;
+    text-decoration: underline;
 }
 #header {
     text-align: center;
