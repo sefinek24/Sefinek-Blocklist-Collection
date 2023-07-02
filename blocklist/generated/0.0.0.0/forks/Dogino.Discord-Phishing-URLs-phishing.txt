@@ -1,6 +1,6 @@
 # Title: AntiPhishingDiscordSteam
 # Description: This list blocks known domains used in the VOIP application Discord by scammers. Adding this list to your Pi-Hole blocklist will prevent those domains from loading.
-# Last modified: Sat, 01 Jul 2023, 08:54 UTC+02
+# Last modified: Sun, 02 Jul 2023, 17:02 UTC+02
 # Origin: https://github.com/Dogino/Discord-Phishing-URLs
 
 0.0.0.0 cord.gifts
@@ -1050,6 +1050,7 @@
 0.0.0.0 bot.ngo
 0.0.0.0 botapp-discord.com
 0.0.0.0 botapp-discord.xyz
+0.0.0.0 botcaptcha.com
 0.0.0.0 botdetect.click
 0.0.0.0 botdynofication.fun
 0.0.0.0 botmee6.com
@@ -1348,6 +1349,7 @@
 0.0.0.0 claim-hypixel.gift
 0.0.0.0 claim-hypixel.shop
 0.0.0.0 claim-hypixels.store
+0.0.0.0 claim-layerzero.net
 0.0.0.0 claim-layerzero.xyz
 0.0.0.0 claim-sea.xyz
 0.0.0.0 claim-your-nitro.com
@@ -1690,6 +1692,7 @@
 0.0.0.0 cryptoadventure.xyz
 0.0.0.0 cryptobirb.xyz
 0.0.0.0 cryptoblast24.com
+0.0.0.0 cryptodao.live
 0.0.0.0 cryptodose.org
 0.0.0.0 cryptogptlive.com
 0.0.0.0 cryptogptlive.net
@@ -1771,6 +1774,7 @@
 0.0.0.0 cs-winner.com
 0.0.0.0 cs2-beta-access.pro
 0.0.0.0 cs2-beta.pl
+0.0.0.0 cs2-beta.world
 0.0.0.0 cs2-events.com
 0.0.0.0 cs2-freeacces.pro
 0.0.0.0 cs2-global.com
@@ -7583,6 +7587,7 @@
 0.0.0.0 dyno-captchas.com
 0.0.0.0 dyno-dev.net
 0.0.0.0 dyno-entry.xyz
+0.0.0.0 dyno-gg.link
 0.0.0.0 dyno-premium.xyz
 0.0.0.0 dyno-tool.app
 0.0.0.0 dyno-tool.com
@@ -7845,6 +7850,7 @@
 0.0.0.0 elodiscord.com
 0.0.0.0 elon-ai.net
 0.0.0.0 elon-bit.com
+0.0.0.0 elon-crypto.site
 0.0.0.0 elon-event.us
 0.0.0.0 elon-gpt4.net
 0.0.0.0 elon-musk.group
@@ -7862,6 +7868,7 @@
 0.0.0.0 elonlive23.com
 0.0.0.0 elonlive2x.com
 0.0.0.0 elonmusk-giveaway.xyz
+0.0.0.0 elonmusk2x.info
 0.0.0.0 elonmuskevent.info
 0.0.0.0 elonmusktesla-give.com
 0.0.0.0 elonpepe.org
@@ -7873,6 +7880,7 @@
 0.0.0.0 elontesla.org
 0.0.0.0 elontesla23.pro
 0.0.0.0 elonx2.pro
+0.0.0.0 elonx2.top
 0.0.0.0 elonxspace.com
 0.0.0.0 email-gamingevents.gq
 0.0.0.0 email-gamingevents.ml
@@ -8272,6 +8280,8 @@
 0.0.0.0 fazegg.com
 0.0.0.0 fazegift.net
 0.0.0.0 fazeup19.com
+0.0.0.0 fb-loginagdfe.mediafirex.biz.id
+0.0.0.0 fb-loginh9ktn.sennuk.com
 0.0.0.0 fcyber-sport.ru
 0.0.0.0 fdgdfgdf.space
 0.0.0.0 fdiscord.com
@@ -8971,6 +8981,7 @@
 0.0.0.0 get-premiumgift.com
 0.0.0.0 get-premiums.com
 0.0.0.0 get-skin.com
+0.0.0.0 get-source2invite.net
 0.0.0.0 get-users-beta.ml
 0.0.0.0 get19dragos.club
 0.0.0.0 getcach.monster
@@ -9008,6 +9019,8 @@
 0.0.0.0 getviplocals1.com
 0.0.0.0 getvottak.com
 0.0.0.0 getx2tesla.com
+0.0.0.0 getyour-cs2invite.com
+0.0.0.0 getyour-cs2invite.net
 0.0.0.0 getyournitro3.click
 0.0.0.0 getyournitro3.one
 0.0.0.0 gfcsgo88.xyz
@@ -10857,6 +10870,7 @@
 0.0.0.0 join-tsukimi.com
 0.0.0.0 join-valhalla.xyz
 0.0.0.0 join-whatisthissorcery.com
+0.0.0.0 join-zuku.com
 0.0.0.0 join2musk.org
 0.0.0.0 join2saylor.net
 0.0.0.0 join2tesla.net
@@ -10941,6 +10955,7 @@
 0.0.0.0 kakaopubg.site
 0.0.0.0 kakstitotako.com
 0.0.0.0 kanlycoin.com
+0.0.0.0 karesurthi.gq
 0.0.0.0 kaspianchoob.com
 0.0.0.0 katowice.ru
 0.0.0.0 katowlce.ru
@@ -11033,12 +11048,16 @@
 0.0.0.0 layerzero.host
 0.0.0.0 layerzero.meta-claimings.website
 0.0.0.0 layerzero.reward-meta.live
+0.0.0.0 layerzero.space
 0.0.0.0 layerzero.ventures
 0.0.0.0 layerzero.web3-request.com
 0.0.0.0 layerzeroairdrop.xyz
+0.0.0.0 layerzerochains.com
 0.0.0.0 layerzeroclaims.net
 0.0.0.0 layerzerodrop.info
 0.0.0.0 layerzerolabs.eu
+0.0.0.0 layerzeronet.site
+0.0.0.0 layerzeronet.tech
 0.0.0.0 layerzeros.claims
 0.0.0.0 layerzro.com
 0.0.0.0 lazarusgamer.xyz
@@ -11150,6 +11169,7 @@
 0.0.0.0 loginsquad-event.gq
 0.0.0.0 loginsquad-events.com
 0.0.0.0 loginsquad-events.gq
+0.0.0.0 loginst.dnsme.eu.org
 0.0.0.0 logitech-nitro-gift.gq
 0.0.0.0 longxrun.online
 0.0.0.0 loop-nitro.com
@@ -11968,6 +11988,7 @@
 0.0.0.0 muskcoins.org
 0.0.0.0 muskcryptos.net
 0.0.0.0 muskcryptplatform.us
+0.0.0.0 muskday.org
 0.0.0.0 musketh.blog
 0.0.0.0 musketh.live
 0.0.0.0 muskevent.org
@@ -13540,6 +13561,7 @@
 0.0.0.0 realskins.xyz
 0.0.0.0 realtorg.xyz
 0.0.0.0 realtower.ru
+0.0.0.0 rebil-overview-info.com
 0.0.0.0 record-hypesquad-events.com
 0.0.0.0 recruit-hypesquad.com
 0.0.0.0 recruit-moderator.com
@@ -13914,6 +13936,7 @@
 0.0.0.0 roblonx.com
 0.0.0.0 roblonx.ga
 0.0.0.0 robloox.com.ng
+0.0.0.0 robloox.store
 0.0.0.0 robloq.com
 0.0.0.0 robloqx.com
 0.0.0.0 roblos.com
@@ -15144,8 +15167,10 @@
 0.0.0.0 slearncornmunity.ru
 0.0.0.0 sledge-hammer.app
 0.0.0.0 sledge-hammer.org
+0.0.0.0 sledge4hammer.app
 0.0.0.0 sledgehammer.me
 0.0.0.0 sledgehammer.st
+0.0.0.0 sledgehammer.top
 0.0.0.0 sledgehammerauth.app
 0.0.0.0 sledgehammerauth.com
 0.0.0.0 sledgehammerauths.com
@@ -15214,6 +15239,7 @@
 0.0.0.0 solliciting-hypesquad-events.com
 0.0.0.0 solve-captchas.com
 0.0.0.0 soma-cases.ru
+0.0.0.0 soma-gifts.ru
 0.0.0.0 somabox.ru
 0.0.0.0 somacase-csgo.space
 0.0.0.0 somacase.cf
@@ -15309,6 +15335,7 @@
 0.0.0.0 spacechance.live
 0.0.0.0 spaceid-voyage.site
 0.0.0.0 spacelives.net
+0.0.0.0 spacemusk.live
 0.0.0.0 spacesnakes.net
 0.0.0.0 spacex-2023.info
 0.0.0.0 spacex-airdrop.online
@@ -15685,6 +15712,7 @@
 0.0.0.0 staemcommunrity.com
 0.0.0.0 staemcommunrty.com
 0.0.0.0 staemcommuntily.ru
+0.0.0.0 staemcommuntiny.com
 0.0.0.0 staemcommuntity.com
 0.0.0.0 staemcommuntiy.com
 0.0.0.0 staemcommuntiy.ru
@@ -17171,6 +17199,7 @@
 0.0.0.0 steamcommnunytl.ru
 0.0.0.0 steamcommnurity.ru
 0.0.0.0 steamcommnurnity.com
+0.0.0.0 steamcommnurntiy.com
 0.0.0.0 steamcommnurtiy.com
 0.0.0.0 steamcommnute.ru
 0.0.0.0 steamcommnuti.ru
@@ -17354,6 +17383,7 @@
 0.0.0.0 steamcommulty.ru
 0.0.0.0 steamcommulty.site
 0.0.0.0 steamcommuluty.ru
+0.0.0.0 steamcommumify.ru
 0.0.0.0 steamcommumiity.com
 0.0.0.0 steamcommumillty.com
 0.0.0.0 steamcommumiltly.com
@@ -18731,6 +18761,7 @@
 0.0.0.0 steamcommunly.xyz
 0.0.0.0 steamcommunmiity.com
 0.0.0.0 steamcommunmilty.com
+0.0.0.0 steamcommunmitiy.com
 0.0.0.0 steamcommunmitly.com
 0.0.0.0 steamcommunmittlly.com
 0.0.0.0 steamcommunmittly.com
@@ -18774,6 +18805,7 @@
 0.0.0.0 steamcommunnities.com
 0.0.0.0 steamcommunnitiy.com
 0.0.0.0 steamcommunnitiy.ru
+0.0.0.0 steamcommunnitliy.com
 0.0.0.0 steamcommunnitliy.ru
 0.0.0.0 steamcommunnitlly.com
 0.0.0.0 steamcommunnitlly.ru
@@ -18786,6 +18818,7 @@
 0.0.0.0 steamcommunnits.ru
 0.0.0.0 steamcommunnits.ru.com
 0.0.0.0 steamcommunnitse.com
+0.0.0.0 steamcommunnittiy.com
 0.0.0.0 steamcommunnittlly.com
 0.0.0.0 steamcommunnittly.com
 0.0.0.0 steamcommunnittly.ru
@@ -19653,6 +19686,7 @@
 0.0.0.0 steamcomnummity.com
 0.0.0.0 steamcomnumniltly.com
 0.0.0.0 steamcomnumnilty.com
+0.0.0.0 steamcomnumnitiy.com
 0.0.0.0 steamcomnumnitlly.com
 0.0.0.0 steamcomnumnitly.com
 0.0.0.0 steamcomnumnittly.com
@@ -19941,6 +19975,7 @@
 0.0.0.0 steamcomrnurity.com.ru
 0.0.0.0 steamcomrnurity.ru
 0.0.0.0 steamcomrnurnity.ru
+0.0.0.0 steamcomrnurnlty.ru
 0.0.0.0 steamcomrnutiny.ru
 0.0.0.0 steamcomrnyniti.ru
 0.0.0.0 steamcomrnyniti.ru.com
@@ -20229,6 +20264,7 @@
 0.0.0.0 steamcomunty.xyz
 0.0.0.0 steamcomuntyy.ru
 0.0.0.0 steamcomunuetiuey.com
+0.0.0.0 steamcomunuetiuy.com
 0.0.0.0 steamcomunuilty.ru
 0.0.0.0 steamcomunuily.ru
 0.0.0.0 steamcomunuity.com
@@ -20396,6 +20432,7 @@
 0.0.0.0 steamconmmynity.ru
 0.0.0.0 steamconmnity.com
 0.0.0.0 steamconmnity.ru
+0.0.0.0 steamconmnminty.ru
 0.0.0.0 steamconmnmity.ru
 0.0.0.0 steamconmnmnunity.ru
 0.0.0.0 steamconmnmunity.com
@@ -22924,6 +22961,7 @@
 0.0.0.0 steanmcommunltu.site
 0.0.0.0 steanmcommunlty.com
 0.0.0.0 steanmcommunlty.ru
+0.0.0.0 steanmcommunluty.ru
 0.0.0.0 steanmcommunniti.com
 0.0.0.0 steanmcommunnity.com
 0.0.0.0 steanmcommunnity.ru
@@ -23087,6 +23125,7 @@
 0.0.0.0 steanmscominnity.com
 0.0.0.0 steanmscommimnity.com
 0.0.0.0 steanmscomminity.com
+0.0.0.0 steanmscommmunity.com
 0.0.0.0 steanmscommnunity.com
 0.0.0.0 steanmscommunity.com
 0.0.0.0 steanmscomnmunity.com
@@ -23096,6 +23135,7 @@
 0.0.0.0 steanmsconmnunnity.com
 0.0.0.0 steanmsconmunmity.com
 0.0.0.0 steanmsconmunnity.com
+0.0.0.0 steanmsconnmunnity.com
 0.0.0.0 steanncammunlte.com
 0.0.0.0 steanncammunlte.ru
 0.0.0.0 steanncanmunuty.ru
@@ -23299,6 +23339,7 @@
 0.0.0.0 stearmcommuniity.ru.com
 0.0.0.0 stearmcommunilty.ru
 0.0.0.0 stearmcommuninty.com
+0.0.0.0 stearmcommunitiy.ru
 0.0.0.0 stearmcommunitly.ru
 0.0.0.0 stearmcommunitry.cf
 0.0.0.0 stearmcommunitty.ru
@@ -23325,6 +23366,7 @@
 0.0.0.0 stearmcommuunnity.ru
 0.0.0.0 stearmcommynity.fun
 0.0.0.0 stearmcommynuty.ru
+0.0.0.0 stearmcomnmuity.ru
 0.0.0.0 stearmcomnumnilty.com
 0.0.0.0 stearmcomnuninty.com
 0.0.0.0 stearmcomnunitly.ru
@@ -23926,6 +23968,7 @@
 0.0.0.0 steatcommunity.com
 0.0.0.0 steatncomnumity.ru
 0.0.0.0 steaumcommnunity.ru
+0.0.0.0 steaumconnunity.com
 0.0.0.0 steaumcoummnunity.ru
 0.0.0.0 steaumcoummnunlty.ru
 0.0.0.0 steaumcoummunitiy.ru
@@ -25905,6 +25948,7 @@
 0.0.0.0 teslapromotion.live
 0.0.0.0 teslasend.io
 0.0.0.0 teslaspring.io
+0.0.0.0 teslastart.org
 0.0.0.0 teslatake2023.com
 0.0.0.0 teslatothe.space
 0.0.0.0 teslatrust2x.com
@@ -26495,6 +26539,7 @@
 0.0.0.0 verification-microsoft.com
 0.0.0.0 verification-moderator.com
 0.0.0.0 verification-partner.com
+0.0.0.0 verification-vulcan.xyz
 0.0.0.0 verification.bot
 0.0.0.0 verification.dyno.so
 0.0.0.0 verifications-discord.com
@@ -26764,6 +26809,7 @@
 0.0.0.0 wholedailyfeed.com
 0.0.0.0 wick-bot.cam
 0.0.0.0 wick-bot.fun
+0.0.0.0 wick-bot.github.io
 0.0.0.0 wick-bot.online
 0.0.0.0 wick-bot.site
 0.0.0.0 wick-bot.xyz
@@ -26955,6 +27001,7 @@
 0.0.0.0 www-roblox.page
 0.0.0.0 www-roblox.pm
 0.0.0.0 www-roblox.pro
+0.0.0.0 www-roblox.ru
 0.0.0.0 www-roblox.to
 0.0.0.0 www-roblox.us
 0.0.0.0 www-roblox.website
@@ -27023,6 +27070,7 @@
 0.0.0.0 x-soft.club
 0.0.0.0 x2-promo.net
 0.0.0.0 x2-tesla.com
+0.0.0.0 x2-tesla.tech
 0.0.0.0 x2bitcoin.net
 0.0.0.0 x2crypto.org
 0.0.0.0 x2get.pro
@@ -27151,6 +27199,7 @@
 0.0.0.0 zondervirus.nl
 0.0.0.0 zoneforyourprize.life
 0.0.0.0 zoomexwallet.com
+0.0.0.0 zuku-nfts.com
 0.0.0.0 zvideo-live.com
 0.0.0.0 zxcuzxytcatsrdrta.com
 0.0.0.0 zzb.bz
