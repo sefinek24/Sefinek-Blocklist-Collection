@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 02 Jul 2023 22:26 UTC+7
-# Version: 2307022226
-# Blocked: 18,761 domains
+# Last modified: 03 Jul 2023 21:36 UTC+7
+# Version: 2307032136
+# Blocked: 18,773 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -192,6 +192,18 @@ server=/ads.youtube.com/
 server=/ads.google.com/
 server=/mail-ads.google.com/
 server=/analytics-alv.google.com/
+#[google-cn]
+server=/2mdn-cn.net/
+server=/admob-cn.com/
+server=/doubleclick-cn.net/
+server=/google-analytics-cn.com/
+server=/googleads-cn.com/
+server=/googleadservices-cn.com/
+server=/googleadsserving.cn/
+server=/googleoptimize-cn.com/
+server=/googletagmanager-cn.com/
+server=/googletagservices-cn.com/
+server=/googlevads-cn.com/
 #[app-measurement.com]
 server=/app-measurement.com/
 server=/region1.app-measurement.com/
@@ -19028,6 +19040,7 @@ server=/vidcpm.com/
 server=/video-serve.com/
 server=/videoegg.com/
 server=/videosprofitnetwork.com/
+server=/videosvc.ezoic.com/
 server=/vidora.com/
 server=/view4cash.de/
 server=/viewlnk.com/
