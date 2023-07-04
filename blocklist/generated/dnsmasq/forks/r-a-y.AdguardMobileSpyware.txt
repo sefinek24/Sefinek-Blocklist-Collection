@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 26 Jun 2023 20:11:24 +0100
+# Last converted - Tue, 04 Jul 2023 02:04:39 +0100
 #
 
 server=/adeventtracker.spotify.com/
@@ -65,7 +65,6 @@ server=/usage.influxdata.com/
 server=/stats.grafana.org/
 server=/rumstat.cdnvideo.ru/
 server=/telemetry.api.swiftkey.com/
-server=/telemetry.swiftkey.com/
 server=/analytics.qoqa.ninja/
 server=/analytics-sprint.qoqa.com/
 server=/analytics.qoqa.ch/
@@ -131,6 +130,9 @@ server=/int.vaicore.xyz/
 server=/int.vlancaa.site/
 server=/int.vlancaa.fun/
 server=/tok.vaicore.xyz/
+server=/track.ktplay.com/
+server=/preview-collector.scopely.io/
+server=/collector.scopely.io/
 server=/events.swishapps.ai/
 server=/telemetry.canva.com/
 server=/analytics.picsart.com/
@@ -521,7 +523,6 @@ server=/geoinfo.i2w.io/
 server=/cmplay.did.ijinshan.com/
 server=/tracking.i2w.io/
 server=/detect.rayjump.com/
-server=/26f396e0b71780f057be4d4af8ebe55b.com/
 server=/a.appbaqend.com/
 server=/ue.flipboard.com/
 server=/mobileapptracking.com/
@@ -551,7 +552,6 @@ server=/tkrecorder.aotter.net/
 server=/android.bugly.qq.com/
 server=/astat.bugly.qq.com/
 server=/ios.bugly.qq.com/
-server=/fdplttrk.com/
 server=/tracking.trnox.com/
 server=/rts.mobula.sdk.duapps.com/
 server=/aftonbladetnya.sc.omtrdc.net/
@@ -560,7 +560,6 @@ server=/npario-inc.net/
 server=/wzrkt.com/
 server=/analytics-events.inshorts.com/
 server=/e-ssl.apsalar.com/
-server=/collector-axa.cloud.ca.com/
 server=/track.adform.net/
 server=/sync.adotmob.com/
 server=/logger.cloudmobi.net/
@@ -674,7 +673,6 @@ server=/lepodownload.mediatek.com/
 server=/lhzbdvm.com/
 server=/log.droid4x.cn/
 server=/log.umsns.com/
-server=/logger.ntracecloud.com/
 server=/lp4.io/
 server=/metrics.adflake.com/
 server=/metrics.bestbuy.com/
