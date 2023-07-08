@@ -16,9 +16,9 @@
 # Modified by : Unknown
 # Source      : Unknown
 # License     : Unknown
-# Release     : <Release>
-# Version     : <Version>
-# Last update : <LastUpdate>
+# Release     : Dnsmasq
+# Version     : 1688832205095
+# Last update : 16:03:25.095, 08.07.2023 [GMT+2 HH:MM:SS.MS, DD.MM.YYYY]
 #
 # 〢 About:
 # This file is part of the Sefinek's Blocklist Collection, maintained by github.com/sefinek24.
@@ -28,7 +28,7 @@
 # By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
 #
 # -------------------------------------------------------------------------------------------------------------------------------------------------------
-0.0.0.0 myanimelist.net
-0.0.0.0 www.myanimelist.net
-0.0.0.0 cdn.myanimelist.net
-0.0.0.0 mxj.myanimelist.net
+server=/myanimelist.net/
+server=/www.myanimelist.net/
+server=/cdn.myanimelist.net/
+server=/mxj.myanimelist.net/
