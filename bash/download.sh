@@ -107,10 +107,30 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  # Pobieranie pliku przy użyciu curl z wyświetlaniem postępu i informacjami o rozmiarze, prędkości i IP
+  # Pobieranie pliku przy użyciu curl z wyświetlaniem postępu
   curl -A "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -L -o "$output_dir/$filename" --progress-bar "$download_url" 2>&1 | \
-    awk -v url="$download_url" -v location="$output_dir/$filename" 'BEGIN {progress=""; size=""; speed=""; ip=""} /\r/ {progress=$0} /Total Size/ {size=$3} /[0-9.]+ [KMGT]?B\/s/ {speed=$2} /Connected to/ {split($3, a, ":"); ip=a[1]} END {print ""; print "Adres URL: " url; print "Lokalizacja pliku: " location; print "Adres IP zdalnego serwera: " ip; print "Rozmiar pliku: " size; print "Prędkość pobierania: " speed;}'
+    tee /tmp/curl_output.txt &
 
+  # Pobranie identyfikatora procesu curl
+  curl_pid=$!
+
+  # Oczekiwanie na zakończenie pobierania
+  wait $curl_pid
+
+  # Pobranie informacji o rozmiarze pliku, prędkości pobierania i adresie IP serwera z zapisanego pliku
+  progress=$(grep -oE '[0-9]+%' /tmp/curl_output.txt | tail -1)
+  size=$(grep -oE 'Total Size: [0-9.,]+' /tmp/curl_output.txt | awk '{print $3}')
+  speed=$(grep -oE '([0-9.,]+[KMGT]?B/s)' /tmp/curl_output.txt)
+  ip=$(grep -oE 'Connected to [0-9a-zA-Z.:]+' /tmp/curl_output.txt | awk '{print $3}')
+
+  # Wyświetlanie informacji
+  echo ""
+  echo "Adres URL: $download_url"
+  echo "Lokalizacja pliku: $output_dir/$filename"
+  echo "Adres IP zdalnego serwera: $ip"
+  echo "Rozmiar pliku: $size"
+  echo "Prędkość pobierania: $speed"
+  echo "Postęp: $progress"
 
   # Sprawdzanie kodu statusu odpowiedzi HTTP
   http_status=$?
@@ -129,9 +149,5 @@ for url in "${urls[@]}"; do
   echo
 done
 
-echo "Sukces
-
-
-
-
+echo "Sukces! Zakończono o: $(date +'%Y-%m-%d %H:%M:%S')"
 
