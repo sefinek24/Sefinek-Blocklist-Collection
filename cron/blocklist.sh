@@ -1,7 +1,7 @@
 #!/bin/bash
 
 repo_path="/home/ubuntu/node/www/Sefinek-Blocklist-Collection"
-output_file="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/logs/pull_$(date +'%Y-%m-%d').log"
+output_file="$repo_path/www/public/logs/pull_$(date +'%Y-%m-%d').log"
 
 # Change to the repository directory
 cd "$repo_path"
