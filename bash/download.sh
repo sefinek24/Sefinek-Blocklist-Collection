@@ -111,7 +111,7 @@ for url in "${urls[@]}"; do
   wget --progress=bar:force:noscroll -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 | \
   while IFS= read -r line; do
     if [[ $line == *%* ]]; then
-      echo -ne "\033[2K\r$line"   # Wyczyść linię i wróć na początek
+      echo -ne "\033[2K\r$line"
     else
       echo "$line"
     fi
@@ -131,6 +131,5 @@ for url in "${urls[@]}"; do
     echo "✖ An error occurred during download (status code: $http_status)."
   fi
 
-  echo ""
-  echo ""
+  echo "\n\nSuccess! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
 done
