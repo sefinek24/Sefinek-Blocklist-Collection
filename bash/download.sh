@@ -107,7 +107,7 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  curl -L -o "$output_dir/$filename" --progress-bar "$download_url"
+  curl -L -o "$output_dir/$filename"  "$download_url"
 
   # Sprawdź kod statusu odpowiedzi HTTP
   http_status=$?
