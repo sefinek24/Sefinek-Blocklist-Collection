@@ -105,13 +105,19 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  output=$(wget -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1)
+  wget -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 |
+  while IFS= read -r line; do
+    if [[ $line == *%* ]]; then
+      echo -ne "\033[2K\r$line"
+    else
+      echo "$line"
+    fi
+  done
+
+  # Capture the HTTP status code
   http_status=$?
 
-  if [[ $output =~ [0-9]{3}\ ([A-Za-z]+) ]]; then
-    status_message=${BASH_REMATCH[1]}
-  fi
-
+  # Handle HTTP errors
   if [ "$http_status" -eq 0 ]; then
     echo "✔ Download completed successfully."
   elif [ "$http_status" -eq 8 ]; then
@@ -119,7 +125,7 @@ for url in "${urls[@]}"; do
   elif [ "$http_status" -eq 4 ]; then
     echo "✖ Access denied to the file (error 403)."
   else
-    echo "✖ An error occurred during download (status code: $http_status - $status_message)."
+    echo "✖ An error occurred during download (status code: $http_status)."
   fi
 
   echo
