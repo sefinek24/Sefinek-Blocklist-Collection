@@ -20,11 +20,11 @@ echo "\n" >> "$output_file"
 
 # Git
 git --version >> "$output_file" 2>&1
-echo "\n" >> "$output_file" 2>&1
+echo "" >> "$output_file" 2>&1
 git fetch >> "$output_file" 2>&1
 git pull >> "$output_file" 2>&1
 
-echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')\n\n" >> "$output_file" 2>&1
+echo "\n\nSuccess! Date: $(date +'%Y-%m-%d %H:%M:%S')\n\n" >> "$output_file" 2>&1
 
 # Final
 echo "Done. Output file has been created: $output_file"
