@@ -1,12 +1,15 @@
 #!/bin/bash
 
-output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/blocklist/template/forks"
 
+# Directory
+output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/blocklist/template/forks"
 if [ ! -d $output_dir ]; then
   echo "Creating folder..."
   mkdir -p $output_dir
 fi
 
+
+# Blocklist urls
 urls=(
   "https://adaway.org/hosts.txt,adaway.hosts.txt"
   "https://big.oisd.nl,oisd.big.txt"
@@ -107,14 +110,14 @@ else
   exit 1
 fi
 
-echo $user_agent
 
+# Download files
 for url in "${urls[@]}"; do
   url_parts=(${url//,/ })
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  wget -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 |
+  wget -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/$user_agent; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 |
   while IFS= read -r line; do
     if [[ $line == *%* ]]; then
       echo -ne "\033[2K\r$line"
