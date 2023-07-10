@@ -144,21 +144,14 @@ for url in "${urls[@]}"; do
     echo "✔ Download completed successfully."
   elif [ "$http_status" -eq 8 ]; then
     echo "✖ File does not exist (error 404)."
-    all_downloads_successful=false
   elif [ "$http_status" -eq 4 ]; then
     echo "✖ Access denied to the file (error 403)."
-    all_downloads_successful=false
   else
     echo "✖ An error occurred during download (status code: $http_status)."
-    all_downloads_successful=false
   fi
 
   echo
   echo
 done
 
-if [ "$all_downloads_successful" = true ]; then
-  echo "Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
-else
-  echo "Some downloads failed. Please check the error messages above."
-fi
+echo "Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
