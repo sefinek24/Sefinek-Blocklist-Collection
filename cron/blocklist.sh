@@ -15,8 +15,7 @@ mkdir -p "$logs_dir"
 echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') ==========================================" >> "$output_file"
 echo "Repository path : $repo_path" >> "$output_file"
 echo "Logs directory  : $logs_dir" >> "$output_file"
-echo "Output file     : $output_file" >> "$output_file"
-echo "" >> "$output_file"
+echo "Output file     : $output_file\n" >> "$output_file"
 
 # Git
 git --version >> "$output_file" 2>&1
