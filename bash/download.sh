@@ -1,5 +1,14 @@
 #!/bin/bash
 
+output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/blocklist/template/forks"
+
+if [ ! -d $output_dir ]; then
+  echo "Creating folder..."
+  mkdir -p $output_dir
+else
+  echo "Folder already exists"
+fi
+
 urls=(
   "https://adaway.org/hosts.txt,adaway.hosts.txt"
   "https://big.oisd.nl,oisd.big.txt"
@@ -92,7 +101,7 @@ urls=(
 )
 
 
-output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/blocklist/template/forks"
+
 
 for url in "${urls[@]}"; do
   url_parts=(${url//,/ })
