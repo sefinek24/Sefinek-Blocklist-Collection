@@ -2,7 +2,7 @@
 
 
 # Directory
-output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/blocklist/template/forks"
+output_dir="blocklist/template/forks"
 if [ ! -d $output_dir ]; then
   echo "Creating folder..."
   mkdir -p $output_dir
