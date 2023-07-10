@@ -12,17 +12,19 @@ cd "$repo_path"
 mkdir -p "$logs_dir"
 
 # Write the full date and time to the output file
-echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') ==========================================\n" >> "$output_file"
+echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') ==========================================" >> "$output_file"
 echo "Repository path: $repo_path" >> "$output_file"
 echo "Logs directory: $logs_dir" >> "$output_file"
 echo "Output file: $output_file" >> "$output_file"
-echo "\n\n" >> "$output_file"
+echo "\n" >> "$output_file"
 
 # Git
 git --version >> "$output_file" 2>&1
-echo "\n\n" >> "$output_file" 2>&1
+echo "\n" >> "$output_file" 2>&1
 git fetch >> "$output_file" 2>&1
 git pull >> "$output_file" 2>&1
 
+echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')\n\n" >> "$output_file" 2>&1
+
 # Final
-echo -e "\n\nDone. Output file has been created: $output_file"
+echo "Done. Output file has been created: $output_file"
