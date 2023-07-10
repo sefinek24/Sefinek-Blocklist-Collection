@@ -107,31 +107,23 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  wget -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 | \
-  while IFS= read -r line; do
-    if [[ $line == *%* ]]; then
-      echo -ne "\033[2K\r$line"
-    else
-      echo "$line"
-    fi
-  done
+  curl -L -o "$output_dir/$filename" --progress-bar "$download_url"
 
-  # Capture the HTTP status code
+  # Sprawdź kod statusu odpowiedzi HTTP
   http_status=$?
 
-  # Handle HTTP errors
+  # Obsłuż błędy HTTP
   if [ "$http_status" -eq 0 ]; then
-    echo "✔ Download completed successfully."
+    echo "✔ Pobieranie zakończone sukcesem."
   elif [ "$http_status" -eq 8 ]; then
-    echo "✖ File does not exist (error 404)."
+    echo "✖ Plik nie istnieje (błąd 404)."
   elif [ "$http_status" -eq 4 ]; then
-    echo "✖ Access denied to the file (error 403)."
+    echo "✖ Brak dostępu do pliku (błąd 403)."
   else
-    echo "✖ An error occurred during download (status code: $http_status)."
+    echo "✖ Wystąpił błąd podczas pobierania (kod statusu: $http_status)."
   fi
 
   echo
-  echo
 done
 
-echo "✔ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
+echo "Sukces! Zakończono o: $(date +'%Y-%m-%d %H:%M:%S')"
