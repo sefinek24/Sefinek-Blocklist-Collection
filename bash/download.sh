@@ -107,42 +107,31 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  # Pobieranie pliku przy użyciu curl z wyświetlaniem postępu
-  curl -A "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -L -o "$output_dir/$filename" --progress-bar "$download_url" 2>&1 | \
-    tee /tmp/curl_output.txt &
+  wget -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 | \
+  while IFS= read -r line; do
+    if [[ $line == *%* ]]; then
+      echo -ne "\033[2K\r$line"
+    else
+      echo "$line"
+    fi
+  done
 
-  # Pobranie identyfikatora procesu curl
-  curl_pid=$!
-
-  # Oczekiwanie na zakończenie pobierania
-  wait $curl_pid
-
-  # Pobranie informacji o rozmiarze pliku i prędkości pobierania z zapisanego pliku
-  size=$(grep -oE '(\([0-9.]+\w+\/s\))' /tmp/curl_output.txt | awk '{print $1}')
-  speed=$(grep -oE '([0-9.,]+[KMGT]?B/s)' /tmp/curl_output.txt)
-
-  # Wyświetlanie informacji
-  echo ""
-  echo "Adres URL: $download_url"
-  echo "Lokalizacja pliku: $output_dir/$filename"
-  echo "Rozmiar pliku: $size"
-  echo "Prędkość pobierania: $speed"
-
-  # Sprawdzanie kodu statusu odpowiedzi HTTP
+  # Capture the HTTP status code
   http_status=$?
 
-  # Obsługa błędów HTTP
+  # Handle HTTP errors
   if [ "$http_status" -eq 0 ]; then
-    echo "✔ Pobieranie zakończone sukcesem."
+    echo "✔ Download completed successfully."
   elif [ "$http_status" -eq 8 ]; then
-    echo "✖ Plik nie istnieje (błąd 404)."
+    echo "✖ File does not exist (error 404)."
   elif [ "$http_status" -eq 4 ]; then
-    echo "✖ Brak dostępu do pliku (błąd 403)."
+    echo "✖ Access denied to the file (error 403)."
   else
-    echo "✖ Wystąpił błąd podczas pobierania (kod statusu: $http_status)."
+    echo "✖ An error occurred during download (status code: $http_status)."
   fi
 
-  echo
+  echo ""
+  echo ""
 done
 
-echo "Sukces! Zakończono o: $(date +'%Y-%m-%d %H:%M:%S')"
+echo "✔ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
