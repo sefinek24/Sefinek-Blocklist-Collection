@@ -107,10 +107,9 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  # Pobieranie pliku przy użyciu curl z wyświetlaniem postępu
+  # Pobieranie pliku przy użyciu curl z wyświetlaniem postępu i informacjami o rozmiarze, prędkości i IP
   curl -A "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -L -o "$output_dir/$filename" --progress-bar "$download_url" 2>&1 | \
-    tee /dev/tty | \
-    awk -v url="$download_url" -v location="$output_dir/$filename" '/\r/ {progress=$0} /total size is/ {size=$5} /Connected to/ {split($3, a, ":"); ip=a[1]} END {print ""; print "Adres URL: " url; print "Lokalizacja pliku: " location; print "Adres IP zdalnego serwera: " ip; print "Rozmiar pliku: " size;}'
+    awk -v url="$download_url" -v location="$output_dir/$filename" 'BEGIN {progress=""; size=""; speed=""; ip=""} /\r/ {progress=$0} /Total Size/ {size=$3} /[0-9.]+ [KMGT]?B\/s/ {speed=$2} /Connected to/ {split($3, a, ":"); ip=a[1]} END {print ""; print "Adres URL: " url; print "Lokalizacja pliku: " location; print "Adres IP zdalnego serwera: " ip; print "Rozmiar pliku: " size; print "Prędkość pobierania: " speed;}'
 
 
   # Sprawdzanie kodu statusu odpowiedzi HTTP
@@ -130,7 +129,8 @@ for url in "${urls[@]}"; do
   echo
 done
 
-echo "Sukces! Zakończono o: $(date +'%Y-%m-%d %H:%M:%S')"
+echo "Sukces
+
 
 
 
