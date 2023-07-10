@@ -117,20 +117,16 @@ for url in "${urls[@]}"; do
   # Oczekiwanie na zakończenie pobierania
   wait $curl_pid
 
-  # Pobranie informacji o rozmiarze pliku, prędkości pobierania i adresie IP serwera z zapisanego pliku
-  progress=$(grep -oE '[0-9]+%' /tmp/curl_output.txt | tail -1)
-  size=$(grep -oE 'Total Size: [0-9.,]+' /tmp/curl_output.txt | awk '{print $3}')
+  # Pobranie informacji o rozmiarze pliku i prędkości pobierania z zapisanego pliku
+  size=$(grep -oE '(\([0-9.]+\w+\/s\))' /tmp/curl_output.txt | awk '{print $1}')
   speed=$(grep -oE '([0-9.,]+[KMGT]?B/s)' /tmp/curl_output.txt)
-  ip=$(grep -oE 'Connected to [0-9a-zA-Z.:]+' /tmp/curl_output.txt | awk '{print $3}')
 
   # Wyświetlanie informacji
   echo ""
   echo "Adres URL: $download_url"
   echo "Lokalizacja pliku: $output_dir/$filename"
-  echo "Adres IP zdalnego serwera: $ip"
   echo "Rozmiar pliku: $size"
   echo "Prędkość pobierania: $speed"
-  echo "Postęp: $progress"
 
   # Sprawdzanie kodu statusu odpowiedzi HTTP
   http_status=$?
@@ -150,4 +146,3 @@ for url in "${urls[@]}"; do
 done
 
 echo "Sukces! Zakończono o: $(date +'%Y-%m-%d %H:%M:%S')"
-
