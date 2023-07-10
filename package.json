@@ -1,6 +1,6 @@
 {
   "name": "sefinek-blocklist-collection",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "The best collection of blocklists for Pi-hole and AdGuard made by Sefinek.",
   "main": "index.js",
   "scripts": {
@@ -36,6 +36,7 @@
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "express-autoindex": "^1.0.5",
     "express-rate-limit": "^6.7.1",
     "helmet": "^7.0.0",
     "kleur": "^4.1.5",

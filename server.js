@@ -3,6 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const path = require('node:path');
 const parser = require('cron-parser');
+const autoIndex = require('express-autoindex');
 const logger = require('./www/middlewares/morgan.js');
 const limiter = require('./www/middlewares/ratelimit.js');
 const { notFound, internalError } = require('./www/middlewares/other/errors.js');
@@ -33,8 +34,13 @@ app.use(limiter);
 app.use(express.static(path.join(__dirname, 'www', 'public')));
 
 
+// Paths
+const generated = path.join(__dirname, 'blocklist', 'generated');
+const logs = path.join(__dirname, 'www', 'public', 'logs');
+
 // Blocklist
-app.use('/generated', increment.blocklist, express.static(path.join(__dirname, 'blocklist', 'generated')));
+app.use('/generated', autoIndex(generated), increment.blocklist, express.static(generated));
+app.use('/logs', autoIndex(logs), express.static(logs));
 app.get('*', increment.requests);
 
 
