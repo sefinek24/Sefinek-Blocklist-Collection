@@ -13,9 +13,9 @@ mkdir -p "$logs_dir"
 
 # Write the full date and time to the output file
 echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') ==========================================" >> "$output_file"
-echo "Repository path: $repo_path" >> "$output_file"
-echo "Logs directory: $logs_dir" >> "$output_file"
-echo "Output file: $output_file" >> "$output_file"
+echo "Repository path : $repo_path" >> "$output_file"
+echo "Logs directory  : $logs_dir" >> "$output_file"
+echo "Output file     : $output_file" >> "$output_file"
 echo "" >> "$output_file"
 
 # Git
