@@ -112,6 +112,8 @@ for url in "${urls[@]}"; do
   while IFS= read -r line; do
     if [[ $line == *%* ]]; then
       echo -ne "\033[2K\r$line"   # Wyczyść linię i wróć na początek
+    else
+      echo "$line"
     fi
   done
 
