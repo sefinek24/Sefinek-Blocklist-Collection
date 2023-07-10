@@ -6,7 +6,7 @@ urls=(
   "https://blocklistproject.github.io/Lists/abuse.txt,blocklistproject.abuse.txt"
 )
 
-output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/generated/blocklist/template/forks"
+output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/generated/blocklist/template/forks_beta"
 
 for url in "${urls[@]}"; do
   url_parts=(${url//,/ })
