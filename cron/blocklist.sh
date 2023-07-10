@@ -20,7 +20,6 @@ echo "\n" >> "$output_file"
 
 # Git
 git --version >> "$output_file" 2>&1
-echo "" >> "$output_file" 2>&1
 git fetch >> "$output_file" 2>&1
 git pull >> "$output_file" 2>&1
 
