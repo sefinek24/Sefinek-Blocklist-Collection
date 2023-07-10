@@ -16,10 +16,11 @@ echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') ==
 echo "Repository path: $repo_path" >> "$output_file"
 echo "Logs directory: $logs_dir" >> "$output_file"
 echo "Output file: $output_file" >> "$output_file"
-echo "\n" >> "$output_file"
+echo "" >> "$output_file"
 
 # Git
 git --version >> "$output_file" 2>&1
+echo "" >> "$output_file" 2>&1
 git fetch >> "$output_file" 2>&1
 git pull >> "$output_file" 2>&1
 
