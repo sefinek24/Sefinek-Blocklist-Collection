@@ -107,7 +107,7 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  wget --progress=bar:force:noscroll -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 | \
+  wget --progress=bar:noscroll -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 | \
   while IFS= read -r line; do
     if [[ $line == *=* ]]; then
       echo -ne "\033[2K\r$line"
