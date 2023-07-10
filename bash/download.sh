@@ -92,7 +92,7 @@ urls=(
 )
 
 
-output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/blocklist/template/forks_beta"
+output_dir="/home/ubuntu/node/www/Sefinek-Blocklist-Collection/blocklist/template/forks"
 
 for url in "${urls[@]}"; do
   url_parts=(${url//,/ })
