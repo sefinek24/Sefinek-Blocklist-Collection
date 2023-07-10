@@ -107,6 +107,7 @@ else
   exit 1
 fi
 
+echo $user_agent
 
 for url in "${urls[@]}"; do
   url_parts=(${url//,/ })
