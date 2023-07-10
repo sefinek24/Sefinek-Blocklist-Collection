@@ -107,8 +107,9 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  # Pobieranie pliku przy użyciu curl z wyświetlaniem paska postępu
-  curl -A "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -L -o "$output_dir/$filename" --progress-bar "$download_url"
+  # Pobieranie pliku przy użyciu curl z wyświetlaniem paska postępu, adresem IP, rozmiarem pliku i prędkością pobierania
+  curl -A "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -L -o "$output_dir/$filename" --progress-bar "$download_url" 2>&1 | \
+    awk -v url="$download_url" -v location="$output_dir/$filename" '/^[0-9]/ {progress=$0; next} /Content-Length:/ {size=$2; next} /[^0-9]B\/s/ {speed=$2} END {print progress; print "Adres URL: " url; print "Lokalizacja pliku: " location; print "Adres IP zdalnego serwera: " syste("host " url " | awk \'/has address/{print $4}\')"; print "Rozmiar pliku: " size; print "Prędkość pobierania: " speed}'
 
   # Sprawdzanie kodu statusu odpowiedzi HTTP
   http_status=$?
@@ -124,12 +125,7 @@ for url in "${urls[@]}"; do
     echo "✖ Wystąpił błąd podczas pobierania (kod statusu: $http_status)."
   fi
 
-  # Wyświetlanie dodatkowych informacji
-  echo "Adres URL: $download_url"
-  echo "Lokalizacja pliku: $output_dir/$filename"
-  echo "Adres IP zdalnego serwera: $(curl -sS --head "$download_url" | awk '/^IP/{print $2}')"
   echo
-
 done
 
 echo "Sukces! Zakończono o: $(date +'%Y-%m-%d %H:%M:%S')"
