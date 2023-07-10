@@ -98,6 +98,14 @@ urls=(
   "https://zerodot1.gitlab.io/CoinBlockerLists/hosts,zerodot1.CoinBlockerLists.txt"
 )
 
+# Read version from package.json
+package_json_path="$(dirname "$0")/../package.json"
+if [ -f "$package_json_path" ]; then
+  user_agent="Mozilla/5.0 (compatible; SefinekBlocklistCollection/$(node -p "require('$package_json_path').version"); +https://blocklist.sefinek.net)"
+else
+  echo "✖ package.json file not found."
+  exit 1
+fi
 
 
 for url in "${urls[@]}"; do
