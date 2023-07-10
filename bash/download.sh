@@ -110,7 +110,9 @@ for url in "${urls[@]}"; do
 
   wget --show-progress -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 | \
   while IFS= read -r line; do
-    echo -ne "\033[2K\r$line"
+    if [[ $line == *%* ]]; then
+      echo -ne "\033[2K\r$line"   # Wyczyść linię i wróć na początek
+    fi
   done
 
   # Capture the HTTP status code
