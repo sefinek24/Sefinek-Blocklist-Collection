@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Tue, 04 Jul 2023 02:04:39 +0100
+# Last converted - Mon, 10 Jul 2023 20:02:08 +0100
 #
 
 127.0.0.1 adeventtracker.spotify.com
@@ -130,6 +130,11 @@
 127.0.0.1 int.vlancaa.site
 127.0.0.1 int.vlancaa.fun
 127.0.0.1 tok.vaicore.xyz
+127.0.0.1 tracing-collector.strava.com
+127.0.0.1 cgicol.amap.com
+127.0.0.1 dualstack-cgicol.amap.com
+127.0.0.1 ad-api-log.colopl.jp
+127.0.0.1 metrics.macys.com
 127.0.0.1 track.ktplay.com
 127.0.0.1 preview-collector.scopely.io
 127.0.0.1 collector.scopely.io
@@ -652,15 +657,12 @@
 127.0.0.1 cedexis.com
 127.0.0.1 clientmetrics-augmentum.kik.com
 127.0.0.1 clientmetrics.kik.com
-127.0.0.1 clktrk.display.io
 127.0.0.1 collector.brandify.com
 127.0.0.1 config2.mparticle.com
-127.0.0.1 counter.kingsoft.com
 127.0.0.1 crasheye.cn
 127.0.0.1 crwdcntrl.net
 127.0.0.1 demdex.net
 127.0.0.1 dsg.sc.omtrdc.net
-127.0.0.1 ep.xone.com
 127.0.0.1 etl.xlmc.sandai.net
 127.0.0.1 events.lbesecapi.com
 127.0.0.1 geoip.fotoable.net
@@ -675,8 +677,6 @@
 127.0.0.1 log.umsns.com
 127.0.0.1 lp4.io
 127.0.0.1 metrics.adflake.com
-127.0.0.1 metrics.bestbuy.com
-127.0.0.1 metrics.macys.net
 127.0.0.1 metrics.sdkbox.com
 127.0.0.1 mlb.did.ijinshan.com
 127.0.0.1 mobile-collector.newrelic.com

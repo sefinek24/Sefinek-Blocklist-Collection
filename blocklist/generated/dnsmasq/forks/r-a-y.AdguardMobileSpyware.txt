@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Tue, 04 Jul 2023 02:04:39 +0100
+# Last converted - Mon, 10 Jul 2023 20:02:08 +0100
 #
 
 server=/adeventtracker.spotify.com/
@@ -130,6 +130,11 @@ server=/int.vaicore.xyz/
 server=/int.vlancaa.site/
 server=/int.vlancaa.fun/
 server=/tok.vaicore.xyz/
+server=/tracing-collector.strava.com/
+server=/cgicol.amap.com/
+server=/dualstack-cgicol.amap.com/
+server=/ad-api-log.colopl.jp/
+server=/metrics.macys.com/
 server=/track.ktplay.com/
 server=/preview-collector.scopely.io/
 server=/collector.scopely.io/
@@ -652,15 +657,12 @@ server=/cedexis-radar.net/
 server=/cedexis.com/
 server=/clientmetrics-augmentum.kik.com/
 server=/clientmetrics.kik.com/
-server=/clktrk.display.io/
 server=/collector.brandify.com/
 server=/config2.mparticle.com/
-server=/counter.kingsoft.com/
 server=/crasheye.cn/
 server=/crwdcntrl.net/
 server=/demdex.net/
 server=/dsg.sc.omtrdc.net/
-server=/ep.xone.com/
 server=/etl.xlmc.sandai.net/
 server=/events.lbesecapi.com/
 server=/geoip.fotoable.net/
@@ -675,8 +677,6 @@ server=/log.droid4x.cn/
 server=/log.umsns.com/
 server=/lp4.io/
 server=/metrics.adflake.com/
-server=/metrics.bestbuy.com/
-server=/metrics.macys.net/
 server=/metrics.sdkbox.com/
 server=/mlb.did.ijinshan.com/
 server=/mobile-collector.newrelic.com/

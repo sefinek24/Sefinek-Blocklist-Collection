@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Tue, 04 Jul 2023 02:04:39 +0100
+# Last converted - Mon, 10 Jul 2023 20:02:08 +0100
 #
 
 0.0.0.0 adeventtracker.spotify.com
@@ -130,6 +130,11 @@
 0.0.0.0 int.vlancaa.site
 0.0.0.0 int.vlancaa.fun
 0.0.0.0 tok.vaicore.xyz
+0.0.0.0 tracing-collector.strava.com
+0.0.0.0 cgicol.amap.com
+0.0.0.0 dualstack-cgicol.amap.com
+0.0.0.0 ad-api-log.colopl.jp
+0.0.0.0 metrics.macys.com
 0.0.0.0 track.ktplay.com
 0.0.0.0 preview-collector.scopely.io
 0.0.0.0 collector.scopely.io
@@ -652,15 +657,12 @@
 0.0.0.0 cedexis.com
 0.0.0.0 clientmetrics-augmentum.kik.com
 0.0.0.0 clientmetrics.kik.com
-0.0.0.0 clktrk.display.io
 0.0.0.0 collector.brandify.com
 0.0.0.0 config2.mparticle.com
-0.0.0.0 counter.kingsoft.com
 0.0.0.0 crasheye.cn
 0.0.0.0 crwdcntrl.net
 0.0.0.0 demdex.net
 0.0.0.0 dsg.sc.omtrdc.net
-0.0.0.0 ep.xone.com
 0.0.0.0 etl.xlmc.sandai.net
 0.0.0.0 events.lbesecapi.com
 0.0.0.0 geoip.fotoable.net
@@ -675,8 +677,6 @@
 0.0.0.0 log.umsns.com
 0.0.0.0 lp4.io
 0.0.0.0 metrics.adflake.com
-0.0.0.0 metrics.bestbuy.com
-0.0.0.0 metrics.macys.net
 0.0.0.0 metrics.sdkbox.com
 0.0.0.0 mlb.did.ijinshan.com
 0.0.0.0 mobile-collector.newrelic.com
