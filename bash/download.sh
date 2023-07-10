@@ -107,12 +107,13 @@ for url in "${urls[@]}"; do
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
-  curl -L -o "$output_dir/$filename"  "$download_url"
+  # Pobieranie pliku przy użyciu curl z wyświetlaniem paska postępu
+  curl -A "Mozilla/5.0 (compatible; SefinekBlocklistCollection/0.0.0.0; +https://blocklist.sefinek.net)" -L -o "$output_dir/$filename" --progress-bar "$download_url"
 
-  # Sprawdź kod statusu odpowiedzi HTTP
+  # Sprawdzanie kodu statusu odpowiedzi HTTP
   http_status=$?
 
-  # Obsłuż błędy HTTP
+  # Obsługa błędów HTTP
   if [ "$http_status" -eq 0 ]; then
     echo "✔ Pobieranie zakończone sukcesem."
   elif [ "$http_status" -eq 8 ]; then
@@ -123,7 +124,12 @@ for url in "${urls[@]}"; do
     echo "✖ Wystąpił błąd podczas pobierania (kod statusu: $http_status)."
   fi
 
+  # Wyświetlanie dodatkowych informacji
+  echo "Adres URL: $download_url"
+  echo "Lokalizacja pliku: $output_dir/$filename"
+  echo "Adres IP zdalnego serwera: $(curl -sS --head "$download_url" | awk '/^IP/{print $2}')"
   echo
+
 done
 
 echo "Sukces! Zakończono o: $(date +'%Y-%m-%d %H:%M:%S')"
