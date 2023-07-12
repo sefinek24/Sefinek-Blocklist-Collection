@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 10 Jul 2023 10:45 UTC+7
-# Version: 2307101045
-# Blocked: 19,239 domains
+# Last modified: 12 Jul 2023 16:41 UTC+7
+# Version: 2307121641
+# Blocked: 19,243 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -8693,6 +8693,7 @@
 #[soundcloud.com]
 127.0.0.1 eventgateway.soundcloud.com
 127.0.0.1 eventlogger.soundcloud.com
+127.0.0.1 events-api.soundcloud.com
 127.0.0.1 promoted.soundcloud.com
 127.0.0.1 telemetry.soundcloud.com
 #[kajicam.com]
@@ -11282,6 +11283,13 @@
 127.0.0.1 g2afse.com
 127.0.0.1 aditmedia.g2afse.com
 127.0.0.1 adstartmedia.g2afse.com
+#[mail.ru]
+127.0.0.1 1l-hit.mail.ru
+127.0.0.1 1l-view.mail.ru
+127.0.0.1 ad.mail.ru
+127.0.0.1 alt-ad.mail.ru
+127.0.0.1 top-fwz1.mail.ru
+127.0.0.1 top.mail.ru
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -13451,7 +13459,6 @@
 127.0.0.1 ad.letmeads.com
 127.0.0.1 ad.liveinternet.ru
 127.0.0.1 ad.lupa.cz
-127.0.0.1 ad.mail.ru
 127.0.0.1 ad.media-servers.net
 127.0.0.1 ad.mgd.de
 127.0.0.1 ad.mox.tv
@@ -19157,7 +19164,6 @@
 127.0.0.1 top-site-list.com
 127.0.0.1 top.c-stat.eu
 127.0.0.1 top.list.ru
-127.0.0.1 top.mail.ru
 127.0.0.1 top.proext.com
 127.0.0.1 top123.ro
 127.0.0.1 top20.com
@@ -20596,7 +20602,6 @@
 127.0.0.1 to.getnitropack.com
 127.0.0.1 tobapplog.ctobsnssdk.com
 127.0.0.1 toblog.ctobsnssdk.com
-127.0.0.1 top-fwz1.mail.ru
 127.0.0.1 track-aws.notsy.io
 127.0.0.1 track.56txs4.com
 127.0.0.1 track.cbdatatracker.com
