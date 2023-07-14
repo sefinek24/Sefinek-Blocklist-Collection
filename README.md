@@ -31,7 +31,7 @@ If accidental blocking of a legitimate website occurs, please report it to its o
 Under no circumstances should they be modified because they will be overwritten by [GitHub Actions](.github/workflows/download-blocklists.yml).
 However, if a blocklist is not located in the aforementioned folder, you can create a new Pull Request or Issue.
 
-If I come across a false alarm while browsing the internet, I usually eliminate it immediately if it is within my capabilities.
+If I come across a false alarm while browsing the internet, I usually eliminate it immediately if it is within my capabilities.<br>
 
 | Path                         | Modifying | Description                                                                                                                                                                                                   |
 |------------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
