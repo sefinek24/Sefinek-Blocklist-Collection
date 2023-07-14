@@ -28,7 +28,7 @@
 ## 📝 Information
 False alarms occur very rarely.
 If accidental blocking of a legitimate website occurs, please report it to its original Creator, as some lists in this repository ([blocklist/template/forks](blocklist/template/forks) directory) are only downloaded and converted into various formats.
-Under no circumstances should they be modified because they will be overwritten by GitHub Actions.
+Under no circumstances should they be modified because they will be overwritten by [GitHub Actions](.github/workflows/download-blocklists.yml).
 However, if a blocklist is not located in the aforementioned folder, you can create a new Pull Request or Issue.
 
 If I come across a false alarm while browsing the internet, I usually eliminate it immediately if it is within my capabilities.
@@ -39,7 +39,7 @@ If I come across a false alarm while browsing the internet, I usually eliminate 
 | `blocklist/template/*`       | ✅         | Modified copies of other blocklists or custom lists created for this repository.<br>**You can modify** them as they will never be overwritten in the future.                                                  |
 | `blocklist/generated/*`      | ❎         | Blocklists generated in various formats from the template.<br>**DO NOT MODIFY** ANY FILE IN THIS FOLDER!                                                                                                      |
 
-> **Note**: You have two options. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator. You will be able to choose what should be blocked.
+> **Note**: You have two options. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
 
 
 ## ✋ Warning
