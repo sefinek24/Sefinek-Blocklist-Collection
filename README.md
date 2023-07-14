@@ -51,12 +51,10 @@ The blocklists in this repository are updated every `2 hours` by [GitHub Actions
 - **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):**  
 It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone `GMT+01:00`; Cron: `0 0,6 * * *`; At minute 0 past hour 0 and 6;
 
-## 🤝 Contributing
-I welcome your contributions!
-If you know of any additional domains that you believe should be included in this list, I would be grateful if you could share them with me.
-I kindly invite you to contribute to this project by submitting a [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls).
-Your effort and input will be highly appreciated and will help me make this list even more comprehensive and useful for others.
-Thank you in advance for your valuable contribution!
+## 🌍 Links
+- [Homepage (stats, other urls)](https://blocklist.sefinek.net)
+- [File explorer (Index of /generated/)](https://blocklist.sefinek.net/generated)
+- [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs): `Remote` [github.com] → `Local` [blocklist.sefinek.net]
 
 ## ✨ Main block list
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
@@ -93,6 +91,13 @@ Thank you in advance for your valuable contribution!
 ## 🤔 Tutorials
 - [How to install Pi-hole?](tutorials/How%20to%20install%20Pi-hole.md)
 - [How to install Unbound for Pi-hole?](tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md)
+
+## 🤝 Contributing
+I welcome your contributions!
+If you know of any additional domains that you believe should be included in this list, I would be grateful if you could share them with me.
+I kindly invite you to contribute to this project by submitting a [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls).
+Your effort and input will be highly appreciated and will help me make this list even more comprehensive and useful for others.
+Thank you in advance for your valuable contribution!
 
 ## 🌠 My other repositories
 1. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
