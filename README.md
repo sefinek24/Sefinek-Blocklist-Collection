@@ -100,7 +100,7 @@ I kindly invite you to contribute to this project by submitting a [Pull request]
 Your effort and input will be highly appreciated and will help me make this list even more comprehensive and useful for others.
 Thank you in advance for your valuable contribution!
 
-## 🌠 My other repositories
+## 🌠 My other ~~useless~~ repositories
 1. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
 2. [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
 
