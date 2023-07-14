@@ -29,9 +29,9 @@
 False alarms occur very rarely.
 If accidental blocking of a legitimate website occurs, please report it to its original Creator, as some lists in this repository ([blocklist/template/forks](blocklist/template/forks) directory) are only downloaded and converted into various formats.
 Under no circumstances should they be modified because they will be overwritten by [GitHub Actions](.github/workflows/download-blocklists.yml).
-However, if a blocklist is not located in the aforementioned folder, you can create a new Pull Request or Issue.
+However, if a blocklist is not located in the aforementioned folder, you can create a new [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls) or [Issue](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues).
 
-If I come across a false alarm while browsing the internet, I usually eliminate it immediately if it is within my capabilities.<br>
+If I come across a false alarm while browsing the internet, I usually eliminate it immediately if it is within my capabilities.
 
 | Path                         | Modifying | Description                                                                                                                                                                                                   |
 |------------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
