@@ -1,4 +1,4 @@
-require('dotenv').config({ path: './www/config/.env' });
+require('dotenv').config();
 
 const cluster = require('node:cluster');
 const totalCPUs = require('node:os').cpus().length;
