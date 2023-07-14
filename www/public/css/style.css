@@ -37,6 +37,12 @@ img {
     text-align: center
 }
 
+#category {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -47,19 +53,15 @@ img {
 
 .container > div {
     flex: 1 0 300px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin-right: 7px;
+    margin-bottom: 7px;
     text-align: center;
 }
 
-#allRequests img {
-    width: 620px;
-}
+#allRequests {margin-bottom: 20px;}
+#allRequests img {width: 700px;}
 
-#lists img {
-    width: 350px;
-}
+#lists {margin-bottom: 20px;}
+#lists img {width: 380px;}
 
-#responses img {
-    width: 340px;
-}
+#responses img {width: 400px;}
