@@ -81,12 +81,12 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 - [**Useless websites:**](info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
 
 <h3 align="right">
-    <a href="lists/Index.md">📃 Choose your adblocker and copy URL addresses »</a>
+    📃 <a href="lists/Index.md">Choose your adblocker and copy URL addresses »</a>
 </h3>
 
 ## 🔧 Regex list
 <h3 align="right">
-    <a href="info/What is Regex.md">View the regex list and read additional information »</a>
+    🔡 <a href="info/What is Regex.md">View the regex list and read additional information »</a>
 </h3>
 
 ## 🤔 Tutorials
