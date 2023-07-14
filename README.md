@@ -33,9 +33,6 @@ However, if a blocklist is not located in the aforementioned folder, you can cre
 
 If I come across a false alarm while browsing the internet, I usually eliminate it immediately if it is within my capabilities.
 
-**To summarize:**
-
-
 | Path                         | Modifying | Description                                                                                                                                                                                                   |
 |------------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `blocklist/template/forks/*` | ❎         | Files with lists downloaded by GitHub Actions and ready to be converted into various formats, e.g., from 0.0.0.0 example.com to another format.<br>**DO NOT MODIFY** THEM, EVEN IF YOU CREATE A PULL REQUEST! |
