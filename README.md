@@ -46,16 +46,16 @@ It is important to regularly check this repository for updates and potential cha
 However, it should be noted that while this blocking list can improve your privacy and security, it may unintentionally block legitimate content or services. Therefore, use it at your own risk.
 
 ## 📥 Update frequency
-- **Repository:**  
+- **Repository**  
 The blocklists in this repository are updated every `2 hours` by [GitHub Actions](.github/workflows/download-blocklists.yml).
-- **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):**  
+- **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net))** `Remote` [github.com] → `Local` [blocklist.sefinek.net]  
 It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone `GMT+01:00`; Cron: `0 0,6 * * *`; At minute 0 past hour 0 and 6;
 > **Note**: Go [here](https://blocklist.sefinek.net/update-frequency) and see when the next repository synchronization is scheduled based on your time zone. It can help you determine the appropriate time for the cron job for your Pi-hole instance or any other ad blocker.
 
 ## 🌍 Links
 - [Homepage (stats, other urls)](https://blocklist.sefinek.net)
 - [File explorer (Index of /generated/)](https://blocklist.sefinek.net/generated)
-- [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs): `Remote` [github.com] → `Local` [blocklist.sefinek.net]
+- [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs)
 
 ## ✨ Main block list
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
