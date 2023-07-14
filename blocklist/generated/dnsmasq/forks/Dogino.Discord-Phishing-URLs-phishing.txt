@@ -2,7 +2,6 @@
 # Description: This list blocks known domains used in the VOIP application Discord by scammers. Adding this list to your Pi-Hole blocklist will prevent those domains from loading.
 # Last modified: Sat, 08 Jul 2023, 11:42 UTC+02
 # Origin: https://github.com/Dogino/Discord-Phishing-URLs
-
 server=/cord.gifts/
 server=/discord.de/
 server=/discord.st/
@@ -12,7 +11,6 @@ server=/iscord.gift/
 server=/ord.gg/
 server=/steamcommunity.co/
 server=/witch.tv/
-
 # Above domains are listed as false positive for Phades, they will be included in the Pi-Hole list.
 server=/02ip.ru/
 server=/0x1trade.com/
@@ -3388,7 +3386,6 @@ server=/discord-app.click/
 server=/discord-app.club/
 server=/discord-app.co/
 server=/discord-app.co.uk/
-server=/discord-app.com/
 server=/discord-app.ga/
 server=/discord-app.gift/
 server=/discord-app.gifts/
@@ -4548,7 +4545,6 @@ server=/discord.me.uk/
 server=/discord.mom/
 server=/discord.moscow/
 server=/discord.my/
-server=/discord.net/
 server=/discord.online/
 server=/discord.org/
 server=/discord.org.ru/
