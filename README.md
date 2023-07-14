@@ -57,7 +57,7 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 - [File explorer (Index of /generated/)](https://blocklist.sefinek.net/generated)
 - [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs): `Remote` [github.com] → `Local` [blocklist.sefinek.net]
 
-## ✨ Default block list
+## ✨ Default blocklist
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
 - [**Advertising:**](info/block/Advertising.md) Blocks domains that serve advertisements to visitors.
 - [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
