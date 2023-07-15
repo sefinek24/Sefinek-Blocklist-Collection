@@ -2,8 +2,8 @@ const rateLimit = require('express-rate-limit');
 const error = require('./other/errors.js');
 
 const limiter = rateLimit({
-	windowMs: 4 * 60 * 1000,
-	max: 512,
+	windowMs: 5 * 60 * 1000,
+	max: 555,
 	headers: {
 		'Retry-After': 240,
 		'X-RateLimit-Limit': 148,
