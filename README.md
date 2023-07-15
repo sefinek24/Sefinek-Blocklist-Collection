@@ -58,6 +58,10 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 - [File explorer (Index of /generated/)](https://blocklist.sefinek.net/generated)
 - [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs): `Remote` [github.com] → `Local` [blocklist.sefinek.net]
 
+## 💸 Support me if you like this
+Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me.
+> https://sefinek.net/support-me
+
 ## ✨ Default blocklist
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
 - [**Advertising:**](info/block/Advertising.md) Blocks domains that serve advertisements to visitors.
@@ -95,11 +99,13 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 - [How to install Unbound for Pi-hole?](tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md)
 
 ## 🤝 Contributing
-I welcome your contributions!
-If you know of any additional domains that you believe should be included in this list, I would be grateful if you could share them with me.
-I kindly invite you to contribute to this project by submitting a [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls).
-Your effort and input will be highly appreciated and will help me make this list even more comprehensive and useful for others.
+I appreciate your interest in contributing!<br>
+If you have any suggestions or additions that you think would improve this project, please don't hesitate to share them with me. I warmly invite you to contribute to this project by submitting a Pull request, where you can contribute your changes. Your efforts and insights will be greatly valued and will contribute to making this project even better and more beneficial for others.<br>
 Thank you in advance for your valuable contribution!
+
+## ✔️ Todo
+1. Fix [create-everything-list.js](scripts/create-everything-list.js).
+2. Improve all [scripts](scripts).
 
 ## 🌠 My other ~~useless~~ repositories
 1. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
