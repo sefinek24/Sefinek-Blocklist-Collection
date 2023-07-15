@@ -69,7 +69,7 @@ const worker = async () => {
 	}
 
 	const files = await getAllFiles(defaultFolder);
-	const domains = [];
+	const domains = new Set();
 
 	await Promise.all(
 		files.map(async file => {
@@ -79,8 +79,8 @@ const worker = async () => {
 				fileContents.split('\n').forEach(line => {
 					if (line.startsWith('0.0.0.0 ')) {
 						const domain = parseDomain(line);
-						if (domain !== null && !domain.startsWith('#') && !domains.includes(domain)) {
-							domains.push(domain);
+						if (domain !== null && !domain.startsWith('#')) {
+							domains.add(domain);
 						}
 					}
 				});
@@ -88,8 +88,8 @@ const worker = async () => {
 		}),
 	);
 
-	const allDomainsSize = domains.length;
-	const sortedDomains = domains.sort((a, b) => a.localeCompare(b));
+	const allDomainsSize = domains.size;
+	const sortedDomains = [...domains].sort((a, b) => a.localeCompare(b));
 	const newContent = sortedDomains.map(domain => `0.0.0.0 ${domain}`).join('\n');
 	const newHeader = generateHeader(allDomainsSize);
 
@@ -107,16 +107,18 @@ const worker = async () => {
 
 		outputString += newContent;
 
-		const savedDomains = lines
-			.slice(existingHeaderIndex + 1)
-			.map(parseDomain)
-			.filter(domain => domain !== null);
+		const savedDomains = new Set(
+			lines
+				.slice(existingHeaderIndex + 1)
+				.map(parseDomain)
+				.filter(domain => domain !== null),
+		);
 		const newDomains = sortedDomains.filter(
-			domain => !savedDomains.includes(domain) && !domain.startsWith('#'),
+			domain => !savedDomains.has(domain) && !domain.startsWith('#'),
 		);
 
-		const removedDomains = savedDomains.filter(
-			domain => !domains.includes(domain) && !domain.startsWith('#'),
+		const removedDomains = [...savedDomains].filter(
+			domain => !domains.has(domain) && !domain.startsWith('#'),
 		);
 
 		if (newDomains.length > 0 || removedDomains.length > 0) {
