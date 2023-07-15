@@ -1,5 +1,12 @@
-const fs = require('fs/promises');
-const path = require('node:path');
+/*
+ *
+ * ENG: This script is not functioning correctly. It duplicates domains when a new one is added to templates.
+ * POL: Ten skrypt nie działa poprawnie. Duplikuje on domeny, gdy do szablonów dodawana jest nowa.
+ *
+ */
+
+const fs = require('fs').promises;
+const path = require('path');
 const date = require('./functions/date.js');
 
 const defaultFolder = path.join(__dirname, '..', 'blocklist', 'template');
@@ -11,36 +18,46 @@ const parseDomain = line => {
 	return domain === '' ? null : domain;
 };
 
-const header = size => {
-	return `# -------------------------------------------------------------------------------------------------------------------------------------------------------
-#
-#       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
-#      / ____| |  ____| |  ____| |_   _| | \\ | | |  ____| | |/ /       |  _ \\  | |       / __ \\   / ____| | |/ / | |      |_   _|  / ____| |__   __|
-#     | (___   | |__    | |__      | |   |  \\| | | |__    | ' /        | |_) | | |      | |  | | | |      | ' /  | |        | |   | (___      | |
-#      \\___ \\  |  __|   |  __|     | |   | . \` | |  __|   |  <         |  _ <  | |      | |  | | | |      |  <   | |        | |    \\___ \\     | |
-#      ____) | | |____  | |       _| |_  | |\\  | | |____  | . \\        | |_) | | |____  | |__| | | |____  | . \\  | |____   _| |_   ____) |    | |
-#     |_____/  |______| |_|      |_____| |_| \\_| |______| |_|\\_\\       |____/  |______|  \\____/   \\_____| |_|\\_\\ |______| |_____| |_____/     |_|
-#
-#                                   The best collection of blocklists for Pi-hole and AdGuard - https://sefinke.net
-#                                            https://github.com/sefinek24/Sefinek-Blocklist-Collection
-#
-# » Title       : Big collection of blocklist
-# » Description : This list contains a collection of everything from https://github.com/sefinek24/PiHole-BlockList-Test/tree/main/blocklist/template (without apps)
-# » Author      : Sefinek (https://sefinek.net) <contact@sefinek.net>
-# » GitHub      : https://github.com/sefinek24/Sefinek-Blocklist-Collection
-# » Release     : Default (with 0.0.0.0)
-# » Domains     : ${size}
+const generateHeader = size => {
+	return `# » Domains     : ${size.toLocaleString('en-US')}
 # » Version     : ${date.timestamp}
-# » Last update : ${date.hours}:${date.minutes}:${date.seconds}.${date.milliseconds}, ${date.day}.${date.month}.${date.year} [GMT+2 HH:MM:SS.MS, DD.MM.YYYY]
-#
-# 〢 Warning:
-# By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
-#
-# 〢 About:
-# This file is part of the Sefinek's Blocklist Collection, maintained by github.com/sefinek24.
-# If you come across any false positives, please create a new Issue or Pull request on GitHub. Thank you!
-#
-# ---------------------------------------------------------------------------------------------------------------------------------------------------\n`;
+# » Last update : ${date.hours}:${date.minutes}:${date.seconds}.${date.milliseconds}, ${date.day}.${date.month}.${date.year} [GMT+2 HH:MM:SS.MS, DD.MM.YYYY]\n`;
+};
+
+const excludedFiles = [
+	'myanimelist.net.txt',
+	'shinden.pl.txt',
+	'discord.txt',
+	'spotify.txt',
+	'steam.txt',
+	'steam-extended.txt',
+	'whatsapp.txt',
+	'all-valve-games.txt',
+	'booth.pm.txt',
+	'gamebanana.txt',
+	'patreon.txt',
+	'pinterest.txt',
+	'youtube.txt',
+	'youtube-extended.txt',
+	'facebook.txt',
+	'instagram.txt',
+	'twitter.txt',
+];
+
+const getAllFiles = async folder => {
+	const files = await fs.readdir(folder);
+	const filePaths = [];
+	for (const file of files) {
+		const fullPath = path.join(folder, file);
+		const stat = await fs.stat(fullPath);
+		if (stat.isDirectory()) {
+			const subFolderFiles = await getAllFiles(fullPath);
+			filePaths.push(...subFolderFiles);
+		} else {
+			filePaths.push(fullPath);
+		}
+	}
+	return filePaths;
 };
 
 const worker = async () => {
@@ -51,61 +68,79 @@ const worker = async () => {
 		console.log('📁 Created \'generated\' folder');
 	}
 
-	const files = (await fs.readdir(defaultFolder)).filter((file) => file.endsWith('.txt'));
-	const domains = new Set();
+	const files = await getAllFiles(defaultFolder);
+	const domains = [];
 
 	await Promise.all(
 		files.map(async file => {
-			const fileContents = await fs.readFile(path.join(defaultFolder, file), 'utf8');
+			if (!excludedFiles.includes(path.basename(file))) {
+				const fileContents = await fs.readFile(file, 'utf8');
 
-			fileContents.split('\n').forEach((line) => {
-				if (line.startsWith('0.0.0.0 ')) {
-					const domain = parseDomain(line);
-					if (domain !== null) {
-						domains.add(domain);
+				fileContents.split('\n').forEach(line => {
+					if (line.startsWith('0.0.0.0 ')) {
+						const domain = parseDomain(line);
+						if (domain !== null && !domain.startsWith('#') && !domains.includes(domain)) {
+							domains.push(domain);
+						}
 					}
-				}
-			});
+				});
+			}
 		}),
 	);
 
-	const allDomainsSize = domains.size.toLocaleString('en-US');
-	const newContent = [...domains].map(domain => `0.0.0.0 ${domain}`).join('\n');
+	const allDomainsSize = domains.length;
+	const sortedDomains = domains.sort((a, b) => a.localeCompare(b));
+	const newContent = sortedDomains.map(domain => `0.0.0.0 ${domain}`).join('\n');
+	const newHeader = generateHeader(allDomainsSize);
 
 	try {
 		const savedContent = await fs.readFile(outputFile, 'utf8');
-		const savedDomains = new Set(savedContent.trim().split('\n').map(parseDomain).filter((domain) => domain !== null));
-		const newDomains = [...domains].filter(domain => !savedDomains.has(domain) && !domain.startsWith('##'));
-		let outputString = savedContent.trim().split('\n').filter((line) => !line.startsWith('##')).join('\n');
+		const lines = savedContent.trim().split('\n');
+		const existingHeaderIndex = lines.findIndex(line => line.startsWith('# » Domains'));
+		let outputString = '';
 
-		if (newDomains.length > 0) {
-			outputString += `\n${newDomains.map(domain => `0.0.0.0 ${domain}`).join('\n')}`;
-		}
-
-		const removedDomains = [...savedDomains].filter(domain => !domains.has(domain) && !domain.startsWith('##'));
-		if (removedDomains.length > 0) {
-			outputString = outputString
-				.split('\n')
-				.filter((line) => !removedDomains.includes(parseDomain(line)))
-				.join('\n');
-		}
-
-
-		// Create or update everything.txt
-		if (newDomains.length === 0 && removedDomains.length === 0) {
-			console.log(`✔️ everything.txt is up to date with ${savedDomains.size} domains`);
+		if (existingHeaderIndex !== -1) {
+			lines.splice(existingHeaderIndex, 1, newHeader);
 		} else {
-			await fs.writeFile(outputFile, `${header(allDomainsSize)}${outputString}`, 'utf8');
-			console.log(`📝 Updated everything.txt with ${newDomains.length} new domains and removed ${removedDomains.length} domains (total: ${allDomainsSize}) in ${generatedFolder}\n`);
+			outputString = newHeader + '\n';
+		}
+
+		outputString += newContent;
+
+		const savedDomains = lines
+			.slice(existingHeaderIndex + 1)
+			.map(parseDomain)
+			.filter(domain => domain !== null);
+		const newDomains = sortedDomains.filter(
+			domain => !savedDomains.includes(domain) && !domain.startsWith('#'),
+		);
+
+		const removedDomains = savedDomains.filter(
+			domain => !domains.includes(domain) && !domain.startsWith('#'),
+		);
+
+		if (newDomains.length > 0 || removedDomains.length > 0) {
+			outputString += '\n' + newDomains.map(domain => `0.0.0.0 ${domain}`).join('\n');
+
+			// Create or update everything.txt
+			await fs.writeFile(outputFile, `${newHeader}${outputString}`, 'utf8');
+			console.log(
+				`📝 Updated everything.txt with ${newDomains.length} new domains and removed ${removedDomains.length} domains (total: ${allDomainsSize.toLocaleString('en-US')}) in ${generatedFolder}\n`,
+			);
+		} else {
+			console.log(`✔️ everything.txt is up to date with ${allDomainsSize.toLocaleString('en-US')} domains\n`);
 		}
 	} catch (err) {
 		console.warn(`⚠️ ${err.message}`);
-		await fs.writeFile(outputFile, `${header(allDomainsSize)}${newContent}`, 'utf8');
-
-		console.log(`📝 Saved new file everything.txt with ${allDomainsSize} domains in ${generatedFolder}\n`);
+		await fs.writeFile(outputFile, `${newHeader}${newContent}`, 'utf8');
+		console.log(
+			`📝 Saved new file everything.txt with ${allDomainsSize.toLocaleString('en-US')} domains in ${generatedFolder}\n`,
+		);
 	}
 };
 
-(async () => worker())();
+(async () => {
+	await worker();
+})();
 
-module.exports = () => worker;
+module.exports = worker;
