@@ -39,10 +39,12 @@ app.use(express.static(path.join(__dirname, 'www', 'public')));
 // Paths
 const generated = path.join(__dirname, 'blocklist', 'generated');
 const logs = path.join(__dirname, 'www', 'public', 'logs');
+const options = { customTemplate: path.join(__dirname, 'www', 'views', 'autoindex-template.html') };
 
 // Blocklist
-app.use('/generated', autoIndex(generated), increment.blocklist, express.static(generated));
-app.use('/logs', autoIndex(logs), express.static(logs));
+app.use('/generated', autoIndex(generated, options), increment.blocklist, express.static(generated));
+app.use('/json/generated', autoIndex(generated, { json: true }), express.static(generated));
+app.use('/logs', autoIndex(logs, options), express.static(logs));
 app.get('*', increment.requests);
 
 
