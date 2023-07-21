@@ -39,7 +39,7 @@ app.use(express.static(path.join(__dirname, 'www', 'public')));
 // Paths
 const generated = path.join(__dirname, 'blocklist', 'generated');
 const logs = path.join(__dirname, 'www', 'public', 'logs');
-const options = { customTemplate: path.join(__dirname, 'www', 'views', 'autoindex-template.html') };
+const options = { customTemplate: path.join(__dirname, 'www', 'views', 'autoindex-template.html'), dirAtTop: true };
 
 // Blocklist
 app.use('/generated', autoIndex(generated, options), increment.blocklist, express.static(generated));
