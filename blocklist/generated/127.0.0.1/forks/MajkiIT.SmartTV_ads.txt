@@ -1,4 +1,4 @@
-#202307190303
+#202307210303
 # SmartTV Host filters for Pi hole
 # Collaborators: xxcriticxx, MajkiIT
 # Homepage: https://www.certyficate.it/
@@ -63,6 +63,7 @@
 127.0.0.1 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 127.0.0.1 api.cid.samba.tv
 127.0.0.1 preferences.cid.samba.tv
+127.0.0.1 bravia-cfgdst-ore-pro.bda.ndmdhs.com
 127.0.0.1 ad.lgappstv.com
 127.0.0.1 ibis.lgappstv.com
 127.0.0.1 jp.rdx2.lgtvsdp.com
@@ -78,6 +79,14 @@
 127.0.0.1 us.rdx2.lgtvsdp.com
 127.0.0.1 yumenetworks.com
 127.0.0.1 aic-ngfts.lge.com
+127.0.0.1 us.cdpbeacon.lgtvcommon.com
+127.0.0.1 us.cdpsvc.lgtvcommon.com
+127.0.0.1 us.homeprv.lgtvcommon.com
+127.0.0.1 us.nudge.lgtvcommon.com
+127.0.0.1 us.rdl.lgtvcommon.com
+127.0.0.1 us.recommend.lgtvcommon.com
+127.0.0.1 us.lgsmartad.com
+127.0.0.1 us.service.lgtvcommon.com
 127.0.0.1 legacyportal.nettvservices.com
 127.0.0.1 nettv.corio.com
 127.0.0.1 ad.nettvservices.com
@@ -117,7 +126,7 @@
 127.0.0.1 oempprd.samsungcloudsolution.net
 127.0.0.1 prderrordumphsm.samsungcloudsolution.com
 127.0.0.1 openapi.samsung.com
-127.0.0.1 osb-apps.samsungqbe.com
+127.0.0.1 osb-apps-v2.samsungqbe.com
 127.0.0.1 osb-krsvc.samsungqbe.com
 127.0.0.1 osb-eusvc.samsungqbe.com
 127.0.0.1 osb.samsungqbe.com
@@ -165,6 +174,7 @@
 127.0.0.1 liberty.logs.roku.com
 127.0.0.1 display.ravm.tv
 127.0.0.1 ravm.tv
+127.0.0.1 mobile.logs.roku.com
 127.0.0.1 cdn.hbbtv.smartclip.net
 127.0.0.1 hbbtv-1.eurosport.com
 127.0.0.1 hbbtv-extern-fe01.sim-technik.de
@@ -200,6 +210,13 @@
 127.0.0.1 tv-static.scdn.co
 127.0.0.1 xml.opera.com
 127.0.0.1 api.thetake.com # https://thetake.ai/
+127.0.0.1 control-zoo-dai-default.tvinteractive.tv
+127.0.0.1 mcp.tvinteractive.tv
+127.0.0.1 control2.tvinteractive.tv
+127.0.0.1 control.tvinteractive.tv
+127.0.0.1 tvmeta-dynamic.tvinteractive.tv
+127.0.0.1 alphonso.tv
+127.0.0.1 tv.ads.spotx.tv
 127.0.0.1 ichnaea.netflix.com
 127.0.0.1 customerevents.netflix.com
 127.0.0.1 api.distribution.hulu.com

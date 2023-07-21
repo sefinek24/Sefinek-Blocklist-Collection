@@ -1,4 +1,4 @@
-#202307190303
+#202307210303
 # SmartTV Host filters for Pi hole
 # Collaborators: xxcriticxx, MajkiIT
 # Homepage: https://www.certyficate.it/
@@ -63,6 +63,7 @@
 0.0.0.0 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 0.0.0.0 api.cid.samba.tv
 0.0.0.0 preferences.cid.samba.tv
+0.0.0.0 bravia-cfgdst-ore-pro.bda.ndmdhs.com
 0.0.0.0 ad.lgappstv.com
 0.0.0.0 ibis.lgappstv.com
 0.0.0.0 jp.rdx2.lgtvsdp.com
@@ -78,6 +79,14 @@
 0.0.0.0 us.rdx2.lgtvsdp.com
 0.0.0.0 yumenetworks.com
 0.0.0.0 aic-ngfts.lge.com
+0.0.0.0 us.cdpbeacon.lgtvcommon.com
+0.0.0.0 us.cdpsvc.lgtvcommon.com
+0.0.0.0 us.homeprv.lgtvcommon.com
+0.0.0.0 us.nudge.lgtvcommon.com
+0.0.0.0 us.rdl.lgtvcommon.com
+0.0.0.0 us.recommend.lgtvcommon.com
+0.0.0.0 us.lgsmartad.com
+0.0.0.0 us.service.lgtvcommon.com
 0.0.0.0 legacyportal.nettvservices.com
 0.0.0.0 nettv.corio.com
 0.0.0.0 ad.nettvservices.com
@@ -117,7 +126,7 @@
 0.0.0.0 oempprd.samsungcloudsolution.net
 0.0.0.0 prderrordumphsm.samsungcloudsolution.com
 0.0.0.0 openapi.samsung.com
-0.0.0.0 osb-apps.samsungqbe.com
+0.0.0.0 osb-apps-v2.samsungqbe.com
 0.0.0.0 osb-krsvc.samsungqbe.com
 0.0.0.0 osb-eusvc.samsungqbe.com
 0.0.0.0 osb.samsungqbe.com
@@ -165,6 +174,7 @@
 0.0.0.0 liberty.logs.roku.com
 0.0.0.0 display.ravm.tv
 0.0.0.0 ravm.tv
+0.0.0.0 mobile.logs.roku.com
 0.0.0.0 cdn.hbbtv.smartclip.net
 0.0.0.0 hbbtv-1.eurosport.com
 0.0.0.0 hbbtv-extern-fe01.sim-technik.de
@@ -200,6 +210,13 @@
 0.0.0.0 tv-static.scdn.co
 0.0.0.0 xml.opera.com
 0.0.0.0 api.thetake.com # https://thetake.ai/
+0.0.0.0 control-zoo-dai-default.tvinteractive.tv
+0.0.0.0 mcp.tvinteractive.tv
+0.0.0.0 control2.tvinteractive.tv
+0.0.0.0 control.tvinteractive.tv
+0.0.0.0 tvmeta-dynamic.tvinteractive.tv
+0.0.0.0 alphonso.tv
+0.0.0.0 tv.ads.spotx.tv
 0.0.0.0 ichnaea.netflix.com
 0.0.0.0 customerevents.netflix.com
 0.0.0.0 api.distribution.hulu.com

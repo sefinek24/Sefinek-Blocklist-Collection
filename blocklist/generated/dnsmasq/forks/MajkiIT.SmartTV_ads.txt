@@ -1,4 +1,4 @@
-#202307190303
+#202307210303
 # SmartTV Host filters for Pi hole
 # Collaborators: xxcriticxx, MajkiIT
 # Homepage: https://www.certyficate.it/
@@ -63,6 +63,7 @@ server=/bdcore-apr-lb.bda.ndmdhs.com/
 server=/tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com/
 server=/api.cid.samba.tv/
 server=/preferences.cid.samba.tv/
+server=/bravia-cfgdst-ore-pro.bda.ndmdhs.com/
 server=/ad.lgappstv.com/
 server=/ibis.lgappstv.com/
 server=/jp.rdx2.lgtvsdp.com/
@@ -78,6 +79,14 @@ server=/us.info.lgsmartad.com/
 server=/us.rdx2.lgtvsdp.com/
 server=/yumenetworks.com/
 server=/aic-ngfts.lge.com/
+server=/us.cdpbeacon.lgtvcommon.com/
+server=/us.cdpsvc.lgtvcommon.com/
+server=/us.homeprv.lgtvcommon.com/
+server=/us.nudge.lgtvcommon.com/
+server=/us.rdl.lgtvcommon.com/
+server=/us.recommend.lgtvcommon.com/
+server=/us.lgsmartad.com/
+server=/us.service.lgtvcommon.com/
 server=/legacyportal.nettvservices.com/
 server=/nettv.corio.com/
 server=/ad.nettvservices.com/
@@ -117,7 +126,7 @@ server=/oempprd.samsungcloudsolution.com/
 server=/oempprd.samsungcloudsolution.net/
 server=/prderrordumphsm.samsungcloudsolution.com/
 server=/openapi.samsung.com/
-server=/osb-apps.samsungqbe.com/
+server=/osb-apps-v2.samsungqbe.com/
 server=/osb-krsvc.samsungqbe.com/
 server=/osb-eusvc.samsungqbe.com/
 server=/osb.samsungqbe.com/
@@ -165,6 +174,7 @@ server=/cooper.logs.roku.com/
 server=/liberty.logs.roku.com/
 server=/display.ravm.tv/
 server=/ravm.tv/
+server=/mobile.logs.roku.com/
 server=/cdn.hbbtv.smartclip.net/
 server=/hbbtv-1.eurosport.com/
 server=/hbbtv-extern-fe01.sim-technik.de/
@@ -200,6 +210,13 @@ server=/trvdp.com/
 server=/tv-static.scdn.co/
 server=/xml.opera.com/
 server=/api.thetake.com/ # https://thetake.ai/
+server=/control-zoo-dai-default.tvinteractive.tv/
+server=/mcp.tvinteractive.tv/
+server=/control2.tvinteractive.tv/
+server=/control.tvinteractive.tv/
+server=/tvmeta-dynamic.tvinteractive.tv/
+server=/alphonso.tv/
+server=/tv.ads.spotx.tv/
 server=/ichnaea.netflix.com/
 server=/customerevents.netflix.com/
 server=/api.distribution.hulu.com/
