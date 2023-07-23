@@ -1,0 +1,20 @@
+html {
+    font-family: Caladea, sans-serif
+}
+table {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    font-style: normal;
+}
+tr td:first-child {
+    min-width: 20%;
+}
+td a {
+    margin-right: 2em;
+}
+td.size {
+    text-align: end;
+}

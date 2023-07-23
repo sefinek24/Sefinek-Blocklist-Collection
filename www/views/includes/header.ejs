@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <% if (meta.title) { %><title>Blocklist Collection - The best blocklist for Pi-hole and AdGuard</title><% } %>
+    <% if (meta.description) { %><meta name="description" content=""><% } %>
+    <% if (meta.keywords) { %><meta name="keywords" content=""><% } %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <% if (meta.color) { %><meta name="theme-color" content="<%= meta.color %>"><% } %>
+    <% if (meta.site_name) { %><meta property="og:site_name" content="<%= meta.site_name %>"><% } %>
+    <meta property="og:url" content="https://blocklist.sefinek.net">
+
+    <link rel="stylesheet" href="/css/default.css">
+    <% if (style) { %><link rel="stylesheet" href="/css/<%= style %>.css"> <% } %>
+    <% if (libs === 'luxon') { %><script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script><% } %>
+</head>
+<body>
+    <div id="header">Blocklist Collection made by Sefinek - v<%= version %></div>
+    <div id="links">
+        <div id="text">
+            <div>>> <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection">⭐ if you ❤️</a> <a href="https://sefinek.net/support-me">or support me 💸</a> <<</div>
+            <div>
+                🐱 <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" title="sefinek24/Sefinek-Blocklist-Collection">See GitHub Repository</a> 🐱
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container" style="padding-top:10px">
+        <div>
+            🏠 <a href="/" <%- subpage === 'home' ? 'id="selected"' : '' %>>Home page</a>
+        </div>
+        <div>
+            🐱‍ <a href="/json" <%- subpage === 'json' ? 'id="selected"' : '' %>>JSON output (for devs)</a>
+        </div>
+        <div>
+            🎯 <a href="/update-frequency" <%- subpage === 'update-freqency' ? 'id="selected"' : '' %>>Local repo update frequency</a>
+        </div>
+        <div>
+            📃 <a href="https://sefinek.net/blocklist-generator"><strong>Blocklist Customization</strong></a>
+        </div>
+        <div>
+            📝 <a href="/generated">Go to File explorer</a>
+        </div>
+        <div>
+            📘 <a href="/logs">View Git pull logs</a>
+        </div>
+    </div>
+
+    <hr>

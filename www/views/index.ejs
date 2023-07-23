@@ -1,107 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Blocklist Collection - The best blocklist for Pi-hole and AdGuard</title>
-    <meta name="description" content="The best collection of block lists for Pi-hole and AdGuard with +100 links and +6 million domains on Adlists.">
-    <meta name="keywords" content="blocklist, pihole, adguard, ublock origin, links, urls, blacklist, polskie, listy, blokowan, polskie listy pihole, adlisty pihole, generator pihole, pihole blocklist generator, generator listy blokowan">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<%- include('./includes/header.ejs', {
+    meta: {
+        title: 'Blocklist Collection - The best blocklist for Pi-hole and AdGuard',
+        description: 'The best collection of block lists for Pi-hole and AdGuard with +100 links and +6 million domains on Adlists.',
+        keywords: 'blocklist, pihole, adguard, ublock origin, links, urls, blacklist, polskie, listy, blokowan, polskie listy pihole, adlisty pihole, generator pihole, pihole blocklist generator, generator listy blokowan',
+        color: '#000003',
+        site_name: 'Made by Sefinek♥'
+    },
+    subpage: 'home',
+    libs: null,
+    style: 'index'
+}) %>
 
-    <meta name="theme-color" content="#49AAEA">
-    <meta property="og:site_name" content="Made by Sefinek♥">
-    <meta property="og:url" content="https://blocklist.sefinek.net">
-
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    <div id="header">Blocklist Collection made by Sefinek - v<%= version %></div>
-    <div id="links">
-        <div id="text">
-            >> <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection">⭐ if you ❤️</a> <a href="https://sefinek.net/support-me">or support me 💸</a> <<
-        </div>
+<div class="container" id="allRequests">
+    <div>
+        <div id="category">😻 » All requests « 😻</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.all %>&theme=gelbooru&length=10" alt="<%= database.requests.all %>">
     </div>
-    <hr>
-
-    <div class="container" style="padding-top:10px">
-        <div>
-            🐱 <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" title="sefinek24/Sefinek-Blocklist-Collection">See GitHub Repository</a>
-        </div>
-        <div>
-            📃 <a href="https://sefinek.net/blocklist-generator">Blocklist Customization (recommended)</a>
-        </div>
-        <div>
-            📝 <a href="/generated">Go to File explorer</a>
-        </div>
-        <div>
-            📘 <a href="/logs">View Git pull logs</a>
-        </div>
-        <div>
-            🎯 <a href="/update-frequency">Local repo update frequency</a>
-        </div>
+    <div>
+        <h2>🙀 » Blocklist requests « 🙀</h2>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.blocklist %>&length=10" alt="<%= database.requests.blocklist %>">
     </div>
+</div>
 
-
-    <div class="container" id="allRequests">
-        <div>
-            <div id="category">😻 » All requests « 😻</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.all %>&theme=gelbooru&length=10" alt="<%= database.requests.all %>">
-        </div>
-        <div>
-            <h2>🙀 » Blocklist requests « 🙀</h2>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.blocklist %>&length=10" alt="<%= database.requests.blocklist %>">
-        </div>
+<div class="container" id="lists">
+    <div>
+        <div id="category">📄 127.0.0.1 📄</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests['127001'] %>&length=7" alt="<%= database.requests['127001'] %>">
     </div>
-
-    <div class="container" id="lists">
-        <div>
-            <div id="category">📄 127.0.0.1 📄</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests['127001'] %>&length=7" alt="<%= database.requests['127001'] %>">
-        </div>
-        <div>
-            <div id="category">📄 0.0.0.0 📄</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests['00000'] %>&length=7" alt="<%= database.requests['00000'] %>">
-        </div>
-        <div>
-            <div id="category">📄 AdGuard 📄</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.adguard %>&length=7" alt="<%= database.requests.adguard %>">
-        </div>
-        <div>
-            <div id="category">📄 Dnsmasq 📄</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.dnsmasq %>&length=7" alt="<%= database.requests.dnsmasq %>">
-        </div>
-        <div>
-            <div id="category">📄 No IP 📄</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.noip %>&length=7" alt="<%= database.requests.noip %>">
-        </div>
+    <div>
+        <div id="category">📄 0.0.0.0 📄</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests['00000'] %>&length=7" alt="<%= database.requests['00000'] %>">
     </div>
-
-    <div class="container" id="responses">
-        <div>
-            <div id="category">🎆 Responses 404 🎆</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['404'] %>&length=8" alt="<%= database.responses['404'] %>">
-        </div>
-        <div>
-            <div id="category">⏰ Responses 429 ⏰</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['429'] %>&length=8" alt="<%= database.responses['429'] %>">
-        </div>
-        <div>
-            <div id="category">⚠️ Responses 500 ⚠️</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['500'] %>&length=8" alt="<%= database.responses['500'] %>">
-        </div>
-        <div>
-            <div id="category">😑 Responses 503 😑</div>
-            <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['503'] %>&length=8" alt="<%= database.responses['503'] %>">
-        </div>
+    <div>
+        <div id="category">📄 AdGuard 📄</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.adguard %>&length=7" alt="<%= database.requests.adguard %>">
     </div>
-
-    <hr>
-    <div class="container" id="allRequests" style="padding-top:10px">
-        <div>
-            <code>Last update: <%= database.updatedAt %></code>
-        </div>
-        <div>
-            <code>Collection date: <%= database.createdAt %></code>
-        </div>
+    <div>
+        <div id="category">📄 Dnsmasq 📄</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.dnsmasq %>&length=7" alt="<%= database.requests.dnsmasq %>">
     </div>
-</body>
-</html>
+    <div>
+        <div id="category">📄 No IP 📄</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.noip %>&length=7" alt="<%= database.requests.noip %>">
+    </div>
+</div>
+
+<div class="container" id="responses">
+    <div>
+        <div id="category">🎆 Responses 404 🎆</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['404'] %>&length=8" alt="<%= database.responses['404'] %>">
+    </div>
+    <div>
+        <div id="category">⏰ Responses 429 ⏰</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['429'] %>&length=8" alt="<%= database.responses['429'] %>">
+    </div>
+    <div>
+        <div id="category">⚠️ Responses 500 ⚠️</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['500'] %>&length=8" alt="<%= database.responses['500'] %>">
+    </div>
+    <div>
+        <div id="category">😑 Responses 503 😑</div>
+        <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['503'] %>&length=8" alt="<%= database.responses['503'] %>">
+    </div>
+</div>
+
+<hr>
+<div class="container" id="allRequests" style="padding-top:10px">
+    <div>
+        <code>Last update: <%= database.updatedAt %></code>
+    </div>
+    <div>
+        <code>Collection date: <%= database.createdAt %></code>
+    </div>
+</div>
+
+<%- include('./includes/footer.ejs') %>

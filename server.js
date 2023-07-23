@@ -39,12 +39,13 @@ app.use(express.static(path.join(__dirname, 'www', 'public')));
 // Paths
 const generated = path.join(__dirname, 'blocklist', 'generated');
 const logs = path.join(__dirname, 'www', 'public', 'logs');
-const options = { customTemplate: path.join(__dirname, 'www', 'views', 'autoindex-template.html'), dirAtTop: true };
+const options = { customTemplate: path.join(__dirname, 'www', 'views', 'autoindex.html'), dirAtTop: true };
 
 // Blocklist
 app.use('/generated', autoIndex(generated, options), increment.blocklist, express.static(generated));
-app.use('/json/generated', autoIndex(generated, { json: true }), express.static(generated));
+app.use('/json/generated', autoIndex(generated, { json: true }));
 app.use('/logs', autoIndex(logs, options), express.static(logs));
+app.use('/json/logs', autoIndex(logs, { json: true }));
 app.get('*', increment.requests);
 
 
@@ -53,6 +54,10 @@ app.get('/', async (req, res) => {
 	const database = await BlockList.findOne({ domain: process.env.DOMAIN });
 
 	res.render('index.ejs', { database, version });
+});
+
+app.get('/json', (req, res) => {
+	res.render('json.ejs', { version });
 });
 
 app.get('/update-frequency', (req, res) => {

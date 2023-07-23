@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="<%= meta.color %>">
+    <meta property="og:site_name" content="<%= meta.site_name %>">
+    <meta property="og:url" content="https://blocklist.sefinek.net">
+
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/autoindex.css">
+</head>
+<body>
+    <div id="header">{{title}}</div>
+    <div id="links">
+        <div id="text">
+            <div>>> <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection">⭐ if you ❤️</a> <a href="https://sefinek.net/support-me">or support me 💸</a> <<</div>
+            <div>
+                🐱 <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" title="sefinek24/Sefinek-Blocklist-Collection">See GitHub Repository</a> 🐱
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container" style="padding-top:10px">
+        <div>
+            🏠 <a href="/">Home page</a>
+        </div>
+        <div>
+            🐱‍ <a href="/json">JSON output (for devs)</a>
+        </div>
+        <div>
+            🎯 <a href="/update-frequency" >Local repo update frequency</a>
+        </div>
+        <div>
+            📃 <a href="https://sefinek.net/blocklist-generator"><strong>Blocklist Customization</strong></a>
+        </div>
+        <div>
+            📝 <a href="/generated"><u>Go to File explorer</u></a>
+        </div>
+        <div>
+            📘 <a href="/logs"><u>View Git pull logs</u></a>
+        </div>
+    </div>
+
+    <hr>
+    <h1>{{title}}</h1>
+    <table>{{content}}</table>
+</body>
+</html>
