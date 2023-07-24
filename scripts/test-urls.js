@@ -1,13 +1,16 @@
+require('dotenv').config({ path: '../.env' });
+
 const fs = require('node:fs');
 const { version } = require('../package.json');
 const axios = require('axios');
 const kleur = require('kleur');
 
-const markdownFile = 'lists/md/Pi-hole.md';
+const markdownFile = '../lists/md/Pi-hole.md';
 const userAgent = `Mozilla/5.0 (compatible; SefinekBlocklistCollection/${version}; +https://sefinek.net/blocklist-generator)`;
+const serveUrl = link => process.env.NODE_ENV === 'production' ? link : link.replace('https://blocklist.sefinek.net', `${process.env.PROTOCOL}${process.env.DOMAIN}:${process.env.PORT}`);
 
 async function testLinks() {
-	console.log(kleur.white('=== Testing Links ===\n'));
+	console.log(kleur.white('=== Testing urls collection ===\n'));
 
 	let totalLinks = 0;
 	let successfulLinks = 0;
@@ -19,7 +22,8 @@ async function testLinks() {
 		const links = extractLinks(fileContent);
 		totalLinks = links.length;
 
-		for (const link of links) {
+		for (let link of links) {
+			link = serveUrl(link);
 			try {
 				console.log(kleur.blue('>'), link);
 				const response = await axios.head(link, { headers: { 'User-Agent': userAgent } });
@@ -30,19 +34,23 @@ async function testLinks() {
 				let success = false;
 				retriesFails++;
 
-				console.log(`${kleur.bgRed(err1.response.status)} ${kleur.red(`Status: ${err1.response.statusText}`)}`);
+				if (err1.response) {
+					console.warn(`${kleur.bgRed(err1.response.status)} ${kleur.red(`Status: ${err1.response.statusText}`)}`);
+				} else {
+					return console.error(kleur.red('FATAL ERROR:'), err1.stack);
+				}
 
 				while (retries < 3) {
 					if (retriesFails >= 12) {
 						throw new Error(`Exceeded maximum retries - ${retriesFails}. Test failed.`);
 					}
 
-					console.log(kleur.blue('> Waiting 3 seconds...'));
-					await sleep(3000);
+					console.log(kleur.blue('> Waiting 2 seconds...'));
+					await sleep(2000);
 
 					try {
 						console.log(kleur.blue('> Retrying...'));
-						const response = await axios.get(link, { headers: { 'User-Agent': userAgent } });
+						const response = await axios.get(serveUrl(link), { headers: { 'User-Agent': userAgent } });
 						console.log(`${kleur.bgGreen(response.status)} ${kleur.green(`Status: ${response.statusText}`)}`);
 						successfulLinks++;
 						success = true;
