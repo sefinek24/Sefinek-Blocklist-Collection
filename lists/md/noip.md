@@ -12,7 +12,7 @@
 <br>
 
 ```dotenv
-https://blocklist.sefinek.net../generated/noip/ads/blocklistproject.ads.txtj
+https://blocklist.sefinek.net/generated/noip/ads/blocklistproject.ads.txt
 https://blocklist.sefinek.net/generated/noip/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/noip/ads/jerryn70.GoodbyeAds.txt
 https://blocklist.sefinek.net/generated/noip/ads/yoyo.AdsTrackersEtc.txt

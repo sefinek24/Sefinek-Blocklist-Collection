@@ -16,6 +16,10 @@ const markdownFiles = [
 const userAgent = `Mozilla/5.0 (compatible; SefinekBlocklistCollection/${version}; +https://blocklist.sefinek.net)`;
 const headers = { headers: { 'User-Agent': userAgent } };
 
+// Constants
+const MAX_RETRIES = 3;
+const RETRY_DELAY_MS = 2000;
+
 // Variables
 let totalLinks = 0;
 let successfulLinks = 0;
@@ -55,7 +59,7 @@ function serveUrl(link) {
 
 // Function to test links for availability
 async function testLinks() {
-	console.log(kleur.white('=== Testing urls collection ===\n'));
+	console.log(kleur.white('=== Testing URLs collection ===\n'));
 	const links = [];
 
 	try {
@@ -71,49 +75,50 @@ async function testLinks() {
 
 		totalLinks = links.length;
 
-		for (let link of links) {
-			link = serveUrl(link);
+		for (const link of links) {
+			const processedLink = serveUrl(link);
 
-			if (!link) {
+			if (!processedLink) {
 				invalidLinks.push(link);
 				continue;
 			}
 
 			try {
-				console.log(kleur.blue('>'), link);
-				const response = await axios.head(link, headers);
+				console.log(kleur.blue('>'), processedLink);
+				const response = await axios.head(processedLink, headers);
 				console.log(`${kleur.bgGreen(response.status)} ${kleur.green(`Status: ${response.statusText}`)}`);
 				successfulLinks++;
-			} catch (err1) {
-				let retries = 0;
-				let success = false;
+			} catch (err) {
 				retriesFails++;
 
-				if (err1.response) {
-					console.warn(`${kleur.bgRed(err1.response.status)} ${kleur.red(`Status: ${err1.response.statusText}`)}`);
+				if (err.response) {
+					console.warn(`${kleur.bgRed(err.response.status)} ${kleur.red(`Status: ${err.response.statusText}`)}`);
 				} else {
-					console.error(kleur.red('FATAL ERROR:'), err1.stack);
+					console.error(kleur.red('FATAL ERROR:'), err.stack);
 					process.exit(1);
 				}
 
-				while (retries < 3) {
-					if (retriesFails >= 12) {
+				let retries = 0;
+				let success = false;
+
+				while (retries < MAX_RETRIES) {
+					if (retriesFails >= MAX_RETRIES * 4) {
 						console.error(kleur.red(`Exceeded maximum retries - ${retriesFails}. Test failed.`));
 						process.exit(1);
 					}
 
 					console.log(kleur.blue('> Waiting 2 seconds...'));
-					await sleep(2000);
+					await sleep(RETRY_DELAY_MS);
 
 					try {
 						console.log(kleur.blue('> Retrying...'));
-						const response = await axios.head(link, headers);
+						const response = await axios.head(processedLink, headers);
 						console.log(`${kleur.bgGreen(response.status)} ${kleur.green(`Status: ${response.statusText}`)}`);
 						successfulLinks++;
 						success = true;
 						break;
-					} catch (err2) {
-						console.warn(`${kleur.bgRed(err2.response.status)} ${kleur.red(`Status: ${err2.response.statusText}`)}`);
+					} catch (err) {
+						console.warn(`${kleur.bgRed(err.response.status)} ${kleur.red(`Status: ${err.response.statusText}`)}`);
 						retries++;
 						retriesFails++;
 					}
@@ -170,7 +175,14 @@ function sleep(ms) {
 }
 
 // Immediately invoke the testLinks function when the script is run
-(async () => await testLinks())();
+(async () => {
+	try {
+		await testLinks();
+	} catch (err) {
+		console.error('An error occurred while testing links:', err);
+		process.exit(1);
+	}
+})();
 
 // Export the testLinks function for potential usage elsewhere
 module.exports = testLinks;
