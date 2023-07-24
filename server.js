@@ -42,7 +42,7 @@ const logs = path.join(__dirname, 'www', 'public', 'logs');
 const options = { customTemplate: path.join(__dirname, 'www', 'views', 'autoindex.html'), dirAtTop: true };
 
 // Blocklist
-app.use('/generated', /* autoIndex(generated, options), */ increment.blocklist, express.static(generated));
+app.use('/generated', autoIndex(generated, options), increment.blocklist, express.static(generated));
 app.use('/json/generated', autoIndex(generated, { json: true }));
 app.use('/logs', autoIndex(logs, options), express.static(logs));
 app.use('/json/logs', autoIndex(logs, { json: true }));

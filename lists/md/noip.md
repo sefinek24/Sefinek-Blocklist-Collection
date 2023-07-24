@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>📝 Default bocklist collection</h1>
+    <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Without IP, only domain</b><br>
         📥 » <b>Last update: 23.06.2023 / DD.MM.YYYY</b><br>
@@ -12,7 +12,7 @@
 <br>
 
 ```dotenv
-https://blocklist.sefinek.net/generated/noip/ads/blocklistproject.ads.txt
+https://blocklist.sefinek.net../generated/noip/ads/blocklistproject.ads.txtj
 https://blocklist.sefinek.net/generated/noip/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/noip/ads/jerryn70.GoodbyeAds.txt
 https://blocklist.sefinek.net/generated/noip/ads/yoyo.AdsTrackersEtc.txt

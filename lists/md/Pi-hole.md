@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>📝 Default bocklist collection</h1>
+    <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Pi-hole / 0.0.0.0 [Domain]</b><br>
         📥 » <b>Last update: 23.06.2023 / DD.MM.YYYY</b><br>

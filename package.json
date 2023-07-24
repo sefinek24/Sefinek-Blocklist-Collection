@@ -1,10 +1,10 @@
 {
   "name": "sefinek-blocklist-collection",
   "version": "0.8.0",
-  "description": "The best collection of blocklists for Pi-hole and AdGuard made by Sefinek.",
+  "description": "The best blocklists collection for your AdBlocker (Pi-hole and AdGuard) made by Sefinek.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node scripts/test-urls.js",
     "up": "ncu -u && npm install && npm update && npm audit fix",
     "sync": "git pull --recurse-submodules",
     "usm": "git submodule update --remote",
@@ -36,12 +36,12 @@
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "express-autoindex": "^1.4.0",
+    "express-autoindex": "^1.4.1",
     "express-rate-limit": "^6.8.0",
     "helmet": "^7.0.0",
     "kleur": "^4.1.5",
     "luxon": "^3.3.0",
-    "mongoose": "^7.4.0",
+    "mongoose": "^7.4.1",
     "morgan": "^1.10.0"
   }
 }
