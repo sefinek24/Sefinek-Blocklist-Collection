@@ -30,30 +30,13 @@ function formatFileSize(bytes) {
 	}
 }
 
-tableLinks.forEach(link => {
-	const href = link.getAttribute('href');
-	const linkText = link.textContent.trim();
+function applyLinkStyles(link, color, imgSrc) {
+	link.style.color = color;
+	const img = createImage(imgSrc);
+	link.insertBefore(img, link.firstChild);
+}
 
-	if (href.endsWith('/')) {
-		link.style.color = 'blue';
-		const folderImg = createImage('back.png');
-		link.insertBefore(folderImg, link.firstChild);
-	} else if (linkText.endsWith('/')) {
-		link.style.color = 'yellow';
-		const linkImg = createImage('open-folder.png');
-		link.insertBefore(linkImg, link.firstChild);
-	} else if (isTextFile(linkText)) {
-		link.style.color = 'cyan';
-		const textFileImg = createImage('word.png');
-		link.insertBefore(textFileImg, link.firstChild);
-	} else {
-		link.style.color = 'red';
-		const textFileImg = createImage('unknown-mail.png');
-		link.insertBefore(textFileImg, link.firstChild);
-	}
-
-	link.insertAdjacentText('afterbegin', ' ');
-
+function updateFileSizeAndTime(link) {
 	const sizeTd = link.closest('tr').querySelector('.size');
 	if (sizeTd) {
 		const fileSize = sizeTd.textContent.trim();
@@ -65,9 +48,26 @@ tableLinks.forEach(link => {
 		const dateTimeString = timeTd.textContent.trim();
 		timeTd.textContent = formatDateTime(dateTimeString);
 	}
+}
+
+tableLinks.forEach(link => {
+	const href = link.getAttribute('href');
+	const linkText = link.textContent.trim();
+
+	if (href.endsWith('/')) {
+		applyLinkStyles(link, 'blue', 'back.png');
+	} else if (linkText.endsWith('/')) {
+		applyLinkStyles(link, 'yellow', 'open-folder.png');
+	} else if (isTextFile(linkText)) {
+		applyLinkStyles(link, 'cyan', 'word.png');
+	} else {
+		applyLinkStyles(link, 'red', 'unknown-mail.png');
+	}
+
+	link.insertAdjacentText('afterbegin', ' ');
+
+	updateFileSizeAndTime(link);
 });
-
-
 
 
 /* Toggle width */
@@ -99,6 +99,7 @@ toggleWidthButton.addEventListener('click', () => {
 	updateTableWidth();
 });
 
+
 /* Compact mode */
 const toggleCompactModeButton = document.getElementById('toggleCompactModeButton');
 let compactMode = localStorage.getItem('compactMode') === 'true';
@@ -126,6 +127,4 @@ toggleCompactModeButton.addEventListener('click', () => {
 
 /* Reload page */
 const reloadPageBtn = document.getElementById('reloadPage');
-reloadPageBtn.addEventListener('click', () => {
-	window.location.reload();
-});
+reloadPageBtn.addEventListener('click', () => window.location.reload());
