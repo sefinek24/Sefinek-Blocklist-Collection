@@ -1,20 +1,82 @@
 html {
-    font-family: Caladea, sans-serif
+    font-family:Caladea,sans-serif
 }
+
 table {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: normal;
-    line-height: normal;
-    font-style: normal;
+    border-collapse:collapse;
+    font-family:'Courier New',Courier,monospace;
+    font-size:14px;
+    font-style:normal;
+    font-weight:400;
+    letter-spacing:normal;
+    line-height:normal
 }
+
 tr td:first-child {
-    min-width: 20%;
+    min-width:30%
 }
+
 td a {
-    margin-right: 2em;
+    align-items:center;
+    display:flex;
+    margin-right:3em
 }
+
 td.size {
-    text-align: end;
+    padding-left:24px;
+    text-align:right;
+    white-space:nowrap
+}
+
+.link-img {
+    display:inline-block;
+    height:23px;
+    margin-bottom:5px;
+    margin-right:7px;
+    vertical-align:middle;
+    width:23px
+}
+
+.size span {
+    display:inline-block;
+    min-width:60px
+}
+
+button {
+    background-color: dodgerblue;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+    cursor:pointer;
+    display:inline-block;
+    font-size:15px;
+    margin:11px;
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    transition:.2s
+}
+
+button:hover {
+    background-color:#459a49!important;
+}
+
+button:active {
+    background-color:rgba(69,160,73,0.8)!important;
+}
+
+/* Dodaj style dla trybu kompaktowego */
+.compact-mode td.size {
+    padding-left:15px!important;
+}
+
+.compact-mode td a {
+    margin-right:2em
+}
+
+.compact-mode .link-img {
+    height:20px;
+    margin-bottom:2px;
+    margin-right:6px;
+    width:21px
 }

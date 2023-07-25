@@ -30,13 +30,13 @@
             🏠 <a href="/">Home page</a>
         </div>
         <div>
-            🐱‍ <a href="/json">JSON output (for devs)</a>
-        </div>
-        <div>
             🎯 <a href="/update-frequency" >Local repo update frequency</a>
         </div>
         <div>
             📃 <a href="https://sefinek.net/blocklist-generator"><strong>Blocklist Customization</strong></a>
+        </div>
+        <div>
+            🐱‍ <a href="/json">JSON output (for devs)</a>
         </div>
         <div>
             📝 <a href="/generated"><u>Go to File explorer</u></a>
@@ -47,7 +47,15 @@
     </div>
 
     <hr>
-    <h1>{{title}}</h1>
-    <table>{{content}}</table>
+    <h1>» {{title}}</h1>
+    <table id="table">
+        {{content}}
+    </table>
+
+    <button id="toggleWidthButton">Toggle table width</button>
+    <button id="toggleCompactModeButton">Toggle compact mode</button>
+    <button id="reloadPage">Reload page</button>
+
+    <script src="/js/autoindex.js"></script>
 </body>
 </html>
