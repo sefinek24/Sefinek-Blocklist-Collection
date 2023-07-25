@@ -2,7 +2,6 @@ const morgan = require('morgan');
 
 const skipUserAgents = [
 	'Mozilla/5.0+(compatible; UptimeRobot/2.0; http://www.uptimerobot.com/)',
-	'updown.io daemon 2.9',
 ];
 
 const skipUserAgent = () => req => {

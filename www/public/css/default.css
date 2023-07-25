@@ -1,21 +1,21 @@
 /* Main */
 body {
-    background-color: #000003;
-    color: #fff;
-    font-size: 19px;
-    font-family: "Calibri", sans-serif;
+    background-color: #000103;
+    color:#fff;
+    font-size:19px;
+    font-family:"Calibri",sans-serif
 }
 a {
-    color: cornflowerblue;
-    text-decoration: none;
+    color:cornflowerblue;
+    text-decoration:none
 }
 a:hover {
-    color: blue;
-    text-decoration: underline;
+    color:blue;
+    text-decoration:underline;
 }
 #header {
-    text-align: center;
-    font-size: 40px;
+    text-align:center;
+    font-size:40px
 }
 
 #links a {text-decoration:none}
@@ -27,26 +27,26 @@ a:hover {
 /* Containers */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
-        align-items: center;
+        flex-direction:column;
+        align-items:center
     }
     .container > div {
-        flex: 1 0 100%;
-        max-width: 100%;
+        flex:1 0 100%;
+        max-width:100%
     }
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-end;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-items:flex-end
 }
 
 .container > div {
-    flex: 1 0 300px;
-    margin-right: 7px;
-    margin-bottom: 7px;
-    text-align: center;
+    flex:1 0 300px;
+    margin-right:7px;
+    margin-bottom:7px;
+    text-align:center
 }
