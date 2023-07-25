@@ -4,6 +4,7 @@ const helmet = require('helmet');
 const path = require('node:path');
 const parser = require('cron-parser');
 const autoIndex = require('express-autoindex');
+const formatTime = require('./www/utils/formatTime.js');
 const logger = require('./www/middlewares/morgan.js');
 const limiter = require('./www/middlewares/ratelimit.js');
 const { notFound, internalError } = require('./www/middlewares/other/errors.js');
@@ -43,22 +44,24 @@ const options = { customTemplate: path.join(__dirname, 'www', 'views', 'autoinde
 
 // Blocklist
 app.use('/generated', autoIndex(generated, options), increment.blocklist, express.static(generated));
-app.use('/json/generated', autoIndex(generated, { json: true }));
 app.use('/logs', autoIndex(logs, options), express.static(logs));
-app.use('/json/logs', autoIndex(logs, { json: true }));
 app.get('*', increment.requests);
+
+// API
+app.get('/api/v1/version', (req, res) => res.status(200).json({ success: true, code: 200, version, node: process.version.replace('v', '') }));
+app.get('/api/v1/uptime', (req, res) => res.status(200).json({ success: true, code: 200, time: formatTime.HHMMSS(process.uptime()), full: formatTime.full(process.uptime()), uptime: process.uptime() }));
+app.use('/api/v1/static/generated', autoIndex(generated, { json: true }));
+app.use('/api/v1/static/logs', autoIndex(logs, { json: true }));
 
 
 // Endpoints
 app.get('/', async (req, res) => {
 	const database = await BlockList.findOne({ domain: process.env.DOMAIN });
 
-	res.render('index.ejs', { database, version });
+	res.render('index.ejs', { database, version, uptime: formatTime.full(process.uptime()) });
 });
 
-app.get('/json', (req, res) => {
-	res.render('json.ejs', { version });
-});
+app.get('/api', (req, res) => res.render('api.ejs', { version }));
 
 app.get('/update-frequency', (req, res) => {
 	const tz = { tz: 'Europe/Warsaw' };

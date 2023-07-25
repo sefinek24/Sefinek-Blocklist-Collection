@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <% if (meta.title) { %><title>Blocklist Collection - The best blocklist for Pi-hole and AdGuard</title><% } %>
-    <% if (meta.description) { %><meta name="description" content=""><% } %>
-    <% if (meta.keywords) { %><meta name="keywords" content=""><% } %>
+    <% if (meta.title) { %><title><%= meta.title %></title><% } %>
+    <% if (meta.description) { %><meta name="description" content="<%= meta.description %>"><% } %>
+    <% if (meta.keywords) { %><meta name="keywords" content="<%= meta.keywords %>"><% } %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <% if (meta.color) { %><meta name="theme-color" content="<%= meta.color %>"><% } %>
@@ -16,12 +16,12 @@
     <% if (libs === 'luxon') { %><script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script><% } %>
 </head>
 <body>
-    <div id="header">Blocklist Collection made by Sefinek - v<%= version %></div>
+    <div id="header">Sefinek Blocklist - The best lists for your AdBlocker - v<%= version %></div>
     <div id="links">
         <div id="text">
             <div>>> <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection">⭐ if you ❤️</a> <a href="https://sefinek.net/support-me">or support me 💸</a> <<</div>
             <div>
-                🐈 <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" title="sefinek24/Sefinek-Blocklist-Collection">See GitHub Repository</a> 🐈
+                🐈 <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" title="sefinek24/Sefinek-Blocklist-Collection" target="_blank">See GitHub Repository</a> 🐈
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@
             📃 <a href="https://sefinek.net/blocklist-generator"><strong>Blocklist Customization</strong></a>
         </div>
         <div>
-            🐱‍ <a href="/json" <%- subpage === 'json' ? 'id="selected"' : '' %>>JSON output (for devs)</a>
+            💻‍ <a href="/api" <%- subpage === 'api' ? 'id="selected"' : '' %>>API (created for devs)</a>
         </div>
         <div>
             📝 <a href="/generated">Go to File explorer</a>

@@ -1,6 +1,6 @@
 <%- include('./includes/header.ejs', {
     meta: {
-        title: 'Blocklist Collection - The best blocklist for Pi-hole and AdGuard',
+        title: 'Sefinek Blocklist - The best lists for your AdBlocker',
         description: 'The best collection of block lists for Pi-hole and AdGuard with +100 links and +6 million domains on Adlists.',
         keywords: 'blocklist, pihole, adguard, ublock origin, links, urls, blacklist, polskie, listy, blokowan, polskie listy pihole, adlisty pihole, generator pihole, pihole blocklist generator, generator listy blokowan',
         color: '#000003',
@@ -67,7 +67,7 @@
 <hr>
 <div class="container" id="allRequests" style="padding-top:10px">
     <div>
-        <code>Last update: <%= database.updatedAt %></code>
+        <code>Server uptime: <%= uptime || '❓' %></code>
     </div>
     <div>
         <code>Collection date: <%= database.createdAt %></code>
