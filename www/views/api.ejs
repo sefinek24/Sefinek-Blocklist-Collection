@@ -1,8 +1,8 @@
 <%- include('./includes/header.ejs', {
     meta: {
         title: 'API for developers - Sefinek Blocklists',
-        description: 'This subpage displays the update time of repositories containing the list of blocklists for your time zone. You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.',
-        keywords: 'update, frequency, pi-hole, cron, time, timezone, date, sefinek, blocklist, collection',
+        description: 'In this subpage, you will find APIs for developers or programmers. Although these endpoints are rather less useful, who knows, maybe someone will find them handy (:',
+        keywords: 'api, sha256, sefinek api, blocklist sha256, cache, uptime, blocklist version, static, logs, generated',
         color: '#000003',
         site_name: 'Made by Sefinek♥'
     },
@@ -25,12 +25,16 @@
     </div>
 
     <div class="endpoint">
-        <code>GET <a href="/api/v1/static/generated/">/api/v1/static/generated/</a></code>
+        <code>GET <a href="/api/v1/static/generated/">/api/v1/static/generated/:fileName</a></code>
         <div>This endpoint provides an object containing static files in JSON format.</div>
     </div>
     <div class="endpoint">
-        <code>GET <a href="/api/v1/static/logs/">/api/v1/static/logs/</a></code>
+        <code>GET <a href="/api/v1/static/logs/">/api/v1/static/logs/:fileName</a></code>
         <div>Using this endpoint, you can access an object containing log files in JSON format.</div>
+    </div>
+    <div class="endpoint">
+        <code>GET <a href="/api/v1/static/cache/">api/v1/static/cache/:fileName</a></code>
+        <div>Get a JSON object containing the SHA256 of the blocking list.</div>
     </div>
 </div>
 

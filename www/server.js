@@ -33,14 +33,14 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Blocklist
 app.use(require('./routes/Blocklist.js'));
 
-// API
-app.use(require('./routes/API.js'));
-
 // Endpoints
 app.use(require('./routes/Main.js'));
 
 // Markdown
 app.use(require('./routes/Markdown.js'));
+
+// API
+app.use(require('./routes/API.js'));
 
 
 // Errors
