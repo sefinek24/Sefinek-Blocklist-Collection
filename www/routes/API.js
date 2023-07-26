@@ -7,7 +7,7 @@ const { version } = require('../../package.json');
 const fs = require('node:fs');
 
 const generated = path.join(__dirname, '..', '..', 'blocklist', 'generated');
-const logs = path.join(__dirname, '..', '..', 'public', 'logs');
+const logs = path.join(__dirname, '..', 'public', 'logs');
 
 // Default
 router.get('/api/v1/version', (req, res) => {
