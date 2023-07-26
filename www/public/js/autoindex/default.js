@@ -60,6 +60,7 @@ tableLinks.forEach(link => {
 		applyLinkStyles(link, 'yellow', 'open-folder.png');
 	} else if (isTextFile(linkText)) {
 		applyLinkStyles(link, 'cyan', 'word.png');
+		link.href = link.href.replace('/explorer/', '/viewer/');
 	} else {
 		applyLinkStyles(link, 'red', 'unknown-mail.png');
 	}

@@ -2,21 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <% if (meta.title) { %><title><%= meta.title %></title><% } %>
-    <% if (meta.description) { %><meta name="description" content="<%= meta.description %>"><% } %>
-    <% if (meta.keywords) { %><meta name="keywords" content="<%= meta.keywords %>"><% } %>
+    <title>{{title}}</title>
+    <meta name="description" content="Explore static directory of blocklists or logs.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <% if (meta.color) { %><meta name="theme-color" content="<%= meta.color %>"><% } %>
-    <% if (meta.site_name) { %><meta property="og:site_name" content="<%= meta.site_name %>"><% } %>
+    <meta name="theme-color" content="#000003">
+    <meta property="og:site_name" content="Made by Sefinek♥">
     <meta property="og:url" content="https://blocklist.sefinek.net">
 
     <link rel="stylesheet" href="/css/default.css">
-    <% if (style) { %><link rel="stylesheet" href="/css/<%= style %>.css"> <% } %>
-    <% if (libs === 'luxon') { %><script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script><% } %>
+    <link rel="stylesheet" href="/css/auto-index.css">
 </head>
 <body>
-    <div id="header"><%- header ? header : `Sefinek Blocklist - The best lists for your AdBlocker - v${version}` %></div>
+    <div id="header">{{title}}</div>
     <div id="links">
         <div id="text">
             <div>>> <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection">⭐ if you ❤️</a> <a href="https://sefinek.net/support-me">or support me 💸</a> <<</div>
@@ -29,22 +27,22 @@
 
     <div class="container" style="padding-top:10px">
         <div>
-            🏠 <a href="/" <%- subpage === 'home' ? 'id="selected"' : '' %>>Home page</a>
+            🏠 <a href="/">Home page</a>
         </div>
         <div>
-            🎯 <a href="/update-frequency" <%- subpage === 'update-freqency' ? 'id="selected"' : '' %>>Repo update frequency</a>
+            🎯 <a href="/update-frequency">Repo update frequency</a>
         </div>
         <div>
             📃 <a href="https://sefinek.net/blocklist-generator"><strong>Blocklist Customization</strong></a>
         </div>
         <div>
-            📚 <a href="/explorer" <%- subpage === 'explorer' ? 'id="selected"' : '' %>>Markdown files</a>
+            📚 <a href="/explorer"><u>Markdown files</u></a>
         </div>
         <div>
             📝 <a href="/generated">File explorer</a>
         </div>
         <div>
-            💻‍ <a href="/api" <%- subpage === 'api' ? 'id="selected"' : '' %>>API for devs</a>
+            💻‍ <a href="/api">API for devs</a>
         </div>
         <div>
             📘 <a href="/logs">Git pull logs</a>
@@ -52,3 +50,15 @@
     </div>
 
     <hr>
+    <h1>» {{title}}</h1>
+    <table id="table">
+        {{content}}
+    </table>
+
+    <button id="toggleWidthButton">Toggle table width</button>
+    <button id="toggleCompactModeButton">❓❓❓❓❓❓</button>
+    <button id="reloadPage">🔃 Reload page</button>
+
+    <script src="/js/autoindex/default.js"></script>
+</body>
+</html>

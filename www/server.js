@@ -38,6 +38,9 @@ app.use(require('./routes/API.js'));
 // Endpoints
 app.use(require('./routes/Main.js'));
 
+// Markdown
+app.use(require('./routes/Markdown.js'));
+
 
 // Errors
 app.use(notFound);
