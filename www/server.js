@@ -11,6 +11,7 @@ require('./database/mongoose.js');
 
 // Express instance
 const app = express();
+
 // Set
 app.set('trust proxy', 1);
 app.set('view engine', 'ejs');
@@ -49,7 +50,11 @@ app.use(internalError);
 // Run server
 app.listen(process.env.PORT, () => {
 	if (process.env.NODE_ENV === 'production') {
-		process.send('ready');
+		try {
+			process.send('ready');
+		} catch (err) {
+			console.error(err.stack);
+		}
 	} else {
 		console.log(`App listening at ${process.env.PROTOCOL}${process.env.DOMAIN}:${process.env.PORT}`);
 	}

@@ -16,17 +16,18 @@ router.use('/explorer/info', autoIndex(path.join(__dirname, '..', '..', 'info'),
 router.use('/explorer/tutorials', autoIndex(path.join(__dirname, '..', '..', 'tutorials'), options));
 
 router.use('/viewer/:type', async (req, res) => {
-	const endpoint = req.url.replace(`/viewer/${req.params.type}`).replace(/%20/g, ' ');
-	const fName = path.join(__dirname, '..', '..', req.params.type, endpoint);
-	if (!fs.existsSync(fName)) return res.sendStatus(404);
+	const file = req.url.replace(`/viewer/${req.params.type}`, '').replace(/%20/g, ' ');
+	const fullPath = path.join(__dirname, '..', '..', req.params.type, file);
+	if (!fs.existsSync(fullPath)) return res.sendStatus(404);
 
-	const stat = await fs.promises.lstat(fName);
+	const stat = await fs.promises.lstat(fullPath);
 	if (stat.isDirectory()) return res.sendStatus(404);
 
-	const file = await fs.promises.readFile(fName, 'utf8');
-	const html = conv.makeHtml(file);
+	const mdFile = await fs.promises.readFile(fullPath, 'utf8');
+	const html = conv.makeHtml(mdFile);
 
-	res.render('autoindex/markdown/viewer.ejs', { version, html, endpoint });
+	res.render('autoindex/markdown/viewer.ejs', { version, html, file });
 });
+
 
 module.exports = router;

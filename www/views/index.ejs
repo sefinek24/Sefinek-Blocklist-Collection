@@ -18,7 +18,7 @@
         <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.all %>&theme=gelbooru&length=10" alt="<%= database.requests.all %>">
     </div>
     <div>
-        <h2>🙀 » Blocklist requests « 🙀</h2>
+        <div id="category">🙀 » Blocklist requests « 🙀</div>
         <img crossorigin="anonymous" src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.blocklist %>&length=10" alt="<%= database.requests.blocklist %>">
     </div>
 </div>
