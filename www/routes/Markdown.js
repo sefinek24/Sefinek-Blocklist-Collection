@@ -8,6 +8,7 @@ const { version } = require('../../package.json');
 
 const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'lists.html'), dirAtTop: true };
 const conv = new showdown.Converter();
+conv.setFlavor('github');
 
 
 router.get('/explorer', (req, res) => res.render('autoindex/markdown/main.ejs', { version }));
