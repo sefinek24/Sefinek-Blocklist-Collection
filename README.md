@@ -1,7 +1,7 @@
 <img width="40%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
     <h1>
-        The best BlockList Collection<br> made by Sefinek ✋
+        The best Blocklist Collection<br> made by Sefinek ✋
     </h1>
     <img src="images/adlists.png" alt="Domains on Adlists" title="Screenshot from 20.06.2023 (DD.MM.YYYY).">
     <br><br>
