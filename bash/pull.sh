@@ -20,12 +20,12 @@ echo >> "$output_file"
 
 # Git
 git --version >> "$output_file" 2>&1  # Check Git version and append it to the output file
-echo >> "$output_file"  # Add a new line to the output file
+echo >> "$output_file"
 
 git fetch >> "$output_file" 2>&1  # Fetch the latest changes from the remote repository and append output to the log file
 git pull >> "$output_file" 2>&1  # Pull the latest changes from the remote repository and append output to the log file
 
-echo >> "$output_file" 2>&1  # Add new lines to the output file
+echo >> "$output_file" 2>&1
 echo >> "$output_file" 2>&1
 echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')" >> "$output_file" 2>&1  # Add a success message with the current date and time to the output file
 echo >> "$output_file" 2>&1
