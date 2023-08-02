@@ -39,7 +39,7 @@ If I come across a false alarm while browsing the internet, I usually eliminate 
 | `blocklist/template/*`       | ✅         | Modified copies of other blocklists or custom lists created for this repository.<br>**You can modify** them as they will never be overwritten in the future.                                                  |
 | `blocklist/generated/*`      | ❎         | Blocklists generated in various formats from the template.<br>**DO NOT MODIFY** ANY FILE IN THIS FOLDER!                                                                                                      |
 
-> **Note**:  
+> **Note**
 > You have two options. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
 
 
@@ -52,7 +52,7 @@ However, it should be noted that while this blocking list can improve your priva
 The blocklists in this repository are updated every `2 hours` by [GitHub Actions](.github/workflows/download-blocklists.yml).
 - **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):**  
 It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone `GMT+01:00`; Cron: `0 0,6 * * *`; At minute 0 past hour 0 and 6;
-> **Note**:  
+> **Note**
 > Go [here](https://blocklist.sefinek.net/update-frequency) and see when the next repository synchronization is scheduled based on your time zone. It can help you determine the appropriate time for the cron job for your Pi-hole instance or any other ad blocker.
 
 ## 🌍 Links
