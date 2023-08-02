@@ -52,7 +52,7 @@ However, it should be noted that while this blocking list can improve your priva
 The blocklists in this repository are updated every `2 hours` by [GitHub Actions](.github/workflows/download-blocklists.yml).
 - **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):**  
 It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone `GMT+01:00`; Cron: `0 0,6 * * *`; At minute 0 past hour 0 and 6;
-> [!NOTE]
+> [!IMPORTANT]
 > Go [here](https://blocklist.sefinek.net/update-frequency) and see when the next repository synchronization is scheduled based on your time zone. It can help you determine the appropriate time for the cron job for your Pi-hole instance or any other ad blocker.
 
 ## 🌍 Links
