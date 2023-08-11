@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Noto Sans Mono', monospace;
+            text-align: center;
+            margin: 0;
+            padding: 0 0 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 32px 0 12px;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 0 20px; /* Adjusted margin for better readability */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        a {
+            display: inline-block;
+            background-color: #202225;
+            border-radius: 13px;
+            color: #fff;
+            margin: 5px;
+            padding: 8px 22px;
+            text-decoration: none;
+            text-shadow: 0 0 3px #000;
+            transition: background-color 0.2s, text-shadow 0.2s, color 0.2s;
+        }
+
+        a:hover {
+            background-color: #2f3136;
+            text-shadow: 0 0 5px #000;
+        }
+
+        a:active {
+            background-color: #21252b;
+            text-shadow: none;
+        }
+
+        /* Added media query for smaller screens */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 26px;
+                margin-top: 20px;
+            }
+
+            p {
+                font-size: 14px;
+                margin: 0 12px;
+            }
+
+            img {
+                padding: 8px;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            h1 {
+                font-size: 23px;
+                margin: 20px 12px 12px;
+            }
+
+            p {
+                font-size: 12px;
+                margin: 0 12px;
+            }
+
+            img {
+                padding: 4px;
+            }
+        }
+    </style>
+</head>
+<body>
