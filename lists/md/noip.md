@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Without IP, only domain</b><br>
-        📥 » <b>Last update: 23.06.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 11.08.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -77,7 +77,6 @@ https://blocklist.sefinek.net/generated/noip/forks/MajkiIT.SmartTV_ads.txt
 https://blocklist.sefinek.net/generated/noip/forks/malware-filter.urlhaus-filter-hosts-online.txt
 https://blocklist.sefinek.net/generated/noip/forks/marktron.fakenews.txt
 https://blocklist.sefinek.net/generated/noip/forks/mhhakim.custom-porn-blocklist.txt
-https://blocklist.sefinek.net/generated/noip/forks/mhhakim.porn.txt
 https://blocklist.sefinek.net/generated/noip/forks/mitchellkrogza.Stop.Google.Analytics.Ghost.Spam-INACTIVE.txt
 https://blocklist.sefinek.net/generated/noip/forks/neodevpro.neodevhost.txt
 https://blocklist.sefinek.net/generated/noip/forks/notracking.hostnames.txt

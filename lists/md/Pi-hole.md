@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Pi-hole / 0.0.0.0 [Domain]</b><br>
-        📥 » <b>Last update: 23.06.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 11.08.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -77,7 +77,6 @@ https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.SmartTV_ads.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/malware-filter.urlhaus-filter-hosts-online.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/marktron.fakenews.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/mhhakim.custom-porn-blocklist.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/forks/mhhakim.porn.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/mitchellkrogza.Stop.Google.Analytics.Ghost.Spam-INACTIVE.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/neodevpro.neodevhost.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/notracking.hostnames.txt
