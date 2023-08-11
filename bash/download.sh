@@ -68,7 +68,6 @@ urls=(
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/SmartTV_ads.txt,MajkiIT.SmartTV_ads.txt"
   "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews,marktron.fakenews.txt"
   "https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt,mhhakim.custom-porn-blocklist.txt"
-  "https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/porn.txt,mhhakim.porn.txt"
   "https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list,mitchellkrogza.Stop.Google.Analytics.Ghost.Spam-INACTIVE.txt"
   "https://raw.githubusercontent.com/neodevpro/neodevhost/master/host,neodevpro.neodevhost.txt"
   "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt,notracking.hostnames.txt"
