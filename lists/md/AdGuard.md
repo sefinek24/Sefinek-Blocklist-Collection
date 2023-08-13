@@ -125,7 +125,6 @@ https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Ads.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Adult.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Cryptocurrency.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Dating.txt
-https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Filter.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Gambling.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Junk.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Malware.txt
@@ -140,6 +139,7 @@ https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Typo.txt
 
 ## Other
 ```
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Filter.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Apple.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Bloat.txt
 https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Chat.txt
