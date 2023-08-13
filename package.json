@@ -6,8 +6,7 @@
   "scripts": {
     "test": "node scripts/test-urls.js",
     "up": "ncu -u && npm install && npm update && npm audit fix",
-    "sync": "git pull --recurse-submodules",
-    "usm": "git submodule update --remote",
+    "sync": "bash bash/pull.sh",
     "mon": "nodemon index.js"
   },
   "repository": {
