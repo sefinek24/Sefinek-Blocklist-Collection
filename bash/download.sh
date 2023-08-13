@@ -219,7 +219,7 @@ urls=(
 )
 
 # Read version from package.json
-package_json_path="$(dirname "$0")/../package.json"
+package_json_path="../package.json"
 if [ -f "$package_json_path" ]; then
   # Set the user agent with the version from package.json
   user_agent="Mozilla/5.0 (compatible; SefinekBlocklistCollection/$(node -p "require('$package_json_path').version"); +https://blocklist.sefinek.net)"
