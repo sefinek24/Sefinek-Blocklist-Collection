@@ -16,7 +16,7 @@ router.use('/generated', increment.blocklist, autoIndex(generated, options), exp
 router.use('/logs', autoIndex(logs, options), express.static(logs));
 
 // Deprecated endpoints
-router.get('/generated/0.0.0.0/blocklist/useless-websites.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/useless-websites.txt`));
+router.get('/generated/0.0.0.0/riotgames.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/sites/riotgames.txt`));
 
 
 module.exports = router;
