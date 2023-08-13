@@ -31,4 +31,4 @@ echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')" >> "$output_file" 2>&1  # Add
 echo >> "$output_file" 2>&1
 
 # Final
-echo "Done. Output file has been created: $output_file"  # Print a message indicating that the script has finished and the output file location
+echo "Done. Output file has been created or updated: $output_file"  # Print a message indicating that the script has finished and the output file location
