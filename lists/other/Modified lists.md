@@ -29,7 +29,7 @@
 
 #### 3. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/fraud.txt
 - 🗑️ **Removed:**
-    1. `g2a.com` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=g2a.com)
+    1. `g2a.com` - This domain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=g2a.com)
 
 #### 4. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/blocklistproject.ads.txt)] • https://blocklistproject.github.io/Lists/ads.txt
 - 🗑️ **Removed:**
