@@ -1,5 +1,5 @@
 const BlockListStats = require('../database/models/Blocklist');
-const parseCategoryFromLink = require('./parseCategoryFromLink.js');
+const parseCategoryFromLink = require('../utils/parseCategoryFromLink.js');
 
 module.exports.requests = async (req, res, next) => {
 	try {
@@ -25,7 +25,6 @@ module.exports.blocklist = async (req, res, next) => {
 	try {
 		const database = await BlockListStats.findOne({ domain: process.env.DOMAIN });
 		if (database && category) {
-			database.requests.all++;
 			database.requests.blocklist++;
 			database.requests[category]++;
 			await database.save();

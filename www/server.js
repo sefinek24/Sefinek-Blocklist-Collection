@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const path = require('node:path');
+const increment = require('./middlewares/increment.js');
 const logger = require('./middlewares/morgan.js');
 const limiter = require('./middlewares/ratelimit.js');
 const { notFound, internalError } = require('./middlewares/other/errors.js');
@@ -30,17 +31,22 @@ app.use(limiter);
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-// Blocklist
-app.use(require('./routes/Blocklist.js'));
+// Stats
+app.use('*', increment.requests);
 
 // Endpoints
 app.use(require('./routes/Main.js'));
+
+// Blocklist
+app.use(require('./routes/Blocklist.js'));
 
 // Markdown
 app.use(require('./routes/Markdown.js'));
 
 // API
 app.use(require('./routes/API.js'));
+
+
 
 
 // Errors

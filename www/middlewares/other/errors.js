@@ -1,4 +1,4 @@
-const increment = require('../../utils/increment.js');
+const increment = require('../../middlewares/increment.js');
 
 exports.notFound = async (req, res) => {
 	res.status(404).render('errors/404.ejs');
