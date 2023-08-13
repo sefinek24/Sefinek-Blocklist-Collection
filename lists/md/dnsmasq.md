@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Dnsmasq - server=/[Domain]/</b><br>
-        📥 » <b>Last update: 11.08.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 13.08.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -106,6 +106,7 @@ https://blocklist.sefinek.net/generated/dnsmasq/malicious/blocklistproject.abuse
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/blocklistproject.fraud.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/blocklistproject.malware.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/main.txt
+https://blocklist.sefinek.net/generated/dnsmasq/malicious/main-2.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/phishing.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/reported-by-norton.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/web-attacks.txt
