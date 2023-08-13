@@ -117,3 +117,36 @@ https://blocklist.sefinek.net/generated/0.0.0.0/social/snapchat.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/social/tiktok.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/useless-websites.txt
 ```
+
+## For tests
+```
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Ads.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Adult.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Cryptocurrency.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Dating.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Filter.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Gambling.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Junk.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Malware.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Marketing-Email.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Marketing.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Risk.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Scam.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Shock.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Tracking.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Typo.txt
+```
+
+## Other
+```
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Apple.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Bloat.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Chat.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Dynamic.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Free.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Microsoft.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Remote.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Top_Level.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Tunnels.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.UrlShortener.txt
+```

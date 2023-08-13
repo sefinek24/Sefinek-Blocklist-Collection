@@ -117,3 +117,36 @@ https://blocklist.sefinek.net/generated/noip/social/snapchat.txt
 https://blocklist.sefinek.net/generated/noip/social/tiktok.txt
 https://blocklist.sefinek.net/generated/noip/useless-websites.txt
 ```
+
+## For tests
+```
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Ads.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Adult.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Cryptocurrency.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Dating.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Filter.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Gambling.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Junk.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Malware.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Marketing-Email.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Marketing.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Risk.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Scam.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Shock.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Tracking.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Typo.txt
+```
+
+## Other
+```
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Apple.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Bloat.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Chat.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Dynamic.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Free.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Microsoft.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Remote.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Top_Level.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.Tunnels.txt
+https://blocklist.sefinek.net/generated/noip/forks/ShadowWhisperer.UrlShortener.txt
+```

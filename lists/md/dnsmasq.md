@@ -117,3 +117,36 @@ https://blocklist.sefinek.net/generated/dnsmasq/social/snapchat.txt
 https://blocklist.sefinek.net/generated/dnsmasq/social/tiktok.txt
 https://blocklist.sefinek.net/generated/dnsmasq/useless-websites.txt
 ```
+
+## For tests
+```
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Ads.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Adult.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Cryptocurrency.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Dating.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Filter.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Gambling.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Junk.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Malware.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Marketing-Email.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Marketing.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Risk.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Scam.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Shock.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Tracking.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Typo.txt
+```
+
+## Other
+```
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Apple.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Bloat.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Chat.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Dynamic.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Free.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Microsoft.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Remote.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Top_Level.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.Tunnels.txt
+https://blocklist.sefinek.net/generated/dnsmasq/forks/ShadowWhisperer.UrlShortener.txt
+```

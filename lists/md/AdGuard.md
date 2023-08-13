@@ -118,3 +118,36 @@ https://blocklist.sefinek.net/generated/adguard/social/snapchat.txt
 https://blocklist.sefinek.net/generated/adguard/social/tiktok.txt
 https://blocklist.sefinek.net/generated/adguard/useless-websites.txt
 ```
+
+## For tests
+```
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Ads.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Adult.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Cryptocurrency.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Dating.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Filter.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Gambling.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Junk.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Malware.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Marketing-Email.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Marketing.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Risk.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Scam.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Shock.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Tracking.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Typo.txt
+```
+
+## Other
+```
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Apple.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Bloat.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Chat.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Dynamic.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Free.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Microsoft.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Remote.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Top_Level.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.Tunnels.txt
+https://blocklist.sefinek.net/generated/adguard/forks/ShadowWhisperer.UrlShortener.txt
+```
