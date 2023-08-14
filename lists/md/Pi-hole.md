@@ -119,7 +119,6 @@ https://blocklist.sefinek.net/generated/0.0.0.0/useless-websites.txt
 
 ## For tests
 ```
-https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Ads.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Adult.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Cryptocurrency.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Dating.txt
@@ -137,6 +136,7 @@ https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Typo.txt
 
 ## Other
 ```
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Ads.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Filter.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Apple.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Bloat.txt
