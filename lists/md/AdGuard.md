@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: AdGuard</b><br>
-        📥 » <b>Last update: 13.08.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 14.08.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -98,7 +98,6 @@ https://blocklist.sefinek.net/generated/adguard/forks/Spam404.main-blacklist.txt
 https://blocklist.sefinek.net/generated/adguard/forks/StevenBlack.fakenews-gambling-porn.txt
 https://blocklist.sefinek.net/generated/adguard/forks/StevenBlack.hosts.txt
 https://blocklist.sefinek.net/generated/adguard/forks/stopforumspam.toxic_domains_whole.txt
-https://blocklist.sefinek.net/generated/adguard/forks/xlimit91.blacklist.txt
 https://blocklist.sefinek.net/generated/adguard/forks/zerodot1.CoinBlockerLists.txt
 https://blocklist.sefinek.net/generated/adguard/gambling.txt
 https://blocklist.sefinek.net/generated/adguard/games/league-of-legends.txt
