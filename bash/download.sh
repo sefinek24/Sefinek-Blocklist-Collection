@@ -260,8 +260,8 @@ for url in "${urls[@]}"; do
     echo "✖ An error occurred during download (status code: $http_status)."
   fi
 
-  echo
-  echo
+  echo ""
+  echo ""
 done
 
 echo "✔ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
