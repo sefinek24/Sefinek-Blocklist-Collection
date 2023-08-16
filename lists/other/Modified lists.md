@@ -20,12 +20,14 @@
     1. `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
     2. `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
     3. `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
+    4. `forum.pclab.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=forum.pclab.pl)
 
 #### 2. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.malware.txt)] • https://blocklistproject.github.io/Lists/malware.txt
 - 🗑️ **Removed:**
     1. `download.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=download.komputerswiat.pl)
     2. `komputerswiat.pl` - This website is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=komputerswiat.pl)
     3. `www.komputerswiat.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=www.komputerswiat.pl)
+    4. `forum.pclab.pl` - This subdomain is safe - [Norton Safe Web report](https://safeweb.norton.com/report/show?url=forum.pclab.pl)
 
 #### 3. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.fraud.txt)] • https://blocklistproject.github.io/Lists/fraud.txt
 - 🗑️ **Removed:**
