@@ -18,7 +18,7 @@
 
 
 <div align="center">
-    <a href="https://sefinek.net/blocklist-generator" title="Blocklist Customization - Sefinek's Website">
+    <a href="https://sefinek.net/blocklist-generator" title="Blocklists Generator - Sefinek's Website">
         <img src="../images/generator.png" width="60%" alt="">
     </a>
 </div>

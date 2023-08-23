@@ -73,10 +73,10 @@
 <hr>
 <div class="container" id="allRequests" style="padding-top:10px">
     <div>
-        <code>Server uptime: <%= uptime || '❓' %></code>
+        <code>Server uptime: <%= uptime || '❓ Unknown' %></code>
     </div>
     <div>
-        <code>Collection date: <%= database.createdAt %></code>
+        <code>Collection date: <%= database.createdAt || '❓ Unknown' %></code>
     </div>
 </div>
 
