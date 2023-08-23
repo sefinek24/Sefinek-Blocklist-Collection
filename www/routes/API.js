@@ -2,9 +2,9 @@ const express = require('express');
 const router = express.Router();
 const autoIndex = require('express-autoindex');
 const path = require('node:path');
+const fs = require('node:fs');
 const formatTime = require('../utils/formatTime.js');
 const { version } = require('../../package.json');
-const fs = require('node:fs');
 
 const generated = path.join(__dirname, '..', '..', 'blocklist', 'generated');
 const logs = path.join(__dirname, '..', 'public', 'logs');

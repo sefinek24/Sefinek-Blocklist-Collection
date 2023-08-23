@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
+const compression = require('compression');
 const path = require('node:path');
 const increment = require('./middlewares/increment.js');
 const logger = require('./middlewares/morgan.js');
@@ -26,6 +27,7 @@ app.use(cors({ origin: true }));
 app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false }));
 app.use(logger);
 app.use(limiter);
+app.use(compression());
 
 // Static
 app.use(express.static(path.join(__dirname, 'public')));
