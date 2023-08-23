@@ -20,12 +20,13 @@ if (!process.env.SEFINEK_API) {
 	throw new Error('Specify the `SEFINEK_API` environment variable, e.g., https://api.sefinek.net/api/v2');
 }
 
+
 if (process.env.NODE_ENV === 'development') {
 	createDir();
 	require('./www/server.js');
 } else if (cluster.isMaster) {
 	createDir();
-	console.log(`Primary ${process.pid} is running`);
+	console.log(`Primary ${process.pid} is running: ${process.env.DOMAIN}:${process.env.PORT}`);
 
 	for (let i = 0; i < totalCPUs; i++) {
 		cluster.fork();
@@ -38,6 +39,7 @@ if (process.env.NODE_ENV === 'development') {
 	require('./www/server.js');
 	console.log(`Worker ${process.pid} started`);
 }
+
 
 function createDir() {
 	fs.mkdir(logsPath, { recursive: true }, err => {
