@@ -1,7 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const BlockList = new Schema({
-	domain: { type: String, default: process.env.DOMAIN, index: true, unique: true },
+const RequestStats = new Schema({
 	requests: {
 		all: { type: Number, default: 0 },
 		blocklist: { type: Number, default: 0 },
@@ -12,9 +11,10 @@ const BlockList = new Schema({
 		noip: { type: Number, default: 0 },
 	},
 	responses: { type: Object, default: {} },
-}, {
+},
+{
 	timestamps: true,
 	versionKey: false,
 });
 
-module.exports = model('blocklists', BlockList);
+module.exports = model('requests-stats', RequestStats);

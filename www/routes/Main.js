@@ -3,10 +3,10 @@ const router = express.Router();
 const parser = require('cron-parser');
 const formatTime = require('../utils/formatTime.js');
 const { version } = require('../../package.json');
-const BlockList = require('../database/models/Blocklist.js');
+const RequestStats = require('../database/models/RequestStats.js');
 
 router.get('/', async (req, res) => {
-	const database = await BlockList.findOne({ domain: process.env.DOMAIN });
+	const database = await RequestStats.findOne({}).limit(1);
 
 	res.render('index.ejs', { database, version, uptime: formatTime.full(process.uptime()) });
 });

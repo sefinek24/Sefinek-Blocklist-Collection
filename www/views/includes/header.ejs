@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <% if (meta.title) { %><title><%= meta.title %></title><% } %>
+    <% if (title) { %><title><%= title %></title><% } %>
     <% if (meta.description) { %><meta name="description" content="<%= meta.description %>"><% } %>
     <% if (meta.keywords) { %><meta name="keywords" content="<%= meta.keywords %>"><% } %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <% if (canonical || canonical === '') { %><link rel="canonical" href="<%= process.env.DOMAIN %><%= canonical %>"><% } %>
 
+    <% if (meta.siteName) { %><meta property="og:siteName" content="<%= meta.siteName %>"><% } %>
     <% if (meta.color) { %><meta name="theme-color" content="<%= meta.color %>"><% } %>
-    <% if (meta.site_name) { %><meta property="og:site_name" content="<%= meta.site_name %>"><% } %>
     <meta property="og:url" content="https://blocklist.sefinek.net">
 
     <link rel="stylesheet" href="/css/default.css">

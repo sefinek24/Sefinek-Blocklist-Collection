@@ -1,12 +1,14 @@
 require('dotenv').config();
 
 const cluster = require('node:cluster');
-const path = require('node:path');
 const totalCPUs = require('node:os').cpus().length;
+const path = require('node:path');
+const fs = require('fs');
 
-if (!process.env.NODE_ENV || !process.env.PROTOCOL || !process.env.DOMAIN || !process.env.PORT || !process.env.PROTOCOL) throw new Error('ENV variables are null or undefined');
-if (!process.env.MONGODB_URL) throw new Error('The MongoDB database URL was not found in the .env file');
-if (!process.env.SEFINEK_API) throw new Error('Specify the SEFINEK_API env variable. For example: https://api.sefinek.net/api/v2');
+if (!process.env.NODE_ENV || !process.env.DOMAIN || !process.env.PORT) throw new Error('env variables are null or undefined');
+if (!process.env.MONGODB_URL) throw new Error('The MongoDB database URL `MONGODB_URL` was not found in the .env file');
+if (!process.env.SEFINEK_API) throw new Error('Specify the `SEFINEK_API` env variable. For example: https://api.sefinek.net/api/v2');
+
 
 if (process.env.NODE_ENV === 'development') {
 	require('./www/server.js');
@@ -25,3 +27,17 @@ if (process.env.NODE_ENV === 'development') {
 
 	console.log(`Worker ${process.pid} started`);
 }
+
+
+const logs = path.join(__dirname, 'www', 'public', 'logs');
+fs.mkdir(logs, (err) => {
+	if (err) {
+		if (err.code === 'EEXIST') {
+			console.log(`Folder '${logs}' already exists.`);
+		} else {
+			console.error('Unable to create folder:', err);
+		}
+	} else {
+		console.log(`Folder '${logs}' created successfully!`);
+	}
+});

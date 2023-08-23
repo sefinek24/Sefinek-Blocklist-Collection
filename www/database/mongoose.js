@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const BlockList = require('./models/Blocklist');
+const RequestStats = require('./models/RequestStats.js');
 
 mongoose.connect(process.env.MONGODB_URL, {
 	useNewUrlParser: true,
@@ -16,13 +16,13 @@ db.on('connected', async () => {
 	console.info('MongoDB connected successfully!');
 
 	try {
-		const data = await BlockList.findOne({ domain: process.env.DOMAIN });
+		const data = await RequestStats.findOne({}).limit(1);
 		if (data) return;
 
-		await BlockList.create({ domain: process.env.DOMAIN });
-		console.info('Blocklist collection initialized successfully!');
+		await RequestStats.create({});
+		console.info('RequestStats collection initialized successfully');
 	} catch (err) {
-		console.error('Failed to initialize BlockListStats', err);
+		console.error('Failed to initialize `RequestStats`', err);
 		process.exit(1);
 	}
 });
