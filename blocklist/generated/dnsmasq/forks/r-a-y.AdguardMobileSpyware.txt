@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 07 Aug 2023 20:45:59 +0100
+# Last converted - Mon, 28 Aug 2023 19:46:33 +0100
 #
 
 server=/adeventtracker.spotify.com/
@@ -49,7 +49,6 @@ server=/api.miui.security.xiaomi.com/
 server=/shenghuo.xiaomi.com/
 server=/globalapi.ad.xiaomi.com/
 server=/api.ad.xiaomi.com/
-server=/resolver.msg.xiaomi.net/
 server=/abtest.mistat.xiaomi.com/
 server=/o2o.api.xiaomi.com/
 server=/data.mistat.india.xiaomi.com/
@@ -191,7 +190,10 @@ server=/confe.dc.oppomobile.com/
 server=/conff.dc.oppomobile.com/
 server=/dragate.dc.oppomobile.com/
 server=/esa-reg-eup.myoppo.com/
-server=/heytapmobile.com/
+server=/adx-in.ads.heytapmobile.com/
+server=/dragate-in-dc.heytapmobile.com/
+server=/httpdns-push.heytapmobile.com/
+server=/omes-sec.heytapmobile.com/
 server=/moa-upload-online.coloros.com/
 server=/stat-in.dc.oppomobile.com/
 server=/prod-analytics.royal.drmgms.com/
@@ -256,7 +258,6 @@ server=/events-stream-svc.cordial.com/
 server=/events-stream-svc.usw2.cordial.com/
 server=/message-hub-svc.usw2.cordial.com/
 server=/stats.fifthstarlabs.io/
-server=/collector.doordash.com/
 server=/events.iap.unity3d.com/
 server=/mobilelog.ws.pho.to/
 server=/etl.tindersparks.com/

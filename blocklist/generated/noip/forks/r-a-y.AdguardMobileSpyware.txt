@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 07 Aug 2023 20:45:59 +0100
+# Last converted - Mon, 28 Aug 2023 19:46:33 +0100
 #
 
 adeventtracker.spotify.com
@@ -49,7 +49,6 @@ api.miui.security.xiaomi.com
 shenghuo.xiaomi.com
 globalapi.ad.xiaomi.com
 api.ad.xiaomi.com
-resolver.msg.xiaomi.net
 abtest.mistat.xiaomi.com
 o2o.api.xiaomi.com
 data.mistat.india.xiaomi.com
@@ -191,7 +190,10 @@ confe.dc.oppomobile.com
 conff.dc.oppomobile.com
 dragate.dc.oppomobile.com
 esa-reg-eup.myoppo.com
-heytapmobile.com
+adx-in.ads.heytapmobile.com
+dragate-in-dc.heytapmobile.com
+httpdns-push.heytapmobile.com
+omes-sec.heytapmobile.com
 moa-upload-online.coloros.com
 stat-in.dc.oppomobile.com
 prod-analytics.royal.drmgms.com
@@ -256,7 +258,6 @@ events-stream-svc.cordial.com
 events-stream-svc.usw2.cordial.com
 message-hub-svc.usw2.cordial.com
 stats.fifthstarlabs.io
-collector.doordash.com
 events.iap.unity3d.com
 mobilelog.ws.pho.to
 etl.tindersparks.com
