@@ -12,7 +12,7 @@
 </div>
 <br>
 <div align="center">
-    <a href="https://sefinek.net/blocklist-generator" title="Blocklists Generator - Sefinek's Website">
+    <a href="https://sefinek.net/blocklist-generator" title="Personalized Blocklist Generator - Take Full Control of Your Network">
         <img src="images/generator.png" width="90%" alt="">
     </a>
 </div>
@@ -39,7 +39,7 @@ If I come across a false alarm while browsing the internet, I usually eliminate 
 | `blocklist/template/*`       | ✅         | Modified copies of other blocklists or custom lists created for this repository.<br>**You can modify** them as they will never be overwritten in the future.                                                  |
 | `blocklist/generated/*`      | ❎         | Blocklists generated in various formats from the template.<br>**DO NOT MODIFY** ANY FILE IN THIS FOLDER!                                                                                                      |
 
-> [!NOTE]
+> **Note**
 > You have two options. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
 
 
