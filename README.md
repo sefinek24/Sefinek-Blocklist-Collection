@@ -39,7 +39,8 @@ If I come across a false alarm while browsing the internet, I usually eliminate 
 | `blocklist/template/*`       | ✅         | Modified copies of other blocklists or custom lists created for this repository.<br>**You can modify** them as they will never be overwritten in the future.                                                  |
 | `blocklist/generated/*`      | ❎         | Blocklists generated in various formats from the template.<br>**DO NOT MODIFY** ANY FILE IN THIS FOLDER!                                                                                                      |
 
-You have two options. You can use the [default blocklist](lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
+> **Note**
+> You have two options. You can use the <a href="lists/Index.md">default blocklist</a> or <a href="https://sefinek.net/blocklist-generator">visit my website</a> and use the list generator.
 
 
 ## ✋ Warning
