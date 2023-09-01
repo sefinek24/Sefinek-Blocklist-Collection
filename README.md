@@ -40,7 +40,7 @@ If I come across a false alarm while browsing the internet, I usually eliminate 
 | `blocklist/generated/*`      | ❎         | Blocklists generated in various formats from the template.<br>**DO NOT MODIFY** ANY FILE IN THIS FOLDER!                                                                                                      |
 
 > **Note**
-> You have two options. You can use the <a href="lists/Index.md">default blocklist</a> or <a href="https://sefinek.net/blocklist-generator">visit my website</a> and use the list generator.
+> You have two options. You can use the [default blocklist](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
 
 
 ## ✋ Warning
