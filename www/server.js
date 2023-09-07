@@ -25,7 +25,7 @@ app.use(express.json());
 // Use
 app.use(cors({ origin: true }));
 app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false }));
-app.use(logger);
+app.use(logger.use);
 app.use(limiter);
 app.use(compression());
 

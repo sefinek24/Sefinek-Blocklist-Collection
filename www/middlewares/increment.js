@@ -1,7 +1,11 @@
 const RequestStats = require('../database/models/RequestStats');
 const parseCategoryFromLink = require('../utils/parseCategoryFromLink.js');
+const { userAgentsArray } = require('../middlewares/morgan.js');
 
 module.exports.requests = async (req, res, next) => {
+	const ua = req.headers['user-agent'];
+	if (userAgentsArray.includes(ua)) return next();
+
 	try {
 		const database = await RequestStats.findOne({}).limit(1);
 		if (database) {
@@ -17,8 +21,10 @@ module.exports.requests = async (req, res, next) => {
 };
 
 module.exports.blocklist = async (req, res, next) => {
-	let category = parseCategoryFromLink(req.url);
+	const ua = req.headers['user-agent'];
+	if (userAgentsArray.includes(ua)) return next();
 
+	let category = parseCategoryFromLink(req.url);
 	if (category === '0.0.0.0') category = '00000';
 	if (category === '127.0.0.1') category = '127001';
 

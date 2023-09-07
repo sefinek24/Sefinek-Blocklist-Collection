@@ -10,7 +10,12 @@ const RequestStats = new Schema({
 		dnsmasq: { type: Number, default: 0 },
 		noip: { type: Number, default: 0 },
 	},
-	responses: { type: Object, default: {} },
+	responses: {
+		404: { type: Number, default: 0 },
+		429: { type: Number, default: 0 },
+		500: { type: Number, default: 0 },
+		503: { type: Number, default: 0 },
+	},
 },
 {
 	timestamps: true,
