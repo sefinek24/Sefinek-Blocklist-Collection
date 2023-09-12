@@ -1,7 +1,7 @@
 ! AdguardMobileSpyware
 !
 ! Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-! Last converted - Tue, 05 Sep 2023 04:25:20 +0100
+! Last converted - Tue, 12 Sep 2023 10:17:40 +0100
 !
 
 ||adeventtracker.spotify.com^
@@ -38,15 +38,12 @@
 ||logupdate.avlyun.sec.miui.com^
 ||r.browser.miui.com^
 ||tracking.miui.com^
-||xlmc.sec.miui.com^
 ||data.mistat.intl.xiaomi.com^
 ||register.xmpush.xiaomi.com^
 ||storeconfig.mistat.intl.xiaomi.com^
-||zeus.ad.intl.xiaomi.com^
 ||api.ad.intl.xiaomi.com^
 ||sdkconfig.ad.intl.xiaomi.com^
 ||api.miui.security.xiaomi.com^
-||shenghuo.xiaomi.com^
 ||globalapi.ad.xiaomi.com^
 ||api.ad.xiaomi.com^
 ||abtest.mistat.xiaomi.com^
@@ -324,7 +321,6 @@
 ||tobapplog.ctobsnssdk.com^
 ||t.castle.io^
 ||bs.nakanohito.jp^
-||tag.karte.io^
 ||alogsus.umeng.com^
 ||log1.happymod.com^
 ||log.pvpgang.com^
@@ -338,7 +334,6 @@
 ||api.reproio.com^
 ||log5.interactive-circle.jp^
 ||b94.yahoo.co.jp^
-||api.smbeat.jp^
 ||hibiki-track.logica.bz^
 ||log.mmstat.com^
 ||msg-intl.qy.net^
@@ -386,7 +381,6 @@
 ||api.telemetry.watchabc.go.com^
 ||analytics.rover.io^
 ||events-collector-api.viacom.tech^
-||log-api.aillis.net^
 ||log.snow.me^
 ||events.textme-app.com^
 ||stocks-analytics-events.apple.com^
@@ -394,7 +388,6 @@
 ||books-analytics-events.apple.com^
 ||books-analytics-events.news.apple-dns.net^
 ||us04logfiles.zoom.us^
-||us04logfiles-va.zoom.us^
 ||costco-adbutler.com^
 ||adbutler.costco.com^
 ||wompanalytics.azurewebsites.net^
@@ -410,8 +403,6 @@
 ||log.avlyun.com^
 ||api-analytics.prod.birdapp.com^
 ||mpianalytics.com^
-||umengcloud.com.gds.alibabadns.com^
-||umeng.com.gds.alibabadns.com^
 ||umengjmacs.m.taobao.com^
 ||umengacs.m.taobao.com^
 ||sdk-api-v1.singular.net^
@@ -422,7 +413,6 @@
 ||analytics.jodelapis.com^
 ||analytics.mobilegamestats.com^
 ||p.statp.com^
-||api.imqtyik.com^
 ||events.claspws.tv^
 ||tracking-receiver.prod-general.stocard-backend.com^
 ||metrics.happycolor.app^
@@ -451,7 +441,6 @@
 ||logs.gaaana.com^
 ||sdk-log-inter.youdao.com^
 ||sensors.snappea.com^
-||analytics.snappea.com^
 ||analytics.snaptube.app^
 ||px.ucweb.com^
 ||collector1.afreecatv.com^
@@ -492,9 +481,7 @@
 ||dsptrack.mobshark.net^
 ||analytics.metrix.ir^
 ||hwstats.unity3d.com^
-||dsp-tracking.unityads.unity3d.com^
 ||installtracker.unityads.unity3d.com^
-||tracking.adsx.unityads.unity3d.com^
 ||mediation-tracking.prd.mz.internal.unity3d.com^
 ||tracking.prd.mz.internal.unity3d.com^
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
@@ -511,9 +498,7 @@
 ||stat.m.360.cn^
 ||stats-a.maxthon.com^
 ||pgapi.ksmobile.com^
-||helpgrid1.ksmobile.com^
 ||gcm.ksmobile.net^
-||gameanalisys.appcpi.net^
 ||adsaccount.appcpi.net^
 ||adtrack.appcpi.net^
 ||remain.appcpi.net^
@@ -524,12 +509,10 @@
 ||tracking.aatkit.com^
 ||reporting.aatkit.com^
 ||geo.go2s.co^
-||log.go2s.co^
 ||batsavcdn.ksmobile.net^
 ||cfg.cml.ksmobile.com^
 ||tealand.cmcm.com^
 ||geoinfo.i2w.io^
-||cmplay.did.ijinshan.com^
 ||tracking.i2w.io^
 ||detect.rayjump.com^
 ||a.appbaqend.com^
@@ -538,24 +521,18 @@
 ||ilyonanalytics.herokuapp.com^
 ||gcm.ksmobile.com^
 ||ninja.onap.io^
-||api.splkmobile.com^
 ||sdk.stats-locations.com^
 ||config.safedk.com^
-||api.safedk.com^
 ||elephantdata.net^
 ||sdks.stats-locations.com^
 ||imp.startappservice.com^
 ||ploy.batmobi.net^
 ||an.batmobi.net^
-||ustat.batmobi.net^
 ||analytics.any.do^
-||alog.umeng.co^
-||oc.umeng.co^
 ||m.vpadn.com^
 ||api.instabug.com^
 ||sts.batmobi.net^
 ||pps-log.op-mobile.opera.com^
-||event.allnews.uodoo.com^
 ||tktracker.aotter.net^
 ||tkrecorder.aotter.net^
 ||android.bugly.qq.com^
@@ -575,15 +552,11 @@
 ||tracker.adotmob.com^
 ||measuread.com^
 ||analytics-tracker.thescore.com^
-||app.roximity.com^
-||dc.webtrends.com^
 ||rosenberg.appmetrica.webvisor.com^
-||api.oneaudience.com^
 ||api.gameofwhales.com^
 ||geoplugin.net^
 ||d.applvn.com^
 ||rt.applvn.com^
-||sdklogs.avocarrot.com^
 ||apiv2.moengage.com^
 ||rt.applovin.com^
 ||track.uc.cn^
@@ -594,17 +567,13 @@
 ||pippio.com^
 ||io.narrative.io^
 ||loadus.exelator.com^
-||tracking.viewster.com^
-||logcollector.viewster.com^
 ||api.mixpanel.com^
 ||decide.mixpanel.com^
 ||api.segment.io^
 ||applog.uc.cn^
 ||dispatcher.upmc.uc.cn^
 ||gjapplog.uc.cn^
-||a.bitmango.com^
 ||tracking.directservices.it^
-||onedrive-collection.device.mobileengagement.windows.net^
 ||metrics.timewarnercable.com^
 ||amptrack-dailymail-co-uk.cdn.ampproject.org^
 ||metrics-cbslocal-com.cdn.ampproject.org^
@@ -616,9 +585,7 @@
 ||alogs.umeng.com^
 ||alogs.umengcloud.com^
 ||stats.umsns.com^
-||iapp-cp.nuggad.net^
 ||4seeresults.com^
-||ad-analytics-bootstrap.metaps.com^
 ||adash.m.taobao.com^
 ||adfuture.cn^
 ||adserver.snapads.com^
@@ -631,17 +598,14 @@
 ||analytics.liftoff.io^
 ||analytics.mobile.yandex.net^
 ||analytics.query.yahoo.com^
-||analyzer.omniata.com^
 ||andmlb.kshwtj.com^
 ||api-analytics-bootstrap.metaps.com^
 ||api-analytics.metaps.com^
 ||api.amplitude.com^
 ||api.analytics.omgpop.com^
-||api.appsee.com^
 ||api.apptentive.com^
 ||api.branch.io^
 ||api2.branch.io^
-||api.crittercism.com^
 ||rubick.gameanalytics.com^
 ||api.gameanalytics.com^
 ||api.gimbal.com^
@@ -656,7 +620,6 @@
 ||brahe.apptimize.com^
 ||c.bigmir.net^
 ||carfax.sc.omtrdc.net^
-||cb.ksmobile.com^
 ||cedexis-radar.net^
 ||cedexis.com^
 ||clientmetrics-augmentum.kik.com^
@@ -693,7 +656,6 @@
 ||oc.umeng.com^
 ||online-metrix.net^
 ||openstat.net^
-||ping.xlmc.sandai.net^
 ||pingma.qq.com^
 ||prugskh.com^
 ||prugskh.net^
@@ -705,7 +667,6 @@
 ||ssl-google-analytics.l.google.com^
 ||stat.duokanbox.com^
 ||stats.popcap.com^
-||stats.unity3d.com^
 ||taurus.iad.appboy.com^
 ||tknet.rayjump.com^
 ||tns.simba.taobao.com^
@@ -713,7 +674,6 @@
 ||tracker-api.my.com^
 ||tracking.lenzmx.com^
 ||trk.pinterest.com^
-||tu.dxcnd.cn^
 ||tunein.adswizz.com^
 ||upalytics.com^
 ||ups.ksmobile.net^

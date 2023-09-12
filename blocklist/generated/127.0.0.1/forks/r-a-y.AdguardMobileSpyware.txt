@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Tue, 05 Sep 2023 04:25:20 +0100
+# Last converted - Tue, 12 Sep 2023 10:17:40 +0100
 #
 
 127.0.0.1 adeventtracker.spotify.com
@@ -38,15 +38,12 @@
 127.0.0.1 logupdate.avlyun.sec.miui.com
 127.0.0.1 r.browser.miui.com
 127.0.0.1 tracking.miui.com
-127.0.0.1 xlmc.sec.miui.com
 127.0.0.1 data.mistat.intl.xiaomi.com
 127.0.0.1 register.xmpush.xiaomi.com
 127.0.0.1 storeconfig.mistat.intl.xiaomi.com
-127.0.0.1 zeus.ad.intl.xiaomi.com
 127.0.0.1 api.ad.intl.xiaomi.com
 127.0.0.1 sdkconfig.ad.intl.xiaomi.com
 127.0.0.1 api.miui.security.xiaomi.com
-127.0.0.1 shenghuo.xiaomi.com
 127.0.0.1 globalapi.ad.xiaomi.com
 127.0.0.1 api.ad.xiaomi.com
 127.0.0.1 abtest.mistat.xiaomi.com
@@ -324,7 +321,6 @@
 127.0.0.1 tobapplog.ctobsnssdk.com
 127.0.0.1 t.castle.io
 127.0.0.1 bs.nakanohito.jp
-127.0.0.1 tag.karte.io
 127.0.0.1 alogsus.umeng.com
 127.0.0.1 log1.happymod.com
 127.0.0.1 log.pvpgang.com
@@ -338,7 +334,6 @@
 127.0.0.1 api.reproio.com
 127.0.0.1 log5.interactive-circle.jp
 127.0.0.1 b94.yahoo.co.jp
-127.0.0.1 api.smbeat.jp
 127.0.0.1 hibiki-track.logica.bz
 127.0.0.1 log.mmstat.com
 127.0.0.1 msg-intl.qy.net
@@ -386,7 +381,6 @@
 127.0.0.1 api.telemetry.watchabc.go.com
 127.0.0.1 analytics.rover.io
 127.0.0.1 events-collector-api.viacom.tech
-127.0.0.1 log-api.aillis.net
 127.0.0.1 log.snow.me
 127.0.0.1 events.textme-app.com
 127.0.0.1 stocks-analytics-events.apple.com
@@ -394,7 +388,6 @@
 127.0.0.1 books-analytics-events.apple.com
 127.0.0.1 books-analytics-events.news.apple-dns.net
 127.0.0.1 us04logfiles.zoom.us
-127.0.0.1 us04logfiles-va.zoom.us
 127.0.0.1 costco-adbutler.com
 127.0.0.1 adbutler.costco.com
 127.0.0.1 wompanalytics.azurewebsites.net
@@ -410,8 +403,6 @@
 127.0.0.1 log.avlyun.com
 127.0.0.1 api-analytics.prod.birdapp.com
 127.0.0.1 mpianalytics.com
-127.0.0.1 umengcloud.com.gds.alibabadns.com
-127.0.0.1 umeng.com.gds.alibabadns.com
 127.0.0.1 umengjmacs.m.taobao.com
 127.0.0.1 umengacs.m.taobao.com
 127.0.0.1 sdk-api-v1.singular.net
@@ -422,7 +413,6 @@
 127.0.0.1 analytics.jodelapis.com
 127.0.0.1 analytics.mobilegamestats.com
 127.0.0.1 p.statp.com
-127.0.0.1 api.imqtyik.com
 127.0.0.1 events.claspws.tv
 127.0.0.1 tracking-receiver.prod-general.stocard-backend.com
 127.0.0.1 metrics.happycolor.app
@@ -451,7 +441,6 @@
 127.0.0.1 logs.gaaana.com
 127.0.0.1 sdk-log-inter.youdao.com
 127.0.0.1 sensors.snappea.com
-127.0.0.1 analytics.snappea.com
 127.0.0.1 analytics.snaptube.app
 127.0.0.1 px.ucweb.com
 127.0.0.1 collector1.afreecatv.com
@@ -492,9 +481,7 @@
 127.0.0.1 dsptrack.mobshark.net
 127.0.0.1 analytics.metrix.ir
 127.0.0.1 hwstats.unity3d.com
-127.0.0.1 dsp-tracking.unityads.unity3d.com
 127.0.0.1 installtracker.unityads.unity3d.com
-127.0.0.1 tracking.adsx.unityads.unity3d.com
 127.0.0.1 mediation-tracking.prd.mz.internal.unity3d.com
 127.0.0.1 tracking.prd.mz.internal.unity3d.com
 127.0.0.1 publisher-event.ads.prd.ie.internal.unity3d.com
@@ -511,9 +498,7 @@
 127.0.0.1 stat.m.360.cn
 127.0.0.1 stats-a.maxthon.com
 127.0.0.1 pgapi.ksmobile.com
-127.0.0.1 helpgrid1.ksmobile.com
 127.0.0.1 gcm.ksmobile.net
-127.0.0.1 gameanalisys.appcpi.net
 127.0.0.1 adsaccount.appcpi.net
 127.0.0.1 adtrack.appcpi.net
 127.0.0.1 remain.appcpi.net
@@ -524,12 +509,10 @@
 127.0.0.1 tracking.aatkit.com
 127.0.0.1 reporting.aatkit.com
 127.0.0.1 geo.go2s.co
-127.0.0.1 log.go2s.co
 127.0.0.1 batsavcdn.ksmobile.net
 127.0.0.1 cfg.cml.ksmobile.com
 127.0.0.1 tealand.cmcm.com
 127.0.0.1 geoinfo.i2w.io
-127.0.0.1 cmplay.did.ijinshan.com
 127.0.0.1 tracking.i2w.io
 127.0.0.1 detect.rayjump.com
 127.0.0.1 a.appbaqend.com
@@ -538,24 +521,18 @@
 127.0.0.1 ilyonanalytics.herokuapp.com
 127.0.0.1 gcm.ksmobile.com
 127.0.0.1 ninja.onap.io
-127.0.0.1 api.splkmobile.com
 127.0.0.1 sdk.stats-locations.com
 127.0.0.1 config.safedk.com
-127.0.0.1 api.safedk.com
 127.0.0.1 elephantdata.net
 127.0.0.1 sdks.stats-locations.com
 127.0.0.1 imp.startappservice.com
 127.0.0.1 ploy.batmobi.net
 127.0.0.1 an.batmobi.net
-127.0.0.1 ustat.batmobi.net
 127.0.0.1 analytics.any.do
-127.0.0.1 alog.umeng.co
-127.0.0.1 oc.umeng.co
 127.0.0.1 m.vpadn.com
 127.0.0.1 api.instabug.com
 127.0.0.1 sts.batmobi.net
 127.0.0.1 pps-log.op-mobile.opera.com
-127.0.0.1 event.allnews.uodoo.com
 127.0.0.1 tktracker.aotter.net
 127.0.0.1 tkrecorder.aotter.net
 127.0.0.1 android.bugly.qq.com
@@ -575,15 +552,11 @@
 127.0.0.1 tracker.adotmob.com
 127.0.0.1 measuread.com
 127.0.0.1 analytics-tracker.thescore.com
-127.0.0.1 app.roximity.com
-127.0.0.1 dc.webtrends.com
 127.0.0.1 rosenberg.appmetrica.webvisor.com
-127.0.0.1 api.oneaudience.com
 127.0.0.1 api.gameofwhales.com
 127.0.0.1 geoplugin.net
 127.0.0.1 d.applvn.com
 127.0.0.1 rt.applvn.com
-127.0.0.1 sdklogs.avocarrot.com
 127.0.0.1 apiv2.moengage.com
 127.0.0.1 rt.applovin.com
 127.0.0.1 track.uc.cn
@@ -594,17 +567,13 @@
 127.0.0.1 pippio.com
 127.0.0.1 io.narrative.io
 127.0.0.1 loadus.exelator.com
-127.0.0.1 tracking.viewster.com
-127.0.0.1 logcollector.viewster.com
 127.0.0.1 api.mixpanel.com
 127.0.0.1 decide.mixpanel.com
 127.0.0.1 api.segment.io
 127.0.0.1 applog.uc.cn
 127.0.0.1 dispatcher.upmc.uc.cn
 127.0.0.1 gjapplog.uc.cn
-127.0.0.1 a.bitmango.com
 127.0.0.1 tracking.directservices.it
-127.0.0.1 onedrive-collection.device.mobileengagement.windows.net
 127.0.0.1 metrics.timewarnercable.com
 127.0.0.1 amptrack-dailymail-co-uk.cdn.ampproject.org
 127.0.0.1 metrics-cbslocal-com.cdn.ampproject.org
@@ -616,9 +585,7 @@
 127.0.0.1 alogs.umeng.com
 127.0.0.1 alogs.umengcloud.com
 127.0.0.1 stats.umsns.com
-127.0.0.1 iapp-cp.nuggad.net
 127.0.0.1 4seeresults.com
-127.0.0.1 ad-analytics-bootstrap.metaps.com
 127.0.0.1 adash.m.taobao.com
 127.0.0.1 adfuture.cn
 127.0.0.1 adserver.snapads.com
@@ -631,17 +598,14 @@
 127.0.0.1 analytics.liftoff.io
 127.0.0.1 analytics.mobile.yandex.net
 127.0.0.1 analytics.query.yahoo.com
-127.0.0.1 analyzer.omniata.com
 127.0.0.1 andmlb.kshwtj.com
 127.0.0.1 api-analytics-bootstrap.metaps.com
 127.0.0.1 api-analytics.metaps.com
 127.0.0.1 api.amplitude.com
 127.0.0.1 api.analytics.omgpop.com
-127.0.0.1 api.appsee.com
 127.0.0.1 api.apptentive.com
 127.0.0.1 api.branch.io
 127.0.0.1 api2.branch.io
-127.0.0.1 api.crittercism.com
 127.0.0.1 rubick.gameanalytics.com
 127.0.0.1 api.gameanalytics.com
 127.0.0.1 api.gimbal.com
@@ -656,7 +620,6 @@
 127.0.0.1 brahe.apptimize.com
 127.0.0.1 c.bigmir.net
 127.0.0.1 carfax.sc.omtrdc.net
-127.0.0.1 cb.ksmobile.com
 127.0.0.1 cedexis-radar.net
 127.0.0.1 cedexis.com
 127.0.0.1 clientmetrics-augmentum.kik.com
@@ -693,7 +656,6 @@
 127.0.0.1 oc.umeng.com
 127.0.0.1 online-metrix.net
 127.0.0.1 openstat.net
-127.0.0.1 ping.xlmc.sandai.net
 127.0.0.1 pingma.qq.com
 127.0.0.1 prugskh.com
 127.0.0.1 prugskh.net
@@ -705,7 +667,6 @@
 127.0.0.1 ssl-google-analytics.l.google.com
 127.0.0.1 stat.duokanbox.com
 127.0.0.1 stats.popcap.com
-127.0.0.1 stats.unity3d.com
 127.0.0.1 taurus.iad.appboy.com
 127.0.0.1 tknet.rayjump.com
 127.0.0.1 tns.simba.taobao.com
@@ -713,7 +674,6 @@
 127.0.0.1 tracker-api.my.com
 127.0.0.1 tracking.lenzmx.com
 127.0.0.1 trk.pinterest.com
-127.0.0.1 tu.dxcnd.cn
 127.0.0.1 tunein.adswizz.com
 127.0.0.1 upalytics.com
 127.0.0.1 ups.ksmobile.net
