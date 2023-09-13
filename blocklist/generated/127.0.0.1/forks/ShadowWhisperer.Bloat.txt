@@ -1,8 +1,8 @@
 #
 #    File: Bloat
 #    Info: Fonts, Domains not required for software to function
-# Domains: 871
-# Updated: 9/12/2023  14:29 (2:29 PM CST)
+# Domains: 876
+# Updated: 9/12/2023  23:05 (11:05 PM CST)
 # Creator: ShadowWhisperer (Sean H.)
 #
 #    Curl: curl -s https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Bloat
@@ -394,10 +394,15 @@ ipv6.iau.trendmicro.com                                 #Antivirus   TrendMicro
 cc-api-data.adobe.io                                    #Software   Adobe - Cloud Services
 cloud.acrobat.com                                       #Software   Adobe - Cloud Services
 dc-api.adobe.io                                         #Software   Adobe - Document Cloud
+bst-launcher-sgp.bluestacks.cn                          #Software   BlueStacks (Android Emulator)
+bsxplayerv13.bluestacks.com                             #Software   BlueStacks (Android Emulator)
 cdn-bgp.bluestacks.com                                  #Software   BlueStacks (Android Emulator)
+cdn-wallet.now.gg                                       #Software   BlueStacks (Android Emulator)
 eb.bluestacks.com                                       #Software   BlueStacks (Android Emulator)
+wallet.now.gg                                           #Software   BlueStacks (Android Emulator)
 webapi-cloud.bluestacks.com                             #Software   BlueStacks (Android Emulator)
-passwordsleakcheck-pa.googleapis.com                    #Software       Chrome (Compare site to leaked sites)  <Tracking>
+x-api.bluestacks.com                                    #Software   BlueStacks (Android Emulator)
+passwordsleakcheck-pa.googleapis.com                    #Software      Chrome (Compare site to leaked sites)  *Tracking
 block-edge-anycast.dropbox.com                          #Software     DropBox
 ciscobinary.openh264.org                                #Software   FireFox    Bloat   openh264
 openh264.org                                            #Software   FireFox    Bloat   openh264
