@@ -28,7 +28,7 @@ function redirectMiddleware(req, res, next) {
 if (SERVE_FILES === 'static') {
 	router.use('/generated', increment.blocklist, autoIndex(generated, options), express.static(generated));
 } else if (SERVE_FILES === 'redirect') {
-	router.use('/generated', increment.blocklist, autoIndex(generated, options), redirectMiddleware);
+	router.use('/generated', increment.blocklist, /* autoIndex(generated, options), */ redirectMiddleware);
 } else {
 	console.error('Invalid value for the SERVE_FILES environment variable');
 	process.exit(1);
