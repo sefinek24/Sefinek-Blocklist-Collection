@@ -11,17 +11,9 @@ const ZeroZeroZeroZero = path.join(__dirname, '..', '..', 'blocklist', 'generate
 const logs = path.join(__dirname, '..', 'public', 'logs');
 const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'default.html'), dirAtTop: true };
 
-function redirectMiddleware(req, res, next) {
-	const urlParts = req.url.split('/');
-	console.log(urlParts);
-	if (urlParts.length === 3) {
-		const ipAddress = urlParts[1];
-		const fileName = urlParts[2];
-
-		return res.status(301).redirect(`https://raw.githubusercontent.com/sefinek24/Sefinek-Blocklist-Collection/main/blocklist/generated/${ipAddress}/${fileName}`);
-	}
-
-	next();
+function redirectMiddleware(req, res) {
+	const url = req.url;
+	return res.status(301).redirect(`https://raw.githubusercontent.com/sefinek24/Sefinek-Blocklist-Collection/main/blocklist/generated/${url}`);
 }
 
 // Serve block lists
