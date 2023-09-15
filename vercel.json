@@ -4,22 +4,22 @@
   "public": true,
   "builds": [
     {
-      "src": "server.js",
+      "src": "index.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "www/public/**",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/((?!.*\\.\\w+$).*)",
-      "dest": "/index.js"
+      "src": "/blocklist/generated/(.*)",
+      "dest": "/blocklist/generated/$1"
+    },
+    {
+      "src": "/www/public/(.*)",
+      "dest": "/www/public/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "www/public/$1"
+      "dest": "index.js"
     }
   ]
 }
