@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 11 Sep 2023 10:01 UTC+7
-# Version: 2309111001
-# Blocked: 19,805 domains
+# Last modified: 20 Sep 2023 15:22 UTC+7
+# Version: 2309201522
+# Blocked: 19,846 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -1556,11 +1556,12 @@
 0.0.0.0 prebid.adnxs-simple.com
 0.0.0.0 rb.adnxs-simple.com
 0.0.0.0 vcdn.adnxs-simple.com
-#[batch]
-0.0.0.0 batch.com
-0.0.0.0 www.batch.com
+#[batch.com]
 0.0.0.0 api.batch.com
+0.0.0.0 batch.com
+0.0.0.0 via.batch.com
 0.0.0.0 ws.batch.com
+0.0.0.0 www.batch.com
 #[krxd.net]
 0.0.0.0 apiservices.krxd.net
 0.0.0.0 beacon.krxd.net
@@ -11210,6 +11211,8 @@
 0.0.0.0 ads.livetv691.me
 0.0.0.0 ads.livetv697.me
 0.0.0.0 ads.livetv701.me
+0.0.0.0 ads.livetv703.me
+0.0.0.0 ads.livetv705.me
 #[company-target.com]
 0.0.0.0 company-target.com
 0.0.0.0 api-staging.company-target.com
@@ -11463,6 +11466,21 @@
 0.0.0.0 appclick.rqmob.com
 0.0.0.0 distribution.rqmob.com
 0.0.0.0 static.rqmob.com
+#[sumo.com]
+0.0.0.0 load.sumo.com
+0.0.0.0 sumo.com
+#[orbsrv.com]
+0.0.0.0 orbsrv.com
+0.0.0.0 a.orbsrv.com
+0.0.0.0 s.orbsrv.com
+#[mobon.net]
+0.0.0.0 mobon.net
+0.0.0.0 img.mobon.net
+0.0.0.0 img2.mobon.net
+#[t13.io]
+0.0.0.0 s2s.t13.io
+0.0.0.0 static.s2s.t13.io
+0.0.0.0 t13.io
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -13484,6 +13502,8 @@
 0.0.0.0 2explore.com
 0.0.0.0 2llmonds4ehcr93nb.com
 0.0.0.0 2qj7mq3w4uxe.com
+0.0.0.0 360playvid.com
+0.0.0.0 360playvid.info
 0.0.0.0 42d61f012e27b36d53.com
 0.0.0.0 44tdfa.com
 0.0.0.0 4d5.net
@@ -13496,10 +13516,13 @@
 0.0.0.0 587tuchuang.com
 0.0.0.0 5advertise.com
 0.0.0.0 5enaovbz2.com
+0.0.0.0 5pykpdq7k.com
 0.0.0.0 5toft8or7on8tt.com
+0.0.0.0 6v41p4bsq.com
 0.0.0.0 79xmz3lmss.com
 0.0.0.0 7c0616849b.com
 0.0.0.0 7ca78m3csgbrid7ge.com
+0.0.0.0 7imtcjd21.com
 0.0.0.0 7yn3oczzo.com
 0.0.0.0 864feb57ruary.com
 0.0.0.0 999.money
@@ -14754,6 +14777,7 @@
 0.0.0.0 bagnutperpera.com
 0.0.0.0 bahdubniwnty.com
 0.0.0.0 bahmemohod.com
+0.0.0.0 baithoph.net
 0.0.0.0 bakomcsmya.com
 0.0.0.0 bakrfugarbi.com
 0.0.0.0 balancebreath.com
@@ -16439,6 +16463,7 @@
 0.0.0.0 gipaxqfpopu.com
 0.0.0.0 gipxpuotwv.com
 0.0.0.0 girawrolrorf.com
+0.0.0.0 gk79a2oup.com
 0.0.0.0 gkemujoccwin.com
 0.0.0.0 gketcakpeh.com
 0.0.0.0 gkpohvff.com
@@ -16487,6 +16512,7 @@
 0.0.0.0 godfulsiums.com
 0.0.0.0 godpvqnszo.com
 0.0.0.0 goergleeds.com
+0.0.0.0 goesdeedinsensitive.com
 0.0.0.0 gogglemessenger.com
 0.0.0.0 goingplatinum.com
 0.0.0.0 goldbach.com
@@ -16558,6 +16584,7 @@
 0.0.0.0 guatocut.live
 0.0.0.0 guchihyfa.pro
 0.0.0.0 guerregamming.com
+0.0.0.0 guidecent.com
 0.0.0.0 gujakqludcuk.com
 0.0.0.0 gumbolersgthb.com
 0.0.0.0 gunggo.com
@@ -16998,6 +17025,7 @@
 0.0.0.0 iwanttodeliver.com
 0.0.0.0 iybmgdynmgsrg.com
 0.0.0.0 iyfbodn.com
+0.0.0.0 j0x87i0og.com
 0.0.0.0 j6rudlybdy.com
 0.0.0.0 j93557g.com
 0.0.0.0 ja2n2u30a6rgyd.com
@@ -17477,6 +17505,7 @@
 0.0.0.0 mediaarmor.com
 0.0.0.0 mediabridge.cc
 0.0.0.0 mediabrix.com
+0.0.0.0 mediacategory.com
 0.0.0.0 mediacharger.com
 0.0.0.0 mediageneral.com
 0.0.0.0 mediaiqdigital.com
@@ -18145,6 +18174,7 @@
 0.0.0.0 owlqahovgog.com
 0.0.0.0 owlrcyalgz.com
 0.0.0.0 owlsr.us
+0.0.0.0 owlunimmvn.com
 0.0.0.0 ownbiczisoz.com
 0.0.0.0 owncutone.com
 0.0.0.0 owneriq.net
@@ -18340,6 +18370,7 @@
 0.0.0.0 pixel.reddit.com
 0.0.0.0 pixel.watch
 0.0.0.0 piximedia.com
+0.0.0.0 pk910324e.com
 0.0.0.0 pkakalbtukal.com
 0.0.0.0 pkerusphot.com
 0.0.0.0 pkhhyool.com
@@ -18466,6 +18497,7 @@
 0.0.0.0 profi-para.com
 0.0.0.0 profileoffencewithdraw.com
 0.0.0.0 profitablecpmgate.com
+0.0.0.0 profitablecreativeformat.com
 0.0.0.0 profitabledisplaynetwork.com
 0.0.0.0 profitablegate.com
 0.0.0.0 profitablegatetocontent.com
@@ -19310,6 +19342,7 @@
 0.0.0.0 statsy.net
 0.0.0.0 statxpress.com
 0.0.0.0 stawhoph.com
+0.0.0.0 stay.decentralappps.com
 0.0.0.0 stazumik.net
 0.0.0.0 steadfastsound.com
 0.0.0.0 steadfastsystem.com
@@ -19377,7 +19410,6 @@
 0.0.0.0 sumbreta.com
 0.0.0.0 summerobject.com
 0.0.0.0 summonedessencetrap.com
-0.0.0.0 sumo.com
 0.0.0.0 sumpingaksic.com
 0.0.0.0 sunglassesinsular.com
 0.0.0.0 sunmedia.tv
@@ -19447,6 +19479,7 @@
 0.0.0.0 t.easyads28.mobi
 0.0.0.0 t.insigit.com
 0.0.0.0 t.wayfair.com
+0.0.0.0 t7cp4fldl.com
 0.0.0.0 t84c3srgclc9.com
 0.0.0.0 t85itha3nitde.com
 0.0.0.0 ta3nfsordd.com
@@ -19762,6 +19795,7 @@
 0.0.0.0 tuffoonincaged.com
 0.0.0.0 tuleceti.com
 0.0.0.0 tumblebit.com
+0.0.0.0 tumblebit.org
 0.0.0.0 tunnedlehua.com
 0.0.0.0 tunnl.com
 0.0.0.0 turboadv.com
@@ -19823,6 +19857,7 @@
 0.0.0.0 ultraoranges.com
 0.0.0.0 ultsearch.com
 0.0.0.0 ulukaris.com
+0.0.0.0 um7exzpve.com
 0.0.0.0 umebella.com
 0.0.0.0 umexalim.com
 0.0.0.0 umiyyusldc.com
@@ -19903,6 +19938,7 @@
 0.0.0.0 uyunad.com
 0.0.0.0 uyyksmmlipvcvj.com
 0.0.0.0 uzxkuwalnjp.com
+0.0.0.0 v2s7q3m2o.com
 0.0.0.0 v6rxv5coo5.com
 0.0.0.0 v978np.tgtest.site
 0.0.0.0 vacationlodgingnetwork.com
@@ -20380,6 +20416,7 @@
 0.0.0.0 wzohfyhiptz.com
 0.0.0.0 wzuisptxzqbb.com
 0.0.0.0 x-traceur.com
+0.0.0.0 x.blueduckredapple.com
 0.0.0.0 x.thecatmachine.com
 0.0.0.0 x2sfa.javgg.eu
 0.0.0.0 x7r3mk6ldr.com
@@ -20395,6 +20432,7 @@
 0.0.0.0 xchange.ro
 0.0.0.0 xcialbdmud.com
 0.0.0.0 xclicks.net
+0.0.0.0 xdiwbc.com
 0.0.0.0 xduenseggx.com
 0.0.0.0 xebadu.com
 0.0.0.0 xertive.com
@@ -20525,6 +20563,7 @@
 0.0.0.0 yxpmtdzlsv.com
 0.0.0.0 yyselrqpyu.com
 0.0.0.0 yzqjaltdhlv.com
+0.0.0.0 z2ifwgjhu.com
 0.0.0.0 z3dmbpl6309s.com
 0.0.0.0 z5x.net
 0.0.0.0 zabpbhko.com
@@ -20603,6 +20642,7 @@
 0.0.0.0 zrwpporp.com
 0.0.0.0 ztumuvofzbfe.com
 0.0.0.0 zubxukxkuot.com
+0.0.0.0 zucqcozmv.com
 0.0.0.0 zudoldaclhug.com
 0.0.0.0 zugloopt.com
 0.0.0.0 zumdivdwug.com
@@ -20853,6 +20893,7 @@
 0.0.0.0 everestjs.net
 0.0.0.0 eviltracker.net
 0.0.0.0 evt.mxplay.com
+0.0.0.0 fastcounter.de
 0.0.0.0 fastly-insights.com
 0.0.0.0 fathomseo.com
 0.0.0.0 firsthive.com
@@ -20991,6 +21032,7 @@
 0.0.0.0 munchkin.marketo.net
 0.0.0.0 netcore.co.in
 0.0.0.0 nonglirili.net
+0.0.0.0 notifpush.com
 0.0.0.0 notify.bugsnag.com
 0.0.0.0 nppmwatch.com
 0.0.0.0 npttech.com
@@ -21209,6 +21251,7 @@
 0.0.0.0 tracker.affirm.com
 0.0.0.0 tracker.arc.io
 0.0.0.0 tracker.cpmdata.net
+0.0.0.0 tracker.metricool.com
 0.0.0.0 tracker.stats.in.th
 0.0.0.0 tracker.toolpg.com
 0.0.0.0 tracker.vgame.us
@@ -21268,6 +21311,7 @@
 0.0.0.0 weborama.net
 0.0.0.0 webtrekk.net
 0.0.0.0 weigezhiyao.com
+0.0.0.0 westats.dev
 0.0.0.0 widget.manychat.com
 0.0.0.0 wieistmeineip.de
 0.0.0.0 worldgravity.com
@@ -21278,6 +21322,7 @@
 0.0.0.0 www.datadoghq-browser-agent.com
 0.0.0.0 www.ethtrader.de
 0.0.0.0 www.everestjs.net
+0.0.0.0 www.fastcounter.de
 0.0.0.0 www.fastly-insights.com
 0.0.0.0 www.hitcpm.com
 0.0.0.0 www.hostg.xyz

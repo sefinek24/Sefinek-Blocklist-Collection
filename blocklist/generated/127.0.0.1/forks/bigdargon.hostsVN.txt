@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 11 Sep 2023 10:01 UTC+7
-# Version: 2309111001
-# Blocked: 19,805 domains
+# Last modified: 20 Sep 2023 15:22 UTC+7
+# Version: 2309201522
+# Blocked: 19,846 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -1556,11 +1556,12 @@
 127.0.0.1 prebid.adnxs-simple.com
 127.0.0.1 rb.adnxs-simple.com
 127.0.0.1 vcdn.adnxs-simple.com
-#[batch]
-127.0.0.1 batch.com
-127.0.0.1 www.batch.com
+#[batch.com]
 127.0.0.1 api.batch.com
+127.0.0.1 batch.com
+127.0.0.1 via.batch.com
 127.0.0.1 ws.batch.com
+127.0.0.1 www.batch.com
 #[krxd.net]
 127.0.0.1 apiservices.krxd.net
 127.0.0.1 beacon.krxd.net
@@ -11210,6 +11211,8 @@
 127.0.0.1 ads.livetv691.me
 127.0.0.1 ads.livetv697.me
 127.0.0.1 ads.livetv701.me
+127.0.0.1 ads.livetv703.me
+127.0.0.1 ads.livetv705.me
 #[company-target.com]
 127.0.0.1 company-target.com
 127.0.0.1 api-staging.company-target.com
@@ -11463,6 +11466,21 @@
 127.0.0.1 appclick.rqmob.com
 127.0.0.1 distribution.rqmob.com
 127.0.0.1 static.rqmob.com
+#[sumo.com]
+127.0.0.1 load.sumo.com
+127.0.0.1 sumo.com
+#[orbsrv.com]
+127.0.0.1 orbsrv.com
+127.0.0.1 a.orbsrv.com
+127.0.0.1 s.orbsrv.com
+#[mobon.net]
+127.0.0.1 mobon.net
+127.0.0.1 img.mobon.net
+127.0.0.1 img2.mobon.net
+#[t13.io]
+127.0.0.1 s2s.t13.io
+127.0.0.1 static.s2s.t13.io
+127.0.0.1 t13.io
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -13484,6 +13502,8 @@
 127.0.0.1 2explore.com
 127.0.0.1 2llmonds4ehcr93nb.com
 127.0.0.1 2qj7mq3w4uxe.com
+127.0.0.1 360playvid.com
+127.0.0.1 360playvid.info
 127.0.0.1 42d61f012e27b36d53.com
 127.0.0.1 44tdfa.com
 127.0.0.1 4d5.net
@@ -13496,10 +13516,13 @@
 127.0.0.1 587tuchuang.com
 127.0.0.1 5advertise.com
 127.0.0.1 5enaovbz2.com
+127.0.0.1 5pykpdq7k.com
 127.0.0.1 5toft8or7on8tt.com
+127.0.0.1 6v41p4bsq.com
 127.0.0.1 79xmz3lmss.com
 127.0.0.1 7c0616849b.com
 127.0.0.1 7ca78m3csgbrid7ge.com
+127.0.0.1 7imtcjd21.com
 127.0.0.1 7yn3oczzo.com
 127.0.0.1 864feb57ruary.com
 127.0.0.1 999.money
@@ -14754,6 +14777,7 @@
 127.0.0.1 bagnutperpera.com
 127.0.0.1 bahdubniwnty.com
 127.0.0.1 bahmemohod.com
+127.0.0.1 baithoph.net
 127.0.0.1 bakomcsmya.com
 127.0.0.1 bakrfugarbi.com
 127.0.0.1 balancebreath.com
@@ -16439,6 +16463,7 @@
 127.0.0.1 gipaxqfpopu.com
 127.0.0.1 gipxpuotwv.com
 127.0.0.1 girawrolrorf.com
+127.0.0.1 gk79a2oup.com
 127.0.0.1 gkemujoccwin.com
 127.0.0.1 gketcakpeh.com
 127.0.0.1 gkpohvff.com
@@ -16487,6 +16512,7 @@
 127.0.0.1 godfulsiums.com
 127.0.0.1 godpvqnszo.com
 127.0.0.1 goergleeds.com
+127.0.0.1 goesdeedinsensitive.com
 127.0.0.1 gogglemessenger.com
 127.0.0.1 goingplatinum.com
 127.0.0.1 goldbach.com
@@ -16558,6 +16584,7 @@
 127.0.0.1 guatocut.live
 127.0.0.1 guchihyfa.pro
 127.0.0.1 guerregamming.com
+127.0.0.1 guidecent.com
 127.0.0.1 gujakqludcuk.com
 127.0.0.1 gumbolersgthb.com
 127.0.0.1 gunggo.com
@@ -16998,6 +17025,7 @@
 127.0.0.1 iwanttodeliver.com
 127.0.0.1 iybmgdynmgsrg.com
 127.0.0.1 iyfbodn.com
+127.0.0.1 j0x87i0og.com
 127.0.0.1 j6rudlybdy.com
 127.0.0.1 j93557g.com
 127.0.0.1 ja2n2u30a6rgyd.com
@@ -17477,6 +17505,7 @@
 127.0.0.1 mediaarmor.com
 127.0.0.1 mediabridge.cc
 127.0.0.1 mediabrix.com
+127.0.0.1 mediacategory.com
 127.0.0.1 mediacharger.com
 127.0.0.1 mediageneral.com
 127.0.0.1 mediaiqdigital.com
@@ -18145,6 +18174,7 @@
 127.0.0.1 owlqahovgog.com
 127.0.0.1 owlrcyalgz.com
 127.0.0.1 owlsr.us
+127.0.0.1 owlunimmvn.com
 127.0.0.1 ownbiczisoz.com
 127.0.0.1 owncutone.com
 127.0.0.1 owneriq.net
@@ -18340,6 +18370,7 @@
 127.0.0.1 pixel.reddit.com
 127.0.0.1 pixel.watch
 127.0.0.1 piximedia.com
+127.0.0.1 pk910324e.com
 127.0.0.1 pkakalbtukal.com
 127.0.0.1 pkerusphot.com
 127.0.0.1 pkhhyool.com
@@ -18466,6 +18497,7 @@
 127.0.0.1 profi-para.com
 127.0.0.1 profileoffencewithdraw.com
 127.0.0.1 profitablecpmgate.com
+127.0.0.1 profitablecreativeformat.com
 127.0.0.1 profitabledisplaynetwork.com
 127.0.0.1 profitablegate.com
 127.0.0.1 profitablegatetocontent.com
@@ -19310,6 +19342,7 @@
 127.0.0.1 statsy.net
 127.0.0.1 statxpress.com
 127.0.0.1 stawhoph.com
+127.0.0.1 stay.decentralappps.com
 127.0.0.1 stazumik.net
 127.0.0.1 steadfastsound.com
 127.0.0.1 steadfastsystem.com
@@ -19377,7 +19410,6 @@
 127.0.0.1 sumbreta.com
 127.0.0.1 summerobject.com
 127.0.0.1 summonedessencetrap.com
-127.0.0.1 sumo.com
 127.0.0.1 sumpingaksic.com
 127.0.0.1 sunglassesinsular.com
 127.0.0.1 sunmedia.tv
@@ -19447,6 +19479,7 @@
 127.0.0.1 t.easyads28.mobi
 127.0.0.1 t.insigit.com
 127.0.0.1 t.wayfair.com
+127.0.0.1 t7cp4fldl.com
 127.0.0.1 t84c3srgclc9.com
 127.0.0.1 t85itha3nitde.com
 127.0.0.1 ta3nfsordd.com
@@ -19762,6 +19795,7 @@
 127.0.0.1 tuffoonincaged.com
 127.0.0.1 tuleceti.com
 127.0.0.1 tumblebit.com
+127.0.0.1 tumblebit.org
 127.0.0.1 tunnedlehua.com
 127.0.0.1 tunnl.com
 127.0.0.1 turboadv.com
@@ -19823,6 +19857,7 @@
 127.0.0.1 ultraoranges.com
 127.0.0.1 ultsearch.com
 127.0.0.1 ulukaris.com
+127.0.0.1 um7exzpve.com
 127.0.0.1 umebella.com
 127.0.0.1 umexalim.com
 127.0.0.1 umiyyusldc.com
@@ -19903,6 +19938,7 @@
 127.0.0.1 uyunad.com
 127.0.0.1 uyyksmmlipvcvj.com
 127.0.0.1 uzxkuwalnjp.com
+127.0.0.1 v2s7q3m2o.com
 127.0.0.1 v6rxv5coo5.com
 127.0.0.1 v978np.tgtest.site
 127.0.0.1 vacationlodgingnetwork.com
@@ -20380,6 +20416,7 @@
 127.0.0.1 wzohfyhiptz.com
 127.0.0.1 wzuisptxzqbb.com
 127.0.0.1 x-traceur.com
+127.0.0.1 x.blueduckredapple.com
 127.0.0.1 x.thecatmachine.com
 127.0.0.1 x2sfa.javgg.eu
 127.0.0.1 x7r3mk6ldr.com
@@ -20395,6 +20432,7 @@
 127.0.0.1 xchange.ro
 127.0.0.1 xcialbdmud.com
 127.0.0.1 xclicks.net
+127.0.0.1 xdiwbc.com
 127.0.0.1 xduenseggx.com
 127.0.0.1 xebadu.com
 127.0.0.1 xertive.com
@@ -20525,6 +20563,7 @@
 127.0.0.1 yxpmtdzlsv.com
 127.0.0.1 yyselrqpyu.com
 127.0.0.1 yzqjaltdhlv.com
+127.0.0.1 z2ifwgjhu.com
 127.0.0.1 z3dmbpl6309s.com
 127.0.0.1 z5x.net
 127.0.0.1 zabpbhko.com
@@ -20603,6 +20642,7 @@
 127.0.0.1 zrwpporp.com
 127.0.0.1 ztumuvofzbfe.com
 127.0.0.1 zubxukxkuot.com
+127.0.0.1 zucqcozmv.com
 127.0.0.1 zudoldaclhug.com
 127.0.0.1 zugloopt.com
 127.0.0.1 zumdivdwug.com
@@ -20853,6 +20893,7 @@
 127.0.0.1 everestjs.net
 127.0.0.1 eviltracker.net
 127.0.0.1 evt.mxplay.com
+127.0.0.1 fastcounter.de
 127.0.0.1 fastly-insights.com
 127.0.0.1 fathomseo.com
 127.0.0.1 firsthive.com
@@ -20991,6 +21032,7 @@
 127.0.0.1 munchkin.marketo.net
 127.0.0.1 netcore.co.in
 127.0.0.1 nonglirili.net
+127.0.0.1 notifpush.com
 127.0.0.1 notify.bugsnag.com
 127.0.0.1 nppmwatch.com
 127.0.0.1 npttech.com
@@ -21209,6 +21251,7 @@
 127.0.0.1 tracker.affirm.com
 127.0.0.1 tracker.arc.io
 127.0.0.1 tracker.cpmdata.net
+127.0.0.1 tracker.metricool.com
 127.0.0.1 tracker.stats.in.th
 127.0.0.1 tracker.toolpg.com
 127.0.0.1 tracker.vgame.us
@@ -21268,6 +21311,7 @@
 127.0.0.1 weborama.net
 127.0.0.1 webtrekk.net
 127.0.0.1 weigezhiyao.com
+127.0.0.1 westats.dev
 127.0.0.1 widget.manychat.com
 127.0.0.1 wieistmeineip.de
 127.0.0.1 worldgravity.com
@@ -21278,6 +21322,7 @@
 127.0.0.1 www.datadoghq-browser-agent.com
 127.0.0.1 www.ethtrader.de
 127.0.0.1 www.everestjs.net
+127.0.0.1 www.fastcounter.de
 127.0.0.1 www.fastly-insights.com
 127.0.0.1 www.hitcpm.com
 127.0.0.1 www.hostg.xyz
