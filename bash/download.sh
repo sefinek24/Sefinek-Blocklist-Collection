@@ -222,7 +222,7 @@ urls=(
 package_json_path="./package.json"
 if [ -f "$package_json_path" ]; then
   # Set the user agent with the version from package.json
-  user_agent="Mozilla/5.0 (compatible; SefinekBlocklistCollection/$(node -p "require('$package_json_path').version"); +https://blocklist.sefinek.net)"
+  user_agent="Mozilla/5.0 (compatible; SefinekBlocklistsAgent/$(node -p "require('$package_json_path').version"); +https://blocklist.sefinek.net)"
 else
   echo "✖ package.json file not found."
   exit 1
@@ -235,7 +235,7 @@ for url in "${urls[@]}"; do
   filename=${url_parts[1]}
 
   # Download the file using wget command
-  wget -U "Mozilla/5.0 (compatible; SefinekBlocklistCollection/$user_agent; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 |
+  wget -U "Mozilla/5.0 (compatible; SefinekBlocklistsAgent/$user_agent; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 |
   while IFS= read -r line; do
     if [[ $line == *%* ]]; then
       # Print download progress if line contains '%'

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Paths
-repo_path="/home/ubuntu/node/www/Sefinek-Blocklist-Collection"  # Path to the repository
+repo_path="/home/ubuntu/node/Sefinek-Blocklist-Collection"  # Path to the repository
 logs_dir="$repo_path/www/public/logs"  # Directory to store logs
 output_file="$logs_dir/pull_$(date +'%Y-%m-%d').log"  # Path to the output log file
 
