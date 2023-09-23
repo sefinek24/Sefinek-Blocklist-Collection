@@ -1,18 +1,21 @@
 const { readdir } = require('node:fs/promises');
 const { resolve } = require('node:path');
 
-async function getAllTxtFiles(dir) {
-	const dirents = await readdir(dir, { withFileTypes: true });
-	const filesPromise = await Promise.all(
-		dirents.map(dirent => {
-			const res = resolve(dir, dirent.name);
+async function getAllTxtFilesRecursively(directoryPath) {
+	const dirents = await readdir(directoryPath, { withFileTypes: true });
+	const files = await Promise.all(
+		dirents.map(async dirent => {
+			const filePath = resolve(directoryPath, dirent.name);
 
-			return dirent.isDirectory() ? getAllTxtFiles(res) : res;
+			if (dirent.isDirectory()) {
+				return getAllTxtFilesRecursively(filePath);
+			} else {
+				return filePath;
+			}
 		}),
 	);
-	return Array.prototype.concat(...filesPromise).filter((file) => {
-		return file.endsWith('.txt') && file.includes('blocklist');
-	});
+
+	return files.flat().filter(file => file.endsWith('.txt'));
 }
 
-module.exports = getAllTxtFiles;
+module.exports = getAllTxtFilesRecursively;
