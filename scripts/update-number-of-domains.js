@@ -16,6 +16,14 @@ const getAllTxtFiles = require('./functions/getAllTxtFiles.js');
 			}
 		});
 
-		await writeFile(file, fileContents.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${existingDomains.size}`), 'utf8');
+
+		await writeFile(
+			file,
+
+			fileContents
+				.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${existingDomains.size}`),
+
+			'utf8',
+		);
 	}));
 })();
