@@ -57,8 +57,11 @@ jobs:
       - name: Generate Dnsmasq list
         run: node scripts/generate-dnsmasq.js
 
-      - name: Show files
-        run: ls -R /home/runner/work
+      - name: Count domains in the files
+        run: node scripts/update-number-of-domains.js
+
+      # - name: Show files
+      #   run: ls -R /home/runner/work
 
       - name: Commit files
         run: |
