@@ -1,11 +1,10 @@
+const pad = y => (y < 10 ? '0' : '') + y;
+
 module.exports.HHMMSS = x => {
 	const hh = Math.floor(x / (60 * 60));
 	const mm = Math.floor((x % (60 * 60)) / 60);
 	const ss = Math.floor(x % 60);
 
-	const pad = y => {
-		return (y < 10 ? '0' : '') + y;
-	};
 	return `${pad(hh)}:${pad(mm)}:${pad(ss)}`;
 };
 

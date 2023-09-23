@@ -3,6 +3,7 @@ require('dotenv').config({ path: './.env' });
 const fs = require('fs').promises;
 const axios = require('axios');
 const kleur = require('kleur');
+const readline = require('readline');
 const { version } = require('../package.json');
 
 const markdownFiles = [
@@ -13,8 +14,12 @@ const markdownFiles = [
 	'./lists/md/Pi-hole.md',
 ];
 
-const userAgent = `Mozilla/5.0 (compatible; SefinekBlocklistCollection/${version}; +https://blocklist.sefinek.net)`;
-const headers = { headers: { 'User-Agent': userAgent } };
+// Axios
+const headers = {
+	headers: {
+		'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklistsAgent/${version}; +https://blocklist.sefinek.net)`,
+	},
+};
 
 // Constants
 const MAX_RETRIES = 3;
@@ -30,9 +35,9 @@ const invalidLinks = [];
 
 // Function to serve URLs with appropriate protocol and domain
 function serveUrl(link) {
-	const linkRegex = /^(ftp|http|https):\/\/[^ "]+$/;
-	const mainDomainRegex = /^https:\/\/blocklist\.sefinek\.net/gim;
-	const validUrlRegex = /^https:\/\/blocklist\.sefinek\.net\/generated\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+$/i;
+	const linkRegex = /(http|https):\/\/[^ "]+/g;
+	const mainDomainRegex = /https:\/\/blocklist\.sefinek\.net/gi;
+	const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
 
 	if (!linkRegex.test(link)) {
 		console.warn(kleur.yellow('Error:'), `Invalid link: ${link}`);
@@ -54,7 +59,7 @@ function serveUrl(link) {
 
 	return process.env.NODE_ENV === 'production'
 		? link
-		: link.replace(mainDomainRegex, `${process.env.PROTOCOL}${process.env.DOMAIN}${process.env.PORT ? `:${process.env.PORT}` : ''}`);
+		: link.replace(mainDomainRegex, `${process.env.DOMAIN}${process.env.PORT ? `:${process.env.PORT}` : ''}`);
 }
 
 // Function to test links for availability
@@ -86,6 +91,7 @@ async function testLinks() {
 			try {
 				console.log(kleur.blue('>'), processedLink);
 				const response = await axios.head(processedLink, headers);
+
 				console.log(`${kleur.bgGreen(response.status)} ${kleur.green(`Status: ${response.statusText}`)}`);
 				successfulLinks++;
 			} catch (err) {
@@ -94,7 +100,7 @@ async function testLinks() {
 				if (err.response) {
 					console.warn(`${kleur.bgRed(err.response.status)} ${kleur.red(`Status: ${err.response.statusText}`)}`);
 				} else {
-					console.error(kleur.red('FATAL ERROR:'), err.stack);
+					console.error(kleur.red(err.stack));
 					process.exit(1);
 				}
 
@@ -103,11 +109,11 @@ async function testLinks() {
 
 				while (retries < MAX_RETRIES) {
 					if (retriesFails >= MAX_RETRIES * 4) {
-						console.error(kleur.red(`Exceeded maximum retries - ${retriesFails}. Test failed.`));
+						console.error(kleur.red(`\n): Test failed. Exceeded maximum retries: ${retriesFails}`));
 						process.exit(1);
 					}
 
-					console.log(kleur.blue('> Waiting 2 seconds...'));
+					console.log(kleur.blue(`> Waiting ${RETRY_DELAY_MS / 1000} seconds...`));
 					await sleep(RETRY_DELAY_MS);
 
 					try {
@@ -171,16 +177,40 @@ function extractLinks(content) {
 
 // Function to introduce delay
 function sleep(ms) {
-	return new Promise((resolve) => setTimeout(resolve, ms));
+	return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Immediately invoke the testLinks function when the script is run
+// Immediately invoke the testLinks function when the script is executed
 (async () => {
-	try {
-		await testLinks();
-	} catch (err) {
-		console.error('An error occurred while testing links:', err);
-		process.exit(1);
+	if (process.env.SERVE_FILES === 'redirect') {
+		const rl = readline.createInterface({
+			input: process.stdin,
+			output: process.stdout,
+		});
+
+		rl.question(`${kleur.magenta('SERVE_FILES')} ${kleur.blue('is set to')} ${kleur.magenta('redirect')}. ${kleur.blue('Do you want to continue?')} ${kleur.yellow('[Yes/no]:')} `, async answer => {
+			if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
+				try {
+					await testLinks();
+				} catch (err) {
+					console.error(kleur.red(`${process.env.SERVE_FILES}: An error occurred while testing links: ` + err.stack));
+					process.exit(1);
+				}
+			} else {
+				console.log(kleur.yellow(`${process.env.SERVE_FILES}: Okay. Canceled.`));
+			}
+
+			rl.close();
+		});
+	} else {
+		console.log(kleur.yellow(`${kleur.yellow('SERVE_FILES')} ${kleur.blue('is not set to')} ${kleur.yellow('redirect')}.`));
+
+		try {
+			await testLinks();
+		} catch (err) {
+			console.error(kleur.red(`${process.env.SERVE_FILES}: An error occurred while testing links: ` + err.stack));
+			process.exit(1);
+		}
 	}
 })();
 
