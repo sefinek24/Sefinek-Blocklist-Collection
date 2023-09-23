@@ -3,7 +3,7 @@ const error = require('./other/errors.js');
 
 const limiter = rateLimit({
 	windowMs: 5 * 60 * 1000,
-	max: 555,
+	max: 560,
 	headers: {
 		'Retry-After': 240,
 		'X-RateLimit-Limit': 148,
