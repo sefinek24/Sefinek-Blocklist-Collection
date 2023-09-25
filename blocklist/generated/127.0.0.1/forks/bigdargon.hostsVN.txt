@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 22 Sep 2023 10:35 UTC+7
-# Version: 2309221035
-# Blocked: 19,847 domains
+# Last modified: 25 Sep 2023 11:04 UTC+7
+# Version: 2309251104
+# Blocked: 19,853 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -427,6 +427,13 @@
 127.0.0.1 mobileanalytics.us-east-1.amazonaws.com
 #[popadex-*.us-east-1.elb.amazonaws.com]
 127.0.0.1 popadex-1919430815.us-east-1.elb.amazonaws.com
+#[s3.amazonaws.com]
+127.0.0.1 adtago.s3.amazonaws.com
+127.0.0.1 adtechvideo.s3.amazonaws.com
+127.0.0.1 advice-ads.s3.amazonaws.com
+127.0.0.1 analytics.s3.amazonaws.com
+127.0.0.1 analyticsengine.s3.amazonaws.com
+127.0.0.1 sprocket-ping.s3.amazonaws.com
 #[a2z.com]
 127.0.0.1 prod.cm.publishers.advertising.a2z.com
 127.0.0.1 metrics.client-eng.a2z.com
