@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 25 Sep 2023 11:04 UTC+7
-# Version: 2309251104
-# Blocked: 19,853 domains
+# Last modified: 27 Sep 2023 22:51 UTC+7
+# Version: 2309272251
+# Blocked: 19,892 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -2941,24 +2941,29 @@ server=/www.getclicky.com/
 #[yandex.ru]
 server=/adfstat.yandex.ru/
 server=/adsdk.yandex.ru/
+server=/advertising.yandex.ru/
+server=/amc.yandex.ru/
 server=/an.yandex.ru/
 server=/awaps.yandex.ru/
 server=/awsync.yandex.ru/
 server=/bs.yandex.ru/
-server=/clck.yandex.ru/
 server=/informer.yandex.ru/
 server=/mc.yandex.ru/
 server=/metrika.yandex.ru/
-server=/share.yandex.ru/
+server=/uaas.yandex.ru/
 #[adfox.yandex.ru]
 server=/adfox.yandex.ru/
 server=/matchid.adfox.yandex.ru/
 #[appmetrica.yandex.ru]
 server=/appmetrica.yandex.ru/
 server=/redirect.appmetrica.yandex.ru/
+#[strm.yandex.ru]
+server=/log.strm.yandex.ru/
 #[yandex.net]
 server=/awaps.yandex.net/
 server=/external-promo-metrics.yandex.net/
+server=/offerwall.yandex.net/
+server=/extmaps-api.yandex.net/
 #[appmetrica.yandex.net]
 server=/appmetrica.yandex.net/
 server=/report.appmetrica.yandex.net/
@@ -2967,9 +2972,15 @@ server=/rosenberg.appmetrica.yandex.net/
 server=/analytics.mobile.yandex.net/
 server=/banners-slb.mobile.yandex.net/
 server=/banners.mobile.yandex.net/
+server=/startup.mobile.yandex.net/
+#[s3.yandex.net]
+server=/abt.s3.yandex.net/
 #[yandex.com]
-server=/clck.yandex.com/
 server=/appmetrica.yandex.com/
+server=/clck.yandex.com/
+server=/mc.yandex.com/
+#[yandex-net.ru]
+server=/startup-mobile.ap.yandex-net.ru/
 #[webvisor.org]
 server=/an.webvisor.org/
 server=/mc.webvisor.org/
@@ -11213,6 +11224,7 @@ server=/ads.livetv697.me/
 server=/ads.livetv701.me/
 server=/ads.livetv703.me/
 server=/ads.livetv705.me/
+server=/ads.livetv708.me/
 #[company-target.com]
 server=/company-target.com/
 server=/api-staging.company-target.com/
@@ -11489,6 +11501,24 @@ server=/adsystem.pocpoc.io/
 server=/cdn.pocpoc.io/
 server=/pocpoc.io/
 server=/px.pocpoc.io/
+#[skcrtxr.com]
+server=/bidder.skcrtxr.com/
+server=/cdn.skcrtxr.com/
+server=/skcrtxr.com/
+#[digitaltarget.ru]
+server=/digitaltarget.ru/
+server=/dmg.digitaltarget.ru/
+server=/tag.digitaltarget.ru/
+#[lp4.io]
+server=/lp4.io/
+server=/pp.lp4.io/
+#[afp.ai]
+server=/afp.ai/
+server=/cdn.afp.ai/
+server=/ssp.afp.ai/
+#[infox.sg]
+server=/infox.sg/
+server=/rb.infox.sg/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -13512,6 +13542,7 @@ server=/2llmonds4ehcr93nb.com/
 server=/2qj7mq3w4uxe.com/
 server=/360playvid.com/
 server=/360playvid.info/
+server=/3a2qi55fr.com/
 server=/42d61f012e27b36d53.com/
 server=/44tdfa.com/
 server=/4d5.net/
@@ -13531,10 +13562,12 @@ server=/79xmz3lmss.com/
 server=/7c0616849b.com/
 server=/7ca78m3csgbrid7ge.com/
 server=/7imtcjd21.com/
+server=/7j2edrbxb.com/
 server=/7yn3oczzo.com/
 server=/864feb57ruary.com/
 server=/999.money/
 server=/9gg23.com/
+server=/9icysflbn.com/
 server=/9purdfe9xg.com/
 server=/a.mktw.net/
 server=/a.photowonder.net/
@@ -14436,6 +14469,7 @@ server=/aheadday.com/
 server=/ahgxawophb.com/
 server=/ahjanhabmo.com/
 server=/ahjshyoqlo.com/
+server=/ahjuliten.com/
 server=/ahlcujguphr.com/
 server=/ahqpqpdjpj.com/
 server=/ahreprh2kfk8rfjr09.com/
@@ -14965,6 +14999,7 @@ server=/bestcond1tions.com/
 server=/bestcpmnetwork.com/
 server=/bestdisplayformats.com/
 server=/besthealthblog.pro/
+server=/bestlampjoy.com/
 server=/bestsearch.net/
 server=/bestzba.com/
 server=/bethinkparah.com/
@@ -15658,6 +15693,7 @@ server=/d11enq2rymy0yl.cloudfront.net/
 server=/d12czbu0tltgqq.cloudfront.net/
 server=/d13k7prax1yi04.cloudfront.net/
 server=/d15kdpgjg3unno.cloudfront.net/
+server=/d188m5xxcpvuue.cloudfront.net/
 server=/d18t35yyry2k49.cloudfront.net/
 server=/d1byvlfiet2h9q.cloudfront.net/
 server=/d1clmik8la8v65.cloudfront.net/
@@ -16609,6 +16645,7 @@ server=/gweluwaggoc.com/
 server=/gycqna.com/
 server=/gyfumobo.com/
 server=/h2aek6rv0ard.com/
+server=/h4aock41f.com/
 server=/h78xb.pw/
 server=/habitsdemise.com/
 server=/hacbfyvvsw.com/
@@ -16739,6 +16776,7 @@ server=/hittail.com/
 server=/hizopforkajf.com/
 server=/hjfmaukf.com/
 server=/hkamixrrot.com/
+server=/hkilops.com/
 server=/hkoxlirf.com/
 server=/hlvndpqwiwnyq.com/
 server=/hmepalobfn.com/
@@ -17666,6 +17704,7 @@ server=/modern-passenger.pro/
 server=/modifyeyes.com/
 server=/modulepush.com/
 server=/moekyepkd.com/
+server=/moevideo.biz/
 server=/mogreet.com/
 server=/mojiva.com/
 server=/moldyicicle.com/
@@ -18571,6 +18610,7 @@ server=/pubaka5.com/
 server=/pubdirecte.com/
 server=/pubeshogback.uno/
 server=/pubianmending.space/
+server=/pubimageboard.com/
 server=/public.wedodemos.com/
 server=/publicationqueenfriends.com/
 server=/publicidad.elmundo.es/
@@ -18667,6 +18707,7 @@ server=/quarterserver.de/
 server=/qudlroasvoqp.com/
 server=/quenchskirmishcohere.com/
 server=/questaffiliates.net/
+server=/quhupyni2.com/
 server=/quickpasss.com/
 server=/quicksandear.com/
 server=/quietknowledge.com/
@@ -19088,6 +19129,7 @@ server=/servsave.com/
 server=/sessioncam.com/
 server=/sessionm.com/
 server=/setbackclassy.com/
+server=/setka.media/
 server=/sexadvertentiesite.nl/
 server=/sexcounter.com/
 server=/sexinyourcity.com/
@@ -20235,6 +20277,7 @@ server=/withinknuko.club/
 server=/withoutollock.store/
 server=/witnessremovalsoccer.com/
 server=/wizaly.com/
+server=/wizkrdxivl.com/
 server=/wkyswppiobnuqje.com/
 server=/wlmarketing.com/
 server=/wmiakcpceocm.com/
@@ -20454,6 +20497,7 @@ server=/xg4ken.com/
 server=/xgzyfpmfkxa.com/
 server=/xijahhhuzsr.com/
 server=/xijdiptaro.com/
+server=/xisihv12n.com/
 server=/xitajbwucquv.com/
 server=/xiti.com/
 server=/xius.com/
@@ -21086,6 +21130,7 @@ server=/promotionengine.com/
 server=/prooffactor.com/
 server=/propeller-tracking.com/
 server=/prx.wayfair.com/
+server=/push4site.com/
 server=/pv.medialead.de/
 server=/pv.pjtsu.com/
 server=/pv.sohu.com/
@@ -21172,9 +21217,11 @@ server=/spt.performgroup.com/
 server=/srmdata.com/
 server=/ssc.api.bbc.com/
 server=/ssm.codes/
+server=/st.top100.ru/
 server=/stat.analytiall.com/
 server=/stat.hackedonlinegames.com/
 server=/stat.i3.dmm.com/
+server=/stat.media/
 server=/stat.meitudata.com/
 server=/stat2.openinstall.io/
 server=/stathat.com/

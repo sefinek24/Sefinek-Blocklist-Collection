@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 25 Sep 2023 11:04 UTC+7
-# Version: 2309251104
-# Blocked: 19,853 domains
+# Last modified: 27 Sep 2023 22:51 UTC+7
+# Version: 2309272251
+# Blocked: 19,892 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -2941,24 +2941,29 @@
 #[yandex.ru]
 0.0.0.0 adfstat.yandex.ru
 0.0.0.0 adsdk.yandex.ru
+0.0.0.0 advertising.yandex.ru
+0.0.0.0 amc.yandex.ru
 0.0.0.0 an.yandex.ru
 0.0.0.0 awaps.yandex.ru
 0.0.0.0 awsync.yandex.ru
 0.0.0.0 bs.yandex.ru
-0.0.0.0 clck.yandex.ru
 0.0.0.0 informer.yandex.ru
 0.0.0.0 mc.yandex.ru
 0.0.0.0 metrika.yandex.ru
-0.0.0.0 share.yandex.ru
+0.0.0.0 uaas.yandex.ru
 #[adfox.yandex.ru]
 0.0.0.0 adfox.yandex.ru
 0.0.0.0 matchid.adfox.yandex.ru
 #[appmetrica.yandex.ru]
 0.0.0.0 appmetrica.yandex.ru
 0.0.0.0 redirect.appmetrica.yandex.ru
+#[strm.yandex.ru]
+0.0.0.0 log.strm.yandex.ru
 #[yandex.net]
 0.0.0.0 awaps.yandex.net
 0.0.0.0 external-promo-metrics.yandex.net
+0.0.0.0 offerwall.yandex.net
+0.0.0.0 extmaps-api.yandex.net
 #[appmetrica.yandex.net]
 0.0.0.0 appmetrica.yandex.net
 0.0.0.0 report.appmetrica.yandex.net
@@ -2967,9 +2972,15 @@
 0.0.0.0 analytics.mobile.yandex.net
 0.0.0.0 banners-slb.mobile.yandex.net
 0.0.0.0 banners.mobile.yandex.net
+0.0.0.0 startup.mobile.yandex.net
+#[s3.yandex.net]
+0.0.0.0 abt.s3.yandex.net
 #[yandex.com]
-0.0.0.0 clck.yandex.com
 0.0.0.0 appmetrica.yandex.com
+0.0.0.0 clck.yandex.com
+0.0.0.0 mc.yandex.com
+#[yandex-net.ru]
+0.0.0.0 startup-mobile.ap.yandex-net.ru
 #[webvisor.org]
 0.0.0.0 an.webvisor.org
 0.0.0.0 mc.webvisor.org
@@ -11213,6 +11224,7 @@
 0.0.0.0 ads.livetv701.me
 0.0.0.0 ads.livetv703.me
 0.0.0.0 ads.livetv705.me
+0.0.0.0 ads.livetv708.me
 #[company-target.com]
 0.0.0.0 company-target.com
 0.0.0.0 api-staging.company-target.com
@@ -11489,6 +11501,24 @@
 0.0.0.0 cdn.pocpoc.io
 0.0.0.0 pocpoc.io
 0.0.0.0 px.pocpoc.io
+#[skcrtxr.com]
+0.0.0.0 bidder.skcrtxr.com
+0.0.0.0 cdn.skcrtxr.com
+0.0.0.0 skcrtxr.com
+#[digitaltarget.ru]
+0.0.0.0 digitaltarget.ru
+0.0.0.0 dmg.digitaltarget.ru
+0.0.0.0 tag.digitaltarget.ru
+#[lp4.io]
+0.0.0.0 lp4.io
+0.0.0.0 pp.lp4.io
+#[afp.ai]
+0.0.0.0 afp.ai
+0.0.0.0 cdn.afp.ai
+0.0.0.0 ssp.afp.ai
+#[infox.sg]
+0.0.0.0 infox.sg
+0.0.0.0 rb.infox.sg
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -13512,6 +13542,7 @@
 0.0.0.0 2qj7mq3w4uxe.com
 0.0.0.0 360playvid.com
 0.0.0.0 360playvid.info
+0.0.0.0 3a2qi55fr.com
 0.0.0.0 42d61f012e27b36d53.com
 0.0.0.0 44tdfa.com
 0.0.0.0 4d5.net
@@ -13531,10 +13562,12 @@
 0.0.0.0 7c0616849b.com
 0.0.0.0 7ca78m3csgbrid7ge.com
 0.0.0.0 7imtcjd21.com
+0.0.0.0 7j2edrbxb.com
 0.0.0.0 7yn3oczzo.com
 0.0.0.0 864feb57ruary.com
 0.0.0.0 999.money
 0.0.0.0 9gg23.com
+0.0.0.0 9icysflbn.com
 0.0.0.0 9purdfe9xg.com
 0.0.0.0 a.mktw.net
 0.0.0.0 a.photowonder.net
@@ -14436,6 +14469,7 @@
 0.0.0.0 ahgxawophb.com
 0.0.0.0 ahjanhabmo.com
 0.0.0.0 ahjshyoqlo.com
+0.0.0.0 ahjuliten.com
 0.0.0.0 ahlcujguphr.com
 0.0.0.0 ahqpqpdjpj.com
 0.0.0.0 ahreprh2kfk8rfjr09.com
@@ -14965,6 +14999,7 @@
 0.0.0.0 bestcpmnetwork.com
 0.0.0.0 bestdisplayformats.com
 0.0.0.0 besthealthblog.pro
+0.0.0.0 bestlampjoy.com
 0.0.0.0 bestsearch.net
 0.0.0.0 bestzba.com
 0.0.0.0 bethinkparah.com
@@ -15658,6 +15693,7 @@
 0.0.0.0 d12czbu0tltgqq.cloudfront.net
 0.0.0.0 d13k7prax1yi04.cloudfront.net
 0.0.0.0 d15kdpgjg3unno.cloudfront.net
+0.0.0.0 d188m5xxcpvuue.cloudfront.net
 0.0.0.0 d18t35yyry2k49.cloudfront.net
 0.0.0.0 d1byvlfiet2h9q.cloudfront.net
 0.0.0.0 d1clmik8la8v65.cloudfront.net
@@ -16609,6 +16645,7 @@
 0.0.0.0 gycqna.com
 0.0.0.0 gyfumobo.com
 0.0.0.0 h2aek6rv0ard.com
+0.0.0.0 h4aock41f.com
 0.0.0.0 h78xb.pw
 0.0.0.0 habitsdemise.com
 0.0.0.0 hacbfyvvsw.com
@@ -16739,6 +16776,7 @@
 0.0.0.0 hizopforkajf.com
 0.0.0.0 hjfmaukf.com
 0.0.0.0 hkamixrrot.com
+0.0.0.0 hkilops.com
 0.0.0.0 hkoxlirf.com
 0.0.0.0 hlvndpqwiwnyq.com
 0.0.0.0 hmepalobfn.com
@@ -17666,6 +17704,7 @@
 0.0.0.0 modifyeyes.com
 0.0.0.0 modulepush.com
 0.0.0.0 moekyepkd.com
+0.0.0.0 moevideo.biz
 0.0.0.0 mogreet.com
 0.0.0.0 mojiva.com
 0.0.0.0 moldyicicle.com
@@ -18571,6 +18610,7 @@
 0.0.0.0 pubdirecte.com
 0.0.0.0 pubeshogback.uno
 0.0.0.0 pubianmending.space
+0.0.0.0 pubimageboard.com
 0.0.0.0 public.wedodemos.com
 0.0.0.0 publicationqueenfriends.com
 0.0.0.0 publicidad.elmundo.es
@@ -18667,6 +18707,7 @@
 0.0.0.0 qudlroasvoqp.com
 0.0.0.0 quenchskirmishcohere.com
 0.0.0.0 questaffiliates.net
+0.0.0.0 quhupyni2.com
 0.0.0.0 quickpasss.com
 0.0.0.0 quicksandear.com
 0.0.0.0 quietknowledge.com
@@ -19088,6 +19129,7 @@
 0.0.0.0 sessioncam.com
 0.0.0.0 sessionm.com
 0.0.0.0 setbackclassy.com
+0.0.0.0 setka.media
 0.0.0.0 sexadvertentiesite.nl
 0.0.0.0 sexcounter.com
 0.0.0.0 sexinyourcity.com
@@ -20235,6 +20277,7 @@
 0.0.0.0 withoutollock.store
 0.0.0.0 witnessremovalsoccer.com
 0.0.0.0 wizaly.com
+0.0.0.0 wizkrdxivl.com
 0.0.0.0 wkyswppiobnuqje.com
 0.0.0.0 wlmarketing.com
 0.0.0.0 wmiakcpceocm.com
@@ -20454,6 +20497,7 @@
 0.0.0.0 xgzyfpmfkxa.com
 0.0.0.0 xijahhhuzsr.com
 0.0.0.0 xijdiptaro.com
+0.0.0.0 xisihv12n.com
 0.0.0.0 xitajbwucquv.com
 0.0.0.0 xiti.com
 0.0.0.0 xius.com
@@ -21086,6 +21130,7 @@
 0.0.0.0 prooffactor.com
 0.0.0.0 propeller-tracking.com
 0.0.0.0 prx.wayfair.com
+0.0.0.0 push4site.com
 0.0.0.0 pv.medialead.de
 0.0.0.0 pv.pjtsu.com
 0.0.0.0 pv.sohu.com
@@ -21172,9 +21217,11 @@
 0.0.0.0 srmdata.com
 0.0.0.0 ssc.api.bbc.com
 0.0.0.0 ssm.codes
+0.0.0.0 st.top100.ru
 0.0.0.0 stat.analytiall.com
 0.0.0.0 stat.hackedonlinegames.com
 0.0.0.0 stat.i3.dmm.com
+0.0.0.0 stat.media
 0.0.0.0 stat.meitudata.com
 0.0.0.0 stat2.openinstall.io
 0.0.0.0 stathat.com

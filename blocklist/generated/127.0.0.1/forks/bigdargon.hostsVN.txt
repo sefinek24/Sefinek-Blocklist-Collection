@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 25 Sep 2023 11:04 UTC+7
-# Version: 2309251104
-# Blocked: 19,853 domains
+# Last modified: 27 Sep 2023 22:51 UTC+7
+# Version: 2309272251
+# Blocked: 19,892 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -2941,24 +2941,29 @@
 #[yandex.ru]
 127.0.0.1 adfstat.yandex.ru
 127.0.0.1 adsdk.yandex.ru
+127.0.0.1 advertising.yandex.ru
+127.0.0.1 amc.yandex.ru
 127.0.0.1 an.yandex.ru
 127.0.0.1 awaps.yandex.ru
 127.0.0.1 awsync.yandex.ru
 127.0.0.1 bs.yandex.ru
-127.0.0.1 clck.yandex.ru
 127.0.0.1 informer.yandex.ru
 127.0.0.1 mc.yandex.ru
 127.0.0.1 metrika.yandex.ru
-127.0.0.1 share.yandex.ru
+127.0.0.1 uaas.yandex.ru
 #[adfox.yandex.ru]
 127.0.0.1 adfox.yandex.ru
 127.0.0.1 matchid.adfox.yandex.ru
 #[appmetrica.yandex.ru]
 127.0.0.1 appmetrica.yandex.ru
 127.0.0.1 redirect.appmetrica.yandex.ru
+#[strm.yandex.ru]
+127.0.0.1 log.strm.yandex.ru
 #[yandex.net]
 127.0.0.1 awaps.yandex.net
 127.0.0.1 external-promo-metrics.yandex.net
+127.0.0.1 offerwall.yandex.net
+127.0.0.1 extmaps-api.yandex.net
 #[appmetrica.yandex.net]
 127.0.0.1 appmetrica.yandex.net
 127.0.0.1 report.appmetrica.yandex.net
@@ -2967,9 +2972,15 @@
 127.0.0.1 analytics.mobile.yandex.net
 127.0.0.1 banners-slb.mobile.yandex.net
 127.0.0.1 banners.mobile.yandex.net
+127.0.0.1 startup.mobile.yandex.net
+#[s3.yandex.net]
+127.0.0.1 abt.s3.yandex.net
 #[yandex.com]
-127.0.0.1 clck.yandex.com
 127.0.0.1 appmetrica.yandex.com
+127.0.0.1 clck.yandex.com
+127.0.0.1 mc.yandex.com
+#[yandex-net.ru]
+127.0.0.1 startup-mobile.ap.yandex-net.ru
 #[webvisor.org]
 127.0.0.1 an.webvisor.org
 127.0.0.1 mc.webvisor.org
@@ -11213,6 +11224,7 @@
 127.0.0.1 ads.livetv701.me
 127.0.0.1 ads.livetv703.me
 127.0.0.1 ads.livetv705.me
+127.0.0.1 ads.livetv708.me
 #[company-target.com]
 127.0.0.1 company-target.com
 127.0.0.1 api-staging.company-target.com
@@ -11489,6 +11501,24 @@
 127.0.0.1 cdn.pocpoc.io
 127.0.0.1 pocpoc.io
 127.0.0.1 px.pocpoc.io
+#[skcrtxr.com]
+127.0.0.1 bidder.skcrtxr.com
+127.0.0.1 cdn.skcrtxr.com
+127.0.0.1 skcrtxr.com
+#[digitaltarget.ru]
+127.0.0.1 digitaltarget.ru
+127.0.0.1 dmg.digitaltarget.ru
+127.0.0.1 tag.digitaltarget.ru
+#[lp4.io]
+127.0.0.1 lp4.io
+127.0.0.1 pp.lp4.io
+#[afp.ai]
+127.0.0.1 afp.ai
+127.0.0.1 cdn.afp.ai
+127.0.0.1 ssp.afp.ai
+#[infox.sg]
+127.0.0.1 infox.sg
+127.0.0.1 rb.infox.sg
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -13512,6 +13542,7 @@
 127.0.0.1 2qj7mq3w4uxe.com
 127.0.0.1 360playvid.com
 127.0.0.1 360playvid.info
+127.0.0.1 3a2qi55fr.com
 127.0.0.1 42d61f012e27b36d53.com
 127.0.0.1 44tdfa.com
 127.0.0.1 4d5.net
@@ -13531,10 +13562,12 @@
 127.0.0.1 7c0616849b.com
 127.0.0.1 7ca78m3csgbrid7ge.com
 127.0.0.1 7imtcjd21.com
+127.0.0.1 7j2edrbxb.com
 127.0.0.1 7yn3oczzo.com
 127.0.0.1 864feb57ruary.com
 127.0.0.1 999.money
 127.0.0.1 9gg23.com
+127.0.0.1 9icysflbn.com
 127.0.0.1 9purdfe9xg.com
 127.0.0.1 a.mktw.net
 127.0.0.1 a.photowonder.net
@@ -14436,6 +14469,7 @@
 127.0.0.1 ahgxawophb.com
 127.0.0.1 ahjanhabmo.com
 127.0.0.1 ahjshyoqlo.com
+127.0.0.1 ahjuliten.com
 127.0.0.1 ahlcujguphr.com
 127.0.0.1 ahqpqpdjpj.com
 127.0.0.1 ahreprh2kfk8rfjr09.com
@@ -14965,6 +14999,7 @@
 127.0.0.1 bestcpmnetwork.com
 127.0.0.1 bestdisplayformats.com
 127.0.0.1 besthealthblog.pro
+127.0.0.1 bestlampjoy.com
 127.0.0.1 bestsearch.net
 127.0.0.1 bestzba.com
 127.0.0.1 bethinkparah.com
@@ -15658,6 +15693,7 @@
 127.0.0.1 d12czbu0tltgqq.cloudfront.net
 127.0.0.1 d13k7prax1yi04.cloudfront.net
 127.0.0.1 d15kdpgjg3unno.cloudfront.net
+127.0.0.1 d188m5xxcpvuue.cloudfront.net
 127.0.0.1 d18t35yyry2k49.cloudfront.net
 127.0.0.1 d1byvlfiet2h9q.cloudfront.net
 127.0.0.1 d1clmik8la8v65.cloudfront.net
@@ -16609,6 +16645,7 @@
 127.0.0.1 gycqna.com
 127.0.0.1 gyfumobo.com
 127.0.0.1 h2aek6rv0ard.com
+127.0.0.1 h4aock41f.com
 127.0.0.1 h78xb.pw
 127.0.0.1 habitsdemise.com
 127.0.0.1 hacbfyvvsw.com
@@ -16739,6 +16776,7 @@
 127.0.0.1 hizopforkajf.com
 127.0.0.1 hjfmaukf.com
 127.0.0.1 hkamixrrot.com
+127.0.0.1 hkilops.com
 127.0.0.1 hkoxlirf.com
 127.0.0.1 hlvndpqwiwnyq.com
 127.0.0.1 hmepalobfn.com
@@ -17666,6 +17704,7 @@
 127.0.0.1 modifyeyes.com
 127.0.0.1 modulepush.com
 127.0.0.1 moekyepkd.com
+127.0.0.1 moevideo.biz
 127.0.0.1 mogreet.com
 127.0.0.1 mojiva.com
 127.0.0.1 moldyicicle.com
@@ -18571,6 +18610,7 @@
 127.0.0.1 pubdirecte.com
 127.0.0.1 pubeshogback.uno
 127.0.0.1 pubianmending.space
+127.0.0.1 pubimageboard.com
 127.0.0.1 public.wedodemos.com
 127.0.0.1 publicationqueenfriends.com
 127.0.0.1 publicidad.elmundo.es
@@ -18667,6 +18707,7 @@
 127.0.0.1 qudlroasvoqp.com
 127.0.0.1 quenchskirmishcohere.com
 127.0.0.1 questaffiliates.net
+127.0.0.1 quhupyni2.com
 127.0.0.1 quickpasss.com
 127.0.0.1 quicksandear.com
 127.0.0.1 quietknowledge.com
@@ -19088,6 +19129,7 @@
 127.0.0.1 sessioncam.com
 127.0.0.1 sessionm.com
 127.0.0.1 setbackclassy.com
+127.0.0.1 setka.media
 127.0.0.1 sexadvertentiesite.nl
 127.0.0.1 sexcounter.com
 127.0.0.1 sexinyourcity.com
@@ -20235,6 +20277,7 @@
 127.0.0.1 withoutollock.store
 127.0.0.1 witnessremovalsoccer.com
 127.0.0.1 wizaly.com
+127.0.0.1 wizkrdxivl.com
 127.0.0.1 wkyswppiobnuqje.com
 127.0.0.1 wlmarketing.com
 127.0.0.1 wmiakcpceocm.com
@@ -20454,6 +20497,7 @@
 127.0.0.1 xgzyfpmfkxa.com
 127.0.0.1 xijahhhuzsr.com
 127.0.0.1 xijdiptaro.com
+127.0.0.1 xisihv12n.com
 127.0.0.1 xitajbwucquv.com
 127.0.0.1 xiti.com
 127.0.0.1 xius.com
@@ -21086,6 +21130,7 @@
 127.0.0.1 prooffactor.com
 127.0.0.1 propeller-tracking.com
 127.0.0.1 prx.wayfair.com
+127.0.0.1 push4site.com
 127.0.0.1 pv.medialead.de
 127.0.0.1 pv.pjtsu.com
 127.0.0.1 pv.sohu.com
@@ -21172,9 +21217,11 @@
 127.0.0.1 srmdata.com
 127.0.0.1 ssc.api.bbc.com
 127.0.0.1 ssm.codes
+127.0.0.1 st.top100.ru
 127.0.0.1 stat.analytiall.com
 127.0.0.1 stat.hackedonlinegames.com
 127.0.0.1 stat.i3.dmm.com
+127.0.0.1 stat.media
 127.0.0.1 stat.meitudata.com
 127.0.0.1 stat2.openinstall.io
 127.0.0.1 stathat.com
