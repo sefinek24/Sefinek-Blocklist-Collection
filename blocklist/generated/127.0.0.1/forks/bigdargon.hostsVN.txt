@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 27 Sep 2023 22:51 UTC+7
-# Version: 2309272251
-# Blocked: 19,892 domains
+# Last modified: 11 Oct 2023 22:35 UTC+7
+# Version: 2310112235
+# Blocked: 19,918 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -529,6 +529,8 @@
 127.0.0.1 ads.yap.yahoo.com
 127.0.0.1 m.yap.yahoo.com
 127.0.0.1 us.ads.yap.yahoo.com
+#[adtech.yahooinc.com]
+127.0.0.1 adtech.yahooinc.com
 #[yahoo.co.jp]
 127.0.0.1 ard.yahoo.co.jp
 127.0.0.1 b90.yahoo.co.jp
@@ -9770,6 +9772,7 @@
 127.0.0.1 logservice1.hicloud.com
 127.0.0.1 metrics-dra.dt.hicloud.com
 127.0.0.1 metrics.data.hicloud.com
+127.0.0.1 metrics2.data.hicloud.com
 #[yourwebbars.com]
 127.0.0.1 cdn.yourwebbars.com
 127.0.0.1 yourwebbars.com
@@ -9841,6 +9844,7 @@
 127.0.0.1 st-eu.dynamicyield.com
 127.0.0.1 st.dynamicyield.com
 #[anythinktech.com]
+127.0.0.1 adx-os.anythinktech.com
 127.0.0.1 adx-sg.anythinktech.com
 127.0.0.1 adx.anythinktech.com
 127.0.0.1 anythinktech.com
@@ -11519,6 +11523,9 @@
 #[infox.sg]
 127.0.0.1 infox.sg
 127.0.0.1 rb.infox.sg
+#[hoyoverse.com]
+127.0.0.1 ad-log-upload-os.hoyoverse.com
+127.0.0.1 log-upload-os.hoyoverse.com
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -11963,6 +11970,8 @@
 127.0.0.1 page.widget.zalo.me
 #[zalo.ai]
 127.0.0.1 stats.lab.zalo.ai
+#[log.zalo.video]
+127.0.0.1 log.zalo.video
 #[zaloapp.com]
 127.0.0.1 centralized.zaloapp.com
 127.0.0.1 px.dmp.zaloapp.com
@@ -13175,6 +13184,7 @@
 127.0.0.1 quangcao.baovannghe.com.vn
 127.0.0.1 quangcao.fff.com.vn
 127.0.0.1 quangcao247.com.vn
+127.0.0.1 quangcaococcoc.vn
 127.0.0.1 quangcaodantri.vn
 127.0.0.1 r.tinmoi24.vn
 127.0.0.1 realclick.vn
@@ -13217,6 +13227,7 @@
 127.0.0.1 vipads.live
 127.0.0.1 vlxx.host
 127.0.0.1 vnadssb.com
+127.0.0.1 webpush.vn
 127.0.0.1 widget.headlines.pw
 127.0.0.1 www.12signup.com
 127.0.0.1 www.adt.com.vn
@@ -13232,7 +13243,6 @@
 127.0.0.1 www.vipads.live
 127.0.0.1 xads.joboko.com
 127.0.0.1 xmadsapi.joboko.com
-127.0.0.1 quangcaococcoc.vn
 # --- Block trackingVN ---
 127.0.0.1 360.anatic.net
 127.0.0.1 a.ladipage.com
@@ -13392,6 +13402,8 @@
 127.0.0.1 logv3.metric.vn
 127.0.0.1 marketing.itgeek.vn
 127.0.0.1 matomo.quan.hoabinh.vn
+127.0.0.1 matomo.vietlottsms.vn
+127.0.0.1 mautic-learn.teky.edu.vn
 127.0.0.1 mautic.200lab.io
 127.0.0.1 mautic.teky.edu.vn
 127.0.0.1 mkt.hoanghamobile.com
@@ -13480,6 +13492,7 @@
 127.0.0.1 tracking.vht.com.vn
 127.0.0.1 tracking.vietbao.vn
 127.0.0.1 trackingapi.foody.vn
+127.0.0.1 trackingsea.zingplay.com
 127.0.0.1 trackingvn.zingplay.com
 127.0.0.1 trackity.tiki.vn
 127.0.0.1 traffic.vietnhan.co
@@ -14209,6 +14222,7 @@
 127.0.0.1 adserve.ams.rhythmxchange.com
 127.0.0.1 adserver-e7.com
 127.0.0.1 adserver.adultfriendfinder.com
+127.0.0.1 adserver.adverty.com
 127.0.0.1 adserver.barrapunto.com
 127.0.0.1 adserver.beggarspromo.com
 127.0.0.1 adserver.bizhat.com
@@ -14343,10 +14357,12 @@
 127.0.0.1 adverserve.net
 127.0.0.1 advert.bayarea.com
 127.0.0.1 advert360.com
+127.0.0.1 advertica-cdn2.com
 127.0.0.1 adverticum.com
 127.0.0.1 adverticum.net
 127.0.0.1 adverticus.de
 127.0.0.1 advertise.com
+127.0.0.1 advertise.ldplayer.net
 127.0.0.1 advertiseireland.com
 127.0.0.1 advertisementafterthought.com
 127.0.0.1 advertiseru.net
@@ -15222,6 +15238,7 @@
 127.0.0.1 bzalmaodlp.com
 127.0.0.1 bzwdksdngjhay.com
 127.0.0.1 bzwo2lmwioxa.com
+127.0.0.1 c.bannerflow.net
 127.0.0.1 c.bigmir.net
 127.0.0.1 c.bigmuzzytrckr.com
 127.0.0.1 c.cdn-server.top
@@ -15449,8 +15466,10 @@
 127.0.0.1 clickopop1000.com
 127.0.0.1 clickreport.online
 127.0.0.1 clicks.equantum.com
+127.0.0.1 clicks.eventbrite.com
 127.0.0.1 clicks.mods.de
 127.0.0.1 clickserve.cc-dt.com
+127.0.0.1 clicksmint.site
 127.0.0.1 clicksor.com
 127.0.0.1 clicktag.de
 127.0.0.1 clickthruserver.com
@@ -15568,6 +15587,7 @@
 127.0.0.1 copterezba.com
 127.0.0.1 copycarpenter.com
 127.0.0.1 copyrightaccesscontrols.com
+127.0.0.1 core.royalads.net
 127.0.0.1 coreidkanaka.digital
 127.0.0.1 coremetrics.com
 127.0.0.1 coretalk.co
@@ -15641,6 +15661,8 @@
 127.0.0.1 crispwireless.com
 127.0.0.1 critictruck.com
 127.0.0.1 crittercorupay.com
+127.0.0.1 crmpt.livejasmin.com
+127.0.0.1 crmt.livejasmin.com
 127.0.0.1 croakdisconnectedclaw.com
 127.0.0.1 croniesobli.com
 127.0.0.1 crosspromo.voodoo.io
@@ -16206,6 +16228,7 @@
 127.0.0.1 exogripper.com
 127.0.0.1 exomonyf.com
 127.0.0.1 exonymayuyu.com
+127.0.0.1 expdirclk.com
 127.0.0.1 expensepurpose.com
 127.0.0.1 experteerads.com
 127.0.0.1 expertnifg.com
@@ -16483,6 +16506,7 @@
 127.0.0.1 geo.digitalpoint.com
 127.0.0.1 geobanner.adultfriendfinder.com
 127.0.0.1 geovisite.com
+127.0.0.1 get-here-click.xyz
 127.0.0.1 get2m5sgstohne.com
 127.0.0.1 getadx.com
 127.0.0.1 getalinkandshare.com
@@ -17156,6 +17180,7 @@
 127.0.0.1 jumptap.com
 127.0.0.1 jungianoxamide.space
 127.0.0.1 junkieswudge.com
+127.0.0.1 junmediadirect1.com
 127.0.0.1 junotherome.com
 127.0.0.1 juratoroutsees.uno
 127.0.0.1 juringupstage.com
@@ -17666,6 +17691,7 @@
 127.0.0.1 mkkvprwskq.com
 127.0.0.1 mkzqqhaakt.com
 127.0.0.1 mlm.de
+127.0.0.1 mlsend.com
 127.0.0.1 mlvgxzenoiz.com
 127.0.0.1 mmaglobal.com
 127.0.0.1 mmccint.com
@@ -18472,6 +18498,7 @@
 127.0.0.1 popruexo.com
 127.0.0.1 popsoffer.com
 127.0.0.1 popub.com
+127.0.0.1 popunder.bid
 127.0.0.1 popunder.ru
 127.0.0.1 popupblockergold.com
 127.0.0.1 popupmoney.com
@@ -19731,6 +19758,7 @@
 127.0.0.1 toplist.pornhost.com
 127.0.0.1 toplistcity.com
 127.0.0.1 topmmorpgsites.com
+127.0.0.1 toponadss.com
 127.0.0.1 toprebates.com
 127.0.0.1 toprevenuecpmnetwork.com
 127.0.0.1 topsearcher.com
@@ -21027,7 +21055,6 @@
 127.0.0.1 lngtd.com
 127.0.0.1 log-eap-sg.coloros.com
 127.0.0.1 log-upload-eur.mihoyo.com
-127.0.0.1 log-upload-os.hoyoverse.com
 127.0.0.1 log-upload-os.mihoyo.com
 127.0.0.1 log-upload.mihoyo.com
 127.0.0.1 log.ajunews.com
@@ -21057,6 +21084,7 @@
 127.0.0.1 mads.dailymail.co.uk
 127.0.0.1 maper.info
 127.0.0.1 masasaudi.com
+127.0.0.1 matomo.openstreetmap.org
 127.0.0.1 mautic.bdev.co.th
 127.0.0.1 measure.admiralmarkets.com
 127.0.0.1 media-match.com
@@ -21333,6 +21361,7 @@
 127.0.0.1 truehits.in.th
 127.0.0.1 u-on.eu
 127.0.0.1 ua.indianexpress.com
+127.0.0.1 ubt-sin.tripcdn.com
 127.0.0.1 ubuyanalytics.ubuy.com
 127.0.0.1 uciservice.com
 127.0.0.1 uie.data.cbc.ca

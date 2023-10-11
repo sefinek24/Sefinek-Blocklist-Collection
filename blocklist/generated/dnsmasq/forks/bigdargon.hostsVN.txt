@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 27 Sep 2023 22:51 UTC+7
-# Version: 2309272251
-# Blocked: 19,892 domains
+# Last modified: 11 Oct 2023 22:35 UTC+7
+# Version: 2310112235
+# Blocked: 19,918 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -529,6 +529,8 @@ server=/ads-verify.yap.yahoo.com/
 server=/ads.yap.yahoo.com/
 server=/m.yap.yahoo.com/
 server=/us.ads.yap.yahoo.com/
+#[adtech.yahooinc.com]
+server=/adtech.yahooinc.com/
 #[yahoo.co.jp]
 server=/ard.yahoo.co.jp/
 server=/b90.yahoo.co.jp/
@@ -9770,6 +9772,7 @@ server=/logservice.hicloud.com/
 server=/logservice1.hicloud.com/
 server=/metrics-dra.dt.hicloud.com/
 server=/metrics.data.hicloud.com/
+server=/metrics2.data.hicloud.com/
 #[yourwebbars.com]
 server=/cdn.yourwebbars.com/
 server=/yourwebbars.com/
@@ -9841,6 +9844,7 @@ server=/px.dynamicyield.com/
 server=/st-eu.dynamicyield.com/
 server=/st.dynamicyield.com/
 #[anythinktech.com]
+server=/adx-os.anythinktech.com/
 server=/adx-sg.anythinktech.com/
 server=/adx.anythinktech.com/
 server=/anythinktech.com/
@@ -11519,6 +11523,9 @@ server=/ssp.afp.ai/
 #[infox.sg]
 server=/infox.sg/
 server=/rb.infox.sg/
+#[hoyoverse.com]
+server=/ad-log-upload-os.hoyoverse.com/
+server=/log-upload-os.hoyoverse.com/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -11963,6 +11970,8 @@ server=/api.widget.zalo.me/
 server=/page.widget.zalo.me/
 #[zalo.ai]
 server=/stats.lab.zalo.ai/
+#[log.zalo.video]
+server=/log.zalo.video/
 #[zaloapp.com]
 server=/centralized.zaloapp.com/
 server=/px.dmp.zaloapp.com/
@@ -13175,6 +13184,7 @@ server=/quangcao.24h.com.vn/
 server=/quangcao.baovannghe.com.vn/
 server=/quangcao.fff.com.vn/
 server=/quangcao247.com.vn/
+server=/quangcaococcoc.vn/
 server=/quangcaodantri.vn/
 server=/r.tinmoi24.vn/
 server=/realclick.vn/
@@ -13217,6 +13227,7 @@ server=/vinaads.vn/
 server=/vipads.live/
 server=/vlxx.host/
 server=/vnadssb.com/
+server=/webpush.vn/
 server=/widget.headlines.pw/
 server=/www.12signup.com/
 server=/www.adt.com.vn/
@@ -13232,7 +13243,6 @@ server=/www.vietdorje.com/
 server=/www.vipads.live/
 server=/xads.joboko.com/
 server=/xmadsapi.joboko.com/
-server=/quangcaococcoc.vn/
 # --- Block trackingVN ---
 server=/360.anatic.net/
 server=/a.ladipage.com/
@@ -13392,6 +13402,8 @@ server=/logscafef.channelvn.net/
 server=/logv3.metric.vn/
 server=/marketing.itgeek.vn/
 server=/matomo.quan.hoabinh.vn/
+server=/matomo.vietlottsms.vn/
+server=/mautic-learn.teky.edu.vn/
 server=/mautic.200lab.io/
 server=/mautic.teky.edu.vn/
 server=/mkt.hoanghamobile.com/
@@ -13480,6 +13492,7 @@ server=/tracking.vegaid.vn/
 server=/tracking.vht.com.vn/
 server=/tracking.vietbao.vn/
 server=/trackingapi.foody.vn/
+server=/trackingsea.zingplay.com/
 server=/trackingvn.zingplay.com/
 server=/trackity.tiki.vn/
 server=/traffic.vietnhan.co/
@@ -14209,6 +14222,7 @@ server=/adsensecustomsearchads.com/
 server=/adserve.ams.rhythmxchange.com/
 server=/adserver-e7.com/
 server=/adserver.adultfriendfinder.com/
+server=/adserver.adverty.com/
 server=/adserver.barrapunto.com/
 server=/adserver.beggarspromo.com/
 server=/adserver.bizhat.com/
@@ -14343,10 +14357,12 @@ server=/adverdirect.com/
 server=/adverserve.net/
 server=/advert.bayarea.com/
 server=/advert360.com/
+server=/advertica-cdn2.com/
 server=/adverticum.com/
 server=/adverticum.net/
 server=/adverticus.de/
 server=/advertise.com/
+server=/advertise.ldplayer.net/
 server=/advertiseireland.com/
 server=/advertisementafterthought.com/
 server=/advertiseru.net/
@@ -15222,6 +15238,7 @@ server=/byrledmtscmd.com/
 server=/bzalmaodlp.com/
 server=/bzwdksdngjhay.com/
 server=/bzwo2lmwioxa.com/
+server=/c.bannerflow.net/
 server=/c.bigmir.net/
 server=/c.bigmuzzytrckr.com/
 server=/c.cdn-server.top/
@@ -15449,8 +15466,10 @@ server=/clickonometrics.pl/
 server=/clickopop1000.com/
 server=/clickreport.online/
 server=/clicks.equantum.com/
+server=/clicks.eventbrite.com/
 server=/clicks.mods.de/
 server=/clickserve.cc-dt.com/
+server=/clicksmint.site/
 server=/clicksor.com/
 server=/clicktag.de/
 server=/clickthruserver.com/
@@ -15568,6 +15587,7 @@ server=/copperchickens.com/
 server=/copterezba.com/
 server=/copycarpenter.com/
 server=/copyrightaccesscontrols.com/
+server=/core.royalads.net/
 server=/coreidkanaka.digital/
 server=/coremetrics.com/
 server=/coretalk.co/
@@ -15641,6 +15661,8 @@ server=/crispmedia.com/
 server=/crispwireless.com/
 server=/critictruck.com/
 server=/crittercorupay.com/
+server=/crmpt.livejasmin.com/
+server=/crmt.livejasmin.com/
 server=/croakdisconnectedclaw.com/
 server=/croniesobli.com/
 server=/crosspromo.voodoo.io/
@@ -16206,6 +16228,7 @@ server=/exofrwe.com/
 server=/exogripper.com/
 server=/exomonyf.com/
 server=/exonymayuyu.com/
+server=/expdirclk.com/
 server=/expensepurpose.com/
 server=/experteerads.com/
 server=/expertnifg.com/
@@ -16483,6 +16506,7 @@ server=/gentlypromote.com/
 server=/geo.digitalpoint.com/
 server=/geobanner.adultfriendfinder.com/
 server=/geovisite.com/
+server=/get-here-click.xyz/
 server=/get2m5sgstohne.com/
 server=/getadx.com/
 server=/getalinkandshare.com/
@@ -17156,6 +17180,7 @@ server=/julysystems.com/
 server=/jumptap.com/
 server=/jungianoxamide.space/
 server=/junkieswudge.com/
+server=/junmediadirect1.com/
 server=/junotherome.com/
 server=/juratoroutsees.uno/
 server=/juringupstage.com/
@@ -17666,6 +17691,7 @@ server=/mkigmocizon.com/
 server=/mkkvprwskq.com/
 server=/mkzqqhaakt.com/
 server=/mlm.de/
+server=/mlsend.com/
 server=/mlvgxzenoiz.com/
 server=/mmaglobal.com/
 server=/mmccint.com/
@@ -18472,6 +18498,7 @@ server=/poppinhelodes.store/
 server=/popruexo.com/
 server=/popsoffer.com/
 server=/popub.com/
+server=/popunder.bid/
 server=/popunder.ru/
 server=/popupblockergold.com/
 server=/popupmoney.com/
@@ -19731,6 +19758,7 @@ server=/toplist.cz/
 server=/toplist.pornhost.com/
 server=/toplistcity.com/
 server=/topmmorpgsites.com/
+server=/toponadss.com/
 server=/toprebates.com/
 server=/toprevenuecpmnetwork.com/
 server=/topsearcher.com/
@@ -21027,7 +21055,6 @@ server=/litix.io/
 server=/lngtd.com/
 server=/log-eap-sg.coloros.com/
 server=/log-upload-eur.mihoyo.com/
-server=/log-upload-os.hoyoverse.com/
 server=/log-upload-os.mihoyo.com/
 server=/log-upload.mihoyo.com/
 server=/log.ajunews.com/
@@ -21057,6 +21084,7 @@ server=/lptag.liveperson.net/
 server=/mads.dailymail.co.uk/
 server=/maper.info/
 server=/masasaudi.com/
+server=/matomo.openstreetmap.org/
 server=/mautic.bdev.co.th/
 server=/measure.admiralmarkets.com/
 server=/media-match.com/
@@ -21333,6 +21361,7 @@ server=/trk.clinch.co/
 server=/truehits.in.th/
 server=/u-on.eu/
 server=/ua.indianexpress.com/
+server=/ubt-sin.tripcdn.com/
 server=/ubuyanalytics.ubuy.com/
 server=/uciservice.com/
 server=/uie.data.cbc.ca/

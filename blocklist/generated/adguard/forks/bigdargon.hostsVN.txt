@@ -1,7 +1,7 @@
 ! Title: hostsVN
-! Last modified: 27 Sep 2023 22:51 UTC+7
-! Version: 2309272251
-! Blocked: 19,892 domains
+! Last modified: 11 Oct 2023 22:35 UTC+7
+! Version: 2310112235
+! Blocked: 19,918 domains
 ! Please report any ads or problems on GitHub
 ! Homepage: https://bigdargon.github.io/hostsVN/
 ! GitHub: https://github.com/bigdargon/hostsVN
@@ -529,6 +529,8 @@
 ||ads.yap.yahoo.com^
 ||m.yap.yahoo.com^
 ||us.ads.yap.yahoo.com^
+![adtech.yahooinc.com]
+||adtech.yahooinc.com^
 ![yahoo.co.jp]
 ||ard.yahoo.co.jp^
 ||b90.yahoo.co.jp^
@@ -9770,6 +9772,7 @@
 ||logservice1.hicloud.com^
 ||metrics-dra.dt.hicloud.com^
 ||metrics.data.hicloud.com^
+||metrics2.data.hicloud.com^
 ![yourwebbars.com]
 ||cdn.yourwebbars.com^
 ||yourwebbars.com^
@@ -9841,6 +9844,7 @@
 ||st-eu.dynamicyield.com^
 ||st.dynamicyield.com^
 ![anythinktech.com]
+||adx-os.anythinktech.com^
 ||adx-sg.anythinktech.com^
 ||adx.anythinktech.com^
 ||anythinktech.com^
@@ -11519,6 +11523,9 @@
 ![infox.sg]
 ||infox.sg^
 ||rb.infox.sg^
+![hoyoverse.com]
+||ad-log-upload-os.hoyoverse.com^
+||log-upload-os.hoyoverse.com^
 ! --- GroupVN block ---
 ![adtimaserver]
 ||adtimaserver.vn^
@@ -11963,6 +11970,8 @@
 ||page.widget.zalo.me^
 ![zalo.ai]
 ||stats.lab.zalo.ai^
+![log.zalo.video]
+||log.zalo.video^
 ![zaloapp.com]
 ||centralized.zaloapp.com^
 ||px.dmp.zaloapp.com^
@@ -13175,6 +13184,7 @@
 ||quangcao.baovannghe.com.vn^
 ||quangcao.fff.com.vn^
 ||quangcao247.com.vn^
+||quangcaococcoc.vn^
 ||quangcaodantri.vn^
 ||r.tinmoi24.vn^
 ||realclick.vn^
@@ -13217,6 +13227,7 @@
 ||vipads.live^
 ||vlxx.host^
 ||vnadssb.com^
+||webpush.vn^
 ||widget.headlines.pw^
 ||www.12signup.com^
 ||www.adt.com.vn^
@@ -13232,7 +13243,6 @@
 ||www.vipads.live^
 ||xads.joboko.com^
 ||xmadsapi.joboko.com^
-||quangcaococcoc.vn^
 ! --- Block trackingVN ---
 ||360.anatic.net^
 ||a.ladipage.com^
@@ -13392,6 +13402,8 @@
 ||logv3.metric.vn^
 ||marketing.itgeek.vn^
 ||matomo.quan.hoabinh.vn^
+||matomo.vietlottsms.vn^
+||mautic-learn.teky.edu.vn^
 ||mautic.200lab.io^
 ||mautic.teky.edu.vn^
 ||mkt.hoanghamobile.com^
@@ -13480,6 +13492,7 @@
 ||tracking.vht.com.vn^
 ||tracking.vietbao.vn^
 ||trackingapi.foody.vn^
+||trackingsea.zingplay.com^
 ||trackingvn.zingplay.com^
 ||trackity.tiki.vn^
 ||traffic.vietnhan.co^
@@ -14209,6 +14222,7 @@
 ||adserve.ams.rhythmxchange.com^
 ||adserver-e7.com^
 ||adserver.adultfriendfinder.com^
+||adserver.adverty.com^
 ||adserver.barrapunto.com^
 ||adserver.beggarspromo.com^
 ||adserver.bizhat.com^
@@ -14343,10 +14357,12 @@
 ||adverserve.net^
 ||advert.bayarea.com^
 ||advert360.com^
+||advertica-cdn2.com^
 ||adverticum.com^
 ||adverticum.net^
 ||adverticus.de^
 ||advertise.com^
+||advertise.ldplayer.net^
 ||advertiseireland.com^
 ||advertisementafterthought.com^
 ||advertiseru.net^
@@ -15222,6 +15238,7 @@
 ||bzalmaodlp.com^
 ||bzwdksdngjhay.com^
 ||bzwo2lmwioxa.com^
+||c.bannerflow.net^
 ||c.bigmir.net^
 ||c.bigmuzzytrckr.com^
 ||c.cdn-server.top^
@@ -15449,8 +15466,10 @@
 ||clickopop1000.com^
 ||clickreport.online^
 ||clicks.equantum.com^
+||clicks.eventbrite.com^
 ||clicks.mods.de^
 ||clickserve.cc-dt.com^
+||clicksmint.site^
 ||clicksor.com^
 ||clicktag.de^
 ||clickthruserver.com^
@@ -15568,6 +15587,7 @@
 ||copterezba.com^
 ||copycarpenter.com^
 ||copyrightaccesscontrols.com^
+||core.royalads.net^
 ||coreidkanaka.digital^
 ||coremetrics.com^
 ||coretalk.co^
@@ -15641,6 +15661,8 @@
 ||crispwireless.com^
 ||critictruck.com^
 ||crittercorupay.com^
+||crmpt.livejasmin.com^
+||crmt.livejasmin.com^
 ||croakdisconnectedclaw.com^
 ||croniesobli.com^
 ||crosspromo.voodoo.io^
@@ -16206,6 +16228,7 @@
 ||exogripper.com^
 ||exomonyf.com^
 ||exonymayuyu.com^
+||expdirclk.com^
 ||expensepurpose.com^
 ||experteerads.com^
 ||expertnifg.com^
@@ -16483,6 +16506,7 @@
 ||geo.digitalpoint.com^
 ||geobanner.adultfriendfinder.com^
 ||geovisite.com^
+||get-here-click.xyz^
 ||get2m5sgstohne.com^
 ||getadx.com^
 ||getalinkandshare.com^
@@ -17156,6 +17180,7 @@
 ||jumptap.com^
 ||jungianoxamide.space^
 ||junkieswudge.com^
+||junmediadirect1.com^
 ||junotherome.com^
 ||juratoroutsees.uno^
 ||juringupstage.com^
@@ -17666,6 +17691,7 @@
 ||mkkvprwskq.com^
 ||mkzqqhaakt.com^
 ||mlm.de^
+||mlsend.com^
 ||mlvgxzenoiz.com^
 ||mmaglobal.com^
 ||mmccint.com^
@@ -18472,6 +18498,7 @@
 ||popruexo.com^
 ||popsoffer.com^
 ||popub.com^
+||popunder.bid^
 ||popunder.ru^
 ||popupblockergold.com^
 ||popupmoney.com^
@@ -19731,6 +19758,7 @@
 ||toplist.pornhost.com^
 ||toplistcity.com^
 ||topmmorpgsites.com^
+||toponadss.com^
 ||toprebates.com^
 ||toprevenuecpmnetwork.com^
 ||topsearcher.com^
@@ -21027,7 +21055,6 @@
 ||lngtd.com^
 ||log-eap-sg.coloros.com^
 ||log-upload-eur.mihoyo.com^
-||log-upload-os.hoyoverse.com^
 ||log-upload-os.mihoyo.com^
 ||log-upload.mihoyo.com^
 ||log.ajunews.com^
@@ -21057,6 +21084,7 @@
 ||mads.dailymail.co.uk^
 ||maper.info^
 ||masasaudi.com^
+||matomo.openstreetmap.org^
 ||mautic.bdev.co.th^
 ||measure.admiralmarkets.com^
 ||media-match.com^
@@ -21333,6 +21361,7 @@
 ||truehits.in.th^
 ||u-on.eu^
 ||ua.indianexpress.com^
+||ubt-sin.tripcdn.com^
 ||ubuyanalytics.ubuy.com^
 ||uciservice.com^
 ||uie.data.cbc.ca^
