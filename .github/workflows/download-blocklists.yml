@@ -13,11 +13,12 @@ on:
 jobs:
   download:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          ref: refs/heads/main
+          ref: main
 
       - name: Download blocklists
         run: bash bash/download.sh
