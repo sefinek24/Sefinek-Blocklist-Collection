@@ -20,12 +20,11 @@ const getAllTxtFiles = require('./functions/getAllTxtFiles.js');
 		const existingDomains = new Set();
 		const fileContents = await readFile(file, 'utf8');
 		fileContents.split('\n').forEach(line => {
-			if (line.startsWith('0.0.0.0 ')) {
-				const domain = line.replace(/^0\.0\.0\.0\s+/g, '');
+			if (line.startsWith('0.0.0.0 ') || line.startsWith('127.0.0.1 ') || line.startsWith('server=/') || line.startsWith('||')) {
+				const domain = line.replace(/^(0\.0\.0\.0|127\.0\.0\.1|server=\/|^\|\|)\s+/g, '');
 				existingDomains.add(domain);
 			}
 		});
-
 
 		try {
 			console.warn(kleur.green('[INFO]:'), `Saving the file: ${file}`);
@@ -40,7 +39,7 @@ const getAllTxtFiles = require('./functions/getAllTxtFiles.js');
 				'utf8',
 			);
 		} catch (err) {
-			console.warn(kleur.red('[ERROR]:'), err.message);
+			console.warn(kleur.red('[ERROR]:'), err.stack);
 		}
 	}));
 })();
