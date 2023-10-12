@@ -9,8 +9,6 @@ on:
     paths:
       - '**.txt'
 
-  workflow_dispatch:
-
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -55,7 +53,7 @@ jobs:
         run: node scripts/generate-dnsmasq.js
 
       - name: Count domains in the files
-        run: node scripts/update-number-of-domains.js
+        run: node scripts/update-number-of-domains.js --ignore-question
 
       # - name: Show files
       #   run: ls -R /home/runner/work

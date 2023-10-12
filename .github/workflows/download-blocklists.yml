@@ -8,8 +8,6 @@ on:
     # - cron: '0 * * * *' # At minute 0.
     - cron: '0 */2 * * *' # At minute 0 past every 2nd hour.
 
-  workflow_dispatch:
-
 jobs:
   download:
     runs-on: ubuntu-latest
@@ -58,7 +56,7 @@ jobs:
         run: node scripts/generate-dnsmasq.js
 
       - name: Count domains in the files
-        run: node scripts/update-number-of-domains.js
+        run: node scripts/update-number-of-domains.js --ignore-question
 
       # - name: Show files
       #   run: ls -R /home/runner/work
