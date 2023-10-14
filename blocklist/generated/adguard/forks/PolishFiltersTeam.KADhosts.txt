@@ -1,7 +1,7 @@
 ! Title: KADhosts
 ! Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-! Last modified: Sat, 14 Oct 2023, 14:29 UTC+02:00
-! Version: 2023.10.14.1
+! Last modified: Sat, 14 Oct 2023, 18:19 UTC+02:00
+! Version: 2023.10.14.2
 ! Expires: 2 days
 ! Website: https://kadantiscam.netlify.app/
 ! Based on: https://github.com/FiltersHeroes/KAD
@@ -5857,6 +5857,7 @@
 ||44efe768792.chefs-kitchen.co.uk^
 ||45-125-66-72.cprapid.com^
 ||45-125-66-155.cprapid.com^
+||45-gdj.cfd^
 ||45baee61.chefs-kitchen.co.uk^
 ||45e713e0a80.bakerstreet.uk.com^
 ||045zov0vxv.zcyrek.com.pl^
@@ -8049,6 +8050,8 @@
 ||allegrolokalnie.proste-zamowienia.pl^
 ||allegrolokalnie.prywatny-zakup.pl^
 ||allegrolokalnie.przelew-online24.pl^
+||allegrolokalnie.przesylka-bezpieczna24.pl^
+||allegrolokalnie.przesylka-szybka24.pl^
 ||allegrolokalnie.przyjazne-zakupy.pl^
 ||allegrolokalnie.skuteczne-zakupy.pl^
 ||allegrolokalnie.sprawdzona-platnosc.pl^
@@ -8074,6 +8077,7 @@
 ||allegrolokalnie.zamow-produkt.pl^
 ||allegrolokalnie.zamow-przedmiot.pl^
 ||allegrolokalnie.zamow-przesylke.pl^
+||allegrolokalnie.zamow-szybko.pl^
 ||allegrolokalnie.zamowienie-online24.pl^
 ||allegrolokalnie.zaplac-bezpieczenie.pl^
 ||allegrolokalnie.zaplac-bezpiecznie24.pl^
@@ -9675,9 +9679,11 @@
 ||autogielda-parzyszek.pl^
 ||autogielda-pawelczuk.pl^
 ||autogielda-roman.pl^
+||autogielda-sobakowski.pl^
 ||autogielda-tomanski.pl^
 ||autogielda-tomaszczuk.pl^
 ||autogielda-tomaszek.pl^
+||autogielda-traczek.pl^
 ||autohandel-banaszek.pl^
 ||autohandel-barczynski.pl^
 ||autohandel-turek.pl^
@@ -9708,6 +9714,7 @@
 ||autotimbre.info^
 ||autotrade-group.com^
 ||autotradeportal.com^
+||autum.sbs^
 ||autumn-bird-8417.on.fleek.co^
 ||autumnlicious.com^
 ||auxjockey.com^
@@ -20801,6 +20808,7 @@
 ||fineornot.site^
 ||finestc.cfd^
 ||finestdeal.store^
+||finesty.sbs^
 ||finetopcreate.com^
 ||finews.live^
 ||finexchnge.com^
@@ -30171,6 +30179,7 @@
 ||lokal101.com^
 ||lokal-market.pl^
 ||lokalalergo.com^
+||lokalna-sprzedaz.pl^
 ||lokalne-fakty24h.eu5.net^
 ||lokalne-samochody.pl^
 ||lokalne-wydarzenia24.eu5.net^
@@ -32624,6 +32633,7 @@
 ||motoryzacja-zachodnia.pl^
 ||motoryzacjadlaciebie.pl^
 ||motoryzacjapolska24.net.pl^
+||motoryzacjazyciem.pl^
 ||motoryzacje-info.pl^
 ||motoryzacyjnie24.com.pl^
 ||motywacjadoprzygoda.shop^
@@ -39870,7 +39880,9 @@
 ||przestanpracowaczaduzo.site^
 ||przestrzeennosc.site^
 ||przesylek-sledzenie.com^
+||przesylka-bezpieczna24.pl^
 ||przesylka-oix.com^
+||przesylka-szybka24.pl^
 ||przesylkaolx.pl^
 ||przetwarzanie-bezposrednie.site^
 ||przetwarzanie-bezposrednie.xyz^
@@ -51658,6 +51670,7 @@
 ||www.44efe768792.chefs-kitchen.co.uk^
 ||www.45-125-66-72.cprapid.com^
 ||www.45-125-66-155.cprapid.com^
+||www.45-gdj.cfd^
 ||www.45baee61.chefs-kitchen.co.uk^
 ||www.45e713e0a80.bakerstreet.uk.com^
 ||www.045zov0vxv.zcyrek.com.pl^
@@ -53850,6 +53863,8 @@
 ||www.allegrolokalnie.proste-zamowienia.pl^
 ||www.allegrolokalnie.prywatny-zakup.pl^
 ||www.allegrolokalnie.przelew-online24.pl^
+||www.allegrolokalnie.przesylka-bezpieczna24.pl^
+||www.allegrolokalnie.przesylka-szybka24.pl^
 ||www.allegrolokalnie.przyjazne-zakupy.pl^
 ||www.allegrolokalnie.skuteczne-zakupy.pl^
 ||www.allegrolokalnie.sprawdzona-platnosc.pl^
@@ -53875,6 +53890,7 @@
 ||www.allegrolokalnie.zamow-produkt.pl^
 ||www.allegrolokalnie.zamow-przedmiot.pl^
 ||www.allegrolokalnie.zamow-przesylke.pl^
+||www.allegrolokalnie.zamow-szybko.pl^
 ||www.allegrolokalnie.zamowienie-online24.pl^
 ||www.allegrolokalnie.zaplac-bezpieczenie.pl^
 ||www.allegrolokalnie.zaplac-bezpiecznie24.pl^
@@ -55476,9 +55492,11 @@
 ||www.autogielda-parzyszek.pl^
 ||www.autogielda-pawelczuk.pl^
 ||www.autogielda-roman.pl^
+||www.autogielda-sobakowski.pl^
 ||www.autogielda-tomanski.pl^
 ||www.autogielda-tomaszczuk.pl^
 ||www.autogielda-tomaszek.pl^
+||www.autogielda-traczek.pl^
 ||www.autohandel-banaszek.pl^
 ||www.autohandel-barczynski.pl^
 ||www.autohandel-turek.pl^
@@ -55509,6 +55527,7 @@
 ||www.autotimbre.info^
 ||www.autotrade-group.com^
 ||www.autotradeportal.com^
+||www.autum.sbs^
 ||www.autumn-bird-8417.on.fleek.co^
 ||www.autumnlicious.com^
 ||www.auxjockey.com^
@@ -66602,6 +66621,7 @@
 ||www.fineornot.site^
 ||www.finestc.cfd^
 ||www.finestdeal.store^
+||www.finesty.sbs^
 ||www.finetopcreate.com^
 ||www.finews.live^
 ||www.finexchnge.com^
@@ -75972,6 +75992,7 @@
 ||www.lokal101.com^
 ||www.lokal-market.pl^
 ||www.lokalalergo.com^
+||www.lokalna-sprzedaz.pl^
 ||www.lokalne-fakty24h.eu5.net^
 ||www.lokalne-samochody.pl^
 ||www.lokalne-wydarzenia24.eu5.net^
@@ -78425,6 +78446,7 @@
 ||www.motoryzacja-zachodnia.pl^
 ||www.motoryzacjadlaciebie.pl^
 ||www.motoryzacjapolska24.net.pl^
+||www.motoryzacjazyciem.pl^
 ||www.motoryzacje-info.pl^
 ||www.motoryzacyjnie24.com.pl^
 ||www.motywacjadoprzygoda.shop^
@@ -85567,7 +85589,9 @@
 ||www.przestanpracowaczaduzo.site^
 ||www.przestrzeennosc.site^
 ||www.przesylek-sledzenie.com^
+||www.przesylka-bezpieczna24.pl^
 ||www.przesylka-oix.com^
+||www.przesylka-szybka24.pl^
 ||www.przesylkaolx.pl^
 ||www.przetwarzanie-bezposrednie.site^
 ||www.przetwarzanie-bezposrednie.xyz^
@@ -97424,6 +97448,7 @@
 ||www.zamow-bezpiecznie.pl^
 ||www.zamow-dzisiaj24.pl^
 ||www.zamow-online24.pl^
+||www.zamow-szybko.pl^
 ||www.zamowienie24.shop^
 ||www.zamowienie761265261.pl^
 ||www.zamowienie-online24.pl^
@@ -98711,6 +98736,7 @@
 ||zamow-bezpiecznie.pl^
 ||zamow-dzisiaj24.pl^
 ||zamow-online24.pl^
+||zamow-szybko.pl^
 ||zamowienie24.shop^
 ||zamowienie761265261.pl^
 ||zamowienie-online24.pl^
