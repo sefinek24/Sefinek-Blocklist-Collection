@@ -1,6 +1,6 @@
 ! Title: AntiPhishingDiscordSteam
 ! Description: This list blocks known domains used in the VOIP application Discord by scammers. Adding this list to your Pi-Hole blocklist will prevent those domains from loading.
-! Last modified: Tue, 12 Sep 2023, 16:30 UTC+02
+! Last modified: Sun, 15 Oct 2023, 14:18 UTC+02
 ! Origin: https://github.com/Dogino/Discord-Phishing-URLs
 ||cord.gifts^
 ||discord.de^
@@ -65,6 +65,7 @@
 ||2023teslaevent.com^
 ||20discord.com^
 ||22-space.org^
+||22navi.com^
 ||22tesla.io^
 ||23-musk.com^
 ||23c7481e.hbrex.cn^
@@ -108,10 +109,12 @@
 ||5roblox.com^
 ||60255.xyz^
 ||63k2f-nyaaa-aaaah-aakla-cai.raw.ic0.app^
+||66navi.com^
 ||6roblox.com^
 ||765611990581412.asia^
 ||7dgw.com^
 ||7roblox.com^
+||7twitch.com^
 ||875j0lxl.com^
 ||8roblox.com^
 ||90s-kids.xyz^
@@ -225,6 +228,7 @@
 ||access-source.com^
 ||access-the-hypesquad.com^
 ||access-to-discord.com^
+||access2049.com^
 ||accesskey23.com^
 ||accesslayerzero.com^
 ||accessprotocol.live^
@@ -278,6 +282,7 @@
 ||adcell.de^
 ||added-hypesquad.com^
 ||adenma.gq^
+||adesky.fr^
 ||adexchangecloud.com^
 ||adf.ly^
 ||adfoc.us^
@@ -305,11 +310,14 @@
 ||affixarena.com^
 ||affixcup.it^
 ||again-hype-events.ga^
+||ai-cs2.site^
 ||ai-event.site^
 ||ai-gptcrypto.online^
 ||ai-spacex.net^
+||aics2.com^
 ||aione.dappcrate.com^
 ||aipad-techs.com^
+||airdr0p.com^
 ||airdrop-discord-nitro.com^
 ||airdrop-discord-nitro.xyz^
 ||airdrop-discord.com^
@@ -326,6 +334,9 @@
 ||airdroploot.com^
 ||airdrops-shardeum.org^
 ||airdrops-taikos.xyz^
+||airlauchpad.app^
+||airlaunchpad.app^
+||aitrader.site^
 ||ajianseo.com^
 ||ajwqj.club^
 ||akamaid.net^
@@ -359,6 +370,7 @@
 ||amazing-date4u.com^
 ||amazingsexdating.com^
 ||amecbs.com^
+||amexbit.com^
 ||amidiscord.xyz^
 ||amigosdetuciudad.com^
 ||amlchecker.live^
@@ -702,6 +714,7 @@
 ||apps-discord.com^
 ||apps-discord.org^
 ||apps-iroblox.com^
+||apps-mee6.com^
 ||apps-nitro.com^
 ||apps-nitro.ru^
 ||apps-roblox.com^
@@ -762,6 +775,7 @@
 ||astrdrop.net^
 ||astrdrop.ru^
 ||astresports.xyz^
+||asusworlds.com^
 ||ataribtc.com^
 ||atdiscord.com^
 ||atmonwestper.gq^
@@ -770,6 +784,7 @@
 ||atzekromchan.com^
 ||aucryptohubs.com^
 ||auth-discord.com^
+||auth-dyno.cloud^
 ||auth-mee6.xyz^
 ||auth-vulcan.xyz^
 ||authenticate-vulcan.xyz^
@@ -781,6 +796,7 @@
 ||authnet.cf^
 ||authorization-collab.land^
 ||authorize-roblox.com^
+||authsmee6.com^
 ||authvulcan.xyz^
 ||authy-vulcan.com^
 ||autumnbot.cloud^
@@ -788,6 +804,7 @@
 ||avatars-roblox.com^
 ||avatartexture.com^
 ||avatizer-nft.xyz^
+||avbloxz.info^
 ||avirus.hu^
 ||avitofast.ru^
 ||awescap.com^
@@ -814,6 +831,8 @@
 ||badgeserviceteam.com^
 ||bainushe.com^
 ||bandit-camp.com^
+||base-layer2.com^
+||baslerkislaya.com^
 ||bathtub.pics^
 ||battlecup-blast.pro^
 ||bayc-event.net^
@@ -833,6 +852,7 @@
 ||beaming.fun^
 ||beast-cup.ru^
 ||beast-winer.ru^
+||beastnex.com^
 ||become-hype-member.com^
 ||become-hype.com^
 ||become-hypesquad-events.com^
@@ -862,6 +882,7 @@
 ||belekevskeigames.xyz^
 ||bemoderators.com^
 ||benaughty.com^
+||beomex.com^
 ||bequence.com^
 ||berulocyc.gq^
 ||best-cup.com^
@@ -971,6 +992,7 @@
 ||beyondtheradar.com^
 ||bghyty.firebaseapp.com^
 ||bghyty.web.app^
+||biacnce.com^
 ||bicurdex.com^
 ||bielyelfy.top^
 ||bielylify.top^
@@ -990,6 +1012,7 @@
 ||billgatescrypto.com^
 ||billing-mobile.com^
 ||bilsh.com^
+||biltskans.com^
 ||binance-it.net^
 ||binancedrop.online^
 ||binaxet.com^
@@ -1011,8 +1034,10 @@
 ||bitcturbo.com^
 ||bitcwolfs.com^
 ||bitdiscord.xyz^
+||bitexli.com^
 ||bitexpertxchange.com^
 ||bitexwhale.com^
+||bitflexy.com^
 ||bitglobalone.com^
 ||bitkeek.com^
 ||bitl.cc^
@@ -1029,9 +1054,11 @@
 ||bitskeansell.ru^
 ||bitsnad.com^
 ||bitsol24.com^
+||bittnance.com^
 ||bittook.com^
 ||bittrade.re^
 ||bitvenox.com^
+||bitwor.com^
 ||bitxam.com^
 ||bitxenix.com^
 ||bitxoq.com^
@@ -1039,6 +1066,7 @@
 ||bitxskins.com^
 ||bl0cksrefresh.com^
 ||black-friday.ga^
+||blade-valorant.com^
 ||bladexcloud.com^
 ||blast-csgo.cc^
 ||blast-csgo.com^
@@ -1074,6 +1102,7 @@
 ||bloxsafe.org^
 ||bloxsafety.com^
 ||bloxsafety.net^
+||bloxsploit.xyz^
 ||bloxtools.me^
 ||bloxup.ga^
 ||bloxver.site^
@@ -1088,6 +1117,7 @@
 ||bnmu.xyz^
 ||board-nitro.com^
 ||boliviateste-moderator.com^
+||bominex.com^
 ||bonbonijezero.xyz^
 ||bondikflas.xyz^
 ||bonus-case.com^
@@ -1129,9 +1159,11 @@
 ||bot-mee6.cc^
 ||bot-mee6.com^
 ||bot-member.info^
+||bot-redirect.com^
 ||bot-server.cc^
 ||bot-servers.cc^
 ||bot-servers.info^
+||bot-valorant.com^
 ||bot-vulcan.xyz^
 ||bot.ngo^
 ||botapp-discord.com^
@@ -1150,9 +1182,11 @@
 ||bounty-connect.live^
 ||bountydays.com^
 ||bountysday.com^
+||box-nfts.online^
 ||box.live-web3.net^
 ||boxfrestream.ru^
 ||boxgolg.club^
+||boxnfts-web3.xyz^
 ||bpwhamburgorchardpark.org^
 ||bqyvip.cn^
 ||bramtrad.com^
@@ -1166,6 +1200,7 @@
 ||bt96301.asia^
 ||btc-spacex.com^
 ||btcbolex.com^
+||btcbonus.net^
 ||btcclicks.com^
 ||btccrypto-online.com^
 ||btconline.io^
@@ -1174,10 +1209,12 @@
 ||btcusa365.com^
 ||btcvip8.com^
 ||btcvolumes.net^
+||btcwave.net^
 ||btcx2.pro^
 ||btnativenav.com^
 ||bucks.as^
 ||buddygays.com^
+||buff-skin.com^
 ||bugbounty-invite.dev^
 ||bughunter-join.com^
 ||bughunter-program.com^
@@ -1185,7 +1222,10 @@
 ||bughunters-discord.com^
 ||bugs-discord.com^
 ||bullcoin24.com^
+||bumexbit.com^
+||bundlevalorant.com^
 ||bunfq.ru^
+||business-support-us.com^
 ||bussines-spen.click^
 ||but-three.xyz^
 ||buttzasluve.gq^
@@ -1197,7 +1237,9 @@
 ||bysellers.xyz^
 ||c-arl.xyz^
 ||c-you-mamont.ru^
+||c0llab-land.app^
 ||c2money-skins.buzz^
+||camebit.com^
 ||campaign.bcns.ai^
 ||cap-connect.app^
 ||capitalswiftpremium.com^
@@ -1206,6 +1248,7 @@
 ||captcha-auth.com^
 ||captcha-bot.cc^
 ||captcha-bot.click^
+||captcha-bot.co^
 ||captcha-bot.com^
 ||captcha-bot.gg^
 ||captcha-bot.help^
@@ -1235,6 +1278,7 @@
 ||captcha-robots.com^
 ||captcha-server.click^
 ||captcha-smart.top^
+||captcha-veri.com^
 ||captcha-verify.net^
 ||captcha-verify.xyz^
 ||captcha-whitelist.art^
@@ -1289,11 +1333,14 @@
 ||captcha.skin^
 ||captcha.tf^
 ||captcha.tips^
+||captcha.tools^
 ||captcha.wiki^
 ||captcha.works^
 ||captcha.ws^
 ||captcha19.xyz^
 ||captchabot-bear.com^
+||captchabot-complete.com^
+||captchabot-guild.com^
 ||captchabot-verlfy.com^
 ||captchabot.ai^
 ||captchabot.app^
@@ -1305,6 +1352,7 @@
 ||captchabot.dev^
 ||captchabot.fi^
 ||captchabot.gg^
+||captchabot.gl^
 ||captchabot.ink^
 ||captchabot.link^
 ||captchabot.pm^
@@ -1313,6 +1361,7 @@
 ||captchabot.top^
 ||captchabot.website^
 ||captchabot.world^
+||captchabotguild.com^
 ||captchabots.cc^
 ||captchabots.xyz^
 ||captchabotverify.com^
@@ -1335,6 +1384,7 @@
 ||captchas.cc^
 ||captchas.cloud^
 ||captchas.events^
+||captchas.fun^
 ||captchas.gg^
 ||captchas.info^
 ||captchas.me^
@@ -1353,6 +1403,9 @@
 ||careers.ua^
 ||carl-bot.cc^
 ||carl-bot.gg^
+||carl-bot.io^
+||carl-bot.me^
+||carl-bot.pro^
 ||carlbot.ga^
 ||carlbot.me^
 ||carlbot.net^
@@ -1424,12 +1477,14 @@
 ||chainpads.web.app^
 ||chainspad.web.app^
 ||challengermode.best^
+||champvalorant.com^
 ||changetournament.ru^
 ||chat-gpt22.com^
 ||chat-gpt23.com^
 ||chatgpt2x.live^
 ||cheapcinema.club^
 ||cheapnitro.xyz^
+||check-web3.com^
 ||checkeligibility-cyber.co^
 ||checkingnotifications.org^
 ||checkmatediscord.club^
@@ -1440,6 +1495,7 @@
 ||chillbearcheck.com^
 ||chillbearclub.info^
 ||chintsressels.com^
+||chipnex.com^
 ||chosen-events.gq^
 ||chosen-forhypesquad.com^
 ||chosen-hypesquad.com^
@@ -1455,6 +1511,7 @@
 ||claim-airdrop.com^
 ||claim-apecoin.com^
 ||claim-ceek.xyz^
+||claim-cs2.com^
 ||claim-hypesquad.com^
 ||claim-hypesquad.ga^
 ||claim-hypesquad.gq^
@@ -1577,6 +1634,7 @@
 ||coinvraix.com^
 ||coinwanbit.com^
 ||coinween.com^
+||coinwilder.com^
 ||coinzairo.com^
 ||coinzeep.com^
 ||coinzelf.com^
@@ -1586,9 +1644,12 @@
 ||coinzorn.com^
 ||coleryujgdq345678hfdh.xyz^
 ||collab-antibot.github.io^
+||collab-certify.land^
 ||collab-confirms.github.io^
 ||collab-discord.github.io^
 ||collab-land.co^
+||collab-sync.land^
+||collab-verify.land^
 ||collab.ac^
 ||collab.claims^
 ||collab.gs^
@@ -1599,9 +1660,12 @@
 ||collab.qa^
 ||collab.town^
 ||collab.yt^
+||collabland.pro^
 ||collablandsecure.net^
+||collabs-land.app^
 ||colleb.land^
 ||cologne-case.com^
+||com-eng.eu^
 ||com-id-k4tushatwitchbabydota.ru^
 ||com-id-wexqshaaasse.ru^
 ||com-lottery.club^
@@ -1652,6 +1716,7 @@
 ||communityworkshopart.com^
 ||comnitrosteaml.com^
 ||competitors-hypesquad.com^
+||complete-captchabot.com^
 ||comrust-phoenix.org^
 ||comsteamcomminuty.com^
 ||comsteamcommunity.com^
@@ -1744,6 +1809,8 @@
 ||connect-to-new-moderator-exam.com^
 ||connect-to-new-moderator.com^
 ||connect-twitch.com^
+||connect-twitch.tv^
+||connect-twitchs.com^
 ||connect-twltch.com^
 ||connect-vulcan.xyz^
 ||connect-web3.pages.dev^
@@ -1799,6 +1866,7 @@
 ||counter-strike2.top^
 ||counter-strike2.xyz^
 ||counter-strike2023.com^
+||counter-strike2023.net^
 ||counter-strike2beta.com^
 ||counter-strike2beta.com.ru^
 ||counter-strike2betas.net^
@@ -1844,6 +1912,7 @@
 ||crmoney.icu^
 ||crosflah.online^
 ||crypbarry.com^
+||cryptapple.com^
 ||cryptgive23.xyz^
 ||crypto-eth.pw^
 ||crypto-eth2.pw^
@@ -1852,10 +1921,12 @@
 ||cryptoblast24.com^
 ||cryptodao.live^
 ||cryptodose.org^
+||cryptogiveaway.pro^
 ||cryptogptlive.com^
 ||cryptogptlive.net^
 ||cryptolnvest.net^
 ||cryptomose.com^
+||cryptomusk.net^
 ||cryptonexys.com^
 ||cryptonftgiveaway.online^
 ||cryptoninjapartner.com^
@@ -1905,6 +1976,7 @@
 ||cs-2.tech^
 ||cs-2go.com^
 ||cs-2invites.site^
+||cs-2navicases.com^
 ||cs-2source.com^
 ||cs-authx.money^
 ||cs-boom.org.ru^
@@ -1914,6 +1986,7 @@
 ||cs-dump.org.ru^
 ||cs-esports.link^
 ||cs-exeword.xyz^
+||cs-gifts.net^
 ||cs-go-roll.com^
 ||cs-incursed.xyz^
 ||cs-joom.net.ru^
@@ -1936,18 +2009,23 @@
 ||cs-twitch.online^
 ||cs-twitch.site^
 ||cs-twitchs.com^
+||cs-twitchs.tv^
 ||cs-twltch.com^
 ||cs-twltchs.com^
+||cs-twltchs.tv^
 ||cs-winner.com^
 ||cs2-acces.com^
 ||cs2-beta-access.pro^
 ||cs2-beta.pl^
+||cs2-beta.ru^
 ||cs2-beta.world^
 ||cs2-betatesting.com^
 ||cs2-cn.com^
+||cs2-connect.com^
 ||cs2-events.com^
 ||cs2-explore.com^
 ||cs2-freeacces.pro^
+||cs2-gift.com^
 ||cs2-global.com^
 ||cs2-globals.com^
 ||cs2-info.com^
@@ -1957,25 +2035,39 @@
 ||cs2-join.com^
 ||cs2-limited-test.peacockguesthousenepal.com^
 ||cs2-limited.info^
+||cs2-loot.pro^
+||cs2-nfts.com^
+||cs2-nftz.com^
 ||cs2-play-now-beta.fun^
 ||cs2-reward.com^
 ||cs2-rewards.com^
+||cs2-skin.com^
 ||cs2-sources.com^
 ||cs2-sourcesinv1tes.com^
 ||cs2-sourse.com^
 ||cs2-sourses.com^
 ||cs2-start.com^
 ||cs2-steam.com^
+||cs2-t.com^
 ||cs2-test.com^
 ||cs2-test.net.ru^
+||cs2-tw.com^
+||cs2-twich.ru^
+||cs2-twitch-drops.com^
 ||cs2-twitch.com^
+||cs2-twitch.net^
+||cs2-twitch.pro^
+||cs2-twitch.site^
 ||cs2-twitchs.com^
 ||cs2-twltch.com^
+||cs2-twltch.tv^
+||cs2-twltchs.tv^
 ||cs2-valve.com^
 ||cs2.net.ru^
 ||cs2.org.ru^
 ||cs23drop.com^
 ||cs2access.pro^
+||cs2b.pro^
 ||cs2beta-access.com^
 ||cs2beta-access.pro^
 ||cs2beta.cc^
@@ -1991,14 +2083,22 @@
 ||cs2betatester.com^
 ||cs2betatesting.com^
 ||cs2betatesting.net^
+||cs2betdrop.xyz^
 ||cs2bets.pro^
+||cs2boost.ru^
 ||cs2bt.com^
 ||cs2bypass.pro^
+||cs2case.pro^
+||cs2chancesimple.com^
 ||cs2code.com^
+||cs2drops.org^
+||cs2drops.xyz^
 ||cs2ence.com^
 ||cs2eucounterstrike.com^
+||cs2eventlive.org^
 ||cs2freebeta.online^
 ||cs2freebeta.ru^
+||cs2freeskins.ru^
 ||cs2gets.com^
 ||cs2giveaway.online^
 ||cs2go-source.com^
@@ -2010,13 +2110,20 @@
 ||cs2key.ru^
 ||cs2limit.com^
 ||cs2limited.pro^
+||cs2money.skin^
+||cs2navicase.com^
+||cs2navicases.com^
 ||cs2new-test.com^
 ||cs2newtest.com^
 ||cs2newtest.net^
 ||cs2newtesting.net^
 ||cs2power.pro^
 ||cs2prime.pro^
+||cs2promo.store^
 ||cs2reward.com^
+||cs2rival.fun^
+||cs2rival.xyz^
+||cs2rivals.fun^
 ||cs2smoker.ru^
 ||cs2sour.com^
 ||cs2source.com^
@@ -2029,11 +2136,26 @@
 ||cs2sourcesinv1te.com^
 ||cs2sourcesinvites.com^
 ||cs2sourse.com^
+||cs2strong.com^
+||cs2t.pro^
 ||cs2test.ru^
 ||cs2testing.com^
 ||cs2testing.net^
+||cs2th.com^
+||cs2tw.pro^
+||cs2tw.ru^
+||cs2twch.ru^
+||cs2twitch.org^
+||cs2twitch.pro^
+||cs2twitch.ru^
+||cs2twltch.tv^
+||cs2twltchs.com^
+||cs2twltchs.tv^
+||cs2twt.pro^
+||cs2twt.xyz^
 ||cs2up.pro^
 ||cs2way.pro^
+||cs2win-give.com^
 ||cs2you.com^
 ||cs4trade.com^
 ||cs500go.com^
@@ -2114,6 +2236,7 @@
 ||csgo-floats.com^
 ||csgo-freeskin.com^
 ||csgo-freeskins.com^
+||csgo-fsport.ru^
 ||csgo-fun.duckdns.org^
 ||csgo-fun.fun^
 ||csgo-fun.giize.com^
@@ -2129,6 +2252,8 @@
 ||csgo-gamesteam.ru^
 ||csgo-get.com^
 ||csgo-gets.com^
+||csgo-gift.com^
+||csgo-gift.net^
 ||csgo-giv.com^
 ||csgo-gives.com^
 ||csgo-giving.com^
@@ -2136,6 +2261,7 @@
 ||csgo-holidays.com^
 ||csgo-hub.com^
 ||csgo-keys.com^
+||csgo-limiteds.com^
 ||csgo-login.ru^
 ||csgo-loot.com^
 ||csgo-lute.net.ru^
@@ -2191,6 +2317,7 @@
 ||csgo-twitch.space^
 ||csgo-twitch.tv^
 ||csgo-twltch.tv^
+||csgo-twltchs.tv^
 ||csgo-wanmei1.ru^
 ||csgo-win.ru^
 ||csgo-wishes.com^
@@ -2203,6 +2330,7 @@
 ||csgo2-beta.com^
 ||csgo2-beta.pro^
 ||csgo2-beta.website^
+||csgo2-betas.com^
 ||csgo2-claim.com^
 ||csgo2-gets.com^
 ||csgo2-global.com^
@@ -2217,6 +2345,7 @@
 ||csgo2-invites.vip^
 ||csgo2-limited.net^
 ||csgo2-limited.site^
+||csgo2-limiteds.com^
 ||csgo2-new.com^
 ||csgo2-rewards.com^
 ||csgo2-source.com^
@@ -2226,6 +2355,10 @@
 ||csgo2-sourcsec.com^
 ||csgo2-sourcses.com^
 ||csgo2-sours.com^
+||csgo2-soursebeta.com^
+||csgo2-twitch.com^
+||csgo2-twitch.tv^
+||csgo2-twltch.com^
 ||csgo2-valve.com^
 ||csgo2-valve.site^
 ||csgo2.asia^
@@ -2244,6 +2377,7 @@
 ||csgo2beta.pw^
 ||csgo2beta.site^
 ||csgo2beta2.ru^
+||csgo2betas.com^
 ||csgo2betatest.com^
 ||csgo2betatest.ru^
 ||csgo2betatest.space^
@@ -2282,6 +2416,8 @@
 ||csgo2test.com^
 ||csgo2testing.com^
 ||csgo2testing.net^
+||csgo2twitch.com^
+||csgo2twltch.com^
 ||csgo2valve.com^
 ||csgo2worid.com^
 ||csgo2world.com^
@@ -2348,6 +2484,7 @@
 ||csgofreeskins.ru^
 ||csgofreeskins.shop^
 ||csgofreeskins.xyz^
+||csgofs.ru^
 ||csgofun.pro^
 ||csgofun.ru^
 ||csgofun4real.ru^
@@ -2447,9 +2584,13 @@
 ||csgothrive.com^
 ||csgotour.ru^
 ||csgotournament.ru^
+||csgotournament.site^
 ||csgotournaments.cf^
 ||csgotournaments.website^
 ||csgotrade.skin^
+||csgotwitch.tv^
+||csgotwitchs.tv^
+||csgotwltch.tv^
 ||csgotwo2023.com^
 ||csgov2.com^
 ||csgowans.ru^
@@ -2473,6 +2614,7 @@
 ||csportcyber.ru^
 ||csrandom.monster^
 ||css500gggo.ru^
+||cssg2.com^
 ||csshop-market.click^
 ||csskins.space^
 ||cssource-2.com^
@@ -2485,6 +2627,9 @@
 ||cstakesdrop.space^
 ||cstourtament.gq^
 ||cstwitch.ru^
+||cstwitchs.com^
+||cstwltchs.com^
+||cstwltchs.tv^
 ||cswanmei.ru^
 ||cswanmei4.ru^
 ||cswoo.ru^
@@ -2528,6 +2673,7 @@
 ||d-giftpremium.com^
 ||d-nitro.tk^
 ||d-nitro.xyz^
+||d-r.cc^
 ||d.iscord.xyz^
 ||d1sc0rd.com^
 ||d1sc0rdglft.xyz^
@@ -2556,6 +2702,7 @@
 ||daque.cn^
 ||darang.ru^
 ||darblox.com^
+||darkpixlz.com^
 ||darksound.ru^
 ||datasig.io^
 ||datauth.io^
@@ -2594,6 +2741,7 @@
 ||ddiscor.com^
 ||ddiscord-cam.ru^
 ||ddiscord.com^
+||de-phottan.info^
 ||de-roblox.com^
 ||de-spushtan-genehmigung-2.xyz^
 ||deadisidddde.xyz^
@@ -2639,6 +2787,7 @@
 ||devforum-roblox.ru^
 ||devloper-team.info^
 ||devlopers.info^
+||dexenos.com^
 ||dfiscord.com^
 ||dfscord-app.club^
 ||dfscord-app.com^
@@ -2940,6 +3089,7 @@
 ||dicsordst.ru^
 ||dicsordsteam.com^
 ||dicsordv.xyz^
+||dicsordwinter.com^
 ||dicsorf.icu^
 ||dicsors.xyz^
 ||dicsorsd.gq^
@@ -3706,6 +3856,7 @@
 ||discord-arch.com^
 ||discord-auction.com^
 ||discord-auctions.com^
+||discord-auth-whop.com^
 ||discord-autisme.fr^
 ||discord-badge.com^
 ||discord-badges-formulary.com^
@@ -4747,6 +4898,7 @@
 ||discord.cruises^
 ||discord.cx^
 ||discord.cymru^
+||discord.d-r.cc^
 ||discord.data^
 ||discord.dating^
 ||discord.day^
@@ -5057,6 +5209,7 @@
 ||discordboosting.site^
 ||discordboosts.shop^
 ||discordboosts.xyz^
+||discordbot-whop.com^
 ||discordbot.click^
 ||discordbot.com^
 ||discordbot.online^
@@ -5835,6 +5988,7 @@
 ||discordnitros.gifts^
 ||discordnitros.info^
 ||discordnitros.ml^
+||discordnitros.pro^
 ||discordnitros.xyz^
 ||discordnitrosteam.com^
 ||discordnitrosteam.ru.com^
@@ -6202,6 +6356,7 @@
 ||discordsub.com^
 ||discordsub.online^
 ||discordsubscriptions.com^
+||discordsupport.app^
 ||discordsupport.crisp.help^
 ||discordsupport.gg^
 ||discordsupport.gorgias.help^
@@ -6877,6 +7032,7 @@
 ||diszcordapp.com^
 ||diucord.js.org^
 ||diuscordapp.com^
+||divacheckdiscord.xyz^
 ||divineenterprises.net^
 ||divinegardens.xyx^
 ||divscord.xyz^
@@ -7676,6 +7832,7 @@
 ||downloadmobile.info^
 ||downloads2020.com^
 ||downloads2021.com^
+||doynex.com^
 ||dpd-group-taseneh779753577.codeanyapp.com^
 ||dracenic-gravinyl.icu^
 ||dragonary-giveaway.info^
@@ -7705,9 +7862,11 @@
 ||dropdot.info^
 ||dropds-gift.gq^
 ||drope.monster^
+||drops-cs2.space^
 ||drops-csgo.site^
 ||drops-free.ru^
 ||drops-layrzero.com^
+||drops-opensea.com^
 ||drops-twltchs.com^
 ||drops4all.org.ru^
 ||drops4all.pp.ru^
@@ -7894,6 +8053,7 @@
 ||dyno-bot.net^
 ||dyno-bot.org^
 ||dyno-bot.tech^
+||dyno-bot.tools^
 ||dyno-bot.us^
 ||dyno-bots.com^
 ||dyno-captcha.org^
@@ -7901,8 +8061,10 @@
 ||dyno-captchas.com^
 ||dyno-dev.net^
 ||dyno-entry.xyz^
+||dyno-gate.com^
 ||dyno-gg.link^
 ||dyno-premium.xyz^
+||dyno-prove.us^
 ||dyno-server.com^
 ||dyno-tool.app^
 ||dyno-tool.com^
@@ -7983,13 +8145,16 @@
 ||dynobot.me^
 ||dynobot.one^
 ||dynobot.pl^
+||dynobot.pw^
 ||dynobot.re^
 ||dynobot.sbs^
 ||dynobot.tech^
 ||dynobot.tel^
 ||dynobot.to^
+||dynobot.tools^
 ||dynobot.vc^
 ||dynobot.wiki^
+||dynobot.zip^
 ||dynobots.app^
 ||dynobots.ca^
 ||dynobots.cam^
@@ -8072,6 +8237,7 @@
 ||dynotools.ink^
 ||dynotools.one^
 ||dynov.art^
+||dynovalidation.com^
 ||dynover.app^
 ||dynover.art^
 ||dynover.com^
@@ -8190,6 +8356,7 @@
 ||elon2023giveaways.net^
 ||elon2x.live^
 ||elonbtc2x.org^
+||eloncase.online^
 ||eloncash.info^
 ||elongift.info^
 ||elongive.fun^
@@ -8234,6 +8401,7 @@
 ||encesport.xyz^
 ||encesports.xyz^
 ||enchanted-plume.com^
+||enemyunknowninc.com^
 ||eneverals.biz^
 ||enhanced-discord.com^
 ||eniedu.com^
@@ -8364,6 +8532,7 @@
 ||ethvip7.com^
 ||ethway.io^
 ||euphe-gun.com^
+||euphonious-sable-30ec8d.netlify.app^
 ||event-bitgert.com^
 ||event-csgo.com^
 ||event-discord.com^
@@ -8519,10 +8688,12 @@
 ||ezrobux.gg^
 ||ezstat.ru^
 ||ezvbuckz.com^
+||ezybix.com^
 ||f-cybersport.ru^
 ||f-nitro.xyz^
 ||f0824341.xsph.ru^
 ||facebook.rjearning.com^
+||facebookorgn.com^
 ||facedrop.one^
 ||faceit-drop.com^
 ||faceit-premium.com^
@@ -8558,6 +8729,7 @@
 ||facetpaunchs-twltchs.com^
 ||fakediscord.com^
 ||fall500.ru^
+||famdrex.com^
 ||fang-operation.ru^
 ||fannykey.ru^
 ||fantasticfilms.ru^
@@ -8588,6 +8760,7 @@
 ||fattykettleinexpedient.com^
 ||faxnews.ru^
 ||faze-case.ru^
+||faze-clan.shop^
 ||faze-clan.space^
 ||faze-cs.com^
 ||faze-cs.ru^
@@ -8637,6 +8810,8 @@
 ||faze43.com^
 ||faze44.com^
 ||faze49.com^
+||faze54.com^
+||faze65.com^
 ||faze66.ru^
 ||faze67.com^
 ||faze69.com^
@@ -8695,6 +8870,7 @@
 ||findyour-realsex2.com^
 ||fineplay.xyz^
 ||fire-dungeon.com^
+||fire-s3.web.app^
 ||firmis-min.com^
 ||first-formulary-hypesquad.com^
 ||firtonesroll.ru.com^
@@ -8702,9 +8878,11 @@
 ||fitdiscordservice.com^
 ||fixcollab.land^
 ||fjhhjh.web.app^
+||flagged-sledgehammer.app^
 ||flash.cn^
 ||flashymass.com^
 ||flearmadness.com^
+||flepcoin.com^
 ||flyes-coin.com^
 ||fnatic-drop.com^
 ||fnatic-ro1ls.ru.com^
@@ -8722,6 +8900,7 @@
 ||foot.wiki^
 ||forbes.legal^
 ||foresport.site^
+||forged-hv-mtl.com^
 ||forgotten-plume.com^
 ||form-2022.com^
 ||form-academy-discord.com^
@@ -9058,6 +9237,7 @@
 ||fov-loginsupevents.ml^
 ||fowephwo.ru^
 ||foxcryptoby.com^
+||foxechange.com^
 ||foxmods.xyz^
 ||fps-booster.pw^
 ||fragbots.net^
@@ -9209,10 +9389,13 @@
 ||freshdiscord.xyz^
 ||friend-tech.click^
 ||friendship-cocacola.store^
+||frmint-nft.com^
 ||frogs-jump.xyz^
 ||from-puste.xyz^
+||frontier-yahoo-update-108036.square.site^
 ||frozecold.xyz^
 ||frvrdiscord.com^
+||fsport-cs2.pro^
 ||fsport-csgo.com^
 ||fsport-csgo.ru^
 ||fsport-cup.ru^
@@ -9262,6 +9445,7 @@
 ||gabe2access.com^
 ||gadgetblog.ru^
 ||gala-wins.com^
+||galaxyxtrade.com^
 ||galxe-air.com^
 ||galxe-cyber.com^
 ||galxe.cm^
@@ -9381,6 +9565,8 @@
 ||get-skin.com^
 ||get-source2invite.net^
 ||get-users-beta.ml^
+||get-valorant.com^
+||get-valorant.pro^
 ||get19dragos.club^
 ||get2x-tesla.com^
 ||getcach.monster^
@@ -9496,6 +9682,7 @@
 ||gift-dicord.ru^
 ||gift-dicsord.com^
 ||gift-discord.digital^
+||gift-discord.fr^
 ||gift-discord.online^
 ||gift-discord.org^
 ||gift-discord.ru^
@@ -9530,6 +9717,7 @@
 ||gift-nitrodiscord.gq^
 ||gift-nitrofree.xyz^
 ||gift-premium.ru^
+||gift-riotgames.com^
 ||gift-steam-discord.com^
 ||gift-steamcommunity.com^
 ||gift-steamcommunlty.com^
@@ -9600,6 +9788,7 @@
 ||gifts-hypixel.shop^
 ||gifts-net.xyz^
 ||gifts-steam.com^
+||gifts-valorant.com^
 ||gifts.steampowered.com.de^
 ||giftsapp.ru^
 ||giftsdiscord-true.com^
@@ -9616,7 +9805,10 @@
 ||giftsnitro.com^
 ||giftsnitro.xyz^
 ||giftsu-nitro.gq^
+||giftsvalorant.com^
 ||gifttnitro.xyz^
+||giftvalorant.com^
+||giftvalorant.online^
 ||giiveaway-discord.com^
 ||gilstdlscordnltro.com^
 ||gilstdlscordnltro.skin^
@@ -9637,6 +9829,7 @@
 ||gitus-nitro.gq^
 ||gitvhub.com^
 ||gitxhub.com^
+||giv4drop.pro^
 ||givaeway.com^
 ||givaewey.com^
 ||givaeweys.com^
@@ -9674,8 +9867,10 @@
 ||givesdrop.org.ru^
 ||givesdrop.ru^
 ||givestesla.com^
+||givestesla.io^
 ||givestesla.org^
 ||givetesla.org^
+||givevalorant.com^
 ||givewayse-nltro.com^
 ||giveweay.com^
 ||givnltrodicsord.com^
@@ -9766,6 +9961,7 @@
 ||gotournaments.ru^
 ||gotournamentscs.ru^
 ||gotyouripboi.com^
+||gowlex.com^
 ||gp-valorant.com^
 ||grabify.link^
 ||grabify.world^
@@ -9796,6 +9992,7 @@
 ||guide-hypesquad-forms.gq^
 ||guide-hypesquad.com^
 ||guide-hypesquadevents.gq^
+||guide-valorant.com^
 ||guidemaple.click^
 ||guidewhales.click^
 ||guild-captcha.eu^
@@ -9812,6 +10009,7 @@
 ||guildautomation.com^
 ||guitar-love.ru^
 ||guns-slot.tk^
+||gxcore.com^
 ||gyazo.nl^
 ||hack-expert-solution.link^
 ||hahsdiscord.com^
@@ -9824,6 +10022,7 @@
 ||happydays06.site^
 ||hardswork.top^
 ||harzfriends.de^
+||hash-connects.com^
 ||haste.monster^
 ||havocdiscord.xyz^
 ||haypesquad-formulary-team.com^
@@ -9841,6 +10040,7 @@
 ||hehf4-freerobux20gen.totalh.net^
 ||helix-metaverse.xyz^
 ||hello-emailevent.ml^
+||hellydex.com^
 ||helooworld.us^
 ||helpcenter.io^
 ||helperfinderids.com^
@@ -9876,6 +10076,7 @@
 ||hot00003501.asia^
 ||hot00003504.asia^
 ||hot00003506.asia^
+||hotbox-skin.space^
 ||hoteldiscord.com^
 ||hotlady4you.com^
 ||house-hypesquad.com^
@@ -9930,6 +10131,7 @@
 ||hy-pixel.app^
 ||hy-pixel.dev^
 ||hy-pixel.wiki^
+||hycs2.com^
 ||hydra2018.ru^
 ||hype-2022-invite.com^
 ||hype-2022.com^
@@ -10779,9 +10981,11 @@
 ||hypixel-redeem.shop^
 ||hypixel-redeem.us^
 ||hypixel-reward.com^
+||hypixel-security.com^
 ||hypixel-store-ranks.info^
 ||hypixel-store.com^
 ||hypixel.claims^
+||hypixel.com.de^
 ||hypixel.com.pl^
 ||hypixel.com.ru^
 ||hypixel.design^
@@ -10819,6 +11023,7 @@
 ||hypromo.net^
 ||hypsquad-invitation.com^
 ||hypsquad-join.gq^
+||hytopia.vip^
 ||i-no.ru^
 ||iamnaughty.com^
 ||iayerzero.net^
@@ -10909,6 +11114,7 @@
 ||invest2x.com^
 ||investing-bank.com^
 ||investing-fund.com^
+||invisbilefriends.com^
 ||invit-wavecs2.net^
 ||invitation-hype-2022.com^
 ||invitation-hype-squad-events-join.com^
@@ -11083,6 +11289,7 @@
 ||jampo.com.ua^
 ||japan1-05.xyz^
 ||japan1-06.xyz^
+||jarblox.com^
 ||jashautchord.com^
 ||jd6090.asia^
 ||jesus-discord.com^
@@ -11091,10 +11298,12 @@
 ||jetcase.fun^
 ||jhgj.njxwang.com^
 ||jidionsdiscord.com^
+||jiksvaleo.live^
 ||jinpooh.org^
 ||jjdiscord.com^
 ||jjikachjmlc.com^
 ||jobhypes.com^
+||joblox.fun^
 ||joblox.website^
 ||jobrave.live^
 ||jobs-discord.com^
@@ -11310,6 +11519,7 @@
 ||join-rollbit.com^
 ||join-rollbit.xyz^
 ||join-source2.eu^
+||join-sproto-gremlins.com^
 ||join-sui.com^
 ||join-teamdevelopers.com^
 ||join-teamhypesquad.com^
@@ -11480,6 +11690,7 @@
 ||kkkmvb.xyz^
 ||kldmten.net^
 ||kmdd6.ru^
+||komslex.com^
 ||konicpirg.com^
 ||koreagame.asia^
 ||koreagift.asia^
@@ -11493,6 +11704,7 @@
 ||ktfckd.com^
 ||kuaizip.com^
 ||kuminaluna.xyz^
+||kunai-valorant.com^
 ||kwww-roblox.com^
 ||l-nitro.xyz^
 ||l-roblox.com^
@@ -11614,6 +11826,7 @@
 ||linkbucks.com^
 ||linkdiscord-airdrop.com^
 ||linkedcreators.com^
+||linksa.top^
 ||linksdlscordgift.com^
 ||linksdlscordgifti.com^
 ||linksdlscordgiftl.com^
@@ -11696,6 +11909,8 @@
 ||loginsquad-events.gq^
 ||loginst.dnsme.eu.org^
 ||logitech-nitro-gift.gq^
+||logoxcoin.com^
+||lomdrex.com^
 ||longxrun.online^
 ||loop-nitro.com^
 ||loorpring.io^
@@ -11724,6 +11939,7 @@
 ||loyal.charity^
 ||loyal.wf^
 ||loyaltys.online^
+||loycoins.com^
 ||lp3xc.site^
 ||lpsteamcommunity.com^
 ||lqcmg.xyz^
@@ -11738,6 +11954,7 @@
 ||lubitcoin.com^
 ||lubuntu.net^
 ||luck88200900021.asia^
+||lucky-case.com^
 ||lucky4wins.club^
 ||luckycrush.ga^
 ||luckydrop.site^
@@ -11767,6 +11984,7 @@
 ||lunar.gift^
 ||lunarclaim.site^
 ||lunarcleint.com^
+||lunarclent.shop^
 ||lunarclient-cosmetics.shop^
 ||lunarclient-gift.com^
 ||lunarclient-gifts.com^
@@ -11780,6 +11998,7 @@
 ||lunarclient.uk^
 ||lunarclientmc.shop^
 ||lunarclientredeem.com^
+||lunarcllent.shop^
 ||lunarcosmetic.net^
 ||lunarcosmetics.ru^
 ||lunargifting.shop^
@@ -11844,6 +12063,7 @@
 ||mail-events-applications.gq^
 ||mail-hypesquad.com^
 ||mail.discord-nitro-gifts.ru^
+||mainnetweb3.pages.dev^
 ||major-blasts.com^
 ||major-csgo.com^
 ||major-twitch.com^
@@ -11905,6 +12125,7 @@
 ||mcomp.org^
 ||md2tesla.com^
 ||mdiscord.com^
+||mdteslax.com^
 ||me-discord.com^
 ||me-mee6.xyz^
 ||mealdealfortwo.info^
@@ -12081,7 +12302,9 @@
 ||message-moderators.com^
 ||meta-feedbackonline.ml^
 ||meta-verif-now.com^
+||metahydras-sledgehammers.app^
 ||mfroute.com^
+||mgdtg.com^
 ||mgifts.net^
 ||mhitfr5.firebaseapp.com^
 ||mi-gifts.ru^
@@ -12523,6 +12746,7 @@
 ||motiontokens.com^
 ||movies4discord.com^
 ||moviesboys.com^
+||mozorex.com^
 ||mp801.asia^
 ||mrobloxx.com^
 ||ms-madeinabyss.com^
@@ -12535,6 +12759,7 @@
 ||msx2btc.net^
 ||mt216.asia^
 ||multiadblock.com^
+||murenex.com^
 ||musk-bit.com^
 ||musk-crypto.site^
 ||musk-event.online^
@@ -12542,6 +12767,7 @@
 ||musk-give.com^
 ||musk-join.eu^
 ||musk-live.org^
+||musk-up.net^
 ||musk-x.org^
 ||musk-x2.io^
 ||musk.in.net^
@@ -12564,6 +12790,7 @@
 ||musketh.blog^
 ||musketh.live^
 ||muskevent.org^
+||muskgate.com^
 ||muskgive.fun^
 ||muskgiveawaycrypto.com^
 ||muskinvest.org^
@@ -12588,6 +12815,7 @@
 ||mwpcoin.com^
 ||mwww-roblox.com^
 ||mxmcheats.online^
+||my-cs2nfts.com^
 ||my-discord-gift.com^
 ||my-discord.ru^
 ||my-discord.xyz^
@@ -12599,6 +12827,7 @@
 ||my-roblox.net^
 ||my-tradelink.ru^
 ||myactualblog.com^
+||mybeast.io^
 ||myccgo.xyz^
 ||mychaelknight.com^
 ||mycsgonavi.shop^
@@ -12693,6 +12922,8 @@
 ||navi-case.ru^
 ||navi-cases.com^
 ||navi-cs.com^
+||navi-cs.ru^
+||navi-cs2.com^
 ||navi-drop.com^
 ||navi-drop.fun^
 ||navi-drop.net^
@@ -12736,6 +12967,8 @@
 ||navi00.com^
 ||navi01.ru^
 ||navi03.live^
+||navi034.com^
+||navi034.pro^
 ||navi04.com^
 ||navi06.com^
 ||navi08.ru^
@@ -12751,11 +12984,19 @@
 ||navi111.com^
 ||navi12.com^
 ||navi12.pro^
+||navi124.com^
+||navi125.com^
+||navi126.com^
 ||navi128.com^
 ||navi13.live^
 ||navi14.com^
+||navi144.com^
+||navi150.com^
+||navi158.pro^
 ||navi16.com^
+||navi166.com^
 ||navi17.com^
+||navi171.com^
 ||navi2.net^
 ||navi2.pro^
 ||navi2.ru^
@@ -12768,9 +13009,11 @@
 ||navi2023.info^
 ||navi2023.life^
 ||navi2023.ru^
+||navi203.com^
 ||navi22.cfd^
 ||navi22.com^
 ||navi223.com^
+||navi244.com^
 ||navi25.com^
 ||navi25.ru^
 ||navi26.com^
@@ -12787,6 +13030,7 @@
 ||navi36.com^
 ||navi37.com^
 ||navi38.com^
+||navi382.com^
 ||navi4.pro^
 ||navi4.ru^
 ||navi40.com^
@@ -12809,6 +13053,7 @@
 ||navi52.com^
 ||navi54.com^
 ||navi55.com^
+||navi55.ru^
 ||navi555.com^
 ||navi57.com^
 ||navi58.com^
@@ -12822,6 +13067,7 @@
 ||navi64.com^
 ||navi65.com^
 ||navi65.ru^
+||navi652.com^
 ||navi654.com^
 ||navi66.com^
 ||navi666.com^
@@ -12878,6 +13124,8 @@
 ||navicase.xyz^
 ||navicasedrop.com^
 ||navics.shop^
+||navics2.com^
+||navics2.pro^
 ||navicsgo-sport.com^
 ||navicsgo.com^
 ||navicsgo.ru^
@@ -12905,6 +13153,7 @@
 ||navisdy.com^
 ||naviskin.ru^
 ||naviskins.xyz^
+||navisource2.pro^
 ||navisteam.org.ru^
 ||naviteam.net.ru^
 ||navitop4.net.ru^
@@ -12919,6 +13168,7 @@
 ||nawisale.ru^
 ||nb-yanao.ru^
 ||nbryb.com^
+||nchain.link^
 ||ne02.biz^
 ||ne03.biz^
 ||ne04.biz^
@@ -13082,6 +13332,7 @@
 ||nftcentral.in^
 ||nftdiscord.xyz^
 ||nftdiscordpal.com^
+||nftmint-eth.com^
 ||nftnyc23.com^
 ||nftreward.fun^
 ||nftswhitelist.info^
@@ -13463,6 +13714,7 @@
 ||nitroydiczord.xyz^
 ||nitrqdls.xyz^
 ||nitrrosteam.com^
+||nkreen-jg-8i.pages.dev^
 ||nltro-airdrop.xyz^
 ||nltro-app.ru^
 ||nltro-code.xyz^
@@ -13844,6 +14096,7 @@
 ||pokeherstars.com^
 ||pokemonadventure.fr^
 ||pokemongo-go.ru^
+||poksten.com^
 ||polarfigames.com^
 ||polarisautotrading.com^
 ||policy-updates-important.com^
@@ -13851,6 +14104,7 @@
 ||polkasale.pro^
 ||poloname.net.ru^
 ||polyevent.io^
+||polyguard.one^
 ||polyhedra.finance^
 ||polyhymnia-mar.com^
 ||pond0x-online.net^
@@ -13866,6 +14120,8 @@
 ||possessedcrackinghart.com^
 ||postalcenter.vip^
 ||poste.xyz^
+||postreceive.com^
+||postsale.cloud^
 ||postsupport.net^
 ||power-sk1n.net.ru^
 ||poweredworkshop.com^
@@ -14154,6 +14410,7 @@
 ||pupok.link^
 ||purplehoodie.com^
 ||pwrtds.com^
+||pylwex.com^
 ||qatar-business-guide.net^
 ||qbt-giveaway.info^
 ||qcold.club^
@@ -14172,12 +14429,15 @@
 ||quisgod777.xyz^
 ||quiz-discord.com^
 ||qwe41241qweqw1.online^
+||qytlex.com^
 ||r-roblox.com^
 ||r4bbit.info^
 ||r8blox.com^
+||rablox.info^
 ||rablox.tk^
 ||racblox.com^
 ||radar-tour.site^
+||raftbit.com^
 ||raiden-bot.xyz^
 ||raidrush.info^
 ||ramlucky.xyz^
@@ -14228,6 +14488,7 @@
 ||rcblox.info^
 ||rcblox.org^
 ||rcbloxs.com^
+||rcoblox.com^
 ||rcombats.live^
 ||re-roblox.com^
 ||readytosinglesmeet.com^
@@ -14237,6 +14498,7 @@
 ||realtower.ru^
 ||rebil-overview-info.com^
 ||record-hypesquad-events.com^
+||recover-ry10012569653706.com^
 ||recruit-hypesquad.com^
 ||recruit-moderator.com^
 ||recruitment-candidates.com^
@@ -14254,6 +14516,7 @@
 ||redeemlunarclient.store^
 ||redeemnitro.com^
 ||redenitro.com^
+||redexios.com^
 ||redirect-mee.xyz^
 ||redirectednet.xyz^
 ||redirectsstm.click^
@@ -14488,8 +14751,10 @@
 ||returns-moderators.com^
 ||revercecaptcha.com^
 ||reverts-roblox.com^
+||revyrex.com^
 ||reward-csgo.com^
 ||reward-hypixel.net^
+||reward-tipcoin.tech^
 ||reward-twltch.com^
 ||reward2.xyz^
 ||rewardbuddy.me^
@@ -14509,6 +14774,8 @@
 ||rien.xyz^
 ||riev.asia^
 ||riobluropexom.gq^
+||riot-gift.net^
+||riot-gifts.net^
 ||riotgamesgiveaway.com^
 ||rip-tide.ru^
 ||ripetide.ru^
@@ -14527,6 +14794,7 @@
 ||riptidepass.ru^
 ||riteshkaskribbl.cf^
 ||riusttwitchdrolpst.skin^
+||rivalscs2.xyz^
 ||rl-award.com^
 ||rl-bounce.com^
 ||rl-chaser.com^
@@ -14598,6 +14866,8 @@
 ||roblcx.ga^
 ||roblcx.ml^
 ||roblcx.site^
+||robldox.com^
+||roblfox.com^
 ||robliox.com.ge^
 ||robljox.com^
 ||robllox.com.de^
@@ -14636,12 +14906,15 @@
 ||roblox-com.gq^
 ||roblox-com.live^
 ||roblox-com.pl^
+||roblox-fr.site^
 ||roblox-give.space^
 ||roblox-group.ml^
 ||roblox-help.com^
+||roblox-kz.ru^
 ||roblox-log-in.com^
 ||roblox-login.com^
 ||roblox-login.ml^
+||roblox-n.com^
 ||roblox-o.com^
 ||roblox-on.com^
 ||roblox-porn.com^
@@ -14649,6 +14922,7 @@
 ||roblox-reverts.com^
 ||roblox-ro.com^
 ||roblox-robux.de^
+||roblox-rw.com^
 ||roblox-siite.com^
 ||roblox-site.com^
 ||roblox-site.xyz^
@@ -14666,6 +14940,7 @@
 ||roblox-webapp.com^
 ||roblox-webs.com^
 ||roblox-z.co^
+||roblox.aclmh.com^
 ||roblox.ax^
 ||roblox.beauty^
 ||roblox.bi^
@@ -14685,6 +14960,7 @@
 ||roblox.com.bd^
 ||roblox.com.bj^
 ||roblox.com.bo^
+||roblox.com.by^
 ||roblox.com.bz^
 ||roblox.com.ci^
 ||roblox.com.cm^
@@ -14718,6 +14994,7 @@
 ||roblox.com.nl^
 ||roblox.com.nr^
 ||roblox.com.pr^
+||roblox.com.ps^
 ||roblox.com.pt^
 ||roblox.com.py^
 ||roblox.com.ro^
@@ -14771,6 +15048,7 @@
 ||roblox.zynaweb.com^
 ||roblox0.com^
 ||roblox5.com^
+||roblox6.com^
 ||roblox7.com^
 ||roblox8.com^
 ||robloxa.cam^
@@ -14785,6 +15063,7 @@
 ||robloxgamecode.com^
 ||robloxgi.com^
 ||robloxgiftcardz.com^
+||robloxgiveaway.com^
 ||robloxh.com^
 ||robloxi-sites.com^
 ||robloxi.com.cm^
@@ -14795,12 +15074,15 @@
 ||robloxii.com^
 ||robloxio.com^
 ||robloxios.com^
+||robloxiq.com^
 ||robloxiu.com^
 ||robloxiv.com^
+||robloxivz.com^
 ||robloxix.com^
 ||robloxiz.com^
 ||robloxlr.com^
 ||robloxn.com.ng^
+||robloxoz.com^
 ||robloxpasssword.com^
 ||robloxpm.com^
 ||robloxpr.com^
@@ -14839,6 +15121,7 @@
 ||robloxza.com^
 ||roblqx.com^
 ||roblsx.com^
+||robltox.com^
 ||roblux.com.ng^
 ||roblvox.com^
 ||roblvx.com.in^
@@ -14889,6 +15172,7 @@
 ||rocketlegue.site^
 ||rocketpool.cash^
 ||rockettrade.pro^
+||rodseeopenky.com^
 ||roexporter.site^
 ||rofblox.com^
 ||rogue-legacy.com^
@@ -15021,7 +15305,9 @@
 ||rust-royal.com^
 ||rust-serversmonitoring.space^
 ||rust-serversmonitoringservice.space^
+||rust-skins.space^
 ||rust-stock.com^
+||rust-success.com^
 ||rust-supply.com^
 ||rust-swap.com^
 ||rust-tools.com^
@@ -15038,6 +15324,7 @@
 ||rust.yt^
 ||rust10.com^
 ||rust2.pro^
+||rust23.ru^
 ||rust3.shop^
 ||rust4.pro^
 ||rust4.shop^
@@ -15069,6 +15356,7 @@
 ||rustg1fts.ru^
 ||rustgame-servers.com^
 ||rustgame.shop^
+||rustgh.com^
 ||rustgiflt-twitclh.com.ru^
 ||rustgifltwitclf.skin^
 ||rustgifltwitclh.com^
@@ -15083,6 +15371,7 @@
 ||rustgiveway.ru^
 ||rustgun.ru^
 ||rusti-cated.com^
+||rusticated-event.com^
 ||rustinity.net^
 ||rustlistservers.pro^
 ||rustmonitoringserverslist.pro^
@@ -15151,6 +15440,7 @@
 ||safety-system.club^
 ||salariumstar.com^
 ||sallow.ru^
+||salomex.com^
 ||samsungnitro.xyz^
 ||santa.bitxskins.com^
 ||sarobux.com^
@@ -15193,17 +15483,25 @@
 ||sdcuu.net^
 ||sdicsords.xyz^
 ||sdiscord.com^
+||seamcommnuity.com^
+||seamcommnunity.com^
 ||seamcommuinity.com^
 ||seamcommuninty.com^
 ||seamcommunirty.com^
 ||seamcommuniry.com^
+||seamcommunitey.com^
 ||seamcommunitly.com^
 ||seamcommunitny.com^
+||seamcommunitty.com^
 ||seamcommunity.com^
 ||seamcommunity.ru^
 ||seamcommunlty.com^
+||seamcommunniy.com^
 ||seamcommunty.com^
+||seamcommunuity.com^
 ||seamcommunuty.com^
+||seamcommuunity.com^
+||seamcomnunity.com^
 ||seamcomunity.ru^
 ||seamconmunity.xyz^
 ||seancommunity.com^
@@ -15212,6 +15510,8 @@
 ||searching-place.com^
 ||searmcornmunlty.me^
 ||searmcornmunulity.club^
+||seaspacex.com^
+||seatransactione.online^
 ||sec-web3.foundation^
 ||second-moderators-review.com^
 ||secure-instagram.ru^
@@ -15524,6 +15824,7 @@
 ||sites-robiox.net^
 ||sites-robloox.com^
 ||sites-robloxl.com^
+||skeplex.com^
 ||skiinsmonkey.com^
 ||skillfulbattle.com^
 ||skillfulbattles.com^
@@ -15560,6 +15861,7 @@
 ||skins-bash.com^
 ||skins-cs.ru^
 ||skins-navi.pp.ru^
+||skins-valorant-info.com^
 ||skins.org.ru^
 ||skins.pp.ru^
 ||skinsbears.com^
@@ -15852,6 +16154,7 @@
 ||sleamconnunity.pw^
 ||sleamconnunity.ru^
 ||sleamconnunnity.me^
+||sleamconuunity.ru^
 ||sleamcoommunilty.com^
 ||sleamcoommunily.com^
 ||sleamcoommunity.com^
@@ -15864,6 +16167,7 @@
 ||sleamcornmunienty.me^
 ||sleamcornmuniity.ru^
 ||sleamcornmunitiiy.ru^
+||sleamcornmunity.com^
 ||sleamcornmunity.ru^
 ||sleamcornmunity.xyz^
 ||sleamcornmunuity.me^
@@ -15967,10 +16271,12 @@
 ||slreamcomunntiy.org^
 ||slreammcommunileiuy.xyz^
 ||slremcomnuuniirry.xyz^
+||slteamcammunity.ru^
 ||slteamcommuinity.com^
 ||slteamcommunity.com^
 ||slteamcommunity.ru^
 ||slteamcommunlty.com^
+||slteamcomuunity.ru^
 ||slteamconmuniity.com^
 ||sltes-roblox.com^
 ||slug-collab.xyz^
@@ -15981,6 +16287,7 @@
 ||smitecommunity.org^
 ||smmdiscord.com^
 ||smowsgiving-newyear.com^
+||snexon.com^
 ||sng-soft.com^
 ||snitrogift.site^
 ||snotragame.com^
@@ -16363,6 +16670,7 @@
 ||staemcommnutiy.ru^
 ||staemcommonity.ru^
 ||staemcommqnity.ru^
+||staemcommrunity.com^
 ||staemcommuanity.ru^
 ||staemcommucunity.com^
 ||staemcommuenity.ru^
@@ -16370,9 +16678,12 @@
 ||staemcommuinity.me^
 ||staemcommuinity.ru^
 ||staemcommuinlty.ru^
+||staemcommuinly.com^
+||staemcommuintry.com^
 ||staemcommuinty.com^
 ||staemcommuinty.ru^
 ||staemcommuiti.com^
+||staemcommuitny.com^
 ||staemcommuity.com^
 ||staemcommuity.me^
 ||staemcommuity.ru^
@@ -16421,6 +16732,7 @@
 ||staemcommunirty.cc^
 ||staemcommunirty.com^
 ||staemcommunirty.xyz^
+||staemcommuniry.com^
 ||staemcommunisty.com^
 ||staemcommunitcy.com^
 ||staemcommunite.ru^
@@ -16455,6 +16767,7 @@
 ||staemcommunitu.net.ru^
 ||staemcommunitu.org.ru^
 ||staemcommunitu.ru^
+||staemcommunity.cc^
 ||staemcommunity.cf^
 ||staemcommunity.click^
 ||staemcommunity.com^
@@ -16483,6 +16796,7 @@
 ||staemcommunivitly.com^
 ||staemcommunivly.ru^
 ||staemcommunivty.ru^
+||staemcommuniy.com^
 ||staemcommuniy.com.ru^
 ||staemcommuniy.xyz^
 ||staemcommunliity.ru^
@@ -16579,6 +16893,7 @@
 ||staemcommuunitly.ru^
 ||staemcommuunity.com^
 ||staemcommuunity.ru^
+||staemcommuunity.xyz^
 ||staemcommuuntys.ru^
 ||staemcommvnity.com^
 ||staemcommyniity.net.ru^
@@ -16614,6 +16929,7 @@
 ||staemcomnnuity.ru^
 ||staemcomnnumity.com^
 ||staemcomnnumity.ru^
+||staemcomnnuninty.ru^
 ||staemcomnnunitiy.ru^
 ||staemcomnnunity.com^
 ||staemcomnnunity.net.ru^
@@ -16648,10 +16964,12 @@
 ||staemcomnurnity.ru^
 ||staemcomnynitu.net.ru^
 ||staemcomrmunity.ru^
+||staemcomrnuninty.ru^
 ||staemcomrnunitly.ru^
 ||staemcomrnunity.me^
 ||staemcomrnunity.ru^
 ||staemcomrnunity.ru.com^
+||staemcomrnunnity.ru^
 ||staemcomrrunitiy.com^
 ||staemcomrrunity.com^
 ||staemcomumity.com^
@@ -16687,6 +17005,7 @@
 ||staemconminuty.ru^
 ||staemconmmuity.com^
 ||staemconmmuniity.ru^
+||staemconmmunitiy.ru^
 ||staemconmmunitly.ru^
 ||staemconmmunity.ru^
 ||staemconmmunity.site^
@@ -16728,6 +17047,7 @@
 ||staemconnnunlty.com^
 ||staemconnnunlty.de^
 ||staemconnumity.ru^
+||staemconnuninty.ru^
 ||staemconnunity.com^
 ||staemconnunity.net.ru^
 ||staemconnunity.ru^
@@ -16780,6 +17100,7 @@
 ||staemcornnunity.ru^
 ||staemcornnunnits.ru.com^
 ||staemcornnunnits.site^
+||staemcornrnuninty.ru^
 ||staemcornrnunity.me^
 ||staemcornrnunity.ru^
 ||staemcornunitny.me^
@@ -16855,6 +17176,8 @@
 ||staermnconnumti.com^
 ||staerncoinunitiy.me^
 ||staerncommnuity.ru^
+||staerncommnunity.ru^
+||staerncommuninty.ru^
 ||staerncommunity.ru^
 ||staerncommunity.site^
 ||staerncommunlty.com^
@@ -16910,9 +17233,11 @@
 ||starbucksiswrong.com^
 ||starknet.support^
 ||starladderleague.com^
+||starlcnet.space^
 ||starleagueauth.com^
 ||starlink23.net^
 ||starlink23.org^
+||starlinxe.com^
 ||starmcommunity.net^
 ||starncommnunnits.site^
 ||starncomrnunity.ru^
@@ -17001,6 +17326,7 @@
 ||steacommunily.com^
 ||steacommuninty.com^
 ||steacommuniny.com^
+||steacommunitly.com^
 ||steacommunitny.com^
 ||steacommunitty.com^
 ||steacommunity.com^
@@ -17023,9 +17349,12 @@
 ||steacomnunity.com^
 ||steacomnunity.ru^
 ||steacomnunity.ru.com^
+||steacomnunnity.com^
 ||steacomsjunity.ru^
+||steacomuninty.com^
 ||steacomunity.ru^
 ||steacomunityprofiles76857971283.site^
+||steacomunnity.com^
 ||steaconmunity.ru^
 ||steacoommunily.com^
 ||steacoommunity.com^
@@ -17148,6 +17477,7 @@
 ||steam-communiti.ru^
 ||steam-communiti.xyz^
 ||steam-communities.ru^
+||steam-communitl.ru^
 ||steam-communitv.ru^
 ||steam-community.com.ru^
 ||steam-community.eu^
@@ -17175,6 +17505,7 @@
 ||steam-commurity.ru^
 ||steam-commurlity.ru^
 ||steam-commurnity.com^
+||steam-commynite.ru^
 ||steam-comnmuniti.ru^
 ||steam-comnunity.online^
 ||steam-comnunity.ru^
@@ -17398,6 +17729,7 @@
 ||steamcammuniety.ru^
 ||steamcammuniiity.ru^
 ||steamcammuniity.ru^
+||steamcammunili.ru^
 ||steamcammunite.com^
 ||steamcammunite.ru^
 ||steamcammunitey.com^
@@ -17440,6 +17772,7 @@
 ||steamcammunyty.ru^
 ||steamcammuunity.ru^
 ||steamcammuunuty.ru^
+||steamcammynitu.com^
 ||steamcammynitu.ru^
 ||steamcamnmunity.com^
 ||steamcamnmunity.ru^
@@ -17563,6 +17896,7 @@
 ||steamccommunlty.ru^
 ||steamccommunniity.ru^
 ||steamccommunnity.com^
+||steamccommunnity.ru^
 ||steamccommunyty.ru^
 ||steamccommutinny.ru.com^
 ||steamccommyniity.net.ru^
@@ -17697,6 +18031,7 @@
 ||steamcomiynuytiy.net.ru^
 ||steamcomlmunity.com^
 ||steamcomlunily.com^
+||steamcomlunitty.com^
 ||steamcomlunity.com^
 ||steamcomlunniity.ru^
 ||steamcomlunnity.ru^
@@ -17752,6 +18087,7 @@
 ||steamcomminiity.site^
 ||steamcommininnty.ru^
 ||steamcommininty.com^
+||steamcomminiti.com^
 ||steamcomminitie.ru^
 ||steamcomminitiu.ru^
 ||steamcomminitiy.com^
@@ -17892,6 +18228,7 @@
 ||steamcommmunty.com^
 ||steamcommmunty.ru^
 ||steamcommmunuty.com^
+||steamcommmuunitty.com^
 ||steamcommmuunity.com^
 ||steamcommmuunity.ru^
 ||steamcommmynity.com^
@@ -17994,6 +18331,7 @@
 ||steamcommnuliity.ru^
 ||steamcommnulilty.com^
 ||steamcommnulilty.ru^
+||steamcommnulirty.ru^
 ||steamcommnulitty.ru^
 ||steamcommnulity.com^
 ||steamcommnulity.ru^
@@ -18068,6 +18406,7 @@
 ||steamcommnunnity.com^
 ||steamcommnunnity.ru^
 ||steamcommnunnity.shop^
+||steamcommnunnnity.ru^
 ||steamcommnunrtiy.com^
 ||steamcommnunrtiy.ru^
 ||steamcommnuntiiy.site^
@@ -18088,6 +18427,7 @@
 ||steamcommnunytl.com^
 ||steamcommnunytl.ru^
 ||steamcommnurity.ru^
+||steamcommnurlty.com^
 ||steamcommnurnity.com^
 ||steamcommnurntiy.com^
 ||steamcommnurtiy.com^
@@ -18162,6 +18502,7 @@
 ||steamcommucnity.com^
 ||steamcommucnity.com.ru^
 ||steamcommueity.com^
+||steamcommueity.ru^
 ||steamcommueneity.ru^
 ||steamcommueneuity.ru^
 ||steamcommuenitey.com^
@@ -18177,6 +18518,7 @@
 ||steamcommuhity.com^
 ||steamcommuhity.ru^
 ||steamcommuhlty.ru^
+||steamcommuhnity.com^
 ||steamcommuhtiy.ru^
 ||steamcommuhuity.com^
 ||steamcommuiity.ru^
@@ -18260,6 +18602,7 @@
 ||steamcommulity.com^
 ||steamcommulity.ru^
 ||steamcommuliy.ru^
+||steamcommullnity.com^
 ||steamcommulltty.com^
 ||steamcommullty.ru^
 ||steamcommulnilty.com^
@@ -18280,6 +18623,7 @@
 ||steamcommuluty.ru^
 ||steamcommumify.ru^
 ||steamcommumiity.com^
+||steamcommumiity.ru^
 ||steamcommumillty.com^
 ||steamcommumiltly.com^
 ||steamcommumilty.com^
@@ -18316,6 +18660,7 @@
 ||steamcommumlty.ga^
 ||steamcommumlty.ru^
 ||steamcommummuity.ru.com^
+||steamcommumniity.com^
 ||steamcommumnilty.com^
 ||steamcommumnitiy.com^
 ||steamcommumnitly.com^
@@ -18344,6 +18689,8 @@
 ||steamcommumuttiy.com^
 ||steamcommumuttliy.com^
 ||steamcommumuty.ru^
+||steamcommumyty.site^
+||steamcommun1ty.com^
 ||steamcommunaitiy.com^
 ||steamcommunaty.com^
 ||steamcommunaty.ru^
@@ -18407,8 +18754,10 @@
 ||steamcommuneuty.com^
 ||steamcommuneuty.ru^
 ||steamcommuneyity.ru^
+||steamcommunfiity.com^
 ||steamcommunfity.com^
 ||steamcommungity.ru^
+||steamcommunhiity.com^
 ||steamcommunhity.com^
 ||steamcommuni.com^
 ||steamcommuni.ru^
@@ -18429,6 +18778,7 @@
 ||steamcommunietiy.ru^
 ||steamcommuniety.com^
 ||steamcommuniety.ru^
+||steamcommuniey.ru^
 ||steamcommunifly.ru.com^
 ||steamcommunify.com^
 ||steamcommunify.ru^
@@ -18530,12 +18880,14 @@
 ||steamcommunilty.it^
 ||steamcommunilty.me^
 ||steamcommunilty.online^
+||steamcommunilty.ru^
 ||steamcommunilty.ru.com^
 ||steamcommunilty.shop^
 ||steamcommunilty.space^
 ||steamcommunilty.store^
 ||steamcommunilty.us^
 ||steamcommunilty.xyz^
+||steamcommuniltyn.com^
 ||steamcommuniltyn.ru^
 ||steamcommuniltyru.ru^
 ||steamcommuniltys.com^
@@ -18600,6 +18952,7 @@
 ||steamcommunitas.art^
 ||steamcommunitas.com^
 ||steamcommunitas.ru^
+||steamcommunitc.com^
 ||steamcommunitc.ru^
 ||steamcommunitcy.com^
 ||steamcommunitd.ru^
@@ -18748,6 +19101,7 @@
 ||steamcommunitly.xyz^
 ||steamcommunitlycom.ru^
 ||steamcommunitlyi.ru^
+||steamcommunitlyn.com^
 ||steamcommunitlyn.ru^
 ||steamcommunitlys.com^
 ||steamcommunitlys.ru^
@@ -19252,6 +19606,7 @@
 ||steamcommunityru.ru^
 ||steamcommunityru.tk^
 ||steamcommunityrv.top^
+||steamcommunitys-pubg.top^
 ||steamcommunitys.club^
 ||steamcommunitys.co^
 ||steamcommunitys.eu^
@@ -19514,6 +19869,7 @@
 ||steamcommunivty.com^
 ||steamcommunivty.com.ru^
 ||steamcommunivty.ru^
+||steamcommunivy.ru^
 ||steamcommunixty.com^
 ||steamcommunixty.ru^
 ||steamcommuniy.com^
@@ -19732,6 +20088,7 @@
 ||steamcommunninty.io^
 ||steamcommunninty.ru^
 ||steamcommunninuty.com^
+||steamcommunnitc.com^
 ||steamcommunnite.com^
 ||steamcommunnite.ru^
 ||steamcommunnites.com^
@@ -19744,6 +20101,7 @@
 ||steamcommunnitliy.ru^
 ||steamcommunnitlly.com^
 ||steamcommunnitlly.ru^
+||steamcommunnitlu.com^
 ||steamcommunnitly.com^
 ||steamcommunnitly.ru^
 ||steamcommunnitlys.online^
@@ -19754,11 +20112,14 @@
 ||steamcommunnits.ru.com^
 ||steamcommunnitse.com^
 ||steamcommunnittiy.com^
+||steamcommunnittliy.com^
 ||steamcommunnittlly.com^
+||steamcommunnittlu.com^
 ||steamcommunnittly.com^
 ||steamcommunnittly.ru^
 ||steamcommunnitty.ru^
 ||steamcommunnitty.xyz^
+||steamcommunnitu.com^
 ||steamcommunnitu.ru^
 ||steamcommunnity.club^
 ||steamcommunnity.co^
@@ -19793,6 +20154,7 @@
 ||steamcommunnllity.ru^
 ||steamcommunnllty.com^
 ||steamcommunnllty.ru^
+||steamcommunnlly.com^
 ||steamcommunnlt.ru^
 ||steamcommunnltiy.net.ru^
 ||steamcommunnltiy.org.ru^
@@ -19832,6 +20194,7 @@
 ||steamcommunnutiy.com^
 ||steamcommunnutiy.ru^
 ||steamcommunnutly.com^
+||steamcommunnuttliy.com^
 ||steamcommunnutty.com^
 ||steamcommunnuty.com^
 ||steamcommunnuty.online^
@@ -19850,6 +20213,7 @@
 ||steamcommunrlty.ru^
 ||steamcommunrly.ru^
 ||steamcommunrnity.com^
+||steamcommunrrty.ru^
 ||steamcommunrtiy.com^
 ||steamcommunrtiy.ru^
 ||steamcommunrtly.com^
@@ -19888,6 +20252,7 @@
 ||steamcommuntiy.com^
 ||steamcommuntiy.com.ru^
 ||steamcommuntiy.ru^
+||steamcommuntiy.top^
 ||steamcommuntjy.ru^
 ||steamcommuntjy.xyz^
 ||steamcommuntli.ru^
@@ -20078,6 +20443,7 @@
 ||steamcommurllty.ru^
 ||steamcommurlty.com^
 ||steamcommurlty.ru^
+||steamcommurniity.com^
 ||steamcommurnite.ru^
 ||steamcommurnitiy.ru^
 ||steamcommurnitly.ru^
@@ -20148,6 +20514,7 @@
 ||steamcommuunitlly.ru^
 ||steamcommuunitly.com^
 ||steamcommuunitly.ru^
+||steamcommuunitty.com^
 ||steamcommuunitty.ru^
 ||steamcommuunitty.ru.com^
 ||steamcommuunitv.ru^
@@ -20398,6 +20765,7 @@
 ||steamcomnmnunty.ru^
 ||steamcomnmnutly.ru^
 ||steamcomnmnuty.ru^
+||steamcomnmnuuty.ru^
 ||steamcomnmrunity.ru^
 ||steamcomnmufly.ru.com^
 ||steamcomnmuiity.com^
@@ -20548,6 +20916,8 @@
 ||steamcomnnunitly.ru^
 ||steamcomnnunits.ru^
 ||steamcomnnunitty.art^
+||steamcomnnunitty.online^
+||steamcomnnunitty.ru^
 ||steamcomnnunitu.ru^
 ||steamcomnnunity.co^
 ||steamcomnnunity.com^
@@ -20559,6 +20929,7 @@
 ||steamcomnnunliity.ru^
 ||steamcomnnunlity.com^
 ||steamcomnnunlity.ru^
+||steamcomnnunllty.ru^
 ||steamcomnnunltu.ru^
 ||steamcomnnunlty.com^
 ||steamcomnnunlty.me^
@@ -20637,6 +21008,7 @@
 ||steamcomnumily.com^
 ||steamcomnumily.ru^
 ||steamcomnuminty.com^
+||steamcomnumitiey.ru^
 ||steamcomnumitly.com^
 ||steamcomnumittiy.ru^
 ||steamcomnumittly.ru^
@@ -20654,6 +21026,7 @@
 ||steamcomnumlty.com^
 ||steamcomnumlty.ru^
 ||steamcomnummity.com^
+||steamcomnumniity.com^
 ||steamcomnumniltly.com^
 ||steamcomnumnilty.com^
 ||steamcomnumnitiy.com^
@@ -20682,6 +21055,7 @@
 ||steamcomnuniity.xyz^
 ||steamcomnunilly.ru^
 ||steamcomnunilti.com^
+||steamcomnuniltiy.com^
 ||steamcomnuniltly.com^
 ||steamcomnuniltty.ru^
 ||steamcomnunilty.com^
@@ -20726,6 +21100,7 @@
 ||steamcomnunituy.com^
 ||steamcomnunituy.fun^
 ||steamcomnunituy.ru^
+||steamcomnunity-bonus.com^
 ||steamcomnunity-ruprofiles76561198074966612.ru^
 ||steamcomnunity.com^
 ||steamcomnunity.com.ru^
@@ -20951,6 +21326,7 @@
 ||steamcomrnurnity.ru^
 ||steamcomrnurnlty.ru^
 ||steamcomrnutiny.ru^
+||steamcomrnvnity.pro^
 ||steamcomrnyniti.ru^
 ||steamcomrnyniti.ru.com^
 ||steamcomrnynity.ru^
@@ -21322,6 +21698,7 @@
 ||steamcomynnitly.org.ru^
 ||steamcomynnitly.pp.ru^
 ||steamcomynnitu.net.ru^
+||steamcomynnitu.store^
 ||steamcomynnity.net.ru^
 ||steamcomynnity.org.ru^
 ||steamcomynnity.pp.ru^
@@ -21332,6 +21709,7 @@
 ||steamcomynnltiy.org.ru^
 ||steamcomynnltiy.pp.ru^
 ||steamcomyunity.com^
+||steamcomyunity.ru^
 ||steamcomyynitly.website^
 ||steamconimmunity.com^
 ||steamconiynniuyty.net.ru^
@@ -21674,6 +22052,7 @@
 ||steamconnumlty.ru^
 ||steamconnummity.ru^
 ||steamconnumnity.ru^
+||steamconnumty.ru^
 ||steamconnumunity.com^
 ||steamconnumuty.com^
 ||steamconnunify.ru^
@@ -21706,6 +22085,7 @@
 ||steamconnunnity.ru^
 ||steamconnunuty.com^
 ||steamconnymity.com^
+||steamconnynity.ru^
 ||steamconnyniuyty.org.ru^
 ||steamconrmmunity.com^
 ||steamconrmmunity.ru^
@@ -21714,6 +22094,7 @@
 ||steamconrmunity.ru^
 ||steamconrmunlty.ru^
 ||steamconrnmunity.com^
+||steamconrnunily.ru^
 ||steamconrnunity.ru^
 ||steamcontent.ru^
 ||steamconumity.ru^
@@ -21936,6 +22317,7 @@
 ||steamcornnunity.com^
 ||steamcornnunity.ru^
 ||steamcornrnuity.com^
+||steamcornrnuninty.ru^
 ||steamcornrnunitly.ru^
 ||steamcornrnunity.com^
 ||steamcornrnunity.com.ru^
@@ -21963,6 +22345,7 @@
 ||steamcosmmunity.com^
 ||steamcoummunitiy.com^
 ||steamcoummunity.com^
+||steamcoummunity.online^
 ||steamcoummunity.ru^
 ||steamcoummynitu.ru^
 ||steamcoumunity.com^
@@ -22196,6 +22579,7 @@
 ||steamgift.fun^
 ||steamgift.online^
 ||steamgift.org.ru^
+||steamgift.space^
 ||steamgiftbox.com^
 ||steamgiftcards.cf^
 ||steamgiftcatd.com^
@@ -22214,6 +22598,7 @@
 ||steamhometrades.xyz^
 ||steamhsif.fun^
 ||steamhub.website^
+||steamicommuniity.ru^
 ||steamicommunity.com^
 ||steamicommunity.ru^
 ||steamicommunnity.com^
@@ -22376,6 +22761,7 @@
 ||steammcomunity.com^
 ||steammcomunity.net.ru^
 ||steammcomunity.ru^
+||steammcomunity.site^
 ||steammcomunityy.com^
 ||steammcomunityy.net.ru^
 ||steammcomuniuty.net.ru^
@@ -22488,6 +22874,7 @@
 ||steamncommunitiy.com^
 ||steamncommunitiy.ru^
 ||steamncommunitly.com^
+||steamncommunitly.ru^
 ||steamncommunitry.com^
 ||steamncommunits.com^
 ||steamncommunitty.ru^
@@ -22551,6 +22938,7 @@
 ||steamncomnmunity.com^
 ||steamncomnmunity.ru^
 ||steamncomnmunity.site^
+||steamncomnmunlity.com^
 ||steamncomnmunlty.com^
 ||steamncomnmunlty.ru^
 ||steamncomnmunnity.ru^
@@ -22694,6 +23082,7 @@
 ||steamoowered.com^
 ||steamoperation.site^
 ||steamopowered.com^
+||steamorgcommunity.ru^
 ||steamowas.xyz^
 ||steamowco.xyz^
 ||steamowered.com^
@@ -23109,6 +23498,7 @@
 ||steamwzzn.club^
 ||steamwzzv.club^
 ||steamwzzx.club^
+||steamxcommnuilty.ru^
 ||steamxcommuniity.xyz^
 ||steamxcommunilty.ru^
 ||steamxcommunity.com^
@@ -23203,6 +23593,7 @@
 ||steancommnnlty.ru^
 ||steancommnnunity.online^
 ||steancommnnunity.ru^
+||steancommnuilty.com^
 ||steancommnuilty.online^
 ||steancommnuilty.ru^
 ||steancommnuitty.com^
@@ -23424,6 +23815,7 @@
 ||steancommunlity.xyz^
 ||steancommunllty.com^
 ||steancommunllty.ru^
+||steancommunllty.site^
 ||steancommunlly.com^
 ||steancommunlly.ru^
 ||steancommunlnty.ru^
@@ -23469,9 +23861,11 @@
 ||steancommunnltu.ru^
 ||steancommunnlty.com^
 ||steancommunnlty.ru^
+||steancommunnlty.site^
 ||steancommunnly.com^
 ||steancommunnnity.ru^
 ||steancommunntiy.ru^
+||steancommunntly.com^
 ||steancommunnty.com^
 ||steancommunnty.ru^
 ||steancommunnuly.me^
@@ -23698,6 +24092,7 @@
 ||steancomnurity.xyz^
 ||steancomnurnity.ru^
 ||steancomnutinry.ru^
+||steancomnutity.com^
 ||steancomnutiy.ru^
 ||steancomnuuniliy.ru.com^
 ||steancomnwunity.ru^
@@ -23716,6 +24111,7 @@
 ||steancomrnunity.com^
 ||steancomrnunity.ru^
 ||steancomrnunlity.ru^
+||steancomrnunlty.com^
 ||steancomrnunlty.ru^
 ||steancomrnunuty.ru^
 ||steancomrunilty.com^
@@ -23753,6 +24149,7 @@
 ||steancomuniytyli.online^
 ||steancomuniytyli.ru^
 ||steancomunjty.ru^
+||steancomunlty.ru^
 ||steancomunniity.ru^
 ||steancomunnily.com^
 ||steancomunnitty.ru^
@@ -23935,6 +24332,7 @@
 ||steancormunilty.ru^
 ||steancormunity.ru^
 ||steancornminuty.com^
+||steancornmuniltiy.ru^
 ||steancornmunilty.ru^
 ||steancornmunilty.store^
 ||steancornmunitly.ru^
@@ -24005,6 +24403,7 @@
 ||steanmcommuity.com^
 ||steanmcommulty.com^
 ||steanmcommumity.com^
+||steanmcommumity.ru^
 ||steanmcommumnity.com^
 ||steanmcommuniity.com^
 ||steanmcommuniity.ru^
@@ -24388,6 +24787,7 @@
 ||steannmconnunity.site^
 ||steannommunity.com^
 ||steannpowered.ru^
+||steannpowored.ru^
 ||steannscomunnity.com^
 ||steanntcommunity.ru^
 ||steanpowered.net.ru^
@@ -24494,6 +24894,8 @@
 ||stearmcomrnunityi.com^
 ||stearmcomunity.online^
 ||stearmcomunity.ru^
+||stearmcomunlty.online^
+||stearmcomunlty.ru^
 ||stearmcomunty.ru^
 ||stearmconmmunity.com^
 ||stearmconmnnity.store^
@@ -24522,9 +24924,12 @@
 ||stearmmcomunity.ru^
 ||stearmmcomuunity.ru^
 ||stearmmconmnnity.com^
+||stearmncommunity.ru^
 ||stearnc0nmunity.ru^
 ||stearnccommuniity.online^
 ||stearnccommuniity.ru^
+||stearncomimunitu.com.ru^
+||stearncomimunity.ru^
 ||stearncommcunity.com^
 ||stearncommiinty.com.ru^
 ||stearncomminhty.com^
@@ -24546,6 +24951,7 @@
 ||stearncomminuty.ru.com^
 ||stearncomminyti.ru^
 ||stearncomminytu.com^
+||stearncommiunitliy.ru^
 ||stearncommiunity.co^
 ||stearncommiunity.com^
 ||stearncommiunty.com^
@@ -24833,6 +25239,7 @@
 ||stearncomnunity.pro^
 ||stearncomnunity.ru^
 ||stearncomnunlilty.com^
+||stearncomnunlilty.ru^
 ||stearncomnunlity.com^
 ||stearncomnunlity.ru^
 ||stearncomnunlty.com^
@@ -24919,6 +25326,7 @@
 ||stearncomunity.website^
 ||stearncomunity.xyz^
 ||stearncomunmity.site^
+||stearncomunnilty.com^
 ||stearncomunnilty.ru^
 ||stearncomunnitty.ru^
 ||stearncomunnity.com^
@@ -24970,6 +25378,7 @@
 ||stearnconrmunity.ru^
 ||stearnconrucmunity.ru^
 ||stearncoommunity.ru^
+||stearncoomnmunity.ru^
 ||stearncoomunity.ru^
 ||stearncormmunity.com^
 ||stearncormmunity.ru^
@@ -25052,6 +25461,7 @@
 ||stearncornrnunlty.org^
 ||stearncornrnunnity.xyz^
 ||stearncornummity.ru^
+||stearncornunity.fun^
 ||stearncornurniity.xyz^
 ||stearncorrmunity.com^
 ||stearncorrnumity.site^
@@ -25179,8 +25589,12 @@
 ||stecmcommunity.fun^
 ||stecmcommunity.online^
 ||stecmcommunity.ru^
+||stecmcommunnity.com^
 ||stecmcommunnity.ru^
+||stecmcomrnunity.com^
 ||stecmcomuniity.ru^
+||stecmconmmunity.ru^
+||stecmcornmunity.ru^
 ||stecmcowmunitiy.ru^
 ||stecmmcommunity.ru^
 ||stecncomununity.online^
@@ -25309,6 +25723,7 @@
 ||steemcommulity.com^
 ||steemcommumily.com^
 ||steemcommumiti.ru^
+||steemcommumitl.ru^
 ||steemcommumity.com^
 ||steemcommumity.ru^
 ||steemcommumty.com^
@@ -25349,6 +25764,7 @@
 ||steemcommunitiy.com^
 ||steemcommunitiy.ru^
 ||steemcommunitiy.xyz^
+||steemcommunitl.ru^
 ||steemcommunitly.com^
 ||steemcommunitly.net.ru^
 ||steemcommunitly.org.ru^
@@ -25534,6 +25950,7 @@
 ||steemmcommunity.ru^
 ||steemmcommunuty.net.ru^
 ||steemmcomunity.ru^
+||steemmcomunity.site^
 ||steemommuntity.com^
 ||steempowerd.ru^
 ||steempowered.com^
@@ -25709,6 +26126,7 @@
 ||stemcommunitty.ru^
 ||stemcommunitty.ru.com^
 ||stemcommunitty.site^
+||stemcommunitty.store^
 ||stemcommunitu.ru^
 ||stemcommunituy.com^
 ||stemcommunituy.site^
@@ -25843,12 +26261,14 @@
 ||stemcomnnyunity.com^
 ||stemcomnommunity.com^
 ||stemcomnumity.com^
+||stemcomnunit.ru^
 ||stemcomnuniti.ru^
 ||stemcomnunitly.com^
 ||stemcomnunitniy.com^
 ||stemcomnunity.com^
 ||stemcomnunity.ru^
 ||stemcomnunity.ru.com^
+||stemcomnunity.store^
 ||stemcomnunitya.com^
 ||stemcomnunmitty.com^
 ||stemcomnunnity.com^
@@ -26133,6 +26553,7 @@
 ||sterrmccommunity.ru^
 ||sterumcommunity.com^
 ||stesamcommunity.com^
+||steslex.com^
 ||stesmcommunlty.ru^
 ||steumcommnuity.com^
 ||steumcommnulty.com^
@@ -26316,6 +26737,7 @@
 ||stock888.cn^
 ||stocked.cc^
 ||stoemcommunity.com^
+||stohex.com^
 ||stomcommunity.com^
 ||stopify.co^
 ||stopify.com^
@@ -26352,6 +26774,7 @@
 ||store.stearncornnunity.ru^
 ||store.stempowerd.com^
 ||stores-steampowered.com^
+||storeskinworkshop.com^
 ||storesleampowecommunity.store^
 ||storesleampowered.com^
 ||storesteam-csgo.ru^
@@ -26425,6 +26848,7 @@
 ||streamcommonlty.ru.com^
 ||streamcommounity.com^
 ||streamcommuinity.com^
+||streamcommuinity.ru^
 ||streamcommuinty.com^
 ||streamcommuiny.ru^
 ||streamcommuity.com^
@@ -26490,6 +26914,7 @@
 ||streamcommuninty.com^
 ||streamcommuninty.me^
 ||streamcommuninunty.com^
+||streamcommuniry.com^
 ||streamcommunit.com^
 ||streamcommunit.ru.com^
 ||streamcommunite.com^
@@ -26513,6 +26938,7 @@
 ||streamcommunitty.ru^
 ||streamcommunitty.ru.com^
 ||streamcommunitu.com^
+||streamcommunitu.ru^
 ||streamcommunitv.me^
 ||streamcommunitv.net^
 ||streamcommunity-user.me^
@@ -27028,9 +27454,13 @@
 ||tapez.net^
 ||taplinkk.ru^
 ||tarcrypto.com^
+||task-on.xyz^
+||taskon-gifts.fun^
 ||tasty-skill.net.ru^
 ||tastyskill.net.ru^
 ||tathli.com^
+||tcs2.pro^
+||tcs2.xyz^
 ||team-apply.com^
 ||team-arena.com^
 ||team-discord.com^
@@ -27092,6 +27522,7 @@
 ||telpremiums.com^
 ||telsabonus.live^
 ||telsadouble.live^
+||tenerix.com^
 ||tergmimans.gq^
 ||terlaby.com^
 ||terms-hypesquad.com^
@@ -27120,6 +27551,7 @@
 ||tesla-pump.net^
 ||tesla-x2.net^
 ||tesla2023.store^
+||tesla2023event.com^
 ||tesla2023live.com^
 ||tesla2023x2.pro^
 ||tesla2ai.net^
@@ -27181,6 +27613,7 @@
 ||teslasend.io^
 ||teslaspring.io^
 ||teslastart.org^
+||teslasx.org^
 ||teslatake2023.com^
 ||teslatothe.space^
 ||teslatrust2x.com^
@@ -27302,6 +27735,8 @@
 ||theserbit.com^
 ||theshoparound.com^
 ||thesilkradiance.com^
+||thetipcoin.fit^
+||thetipcoin.su^
 ||thevalleydiscord.com^
 ||think-when.xyz^
 ||this-is-nitro.tk^
@@ -27333,6 +27768,7 @@
 ||toldyouso.lol^
 ||toldyouso.pics^
 ||tollan.xyz^
+||ton-reward.com^
 ||toolkit.the-red-hand.com^
 ||toom-skins.xyz^
 ||toosweettobesour.com^
@@ -27361,6 +27797,8 @@
 ||totaltopposts.com^
 ||tourcs-2022.cf^
 ||tourcs2022.cf^
+||tourcs2go.com^
+||tourcs2go.ru^
 ||tourism-services.online^
 ||tournagifgame.site^
 ||tournament-predator.xyz^
@@ -27375,6 +27813,7 @@
 ||tournamentgoz.xyz^
 ||tournaments-cs.ru^
 ||tournaments-csgo.ru^
+||tournaments-fastcup.ru^
 ||tournaments-free.xyz^
 ||tournaments.ga^
 ||tournamentscs.ga^
@@ -27394,6 +27833,7 @@
 ||toymories.xyz^
 ||toytimediscord.com^
 ||track-149uew.link^
+||track-addpkg.com^
 ||track.countlessclicks.com^
 ||trackadsonline.top^
 ||trackbyfast.com^
@@ -27491,6 +27931,13 @@
 ||turnamets-cs.ru^
 ||turnir-cs2022.online^
 ||turtlite.fun^
+||tw-cs2.com^
+||tw-cs2.online^
+||tw-cs2.space^
+||twcs2.ru^
+||twcs2.xyz^
+||twcs2sk.pro^
+||twdrops.pro^
 ||twich-csgo.com^
 ||twitch-access.com^
 ||twitch-activates.com^
@@ -27508,11 +27955,16 @@
 ||twitch-community.com^
 ||twitch-connects.com^
 ||twitch-cs.org^
+||twitch-cs2-drops.com^
 ||twitch-cs2.com^
+||twitch-cs2.pro^
+||twitch-cs2.tv^
+||twitch-csgo2.tv^
 ||twitch-csgoconnect.gifts^
 ||twitch-details.com^
 ||twitch-discord.com^
 ||twitch-drops.online^
+||twitch-drops.shop^
 ||twitch-esport.gifts^
 ||twitch-esport.tv^
 ||twitch-exclusive.com^
@@ -27528,6 +27980,8 @@
 ||twitch-giveaways.com^
 ||twitch-gives.com^
 ||twitch-global.com^
+||twitch-glve.com^
+||twitch-glves.com^
 ||twitch-info.com^
 ||twitch-katowice.com^
 ||twitch-link.com^
@@ -27557,6 +28011,7 @@
 ||twitch.facepunchstudio.com^
 ||twitch.gift^
 ||twitch.rust-ltd.com^
+||twitch2csgo.com^
 ||twitchblasts.com^
 ||twitchcamp.com^
 ||twitchcase.com^
@@ -27565,26 +28020,45 @@
 ||twitchcases.net^
 ||twitchclaim.com^
 ||twitchcs.com^
+||twitchcs.tv^
+||twitchcs2.com^
 ||twitchcsgo.cfd^
 ||twitchcsgo.net^
+||twitchcsgo.tv^
 ||twitchd.org.ru^
 ||twitchdiscord.com^
 ||twitchdrolpslriust.skin^
 ||twitchdrolpslrlust.com^
 ||twitchdrolpsrlust.com^
 ||twitchdrolpstriust.skin^
+||twitchdrop.cc^
+||twitchdrop.fun^
+||twitchdrop.net^
+||twitchdrop.ru^
+||twitchdrop.space^
+||twitchdrop.top^
+||twitchdrops.fun^
 ||twitchdrops.net.ru^
+||twitchdrops.pro^
+||twitchdropses.com^
 ||twitches-csgo.com^
+||twitcheventcs2.com^
+||twitchevents.site^
+||twitcheventscs2.com^
 ||twitchfacepunch.ru^
 ||twitchgammers.com^
+||twitchgammers.fun^
 ||twitchget.com^
+||twitchgft.pro^
 ||twitchgg.shop^
 ||twitchgg.skin^
+||twitchgifts.com^
 ||twitchgive.com^
 ||twitchiem.com^
 ||twitchmajor.com^
 ||twitchmajors.com^
 ||twitchprize.com^
+||twitchroll.com^
 ||twitchs-activate.com^
 ||twitchs-app.com^
 ||twitchs-apps.com^
@@ -27596,6 +28070,7 @@
 ||twitchs-code.com^
 ||twitchs-connect.com^
 ||twitchs-cs.com^
+||twitchs-cs2.tv^
 ||twitchs-earn.com^
 ||twitchs-earns.com^
 ||twitchs-esl.com^
@@ -27622,6 +28097,7 @@
 ||twitchs.in^
 ||twitchs.net^
 ||twitchs.us^
+||twitchskins.ru^
 ||twitchsmajor.com^
 ||twitchsrust.com^
 ||twitchss-gaming.com^
@@ -27629,6 +28105,8 @@
 ||twitchworlds.net^
 ||twitcn-csgo.com^
 ||twitcn-esports.com^
+||twitcncs2.tv^
+||twlchdrops.com^
 ||twltch-access.com^
 ||twltch-activate.com^
 ||twltch-activates.com^
@@ -27648,8 +28126,11 @@
 ||twltch-codes.com^
 ||twltch-connect.com^
 ||twltch-connects.com^
+||twltch-cs.tv^
 ||twltch-cs2.com^
 ||twltch-csgo.tv^
+||twltch-csgo2.com^
+||twltch-drp.com^
 ||twltch-earns.com^
 ||twltch-exclusive.com^
 ||twltch-exclusives.com^
@@ -27670,6 +28151,7 @@
 ||twltch-live.com^
 ||twltch-loot.com^
 ||twltch-ltem.com^
+||twltch-main.com^
 ||twltch-major.com^
 ||twltch-majors.com^
 ||twltch-play.com^
@@ -27695,8 +28177,12 @@
 ||twltch.us^
 ||twltchapps.com^
 ||twltchblast.com^
+||twltchcase.com^
 ||twltchcast.com^
 ||twltchclaim.com^
+||twltchcs.tv^
+||twltchcs2.com^
+||twltchcs2.tv^
 ||twltchesl.com^
 ||twltchesport.com^
 ||twltchesports.com^
@@ -27721,6 +28207,9 @@
 ||twltchs-code.com^
 ||twltchs-connect.com^
 ||twltchs-cs.com^
+||twltchs-cs.tv^
+||twltchs-cs2.com^
+||twltchs-cs2.tv^
 ||twltchs-earn.com^
 ||twltchs-earns.com^
 ||twltchs-esl.com^
@@ -27749,6 +28238,7 @@
 ||twltchsmajor.com^
 ||twltchtv.com^
 ||twoe.asia^
+||twtcs2.pro^
 ||tydiscord.com^
 ||tylerdiscord.com^
 ||typiccor.com^
@@ -27762,6 +28252,7 @@
 ||uirusu.jp^
 ||ukfreecouponcode.com^
 ||uknrust.com^
+||ultima.center^
 ||um-bredirect.com^
 ||umbreallajump.com^
 ||umbrellajump.com^
@@ -27781,6 +28272,7 @@
 ||uopirurr.top^
 ||up-discord.com^
 ||up-discord.ru^
+||up-musk.net^
 ||up-nitro.com^
 ||upcs.monster^
 ||upcs2.pro^
@@ -27792,6 +28284,7 @@
 ||updates-policy-important.com^
 ||updelly.com^
 ||upexs.top^
+||upgrade-opensea.io^
 ||uplixs.com^
 ||uproject.in^
 ||upshroomishtor.com^
@@ -27810,8 +28303,11 @@
 ||user-verify.pro^
 ||users-beta.app^
 ||usetrans.com^
+||uspfse.top^
 ||usps-i4.mybigcommerce.com^
+||usps-number.us^
 ||usps-trackingpackages.com^
+||uspscd.com^
 ||usunwirusa.pl^
 ||utanvirus.se^
 ||uwww-roblox.com^
@@ -27825,25 +28321,60 @@
 ||vaiorantpromotion.com^
 ||valhobols.gq^
 ||valopromotion.com^
+||valorant-arc.lol^
+||valorant-blade.com^
+||valorant-bundle.lol^
+||valorant-champions.com^
+||valorant-champions.fun^
+||valorant-champions23.com^
 ||valorant-cool.com^
+||valorant-creative.com^
 ||valorant-dez.com^
+||valorant-easy.com^
+||valorant-event.com^
+||valorant-free.com^
+||valorant-giftaway.com^
 ||valorant-gifts.com^
 ||valorant-giveaway.com^
+||valorant-grab.com^
+||valorant-hub.com^
+||valorant-imp.pro^
+||valorant-imp.site^
+||valorant-kunai.com^
+||valorant-kunai.pro^
+||valorant-kunai23.lol^
+||valorant-play.com^
 ||valorant-prime.com^
 ||valorant-promo.com^
 ||valorant-promotion.com^
 ||valorant-promotlon.com^
 ||valorant-promotlons.com^
+||valorant-rich.com^
 ||valorant-skin.com^
+||valorant-spin.pro^
+||valorant-start.com^
+||valorant-tips.pro^
+||valorant.kim^
+||valorant2023.lol^
+||valorant44.com^
+||valorant54.com^
+||valorant88.com^
 ||valorantdrops.com^
+||valorantget.com^
+||valorantgift.online^
+||valorantgifts.pro^
+||valorantgive.com^
 ||valorantgiveavvay.com^
 ||valorantgiveaway.com^
 ||valorantgiveaways.com^
 ||valorantgleavvay.com^
 ||valorantglveavvay.com^
 ||valorantglveaway.com^
+||valorantplay.pro^
+||valorantpoints-supportriotgames.com^
 ||valorantpromotion.com^
 ||valorantpromotions.com^
+||valotour.pro^
 ||valuesbot.com^
 ||valve-beta.com^
 ||valve-cs2.com^
@@ -27856,12 +28387,14 @@
 ||valve4you.com^
 ||valvebonus.store^
 ||valvecsgo.com^
+||varbloox.com^
 ||varfabit.com^
 ||vbucksminer.ru^
 ||vbucksplease.com^
 ||venly-access.com^
 ||venly-captcha.com^
 ||venly.link^
+||venom-drop.space^
 ||venomnet.co^
 ||venomnetwork.co^
 ||venoxiswallet.com^
@@ -27879,6 +28412,7 @@
 ||verification-moderator.com^
 ||verification-partner.com^
 ||verification-vulcan.xyz^
+||verification-wick.xyz^
 ||verification.bot^
 ||verification.dyno.so^
 ||verifications-discord.com^
@@ -27905,6 +28439,7 @@
 ||verifyaccount-badge.ml^
 ||verifyaccount-for-bluetick.com^
 ||verifybadgeteam.com^
+||verifycaptcha.xyz^
 ||verifycolab.xyz^
 ||verifydiscord-whop.com^
 ||verifydiscordserver.xyz^
@@ -27915,6 +28450,7 @@
 ||verifyminecraft.com^
 ||verifysync.net^
 ||verifytool.xyz^
+||verifywick.site^
 ||versusgg.xyz^
 ||versustour.xyz^
 ||vertiq.info^
@@ -28038,6 +28574,7 @@
 ||vw-roblox.com^
 ||vwv-roblox.com^
 ||vwv-roblox.ga^
+||vwvvv-roblox.com^
 ||vwvvw-roblox.com^
 ||vwvvwv-roblox.com^
 ||vwvw--roblox.com^
@@ -28047,11 +28584,13 @@
 ||vww-roblox.com^
 ||vww-roblox.ga^
 ||vwwv-roblox.ml^
+||vwxv-roblox.com^
 ||w-roblox.com^
 ||w3c-validation.live^
 ||wa5.ru^
 ||wadefamilytree.org^
 ||wagmi.gift^
+||wagnex.com^
 ||wakulandcaptcha.xyz^
 ||walkers-crypto.xyz^
 ||wallet-connect-edu.pages.dev^
@@ -28069,6 +28608,7 @@
 ||wanmeipt.ru^
 ||wanmeizi.ru^
 ||warning-selectioneventhype.gq^
+||wastrex.com^
 ||watch-video.net^
 ||watchearncsgo.pro^
 ||watchgamesseemore.hu^
@@ -28112,6 +28652,7 @@
 ||web3claim.tech^
 ||web3claimers.com^
 ||web3claims.com^
+||web3connect.stormkit.dev^
 ||web3fmint.com^
 ||web3mint.cc^
 ||webb-roblox.com^
@@ -28131,6 +28672,7 @@
 ||weeb-roblox.com^
 ||weekly-lucky-2020-gift.club^
 ||weeklyjob.online^
+||wegranox.com^
 ||weibo-csgo.com^
 ||weirdrs.cc^
 ||welcome-eventsup.ml^
@@ -28184,6 +28726,7 @@
 ||wick-verification.site^
 ||wickapp.fun^
 ||wickauth.com^
+||wickbot-verify.xyz^
 ||wickbot.cc^
 ||wickbot.fun^
 ||wickbot.ink^
@@ -28205,12 +28748,15 @@
 ||wicksbot.site^
 ||wicksbot.space^
 ||wicksecure.site^
+||wickverify.site^
 ||widesdays.com^
 ||wignewsee.club^
 ||wild-day.com^
 ||wildmonth.com^
 ||wildweeks.com^
+||win-cs2.com^
 ||win.xzhyl.top^
+||wincs2-give.com^
 ||windows-scan.com^
 ||winfnatic.pro^
 ||winhypesquad.gq^
@@ -28218,9 +28764,12 @@
 ||winrbx1s1.pw^
 ||winter-smile.com^
 ||winthis.skin^
+||wintwitch.com^
 ||wishuiuck.net^
 ||withereum.com^
+||witoxo.com^
 ||wits-nft.com^
+||wizarre.live^
 ||wl-pre.com^
 ||wlww-roblox.com^
 ||wmw-roblox.com^
@@ -28296,6 +28845,7 @@
 ||ww2.discordinc.com^
 ||wwa-roblox.com^
 ||wwaz-roblox.com^
+||wwcw-roblox.com^
 ||wwdiscord.app^
 ||wwdiscord.com^
 ||wwiw-roblox.com^
@@ -28523,8 +29073,10 @@
 ||xpro.ws^
 ||xpromo-discord.com^
 ||xrp20coins.io^
+||xrpglobal-event.info^
 ||xtesla.org^
 ||xtesla.top^
+||xteslabit.com^
 ||xteslax2.com^
 ||xuserpremium.com^
 ||xwww-roblox.com^
