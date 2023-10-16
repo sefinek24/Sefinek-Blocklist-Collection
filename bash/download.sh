@@ -216,6 +216,9 @@ urls=(
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels,ShadowWhisperer.Tunnels.txt"
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Typo,ShadowWhisperer.Typo.txt"
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/UrlShortener,ShadowWhisperer.UrlShortener.txt"
+
+  # hagezi
+  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt,hagezi.pro.txt"
 )
 
 # Read version from package.json
