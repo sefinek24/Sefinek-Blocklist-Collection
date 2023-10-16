@@ -25,6 +25,7 @@
     <img src="https://count.getloli.com/get/@Sefinek-Blocklist-Collection?theme=rule34" alt="Views" title="Repository views">
 </div>
 
+
 ## 📝 Information
 False alarms occur very rarely.
 If accidental blocking of a legitimate website occurs, please report it to its original Creator, as some lists in this repository ([blocklist/template/forks](blocklist/template/forks) directory) are only downloaded and converted into various formats.
@@ -43,9 +44,11 @@ If I come across a false alarm while browsing the internet, I usually eliminate 
 > You have two options. You can use the [default blocklist](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
 
 
-## ✋ Warning
-It is important to regularly check this repository for updates and potential changes.
-However, it should be noted that while this blocking list can improve your privacy and security, it may unintentionally block legitimate content or services. Therefore, use it at your own risk.
+## 💸 Support me if you like this
+Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me. Thank you! 😹😻
+> https://sefinek.net/support-me  
+> https://paypal.me/sefinek (email for PayPal: contact@sefinek.net)
+
 
 ## 📥 Update frequency
 - **Repository:**  
@@ -55,16 +58,13 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 > [!IMPORTANT]
 > Go [here](https://blocklist.sefinek.net/update-frequency) and see when the next repository synchronization is scheduled based on your time zone. It can help you determine the appropriate time for the cron job for your Pi-hole instance or any other ad blocker.
 
+
 ## 🌍 Links
 - [Blocklist generator (sefinek.net)](https://sefinek.net/blocklist-generator)
 - [Homepage of blocklist.sefinek.net (stats, updates frequency, API for devs etc.)](https://blocklist.sefinek.net)
 - [File explorer (Index of /generated/)](https://blocklist.sefinek.net/generated)
 - [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs): `Remote` [github.com] → `Local` [blocklist.sefinek.net]
 
-## 💸 Support me if you like this
-Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me. Thank you! 😹😻
-> https://sefinek.net/support-me  
-> https://paypal.me/sefinek (email for paypal: contact@sefinek.net)
 
 ## ✨ Default blocklist
 - [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
@@ -93,27 +93,38 @@ Unfortunately, **my home internet connection doesn't allow me to host a blocklis
     📃 <a href="lists/Index.md">Choose your adblocker and copy URL addresses »</a>
 </h3>
 
+
 ## 🔧 Regex list
 <h3 align="right">
     🔡 <a href="info/What is Regex.md">View the regex list and read additional information »</a>
 </h3>
 
+
+## ✋ Warning
+It is important to regularly check this repository for updates and potential changes.
+However, it should be noted that while this blocking list can improve your privacy and security, it may unintentionally block legitimate content or services. Therefore, use it at your own risk.
+
+
 ## 🤔 Tutorials
 - [How to install Pi-hole?](tutorials/How%20to%20install%20Pi-hole.md)
 - [How to install Unbound for Pi-hole?](tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md)
+
 
 ## 🤝 Contributing
 I appreciate your interest in contributing!<br>
 If you have any suggestions or additions that you think would improve this project, please don't hesitate to share them with me. I warmly invite you to contribute to this project by submitting a Pull request, where you can contribute your changes. Your efforts and insights will be greatly valued and will contribute to making this project even better and more beneficial for others.<br>
 Thank you in advance for your valuable contribution!
 
+
 ## ✔️ Todo
 1. Fix [create-everything-list.js](scripts/create-everything-list.js).
 2. Improve all [scripts](scripts).
 
+
 ## 🌠 My other ~~useless~~ repositories
 1. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
 2. [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
+
 
 ## 🐈 Source of used images
 - https://pinterest.com
