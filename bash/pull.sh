@@ -24,11 +24,11 @@ echo
 # Check Git version and append it to the output file
 git --version
 
-# Fetch the latest changes from the remote repository and append output to the log file
-git fetch
+# Fetch the latest changes from the remote repository (main branch only) and append output to the log file
+git fetch origin main:main
 
-# Pull the latest changes from the remote repository and append output to the log file
-git pull
+# Pull the latest changes from the remote repository (main branch only) and append output to the log file
+git pull origin main
 
 echo
 echo
