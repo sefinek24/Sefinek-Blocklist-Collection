@@ -5,35 +5,30 @@ repo_path="/home/ubuntu/node/Sefinek-Blocklist-Collection"  # Path to the reposi
 logs_dir="$repo_path/www/public/logs"  # Directory to store logs
 output_file="$logs_dir/pull_$(date +'%Y-%m-%d').log"  # Path to the output log file
 
-# Change to the repository directory or exit if it fails
-cd "$repo_path" || { echo "Error: Could not change to the repository directory"; exit 1; }
+# Change to the repository directory
+cd "$repo_path" || exit
 
 # Create the logs directory if it doesn't exist
-mkdir -p "$logs_dir" || { echo "Error: Could not create the logs directory"; exit 1; }
-
-# Redirect all output to the log file
-exec >> "$output_file" 2>&1
+mkdir -p "$logs_dir"
 
 # Write the full date and time to the output file
-echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') =========================================="
-echo "Repository path : $repo_path"
-echo "Logs directory  : $logs_dir"
-echo "Output file     : $output_file"
-echo
+echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') ==========================================" >> "$output_file"
+echo "Repository path : $repo_path" >> "$output_file"
+echo "Logs directory  : $logs_dir" >> "$output_file"
+echo "Output file     : $output_file" >> "$output_file"
+echo >> "$output_file"
 
-# Check Git version and append it to the output file
-git --version
+# Git
+git --version >> "$output_file" 2>&1  # Check Git version and append it to the output file
+echo >> "$output_file"
 
-# Fetch the latest changes from the remote repository (main branch only) and append output to the log file
-git fetch origin main:main
+git fetch >> "$output_file" 2>&1  # Fetch the latest changes from the remote repository and append output to the log file
+git pull >> "$output_file" 2>&1  # Pull the latest changes from the remote repository and append output to the log file
 
-# Pull the latest changes from the remote repository (main branch only) and append output to the log file
-git pull origin main
+echo >> "$output_file" 2>&1
+echo >> "$output_file" 2>&1
+echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')" >> "$output_file" 2>&1  # Add a success message with the current date and time to the output file
+echo >> "$output_file" 2>&1
 
-echo
-echo
-echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')"  # Add a success message with the current date and time to the output file
-echo
-
-# Print a message indicating that the script has finished and the output file location
-echo "Done. Output file has been created or updated: $output_file"
+# Final
+echo "Done. Output file has been created or updated: $output_file"  # Print a message indicating that the script has finished and the output file location
