@@ -16,7 +16,7 @@ const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex
 // Functions
 const redirectMiddleware = (req, res) => {
 	const url = req.url;
-	if (!url || url.length === 0) return res.status(400);
+	if (!url || url.length === 0) return res.sendStatus(400);
 
 	return res.status(301).redirect(`https://raw.githubusercontent.com/sefinek24/Sefinek-Blocklist-Collection/main/blocklist/generated/${url}`);
 };
