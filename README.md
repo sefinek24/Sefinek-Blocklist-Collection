@@ -111,8 +111,10 @@ However, it should be noted that while this blocking list can improve your priva
 
 
 ## 🤝 Contributing
-I appreciate your interest in contributing!<br>
-If you have any suggestions or additions that you think would improve this project, please don't hesitate to share them with me. I warmly invite you to contribute to this project by submitting a Pull request, where you can contribute your changes. Your efforts and insights will be greatly valued and will contribute to making this project even better and more beneficial for others.<br>
+I appreciate your interest in contributing!
+If you have any suggestions or additions that you think would improve this project, please don't hesitate to share them with me.
+I warmly invite you to contribute to this project by submitting a Pull request, where you can contribute your changes.
+Your efforts and insights will be greatly valued and will contribute to making this project even better and more beneficial for others.<br>
 Thank you in advance for your valuable contribution!
 
 
