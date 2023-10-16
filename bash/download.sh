@@ -233,7 +233,7 @@ fi
 
 # Download files
 for url in "${urls[@]}"; do
-  url_parts=("${url//,/}")
+  url_parts=(${url//,/})
   download_url=${url_parts[0]}
   filename=${url_parts[1]}
 
