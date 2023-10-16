@@ -60,9 +60,6 @@ jobs:
       - name: Count domains in the files
         run: node scripts/update-number-of-domains.js --ignore-question
 
-      # - name: Show files
-      #   run: ls -R /home/runner/work
-
       - name: Commit files
         run: |
           git config --global user.name "Sefinek Actions"
