@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const path = require('node:path');
+const WebSocket = require('ws');
 const increment = require('./middlewares/increment.js');
 const logger = require('./middlewares/morgan.js');
 const limiter = require('./middlewares/ratelimit.js');
@@ -12,6 +13,10 @@ require('./database/mongoose.js');
 
 // Express instance
 const app = express();
+
+// Websocket
+const ws = new WebSocket.Server({ port: process.env.NODE_ENV === 'production' ? 443 : process.env.WS_PORT });
+require('./websocket.js')(ws);
 
 // Set
 app.set('trust proxy', 1);

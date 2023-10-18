@@ -9,7 +9,11 @@ const tz = { tz: 'Europe/Warsaw' };
 router.get('/', async (req, res) => {
 	const database = await RequestStats.findOne({}).limit(1);
 
-	res.render('index.ejs', { database, version, uptime: formatTime.full(process.uptime()) });
+	res.render('index.old.ejs', { database, version, uptime: formatTime.full(process.uptime()) });
+});
+
+router.get('/new-index', async (req, res) => {
+	res.render('index.ejs', { version });
 });
 
 router.get('/api', (req, res) => res.render('api.ejs', { version }));

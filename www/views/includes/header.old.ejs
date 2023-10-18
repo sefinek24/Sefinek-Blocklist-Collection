@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <% if (title) { %><title><%= title %></title><% } %>
+    <% if (meta.description) { %><meta name="description" content="<%= meta.description %>"><% } %>
+    <% if (meta.keywords) { %><meta name="keywords" content="<%= meta.keywords %>"><% } %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <% if (process.env.NODE_ENV === 'production') { %>
+        <% if (meta.siteName) { %><meta property="og:siteName" content="<%= meta.siteName %>"><% } %>
+        <% if (meta.color) { %><meta name="theme-color" content="<%= meta.color %>"><% } %>
+        <meta property="og:url" content="<%= process.env.DOMAIN %>>">
+
+        <% if (canonical || canonical === '') { %>
+            <link rel="canonical" href="<%= `${process.env.DOMAIN}${process.env.NODE_ENV === 'production' ? '' : `:${process.env.PORT}`}` %>">
+        <% } %>
+    <% } %>
+
+    <link rel="stylesheet" href="/css/default.css">
+    <% if (style) { %><link rel="stylesheet" href="/css/<%= style %>.css"> <% } %>
+    <% if (libs === 'luxon') { %><script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script><% } %>
+</head>
+<body>
+<div id="header"><%- header ? header : `Sefinek Blocklist: The best lists for your AdBlocker - v${version}` %></div>
+<div id="links">
+    <div id="text">
+        <div>>> <a href="<%= process.env.GITHUB_REPO %>">⭐ if you ❤️</a> <a href="https://sefinek.net/support-me">or support me 💸</a> <<</div>
+        <div>
+            🐈 <a href="<%= process.env.GITHUB_REPO %>" title="sefinek24/Sefinek-Blocklist-Collection" target="_blank">See GitHub Repository</a> 🐈
+        </div>
+    </div>
+</div>
+<hr>
+
+<div class="container" style="padding-top:10px">
+    <div>
+        🏠 <a href="/" <%- subpage === 'home' ? 'id="selected"' : '' %>>Home page</a>
+    </div>
+    <div>
+        📝 <a href="/generated">Blocklists</a>
+    </div>
+    <div>
+        🎯 <a href="/update-frequency" <%- subpage === 'update-freqency' ? 'id="selected"' : '' %>>Update frequency</a>
+    </div>
+    <div>
+        📃 <a href="https://sefinek.net/blocklist-generator"><strong>Blocklists Generator</strong></a>
+    </div>
+    <div>
+        📚 <a href="/explorer" <%- subpage === 'explorer' ? 'id="selected"' : '' %>>Markdown files</a>
+    </div>
+    <div>
+        💻‍ <a href="/api" <%- subpage === 'api' ? 'id="selected"' : '' %>>API for devs</a>
+    </div>
+    <div>
+        📘 <a href="/logs">Git pull logs</a>
+    </div>
+</div>
+
+<hr>

@@ -17,44 +17,19 @@
         <% } %>
     <% } %>
 
-    <link rel="stylesheet" href="/css/default.css">
     <% if (style) { %><link rel="stylesheet" href="/css/<%= style %>.css"> <% } %>
     <% if (libs === 'luxon') { %><script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script><% } %>
 </head>
 <body>
-    <div id="header"><%- header ? header : `Sefinek Blocklist: The best lists for your AdBlocker - v${version}` %></div>
-    <div id="links">
-        <div id="text">
-            <div>>> <a href="<%= process.env.GITHUB_REPO %>">⭐ if you ❤️</a> <a href="https://sefinek.net/support-me">or support me 💸</a> <<</div>
-            <div>
-                🐈 <a href="<%= process.env.GITHUB_REPO %>" title="sefinek24/Sefinek-Blocklist-Collection" target="_blank">See GitHub Repository</a> 🐈
-            </div>
-        </div>
-    </div>
-    <hr>
+    <div class="navbar">
+        <ul>
+            <li><a href="/" <%- subpage === 'home' ? 'id="selected"' : '' %>>🏠 Home page</a></li>
+            <li><a href="/generated">📝 Blocklists</a></li>
+            <li><a href="/update-frequency" <%- subpage === 'update-freqency' ? 'id="selected"' : '' %>>🎯 Update frequency</a></li>
+            <li><a href="/explorer" <%- subpage === 'explorer' ? 'id="selected"' : '' %>>📚 Markdown files</a></li>
+            <li><a href="/api" <%- subpage === 'api' ? 'id="selected"' : '' %>>💻‍ API for devs</a></li>
+            <li><a href="/logs">📘 Git pull logs</a></li>
+        </ul>
 
-    <div class="container" style="padding-top:10px">
-        <div>
-            🏠 <a href="/" <%- subpage === 'home' ? 'id="selected"' : '' %>>Home page</a>
-        </div>
-        <div>
-            📝 <a href="/generated">Blocklists</a>
-        </div>
-        <div>
-            🎯 <a href="/update-frequency" <%- subpage === 'update-freqency' ? 'id="selected"' : '' %>>Update frequency</a>
-        </div>
-        <div>
-            📃 <a href="https://sefinek.net/blocklist-generator"><strong>Blocklists Generator</strong></a>
-        </div>
-        <div>
-            📚 <a href="/explorer" <%- subpage === 'explorer' ? 'id="selected"' : '' %>>Markdown files</a>
-        </div>
-        <div>
-            💻‍ <a href="/api" <%- subpage === 'api' ? 'id="selected"' : '' %>>API for devs</a>
-        </div>
-        <div>
-            📘 <a href="/logs">Git pull logs</a>
-        </div>
+        <button class="menu-toggle">☰</button>
     </div>
-
-    <hr>

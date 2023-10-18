@@ -13,74 +13,244 @@
     style: 'index'
 }) %>
 
-<div class="container" id="allRequests">
-    <div>
-        <div id="category">😻 » All requests « 😻</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.all %>&length=10&theme=gelbooru" alt="<%= database.requests.all %>" title="<%= database.requests.all %>">
-    </div>
-    <div>
-        <div id="category">🙀 » Blocklist requests « 🙀</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.blocklist %>&length=10&theme=asoul" alt="<%= database.requests.blocklist %>" title="<%= database.requests.blocklist %>">
+<button class="menu-toggle">☰</button>
+
+<div class="cover">
+    <div class="cover-text">
+        <h1>Sefinek Blocklists - v<%= version %></h1>
+        <div>
+            The best lists for your AdBlocker.
+            Your first and last reliable list, with zero false positives.
+            Make your internet safer right now! Browse without interruptions and safeguard your privacy. Happy day!
+        </div>
+        <button><a href="https://sefinek.net/blocklist-generator">Open blocklist generator</a> </button>
+        <button>Read more information</button>
+        
+        <div id="gh-icon">
+            <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection"><img src="/images/flaticon/github.png" alt="GitHub logo"></a>
+            <a href="https://www.youtube.com/watch?v=xfTX8GVw3B8&t=1s"><img src="/images/flaticon/youtube.png" alt="YouTube logo"></a>
+        </div>
     </div>
 </div>
 
-<div class="container" id="lists">
-    <div>
-        <div id="category">📄 127.0.0.1 📄</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests['127001'] %>&length=7" alt="<%= database.requests['127001'] %>" title="<%= database.requests['127001'] %>">
+<div class="content">
+    <div class="container-content">
+        <h1>📝 Information</h1>
+        <div>
+            Welcome to Sefinek Blocklists, your go-to destination for top-quality AdBlocker lists.
+            Our commitment is to provide you with the most reliable, comprehensive list that will banish unwanted ads without a single false positive.
+            With our blocklists, you can make your online experience safer and more enjoyable. No more interruptions, just seamless browsing that keeps your privacy protected.
+        </div>
     </div>
-    <div>
-        <div id="category">📄 0.0.0.0 📄</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests['00000'] %>&length=7" alt="<%= database.requests['00000'] %>" title="<%= database.requests['00000'] %>">
+
+
+    <h2 class="header">What is Pi-hole? 🍒</h2>
+    <div class="header-text">
+        Pi-hole is an all-encompassing network-wide solution that operates at the DNS level, offering far more than just ad-blocking. Its primary function is to eliminate unwanted advertisements and filter out potentially harmful domains for all devices within your network, ensuring a secure and ad-free online experience. While Pi-hole excels at ad-blocking, it offers extensive customization through personalized blocklists and whitelists. Moreover, it prioritizes your data privacy by ensuring it doesn't pass through third-party servers, giving you complete control over your ad-blocking system. This versatile tool isn't just about blocking ads; it's about enhancing your online privacy and security.
     </div>
-    <div>
-        <div id="category">📄 AdGuard 📄</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.adguard %>&length=7" alt="<%= database.requests.adguard %>" title="<%= database.requests.adguard %>">
+
+
+    <h2 class="header">What is AdGuard? 🛡</h2>
+    <div class="header-text">
+        AdGuard takes a granular approach to ad-blocking, focusing on filtering ads within web browsers and mobile applications with a seamless user experience. It provides a comprehensive range of user-friendly products, including browser extensions and mobile apps, available in both free and premium versions. In addition to ad-blocking, AdGuard extends its offerings to auxiliary services such as VPN and DNS protection, enhancing your online privacy. The choice between Pi-hole and AdGuard depends on your specific needs and preferences. If you require network-wide ad-blocking, Pi-hole is the ideal solution. However, if you prefer application-based ad blocking with the added advantages of privacy features, AdGuard is the perfect choice for a smooth, secure, and ad-free online experience.
     </div>
-    <div>
-        <div id="category">📄 Dnsmasq 📄</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.dnsmasq %>&length=7" alt="<%= database.requests.dnsmasq %>" title="<%= database.requests.dnsmasq %>">
+
+
+
+    <h1 class="header">Okay, but why choose Sefinek Blocklists? 🤔</h1>
+    <div class="card">
+        <div class="text">
+            <h3>Ongoing Support</h3>
+            <p>
+                Our blocklists are continuously supported and monitored. We go beyond simple ad-blocking; we are committed to enhancing your overall online experience.
+                If a member of our community comes across a false positive, it will be promptly reported to the original list author.
+                We believe in the power of collaboration to guarantee the best online experience for all.
+            </p>
+        </div>
+        <div class="image">
+            <img src="/images/flaticon/hand.png" alt="Obrazek">
+        </div>
     </div>
-    <div>
-        <div id="category">📄 No IP 📄</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.requests.noip %>&length=7" alt="<%= database.requests.noip %>" title="<%= database.requests.noip %>">
+
+    <div class="card">
+        <div class="image">
+            <img src="/images/flaticon/cross.png" alt="Obrazek">
+        </div>
+        <div class="text">
+            <h3>Exceptionally Low False Positives</h3>
+            <p>
+                Precision is at the core of our approach.
+                We take pride in maintaining an exceptionally low false positive rate with our blocklists.
+                Our unwavering commitment to accuracy ensures that your online experience remains uninterrupted, enabling you to browse, work, and play with confidence and ease.
+                We understand how constant disruptions and false alarms can be frustrating.
+                That's why our team works tirelessly to continuously refine and optimize our lists, minimizing the likelihood of any false positives.
+                Your satisfaction and online security are our top priorities, and our goal is to offer you a reliable solution for a seamless digital journey.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="text">
+            <h3>Synchronization</h3>
+            <p>
+                At Sefinek Blocklists, we recognize the significance of staying current with the latest online threats to ensure the effectiveness of your ad-blocking.
+                This is why we've implemented a robust synchronization process. Our blocklists undergo synchronization every 2 hours within our GitHub repository, ensuring that you always have access to the most up-to-date versions.
+                Moreover, we conduct daily updates on our primary server at 00:00 and 06:00 to keep your ad-blocking lists consistently refreshed and your online experience secure.
+                We are dedicated to maintaining the timeliness and precision of our blocklists, providing you with the confidence to surf the internet knowing you're shielded from intrusive ads and potential online threats.
+            </p>
+        </div>
+        <div class="image">
+            <img src="/images/flaticon/loop.png" alt="Obrazek">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="/images/flaticon/privacy.png" alt="Obrazek">
+        </div>
+        <div class="text">
+            <h3>Enhanced Privacy</h3>
+            <p>
+                Your privacy is our top priority.
+                Our blocklists are crafted to do more than just eliminate intrusive ads; they are also designed to enhance your online privacy.
+                By blocking potentially harmful scripts and trackers, we help shield your personal information from unwanted scrutiny.
+                With our comprehensive lists, you can confidently navigate the web, assured that your data remains secure and your privacy is safeguarded.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="text">
+            <h3>Speedier Page Loading</h3>
+            <p>
+                Bid farewell to sluggish web page loading.
+                Our meticulously curated blocklists are fine-tuned to minimize the loading time of websites.
+                By blocking resource-intensive ads and scripts, we ensure that your browsing experience is smoother and more efficient.
+                Revel in quicker page loading times, which enable you to access your desired content without unwarranted delays, ensuring that your online journey is swift and trouble-free.
+            </p>
+        </div>
+        <div class="image">
+            <img src="/images/flaticon/loading-bar.png" alt="Obrazek">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <img src="/images/flaticon/cloud.png" alt="Obrazek">
+        </div>
+        <div class="text">
+            <h3>Secure and Swift Server Powered by Cloudflare</h3>
+            <p>
+                At the core of our service is a secure and high-speed server system, enhanced by the power of Cloudflare, a leading content delivery and security network.
+                We prioritize the reliability and performance of our blocklists, which translates into fast, uninterrupted updates and a heightened level of security.
+                What truly sets us apart is our unwavering commitment to your privacy.
+                We strictly adhere to a no-logs policy, ensuring that we do not collect any sensitive data during your interactions with our server, further reinforced by Cloudflare's robust security features.
+                Your online protection and privacy are our top priorities.
+                Our server, in partnership with Cloudflare's advanced capabilities, is designed to withstand potential threats while efficiently delivering your blocklist updates, providing you with both a secure and fast online experience without compromising your data privacy.
+            </p>
+        </div>
+    </div>
+
+
+    <h1 class="header" style="margin-top:40px">Are you ready for stats? 📝</h1>
+
+    <!-- Kontener z sekcjami informacji -->
+    <div class="container-stats">
+        <div class="card-stats">
+            <div id="category-big">All requests</div>
+            <div class="stats-content" id="stats-content-all-requests">-</div>
+        </div>
+        <div class="card-stats">
+            <div id="category-big">Blocklist requests</div>
+            <div class="stats-content" id="stats-content-blocklist-requests">-</div>
+        </div>
+    </div>
+
+    <div class="container-stats" id="lists">
+        <div>
+            <div id="category-small">127.0.0.1</div>
+            <div class="stats-content" id="stats-content-127001">-</div>
+        </div>
+        <div>
+            <div id="category-small">0.0.0.0</div>
+            <div class="stats-content" id="stats-content-00000">-</div>
+        </div>
+        <div>
+            <div id="category-small">AdGuard</div>
+            <div class="stats-content" id="stats-content-adguard">-</div>
+        </div>
+        <div>
+            <div id="category-small">Dnsmasq</div>
+            <div class="stats-content" id="stats-content-dnsmasq">-</div>
+        </div>
+        <div>
+            <div id="category-small">No IP</div>
+            <div class="stats-content" id="stats-content-noip">-</div>
+        </div>
+    </div>
+
+    <div class="container-stats">
+        <div>
+            <div id="category-small">Responses 404</div>
+            <div class="stats-content" id="stats-content-404">-</div>
+        </div>
+        <div>
+            <div id="category-small">Responses 429</div>
+            <div class="stats-content" id="stats-content-429">-</div>
+        </div>
+        <div>
+            <div id="category-small">Responses 500</div>
+            <div class="stats-content" id="stats-content-500">-</div>
+        </div>
+        <div>
+            <div id="category-small">Responses 503</div>
+            <div class="stats-content" id="stats-content-503">-</div>
+        </div>
+    </div>
+
+
+    <div id="stats-footer">
+        <code>Statistics are effective from: 23.09.2023, 01:00 (Europe/Warsaw)</code>
+    </div>
+
+
+    <h1 class="header" style="margin-top:40px">Server 🌍</h1>
+    <div class="container-stats">
+        <div>
+            <div>Uptime:</div>
+            <code id="stats-content-uptime">-</code>
+        </div>
+        <div>
+            <div>CPU load:</div>
+            <code id="stats-content-cpu-load">-</code>
+        </div>
+        <div>
+            <div>Collection date:</div>
+            <code id="stats-content-coll-date">-</code>
+        </div>
     </div>
 </div>
 
-<div class="container" id="responses">
-    <div>
-        <div id="category">🎆 Responses 404 🎆</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['404'] %>&length=8" alt="<%= database.responses['404'] %>" title="<%= database.responses['404'] %>">
-    </div>
-    <div>
-        <div id="category">⏰ Responses 429 ⏰</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['429'] %>&length=8" alt="<%= database.responses['429'] %>" title="<%= database.responses['429'] %>">
-    </div>
-    <div>
-        <div id="category">⚠️ Responses 500 ⚠️</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['500'] %>&length=8" alt="<%= database.responses['500'] %>" title="<%= database.responses['500'] %>">
-    </div>
-    <div>
-        <div id="category">😑 Responses 503 😑</div>
-        <img class="lazy" src="/images/loading.gif" data-src="<%= process.env.SEFINEK_API %>/moecounter?number=<%= database.responses['503'] %>&length=8" alt="<%= database.responses['503'] %>" title="<%= database.responses['503'] %>">
-    </div>
-</div>
 
-<div style="text-align:center;padding-top:6px">
-    <code>Statistics are effective from: 23.09.2023, 01:00 (Europe/Warsaw)</code>
-</div>
+<script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navbar = document.querySelector('.navbar');
 
-<hr>
-<div class="container" id="allRequests" style="padding-top:10px">
-    <div>
-        <code>Server uptime: <%= uptime || '❓ Unknown' %></code>
-    </div>
-    <div>
-        <code>Collection date: <%= database.createdAt || '❓ Unknown' %></code>
-    </div>
-</div>
+    menuToggle.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+    });
 
+    if (window.innerWidth < 768) {
+        menuToggle.style.display = 'block';
+    } else {
+        menuToggle.style.display = 'none';
+    }
+
+    const NODE_ENV = `<%= process.env.NODE_ENV %>`;
+    const WS_PORT = `<%= process.env.WS_PORT %>`;
+</script>
 
 <script src="/js/lazyload.js"></script>
+<script src="/js/websocket.js"></script>
 
 <%- include('./includes/footer.ejs') %>

@@ -1,6 +1,6 @@
 {
   "name": "sefinek-blocklist-collection",
-  "version": "0.10.4",
+  "version": "0.11.0",
   "description": "The best blocklists collection for your AdBlocker (Pi-hole, AdGuard etc.) made by Sefinek.",
   "main": "index.js",
   "scripts": {
@@ -51,8 +51,10 @@
     "helmet": "^7.0.0",
     "kleur": "^4.1.5",
     "luxon": "^3.4.3",
-    "mongoose": "^7.6.2",
+    "mongoose": "^7.6.3",
     "morgan": "^1.10.0",
-    "showdown": "^2.1.0"
+    "node-os-utils": "^1.3.7",
+    "showdown": "^2.1.0",
+    "ws": "^8.14.2"
   }
 }
