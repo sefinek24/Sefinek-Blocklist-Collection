@@ -15,7 +15,7 @@ require('./database/mongoose.js');
 const app = express();
 
 // Websocket
-const ws = new WebSocket.Server({ port: process.env.NODE_ENV === 'production' ? 443 : process.env.WS_PORT });
+const ws = new WebSocket.Server({ port: process.env.WS_PORT });
 require('./websocket.js')(ws);
 
 // Set
