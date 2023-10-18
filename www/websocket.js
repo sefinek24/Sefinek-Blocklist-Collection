@@ -4,6 +4,9 @@ const RequestStats = require('./database/models/RequestStats');
 
 module.exports = wss => {
 	wss.on('connection', ws => {
+		ws.on('error', console.error);
+
+
 		console.log('New WebSocket connection established.');
 
 		// Set up an interval to periodically send data to the connected client

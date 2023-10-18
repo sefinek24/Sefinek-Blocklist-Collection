@@ -4,7 +4,7 @@ socket.onopen = () => {
 	console.log('WebSocket connection established.');
 };
 
-socket.onmessage = (event) => {
+socket.onmessage = event => {
 	const parsedData = JSON.parse(event.data);
 
 	// Update elements on the page
@@ -43,7 +43,6 @@ socket.onerror = err => {
 	console.error('WebSocket connection error: ' + err.message);
 };
 
-// Function for updating statistics
 function updateStats(id, value) {
 	const statsContentElement = document.getElementById(`stats-content-${id}`);
 
