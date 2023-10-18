@@ -1,4 +1,4 @@
-const socket = new WebSocket(NODE_ENV === 'production' ? 'wss://blocklist.sefinek.net' : `ws://127.0.0.1:${WS_PORT}`);
+const socket = new WebSocket(NODE_ENV === 'production' ? 'wss://blocklist.sefinek.net/wsapp' : `ws://127.0.0.1:${WS_PORT}`);
 
 socket.onopen = () => {
 	console.log('WebSocket connection established.');
