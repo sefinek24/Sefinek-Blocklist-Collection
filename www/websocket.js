@@ -18,7 +18,10 @@ module.exports = wss => {
 					responses: database.responses,
 				},
 				uptime: formatTime.full(process.uptime()),
-				collDate: database.createdAt,
+				coll: {
+					createdAt: `${database.createdAt.toLocaleTimeString()}, ${database.createdAt.toLocaleDateString()}`,
+					updatedAt: `${database.updatedAt.toLocaleTimeString()}, ${database.updatedAt.toLocaleDateString()}`,
+				},
 				cpuUsage: `${cpuUsage}%`,
 			}));
 		}, 2000);

@@ -23,7 +23,8 @@ socket.onmessage = (event) => {
 	updateStats('503', parsedData.stats.responses['503']);
 
 	updateStats('uptime', parsedData.uptime);
-	updateStats('coll-date', parsedData.collDate);
+	updateStats('coll-cAt', parsedData.coll.createdAt);
+	updateStats('coll-uAt', parsedData.coll.updatedAt);
 	updateStats('cpu-load', parsedData.cpuUsage);
 };
 
@@ -52,7 +53,6 @@ function updateStats(id, value) {
 
 		// Format the value, adding commas as thousands separator
 		const formattedValue = value.toLocaleString();
-
 		if (oldValue === formattedValue) return;
 
 		statsContentElement.textContent = formattedValue;
