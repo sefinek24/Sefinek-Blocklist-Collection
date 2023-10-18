@@ -1,6 +1,6 @@
+const osu = require('node-os-utils');
 const formatTime = require('../www/utils/formatTime.js');
 const RequestStats = require('./database/models/RequestStats');
-const osu = require('node-os-utils');
 
 module.exports = wss => {
 	wss.on('connection', ws => {
