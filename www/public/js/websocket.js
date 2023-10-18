@@ -24,7 +24,7 @@ socket.onmessage = (event) => {
 
 	updateStats('uptime', parsedData.uptime);
 	updateStats('coll-date', parsedData.collDate);
-	updateStats('cpu-load', parsedData.cpuLoad);
+	updateStats('cpu-load', parsedData.cpuUsage);
 };
 
 socket.onclose = event => {

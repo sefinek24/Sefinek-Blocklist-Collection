@@ -23,7 +23,7 @@ module.exports = wss => {
 				},
 				uptime: formatTime.full(process.uptime()),
 				collDate: database.createdAt,
-				cpuLoad: cpuUsage,
+				cpuUsage: `${cpuUsage}%`,
 			}));
 		}, 2000);
 
