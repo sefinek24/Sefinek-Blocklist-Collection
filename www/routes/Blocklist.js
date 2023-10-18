@@ -11,7 +11,8 @@ const SERVE_FILES = process.env.SERVE_FILES;
 const generated = path.join(__dirname, '..', '..', 'blocklist', 'generated');
 const ZeroZeroZeroZero = path.join(__dirname, '..', '..', 'blocklist', 'generated', '0.0.0.0');
 const logs = path.join(__dirname, '..', 'public', 'logs');
-const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'default.html'), dirAtTop: true };
+const optionsGenerated = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'generated.html'), dirAtTop: true };
+const optionsLogs = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'logs.html'), dirAtTop: true };
 
 // Functions
 const redirectMiddleware = (req, res) => {
@@ -24,7 +25,7 @@ const redirectMiddleware = (req, res) => {
 
 // Serve block lists
 if (SERVE_FILES === 'static') {
-	router.use('/generated', increment.blocklist, autoIndex(generated, options), express.static(generated));
+	router.use('/generated', increment.blocklist, autoIndex(generated, optionsGenerated), express.static(generated));
 } else if (SERVE_FILES === 'redirect') {
 	router.use('/generated', increment.blocklist, /* autoIndex(generated, options), */ redirectMiddleware);
 } else {
@@ -33,7 +34,7 @@ if (SERVE_FILES === 'static') {
 }
 
 // Logs
-router.use('/logs', autoIndex(logs, options), express.static(logs));
+router.use('/logs', autoIndex(logs, optionsLogs), express.static(logs));
 
 // Deprecated endpoints
 router.get('/generated/0.0.0.0/riotgames.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/sites/riotgames.txt`));

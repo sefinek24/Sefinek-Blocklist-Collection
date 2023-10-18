@@ -1,4 +1,4 @@
-<%- include('./includes/header.old.ejs', {
+<%- include('./includes/header.ejs', {
     title: 'Update frequency - Sefinek Blocklists',
     meta: {
         description: 'This subpage displays the update time of repositories containing the list of blocklists for your time zone. You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.',
@@ -10,22 +10,34 @@
     header: null,
     subpage: 'update-freqency',
     libs: 'luxon',
-    style: 'index'
+    style: 'update-frequency'
 }) %>
 
-<p>
-    <b>Your timezone:</b> <span id="user-timezone"></span>
-</p>
-<p>
-    <b>Remote (GitHub):</b> <span id="github"></span>
-    <br>
-    <b>Local (blocklist.sefinek.net):</b> <span id="remote"></span>
-</p>
+<div class="cover">
+    <div class="cover-text">
+        <h1>Update frequency ⌛</h1>
+    </div>
+</div>
 
-<code>
-    This subpage displays the update time of repositories containing the list of blocklists for your time zone.<br>
-    You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.
-</code>
+<div class="content">
+    <div class="container-box">
+        <div class="container-text">
+            <b>Your timezone:</b> <span id="user-timezone"></span>
+            <br><br>
+
+            <b>Remote (GitHub):</b> <span id="github"></span>
+            <br>
+            <b>Local (blocklist.sefinek.net):</b> <span id="remote"></span>
+        </div>
+    </div>
+</div>
+
+<div class="header-text">
+    <code>
+        This subpage displays the update time of repositories containing the list of blocklists for your time zone.<br>
+        You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.
+    </code>
+</div>
 
 <script>
     function showCronInfo() {

@@ -1,20 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const parser = require('cron-parser');
-const formatTime = require('../utils/formatTime.js');
 const { version } = require('../../package.json');
-const RequestStats = require('../database/models/RequestStats.js');
 const tz = { tz: 'Europe/Warsaw' };
 
-router.get('/', async (req, res) => {
-	const database = await RequestStats.findOne({}).limit(1);
-
-	res.render('index.old.ejs', { database, version, uptime: formatTime.full(process.uptime()) });
-});
-
-router.get('/new-index', async (req, res) => {
-	res.render('index.ejs', { version });
-});
+router.get('/', (req, res) => res.render('index.ejs', { version }));
 
 router.get('/api', (req, res) => res.render('api.ejs', { version }));
 
