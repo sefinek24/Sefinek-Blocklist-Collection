@@ -3,17 +3,13 @@ const RequestStats = require('./database/models/RequestStats');
 const osu = require('node-os-utils');
 
 module.exports = wss => {
-	// Handle WebSocket connections
-	wss.on('connection', (ws) => {
+	wss.on('connection', ws => {
 		console.log('New WebSocket connection established.');
 
 		// Set up an interval to periodically send data to the connected client
 		const interval = setInterval(async () => {
-			// Fetch data from the database (you're using Mongoose to fetch data)
 			const database = await RequestStats.findOne({}).limit(1);
-
-			const cpu = osu.cpu;
-			const cpuUsage = await cpu.usage();
+			const cpuUsage = await osu.cpu.usage();
 
 			// Prepare and send JSON data to the client
 			ws.send(JSON.stringify({
