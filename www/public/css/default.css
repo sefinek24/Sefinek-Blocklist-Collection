@@ -18,6 +18,26 @@ h2 {
     text-align: center;
 }
 
+/* a */
+a {
+    color: #00a8fc;
+    text-decoration: none;
+    transition:.1s;
+}
+
+a:hover {
+    color: #00a8fc;
+    text-shadow: 0 0 8px #84fafc;
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: #00a8fc99;
+    text-shadow: 0 0 12px #84fafc99;
+    text-decoration: none;
+}
+
 /* Cover section styling */
 .cover {
     background-image: url('/images/bg3.jpg');

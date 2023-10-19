@@ -60,7 +60,7 @@ tableLinks.forEach(link => {
 		applyLinkStyles(link, 'yellow', 'open-folder.png');
 	} else if (isTextFile(linkText)) {
 		applyLinkStyles(link, 'cyan', 'word.png');
-		link.href = link.href.replace('/explorer/', '/viewer/');
+		link.href = link.href.replace('/markdown/', '/viewer/');
 	} else {
 		applyLinkStyles(link, 'red', 'unknown-mail.png');
 	}
@@ -73,16 +73,17 @@ tableLinks.forEach(link => {
 
 /* Toggle width */
 const toggleWidthButton = document.getElementById('toggleWidthButton');
-let tableWidth = localStorage.getItem('tableWidth') === '100%';
+let tableWidth = localStorage.getItem('tableWidth') !== null;
 
 const savedTableWidth = localStorage.getItem('tableWidth');
 if (savedTableWidth) table.style.width = savedTableWidth;
+else table.style.width = '100%';
 
 function updateTableWidth() {
 	if (tableWidth) {
-		toggleWidthButton.style.backgroundColor = 'blue';
-	} else {
 		toggleWidthButton.style.backgroundColor = 'green';
+	} else {
+		toggleWidthButton.style.backgroundColor = 'blue';
 	}
 }
 
@@ -90,7 +91,7 @@ updateTableWidth();
 
 toggleWidthButton.addEventListener('click', () => {
 	const currentWidth = table.style.width;
-	const newWidth = currentWidth === '100%' ? null : '100%';
+	const newWidth = currentWidth !== '100%' ? '100%' : null;
 
 	table.style.width = newWidth;
 	tableWidth = newWidth === '100%';
@@ -101,18 +102,17 @@ toggleWidthButton.addEventListener('click', () => {
 });
 
 
+
 /* Compact mode */
 const toggleCompactModeButton = document.getElementById('toggleCompactModeButton');
 let compactMode = localStorage.getItem('compactMode') === 'true';
 
 function updateCompactMode() {
 	if (compactMode) {
-		table.classList.add('compact-mode');
-		toggleCompactModeButton.textContent = 'Normal mode';
+		table.classList.add('not-compact-mode');
 		toggleCompactModeButton.style.backgroundColor = 'blue';
 	} else {
-		table.classList.remove('compact-mode');
-		toggleCompactModeButton.textContent = 'Compact mode';
+		table.classList.remove('not-compact-mode');
 		toggleCompactModeButton.style.backgroundColor = 'green';
 	}
 }

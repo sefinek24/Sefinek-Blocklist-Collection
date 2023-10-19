@@ -1,4 +1,4 @@
-<%- include('./../../includes/header.ejs', {
+<%- include('./includes/header.ejs', {
     title: 'View markdown files - Sefinek Blocklists',
     meta: {
         description: `View file ${file} in your browser.`,
@@ -17,7 +17,7 @@
         <li><a href="/">🏠 Home page</a></li>
         <li><a href="/generated">📝 Blocklists</a></li>
         <li><a href="/update-frequency">🎯 Update frequency</a></li>
-        <li><a href="/explorer" id="selected">📚 Markdown files</a></li>
+        <li><a href="/markdown" id="selected">📚 Markdown files</a></li>
         <li><a href="/api">💻‍ API for devs</a></li>
         <li><a href="/logs">📘 Git pull logs</a></li>
     </ul>
@@ -39,4 +39,4 @@
     </div>
 </div>
 
-<%- include('./../../includes/footer.ejs') %>
+<%- include('./includes/footer.ejs') %>

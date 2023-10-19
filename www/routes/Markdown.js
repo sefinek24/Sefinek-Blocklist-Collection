@@ -11,10 +11,10 @@ const conv = new showdown.Converter();
 conv.setFlavor('github');
 
 
-router.get('/explorer', (req, res) => res.render('autoindex/markdown/main.ejs', { version }));
-router.use('/explorer/lists', autoIndex(path.join(__dirname, '..', '..', 'lists'), options));
-router.use('/explorer/info', autoIndex(path.join(__dirname, '..', '..', 'info'), options));
-router.use('/explorer/tutorials', autoIndex(path.join(__dirname, '..', '..', 'tutorials'), options));
+router.get('/markdown', (req, res) => res.render('markdown.ejs', { version }));
+router.use('/markdown/lists', autoIndex(path.join(__dirname, '..', '..', 'lists'), options));
+router.use('/markdown/info', autoIndex(path.join(__dirname, '..', '..', 'info'), options));
+router.use('/markdown/tutorials', autoIndex(path.join(__dirname, '..', '..', 'tutorials'), options));
 
 router.use('/viewer/:type', async (req, res) => {
 	const file = req.url.replace(`/viewer/${req.params.type}`, '').replace(/%20/g, ' ');
@@ -27,7 +27,7 @@ router.use('/viewer/:type', async (req, res) => {
 	const mdFile = await fs.promises.readFile(fullPath, 'utf8');
 	const html = conv.makeHtml(mdFile);
 
-	res.render('autoindex/markdown/viewer.ejs', { version, html, file });
+	res.render('markdown-viewer.ejs', { version, html, file });
 });
 
 
