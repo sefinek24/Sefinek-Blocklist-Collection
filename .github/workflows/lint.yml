@@ -9,6 +9,8 @@ on:
     paths:
       - '**.txt'
 
+  workflow_dispatch:
+
 jobs:
   lint:
     runs-on: self-hosted
