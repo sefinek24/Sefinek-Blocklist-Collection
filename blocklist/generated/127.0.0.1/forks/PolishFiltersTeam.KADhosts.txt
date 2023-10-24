@@ -1,7 +1,7 @@
 # Title: KADhosts
 # Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-# Last modified: Tue, 24 Oct 2023, 18:21 UTC+02:00
-# Version: 2023.10.24.2
+# Last modified: Tue, 24 Oct 2023, 22:18 UTC+02:00
+# Version: 2023.10.24.3
 # Expires: 2 days
 # Website: https://kadantiscam.netlify.app/
 # Based on: https://github.com/FiltersHeroes/KAD
@@ -5186,6 +5186,7 @@
 # Przekrety
 #@ >>>>>>>> https://raw.githubusercontent.com/FiltersHeroes/KAD/master/sections/przekrety.txt => hosts
 127.0.0.1 0-finanzierung.com
+127.0.0.1 0-okodukai.com
 127.0.0.1 0amazin.ru.com
 127.0.0.1 0an-news.learnbaglama.com
 127.0.0.1 0b8cc331813049912.temporary.link
@@ -5897,6 +5898,7 @@
 127.0.0.1 36-t.cfd
 127.0.0.1 36aec220578.chefs-kitchen.co.uk
 127.0.0.1 36d0e1b0735.chefs-kitchen.co.uk
+127.0.0.1 36jfbzmdxdqapi.ru
 127.0.0.1 37-i75.cfd
 127.0.0.1 37php.duckdns.org
 127.0.0.1 38bmw.com
@@ -6982,11 +6984,13 @@
 127.0.0.1 a58477.paidtomoney.com
 127.0.0.1 a59803.24houcryptowatcher.com
 127.0.0.1 a60135.24houcryptowatcher.com
+127.0.0.1 a60436.kanuassociates.com
 127.0.0.1 a61242.eliteoftokens.com
 127.0.0.1 a62875.kanuassociates.com
 127.0.0.1 a63469.awicksin.com
 127.0.0.1 a66963.aimedia.lk
 127.0.0.1 a67646.kisspark.info
+127.0.0.1 a68023.kanuassociates.com
 127.0.0.1 a70391.sadeceis.com
 127.0.0.1 a70618.bkktothemoon.com
 127.0.0.1 a70907.cetusinvestmentsbtc.com
@@ -8266,6 +8270,11 @@
 127.0.0.1 allegrolokalnie.pay-now24.pl
 127.0.0.1 allegrolokalnie.pay-u.pl
 127.0.0.1 allegrolokalnie.payu-online.pl
+127.0.0.1 allegrolokalnie.pl-kup-szybko.pl
+127.0.0.1 allegrolokalnie.pl-kupteraz.pl
+127.0.0.1 allegrolokalnie.pl-oferta-uzytkownika.pl
+127.0.0.1 allegrolokalnie.pl-zakup-przedmiot.pl
+127.0.0.1 allegrolokalnie.pl-zakupy-online.pl
 127.0.0.1 allegrolokalnie.plac-online24.pl
 127.0.0.1 allegrolokalnie.plac-online.pl
 127.0.0.1 allegrolokalnie.platnosc-24h.pl
@@ -8303,6 +8312,7 @@
 127.0.0.1 allegrolokalnie.szybkie-zamowienie.pl
 127.0.0.1 allegrolokalnie.szybkie-zaplac.pl
 127.0.0.1 allegrolokalnie.szybko-kupuj.pl
+127.0.0.1 allegrolokalnie.szybko-zakup24.pl
 127.0.0.1 allegrolokalnie.tanie-zamowienie.pl
 127.0.0.1 allegrolokalnie.wygodna-platnosc.pl
 127.0.0.1 allegrolokalnie.wygodne-platnosci.pl
@@ -8317,6 +8327,7 @@
 127.0.0.1 allegrolokalnie.zakupy24h-7.pl
 127.0.0.1 allegrolokalnie.zakupy-24h.pl
 127.0.0.1 allegrolokalnie.zakupy-bezpieczne.pl
+127.0.0.1 allegrolokalnie.zakupy-z-ochrona.pl
 127.0.0.1 allegrolokalnie.zamow-bezpiecznie.pl
 127.0.0.1 allegrolokalnie.zamow-dzis.pl
 127.0.0.1 allegrolokalnie.zamow-internetowo.pl
@@ -10198,6 +10209,7 @@
 127.0.0.1 avnumit.site
 127.0.0.1 avocadocom.com
 127.0.0.1 avomed.hu
+127.0.0.1 avondaleazbeecontrol.com
 127.0.0.1 avondelray.com
 127.0.0.1 avrszc.rf.gd
 127.0.0.1 avuewwunwvbwoub.site
@@ -10411,6 +10423,7 @@
 127.0.0.1 b403.despachodeabogadosmcr.com
 127.0.0.1 b407.paidtomoney.com
 127.0.0.1 b433.despachodeabogadosmcr.com
+127.0.0.1 b433.kanuassociates.com
 127.0.0.1 b435.espn365.com
 127.0.0.1 b436.despachodeabogadosmcr.com
 127.0.0.1 b453.espn365.com
@@ -10473,6 +10486,7 @@
 127.0.0.1 b27194.hamdandates.com
 127.0.0.1 b28843.aimedia.lk
 127.0.0.1 b31350.paidtomoney.com
+127.0.0.1 b32263.kanuassociates.com
 127.0.0.1 b32795.bkktothemoon.com
 127.0.0.1 b35286.kisspark.info
 127.0.0.1 b35536.24houcryptowatcher.com
@@ -13629,6 +13643,7 @@
 127.0.0.1 c49594.aimedia.lk
 127.0.0.1 c50578.hostingkampanya.com
 127.0.0.1 c50995.kisspark.info
+127.0.0.1 c51770.kanuassociates.com
 127.0.0.1 c52098.paidtomoney.com
 127.0.0.1 c53538.cetusinvestmentsbtc.com
 127.0.0.1 c53677.24houcryptowatcher.com
@@ -13660,6 +13675,7 @@
 127.0.0.1 c79686.covidvcfund.com
 127.0.0.1 c80425.paidtomoney.com
 127.0.0.1 c80783.hamdandates.com
+127.0.0.1 c81881.kanuassociates.com
 127.0.0.1 c82803.awicksin.com
 127.0.0.1 c83649.paidtomoney.com
 127.0.0.1 c85228.hamdandates.com
@@ -14028,6 +14044,7 @@
 127.0.0.1 casinototek.com
 127.0.0.1 casio37.com
 127.0.0.1 casmater.com
+127.0.0.1 casokedui8hf4.s3.pl-waw.scw.cloud
 127.0.0.1 caspiancraft.com
 127.0.0.1 caspiyneft.site
 127.0.0.1 caspiyneft.space
@@ -15595,6 +15612,7 @@
 127.0.0.1 cookingpaths.com
 127.0.0.1 cool1.site
 127.0.0.1 cool8quet.life
+127.0.0.1 cool8tminds.site
 127.0.0.1 cool29xy7.xyz
 127.0.0.1 cool94vf5.quest
 127.0.0.1 cool-events.store
@@ -16042,6 +16060,7 @@
 127.0.0.1 cs2-natus.pro
 127.0.0.1 cs2-source.pro
 127.0.0.1 cs2skin4you.com
+127.0.0.1 cs2skinforyou.com
 127.0.0.1 cs2sources-invites.com
 127.0.0.1 cs2twitch.com
 127.0.0.1 cs2twt.com
@@ -16428,6 +16447,7 @@
 127.0.0.1 d27833.covidvcfund.com
 127.0.0.1 d27904.paidtomoney.com
 127.0.0.1 d32905.kisspark.info
+127.0.0.1 d33707.kanuassociates.com
 127.0.0.1 d34179.epinlock.com
 127.0.0.1 d34182.24houcryptowatcher.com
 127.0.0.1 d35047.cetusinvestmentsbtc.com
@@ -16460,6 +16480,7 @@
 127.0.0.1 d66936.aimedia.lk
 127.0.0.1 d67440.cetusinvestmentsbtc.com
 127.0.0.1 d68219.paidtomoney.com
+127.0.0.1 d70094.kanuassociates.com
 127.0.0.1 d71520.hostingkampanya.com
 127.0.0.1 d71728.cetusinvestmentsbtc.com
 127.0.0.1 d71765.hamdandates.com
@@ -19779,6 +19800,7 @@
 127.0.0.1 enzidev.com
 127.0.0.1 enzo.pw
 127.0.0.1 eobifoltdo.site
+127.0.0.1 eobuwieokay.shop
 127.0.0.1 eodion.com
 127.0.0.1 eoekdjdnbcbcbjd.site
 127.0.0.1 eoferta24h.pl
@@ -20629,6 +20651,7 @@
 127.0.0.1 f50008.hamdandates.com
 127.0.0.1 f51237.paidtomoney.com
 127.0.0.1 f51410.awicksin.com
+127.0.0.1 f52949.kanuassociates.com
 127.0.0.1 f53000.epinlock.com
 127.0.0.1 f53960.24houcryptowatcher.com
 127.0.0.1 f54528.awicksin.com
@@ -20745,6 +20768,7 @@
 127.0.0.1 facebookpolicy12.ddns.net
 127.0.0.1 facebookpolicy12.ddnsking.com
 127.0.0.1 faceboook.me
+127.0.0.1 facebooook.pl
 127.0.0.1 faceinfocus.net
 127.0.0.1 facelessinseattle.com
 127.0.0.1 facelt-shield.com
@@ -27535,6 +27559,7 @@
 127.0.0.1 inpost.326594512.xyz
 127.0.0.1 inpost.acenor.online
 127.0.0.1 inpost.advart.top
+127.0.0.1 inpost.aktponko.org
 127.0.0.1 inpost.andrewlin.bio
 127.0.0.1 inpost.average-redirect.pw
 127.0.0.1 inpost.bdimonet.org
@@ -28323,6 +28348,7 @@
 127.0.0.1 jakub.adaolga.warszawa.pl
 127.0.0.1 jakub.gabrielazuzanna.info.pl
 127.0.0.1 jakubjulia.com.pl
+127.0.0.1 jakwartosctaki.boats
 127.0.0.1 jakwyzwaniagdy.bond
 127.0.0.1 jakzarobicmiliondolarow.com
 127.0.0.1 jal.ttssonine.top
@@ -31353,6 +31379,7 @@
 127.0.0.1 lnpost.wepqa.site
 127.0.0.1 lnpost.www85.top
 127.0.0.1 lnpost.yedaw.pw
+127.0.0.1 lnpost.yeusev.online
 127.0.0.1 lnpost.ynbrka.website
 127.0.0.1 lnpost.yufams.site
 127.0.0.1 lnsurex-ks.com
@@ -33013,6 +33040,7 @@
 127.0.0.1 meta-support-bussiness.web.app
 127.0.0.1 meta-support-case-658714.start.page
 127.0.0.1 meta-support-case-6349571.start.page
+127.0.0.1 meta-support-case-59658137.start.page
 127.0.0.1 meta-support-helps.start.page
 127.0.0.1 meta.business-manager.live
 127.0.0.1 meta.businessverifys.info
@@ -35299,6 +35327,7 @@
 127.0.0.1 new22143.24houcryptowatcher.com
 127.0.0.1 new22225.hostingkampanya.com
 127.0.0.1 new24108.awicksin.com
+127.0.0.1 new24129.kanuassociates.com
 127.0.0.1 new24927.paidtomoney.com
 127.0.0.1 new25042.paidtomoney.com
 127.0.0.1 new26190.awicksin.com
@@ -35329,6 +35358,7 @@
 127.0.0.1 new56758.columbabkkfund.com
 127.0.0.1 new59040.awicksin.com
 127.0.0.1 new59045.kisspark.info
+127.0.0.1 new60318.kanuassociates.com
 127.0.0.1 new60884.24houcryptowatcher.com
 127.0.0.1 new61568.paidtomoney.com
 127.0.0.1 new62109.cetusinvestmentsbtc.com
@@ -35342,6 +35372,7 @@
 127.0.0.1 new69865.paidtomoney.com
 127.0.0.1 new70872.kisspark.info
 127.0.0.1 new71299.paidtomoney.com
+127.0.0.1 new73053.kanuassociates.com
 127.0.0.1 new73229.24houcryptowatcher.com
 127.0.0.1 new75758.paidtomoney.com
 127.0.0.1 new77105.aimedia.lk
@@ -36628,6 +36659,7 @@
 127.0.0.1 ogloszenia-zokolicy.pl
 127.0.0.1 ogloszenia.store
 127.0.0.1 ogloszeniacalapolska.pl
+127.0.0.1 ogloszeniadlaciebie.pl
 127.0.0.1 ogloszeniainternetowe24.pl
 127.0.0.1 ogloszeniamarket.pl
 127.0.0.1 ogloszenianet-top.j.pl
@@ -39115,6 +39147,9 @@
 127.0.0.1 pl-kontrola-bezpieczenstwa.pw
 127.0.0.1 pl-kontrola-bezpieczenstwa.space
 127.0.0.1 pl-kontrola-poczty.pw
+127.0.0.1 pl-kup-szybko.pl
+127.0.0.1 pl-kupteraz.pl
+127.0.0.1 pl-kupuj-lokalnie.pl
 127.0.0.1 pl-kurier.cloud
 127.0.0.1 pl-kurjerzy.cloud
 127.0.0.1 pl-landtiket.online
@@ -39122,6 +39157,7 @@
 127.0.0.1 pl-max.infopls.xyz
 127.0.0.1 pl-media.za.com
 127.0.0.1 pl-mil.prosinv.site
+127.0.0.1 pl-oferta-uzytkownika.pl
 127.0.0.1 pl-olx-u28hv2.anzhuai.top
 127.0.0.1 pl-olx-u28hv2.bbsxt.top
 127.0.0.1 pl-olx-u28hv2.oferta.la
@@ -39192,6 +39228,8 @@
 127.0.0.1 pl-walidacja-uzytkownika.pw
 127.0.0.1 pl-wiadomosc.com
 127.0.0.1 pl-wsparcie.link
+127.0.0.1 pl-zakup-przedmiot.pl
+127.0.0.1 pl-zakupy-online.pl
 127.0.0.1 pl.89151535.cube-cologne.com
 127.0.0.1 pl.allsports4free.club
 127.0.0.1 pl.annre.ikwb.com
@@ -42660,6 +42698,7 @@
 127.0.0.1 registration-successful.icu
 127.0.0.1 registration.biticodes-activations.net
 127.0.0.1 registration.tesla-bot.top
+127.0.0.1 registros23-10-2023.s3.pl-waw.scw.cloud
 127.0.0.1 regmenow.com
 127.0.0.1 regpgjointop.site
 127.0.0.1 reground.live
@@ -44851,6 +44890,7 @@
 127.0.0.1 shrel.itprojekt.site
 127.0.0.1 shrivelemphatic.space
 127.0.0.1 shrorwned.site
+127.0.0.1 shroud.sbs
 127.0.0.1 shrrog.site
 127.0.0.1 shrt-68.cfd
 127.0.0.1 shrubbiest-alibis.000webhostapp.com
@@ -47000,6 +47040,7 @@
 127.0.0.1 szybkipakunek.cloud
 127.0.0.1 szybkizakup24.pl
 127.0.0.1 szybko-kupuj.pl
+127.0.0.1 szybko-zakup24.pl
 127.0.0.1 szybko-zarabiaj-pl.xyz
 127.0.0.1 szymonemilia.pl
 127.0.0.1 szymoniakbozena.viktorianiemiec.info.pl
@@ -49753,6 +49794,7 @@
 127.0.0.1 unslanted.live
 127.0.0.1 unsphering.com
 127.0.0.1 unspoiilednature.site
+127.0.0.1 unstayed.sbs
 127.0.0.1 unsteadies.xyz
 127.0.0.1 unstern.info
 127.0.0.1 unstoppble.site
@@ -51084,6 +51126,7 @@
 127.0.0.1 vintedcz.order345.online
 127.0.0.1 vintedcz.order382.eu
 127.0.0.1 vintedcz.order531.com
+127.0.0.1 vintedcz.order689.online
 127.0.0.1 vintedcz.order1692.eu
 127.0.0.1 vintedcz.order2974.eu
 127.0.0.1 vintedcz.order4372.eu
@@ -52458,6 +52501,7 @@
 127.0.0.1 wigford.space
 127.0.0.1 wigford.uno
 127.0.0.1 wiggly-luck-saga.glitch.me
+127.0.0.1 wiglet.sbs
 127.0.0.1 wiguasno.space
 127.0.0.1 wih.boats
 127.0.0.1 wiielkaradosc.site
@@ -52970,6 +53014,7 @@
 127.0.0.1 www-upc-pl-uxpuat.upc.biz
 127.0.0.1 www-verification-vinted.info
 127.0.0.1 www.0-finanzierung.com
+127.0.0.1 www.0-okodukai.com
 127.0.0.1 www.0amazin.ru.com
 127.0.0.1 www.0an-news.learnbaglama.com
 127.0.0.1 www.0b8cc331813049912.temporary.link
@@ -53681,6 +53726,7 @@
 127.0.0.1 www.36-t.cfd
 127.0.0.1 www.36aec220578.chefs-kitchen.co.uk
 127.0.0.1 www.36d0e1b0735.chefs-kitchen.co.uk
+127.0.0.1 www.36jfbzmdxdqapi.ru
 127.0.0.1 www.37-i75.cfd
 127.0.0.1 www.37php.duckdns.org
 127.0.0.1 www.38bmw.com
@@ -54766,11 +54812,13 @@
 127.0.0.1 www.a58477.paidtomoney.com
 127.0.0.1 www.a59803.24houcryptowatcher.com
 127.0.0.1 www.a60135.24houcryptowatcher.com
+127.0.0.1 www.a60436.kanuassociates.com
 127.0.0.1 www.a61242.eliteoftokens.com
 127.0.0.1 www.a62875.kanuassociates.com
 127.0.0.1 www.a63469.awicksin.com
 127.0.0.1 www.a66963.aimedia.lk
 127.0.0.1 www.a67646.kisspark.info
+127.0.0.1 www.a68023.kanuassociates.com
 127.0.0.1 www.a70391.sadeceis.com
 127.0.0.1 www.a70618.bkktothemoon.com
 127.0.0.1 www.a70907.cetusinvestmentsbtc.com
@@ -56050,6 +56098,11 @@
 127.0.0.1 www.allegrolokalnie.pay-now24.pl
 127.0.0.1 www.allegrolokalnie.pay-u.pl
 127.0.0.1 www.allegrolokalnie.payu-online.pl
+127.0.0.1 www.allegrolokalnie.pl-kup-szybko.pl
+127.0.0.1 www.allegrolokalnie.pl-kupteraz.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-uzytkownika.pl
+127.0.0.1 www.allegrolokalnie.pl-zakup-przedmiot.pl
+127.0.0.1 www.allegrolokalnie.pl-zakupy-online.pl
 127.0.0.1 www.allegrolokalnie.plac-online24.pl
 127.0.0.1 www.allegrolokalnie.plac-online.pl
 127.0.0.1 www.allegrolokalnie.platnosc-24h.pl
@@ -56087,6 +56140,7 @@
 127.0.0.1 www.allegrolokalnie.szybkie-zamowienie.pl
 127.0.0.1 www.allegrolokalnie.szybkie-zaplac.pl
 127.0.0.1 www.allegrolokalnie.szybko-kupuj.pl
+127.0.0.1 www.allegrolokalnie.szybko-zakup24.pl
 127.0.0.1 www.allegrolokalnie.tanie-zamowienie.pl
 127.0.0.1 www.allegrolokalnie.wygodna-platnosc.pl
 127.0.0.1 www.allegrolokalnie.wygodne-platnosci.pl
@@ -56101,6 +56155,7 @@
 127.0.0.1 www.allegrolokalnie.zakupy24h-7.pl
 127.0.0.1 www.allegrolokalnie.zakupy-24h.pl
 127.0.0.1 www.allegrolokalnie.zakupy-bezpieczne.pl
+127.0.0.1 www.allegrolokalnie.zakupy-z-ochrona.pl
 127.0.0.1 www.allegrolokalnie.zamow-bezpiecznie.pl
 127.0.0.1 www.allegrolokalnie.zamow-dzis.pl
 127.0.0.1 www.allegrolokalnie.zamow-internetowo.pl
@@ -57982,6 +58037,7 @@
 127.0.0.1 www.avnumit.site
 127.0.0.1 www.avocadocom.com
 127.0.0.1 www.avomed.hu
+127.0.0.1 www.avondaleazbeecontrol.com
 127.0.0.1 www.avondelray.com
 127.0.0.1 www.avrszc.rf.gd
 127.0.0.1 www.avuewwunwvbwoub.site
@@ -58195,6 +58251,7 @@
 127.0.0.1 www.b403.despachodeabogadosmcr.com
 127.0.0.1 www.b407.paidtomoney.com
 127.0.0.1 www.b433.despachodeabogadosmcr.com
+127.0.0.1 www.b433.kanuassociates.com
 127.0.0.1 www.b435.espn365.com
 127.0.0.1 www.b436.despachodeabogadosmcr.com
 127.0.0.1 www.b453.espn365.com
@@ -58257,6 +58314,7 @@
 127.0.0.1 www.b27194.hamdandates.com
 127.0.0.1 www.b28843.aimedia.lk
 127.0.0.1 www.b31350.paidtomoney.com
+127.0.0.1 www.b32263.kanuassociates.com
 127.0.0.1 www.b32795.bkktothemoon.com
 127.0.0.1 www.b35286.kisspark.info
 127.0.0.1 www.b35536.24houcryptowatcher.com
@@ -61413,6 +61471,7 @@
 127.0.0.1 www.c49594.aimedia.lk
 127.0.0.1 www.c50578.hostingkampanya.com
 127.0.0.1 www.c50995.kisspark.info
+127.0.0.1 www.c51770.kanuassociates.com
 127.0.0.1 www.c52098.paidtomoney.com
 127.0.0.1 www.c53538.cetusinvestmentsbtc.com
 127.0.0.1 www.c53677.24houcryptowatcher.com
@@ -61444,6 +61503,7 @@
 127.0.0.1 www.c79686.covidvcfund.com
 127.0.0.1 www.c80425.paidtomoney.com
 127.0.0.1 www.c80783.hamdandates.com
+127.0.0.1 www.c81881.kanuassociates.com
 127.0.0.1 www.c82803.awicksin.com
 127.0.0.1 www.c83649.paidtomoney.com
 127.0.0.1 www.c85228.hamdandates.com
@@ -61812,6 +61872,7 @@
 127.0.0.1 www.casinototek.com
 127.0.0.1 www.casio37.com
 127.0.0.1 www.casmater.com
+127.0.0.1 www.casokedui8hf4.s3.pl-waw.scw.cloud
 127.0.0.1 www.caspiancraft.com
 127.0.0.1 www.caspiyneft.site
 127.0.0.1 www.caspiyneft.space
@@ -63379,6 +63440,7 @@
 127.0.0.1 www.cookingpaths.com
 127.0.0.1 www.cool1.site
 127.0.0.1 www.cool8quet.life
+127.0.0.1 www.cool8tminds.site
 127.0.0.1 www.cool29xy7.xyz
 127.0.0.1 www.cool94vf5.quest
 127.0.0.1 www.cool-events.store
@@ -63826,6 +63888,7 @@
 127.0.0.1 www.cs2-natus.pro
 127.0.0.1 www.cs2-source.pro
 127.0.0.1 www.cs2skin4you.com
+127.0.0.1 www.cs2skinforyou.com
 127.0.0.1 www.cs2sources-invites.com
 127.0.0.1 www.cs2twitch.com
 127.0.0.1 www.cs2twt.com
@@ -64212,6 +64275,7 @@
 127.0.0.1 www.d27833.covidvcfund.com
 127.0.0.1 www.d27904.paidtomoney.com
 127.0.0.1 www.d32905.kisspark.info
+127.0.0.1 www.d33707.kanuassociates.com
 127.0.0.1 www.d34179.epinlock.com
 127.0.0.1 www.d34182.24houcryptowatcher.com
 127.0.0.1 www.d35047.cetusinvestmentsbtc.com
@@ -64244,6 +64308,7 @@
 127.0.0.1 www.d66936.aimedia.lk
 127.0.0.1 www.d67440.cetusinvestmentsbtc.com
 127.0.0.1 www.d68219.paidtomoney.com
+127.0.0.1 www.d70094.kanuassociates.com
 127.0.0.1 www.d71520.hostingkampanya.com
 127.0.0.1 www.d71728.cetusinvestmentsbtc.com
 127.0.0.1 www.d71765.hamdandates.com
@@ -67563,6 +67628,7 @@
 127.0.0.1 www.enzidev.com
 127.0.0.1 www.enzo.pw
 127.0.0.1 www.eobifoltdo.site
+127.0.0.1 www.eobuwieokay.shop
 127.0.0.1 www.eodion.com
 127.0.0.1 www.eoekdjdnbcbcbjd.site
 127.0.0.1 www.eoferta24h.pl
@@ -68413,6 +68479,7 @@
 127.0.0.1 www.f50008.hamdandates.com
 127.0.0.1 www.f51237.paidtomoney.com
 127.0.0.1 www.f51410.awicksin.com
+127.0.0.1 www.f52949.kanuassociates.com
 127.0.0.1 www.f53000.epinlock.com
 127.0.0.1 www.f53960.24houcryptowatcher.com
 127.0.0.1 www.f54528.awicksin.com
@@ -68529,6 +68596,7 @@
 127.0.0.1 www.facebookpolicy12.ddns.net
 127.0.0.1 www.facebookpolicy12.ddnsking.com
 127.0.0.1 www.faceboook.me
+127.0.0.1 www.facebooook.pl
 127.0.0.1 www.faceinfocus.net
 127.0.0.1 www.facelessinseattle.com
 127.0.0.1 www.facelt-shield.com
@@ -75319,6 +75387,7 @@
 127.0.0.1 www.inpost.326594512.xyz
 127.0.0.1 www.inpost.acenor.online
 127.0.0.1 www.inpost.advart.top
+127.0.0.1 www.inpost.aktponko.org
 127.0.0.1 www.inpost.andrewlin.bio
 127.0.0.1 www.inpost.average-redirect.pw
 127.0.0.1 www.inpost.bdimonet.org
@@ -76107,6 +76176,7 @@
 127.0.0.1 www.jakub.adaolga.warszawa.pl
 127.0.0.1 www.jakub.gabrielazuzanna.info.pl
 127.0.0.1 www.jakubjulia.com.pl
+127.0.0.1 www.jakwartosctaki.boats
 127.0.0.1 www.jakwyzwaniagdy.bond
 127.0.0.1 www.jakzarobicmiliondolarow.com
 127.0.0.1 www.jal.ttssonine.top
@@ -79137,6 +79207,7 @@
 127.0.0.1 www.lnpost.wepqa.site
 127.0.0.1 www.lnpost.www85.top
 127.0.0.1 www.lnpost.yedaw.pw
+127.0.0.1 www.lnpost.yeusev.online
 127.0.0.1 www.lnpost.ynbrka.website
 127.0.0.1 www.lnpost.yufams.site
 127.0.0.1 www.lnsurex-ks.com
@@ -80797,6 +80868,7 @@
 127.0.0.1 www.meta-support-bussiness.web.app
 127.0.0.1 www.meta-support-case-658714.start.page
 127.0.0.1 www.meta-support-case-6349571.start.page
+127.0.0.1 www.meta-support-case-59658137.start.page
 127.0.0.1 www.meta-support-helps.start.page
 127.0.0.1 www.meta.business-manager.live
 127.0.0.1 www.meta.businessverifys.info
@@ -83084,6 +83156,7 @@
 127.0.0.1 www.new22143.24houcryptowatcher.com
 127.0.0.1 www.new22225.hostingkampanya.com
 127.0.0.1 www.new24108.awicksin.com
+127.0.0.1 www.new24129.kanuassociates.com
 127.0.0.1 www.new24927.paidtomoney.com
 127.0.0.1 www.new25042.paidtomoney.com
 127.0.0.1 www.new26190.awicksin.com
@@ -83114,6 +83187,7 @@
 127.0.0.1 www.new56758.columbabkkfund.com
 127.0.0.1 www.new59040.awicksin.com
 127.0.0.1 www.new59045.kisspark.info
+127.0.0.1 www.new60318.kanuassociates.com
 127.0.0.1 www.new60884.24houcryptowatcher.com
 127.0.0.1 www.new61568.paidtomoney.com
 127.0.0.1 www.new62109.cetusinvestmentsbtc.com
@@ -83127,6 +83201,7 @@
 127.0.0.1 www.new69865.paidtomoney.com
 127.0.0.1 www.new70872.kisspark.info
 127.0.0.1 www.new71299.paidtomoney.com
+127.0.0.1 www.new73053.kanuassociates.com
 127.0.0.1 www.new73229.24houcryptowatcher.com
 127.0.0.1 www.new75758.paidtomoney.com
 127.0.0.1 www.new77105.aimedia.lk
@@ -84413,6 +84488,7 @@
 127.0.0.1 www.ogloszenia-zokolicy.pl
 127.0.0.1 www.ogloszenia.store
 127.0.0.1 www.ogloszeniacalapolska.pl
+127.0.0.1 www.ogloszeniadlaciebie.pl
 127.0.0.1 www.ogloszeniainternetowe24.pl
 127.0.0.1 www.ogloszeniamarket.pl
 127.0.0.1 www.ogloszenianet-top.j.pl
@@ -86890,6 +86966,9 @@
 127.0.0.1 www.pl-kontrola-bezpieczenstwa.pw
 127.0.0.1 www.pl-kontrola-bezpieczenstwa.space
 127.0.0.1 www.pl-kontrola-poczty.pw
+127.0.0.1 www.pl-kup-szybko.pl
+127.0.0.1 www.pl-kupteraz.pl
+127.0.0.1 www.pl-kupuj-lokalnie.pl
 127.0.0.1 www.pl-kurier.cloud
 127.0.0.1 www.pl-kurjerzy.cloud
 127.0.0.1 www.pl-landtiket.online
@@ -86897,6 +86976,7 @@
 127.0.0.1 www.pl-max.infopls.xyz
 127.0.0.1 www.pl-media.za.com
 127.0.0.1 www.pl-mil.prosinv.site
+127.0.0.1 www.pl-oferta-uzytkownika.pl
 127.0.0.1 www.pl-olx-u28hv2.anzhuai.top
 127.0.0.1 www.pl-olx-u28hv2.bbsxt.top
 127.0.0.1 www.pl-olx-u28hv2.oferta.la
@@ -86967,6 +87047,8 @@
 127.0.0.1 www.pl-walidacja-uzytkownika.pw
 127.0.0.1 www.pl-wiadomosc.com
 127.0.0.1 www.pl-wsparcie.link
+127.0.0.1 www.pl-zakup-przedmiot.pl
+127.0.0.1 www.pl-zakupy-online.pl
 127.0.0.1 www.pla3.revoprogramxzsed.com
 127.0.0.1 www.pla.robacan.site
 127.0.0.1 www.plaatforms-2023.com
@@ -90339,6 +90421,7 @@
 127.0.0.1 www.registration-successful.icu
 127.0.0.1 www.registration.biticodes-activations.net
 127.0.0.1 www.registration.tesla-bot.top
+127.0.0.1 www.registros23-10-2023.s3.pl-waw.scw.cloud
 127.0.0.1 www.regmenow.com
 127.0.0.1 www.regpgjointop.site
 127.0.0.1 www.reground.live
@@ -92530,6 +92613,7 @@
 127.0.0.1 www.shrel.itprojekt.site
 127.0.0.1 www.shrivelemphatic.space
 127.0.0.1 www.shrorwned.site
+127.0.0.1 www.shroud.sbs
 127.0.0.1 www.shrrog.site
 127.0.0.1 www.shrt-68.cfd
 127.0.0.1 www.shrubbiest-alibis.000webhostapp.com
@@ -94679,6 +94763,7 @@
 127.0.0.1 www.szybkipakunek.cloud
 127.0.0.1 www.szybkizakup24.pl
 127.0.0.1 www.szybko-kupuj.pl
+127.0.0.1 www.szybko-zakup24.pl
 127.0.0.1 www.szybko-zarabiaj-pl.xyz
 127.0.0.1 www.szymonemilia.pl
 127.0.0.1 www.szymoniakbozena.viktorianiemiec.info.pl
@@ -97432,6 +97517,7 @@
 127.0.0.1 www.unslanted.live
 127.0.0.1 www.unsphering.com
 127.0.0.1 www.unspoiilednature.site
+127.0.0.1 www.unstayed.sbs
 127.0.0.1 www.unsteadies.xyz
 127.0.0.1 www.unstern.info
 127.0.0.1 www.unstoppble.site
@@ -98763,6 +98849,7 @@
 127.0.0.1 www.vintedcz.order345.online
 127.0.0.1 www.vintedcz.order382.eu
 127.0.0.1 www.vintedcz.order531.com
+127.0.0.1 www.vintedcz.order689.online
 127.0.0.1 www.vintedcz.order1692.eu
 127.0.0.1 www.vintedcz.order2974.eu
 127.0.0.1 www.vintedcz.order4372.eu
@@ -100137,6 +100224,7 @@
 127.0.0.1 www.wigford.space
 127.0.0.1 www.wigford.uno
 127.0.0.1 www.wiggly-luck-saga.glitch.me
+127.0.0.1 www.wiglet.sbs
 127.0.0.1 www.wiguasno.space
 127.0.0.1 www.wih.boats
 127.0.0.1 www.wiielkaradosc.site
@@ -101440,6 +101528,7 @@
 127.0.0.1 www.zakupy-ogloszenia.pl
 127.0.0.1 www.zakupy-ogloszenie.pl
 127.0.0.1 www.zakupy-olx.pl
+127.0.0.1 www.zakupy-z-ochrona.pl
 127.0.0.1 www.zakupyfacebook.pl
 127.0.0.1 www.zakupyolx.pl
 127.0.0.1 www.zalatwmy-wszyscy.click
@@ -102805,6 +102894,7 @@
 127.0.0.1 zakupy-ogloszenia.pl
 127.0.0.1 zakupy-ogloszenie.pl
 127.0.0.1 zakupy-olx.pl
+127.0.0.1 zakupy-z-ochrona.pl
 127.0.0.1 zakupyfacebook.pl
 127.0.0.1 zakupyolx.pl
 127.0.0.1 zalatwmy-wszyscy.click

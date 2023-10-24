@@ -1,7 +1,7 @@
 ! Title: KADhosts
 ! Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-! Last modified: Tue, 24 Oct 2023, 18:21 UTC+02:00
-! Version: 2023.10.24.2
+! Last modified: Tue, 24 Oct 2023, 22:18 UTC+02:00
+! Version: 2023.10.24.3
 ! Expires: 2 days
 ! Website: https://kadantiscam.netlify.app/
 ! Based on: https://github.com/FiltersHeroes/KAD
@@ -5186,6 +5186,7 @@
 ! Przekrety
 !@ >>>>>>>> https://raw.githubusercontent.com/FiltersHeroes/KAD/master/sections/przekrety.txt => hosts
 ||0-finanzierung.com^
+||0-okodukai.com^
 ||0amazin.ru.com^
 ||0an-news.learnbaglama.com^
 ||0b8cc331813049912.temporary.link^
@@ -5897,6 +5898,7 @@
 ||36-t.cfd^
 ||36aec220578.chefs-kitchen.co.uk^
 ||36d0e1b0735.chefs-kitchen.co.uk^
+||36jfbzmdxdqapi.ru^
 ||37-i75.cfd^
 ||37php.duckdns.org^
 ||38bmw.com^
@@ -6982,11 +6984,13 @@
 ||a58477.paidtomoney.com^
 ||a59803.24houcryptowatcher.com^
 ||a60135.24houcryptowatcher.com^
+||a60436.kanuassociates.com^
 ||a61242.eliteoftokens.com^
 ||a62875.kanuassociates.com^
 ||a63469.awicksin.com^
 ||a66963.aimedia.lk^
 ||a67646.kisspark.info^
+||a68023.kanuassociates.com^
 ||a70391.sadeceis.com^
 ||a70618.bkktothemoon.com^
 ||a70907.cetusinvestmentsbtc.com^
@@ -8266,6 +8270,11 @@
 ||allegrolokalnie.pay-now24.pl^
 ||allegrolokalnie.pay-u.pl^
 ||allegrolokalnie.payu-online.pl^
+||allegrolokalnie.pl-kup-szybko.pl^
+||allegrolokalnie.pl-kupteraz.pl^
+||allegrolokalnie.pl-oferta-uzytkownika.pl^
+||allegrolokalnie.pl-zakup-przedmiot.pl^
+||allegrolokalnie.pl-zakupy-online.pl^
 ||allegrolokalnie.plac-online24.pl^
 ||allegrolokalnie.plac-online.pl^
 ||allegrolokalnie.platnosc-24h.pl^
@@ -8303,6 +8312,7 @@
 ||allegrolokalnie.szybkie-zamowienie.pl^
 ||allegrolokalnie.szybkie-zaplac.pl^
 ||allegrolokalnie.szybko-kupuj.pl^
+||allegrolokalnie.szybko-zakup24.pl^
 ||allegrolokalnie.tanie-zamowienie.pl^
 ||allegrolokalnie.wygodna-platnosc.pl^
 ||allegrolokalnie.wygodne-platnosci.pl^
@@ -8317,6 +8327,7 @@
 ||allegrolokalnie.zakupy24h-7.pl^
 ||allegrolokalnie.zakupy-24h.pl^
 ||allegrolokalnie.zakupy-bezpieczne.pl^
+||allegrolokalnie.zakupy-z-ochrona.pl^
 ||allegrolokalnie.zamow-bezpiecznie.pl^
 ||allegrolokalnie.zamow-dzis.pl^
 ||allegrolokalnie.zamow-internetowo.pl^
@@ -10198,6 +10209,7 @@
 ||avnumit.site^
 ||avocadocom.com^
 ||avomed.hu^
+||avondaleazbeecontrol.com^
 ||avondelray.com^
 ||avrszc.rf.gd^
 ||avuewwunwvbwoub.site^
@@ -10411,6 +10423,7 @@
 ||b403.despachodeabogadosmcr.com^
 ||b407.paidtomoney.com^
 ||b433.despachodeabogadosmcr.com^
+||b433.kanuassociates.com^
 ||b435.espn365.com^
 ||b436.despachodeabogadosmcr.com^
 ||b453.espn365.com^
@@ -10473,6 +10486,7 @@
 ||b27194.hamdandates.com^
 ||b28843.aimedia.lk^
 ||b31350.paidtomoney.com^
+||b32263.kanuassociates.com^
 ||b32795.bkktothemoon.com^
 ||b35286.kisspark.info^
 ||b35536.24houcryptowatcher.com^
@@ -13629,6 +13643,7 @@
 ||c49594.aimedia.lk^
 ||c50578.hostingkampanya.com^
 ||c50995.kisspark.info^
+||c51770.kanuassociates.com^
 ||c52098.paidtomoney.com^
 ||c53538.cetusinvestmentsbtc.com^
 ||c53677.24houcryptowatcher.com^
@@ -13660,6 +13675,7 @@
 ||c79686.covidvcfund.com^
 ||c80425.paidtomoney.com^
 ||c80783.hamdandates.com^
+||c81881.kanuassociates.com^
 ||c82803.awicksin.com^
 ||c83649.paidtomoney.com^
 ||c85228.hamdandates.com^
@@ -14028,6 +14044,7 @@
 ||casinototek.com^
 ||casio37.com^
 ||casmater.com^
+||casokedui8hf4.s3.pl-waw.scw.cloud^
 ||caspiancraft.com^
 ||caspiyneft.site^
 ||caspiyneft.space^
@@ -15595,6 +15612,7 @@
 ||cookingpaths.com^
 ||cool1.site^
 ||cool8quet.life^
+||cool8tminds.site^
 ||cool29xy7.xyz^
 ||cool94vf5.quest^
 ||cool-events.store^
@@ -16042,6 +16060,7 @@
 ||cs2-natus.pro^
 ||cs2-source.pro^
 ||cs2skin4you.com^
+||cs2skinforyou.com^
 ||cs2sources-invites.com^
 ||cs2twitch.com^
 ||cs2twt.com^
@@ -16428,6 +16447,7 @@
 ||d27833.covidvcfund.com^
 ||d27904.paidtomoney.com^
 ||d32905.kisspark.info^
+||d33707.kanuassociates.com^
 ||d34179.epinlock.com^
 ||d34182.24houcryptowatcher.com^
 ||d35047.cetusinvestmentsbtc.com^
@@ -16460,6 +16480,7 @@
 ||d66936.aimedia.lk^
 ||d67440.cetusinvestmentsbtc.com^
 ||d68219.paidtomoney.com^
+||d70094.kanuassociates.com^
 ||d71520.hostingkampanya.com^
 ||d71728.cetusinvestmentsbtc.com^
 ||d71765.hamdandates.com^
@@ -19779,6 +19800,7 @@
 ||enzidev.com^
 ||enzo.pw^
 ||eobifoltdo.site^
+||eobuwieokay.shop^
 ||eodion.com^
 ||eoekdjdnbcbcbjd.site^
 ||eoferta24h.pl^
@@ -20629,6 +20651,7 @@
 ||f50008.hamdandates.com^
 ||f51237.paidtomoney.com^
 ||f51410.awicksin.com^
+||f52949.kanuassociates.com^
 ||f53000.epinlock.com^
 ||f53960.24houcryptowatcher.com^
 ||f54528.awicksin.com^
@@ -20745,6 +20768,7 @@
 ||facebookpolicy12.ddns.net^
 ||facebookpolicy12.ddnsking.com^
 ||faceboook.me^
+||facebooook.pl^
 ||faceinfocus.net^
 ||facelessinseattle.com^
 ||facelt-shield.com^
@@ -27535,6 +27559,7 @@
 ||inpost.326594512.xyz^
 ||inpost.acenor.online^
 ||inpost.advart.top^
+||inpost.aktponko.org^
 ||inpost.andrewlin.bio^
 ||inpost.average-redirect.pw^
 ||inpost.bdimonet.org^
@@ -28323,6 +28348,7 @@
 ||jakub.adaolga.warszawa.pl^
 ||jakub.gabrielazuzanna.info.pl^
 ||jakubjulia.com.pl^
+||jakwartosctaki.boats^
 ||jakwyzwaniagdy.bond^
 ||jakzarobicmiliondolarow.com^
 ||jal.ttssonine.top^
@@ -31353,6 +31379,7 @@
 ||lnpost.wepqa.site^
 ||lnpost.www85.top^
 ||lnpost.yedaw.pw^
+||lnpost.yeusev.online^
 ||lnpost.ynbrka.website^
 ||lnpost.yufams.site^
 ||lnsurex-ks.com^
@@ -33013,6 +33040,7 @@
 ||meta-support-bussiness.web.app^
 ||meta-support-case-658714.start.page^
 ||meta-support-case-6349571.start.page^
+||meta-support-case-59658137.start.page^
 ||meta-support-helps.start.page^
 ||meta.business-manager.live^
 ||meta.businessverifys.info^
@@ -35299,6 +35327,7 @@
 ||new22143.24houcryptowatcher.com^
 ||new22225.hostingkampanya.com^
 ||new24108.awicksin.com^
+||new24129.kanuassociates.com^
 ||new24927.paidtomoney.com^
 ||new25042.paidtomoney.com^
 ||new26190.awicksin.com^
@@ -35329,6 +35358,7 @@
 ||new56758.columbabkkfund.com^
 ||new59040.awicksin.com^
 ||new59045.kisspark.info^
+||new60318.kanuassociates.com^
 ||new60884.24houcryptowatcher.com^
 ||new61568.paidtomoney.com^
 ||new62109.cetusinvestmentsbtc.com^
@@ -35342,6 +35372,7 @@
 ||new69865.paidtomoney.com^
 ||new70872.kisspark.info^
 ||new71299.paidtomoney.com^
+||new73053.kanuassociates.com^
 ||new73229.24houcryptowatcher.com^
 ||new75758.paidtomoney.com^
 ||new77105.aimedia.lk^
@@ -36628,6 +36659,7 @@
 ||ogloszenia-zokolicy.pl^
 ||ogloszenia.store^
 ||ogloszeniacalapolska.pl^
+||ogloszeniadlaciebie.pl^
 ||ogloszeniainternetowe24.pl^
 ||ogloszeniamarket.pl^
 ||ogloszenianet-top.j.pl^
@@ -39115,6 +39147,9 @@
 ||pl-kontrola-bezpieczenstwa.pw^
 ||pl-kontrola-bezpieczenstwa.space^
 ||pl-kontrola-poczty.pw^
+||pl-kup-szybko.pl^
+||pl-kupteraz.pl^
+||pl-kupuj-lokalnie.pl^
 ||pl-kurier.cloud^
 ||pl-kurjerzy.cloud^
 ||pl-landtiket.online^
@@ -39122,6 +39157,7 @@
 ||pl-max.infopls.xyz^
 ||pl-media.za.com^
 ||pl-mil.prosinv.site^
+||pl-oferta-uzytkownika.pl^
 ||pl-olx-u28hv2.anzhuai.top^
 ||pl-olx-u28hv2.bbsxt.top^
 ||pl-olx-u28hv2.oferta.la^
@@ -39192,6 +39228,8 @@
 ||pl-walidacja-uzytkownika.pw^
 ||pl-wiadomosc.com^
 ||pl-wsparcie.link^
+||pl-zakup-przedmiot.pl^
+||pl-zakupy-online.pl^
 ||pl.89151535.cube-cologne.com^
 ||pl.allsports4free.club^
 ||pl.annre.ikwb.com^
@@ -42660,6 +42698,7 @@
 ||registration-successful.icu^
 ||registration.biticodes-activations.net^
 ||registration.tesla-bot.top^
+||registros23-10-2023.s3.pl-waw.scw.cloud^
 ||regmenow.com^
 ||regpgjointop.site^
 ||reground.live^
@@ -44851,6 +44890,7 @@
 ||shrel.itprojekt.site^
 ||shrivelemphatic.space^
 ||shrorwned.site^
+||shroud.sbs^
 ||shrrog.site^
 ||shrt-68.cfd^
 ||shrubbiest-alibis.000webhostapp.com^
@@ -47000,6 +47040,7 @@
 ||szybkipakunek.cloud^
 ||szybkizakup24.pl^
 ||szybko-kupuj.pl^
+||szybko-zakup24.pl^
 ||szybko-zarabiaj-pl.xyz^
 ||szymonemilia.pl^
 ||szymoniakbozena.viktorianiemiec.info.pl^
@@ -49753,6 +49794,7 @@
 ||unslanted.live^
 ||unsphering.com^
 ||unspoiilednature.site^
+||unstayed.sbs^
 ||unsteadies.xyz^
 ||unstern.info^
 ||unstoppble.site^
@@ -51084,6 +51126,7 @@
 ||vintedcz.order345.online^
 ||vintedcz.order382.eu^
 ||vintedcz.order531.com^
+||vintedcz.order689.online^
 ||vintedcz.order1692.eu^
 ||vintedcz.order2974.eu^
 ||vintedcz.order4372.eu^
@@ -52458,6 +52501,7 @@
 ||wigford.space^
 ||wigford.uno^
 ||wiggly-luck-saga.glitch.me^
+||wiglet.sbs^
 ||wiguasno.space^
 ||wih.boats^
 ||wiielkaradosc.site^
@@ -52970,6 +53014,7 @@
 ||www-upc-pl-uxpuat.upc.biz^
 ||www-verification-vinted.info^
 ||www.0-finanzierung.com^
+||www.0-okodukai.com^
 ||www.0amazin.ru.com^
 ||www.0an-news.learnbaglama.com^
 ||www.0b8cc331813049912.temporary.link^
@@ -53681,6 +53726,7 @@
 ||www.36-t.cfd^
 ||www.36aec220578.chefs-kitchen.co.uk^
 ||www.36d0e1b0735.chefs-kitchen.co.uk^
+||www.36jfbzmdxdqapi.ru^
 ||www.37-i75.cfd^
 ||www.37php.duckdns.org^
 ||www.38bmw.com^
@@ -54766,11 +54812,13 @@
 ||www.a58477.paidtomoney.com^
 ||www.a59803.24houcryptowatcher.com^
 ||www.a60135.24houcryptowatcher.com^
+||www.a60436.kanuassociates.com^
 ||www.a61242.eliteoftokens.com^
 ||www.a62875.kanuassociates.com^
 ||www.a63469.awicksin.com^
 ||www.a66963.aimedia.lk^
 ||www.a67646.kisspark.info^
+||www.a68023.kanuassociates.com^
 ||www.a70391.sadeceis.com^
 ||www.a70618.bkktothemoon.com^
 ||www.a70907.cetusinvestmentsbtc.com^
@@ -56050,6 +56098,11 @@
 ||www.allegrolokalnie.pay-now24.pl^
 ||www.allegrolokalnie.pay-u.pl^
 ||www.allegrolokalnie.payu-online.pl^
+||www.allegrolokalnie.pl-kup-szybko.pl^
+||www.allegrolokalnie.pl-kupteraz.pl^
+||www.allegrolokalnie.pl-oferta-uzytkownika.pl^
+||www.allegrolokalnie.pl-zakup-przedmiot.pl^
+||www.allegrolokalnie.pl-zakupy-online.pl^
 ||www.allegrolokalnie.plac-online24.pl^
 ||www.allegrolokalnie.plac-online.pl^
 ||www.allegrolokalnie.platnosc-24h.pl^
@@ -56087,6 +56140,7 @@
 ||www.allegrolokalnie.szybkie-zamowienie.pl^
 ||www.allegrolokalnie.szybkie-zaplac.pl^
 ||www.allegrolokalnie.szybko-kupuj.pl^
+||www.allegrolokalnie.szybko-zakup24.pl^
 ||www.allegrolokalnie.tanie-zamowienie.pl^
 ||www.allegrolokalnie.wygodna-platnosc.pl^
 ||www.allegrolokalnie.wygodne-platnosci.pl^
@@ -56101,6 +56155,7 @@
 ||www.allegrolokalnie.zakupy24h-7.pl^
 ||www.allegrolokalnie.zakupy-24h.pl^
 ||www.allegrolokalnie.zakupy-bezpieczne.pl^
+||www.allegrolokalnie.zakupy-z-ochrona.pl^
 ||www.allegrolokalnie.zamow-bezpiecznie.pl^
 ||www.allegrolokalnie.zamow-dzis.pl^
 ||www.allegrolokalnie.zamow-internetowo.pl^
@@ -57982,6 +58037,7 @@
 ||www.avnumit.site^
 ||www.avocadocom.com^
 ||www.avomed.hu^
+||www.avondaleazbeecontrol.com^
 ||www.avondelray.com^
 ||www.avrszc.rf.gd^
 ||www.avuewwunwvbwoub.site^
@@ -58195,6 +58251,7 @@
 ||www.b403.despachodeabogadosmcr.com^
 ||www.b407.paidtomoney.com^
 ||www.b433.despachodeabogadosmcr.com^
+||www.b433.kanuassociates.com^
 ||www.b435.espn365.com^
 ||www.b436.despachodeabogadosmcr.com^
 ||www.b453.espn365.com^
@@ -58257,6 +58314,7 @@
 ||www.b27194.hamdandates.com^
 ||www.b28843.aimedia.lk^
 ||www.b31350.paidtomoney.com^
+||www.b32263.kanuassociates.com^
 ||www.b32795.bkktothemoon.com^
 ||www.b35286.kisspark.info^
 ||www.b35536.24houcryptowatcher.com^
@@ -61413,6 +61471,7 @@
 ||www.c49594.aimedia.lk^
 ||www.c50578.hostingkampanya.com^
 ||www.c50995.kisspark.info^
+||www.c51770.kanuassociates.com^
 ||www.c52098.paidtomoney.com^
 ||www.c53538.cetusinvestmentsbtc.com^
 ||www.c53677.24houcryptowatcher.com^
@@ -61444,6 +61503,7 @@
 ||www.c79686.covidvcfund.com^
 ||www.c80425.paidtomoney.com^
 ||www.c80783.hamdandates.com^
+||www.c81881.kanuassociates.com^
 ||www.c82803.awicksin.com^
 ||www.c83649.paidtomoney.com^
 ||www.c85228.hamdandates.com^
@@ -61812,6 +61872,7 @@
 ||www.casinototek.com^
 ||www.casio37.com^
 ||www.casmater.com^
+||www.casokedui8hf4.s3.pl-waw.scw.cloud^
 ||www.caspiancraft.com^
 ||www.caspiyneft.site^
 ||www.caspiyneft.space^
@@ -63379,6 +63440,7 @@
 ||www.cookingpaths.com^
 ||www.cool1.site^
 ||www.cool8quet.life^
+||www.cool8tminds.site^
 ||www.cool29xy7.xyz^
 ||www.cool94vf5.quest^
 ||www.cool-events.store^
@@ -63826,6 +63888,7 @@
 ||www.cs2-natus.pro^
 ||www.cs2-source.pro^
 ||www.cs2skin4you.com^
+||www.cs2skinforyou.com^
 ||www.cs2sources-invites.com^
 ||www.cs2twitch.com^
 ||www.cs2twt.com^
@@ -64212,6 +64275,7 @@
 ||www.d27833.covidvcfund.com^
 ||www.d27904.paidtomoney.com^
 ||www.d32905.kisspark.info^
+||www.d33707.kanuassociates.com^
 ||www.d34179.epinlock.com^
 ||www.d34182.24houcryptowatcher.com^
 ||www.d35047.cetusinvestmentsbtc.com^
@@ -64244,6 +64308,7 @@
 ||www.d66936.aimedia.lk^
 ||www.d67440.cetusinvestmentsbtc.com^
 ||www.d68219.paidtomoney.com^
+||www.d70094.kanuassociates.com^
 ||www.d71520.hostingkampanya.com^
 ||www.d71728.cetusinvestmentsbtc.com^
 ||www.d71765.hamdandates.com^
@@ -67563,6 +67628,7 @@
 ||www.enzidev.com^
 ||www.enzo.pw^
 ||www.eobifoltdo.site^
+||www.eobuwieokay.shop^
 ||www.eodion.com^
 ||www.eoekdjdnbcbcbjd.site^
 ||www.eoferta24h.pl^
@@ -68413,6 +68479,7 @@
 ||www.f50008.hamdandates.com^
 ||www.f51237.paidtomoney.com^
 ||www.f51410.awicksin.com^
+||www.f52949.kanuassociates.com^
 ||www.f53000.epinlock.com^
 ||www.f53960.24houcryptowatcher.com^
 ||www.f54528.awicksin.com^
@@ -68529,6 +68596,7 @@
 ||www.facebookpolicy12.ddns.net^
 ||www.facebookpolicy12.ddnsking.com^
 ||www.faceboook.me^
+||www.facebooook.pl^
 ||www.faceinfocus.net^
 ||www.facelessinseattle.com^
 ||www.facelt-shield.com^
@@ -75319,6 +75387,7 @@
 ||www.inpost.326594512.xyz^
 ||www.inpost.acenor.online^
 ||www.inpost.advart.top^
+||www.inpost.aktponko.org^
 ||www.inpost.andrewlin.bio^
 ||www.inpost.average-redirect.pw^
 ||www.inpost.bdimonet.org^
@@ -76107,6 +76176,7 @@
 ||www.jakub.adaolga.warszawa.pl^
 ||www.jakub.gabrielazuzanna.info.pl^
 ||www.jakubjulia.com.pl^
+||www.jakwartosctaki.boats^
 ||www.jakwyzwaniagdy.bond^
 ||www.jakzarobicmiliondolarow.com^
 ||www.jal.ttssonine.top^
@@ -79137,6 +79207,7 @@
 ||www.lnpost.wepqa.site^
 ||www.lnpost.www85.top^
 ||www.lnpost.yedaw.pw^
+||www.lnpost.yeusev.online^
 ||www.lnpost.ynbrka.website^
 ||www.lnpost.yufams.site^
 ||www.lnsurex-ks.com^
@@ -80797,6 +80868,7 @@
 ||www.meta-support-bussiness.web.app^
 ||www.meta-support-case-658714.start.page^
 ||www.meta-support-case-6349571.start.page^
+||www.meta-support-case-59658137.start.page^
 ||www.meta-support-helps.start.page^
 ||www.meta.business-manager.live^
 ||www.meta.businessverifys.info^
@@ -83084,6 +83156,7 @@
 ||www.new22143.24houcryptowatcher.com^
 ||www.new22225.hostingkampanya.com^
 ||www.new24108.awicksin.com^
+||www.new24129.kanuassociates.com^
 ||www.new24927.paidtomoney.com^
 ||www.new25042.paidtomoney.com^
 ||www.new26190.awicksin.com^
@@ -83114,6 +83187,7 @@
 ||www.new56758.columbabkkfund.com^
 ||www.new59040.awicksin.com^
 ||www.new59045.kisspark.info^
+||www.new60318.kanuassociates.com^
 ||www.new60884.24houcryptowatcher.com^
 ||www.new61568.paidtomoney.com^
 ||www.new62109.cetusinvestmentsbtc.com^
@@ -83127,6 +83201,7 @@
 ||www.new69865.paidtomoney.com^
 ||www.new70872.kisspark.info^
 ||www.new71299.paidtomoney.com^
+||www.new73053.kanuassociates.com^
 ||www.new73229.24houcryptowatcher.com^
 ||www.new75758.paidtomoney.com^
 ||www.new77105.aimedia.lk^
@@ -84413,6 +84488,7 @@
 ||www.ogloszenia-zokolicy.pl^
 ||www.ogloszenia.store^
 ||www.ogloszeniacalapolska.pl^
+||www.ogloszeniadlaciebie.pl^
 ||www.ogloszeniainternetowe24.pl^
 ||www.ogloszeniamarket.pl^
 ||www.ogloszenianet-top.j.pl^
@@ -86890,6 +86966,9 @@
 ||www.pl-kontrola-bezpieczenstwa.pw^
 ||www.pl-kontrola-bezpieczenstwa.space^
 ||www.pl-kontrola-poczty.pw^
+||www.pl-kup-szybko.pl^
+||www.pl-kupteraz.pl^
+||www.pl-kupuj-lokalnie.pl^
 ||www.pl-kurier.cloud^
 ||www.pl-kurjerzy.cloud^
 ||www.pl-landtiket.online^
@@ -86897,6 +86976,7 @@
 ||www.pl-max.infopls.xyz^
 ||www.pl-media.za.com^
 ||www.pl-mil.prosinv.site^
+||www.pl-oferta-uzytkownika.pl^
 ||www.pl-olx-u28hv2.anzhuai.top^
 ||www.pl-olx-u28hv2.bbsxt.top^
 ||www.pl-olx-u28hv2.oferta.la^
@@ -86967,6 +87047,8 @@
 ||www.pl-walidacja-uzytkownika.pw^
 ||www.pl-wiadomosc.com^
 ||www.pl-wsparcie.link^
+||www.pl-zakup-przedmiot.pl^
+||www.pl-zakupy-online.pl^
 ||www.pla3.revoprogramxzsed.com^
 ||www.pla.robacan.site^
 ||www.plaatforms-2023.com^
@@ -90339,6 +90421,7 @@
 ||www.registration-successful.icu^
 ||www.registration.biticodes-activations.net^
 ||www.registration.tesla-bot.top^
+||www.registros23-10-2023.s3.pl-waw.scw.cloud^
 ||www.regmenow.com^
 ||www.regpgjointop.site^
 ||www.reground.live^
@@ -92530,6 +92613,7 @@
 ||www.shrel.itprojekt.site^
 ||www.shrivelemphatic.space^
 ||www.shrorwned.site^
+||www.shroud.sbs^
 ||www.shrrog.site^
 ||www.shrt-68.cfd^
 ||www.shrubbiest-alibis.000webhostapp.com^
@@ -94679,6 +94763,7 @@
 ||www.szybkipakunek.cloud^
 ||www.szybkizakup24.pl^
 ||www.szybko-kupuj.pl^
+||www.szybko-zakup24.pl^
 ||www.szybko-zarabiaj-pl.xyz^
 ||www.szymonemilia.pl^
 ||www.szymoniakbozena.viktorianiemiec.info.pl^
@@ -97432,6 +97517,7 @@
 ||www.unslanted.live^
 ||www.unsphering.com^
 ||www.unspoiilednature.site^
+||www.unstayed.sbs^
 ||www.unsteadies.xyz^
 ||www.unstern.info^
 ||www.unstoppble.site^
@@ -98763,6 +98849,7 @@
 ||www.vintedcz.order345.online^
 ||www.vintedcz.order382.eu^
 ||www.vintedcz.order531.com^
+||www.vintedcz.order689.online^
 ||www.vintedcz.order1692.eu^
 ||www.vintedcz.order2974.eu^
 ||www.vintedcz.order4372.eu^
@@ -100137,6 +100224,7 @@
 ||www.wigford.space^
 ||www.wigford.uno^
 ||www.wiggly-luck-saga.glitch.me^
+||www.wiglet.sbs^
 ||www.wiguasno.space^
 ||www.wih.boats^
 ||www.wiielkaradosc.site^
@@ -101440,6 +101528,7 @@
 ||www.zakupy-ogloszenia.pl^
 ||www.zakupy-ogloszenie.pl^
 ||www.zakupy-olx.pl^
+||www.zakupy-z-ochrona.pl^
 ||www.zakupyfacebook.pl^
 ||www.zakupyolx.pl^
 ||www.zalatwmy-wszyscy.click^
@@ -102805,6 +102894,7 @@
 ||zakupy-ogloszenia.pl^
 ||zakupy-ogloszenie.pl^
 ||zakupy-olx.pl^
+||zakupy-z-ochrona.pl^
 ||zakupyfacebook.pl^
 ||zakupyolx.pl^
 ||zalatwmy-wszyscy.click^
