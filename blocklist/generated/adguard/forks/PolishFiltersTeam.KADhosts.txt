@@ -1,7 +1,7 @@
 ! Title: KADhosts
 ! Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-! Last modified: Fri, 27 Oct 2023, 22:17 UTC+02:00
-! Version: 2023.10.27.3
+! Last modified: Sat, 28 Oct 2023, 10:18 UTC+02:00
+! Version: 2023.10.28.0
 ! Expires: 2 days
 ! Website: https://kadantiscam.netlify.app/
 ! Based on: https://github.com/FiltersHeroes/KAD
@@ -10101,6 +10101,7 @@
 ||australianews-abc.online^
 ||austspg-customer.com^
 ||auta-adam.pl^
+||auta-adamski.pl^
 ||auta-alek.pl^
 ||auta-aleks.pl^
 ||auta-bartek.pl^
@@ -10140,12 +10141,14 @@
 ||auta-kowalska.pl^
 ||auta-krzysztof.pl^
 ||auta-kuba.pl^
+||auta-lisiecki.pl^
 ||auta-lublin.pl^
 ||auta-maciek.pl^
 ||auta-malinowski.pl^
 ||auta-marcin.pl^
 ||auta-marcinkowski.pl^
 ||auta-mateusz.pl^
+||auta-mazowiecka.pl^
 ||auta-michal.pl^
 ||auta-milosz.pl^
 ||auta-norbert.pl^
@@ -10178,6 +10181,7 @@
 ||auta-torun.pl^
 ||auta-waldek.pl^
 ||auta-warszawskie.pl^
+||auta-wiejska.pl^
 ||auta-wojciech.pl^
 ||auta-wojtek.pl^
 ||auta-wroclaw.pl^
@@ -16356,6 +16360,7 @@
 ||cs2-natus.pro^
 ||cs2-source.pro^
 ||cs2navi.fun^
+||cs2newtour.com^
 ||cs2skin4you.com^
 ||cs2skinforyou.com^
 ||cs2skingive.com^
@@ -24077,6 +24082,7 @@
 ||gnuha.com^
 ||gnztcg416.espn365.com^
 ||go2cup.com^
+||go2cup.pro^
 ||go2mm.info^
 ||go2pro.online^
 ||go2skins.com^
@@ -27647,6 +27653,8 @@
 ||inp0st.325444.xyz^
 ||inp0st.537653.xyz^
 ||inp0st.6090217.xyz^
+||inp0st.21407892.xyz^
+||inp0st.21407893.xyz^
 ||inp0st.21407896.xyz^
 ||inp0st.21407897.xyz^
 ||inp00st.47451512.xyz^
@@ -41144,6 +41152,7 @@
 ||pomocdlaobywateli.online^
 ||pomogam-polska.pl^
 ||pomomento-com.preview-domain.com^
+||pomyslowosci24.click^
 ||pondig.site^
 ||pondn.sbs^
 ||pondslash.com^
@@ -58752,6 +58761,7 @@
 ||www.australianews-abc.online^
 ||www.austspg-customer.com^
 ||www.auta-adam.pl^
+||www.auta-adamski.pl^
 ||www.auta-alek.pl^
 ||www.auta-aleks.pl^
 ||www.auta-bartek.pl^
@@ -58791,12 +58801,14 @@
 ||www.auta-kowalska.pl^
 ||www.auta-krzysztof.pl^
 ||www.auta-kuba.pl^
+||www.auta-lisiecki.pl^
 ||www.auta-lublin.pl^
 ||www.auta-maciek.pl^
 ||www.auta-malinowski.pl^
 ||www.auta-marcin.pl^
 ||www.auta-marcinkowski.pl^
 ||www.auta-mateusz.pl^
+||www.auta-mazowiecka.pl^
 ||www.auta-michal.pl^
 ||www.auta-milosz.pl^
 ||www.auta-norbert.pl^
@@ -58829,6 +58841,7 @@
 ||www.auta-torun.pl^
 ||www.auta-waldek.pl^
 ||www.auta-warszawskie.pl^
+||www.auta-wiejska.pl^
 ||www.auta-wojciech.pl^
 ||www.auta-wojtek.pl^
 ||www.auta-wroclaw.pl^
@@ -65007,6 +65020,7 @@
 ||www.cs2-natus.pro^
 ||www.cs2-source.pro^
 ||www.cs2navi.fun^
+||www.cs2newtour.com^
 ||www.cs2skin4you.com^
 ||www.cs2skinforyou.com^
 ||www.cs2skingive.com^
@@ -72728,6 +72742,7 @@
 ||www.gnuha.com^
 ||www.gnztcg416.espn365.com^
 ||www.go2cup.com^
+||www.go2cup.pro^
 ||www.go2mm.info^
 ||www.go2pro.online^
 ||www.go2skins.com^
@@ -76298,6 +76313,8 @@
 ||www.inp0st.325444.xyz^
 ||www.inp0st.537653.xyz^
 ||www.inp0st.6090217.xyz^
+||www.inp0st.21407892.xyz^
+||www.inp0st.21407893.xyz^
 ||www.inp0st.21407896.xyz^
 ||www.inp0st.21407897.xyz^
 ||www.inp00st.47451512.xyz^
@@ -89690,6 +89707,7 @@
 ||www.pomocdlaobywateli.online^
 ||www.pomogam-polska.pl^
 ||www.pomomento-com.preview-domain.com^
+||www.pomyslowosci24.click^
 ||www.pondig.site^
 ||www.pondn.sbs^
 ||www.pondslash.com^
@@ -103338,6 +103356,7 @@
 ||www.zdecyduj-samemu.eu^
 ||www.zdecyduj-wybieraj.eu^
 ||www.zdecyduj-wygranego.eu^
+||www.zdemaskowani24.click^
 ||www.zdemaskowanie.click^
 ||www.zdi.ru^
 ||www.zdjecia-dysk6938.herokuapp.com^
@@ -104732,6 +104751,7 @@
 ||zdecyduj-samemu.eu^
 ||zdecyduj-wybieraj.eu^
 ||zdecyduj-wygranego.eu^
+||zdemaskowani24.click^
 ||zdemaskowanie.click^
 ||zdi.ru^
 ||zdjecia-dysk6938.herokuapp.com^
