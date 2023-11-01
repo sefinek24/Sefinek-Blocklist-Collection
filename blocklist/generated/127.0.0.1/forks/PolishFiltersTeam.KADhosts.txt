@@ -1,7 +1,7 @@
 # Title: KADhosts
 # Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-# Last modified: Wed, 01 Nov 2023, 17:21 UTC+01:00
-# Version: 2023.11.1.2
+# Last modified: Wed, 01 Nov 2023, 21:18 UTC+01:00
+# Version: 2023.11.1.3
 # Expires: 2 days
 # Website: https://kadantiscam.netlify.app/
 # Based on: https://github.com/FiltersHeroes/KAD
@@ -8376,14 +8376,17 @@
 127.0.0.1 allegrolokalnie.kup-bezpiecznie-24.pl
 127.0.0.1 allegrolokalnie.kup-online24h.pl
 127.0.0.1 allegrolokalnie.kup-online247.pl
+127.0.0.1 allegrolokalnie.kup-prywatnie247.pl
 127.0.0.1 allegrolokalnie.kup-prywatnie.pl
 127.0.0.1 allegrolokalnie.kup-przedmiot.pl
 127.0.0.1 allegrolokalnie.kup-sprzedaj.pl
 127.0.0.1 allegrolokalnie.kup-z-bezpieczna-przesylka.pl
 127.0.0.1 allegrolokalnie.kup-z-dostawa.pl
 127.0.0.1 allegrolokalnie.kupie-prywatnie24.pl
+127.0.0.1 allegrolokalnie.kupie-prywatnie.pl
 127.0.0.1 allegrolokalnie.kupie-przedmiot24.pl
 127.0.0.1 allegrolokalnie.kupie-przedmiot247.pl
+127.0.0.1 allegrolokalnie.kupie-teraz247.pl
 127.0.0.1 allegrolokalnie.kupno24-7.pl
 127.0.0.1 allegrolokalnie.kupno24h-7.pl
 127.0.0.1 allegrolokalnie.kupowanie-24.pl
@@ -8415,6 +8418,7 @@
 127.0.0.1 allegrolokalnie.pl-kupuj-lokalnie.pl
 127.0.0.1 allegrolokalnie.pl-oferta-uzytkownika.pl
 127.0.0.1 allegrolokalnie.pl-platnosc-24h.pl
+127.0.0.1 allegrolokalnie.pl-platnosc-payu.pl
 127.0.0.1 allegrolokalnie.pl-zakup-dzis.pl
 127.0.0.1 allegrolokalnie.pl-zakup-przedmiot.pl
 127.0.0.1 allegrolokalnie.pl-zakupy-online.pl
@@ -8429,6 +8433,7 @@
 127.0.0.1 allegrolokalnie.platnosc-zweryfikowana.pl
 127.0.0.1 allegrolokalnie.platnosci-24h.pl
 127.0.0.1 allegrolokalnie.platnosci-z-ochrona.pl
+127.0.0.1 allegrolokalnie.platnoscwsieci.pl
 127.0.0.1 allegrolokalnie.polskie-zakupy.pl
 127.0.0.1 allegrolokalnie.proste-zamowienia.pl
 127.0.0.1 allegrolokalnie.prywanty-zakup24.pl
@@ -8469,6 +8474,7 @@
 127.0.0.1 allegrolokalnie.szybkie-ogloszenie.pl
 127.0.0.1 allegrolokalnie.szybkie-zamowienie.pl
 127.0.0.1 allegrolokalnie.szybkie-zaplac.pl
+127.0.0.1 allegrolokalnie.szybkiezakupyonline.pl
 127.0.0.1 allegrolokalnie.szybko-kupuj.pl
 127.0.0.1 allegrolokalnie.szybko-zakup24.pl
 127.0.0.1 allegrolokalnie.tani-zakup.pl
@@ -8482,6 +8488,7 @@
 127.0.0.1 allegrolokalnie.zakup24.pl
 127.0.0.1 allegrolokalnie.zakup-bezpieczny.pl
 127.0.0.1 allegrolokalnie.zakup-dzis.pl
+127.0.0.1 allegrolokalnie.zakup-kontrolowany247.pl
 127.0.0.1 allegrolokalnie.zakup-online24h.pl
 127.0.0.1 allegrolokalnie.zakup-payu.pl
 127.0.0.1 allegrolokalnie.zakup-produkt.pl
@@ -8494,6 +8501,7 @@
 127.0.0.1 allegrolokalnie.zakupy24h-7.pl
 127.0.0.1 allegrolokalnie.zakupy-24h.pl
 127.0.0.1 allegrolokalnie.zakupy-bezpieczne.pl
+127.0.0.1 allegrolokalnie.zakupy-payu.pl
 127.0.0.1 allegrolokalnie.zakupy-z-ochrona.pl
 127.0.0.1 allegrolokalnie.zakupybezpieczne.pl
 127.0.0.1 allegrolokalnie.zamawiaj-taniej.pl
@@ -10207,6 +10215,7 @@
 127.0.0.1 auta-ciesielski.pl
 127.0.0.1 auta-czesci.pl
 127.0.0.1 auta-czestochowa.pl
+127.0.0.1 auta-dabrowski.pl
 127.0.0.1 auta-daniel.pl
 127.0.0.1 auta-darek.pl
 127.0.0.1 auta-dawid.pl
@@ -10240,6 +10249,7 @@
 127.0.0.1 auta-kowalscy.pl
 127.0.0.1 auta-kowalska.pl
 127.0.0.1 auta-krzysztof.pl
+127.0.0.1 auta-krzyzanowski.pl
 127.0.0.1 auta-kuba.pl
 127.0.0.1 auta-kwiatkowski.pl
 127.0.0.1 auta-leszczynski.pl
@@ -13298,6 +13308,7 @@
 127.0.0.1 bowlingburg.de
 127.0.0.1 bowseer.website
 127.0.0.1 bowstem.store
+127.0.0.1 box2youcs2.com
 127.0.0.1 box5597.temp.domains
 127.0.0.1 boxesfly.com
 127.0.0.1 boxnepal.com
@@ -16551,6 +16562,7 @@
 127.0.0.1 cs2-go.com
 127.0.0.1 cs2-natus.pro
 127.0.0.1 cs2-source.pro
+127.0.0.1 cs2lucky.pro
 127.0.0.1 cs2navi.fun
 127.0.0.1 cs2newtour.com
 127.0.0.1 cs2skin4you.com
@@ -20960,6 +20972,7 @@
 127.0.0.1 express-packs.net
 127.0.0.1 express-platnosci.pl
 127.0.0.1 expressable.info
+127.0.0.1 expressaodaliberdade.com.br
 127.0.0.1 expresscash.pl
 127.0.0.1 expressconcreteltd.net
 127.0.0.1 expressdeliveryfastfailldhi.com
@@ -30868,11 +30881,13 @@
 127.0.0.1 kup-online24h.pl
 127.0.0.1 kup-online247.pl
 127.0.0.1 kup-paczka-olx.pl
+127.0.0.1 kup-prywatnie247.pl
 127.0.0.1 kup-prywatnie.pl
 127.0.0.1 kup-przedmiot.pl
 127.0.0.1 kup-wysylka-olx.pl
 127.0.0.1 kup-z-dostawa.pl
 127.0.0.1 kupie-prywatnie24.pl
+127.0.0.1 kupie-prywatnie.pl
 127.0.0.1 kupie-przedmiot24.pl
 127.0.0.1 kupie-przedmiot247.pl
 127.0.0.1 kupie-teraz24h.pl
@@ -38108,9 +38123,12 @@
 127.0.0.1 olx.info-oglaszamy.pl
 127.0.0.1 olx.ink
 127.0.0.1 olx.key-pl.pw
+127.0.0.1 olx.kup-prywatnie247.pl
 127.0.0.1 olx.kup-prywatnie.pl
 127.0.0.1 olx.kupie-prywatnie24.pl
+127.0.0.1 olx.kupie-prywatnie.pl
 127.0.0.1 olx.kupie-przedmiot247.pl
+127.0.0.1 olx.kupie-teraz247.pl
 127.0.0.1 olx.kupteraz-przedmiot.pl
 127.0.0.1 olx.kupuj-online24.pl
 127.0.0.1 olx.kupuje-prywatnie.pl
@@ -38142,6 +38160,7 @@
 127.0.0.1 olx.pl-getorder.link
 127.0.0.1 olx.pl-pay.link
 127.0.0.1 olx.pl-payment.oferta-pay.com
+127.0.0.1 olx.pl-platnosc-payu.pl
 127.0.0.1 olx.pl-safecash.link
 127.0.0.1 olx.pl-safedeal.link
 127.0.0.1 olx.pl-safety.oferta-payment.link
@@ -38179,6 +38198,7 @@
 127.0.0.1 olx.rwpay.ru
 127.0.0.1 olx.swell-redirect.pw
 127.0.0.1 olx.szybki-zakupy24.pl
+127.0.0.1 olx.szybkiezakupyonline.pl
 127.0.0.1 olx.tani-zakup.pl
 127.0.0.1 olx.tanie-zaplac.pl
 127.0.0.1 olx.themilitia.shop
@@ -38198,9 +38218,11 @@
 127.0.0.1 olx.z-przesylka.pl
 127.0.0.1 olx.zakup24-7.pl
 127.0.0.1 olx.zakup-bezpieczny.pl
+127.0.0.1 olx.zakup-kontrolowany247.pl
 127.0.0.1 olx.zakup-online24h.pl
 127.0.0.1 olx.zakup-teraz24.pl
 127.0.0.1 olx.zakup-teraz24h.pl
+127.0.0.1 olx.zakupy-payu.pl
 127.0.0.1 olx.zakupybezpieczne.pl
 127.0.0.1 olx.zakupyogloszenia.pl
 127.0.0.1 olx.zamawiaj-taniej.pl
@@ -38542,6 +38564,7 @@
 127.0.0.1 opteimization.lat
 127.0.0.1 opti-saving.site
 127.0.0.1 optical2web.com
+127.0.0.1 opticaura.pw
 127.0.0.1 opticrefractionn.xyz
 127.0.0.1 opticsspectrumc.xyz
 127.0.0.1 opticstransparentp.xyz
@@ -39351,6 +39374,7 @@
 127.0.0.1 pattedhair.com
 127.0.0.1 pattern-trader.app
 127.0.0.1 pattern-trader.io
+127.0.0.1 patternliner.com
 127.0.0.1 patterntrader.app
 127.0.0.1 patterntrader.io
 127.0.0.1 patterntrader.net
@@ -45571,6 +45595,7 @@
 127.0.0.1 seogiecommercd.top
 127.0.0.1 seogiecommerce.com
 127.0.0.1 seogiecommerce.top
+127.0.0.1 seoleverage.group
 127.0.0.1 seomarketmaker.com
 127.0.0.1 seotop1google.net
 127.0.0.1 seouledout.com
@@ -46775,6 +46800,7 @@
 127.0.0.1 solidforexoffers.com
 127.0.0.1 solidfork.space
 127.0.0.1 solidific.com
+127.0.0.1 solidnewykonanie.click
 127.0.0.1 solidoapp.com
 127.0.0.1 solipsistically.com
 127.0.0.1 solisteaqui1.com
@@ -47135,6 +47161,7 @@
 127.0.0.1 sprawiedliwe.pl
 127.0.0.1 sprawiiedliwosc.site
 127.0.0.1 sprawlingviineyards.site
+127.0.0.1 sprawnawiadomosc.click
 127.0.0.1 sprawozdania24.click
 127.0.0.1 spraying.life
 127.0.0.1 sprfoullif.site
@@ -48289,6 +48316,7 @@
 127.0.0.1 szybkiefakty.eu5.net
 127.0.0.1 szybkiepolaczeniaa.site
 127.0.0.1 szybkiesamochodyy.site
+127.0.0.1 szybkiezakupyonline.pl
 127.0.0.1 szybkiirozwoj.site
 127.0.0.1 szybkiisukces.site
 127.0.0.1 szybkinetflix.pl
@@ -51282,6 +51310,7 @@
 127.0.0.1 urk.wtrst.com
 127.0.0.1 url-d32c17.ingress-florina.ewp.live
 127.0.0.1 url-rdconline7webdhglobal.blogspot.com
+127.0.0.1 url.1.hubs.vn
 127.0.0.1 urlink.pw
 127.0.0.1 urmediaz.com
 127.0.0.1 urnezzbn7gcu.com
@@ -51325,6 +51354,7 @@
 127.0.0.1 user9payment.xyz
 127.0.0.1 user-paypal.com
 127.0.0.1 user-shop.xyz
+127.0.0.1 username29.godaddysites.com
 127.0.0.1 usernewsystemform.xyz
 127.0.0.1 uservinted-payment.6122120.xyz
 127.0.0.1 useshape.com
@@ -51912,6 +51942,7 @@
 127.0.0.1 vinted-be.id17402.com
 127.0.0.1 vinted-be.id93172.com
 127.0.0.1 vinted-belgique.com
+127.0.0.1 vinted-connaissance.info
 127.0.0.1 vinted-cz.info93.pw
 127.0.0.1 vinted-cz.info-orders8765.com
 127.0.0.1 vinted-cz.order631.info
@@ -57589,14 +57620,17 @@
 127.0.0.1 www.allegrolokalnie.kup-bezpiecznie-24.pl
 127.0.0.1 www.allegrolokalnie.kup-online24h.pl
 127.0.0.1 www.allegrolokalnie.kup-online247.pl
+127.0.0.1 www.allegrolokalnie.kup-prywatnie247.pl
 127.0.0.1 www.allegrolokalnie.kup-prywatnie.pl
 127.0.0.1 www.allegrolokalnie.kup-przedmiot.pl
 127.0.0.1 www.allegrolokalnie.kup-sprzedaj.pl
 127.0.0.1 www.allegrolokalnie.kup-z-bezpieczna-przesylka.pl
 127.0.0.1 www.allegrolokalnie.kup-z-dostawa.pl
 127.0.0.1 www.allegrolokalnie.kupie-prywatnie24.pl
+127.0.0.1 www.allegrolokalnie.kupie-prywatnie.pl
 127.0.0.1 www.allegrolokalnie.kupie-przedmiot24.pl
 127.0.0.1 www.allegrolokalnie.kupie-przedmiot247.pl
+127.0.0.1 www.allegrolokalnie.kupie-teraz247.pl
 127.0.0.1 www.allegrolokalnie.kupno24-7.pl
 127.0.0.1 www.allegrolokalnie.kupno24h-7.pl
 127.0.0.1 www.allegrolokalnie.kupowanie-24.pl
@@ -57628,6 +57662,7 @@
 127.0.0.1 www.allegrolokalnie.pl-kupuj-lokalnie.pl
 127.0.0.1 www.allegrolokalnie.pl-oferta-uzytkownika.pl
 127.0.0.1 www.allegrolokalnie.pl-platnosc-24h.pl
+127.0.0.1 www.allegrolokalnie.pl-platnosc-payu.pl
 127.0.0.1 www.allegrolokalnie.pl-zakup-dzis.pl
 127.0.0.1 www.allegrolokalnie.pl-zakup-przedmiot.pl
 127.0.0.1 www.allegrolokalnie.pl-zakupy-online.pl
@@ -57642,6 +57677,7 @@
 127.0.0.1 www.allegrolokalnie.platnosc-zweryfikowana.pl
 127.0.0.1 www.allegrolokalnie.platnosci-24h.pl
 127.0.0.1 www.allegrolokalnie.platnosci-z-ochrona.pl
+127.0.0.1 www.allegrolokalnie.platnoscwsieci.pl
 127.0.0.1 www.allegrolokalnie.polskie-zakupy.pl
 127.0.0.1 www.allegrolokalnie.proste-zamowienia.pl
 127.0.0.1 www.allegrolokalnie.prywanty-zakup24.pl
@@ -57682,6 +57718,7 @@
 127.0.0.1 www.allegrolokalnie.szybkie-ogloszenie.pl
 127.0.0.1 www.allegrolokalnie.szybkie-zamowienie.pl
 127.0.0.1 www.allegrolokalnie.szybkie-zaplac.pl
+127.0.0.1 www.allegrolokalnie.szybkiezakupyonline.pl
 127.0.0.1 www.allegrolokalnie.szybko-kupuj.pl
 127.0.0.1 www.allegrolokalnie.szybko-zakup24.pl
 127.0.0.1 www.allegrolokalnie.tani-zakup.pl
@@ -57695,6 +57732,7 @@
 127.0.0.1 www.allegrolokalnie.zakup24.pl
 127.0.0.1 www.allegrolokalnie.zakup-bezpieczny.pl
 127.0.0.1 www.allegrolokalnie.zakup-dzis.pl
+127.0.0.1 www.allegrolokalnie.zakup-kontrolowany247.pl
 127.0.0.1 www.allegrolokalnie.zakup-online24h.pl
 127.0.0.1 www.allegrolokalnie.zakup-payu.pl
 127.0.0.1 www.allegrolokalnie.zakup-produkt.pl
@@ -57707,6 +57745,7 @@
 127.0.0.1 www.allegrolokalnie.zakupy24h-7.pl
 127.0.0.1 www.allegrolokalnie.zakupy-24h.pl
 127.0.0.1 www.allegrolokalnie.zakupy-bezpieczne.pl
+127.0.0.1 www.allegrolokalnie.zakupy-payu.pl
 127.0.0.1 www.allegrolokalnie.zakupy-z-ochrona.pl
 127.0.0.1 www.allegrolokalnie.zakupybezpieczne.pl
 127.0.0.1 www.allegrolokalnie.zamawiaj-taniej.pl
@@ -59420,6 +59459,7 @@
 127.0.0.1 www.auta-ciesielski.pl
 127.0.0.1 www.auta-czesci.pl
 127.0.0.1 www.auta-czestochowa.pl
+127.0.0.1 www.auta-dabrowski.pl
 127.0.0.1 www.auta-daniel.pl
 127.0.0.1 www.auta-darek.pl
 127.0.0.1 www.auta-dawid.pl
@@ -59453,6 +59493,7 @@
 127.0.0.1 www.auta-kowalscy.pl
 127.0.0.1 www.auta-kowalska.pl
 127.0.0.1 www.auta-krzysztof.pl
+127.0.0.1 www.auta-krzyzanowski.pl
 127.0.0.1 www.auta-kuba.pl
 127.0.0.1 www.auta-kwiatkowski.pl
 127.0.0.1 www.auta-leszczynski.pl
@@ -62511,6 +62552,7 @@
 127.0.0.1 www.bowlingburg.de
 127.0.0.1 www.bowseer.website
 127.0.0.1 www.bowstem.store
+127.0.0.1 www.box2youcs2.com
 127.0.0.1 www.box5597.temp.domains
 127.0.0.1 www.boxesfly.com
 127.0.0.1 www.boxnepal.com
@@ -65764,6 +65806,7 @@
 127.0.0.1 www.cs2-go.com
 127.0.0.1 www.cs2-natus.pro
 127.0.0.1 www.cs2-source.pro
+127.0.0.1 www.cs2lucky.pro
 127.0.0.1 www.cs2navi.fun
 127.0.0.1 www.cs2newtour.com
 127.0.0.1 www.cs2skin4you.com
@@ -70173,6 +70216,7 @@
 127.0.0.1 www.express-packs.net
 127.0.0.1 www.express-platnosci.pl
 127.0.0.1 www.expressable.info
+127.0.0.1 www.expressaodaliberdade.com.br
 127.0.0.1 www.expresscash.pl
 127.0.0.1 www.expressconcreteltd.net
 127.0.0.1 www.expressdeliveryfastfailldhi.com
@@ -80081,11 +80125,13 @@
 127.0.0.1 www.kup-online24h.pl
 127.0.0.1 www.kup-online247.pl
 127.0.0.1 www.kup-paczka-olx.pl
+127.0.0.1 www.kup-prywatnie247.pl
 127.0.0.1 www.kup-prywatnie.pl
 127.0.0.1 www.kup-przedmiot.pl
 127.0.0.1 www.kup-wysylka-olx.pl
 127.0.0.1 www.kup-z-dostawa.pl
 127.0.0.1 www.kupie-prywatnie24.pl
+127.0.0.1 www.kupie-prywatnie.pl
 127.0.0.1 www.kupie-przedmiot24.pl
 127.0.0.1 www.kupie-przedmiot247.pl
 127.0.0.1 www.kupie-teraz24h.pl
@@ -87322,9 +87368,12 @@
 127.0.0.1 www.olx.info-oglaszamy.pl
 127.0.0.1 www.olx.ink
 127.0.0.1 www.olx.key-pl.pw
+127.0.0.1 www.olx.kup-prywatnie247.pl
 127.0.0.1 www.olx.kup-prywatnie.pl
 127.0.0.1 www.olx.kupie-prywatnie24.pl
+127.0.0.1 www.olx.kupie-prywatnie.pl
 127.0.0.1 www.olx.kupie-przedmiot247.pl
+127.0.0.1 www.olx.kupie-teraz247.pl
 127.0.0.1 www.olx.kupteraz-przedmiot.pl
 127.0.0.1 www.olx.kupuj-online24.pl
 127.0.0.1 www.olx.kupuje-prywatnie.pl
@@ -87356,6 +87405,7 @@
 127.0.0.1 www.olx.pl-getorder.link
 127.0.0.1 www.olx.pl-pay.link
 127.0.0.1 www.olx.pl-payment.oferta-pay.com
+127.0.0.1 www.olx.pl-platnosc-payu.pl
 127.0.0.1 www.olx.pl-safecash.link
 127.0.0.1 www.olx.pl-safedeal.link
 127.0.0.1 www.olx.pl-safety.oferta-payment.link
@@ -87393,6 +87443,7 @@
 127.0.0.1 www.olx.rwpay.ru
 127.0.0.1 www.olx.swell-redirect.pw
 127.0.0.1 www.olx.szybki-zakupy24.pl
+127.0.0.1 www.olx.szybkiezakupyonline.pl
 127.0.0.1 www.olx.tani-zakup.pl
 127.0.0.1 www.olx.tanie-zaplac.pl
 127.0.0.1 www.olx.themilitia.shop
@@ -87412,9 +87463,11 @@
 127.0.0.1 www.olx.z-przesylka.pl
 127.0.0.1 www.olx.zakup24-7.pl
 127.0.0.1 www.olx.zakup-bezpieczny.pl
+127.0.0.1 www.olx.zakup-kontrolowany247.pl
 127.0.0.1 www.olx.zakup-online24h.pl
 127.0.0.1 www.olx.zakup-teraz24.pl
 127.0.0.1 www.olx.zakup-teraz24h.pl
+127.0.0.1 www.olx.zakupy-payu.pl
 127.0.0.1 www.olx.zakupybezpieczne.pl
 127.0.0.1 www.olx.zakupyogloszenia.pl
 127.0.0.1 www.olx.zamawiaj-taniej.pl
@@ -87756,6 +87809,7 @@
 127.0.0.1 www.opteimization.lat
 127.0.0.1 www.opti-saving.site
 127.0.0.1 www.optical2web.com
+127.0.0.1 www.opticaura.pw
 127.0.0.1 www.opticrefractionn.xyz
 127.0.0.1 www.opticsspectrumc.xyz
 127.0.0.1 www.opticstransparentp.xyz
@@ -88565,6 +88619,7 @@
 127.0.0.1 www.pattedhair.com
 127.0.0.1 www.pattern-trader.app
 127.0.0.1 www.pattern-trader.io
+127.0.0.1 www.patternliner.com
 127.0.0.1 www.patterntrader.app
 127.0.0.1 www.patterntrader.io
 127.0.0.1 www.patterntrader.net
@@ -94679,6 +94734,7 @@
 127.0.0.1 www.seogiecommercd.top
 127.0.0.1 www.seogiecommerce.com
 127.0.0.1 www.seogiecommerce.top
+127.0.0.1 www.seoleverage.group
 127.0.0.1 www.seomarketmaker.com
 127.0.0.1 www.seotop1google.net
 127.0.0.1 www.seouledout.com
@@ -95883,6 +95939,7 @@
 127.0.0.1 www.solidforexoffers.com
 127.0.0.1 www.solidfork.space
 127.0.0.1 www.solidific.com
+127.0.0.1 www.solidnewykonanie.click
 127.0.0.1 www.solidoapp.com
 127.0.0.1 www.solipsistically.com
 127.0.0.1 www.solisteaqui1.com
@@ -96243,6 +96300,7 @@
 127.0.0.1 www.sprawiedliwe.pl
 127.0.0.1 www.sprawiiedliwosc.site
 127.0.0.1 www.sprawlingviineyards.site
+127.0.0.1 www.sprawnawiadomosc.click
 127.0.0.1 www.sprawozdania24.click
 127.0.0.1 www.spraying.life
 127.0.0.1 www.sprfoullif.site
@@ -97397,6 +97455,7 @@
 127.0.0.1 www.szybkiefakty.eu5.net
 127.0.0.1 www.szybkiepolaczeniaa.site
 127.0.0.1 www.szybkiesamochodyy.site
+127.0.0.1 www.szybkiezakupyonline.pl
 127.0.0.1 www.szybkiirozwoj.site
 127.0.0.1 www.szybkiisukces.site
 127.0.0.1 www.szybkinetflix.pl
@@ -100390,6 +100449,7 @@
 127.0.0.1 www.urk.wtrst.com
 127.0.0.1 www.url-d32c17.ingress-florina.ewp.live
 127.0.0.1 www.url-rdconline7webdhglobal.blogspot.com
+127.0.0.1 www.url.1.hubs.vn
 127.0.0.1 www.urlink.pw
 127.0.0.1 www.urmediaz.com
 127.0.0.1 www.urnezzbn7gcu.com
@@ -100433,6 +100493,7 @@
 127.0.0.1 www.user9payment.xyz
 127.0.0.1 www.user-paypal.com
 127.0.0.1 www.user-shop.xyz
+127.0.0.1 www.username29.godaddysites.com
 127.0.0.1 www.usernewsystemform.xyz
 127.0.0.1 www.uservinted-payment.6122120.xyz
 127.0.0.1 www.useshape.com
@@ -101020,6 +101081,7 @@
 127.0.0.1 www.vinted-be.id17402.com
 127.0.0.1 www.vinted-be.id93172.com
 127.0.0.1 www.vinted-belgique.com
+127.0.0.1 www.vinted-connaissance.info
 127.0.0.1 www.vinted-cz.info93.pw
 127.0.0.1 www.vinted-cz.info-orders8765.com
 127.0.0.1 www.vinted-cz.order631.info
@@ -104306,6 +104368,7 @@
 127.0.0.1 www.zakup-auto.pl
 127.0.0.1 www.zakup-bezpieczny.pl
 127.0.0.1 www.zakup-dzis.pl
+127.0.0.1 www.zakup-kontrolowany247.pl
 127.0.0.1 www.zakup-kontrolowany.pl
 127.0.0.1 www.zakup-natychmiastowy.pl
 127.0.0.1 www.zakup-online24h.pl
@@ -105717,6 +105780,7 @@
 127.0.0.1 zakup-auto.pl
 127.0.0.1 zakup-bezpieczny.pl
 127.0.0.1 zakup-dzis.pl
+127.0.0.1 zakup-kontrolowany247.pl
 127.0.0.1 zakup-kontrolowany.pl
 127.0.0.1 zakup-natychmiastowy.pl
 127.0.0.1 zakup-online24h.pl
