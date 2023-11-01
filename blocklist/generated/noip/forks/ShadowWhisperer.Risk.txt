@@ -1,8 +1,8 @@
 #
 #    File: Risk
 #    Info: Worst ISP Bots/Spam, Software Hosts, Potential domains used by compromised devices
-# Domains: 173
-# Updated: 10/25/2023  17:40 (5:40 PM CST)
+# Domains: 172
+# Updated: 11/1/2023  08:32 (8:32 AM CST)
 # Creator: ShadowWhisperer (Sean H.)
 #
 #    Curl: curl -s https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Risk
@@ -106,7 +106,6 @@ hikvision.com                                 #Chineese Security Cameras - Banne
 api.hikvision.com                             #Chineese Security Cameras - Banned By US Gov.
 hikvision.com.cn                              #Chineese Security Cameras - Banned By US Gov.
 
-0xacab.org                                    #Code Hosting
 codefactory.sh                                #Code Hosting
 onrender.com                                  #Code Hosting
 codesandbox.io                                #Code Hosting - Hosts malware
@@ -207,11 +206,10 @@ nodr.io                                       #Uses your bandwidth "when you're 
 # =====================================================================================================
 #
 #   Money Transfer  =  Websites used to send money to someone else
-#          Webhook  =  Inspect page requets  (Can be used to recieve data from an infected system)
+#          Webhook  =  Inspect page requests  (Can be used to receive data from an infected system)
 #        Webscript  =  Run scripts online
 #
 # =====================================================================================================
-
 
 download.c3pool.com                    #Bitcoin Miner (Legit) - Used by compromized machines
 
