@@ -1,15 +1,13 @@
 const mongoose = require('mongoose');
 const RequestStats = require('./models/RequestStats.js');
 
-mongoose.connect(process.env.MONGODB_URL, {
-	useNewUrlParser: true,
-	useUnifiedTopology: true,
-}).then(() => {
-	console.info('Connected to the database');
-}).catch(err => {
-	console.error('Failed to connect to the database', err);
-	process.exit(1);
-});
+mongoose.connect(process.env.MONGODB_URL)
+	.then(() => {
+		console.info('Connected to the database');
+	}).catch(err => {
+		console.error('Failed to connect to the database', err);
+		process.exit(1);
+	});
 
 const db = mongoose.connection;
 db.on('connected', async () => {
