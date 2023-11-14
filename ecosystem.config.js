@@ -13,7 +13,7 @@ module.exports = {
 		restart_delay         : 6000,
 		wait_ready            : true,
 
-		instances             : 'max',
-		exec_mode             : 'cluster',
+		// instances             : 'max',
+		// exec_mode             : 'cluster',
 	}],
 };
