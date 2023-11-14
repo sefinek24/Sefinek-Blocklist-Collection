@@ -1,14 +1,15 @@
 const express = require('express');
 const router = express.Router();
-const showdown = require('showdown');
 const autoIndex = require('express-autoindex');
 const path = require('node:path');
 const fs = require('node:fs');
 const { version } = require('../../package.json');
 
 const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'lists.html'), dirAtTop: true };
-const conv = new showdown.Converter();
-conv.setFlavor('github');
+
+// Markdown
+const Marked = require('marked');
+Marked.use({ pedantic: false, gfm: true });
 
 
 router.get('/markdown', (req, res) => res.render('markdown.ejs', { version }));
@@ -25,7 +26,7 @@ router.use('/viewer/:type', async (req, res) => {
 	if (stat.isDirectory()) return res.sendStatus(404);
 
 	const mdFile = await fs.promises.readFile(fullPath, 'utf8');
-	const html = conv.makeHtml(mdFile);
+	const html = Marked.parse(mdFile);
 
 	res.render('markdown-viewer.ejs', { version, html, file });
 });
