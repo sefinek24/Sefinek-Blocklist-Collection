@@ -65,7 +65,7 @@ app.listen(process.env.PORT, () => {
 		try {
 			process.send('ready');
 		} catch (err) {
-			console.error(err.stack);
+			// . . .
 		}
 	} else {
 		console.log(`Website https://blocklist.sefinek.net is running on http://127.0.0.1:${process.env.PORT}`);

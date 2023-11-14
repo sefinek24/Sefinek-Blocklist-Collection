@@ -1,11 +1,10 @@
 require('dotenv').config();
+
 const cluster = require('node:cluster');
-const os = require('node:os');
+const { availableParallelism } = require('node:os');
 const path = require('node:path');
-const fs = require('fs');
 
-
-const totalCPUs = os.cpus().length;
+const createDir = require('./scripts/functions/createDir.js');
 const logsPath = path.join(__dirname, 'www', 'public', 'logs');
 
 if (!process.env.NODE_ENV || !process.env.DOMAIN || !process.env.PORT) {
@@ -22,31 +21,21 @@ if (!process.env.SEFINEK_API) {
 
 
 if (process.env.NODE_ENV === 'development') {
-	createDir();
+	createDir(logsPath);
 	require('./www/server.js');
 } else if (cluster.isMaster) {
-	createDir();
+	createDir(logsPath);
 	console.log(`Primary ${process.pid} is running: ${process.env.DOMAIN}:${process.env.PORT}`);
 
-	for (let i = 0; i < totalCPUs; i++) {
+	const numberCPUs = availableParallelism();
+	for (let i = 0; i < numberCPUs; i++) {
 		cluster.fork();
 	}
 
-	cluster.on('exit', worker => {
-		console.warn(`Worker ${worker.process.pid} died`);
+	cluster.on('exit', (worker, code, signal) => {
+		console.log(`Worker ${worker.process.pid} died with code ${code} from signal ${signal}.`);
 	});
 } else {
 	require('./www/server.js');
 	console.log(`Worker ${process.pid} started`);
-}
-
-
-function createDir() {
-	fs.mkdir(logsPath, { recursive: true }, err => {
-		if (!err || (err && err.code === 'EEXIST')) {
-			console.log(`Folder '${logsPath}' created or already exists.`);
-		} else {
-			console.error('Unable to create folder:', err);
-		}
-	});
 }
