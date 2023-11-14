@@ -1,0 +1,850 @@
+#
+#    File: Top_Level
+#    Info: Top Level Domains: Will block most non-traditional domains
+# Domains: 776
+# Updated: 10/25/2023  09:17 (9:17 AM CST)
+# Creator: ShadowWhisperer (Sean H.)
+#
+#    Curl: curl -s https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Top_Level
+#     Git: git clone https://github.com/ShadowWhisperer/BlockLists.git
+#    Wget: wget https://codeload.github.com/ShadowWhisperer/BlockLists/zip/master
+#
+
+
+# Not Blocked
+####################
+#
+#  .com
+#  .co.uk
+#  .edu
+#  .gov
+#  .net
+#  .org
+#
+#  .mil
+#
+#  .cloud
+#  .deals
+#  .email
+#  .guide
+#  .media
+#  .page
+#  .software
+#  .supply
+#  .tech
+#  .video
+#  .wiki
+#
+#  .be      Belgium
+#  .ca      Canada
+#  .ch      Switzerland
+#  .berlin  Germany
+#  .de      Germany
+#  .es      Spain
+#  .fm      Federated States of Micronesia
+#  .fr      France
+#  .ie      Ireland
+#  .it      Italy
+#  .se      Sweden
+#  .uk      UK
+#  .eu      European Union
+#
+
+
+server=/.abb/
+server=/.abbott/
+server=/.academy/
+server=/.accountant/
+server=/.accountants/
+server=/.aco/
+server=/.actor/
+server=/.adac/
+server=/.ads/
+server=/.aero/
+server=/.agency/
+server=/.ai/
+server=/.ai.net/
+server=/.airforce/
+server=/.apartments/
+server=/.app/
+server=/.arab/
+server=/.archi/
+server=/.army/
+server=/.arpa/
+server=/.art/
+server=/.associates/
+server=/.attorney/
+server=/.auction/
+server=/.audi/
+server=/.audio/
+server=/.auto/
+server=/.autos/
+server=/.aws/
+server=/.baby/
+server=/.band/
+server=/.bar/
+server=/.bargains/
+server=/.baseball/
+server=/.basketball/
+server=/.bayern/
+server=/.beer/
+server=/.best/
+server=/.bible/
+server=/.bid/
+server=/.bike/
+server=/.bingo/
+server=/.bio/
+server=/.biz/
+server=/.black/
+server=/.blackfriday/
+server=/.blue/
+server=/.boats/
+server=/.bond/
+server=/.book/
+server=/.booking/
+server=/.boston/
+server=/.bot/
+server=/.boutique/
+server=/.box/
+server=/.broadway/
+server=/.brown/
+server=/.build/
+server=/.builders/
+server=/.business/
+server=/.buy/
+server=/.buzz/
+server=/.cab/
+server=/.cafe/
+server=/.cam/
+server=/.camera/
+server=/.camp/
+server=/.capital/
+server=/.car/
+server=/.cards/
+server=/.care/
+server=/.careers/
+server=/.cars/
+server=/.casa/
+server=/.cash/
+server=/.casino/
+server=/.cat/
+server=/.catering/
+server=/.catholic/
+server=/.center/
+server=/.ceo/
+server=/.chanel/
+server=/.channel/
+server=/.charity/
+server=/.chat/
+server=/.cheap/
+server=/.christmas/
+server=/.church/
+server=/.city/
+server=/.claims/
+server=/.cleaning/
+server=/.click/
+server=/.clinic/
+server=/.clothing/
+server=/.club/
+server=/.coach/
+server=/.codes/
+server=/.coffee/
+server=/.college/
+server=/.community/
+server=/.company/
+server=/.compare/
+server=/.computer/
+server=/.condos/
+server=/.construction/
+server=/.consulting/
+server=/.contact/
+server=/.contractors/
+server=/.cooking/
+server=/.cool/
+server=/.coop/
+server=/.country/
+server=/.coupon/
+server=/.coupons/
+server=/.courses/
+server=/.credit/
+server=/.creditcard/
+server=/.cricket/
+server=/.crown/
+server=/.cruises/
+server=/.cyou/
+server=/.dad/
+server=/.dance/
+server=/.deal/
+server=/.dealer/
+server=/.degree/
+server=/.delivery/
+server=/.democrat/
+server=/.dental/
+server=/.dentist/
+server=/.desi/
+server=/.design/
+server=/.dev/
+server=/.diamonds/
+server=/.diet/
+server=/.digital/
+server=/.direct/
+server=/.directory/
+server=/.disabled/
+server=/.discount/
+server=/.docs/
+server=/.doctor/
+server=/.dog/
+server=/.dom/
+server=/.domains/
+server=/.download/
+server=/.duck/
+server=/.earth/
+server=/.eat/
+server=/.eco/
+server=/.education/
+server=/.energy/
+server=/.engineer/
+server=/.engineering/
+server=/.enterprises/
+server=/.equipment/
+server=/.estate/
+server=/.events/
+server=/.exchange/
+server=/.expert/
+server=/.exposed/
+server=/.express/
+server=/.fail/
+server=/.faith/
+server=/.family/
+server=/.fan/
+server=/.fans/
+server=/.farm/
+server=/.fashion/
+server=/.fast/
+server=/.film/
+server=/.final/
+server=/.finance/
+server=/.financial/
+server=/.fish/
+server=/.fishing/
+server=/.fit/
+server=/.fitness/
+server=/.flights/
+server=/.florist/
+server=/.flowers/
+server=/.fly/
+server=/.food/
+server=/.football/
+server=/.forsale/
+server=/.foundation/
+server=/.fun/
+server=/.fund/
+server=/.furniture/
+server=/.futbol/
+server=/.fyi/
+server=/.gallery/
+server=/.game/
+server=/.games/
+server=/.garden/
+server=/.gay/
+server=/.gdn/
+server=/.gift/
+server=/.gifts/
+server=/.gives/
+server=/.glass/
+server=/.global/
+server=/.gmbh/
+server=/.gold/
+server=/.golf/
+server=/.graphics/
+server=/.gratis/
+server=/.green/
+server=/.gripe/
+server=/.grocery/
+server=/.group/
+server=/.guardian/
+server=/.guitars/
+server=/.guru/
+server=/.haus/
+server=/.health/
+server=/.healthcare/
+server=/.help/
+server=/.here/
+server=/.hiphop/
+server=/.hiv/
+server=/.hockey/
+server=/.holdings/
+server=/.holiday/
+server=/.home/
+server=/.homes/
+server=/.horse/
+server=/.hospital/
+server=/.host/
+server=/.hosting/
+server=/.hot/
+server=/.house/
+server=/.how/
+server=/.html/
+server=/.icu/
+server=/.immo/
+server=/.immobilien/
+server=/.imrworld/
+server=/.industries/
+server=/.info/
+server=/.ink/
+server=/.institute/
+server=/.insure/
+server=/.international/
+server=/.invalid/
+server=/.investments/
+server=/.irish/
+server=/.jetzt/
+server=/.jewelry/
+server=/.jobs/
+server=/.juegos/
+server=/.kaufen/
+server=/.kim/
+server=/.kitchen/
+server=/.kiwi/
+server=/.kred/
+server=/.land/
+server=/.lat/
+server=/.law/
+server=/.lawyer/
+server=/.lease/
+server=/.legal/
+server=/.lgbt/
+server=/.life/
+server=/.lifestyle/
+server=/.lighting/
+server=/.like/
+server=/.limited/
+server=/.limo/
+server=/.link/
+server=/.live/
+server=/.llc/
+server=/.loan/
+server=/.loans/
+server=/.local/
+server=/.lol/
+server=/.london/
+server=/.love/
+server=/.ltd/
+server=/.ltda/
+server=/.luxe/
+server=/.luxury/
+server=/.maison/
+server=/.makeup/
+server=/.man/
+server=/.management/
+server=/.map/
+server=/.market/
+server=/.marketing/
+server=/.markets/
+server=/.mba/
+server=/.meet/
+server=/.melbourne/
+server=/.meme/
+server=/.memorial/
+server=/.men/
+server=/.menu/
+server=/.miami/
+server=/.mlb/
+server=/.mobi/
+server=/.moda/
+server=/.moe/
+server=/.mom/
+server=/.money/
+server=/.mortgage/
+server=/.motorcycles/
+server=/.movie/
+server=/.nagoya/
+server=/.name/
+server=/.navy/
+server=/.nba/
+server=/.network/
+server=/.new/
+server=/.news/
+server=/.nfl/
+server=/.ninja/
+server=/.now/
+server=/.observer/
+server=/.office/
+server=/.okinawa/
+server=/.one/
+server=/.onl/
+server=/.online/
+server=/.ooo/
+server=/.open/
+server=/.orange/
+server=/.organic/
+server=/.ovh/
+server=/.partners/
+server=/.parts/
+server=/.party/
+server=/.pay/
+server=/.pet/
+server=/.pharmacy/
+server=/.phone/
+server=/.photo/
+server=/.photography/
+server=/.photos/
+server=/.php/
+server=/.pics/
+server=/.pictures/
+server=/.ping/
+server=/.pink/
+server=/.pizza/
+server=/.place/
+server=/.play/
+server=/.plumbing/
+server=/.plus/
+server=/.press/
+server=/.pro/
+server=/.productions/
+server=/.promo/
+server=/.properties/
+server=/.property/
+server=/.protection/
+server=/.pub/
+server=/.qpon/
+server=/.racing/
+server=/.raid/
+server=/.read/
+server=/.realestate/
+server=/.realtor/
+server=/.realty/
+server=/.recipes/
+server=/.red/
+server=/.rehab/
+server=/.reise/
+server=/.reisen/
+server=/.ren/
+server=/.rent/
+server=/.rentals/
+server=/.repair/
+server=/.report/
+server=/.republican/
+server=/.rest/
+server=/.restaurant/
+server=/.review/
+server=/.reviews/
+server=/.rich/
+server=/.rip/
+server=/.rocks/
+server=/.rodeo/
+server=/.room/
+server=/.rsvp/
+server=/.run/
+server=/.ryukyu/
+server=/.safety/
+server=/.sale/
+server=/.salon/
+server=/.sarl/
+server=/.school/
+server=/.schule/
+server=/.science/
+server=/.search/
+server=/.secure/
+server=/.security/
+server=/.services/
+server=/.shoes/
+server=/.shop/
+server=/.shopping/
+server=/.show/
+server=/.silk/
+server=/.singles/
+server=/.site/
+server=/.size/
+server=/.ski/
+server=/.skin/
+server=/.sky/
+server=/.smart/
+server=/.smile/
+server=/.sncf/
+server=/.soccer/
+server=/.social/
+server=/.software/
+server=/.solar/
+server=/.solutions/
+server=/.soy/
+server=/.space/
+server=/.sport/
+server=/.spreadbetting/
+server=/.srl/
+server=/.star/
+server=/.storage/
+server=/.store/
+server=/.stream/
+server=/.studio/
+server=/.study/
+server=/.style/
+server=/.sucks/
+server=/.supplies/
+server=/.supply/
+server=/.support/
+server=/.surf/
+server=/.surgery/
+server=/.systems/
+server=/.tab/
+server=/.talk/
+server=/.tattoo/
+server=/.tax/
+server=/.taxi/
+server=/.team/
+server=/.technology/
+server=/.tel/
+server=/.tennis/
+server=/.theater/
+server=/.theatre/
+server=/.tickets/
+server=/.tienda/
+server=/.tiffany/
+server=/.tips/
+server=/.tires/
+server=/.tld/
+server=/.today/
+server=/.tools/
+server=/.top/
+server=/.total/
+server=/.tours/
+server=/.town/
+server=/.toys/
+server=/.trade/
+server=/.trading/
+server=/.training/
+server=/.travel/
+server=/.travelers/
+server=/.trust/
+server=/.tube/
+server=/.tunes/
+server=/.university/
+server=/.uno/
+server=/.vacations/
+server=/.vegas/
+server=/.ventures/
+server=/.vet/
+server=/.viajes/
+server=/.video/
+server=/.viking/
+server=/.villas/
+server=/.vin/
+server=/.vip/
+server=/.vision/
+server=/.vodka/
+server=/.vote/
+server=/.voting/
+server=/.voto/
+server=/.voyage/
+server=/.wang/
+server=/.watch/
+server=/.webcam/
+server=/.website/
+server=/.wedding/
+server=/.wiki/
+server=/.win/
+server=/.wine/
+server=/.winners/
+server=/.work/
+server=/.works/
+server=/.world/
+server=/.wow/
+server=/.wtf/
+server=/.xin/
+server=/.xyz/
+server=/.yachts/
+server=/.yoga/
+server=/.yokohama/
+server=/.you/
+server=/.zip/
+server=/.zone/
+
+
+.bin           Invalid
+.cmd           Invalid
+.exe           Invalid
+.js            Invalid
+
+.eh            Unassigned
+.fw            Unassigned
+
+.mf            Not Used - Saint Martin (North America)
+
+.aaa           AAA Insurance
+.aeg           Electrolux - Home Appliances
+.aetna         Aetna Inc. - Health Care Company
+.aarp          American Association of Retired Persons
+.abarth        Abarth - Car Company
+.able          Able Inc. - Non-profit for disabled peole
+.afl           Australian Football League
+
+.alsace        lsatia - Cultural region in eastern France
+.bzh           Brittany / Breton Culture & Languages
+
+.tf            Multiple - French Southern & Antarctic Lands
+.bv            No Continent - Bouvet Island
+
+.africa        Africa
+.cf            Africa - African Republic
+.dz            Africa - Algeria
+.ao            Africa - Angola
+.bj            Africa - Benin
+.bw            Africa - Botswana
+.bf            Africa - Burkina Faso
+.bi            Africa - Burundi
+.cv            Africa - Cape Verde
+.td            Africa - Chad
+.cm            Africa - Cameroon
+.km            Africa - Comoros
+.cd            Africa - Congo
+.cg            Africa - Congo
+.ci            Africa - Côte d'Ivoire
+.dj            Africa - Djibouti
+.gq            Africa - Equatorial Guinea
+.er            Africa - Eritrea
+.sz            Africa - Eswatini
+.et            Africa - Ethiopia
+.ga            Africa - Gabon
+.gm            Africa - The Gambia
+.gn            Africa - Guinea
+.gw            Africa - Guinea-Bissau
+.ke            Africa - Kenya
+.ls            Africa - Lesotho
+.lr            Africa - Liberia
+.ly            Africa - Libya
+.mg            Africa - Madagascar
+.mw            Africa - Malawi
+.ml            Africa - Mali
+.yt            Africa - Mayotte (Owned by the French)
+.mr            Africa - Mauritania
+.mu            Africa - Mauritius
+.ma            Africa - Morocco
+.na            Africa - Namibia
+.ne            Africa - Niger
+.re            Africa - Réunion
+.rw            Africa - Rwanda
+.ac            Africa - Saint Helena
+.sh            Africa - Saint Helena
+.so            Africa - Somalia
+.st            Africa - São Tomé & Príncipe
+.sn            Africa - Senegal
+.sc            Africa - Seychelles
+.sl            Africa - Sierra Leone
+.za            Africa - South Africa
+.ss            Africa - South Sudan
+.sd            Africa - Sudan
+.tz            Africa - Tanzania
+.tg            Africa - Togo
+.tn            Africa - Tunisia
+.ug            Africa - Uganda
+.zm            Africa - Zambia
+.zw            Africa - Zimbabwe
+
+.eg            Africa / Asia   - Egypt
+
+.madrid        Africa / Europe - Madrid, Spain
+
+.aq            Antarctica
+.gs            Antarctica - South Georgia / South Sandwich Islands
+
+.asia          Asia
+.af            Asia - Afghanistan
+.am            Asia - Armenia
+.az            Asia - Azerbaijan
+.bh            Asia - Bahrain
+.bd            Asia - Bangladesh
+.io            Asia - British Indian Ocean Territory
+.bn            Asia - Brunei
+.kh            Asia - Cambodia
+.cn            Asia - China
+.hk            Asia - Hong Kong
+.in            Asia - India
+.iq            Asia - Iraq
+.ir            Asia - Iran
+.il            Asia - Israel
+.jp            Asia - Japan
+.tokyo         Asia - Japan
+.jo            Asia - Jordan
+.bt            Asia - Kingdom of Bhutan
+.la            Asia - Laos
+.lb            Asia - Lebanon
+.mo            Asia - Macao
+.my            Asia - Malaysia
+.mn            Asia - Mongolia
+.mm            Asia - Myanmar
+.np            Asia - Nepal
+.ng            Asia - Nigeria
+.om            Asia - Oman
+.kg            Asia - Kyrgyzstan
+.kz            Asia - Kazakhstan
+.қаз           Asia - Kazakhstan
+.kw            Asia - Kuwait
+.mz            Asia - Mozambique
+.kp            Asia - North Korea
+.pk            Asia - Pakistan
+.ph            Asia - Philippines
+.qa            Asia - Qatar
+.mv            Asia - Republic of Maldives
+.sg            Asia - Singapore
+.sa            Asia - Saudi Arabia
+.kr            Asia - South Korea
+.lk            Asia - Sri Lanka
+.ps            Asia - State of Palestine
+.sy            Asia - Syria
+.tj            Asia - Tajikistan
+.tw            Asia - Taiwan
+.th            Asia - Thailand
+.tm            Asia - Turkmenistan
+.ae            Asia - United Arab Emirates
+.uz            Asia - Uzbekistan
+.vn            Asia - Vietnam
+.ye            Asia - Yemen
+
+.ge            Asia / Europe - Georgia
+.moscow        Asia / Europe - Russia
+.ru            Asia / Europe - Russia
+.ru.com        Asia / Europe - Russia
+.xn--p1acf     Asia / Europe - Russia
+.рф            Asia / Europe - Russia
+.xn--p1ai      Asia / Europe - Russian Federation
+.su            Asia / Europe - Russian Soviet Union
+.tc            Asia / Europe - Turks & Caicos Islands
+.istanbul      Asia / Europe - Turkey
+.tr            Asia / Europe - Turkey
+
+.tl            Asia / Oceania - East Timor
+.id            Asia / Oceania - Indonesia
+
+.au            Australia - Australia
+.cx            Australia - Christmas Island
+.cc            Australia - Cocos (Keeling) Islands
+.hm            Australia - Heard Island and McDonald Islands
+
+.bz            Central America - Belize
+.cr            Central America - Costa Rica
+
+.al            Europe - Albania
+.ax            Europe - Åland Islands
+.ad            Europe - Andorra
+.at            Europe - Austria
+.gg            Europe - Bailiwick of Guernsey
+.ba            Europe - Bosnia & Herzegovina
+.bg            Europe - Bulgaria
+.by            Europe - Belarus
+.hr            Europe - Croatia
+.cy            Europe - Cyprus
+.cz            Europe - Czech Republic
+.dk            Europe - Denmark
+.ee            Europe - Estonia
+.fo            Europe - Faroe Islands
+.fi            Europe - Finland
+.hamburg       Europe - Germany
+.gi            Europe - Gibraltar
+.gr            Europe - Greece
+.hu            Europe - Hungary
+.is            Europe - Iceland
+.im            Europe - Isle of Man
+.je            Europe - Jersey
+.lv            Europe - Latvia
+.li            Europe - Liechtenstein
+.lt            Europe - Lithuania
+.lu            Europe - Luxembourg
+.mt            Europe - Malta
+.md            Europe - Moldova
+.mc            Europe - Monaco
+.me            Europe - Montenegro
+.nl            Europe - Netherlands
+.amsterdam     Europe - Netherlands (Amsterdam)
+.frl           Europe - Netherlands (Friesland)
+.mk            Europe - North Macedonia
+.no            Europe - Norway
+.pl            Europe - Poland
+.pt            Europe - Portugal
+.ro            Europe - Romania
+.sm            Europe - San Marino
+.rs            Europe - Serbia
+.sj            Europe - Svalbard & Jan Mayen
+.si            Eurpoe - Slovenia
+.sk            Europe - Slovakia
+.gb            Europe - United Kingdom
+.ua            Europe - Ukraine
+.xn--j1amh     Europe - Ukraine
+.va            Europe - Vatican City
+.wf            Europe - Wallis and Futuna Islands (French Island)
+
+.ag            North America - Antigua & Barbuda
+.bs            North America - Bahamas
+.bb            North America - Barbados
+.bm            North America - Bermuda
+.vg            North America - British Virgin Islands
+.ky            North America - Cayman Islands
+.cu            North America - Cuba
+.dm            North America - Dominica
+.do            North America - Dominican Republic
+.sv            North America - El Salvador
+.gp            North America - Guadeloupe
+.gl            North America - Greenland
+.gd            North America - Grenada
+.ht            North America - Haiti
+.hn            North America - Honduras
+.jm            North America - Jamaica
+.mq            North America - Martinique
+.mx            North America - Mexico
+.ms            North America - Montserrat
+.ni            North America - Nicaragua
+.pa            North America - Panama
+.pr            North America - Puerto Rico
+.bl            North America - Saint Barthélemy
+.kn            North America - Saint Kitts & Nevis
+.lc            North America - Saint Lucia
+.pm            North America - Saint Pierre & Miquelon
+.vc            North America - Saint Vincent & The Grenadines
+.sx            North America - Sint Maarten
+.us            North America - USA
+.um            North America - US Minor Outlying Islands
+.vi            North America - Virgin Islands
+
+.aw            North & South America - Aruba
+.cw            North & South America - Curaçao
+
+.ar            South America - Argentina
+.bo            South America - Bolivia
+.br            South America - Brazil
+.bq            South America - Caribbean Netherlands
+.cl            South America - Chile
+.co            South America - Colombia
+.ec            South America - Ecuador
+.fk            South America - Falkland Islands
+.gf            South America - French Guiana
+.gh            South America - Ghana
+.gt            South America - Guatemala
+.gy            South America - Guyana
+.pe            South America - Peru
+.py            South America - Paraguay
+.sr            South America - Suriname
+.tt            South America - Trinidad and Tobago
+.uy            South America - Uruguay
+.ve            South America - Venezuela
+
+.as            Oceania - American Samoa
+.ck            Oceania - Cook Islands
+.gu            Oceania - Guam
+.ki            Oceania - Kiribati
+.mh            Oceania - Marshall Islands
+.nr            Oceania - Nauru
+.nc            Oceania - New Caledonia
+.nz            Oceania - New Zealand
+.nf            Oceania - Norfolk Island
+.mp            Oceania - Northern Mariana Islands
+.nu            Oceania - Niue
+.pw            Oceania - Palau
+.pg            Oceania - Papua New Guinea
+.pn            Oceania - Pitcairn Islands
+.pf            Oceania - Polynesia
+.ws            Oceania - Samoa
+.sb            Oceania - Solomon Islands
+.to            Oceania - Tonga
+.tk            Oceania - Tokelau
+.tv            Oceania - Tuvalu
+.fj            Oceania - University of the South Pacific
+.vu            Oceania - Vanuat
