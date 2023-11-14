@@ -69,7 +69,7 @@ async function proceedWithProcedure() {
 				fileContents
 					.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${existingDomains.size}`)
 					.replace('# Count       : N/A', `# Count       : ${existingDomains.size}`)
-					.replace('! Count       : N/A', `# Count       : ${existingDomains.size}`),
+					.replace('! Count       : N/A', `! Count       : ${existingDomains.size}`),
 				'utf8',
 			);
 		} catch (err) {
