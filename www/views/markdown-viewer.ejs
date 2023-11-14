@@ -1,33 +1,20 @@
 <%- include('./includes/header.ejs', {
     title: 'View markdown files - Sefinek Blocklists',
     meta: {
-        description: `View file ${file} in your browser.`,
+        desc: `View file ${file} in your browser.`,
         siteName: 'Made by Sefinek♥',
         color: '#000003'
     },
     canonical: '',
     header: `Markdown ${file}`,
-    subpage: 'explorer',
+    subpage: 'markdown',
     libs: null,
     style: 'viewer'
 }) %>
 
-<div class="navbar">
-    <ul>
-        <li><a href="/">🏠 Home page</a></li>
-        <li><a href="/generated">📝 Blocklists</a></li>
-        <li><a href="/update-frequency">🎯 Update frequency</a></li>
-        <li><a href="/markdown" id="selected">📚 Markdown files</a></li>
-        <li><a href="/api">💻‍ API for devs</a></li>
-        <li><a href="/logs">📘 Git pull logs</a></li>
-    </ul>
-
-    <button class="menu-toggle">☰</button>
-</div>
-
 <div class="cover">
     <div class="cover-text">
-        <h1>{{title}}</h1>
+<!--        <h1>{{title}}</h1>-->
     </div>
 </div>
 

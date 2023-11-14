@@ -29,7 +29,6 @@ a:hover {
     color: #00a8fc;
     text-shadow: 0 0 8px #84fafc;
     text-decoration: underline;
-
 }
 
 a:active {
@@ -37,6 +36,14 @@ a:active {
     text-shadow: 0 0 12px #84fafc99;
     text-decoration: none;
 }
+
+/* Fonts */
+@font-face {
+    font-family: "Cascadia Mono";
+    src: url("/fonts/CascadiaCode-2111.01/woff2/CascadiaMono.woff2") format("woff"),
+    url("/fonts/CascadiaCode-2111.01/static/CascadiaMono-Regular.otf") format("opentype");
+}
+
 
 /* Cover section styling */
 .cover {
@@ -100,32 +107,33 @@ button {
     background: linear-gradient(90deg, rgba(0, 10, 24, 0.5), rgba(0, 10, 24, 0.6));
     color: #fff;
     border: none;
-    border-radius: 25px;
+    border-radius: 17px!important;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 0 4px rgba(0, 10, 24, 0.66);
     backdrop-filter: blur(2px);
+    margin: 6px
 }
 
 button:hover {
-    background: linear-gradient(90deg, rgba(0, 10, 24, 0.6), rgba(0, 10, 24, 0.8));
+    background: linear-gradient(90deg, rgba(0, 10, 24, 0.45), rgba(0, 10, 24, 0.7))!important;
     transform: scale(1.05);
-    box-shadow: 0 0 7px rgba(0, 10, 24, 0.66);
-    backdrop-filter: blur(10px);
+    box-shadow: 0 0 7px rgba(0, 10, 24, 0.66)!important;
+    backdrop-filter: blur(6px);
+    border-radius: 10px!important;
 }
 
 button:active {
-    background: linear-gradient(90deg, rgba(0, 10, 24, 0.2), rgba(0, 10, 24, 0.3));
-    transform: scale(0.95);
+    background: rgba(0, 10, 24, 0.2);
+    transform: scale(0.98);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(2px);
 }
 
 
 /* Navigation menu styling */
 .navbar {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.34);
     position: absolute;
     top: 0;
     left: 50%;
@@ -133,7 +141,7 @@ button:active {
     width: 90%;
     z-index: 1;
     border-radius: 0 0 12px 12px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(7px);
 }
 
 .navbar ul {
@@ -152,7 +160,9 @@ button:active {
     color: #fff;
     font-size: 1.2rem;
     padding: 10px 20px;
+    text-shadow: none;
     border-radius: 20px;
+    transition: .1s;
 }
 
 .navbar a:hover {
@@ -226,6 +236,17 @@ button:active {
         padding: 10px 17px;
         border-radius: 18px;
     }
+
+    #cover-header {
+        font-size: 30px;
+    }
+
+    .card-img {
+        flex: 0!important;
+    }
+
+    #category-big {font-size: 25px!important}
+    #category-small {font-size: 22px!important}
 }
 
 
@@ -256,8 +277,6 @@ button:active {
     box-shadow: 0 0 10px rgba(30, 31, 34, 0.86);
     margin: 0 auto 40px;
 }
-
-
 
 .container-text {
     font-size: 17px;
@@ -295,14 +314,12 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     flex: 1;
 }
 
 .card-img img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    max-width: 100%!important;
+    height: auto
 }
 
 

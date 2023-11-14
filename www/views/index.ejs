@@ -1,8 +1,8 @@
 <%- include('./includes/header.ejs', {
     title: 'Sefinek Blocklist - The best lists for your AdBlocker',
     meta: {
-        description: 'The best collection of blocklists for Pi-hole and AdGuard with +100 links and +6 million domains on Adlists.',
-        keywords: 'blocklist, pihole, adguard, ublock origin, links, urls, blacklist, polskie, listy, blokowan, polskie listy pihole, adlisty pihole, generator pihole, pihole blocklist generator, generator listy blokowan',
+        desc: 'The best collection of blocklists for Pi-hole and AdGuard with +100 links and +6 million domains on Adlists.',
+        tags: 'blocklist, pihole, adguard, ublock origin, links, urls, blacklist, polskie, listy, blokowan, polskie listy pihole, adlisty pihole, generator pihole, pihole blocklist generator, generator listy blokowan',
         siteName: 'Made by Sefinek♥',
         color: '#000103'
     },
@@ -21,8 +21,12 @@
             Your first and last reliable list, with zero false positives.
             Make your internet safer right now! Browse without interruptions and safeguard your privacy. Happy day!
         </div>
-        <a href="https://sefinek.net/blocklist-generator"><button>Open blocklist generator</button></a>
-        <a href="#more-info"><button>Read more information</button></a>
+
+        <div id="buttons">
+            <a href="https://sefinek.net/blocklist-generator"><button>Open blocklist generator</button></a>
+            <a href="#more-info"><button>Read more information</button></a>
+        </div>
+
         
         <div id="gh-icon">
             <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection"><img src="/images/flaticon/github.png" alt="GitHub logo"></a>
@@ -235,23 +239,9 @@
 
 
 <script>
-    const menuToggle = document.querySelector('.menu-toggle');
-    const navbar = document.querySelector('.navbar');
-
-    menuToggle.addEventListener('click', () => {
-        navbar.classList.toggle('active');
-    });
-
-    if (window.innerWidth < 768) {
-        menuToggle.style.display = 'block';
-    } else {
-        menuToggle.style.display = 'none';
-    }
-
     const NODE_ENV = `<%= process.env.NODE_ENV %>`;
     const WS_PORT = `<%= process.env.WS_PORT %>`;
 </script>
-
 
 <script src="/js/websocket.js"></script>
 

@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <% if (title) { %><title><%= title %></title><% } %>
-    <% if (meta.description) { %><meta name="description" content="<%= meta.description %>"><% } %>
-    <% if (meta.keywords) { %><meta name="keywords" content="<%= meta.keywords %>"><% } %>
+    <% if (meta.desc) { %><meta name="description" content="<%= meta.desc %>"><% } %>
+    <% if (meta.tags) { %><meta name="keywords" content="<%= meta.tags %>"><% } %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <% if (process.env.NODE_ENV === 'production') { %>
@@ -25,9 +25,9 @@
     <div class="navbar">
         <ul>
             <li><a href="/" <%- subpage === 'home' ? 'id="selected"' : '' %>>🏠 Home page</a></li>
-            <li><a href="/markdown" <%- subpage === 'markdown' ? 'id="selected"' : '' %>>📝 Blocklists</a></li>
-            <li><a href="/generated">📁 File explorer</a></li>
-            <li><a href="/update-frequency" <%- subpage === 'update-freqency' ? 'id="selected"' : '' %>>⏳ Update frequency</a></li>
+            <li><a href="/generated" <%- subpage === 'blocklist' ? 'id="selected"' : '' %>>📝 Blocklists</a></li>
+            <li><a href="/markdown" <%- subpage === 'markdown' ? 'id="selected"' : '' %>>📁 File explorer</a></li>
+            <li><a href="/update-frequency" <%- subpage === 'update-frequency' ? 'id="selected"' : '' %>>⏳ Update frequency</a></li>
             <li><a href="/api" <%- subpage === 'api' ? 'id="selected"' : '' %>>💻‍ API for devs</a></li>
             <li><a href="/logs">📘 Git pull logs</a></li>
         </ul>

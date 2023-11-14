@@ -5,7 +5,7 @@ const path = require('node:path');
 const fs = require('node:fs');
 const { version } = require('../../package.json');
 
-const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'lists.html'), dirAtTop: true };
+const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'markdown.html'), dirAtTop: true };
 
 // Markdown
 const Marked = require('marked');
