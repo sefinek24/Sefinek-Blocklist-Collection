@@ -1,99 +1,10 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="utf-8">
-    <title>Error 404: File not found</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<%- include('includes/header.ejs', { title: 'Error 404: File not found' }) %>
 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
-    <style>
-        @media screen and (max-width: 500px) {
-            h1 { font-size: 23px; }
-            p { font-size: 12px; margin-left: 8px; margin-right: 8px; }
-        }
-        @media screen and (max-width: 400px) { p { font-size: 12px; } }
-        @media screen and (max-width: 375px) { h1 { font-size: 22px; } p { font-size: 12px; } }
-        @media screen and (max-width: 350px) {
-            h1 { font-size: 19px; margin-left: 5px; margin-right: 5px; }
-            p { font-size: 10px; }
-        }
-        body {
-            color: #fff;
-            font-family: "Noto Sans Mono", monospace;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        a { text-decoration: none; color: deepskyblue; }
-        a:hover { color: dodgerblue; }
-        a:active { text-decoration: underline; }
-        video, audio {
-            min-height: 100%;
-            min-width: 100%;
-            position: fixed;
-            left: 0;
-            top: 0;
-        }
-        video { z-index: -1; }
-        #content {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 35%;
-            text-shadow: 0 0 7px #000;
-        }
-        h1 { padding-bottom: 12px; padding-top: 32px; }
-        #footer {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            margin-bottom: 4px;
-            margin-right: 8px;
-        }
-    </style>
-</head>
-<body>
-    <div id="content">
-        <h1>Error 404: File not found</h1>
-        <p>The requested resource could not be found on the server. Go to <a href="/">Home page</a>.</p>
+<div id="content">
+    <h1 id="content-header">Error 404: File not found</h1>
+    <div id="content-text">The requested resource could not be found on the server. Go to <a href="/">Home page</a>.</div>
 
-        <a href="#" id="play-music-button" style="display: none;">🎶 Play music</a>
-    </div>
+    <a href="#music" id="play-button" type="button">>.<</a>
+</div>
 
-    <div id="footer">
-        🎵 <a href="https://www.youtube.com/watch?v=uX88O9OQB2A" target="_blank">Radiohead - Videotape 800% Slower</a> | 💙 <a href="https://videezy.com" target="_blank">Free Stock Videos by Videezy.com</a>
-    </div>
-
-
-    <!-- Video and audio -->
-    <video autoplay muted loop>
-        <source src="/video/technology-min.mp4" type="video/mp4">
-        Your browser does not support the video element.
-    </video>
-
-    <audio id="background-music" autoplay>
-        <source src="/sound/404.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
-    </audio>
-
-    <script>
-        function playBackgroundMusic() {
-            const backgroundMusic = document.getElementById('background-music');
-            backgroundMusic.play()
-                .catch(err => {
-                    console.error('Auto-play failed, showing the play button.', err);
-                    const playButton = document.getElementById('play-music-button');
-                    playButton.style.display = 'block';
-                });
-        }
-
-        playBackgroundMusic();
-
-        const playButton = document.getElementById('play-music-button');
-        playButton.addEventListener('click', () => {
-            playButton.style.display = 'none';
-            playBackgroundMusic();
-        });
-    </script>
-</body>
-</html>
+<%- include('includes/footer.ejs') %>

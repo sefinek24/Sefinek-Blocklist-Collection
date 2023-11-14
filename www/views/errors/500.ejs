@@ -1,6 +1,10 @@
-<%- include('includes/header', { title: 'Error 500: Internal Server Error' }) %>
+<%- include('includes/header.ejs', { title: 'Error 500: Internal Server Error' }) %>
 
-<h1>Error 500: Internal server error</h1>
-<p>The server encountered an error. Please try again or report this issue.</p>
+<div id="content">
+    <h1 id="content-header">Error 500: Internal server error</h1>
+    <div id="content-text">The server encountered an error. Please try again or report this issue.</div>
 
-<%- include('includes/footer', { code: 500 }) %>
+    <a href="#music" id="play-button" type="button">>.<</a>
+</div>
+
+<%- include('includes/footer.ejs') %>
