@@ -1,12 +1,11 @@
 <%- include('./includes/header.ejs', {
-    title: 'View markdown files - Sefinek Blocklists',
+    title: `${file} - Sefinek Blocklists`,
     meta: {
-        desc: `View file ${file} in your browser.`,
+        desc: 'View the markdown file in your browser.',
         siteName: 'Made by Sefinek♥',
         color: '#000003'
     },
     canonical: '',
-    header: `Markdown ${file}`,
     subpage: 'markdown',
     libs: null,
     style: 'viewer'
@@ -14,7 +13,7 @@
 
 <div class="cover">
     <div class="cover-text">
-<!--        <h1>{{title}}</h1>-->
+        <h1><%= file %></h1>
     </div>
 </div>
 
