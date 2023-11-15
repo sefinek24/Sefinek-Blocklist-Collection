@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 10 Nov 2023 10:57 UTC+7
-# Version: 2311101057
-# Blocked: 19,946 domains
+# Last modified: 15 Nov 2023 16:27 UTC+7
+# Version: 2311151627
+# Blocked: 19,954 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -208,6 +208,16 @@ server=/googlevads-cn.com/
 #[app-measurement.com]
 server=/app-measurement.com/
 server=/region1.app-measurement.com/
+#[gvt2.com]
+server=/beacons.gcp.gvt2.com/
+server=/beacons.gvt2.com/
+server=/beacons2.gvt2.com/
+server=/beacons3.gvt2.com/
+server=/beacons4.gvt2.com/
+server=/beacons5.gvt2.com/
+#[beacons*.gvt3.com]
+server=/beacons5.gvt3.com/
+server=/beacons6.gvt3.com/
 #[microsoft.com]
 server=/target.microsoft.com/
 #[telemetry.microsoft.com]
