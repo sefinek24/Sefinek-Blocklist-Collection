@@ -46,7 +46,7 @@ If I come across a false alarm while browsing the internet, I usually eliminate 
 
 ## 💸 Support me if you like this
 Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me. Thank you! 😹😻
-> https://sefinek.net/support-me  (Patreon, Ko-fi, GitHub Sponsors, Stripe)
+> https://sefinek.net/support-me  (Patreon, Ko-fi, GitHub Sponsors, Stripe)  
 > https://paypal.me/sefinek (email for PayPal: contact@sefinek.net)
 
 
