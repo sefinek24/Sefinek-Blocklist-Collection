@@ -25,4 +25,4 @@ In summary, Riot Games and their games are fantastic sources of entertainment, b
 With Pi-hole, you can control your online experience and only engage with content that aligns with your values and priorities.
 
 ## 🐈 Thank you for reading
-If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider starring it to show your support!
+> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.

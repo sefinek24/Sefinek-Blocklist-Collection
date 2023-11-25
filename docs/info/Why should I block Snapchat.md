@@ -28,4 +28,4 @@ In conclusion, while Snapchat can be a fun way to stay connected with friends, i
 By taking steps to protect your data and blocking access to Snapchat on your network, you can help ensure a safer and more secure online experience.
 
 ## 🐈 Thank you for reading
-If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider starring it to show your support!
+> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.

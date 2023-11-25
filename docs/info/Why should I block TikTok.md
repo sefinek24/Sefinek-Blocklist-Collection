@@ -27,4 +27,4 @@ In conclusion, while TikTok is an entertaining app, its privacy and security pra
 Blocking TikTok on the home network using tools like Pi-hole can help protect user data and prevent sensitive information from being shared with the app's servers.
 
 ## 🐈 Thank you for reading
-If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider starring it to show your support!
+> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.
