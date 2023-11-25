@@ -12,6 +12,6 @@ Here is a sample URL that contains a list of domains that can be blocked using P
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/r-a-y.AdguardMobileSpyware.txt
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

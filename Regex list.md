@@ -45,7 +45,7 @@
 </div>
 
 <h3 style="display: flex; justify-content: space-between;">
-    <div align="left"><a href="info/What is Regex.md">« Go back - Index.md</a></div>
+    <div align="left"><a href="docs/info/What is Regex.md">« Go back - Index.md</a></div>
     <div align="right"><a href="https://extendsclass.com/regex-tester.html">Online Regex tester and visualizer »</a></div>
     <!-- fuck this shit lol idk how to write this -->
 </h3>

@@ -14,7 +14,7 @@ Image and video leaks are another concern on Omegle, as users can share files du
 This poses a risk of files being saved and distributed without permission, which can lead to embarrassment and reputational damage.
 
 To reduce these risks, it's recommended that users take steps to protect themselves.
-One way to do this is by blocking Omegle on their networks using tools such as [Pi-hole](./What%20is%20Pi-hole.md), a network-level ad blocker.
+One way to do this is by blocking Omegle on their networks using tools such as [Pi-hole](What is Pi-hole.md), a network-level ad blocker.
 This can help prevent access to the website and protect users' privacy and security.
 
 In conclusion, while Omegle can be a fun and entertaining platform, it's important to be aware of the potential risks associated with its use.

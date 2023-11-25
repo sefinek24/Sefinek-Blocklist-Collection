@@ -21,6 +21,6 @@ Here are some sample URLs with a list of domains that you can use to block pirac
 For a complete list of blocklists that you can use with Pi-hole, please refer to the [List.md](../../lists/md/PiHole.md) file in this repository.
 
 ## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../lists/md/Pi-hole.md).
+If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../../lists/md/Pi-hole.md).
 Please consider supporting this repository by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

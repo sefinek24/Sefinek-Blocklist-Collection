@@ -67,27 +67,27 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 
 
 ## ✨ Default blocklist
-- [**Abuse:**](info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
-- [**Advertising:**](info/block/Advertising.md) Blocks domains that serve advertisements to visitors.
-- [**AMP Hosts:**](info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
-- [**Websites & Games:**](info/block/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
-- [**CryptoJacking:**](info/block/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
-- [**Dating Services:**](info/block/Dating%20services.md) Blocks domains of dating websites and apps.
-- [**Drugs:**](info/block/Drugs.md) Blocks domains that sell or promote drugs.
-- [**Fake News:**](info/block/Fake%20news.md) Blocks domains that are known to publish fake or misleading news.
-- [**Gambling:**](info/block/Gambling.md) Blocks domains of online gambling websites.
-- [**Hate & Junk:**](info/block/Hate%20and%20junk.md) Blocks domains promoting hate speech or spreading false information.
-- [**Malicious:**](info/block/Malicious.md) Blocks domains that are considered dangerous or malicious.
-- [**Phishing:**](info/block/Phishing.md) Blocks domains involved in phishing attempts.
-- [**Piracy:**](info/block/Piracy.md) Blocks domains that distribute pirated software or media.
-- [**Porn:**](info/block/Porn.md) Blocks domains of adult websites.
-- [**Ransomware:**](info/block/Ransomware.md) Blocks domains involved in ransomware attacks.
-- [**Redirect:**](info/block/Redirect.md) Blocks domains that redirect users to unintended websites.
-- [**Scam:**](info/block/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.
-- [**Spam mails:**](info/block/Spam%20mails.md) Blocks domains that send unsolicited email.
-- [**Spyware:**](info/block/Spyware.md) Blocks domains that distribute spyware or adware.
-- [**Telemetry & Tracking:**](info/block/Telemetry%20and%20Tracking.md) Blocks domains that track user activity for analytics purposes.
-- [**Useless websites:**](info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
+- [**Abuse:**](docs/info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
+- [**Advertising:**](docs/info/block/Advertising.md) Blocks domains that serve advertisements to visitors.
+- [**AMP Hosts:**](docs/info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
+- [**Websites & Games:**](docs/info/block/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
+- [**CryptoJacking:**](docs/info/block/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
+- [**Dating Services:**](docs/info/block/Dating%20services.md) Blocks domains of dating websites and apps.
+- [**Drugs:**](docs/info/block/Drugs.md) Blocks domains that sell or promote drugs.
+- [**Fake News:**](docs/info/block/Fake%20news.md) Blocks domains that are known to publish fake or misleading news.
+- [**Gambling:**](docs/info/block/Gambling.md) Blocks domains of online gambling websites.
+- [**Hate & Junk:**](docs/info/block/Hate%20and%20junk.md) Blocks domains promoting hate speech or spreading false information.
+- [**Malicious:**](docs/info/block/Malicious.md) Blocks domains that are considered dangerous or malicious.
+- [**Phishing:**](docs/info/block/Phishing.md) Blocks domains involved in phishing attempts.
+- [**Piracy:**](docs/info/block/Piracy.md) Blocks domains that distribute pirated software or media.
+- [**Porn:**](docs/info/block/Porn.md) Blocks domains of adult websites.
+- [**Ransomware:**](docs/info/block/Ransomware.md) Blocks domains involved in ransomware attacks.
+- [**Redirect:**](docs/info/block/Redirect.md) Blocks domains that redirect users to unintended websites.
+- [**Scam:**](docs/info/block/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.
+- [**Spam mails:**](docs/info/block/Spam%20mails.md) Blocks domains that send unsolicited email.
+- [**Spyware:**](docs/info/block/Spyware.md) Blocks domains that distribute spyware or adware.
+- [**Telemetry & Tracking:**](docs/info/block/Telemetry%20and%20Tracking.md) Blocks domains that track user activity for analytics purposes.
+- [**Useless websites:**](docs/info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
 
 <h3 align="right">
     📃 <a href="lists/Index.md">Choose your adblocker and copy URL addresses »</a>
@@ -96,7 +96,7 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 
 ## 🔧 Regex list
 <h3 align="right">
-    🔡 <a href="info/What is Regex.md">View the regex list and read additional information »</a>
+    🔡 <a href="docs/info/What is Regex.md">View the regex list and read additional information »</a>
 </h3>
 
 
@@ -106,8 +106,8 @@ However, it should be noted that while this blocking list can improve your priva
 
 
 ## 🤔 Tutorials
-- [How to install Pi-hole?](tutorials/How%20to%20install%20Pi-hole.md)
-- [How to install Unbound for Pi-hole?](tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md)
+- [How to install Pi-hole?](docs/tutorials/How%20to%20install%20Pi-hole.md)
+- [How to install Unbound for Pi-hole?](docs/tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md)
 
 
 ## 🤝 Contributing

@@ -3,7 +3,7 @@ Pi-hole is a network-level ad blocker and privacy-enhancing tool that enables us
 It operates at the DNS (Domain Name System) level, blocking ads and other undesired content before it even reaches your devices.
 This can speed up your internet browsing, safeguard your privacy, and reduce the amount of data your devices consume.
 
-Pi-hole is an open-source software that can be installed on several platforms, such as Linux, Docker, and [Raspberry Pi](../info/What%20is%20Raspberry%20Pi.md).
+Pi-hole is an open-source software that can be installed on several platforms, such as Linux, Docker, and [Raspberry Pi]( Raspberry Pi.md).
 It is relatively simple to set up and configure, even for users with limited technical expertise.
 After installation, Pi-hole can be accessed via a web interface that allows users to manage their blocklists, view blocked content statistics, and make other configuration changes.
 
