@@ -1,7 +1,7 @@
 # Title: KADhosts
 # Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-# Last modified: Sat, 25 Nov 2023, 17:19 UTC+01:00
-# Version: 2023.11.25.2
+# Last modified: Sat, 25 Nov 2023, 21:16 UTC+01:00
+# Version: 2023.11.25.3
 # Expires: 2 days
 # Website: https://kadantiscam.netlify.app/
 # Based on: https://github.com/FiltersHeroes/KAD
@@ -5282,6 +5282,7 @@
 #@ >>>>>>>> https://raw.githubusercontent.com/FiltersHeroes/KAD/master/sections/przekrety.txt => hosts
 127.0.0.1 0-finanzierung.com
 127.0.0.1 0-okodukai.com
+127.0.0.1 0ai4.biz.id
 127.0.0.1 0amazin.ru.com
 127.0.0.1 0an-news.learnbaglama.com
 127.0.0.1 0b8cc331813049912.temporary.link
@@ -8728,6 +8729,7 @@
 127.0.0.1 allegrolokalnie.aukcja-24h.pl
 127.0.0.1 allegrolokalnie.aukcja-allegro.pl
 127.0.0.1 allegrolokalnie.aukcja-id916.pl
+127.0.0.1 allegrolokalnie.aukcja-id746147.pl
 127.0.0.1 allegrolokalnie.aukcja-payu.pl
 127.0.0.1 allegrolokalnie.aukcja-prywatna24.pl
 127.0.0.1 allegrolokalnie.aukcja-prywatna247.pl
@@ -8980,12 +8982,22 @@
 127.0.0.1 allegrolokalnie.pl-oferta-prywatna3245.pl
 127.0.0.1 allegrolokalnie.pl-oferta-prywatna3455.pl
 127.0.0.1 allegrolokalnie.pl-oferta-prywatna3457.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6734.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6735.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6736.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6737.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6738.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6739.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6741.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6742.pl
+127.0.0.1 allegrolokalnie.pl-oferta-prywatna6743.pl
 127.0.0.1 allegrolokalnie.pl-oferta-prywatna8345.pl
 127.0.0.1 allegrolokalnie.pl-oferta-prywatna8355.pl
 127.0.0.1 allegrolokalnie.pl-oferta-prywatna8365.pl
 127.0.0.1 allegrolokalnie.pl-oferta-uzytkownika.pl
 127.0.0.1 allegrolokalnie.pl-platnosc-24h.pl
 127.0.0.1 allegrolokalnie.pl-platnosc-payu.pl
+127.0.0.1 allegrolokalnie.pl-prywatna-oferta2137.pl
 127.0.0.1 allegrolokalnie.pl-zakup-dzis.pl
 127.0.0.1 allegrolokalnie.pl-zakup-przedmiot.pl
 127.0.0.1 allegrolokalnie.pl-zakupy-online.pl
@@ -10863,6 +10875,7 @@
 127.0.0.1 aukcja24h.pl
 127.0.0.1 aukcja-24h.pl
 127.0.0.1 aukcja-24152314.pl
+127.0.0.1 aukcja-id746147.pl
 127.0.0.1 aukcja-olx.pl
 127.0.0.1 aukcja-prywatna24.pl
 127.0.0.1 aukcja-prywatna247.pl
@@ -14265,6 +14278,7 @@
 127.0.0.1 booking-champs.com
 127.0.0.1 booking-confirm.id2014105.date
 127.0.0.1 booking-confirm.one
+127.0.0.1 booking-confirms.com
 127.0.0.1 booking-eu.id3434.xyz
 127.0.0.1 booking-eu.req91768.com
 127.0.0.1 booking-eu.req-4332.com
@@ -18246,6 +18260,7 @@
 127.0.0.1 cyberfolks-logowanie-cleint.codeanyapp.com
 127.0.0.1 cyberneticart.biz
 127.0.0.1 cyberneticwords.com
+127.0.0.1 cybernexus.pw
 127.0.0.1 cybernovaa.online
 127.0.0.1 cyberphongz.com
 127.0.0.1 cyberq-legit.com
@@ -18253,6 +18268,7 @@
 127.0.0.1 cyberspace.sensorbuqnn.pro
 127.0.0.1 cybervoxel.com
 127.0.0.1 cybervoyager.site
+127.0.0.1 cyberwars.org.ru
 127.0.0.1 cybhear.com
 127.0.0.1 cyclasesh.com
 127.0.0.1 cyclelized.com
@@ -18292,6 +18308,7 @@
 127.0.0.1 czasnaodkrycia.click
 127.0.0.1 czasnawiadomienia.click
 127.0.0.1 czasodpoczynekcos.fun
+127.0.0.1 czaswspolpracataki.space
 127.0.0.1 czasyplrozne.click
 127.0.0.1 czatb.blog4pl.xyz
 127.0.0.1 czech-group.com
@@ -20268,6 +20285,7 @@
 127.0.0.1 dochonline.site
 127.0.0.1 dochowebpgnig.com
 127.0.0.1 dochpasyw.site
+127.0.0.1 dociekamy24.click
 127.0.0.1 dockhandsc.com
 127.0.0.1 docofis.net
 127.0.0.1 docomocq.vip
@@ -20443,6 +20461,7 @@
 127.0.0.1 donepnggoplus.site
 127.0.0.1 donerightlaw-1322273052.cos.sa-saopaulo.myqcloud.com
 127.0.0.1 dongolasdi.com
+127.0.0.1 doniesienieinfo.click
 127.0.0.1 donkadunk.com
 127.0.0.1 donmainchech18.web.app
 127.0.0.1 donmayne.com
@@ -20687,6 +20706,7 @@
 127.0.0.1 dpd.68474542.xyz
 127.0.0.1 dpd.78478451.xyz
 127.0.0.1 dpd.084874512.xyz
+127.0.0.1 dpd.88478451.xyz
 127.0.0.1 dpd.284874512.xyz
 127.0.0.1 dpd.484874512.xyz
 127.0.0.1 dpd.96594345154.xyz
@@ -21539,6 +21559,7 @@
 127.0.0.1 edgeflow-cz.skin
 127.0.0.1 edgeflow-cz.store
 127.0.0.1 edgeflow-cz.website
+127.0.0.1 edgingload.info
 127.0.0.1 edgyinspirationalromance.com
 127.0.0.1 ediab.gamemods.com.tr
 127.0.0.1 edieddy.com
@@ -21751,6 +21772,7 @@
 127.0.0.1 ekohandelonline.pl
 127.0.0.1 ekologicznerozwiazania.site
 127.0.0.1 ekonomicznasprzedazonline.pl
+127.0.0.1 ekonomicznasprzedazwsieci.pl
 127.0.0.1 ekonomiczneprzygodywbangkoku.com
 127.0.0.1 ekonomicznypoland.online
 127.0.0.1 ekos-1.com
@@ -22553,6 +22575,7 @@
 127.0.0.1 ets34.cfd
 127.0.0.1 etsllx.activpl-pro.site
 127.0.0.1 etsy-checkout.cloud
+127.0.0.1 etsy.host
 127.0.0.1 ettsl.activpl-pro.site
 127.0.0.1 etyrwxpre.site
 127.0.0.1 eu1.flsstornw.online
@@ -23644,6 +23667,7 @@
 127.0.0.1 faze67.com
 127.0.0.1 faze72.com
 127.0.0.1 faze74.com
+127.0.0.1 faze77.com
 127.0.0.1 faze82.com
 127.0.0.1 faze88.com
 127.0.0.1 fazl.projsite.site
@@ -23750,6 +23774,7 @@
 127.0.0.1 fd3v.info
 127.0.0.1 fd4t.cc
 127.0.0.1 fd6v2cbhnuxzp.com
+127.0.0.1 fd45x.xyz
 127.0.0.1 fd520e62.bakerstreetfinance.tv
 127.0.0.1 fd-pge.web.app
 127.0.0.1 fd.pro1wrld.top
@@ -27937,6 +27962,7 @@
 127.0.0.1 help-support-package.com
 127.0.0.1 help-tracksav.com
 127.0.0.1 help-ups.com
+127.0.0.1 help-ups.net
 127.0.0.1 help-yourpackage.com
 127.0.0.1 help.pirgolik.cf
 127.0.0.1 helpcenter.bussinesspolicy.com
@@ -31582,6 +31608,7 @@
 127.0.0.1 it.proget.site
 127.0.0.1 it.ra-rdiant.live
 127.0.0.1 ita.t0pmon.site
+127.0.0.1 itaconic.sbs
 127.0.0.1 itagrolys-com.preview-domain.com
 127.0.0.1 itaincwying.site
 127.0.0.1 italianepost.com
@@ -33379,6 +33406,7 @@
 127.0.0.1 kondorink.com
 127.0.0.1 konkanko.comfihomes.es
 127.0.0.1 konkatsusite.info
+127.0.0.1 konkretywazne.click
 127.0.0.1 konkurs-fotograficzny.netlify.app
 127.0.0.1 konkursowe-glosy.eu
 127.0.0.1 konkursowo-glosuj.eu
@@ -33801,6 +33829,7 @@
 127.0.0.1 kwtxr.notbuilttosit.com
 127.0.0.1 kxifi.lasorquideashome.com
 127.0.0.1 kxwgt.concretecutting1.com
+127.0.0.1 kyats.sbs
 127.0.0.1 kybgvf7zzq.digital
 127.0.0.1 kyfjthb.cn
 127.0.0.1 kyioh.hyattartstudio.com
@@ -34826,6 +34855,7 @@
 127.0.0.1 light-marco-driver.webnode.gr
 127.0.0.1 light-trust.site
 127.0.0.1 lightcloud.pl
+127.0.0.1 lightconnect.pw
 127.0.0.1 lightdropback.com
 127.0.0.1 lightens.xyz
 127.0.0.1 lighthose.space
@@ -35407,6 +35437,7 @@
 127.0.0.1 logconnectingweblogin6cpsess799238928236rdpartyehnsxw6.accountconnecting.repl.co
 127.0.0.1 logic.c55.com.au
 127.0.0.1 logicinfosoft.com
+127.0.0.1 logiclattice.pw
 127.0.0.1 logiclink.pw
 127.0.0.1 login-account-alert-b83d7.web.app
 127.0.0.1 login-authorize-verify-merchant-account-info.com
@@ -38782,6 +38813,7 @@
 127.0.0.1 mycareernodes.com
 127.0.0.1 mycashcount.com
 127.0.0.1 mycentrelink.ddns.net
+127.0.0.1 mycetoid.sbs
 127.0.0.1 mychael.com
 127.0.0.1 mychainlife.xyz
 127.0.0.1 mychainportal.xyz
@@ -39234,10 +39266,12 @@
 127.0.0.1 navi05.com
 127.0.0.1 navi5.com
 127.0.0.1 navi08.com
+127.0.0.1 navi9.com
 127.0.0.1 navi11.com
 127.0.0.1 navi22.com
 127.0.0.1 navi47.com
 127.0.0.1 navi61.com
+127.0.0.1 navi65.com
 127.0.0.1 navi84.com
 127.0.0.1 navi90.com
 127.0.0.1 navi177.com
@@ -41008,6 +41042,7 @@
 127.0.0.1 obustroistvo-remont.com
 127.0.0.1 obuwiesport.pl
 127.0.0.1 obvioustrend.org
+127.0.0.1 obwieszczenie.click
 127.0.0.1 obyczajetobieduchowosc.hair
 127.0.0.1 obywatel.cloud
 127.0.0.1 ocabinu.com
@@ -41507,6 +41542,7 @@
 127.0.0.1 ollx.4354112.xyz
 127.0.0.1 ollx.28074512.xyz
 127.0.0.1 ollx.37455412.xyz
+127.0.0.1 ollx.78748512.xyz
 127.0.0.1 ollxcushzanossending.shop
 127.0.0.1 ollyhomeschool.com
 127.0.0.1 olmjen.site
@@ -44171,7 +44207,13 @@
 127.0.0.1 pl-oferta-prywatna3245.pl
 127.0.0.1 pl-oferta-prywatna3455.pl
 127.0.0.1 pl-oferta-prywatna3457.pl
+127.0.0.1 pl-oferta-prywatna6734.pl
+127.0.0.1 pl-oferta-prywatna6735.pl
+127.0.0.1 pl-oferta-prywatna6736.pl
+127.0.0.1 pl-oferta-prywatna6737.pl
+127.0.0.1 pl-oferta-prywatna6738.pl
 127.0.0.1 pl-oferta-prywatna6739.pl
+127.0.0.1 pl-oferta-prywatna6741.pl
 127.0.0.1 pl-oferta-prywatna6742.pl
 127.0.0.1 pl-oferta-prywatna6743.pl
 127.0.0.1 pl-oferta-prywatna8345.pl
@@ -44240,6 +44282,9 @@
 127.0.0.1 pl-proj.pro
 127.0.0.1 pl-proj.store
 127.0.0.1 pl-proj.xyz
+127.0.0.1 pl-prywatna-oferta2137.pl
+127.0.0.1 pl-prywatna-oferta2138.pl
+127.0.0.1 pl-prywatna-oferta2139.pl
 127.0.0.1 pl-santander.capojo.com
 127.0.0.1 pl-shopinvest.shop
 127.0.0.1 pl-stock.za.com
@@ -44959,6 +45004,7 @@
 127.0.0.1 poczta.life
 127.0.0.1 poczta.pakiet-pl.com
 127.0.0.1 poczta.polska-pl.world
+127.0.0.1 poczta.polskas-pl.world
 127.0.0.1 poczta.redelivery.biz
 127.0.0.1 poczta.walidacja-uzytkownika.pw
 127.0.0.1 poczta.wp-pl-potwierdz-dostep.site
@@ -45081,6 +45127,7 @@
 127.0.0.1 podbeskidzie.sportbetsignupcode.com
 127.0.0.1 podcastbest.com
 127.0.0.1 podcastdejua.net
+127.0.0.1 podekscytowani.click
 127.0.0.1 poderte.com
 127.0.0.1 podksiezycem.pl
 127.0.0.1 podlozky-spz.sk
@@ -45526,6 +45573,7 @@
 127.0.0.1 polski-obiektyw24.pl
 127.0.0.1 polski-obiektyw24h.eu5.net
 127.0.0.1 polskiagazeta24.serwerplus.pl
+127.0.0.1 polskibusiness-404.pages.net.br
 127.0.0.1 polskidochod.online
 127.0.0.1 polskidziennik.pl
 127.0.0.1 polskie-4kola.pl
@@ -47297,6 +47345,7 @@
 127.0.0.1 quantum.homezoaisd.shop
 127.0.0.1 quantumcode.info
 127.0.0.1 quantumcode.pw
+127.0.0.1 quantumcurve.pw
 127.0.0.1 quantumeducation.fun
 127.0.0.1 quantumlive.space
 127.0.0.1 quantummarket.net
@@ -47514,6 +47563,7 @@
 127.0.0.1 radicesbru.com
 127.0.0.1 radiiantblossom.site
 127.0.0.1 radiiantlullaby.site
+127.0.0.1 radilogical.com
 127.0.0.1 radilyipyi.live
 127.0.0.1 radio-eska.pl.tubeyou.cam
 127.0.0.1 radio-eska.pol.agency
@@ -51478,6 +51528,7 @@
 127.0.0.1 sprawdz-artykul.eu
 127.0.0.1 sprawdzajmy-opis.eu
 127.0.0.1 sprawdzam.is-best.net
+127.0.0.1 sprawdzaml.pl
 127.0.0.1 sprawdzikk.v0r.org
 127.0.0.1 sprawdzksl20a-for20az2a.afegro.co.pl
 127.0.0.1 sprawdzona-platnosc.pl
@@ -51602,6 +51653,7 @@
 127.0.0.1 ssl.hannajeneralek.pl
 127.0.0.1 ssl.hanteljankowski.pl
 127.0.0.1 ssl.kobielska.com.pl
+127.0.0.1 ssl.lightconnect.pw
 127.0.0.1 ssl.malgochakinik61.pl
 127.0.0.1 ssl.walbo.com.pl
 127.0.0.1 ssll.mmtsa.top
@@ -51993,6 +52045,7 @@
 127.0.0.1 streamboox.com
 127.0.0.1 streamenergyld.site
 127.0.0.1 streamimovies.com
+127.0.0.1 streaming.lakeflo.com
 127.0.0.1 streamnow.club
 127.0.0.1 streamserviceone.work.gd
 127.0.0.1 streamvod.pl
@@ -54425,6 +54478,7 @@
 127.0.0.1 tqklw.ulti-mate.com
 127.0.0.1 tqupvgn.bkktothemoon.com
 127.0.0.1 tqwac.gazeta-regionalna.com
+127.0.0.1 tr4r6.icu
 127.0.0.1 tr12boncroffer.site
 127.0.0.1 tr45-6.cfd
 127.0.0.1 tr-ng-le-xuan.pages.net.br
@@ -55326,6 +55380,7 @@
 127.0.0.1 ty.gazowamedia.com
 127.0.0.1 ty.njrrs.com
 127.0.0.1 ty.prevetr.site
+127.0.0.1 tychgourmetwraz.hair
 127.0.0.1 tychwspolnotamy.mom
 127.0.0.1 tycijie.com
 127.0.0.1 tydrfoil.site
@@ -56598,6 +56653,7 @@
 127.0.0.1 vinted-be.id93172.com
 127.0.0.1 vinted-belgique.com
 127.0.0.1 vinted-connaissance.info
+127.0.0.1 vinted-cz.betwoler.com
 127.0.0.1 vinted-cz.colpown.com
 127.0.0.1 vinted-cz.info93.pw
 127.0.0.1 vinted-cz.info-orders8765.com
@@ -57195,6 +57251,7 @@
 127.0.0.1 vintedcz.order634.com
 127.0.0.1 vintedcz.order689.online
 127.0.0.1 vintedcz.order827.com
+127.0.0.1 vintedcz.order837.com
 127.0.0.1 vintedcz.order1692.eu
 127.0.0.1 vintedcz.order2974.eu
 127.0.0.1 vintedcz.order4372.eu
@@ -57561,6 +57618,7 @@
 127.0.0.1 vlnted-gb.abigol.info
 127.0.0.1 vlnted-gb.abilg.info
 127.0.0.1 vlnted-gb.abiogl.info
+127.0.0.1 vlnted-gb.abiol.info
 127.0.0.1 vlnted-gb.aciox.info
 127.0.0.1 vlnted-gb.agegl.info
 127.0.0.1 vlnted-gb.aggeg.info
@@ -57570,6 +57628,7 @@
 127.0.0.1 vlnted-gb.aglbe.info
 127.0.0.1 vlnted-gb.aille.info
 127.0.0.1 vlnted-gb.aioge.info
+127.0.0.1 vlnted-gb.ajiol.info
 127.0.0.1 vlnted-gb.akiji.info
 127.0.0.1 vlnted-gb.aliad.info
 127.0.0.1 vlnted-gb.asaop.info
@@ -59266,6 +59325,7 @@
 127.0.0.1 www-verification-vinted.info
 127.0.0.1 www.0-finanzierung.com
 127.0.0.1 www.0-okodukai.com
+127.0.0.1 www.0ai4.biz.id
 127.0.0.1 www.0amazin.ru.com
 127.0.0.1 www.0an-news.learnbaglama.com
 127.0.0.1 www.0b8cc331813049912.temporary.link
@@ -62712,6 +62772,7 @@
 127.0.0.1 www.allegrolokalnie.aukcja-24h.pl
 127.0.0.1 www.allegrolokalnie.aukcja-allegro.pl
 127.0.0.1 www.allegrolokalnie.aukcja-id916.pl
+127.0.0.1 www.allegrolokalnie.aukcja-id746147.pl
 127.0.0.1 www.allegrolokalnie.aukcja-payu.pl
 127.0.0.1 www.allegrolokalnie.aukcja-prywatna24.pl
 127.0.0.1 www.allegrolokalnie.aukcja-prywatna247.pl
@@ -62964,12 +63025,22 @@
 127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna3245.pl
 127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna3455.pl
 127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna3457.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6734.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6735.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6736.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6737.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6738.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6739.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6741.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6742.pl
+127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna6743.pl
 127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna8345.pl
 127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna8355.pl
 127.0.0.1 www.allegrolokalnie.pl-oferta-prywatna8365.pl
 127.0.0.1 www.allegrolokalnie.pl-oferta-uzytkownika.pl
 127.0.0.1 www.allegrolokalnie.pl-platnosc-24h.pl
 127.0.0.1 www.allegrolokalnie.pl-platnosc-payu.pl
+127.0.0.1 www.allegrolokalnie.pl-prywatna-oferta2137.pl
 127.0.0.1 www.allegrolokalnie.pl-zakup-dzis.pl
 127.0.0.1 www.allegrolokalnie.pl-zakup-przedmiot.pl
 127.0.0.1 www.allegrolokalnie.pl-zakupy-online.pl
@@ -64847,6 +64918,7 @@
 127.0.0.1 www.aukcja24h.pl
 127.0.0.1 www.aukcja-24h.pl
 127.0.0.1 www.aukcja-24152314.pl
+127.0.0.1 www.aukcja-id746147.pl
 127.0.0.1 www.aukcja-olx.pl
 127.0.0.1 www.aukcja-prywatna24.pl
 127.0.0.1 www.aukcja-prywatna247.pl
@@ -68249,6 +68321,7 @@
 127.0.0.1 www.booking-champs.com
 127.0.0.1 www.booking-confirm.id2014105.date
 127.0.0.1 www.booking-confirm.one
+127.0.0.1 www.booking-confirms.com
 127.0.0.1 www.booking-eu.id3434.xyz
 127.0.0.1 www.booking-eu.req91768.com
 127.0.0.1 www.booking-eu.req-4332.com
@@ -72230,6 +72303,7 @@
 127.0.0.1 www.cyberfolks-logowanie-cleint.codeanyapp.com
 127.0.0.1 www.cyberneticart.biz
 127.0.0.1 www.cyberneticwords.com
+127.0.0.1 www.cybernexus.pw
 127.0.0.1 www.cybernovaa.online
 127.0.0.1 www.cyberphongz.com
 127.0.0.1 www.cyberq-legit.com
@@ -72237,6 +72311,7 @@
 127.0.0.1 www.cyberspace.sensorbuqnn.pro
 127.0.0.1 www.cybervoxel.com
 127.0.0.1 www.cybervoyager.site
+127.0.0.1 www.cyberwars.org.ru
 127.0.0.1 www.cybhear.com
 127.0.0.1 www.cyclasesh.com
 127.0.0.1 www.cyclelized.com
@@ -72276,6 +72351,7 @@
 127.0.0.1 www.czasnaodkrycia.click
 127.0.0.1 www.czasnawiadomienia.click
 127.0.0.1 www.czasodpoczynekcos.fun
+127.0.0.1 www.czaswspolpracataki.space
 127.0.0.1 www.czasyplrozne.click
 127.0.0.1 www.czatb.blog4pl.xyz
 127.0.0.1 www.czech-group.com
@@ -74252,6 +74328,7 @@
 127.0.0.1 www.dochonline.site
 127.0.0.1 www.dochowebpgnig.com
 127.0.0.1 www.dochpasyw.site
+127.0.0.1 www.dociekamy24.click
 127.0.0.1 www.dockhandsc.com
 127.0.0.1 www.docofis.net
 127.0.0.1 www.docomocq.vip
@@ -74427,6 +74504,7 @@
 127.0.0.1 www.donepnggoplus.site
 127.0.0.1 www.donerightlaw-1322273052.cos.sa-saopaulo.myqcloud.com
 127.0.0.1 www.dongolasdi.com
+127.0.0.1 www.doniesienieinfo.click
 127.0.0.1 www.donkadunk.com
 127.0.0.1 www.donmainchech18.web.app
 127.0.0.1 www.donmayne.com
@@ -74671,6 +74749,7 @@
 127.0.0.1 www.dpd.68474542.xyz
 127.0.0.1 www.dpd.78478451.xyz
 127.0.0.1 www.dpd.084874512.xyz
+127.0.0.1 www.dpd.88478451.xyz
 127.0.0.1 www.dpd.284874512.xyz
 127.0.0.1 www.dpd.484874512.xyz
 127.0.0.1 www.dpd.96594345154.xyz
@@ -75523,6 +75602,7 @@
 127.0.0.1 www.edgeflow-cz.skin
 127.0.0.1 www.edgeflow-cz.store
 127.0.0.1 www.edgeflow-cz.website
+127.0.0.1 www.edgingload.info
 127.0.0.1 www.edgyinspirationalromance.com
 127.0.0.1 www.ediab.gamemods.com.tr
 127.0.0.1 www.edieddy.com
@@ -75735,6 +75815,7 @@
 127.0.0.1 www.ekohandelonline.pl
 127.0.0.1 www.ekologicznerozwiazania.site
 127.0.0.1 www.ekonomicznasprzedazonline.pl
+127.0.0.1 www.ekonomicznasprzedazwsieci.pl
 127.0.0.1 www.ekonomiczneprzygodywbangkoku.com
 127.0.0.1 www.ekonomicznypoland.online
 127.0.0.1 www.ekos-1.com
@@ -76537,6 +76618,7 @@
 127.0.0.1 www.ets34.cfd
 127.0.0.1 www.etsllx.activpl-pro.site
 127.0.0.1 www.etsy-checkout.cloud
+127.0.0.1 www.etsy.host
 127.0.0.1 www.ettsl.activpl-pro.site
 127.0.0.1 www.etyrwxpre.site
 127.0.0.1 www.eu1.flsstornw.online
@@ -77628,6 +77710,7 @@
 127.0.0.1 www.faze67.com
 127.0.0.1 www.faze72.com
 127.0.0.1 www.faze74.com
+127.0.0.1 www.faze77.com
 127.0.0.1 www.faze82.com
 127.0.0.1 www.faze88.com
 127.0.0.1 www.fazl.projsite.site
@@ -77734,6 +77817,7 @@
 127.0.0.1 www.fd3v.info
 127.0.0.1 www.fd4t.cc
 127.0.0.1 www.fd6v2cbhnuxzp.com
+127.0.0.1 www.fd45x.xyz
 127.0.0.1 www.fd520e62.bakerstreetfinance.tv
 127.0.0.1 www.fd-pge.web.app
 127.0.0.1 www.fd.pro1wrld.top
@@ -81921,6 +82005,7 @@
 127.0.0.1 www.help-support-package.com
 127.0.0.1 www.help-tracksav.com
 127.0.0.1 www.help-ups.com
+127.0.0.1 www.help-ups.net
 127.0.0.1 www.help-yourpackage.com
 127.0.0.1 www.help.pirgolik.cf
 127.0.0.1 www.helpcenter.bussinesspolicy.com
@@ -85566,6 +85651,7 @@
 127.0.0.1 www.it.proget.site
 127.0.0.1 www.it.ra-rdiant.live
 127.0.0.1 www.ita.t0pmon.site
+127.0.0.1 www.itaconic.sbs
 127.0.0.1 www.itagrolys-com.preview-domain.com
 127.0.0.1 www.itaincwying.site
 127.0.0.1 www.italianepost.com
@@ -87363,6 +87449,7 @@
 127.0.0.1 www.kondorink.com
 127.0.0.1 www.konkanko.comfihomes.es
 127.0.0.1 www.konkatsusite.info
+127.0.0.1 www.konkretywazne.click
 127.0.0.1 www.konkurs-fotograficzny.netlify.app
 127.0.0.1 www.konkursowe-glosy.eu
 127.0.0.1 www.konkursowo-glosuj.eu
@@ -87785,6 +87872,7 @@
 127.0.0.1 www.kwtxr.notbuilttosit.com
 127.0.0.1 www.kxifi.lasorquideashome.com
 127.0.0.1 www.kxwgt.concretecutting1.com
+127.0.0.1 www.kyats.sbs
 127.0.0.1 www.kybgvf7zzq.digital
 127.0.0.1 www.kyfjthb.cn
 127.0.0.1 www.kyioh.hyattartstudio.com
@@ -88810,6 +88898,7 @@
 127.0.0.1 www.light-marco-driver.webnode.gr
 127.0.0.1 www.light-trust.site
 127.0.0.1 www.lightcloud.pl
+127.0.0.1 www.lightconnect.pw
 127.0.0.1 www.lightdropback.com
 127.0.0.1 www.lightens.xyz
 127.0.0.1 www.lighthose.space
@@ -89391,6 +89480,7 @@
 127.0.0.1 www.logconnectingweblogin6cpsess799238928236rdpartyehnsxw6.accountconnecting.repl.co
 127.0.0.1 www.logic.c55.com.au
 127.0.0.1 www.logicinfosoft.com
+127.0.0.1 www.logiclattice.pw
 127.0.0.1 www.logiclink.pw
 127.0.0.1 www.login-account-alert-b83d7.web.app
 127.0.0.1 www.login-authorize-verify-merchant-account-info.com
@@ -92767,6 +92857,7 @@
 127.0.0.1 www.mycareernodes.com
 127.0.0.1 www.mycashcount.com
 127.0.0.1 www.mycentrelink.ddns.net
+127.0.0.1 www.mycetoid.sbs
 127.0.0.1 www.mychael.com
 127.0.0.1 www.mychainlife.xyz
 127.0.0.1 www.mychainportal.xyz
@@ -93219,10 +93310,12 @@
 127.0.0.1 www.navi05.com
 127.0.0.1 www.navi5.com
 127.0.0.1 www.navi08.com
+127.0.0.1 www.navi9.com
 127.0.0.1 www.navi11.com
 127.0.0.1 www.navi22.com
 127.0.0.1 www.navi47.com
 127.0.0.1 www.navi61.com
+127.0.0.1 www.navi65.com
 127.0.0.1 www.navi84.com
 127.0.0.1 www.navi90.com
 127.0.0.1 www.navi177.com
@@ -94993,6 +95086,7 @@
 127.0.0.1 www.obustroistvo-remont.com
 127.0.0.1 www.obuwiesport.pl
 127.0.0.1 www.obvioustrend.org
+127.0.0.1 www.obwieszczenie.click
 127.0.0.1 www.obyczajetobieduchowosc.hair
 127.0.0.1 www.obywatel.cloud
 127.0.0.1 www.ocabinu.com
@@ -95492,6 +95586,7 @@
 127.0.0.1 www.ollx.4354112.xyz
 127.0.0.1 www.ollx.28074512.xyz
 127.0.0.1 www.ollx.37455412.xyz
+127.0.0.1 www.ollx.78748512.xyz
 127.0.0.1 www.ollxcushzanossending.shop
 127.0.0.1 www.ollyhomeschool.com
 127.0.0.1 www.olmjen.site
@@ -98146,7 +98241,13 @@
 127.0.0.1 www.pl-oferta-prywatna3245.pl
 127.0.0.1 www.pl-oferta-prywatna3455.pl
 127.0.0.1 www.pl-oferta-prywatna3457.pl
+127.0.0.1 www.pl-oferta-prywatna6734.pl
+127.0.0.1 www.pl-oferta-prywatna6735.pl
+127.0.0.1 www.pl-oferta-prywatna6736.pl
+127.0.0.1 www.pl-oferta-prywatna6737.pl
+127.0.0.1 www.pl-oferta-prywatna6738.pl
 127.0.0.1 www.pl-oferta-prywatna6739.pl
+127.0.0.1 www.pl-oferta-prywatna6741.pl
 127.0.0.1 www.pl-oferta-prywatna6742.pl
 127.0.0.1 www.pl-oferta-prywatna6743.pl
 127.0.0.1 www.pl-oferta-prywatna8345.pl
@@ -98215,6 +98316,9 @@
 127.0.0.1 www.pl-proj.pro
 127.0.0.1 www.pl-proj.store
 127.0.0.1 www.pl-proj.xyz
+127.0.0.1 www.pl-prywatna-oferta2137.pl
+127.0.0.1 www.pl-prywatna-oferta2138.pl
+127.0.0.1 www.pl-prywatna-oferta2139.pl
 127.0.0.1 www.pl-santander.capojo.com
 127.0.0.1 www.pl-shopinvest.shop
 127.0.0.1 www.pl-stock.za.com
@@ -98836,6 +98940,7 @@
 127.0.0.1 www.poczta.life
 127.0.0.1 www.poczta.pakiet-pl.com
 127.0.0.1 www.poczta.polska-pl.world
+127.0.0.1 www.poczta.polskas-pl.world
 127.0.0.1 www.poczta.redelivery.biz
 127.0.0.1 www.poczta.walidacja-uzytkownika.pw
 127.0.0.1 www.poczta.wp-pl-potwierdz-dostep.site
@@ -98958,6 +99063,7 @@
 127.0.0.1 www.podbeskidzie.sportbetsignupcode.com
 127.0.0.1 www.podcastbest.com
 127.0.0.1 www.podcastdejua.net
+127.0.0.1 www.podekscytowani.click
 127.0.0.1 www.poderte.com
 127.0.0.1 www.podksiezycem.pl
 127.0.0.1 www.podlozky-spz.sk
@@ -99403,6 +99509,7 @@
 127.0.0.1 www.polski-obiektyw24.pl
 127.0.0.1 www.polski-obiektyw24h.eu5.net
 127.0.0.1 www.polskiagazeta24.serwerplus.pl
+127.0.0.1 www.polskibusiness-404.pages.net.br
 127.0.0.1 www.polskidochod.online
 127.0.0.1 www.polskidziennik.pl
 127.0.0.1 www.polskie-4kola.pl
@@ -101174,6 +101281,7 @@
 127.0.0.1 www.quantum.homezoaisd.shop
 127.0.0.1 www.quantumcode.info
 127.0.0.1 www.quantumcode.pw
+127.0.0.1 www.quantumcurve.pw
 127.0.0.1 www.quantumeducation.fun
 127.0.0.1 www.quantumlive.space
 127.0.0.1 www.quantummarket.net
@@ -101391,6 +101499,7 @@
 127.0.0.1 www.radicesbru.com
 127.0.0.1 www.radiiantblossom.site
 127.0.0.1 www.radiiantlullaby.site
+127.0.0.1 www.radilogical.com
 127.0.0.1 www.radilyipyi.live
 127.0.0.1 www.radio-eska.pl.tubeyou.cam
 127.0.0.1 www.radio-eska.pol.agency
@@ -105355,6 +105464,7 @@
 127.0.0.1 www.sprawdz-artykul.eu
 127.0.0.1 www.sprawdzajmy-opis.eu
 127.0.0.1 www.sprawdzam.is-best.net
+127.0.0.1 www.sprawdzaml.pl
 127.0.0.1 www.sprawdzikk.v0r.org
 127.0.0.1 www.sprawdzksl20a-for20az2a.afegro.co.pl
 127.0.0.1 www.sprawdzona-platnosc.pl
@@ -105479,6 +105589,7 @@
 127.0.0.1 www.ssl.hannajeneralek.pl
 127.0.0.1 www.ssl.hanteljankowski.pl
 127.0.0.1 www.ssl.kobielska.com.pl
+127.0.0.1 www.ssl.lightconnect.pw
 127.0.0.1 www.ssl.malgochakinik61.pl
 127.0.0.1 www.ssl.walbo.com.pl
 127.0.0.1 www.ssll.mmtsa.top
@@ -105870,6 +105981,7 @@
 127.0.0.1 www.streamboox.com
 127.0.0.1 www.streamenergyld.site
 127.0.0.1 www.streamimovies.com
+127.0.0.1 www.streaming.lakeflo.com
 127.0.0.1 www.streamnow.club
 127.0.0.1 www.streamserviceone.work.gd
 127.0.0.1 www.streamvod.pl
@@ -108302,6 +108414,7 @@
 127.0.0.1 www.tqklw.ulti-mate.com
 127.0.0.1 www.tqupvgn.bkktothemoon.com
 127.0.0.1 www.tqwac.gazeta-regionalna.com
+127.0.0.1 www.tr4r6.icu
 127.0.0.1 www.tr12boncroffer.site
 127.0.0.1 www.tr45-6.cfd
 127.0.0.1 www.tr-ng-le-xuan.pages.net.br
@@ -109203,6 +109316,7 @@
 127.0.0.1 www.ty.gazowamedia.com
 127.0.0.1 www.ty.njrrs.com
 127.0.0.1 www.ty.prevetr.site
+127.0.0.1 www.tychgourmetwraz.hair
 127.0.0.1 www.tychwspolnotamy.mom
 127.0.0.1 www.tycijie.com
 127.0.0.1 www.tydrfoil.site
@@ -110475,6 +110589,7 @@
 127.0.0.1 www.vinted-be.id93172.com
 127.0.0.1 www.vinted-belgique.com
 127.0.0.1 www.vinted-connaissance.info
+127.0.0.1 www.vinted-cz.betwoler.com
 127.0.0.1 www.vinted-cz.colpown.com
 127.0.0.1 www.vinted-cz.info93.pw
 127.0.0.1 www.vinted-cz.info-orders8765.com
@@ -111072,6 +111187,7 @@
 127.0.0.1 www.vintedcz.order634.com
 127.0.0.1 www.vintedcz.order689.online
 127.0.0.1 www.vintedcz.order827.com
+127.0.0.1 www.vintedcz.order837.com
 127.0.0.1 www.vintedcz.order1692.eu
 127.0.0.1 www.vintedcz.order2974.eu
 127.0.0.1 www.vintedcz.order4372.eu
@@ -111438,6 +111554,7 @@
 127.0.0.1 www.vlnted-gb.abigol.info
 127.0.0.1 www.vlnted-gb.abilg.info
 127.0.0.1 www.vlnted-gb.abiogl.info
+127.0.0.1 www.vlnted-gb.abiol.info
 127.0.0.1 www.vlnted-gb.aciox.info
 127.0.0.1 www.vlnted-gb.agegl.info
 127.0.0.1 www.vlnted-gb.aggeg.info
@@ -111447,6 +111564,7 @@
 127.0.0.1 www.vlnted-gb.aglbe.info
 127.0.0.1 www.vlnted-gb.aille.info
 127.0.0.1 www.vlnted-gb.aioge.info
+127.0.0.1 www.vlnted-gb.ajiol.info
 127.0.0.1 www.vlnted-gb.akiji.info
 127.0.0.1 www.vlnted-gb.aliad.info
 127.0.0.1 www.vlnted-gb.asaop.info
@@ -114180,6 +114298,7 @@
 127.0.0.1 www.zcxxb.concretecutting1.com
 127.0.0.1 www.zd.gearsepal.com
 127.0.0.1 www.zdarzenia24.pl
+127.0.0.1 www.zdarzeniawiedza.click
 127.0.0.1 www.zdecyduj-samemu.eu
 127.0.0.1 www.zdecyduj-wybieraj.eu
 127.0.0.1 www.zdecyduj-wygranego.eu
@@ -115687,6 +115806,7 @@
 127.0.0.1 zcxxb.concretecutting1.com
 127.0.0.1 zd.gearsepal.com
 127.0.0.1 zdarzenia24.pl
+127.0.0.1 zdarzeniawiedza.click
 127.0.0.1 zdecyduj-samemu.eu
 127.0.0.1 zdecyduj-wybieraj.eu
 127.0.0.1 zdecyduj-wygranego.eu
