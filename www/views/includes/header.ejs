@@ -8,9 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <% if (process.env.NODE_ENV === 'production') { %>
+        <!-- Meta tags -->
         <% if (meta.siteName) { %><meta property="og:siteName" content="<%= meta.siteName %>"><% } %>
         <% if (meta.color) { %><meta name="theme-color" content="<%= meta.color %>"><% } %>
         <meta property="og:url" content="<%= process.env.DOMAIN %>">
+
+        <!-- Cronitor RUM -->
+        <script async src="https://rum.cronitor.io/script.js"></script>
+        <script>
+            window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+            cronitor('config', { clientKey: '53a893ea6494c1b131d1f23443fdc19c' });
+        </script>
     <% } %>
 
     <% if (canonical || canonical === '') { %>
