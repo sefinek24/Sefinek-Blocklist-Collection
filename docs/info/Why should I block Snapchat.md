@@ -1,5 +1,5 @@
 <!-- [[> SEO
-###### Title: 
+###### Title: Why should I block Snapchat?
 ###### Description: 
 ###### Tags: 
 ###### Canonical: /viewer/info/Why_should_I_block_Snapchat

@@ -1,5 +1,5 @@
 <!-- [[> SEO
-###### Title: 
+###### Title: Why should I block TikTok?
 ###### Description: 
 ###### Tags: 
 ###### Canonical: /viewer/info/Why_should_I_block_TikTok

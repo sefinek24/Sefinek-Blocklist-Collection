@@ -1,5 +1,5 @@
 <!-- [[> SEO
-###### Title: How to Install and Configure Pi-hole
+###### Title: How to Install and Configure Pi-hole? Tutorial
 ###### Description:
 ###### Tags:
 ###### Canonical: /viewer/tutorials/How_to_install_Pi-hole

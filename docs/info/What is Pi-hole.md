@@ -1,5 +1,5 @@
 <!-- [[> SEO
-###### Title: 
+###### Title: Pi-hole: A Powerful Ad Blocker and Privacy-Enhancing Tool
 ###### Description: 
 ###### Tags: 
 ###### Canonical: /viewer/info/What_is_Pi-hole
