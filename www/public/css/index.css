@@ -1,12 +1,100 @@
 #cover-header {
-    text-shadow: 0 0 30px #ffffff99
+    text-shadow: 0 0 28px #ffffff99
 }
 
 #pihole {
-    text-shadow: 0 0 15px #f70000;
+    text-shadow: 0 0 16px #f70000;
 }
 
 #adguard {
-    text-shadow: 0 0 15px #65b66d;
+    text-shadow: 0 0 16px #24d91b;
 }
 
+/* Cover section styling */
+.cover::before {
+    filter: blur(2px)!important;
+}
+
+/* Card */
+.card {
+    display: flex;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card-text h3 {
+    font-size: 23px;
+    margin-bottom: 0;
+}
+
+.card-text {
+    flex: 2;
+    padding: 20px;
+}
+
+.card-text p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.card-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.card-img img {
+    max-width: 100%!important;
+    height: auto
+}
+
+/* Categories */
+#category-big {
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    background-color: #09090a;
+}
+
+#category-small {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    background-color: #09090a;
+}
+
+.stats-content {
+    padding: 18px;
+    background-color: #121215;
+    border-radius: 0 0 8px 8px;
+    font-size: 33px;
+}
+
+.stats-loading-gif {
+    height: 31px;
+}
+
+#stats-footer {
+    text-align: center;
+    padding-top: 18px;
+    font-size: 16px;
+}
+
+/* CSS classes for update animations */
+.stats-updated {
+    animation: updateAnimation 2s ease-in-out;
+}
+
+@keyframes updateAnimation {
+    0%, 100% {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+    50% {
+        background-color: #121215;
+    }
+}

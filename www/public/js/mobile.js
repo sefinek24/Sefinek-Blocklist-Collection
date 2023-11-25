@@ -5,7 +5,7 @@ menuToggle.addEventListener('click', () => {
 	navbar.classList.toggle('active');
 });
 
-if (window.innerWidth < 768) {
+if (window.innerWidth < 1235) {
 	menuToggle.style.display = 'block';
 } else {
 	menuToggle.style.display = 'none';
