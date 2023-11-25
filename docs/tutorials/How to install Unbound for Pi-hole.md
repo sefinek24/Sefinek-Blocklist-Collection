@@ -190,4 +190,4 @@ It's vital to ensure that everything is operating flawlessly.
 You can verify the functionality of your ad blocker by visiting https://d3ward.github.io/toolz/adblock.html.
 This tool helps test the effectiveness of your ad-blocking setup.
 
-## 🎉 You have successfully installed Unbound for Pi-hole!
+### 🎉 You have successfully installed Unbound for Pi-hole!
