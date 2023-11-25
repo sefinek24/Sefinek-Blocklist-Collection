@@ -1,40 +1,38 @@
 const RequestStats = require('../database/models/RequestStats');
 const parseCategoryFromLink = require('../utils/parseCategoryFromLink.js');
-const { userAgentsArray } = require('../middlewares/morgan.js');
+const { userAgents } = require('../middlewares/morgan.js');
 
 module.exports.requests = async (req, res, next) => {
 	const ua = req.headers['user-agent'];
-	if (userAgentsArray.includes(ua)) return next();
+	if (userAgents.includes(ua)) return next();
 
 	try {
-		const database = await RequestStats.findOne({}).limit(1);
-		if (database) {
-			database.requests.all++;
-			await database.save();
-		}
-
-		next();
+		await RequestStats.findOneAndUpdate({}, { $inc: { 'requests.all': 1 } }, { upsert: true, new: true });
 	} catch (err) {
-		console.error('Error incrementing request count `requests`:', err);
-		next(err);
+		console.error('Error updating request stats:', err);
 	}
+
+	next();
 };
 
 module.exports.blocklist = async (req, res, next) => {
 	const ua = req.headers['user-agent'];
-	if (userAgentsArray.includes(ua)) return next();
+	if (userAgents.includes(ua)) return next();
 
 	let category = parseCategoryFromLink(req.url);
 	if (category === '0.0.0.0') category = '00000';
 	if (category === '127.0.0.1') category = '127001';
 
 	try {
-		const database = await RequestStats.findOne({}).limit(1);
-		if (database && category) {
-			database.requests.blocklist++;
-			database.requests[category]++;
-			await database.save();
-		}
+		const updateQuery = {
+			$inc: {
+				'requests.blocklist': 1,
+			},
+		};
+
+		if (res.statusCode === 200 && category) updateQuery.$inc[`requests.${category}`] = 1;
+
+		await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true, new: true });
 
 		next();
 	} catch (err) {
@@ -53,7 +51,7 @@ module.exports.errors = async status => {
 			};
 		}
 
-		await RequestStats.updateOne({}, update);
+		await RequestStats.findOneAndUpdate({}, update, { upsert: true, new: true });
 	} catch (err) {
 		console.error('Error incrementing request count `errors`:', err);
 	}

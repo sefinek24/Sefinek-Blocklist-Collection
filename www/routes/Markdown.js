@@ -25,21 +25,29 @@ router.use('/markdown/tutorials', autoIndex(path.join(__dirname, '..', '..', 'do
 
 router.use('/viewer/:type', async (req, res) => {
 	const category = req.params.type;
-	const file = req.url.replace(`/viewer/${category}`, '').replace(/_/g, ' ').replace(/\.md/, '').replace(/%20/g, ' ');
+	if (!(/^[a-zA-Z0-9_-]+$/).test(category)) {
+		return res.status(400).send('Invalid category name');
+	}
+
+	const file = req.url
+		.replace(`/viewer/${category}`, '')
+		.replace(/_/g, ' ')
+		.replace(/\.md/, '')
+		.replace(/%20/g, ' ');
+
+	if (file.includes('..') || file.includes('//') || file.includes('\\')) return res.status(400).send('Invalid file name');
 	if (file.endsWith('.txt')) return res.redirect(`/docs/${category}/${file}`);
 
-	const fileName = `${file}.md`;
-	const fullPath = path.join(__dirname, '..', '..', 'docs', category, fileName);
-
 	try {
+		const fileName = `${file}.md`;
+		const fullPath = path.join(__dirname, '..', '..', 'docs', category, fileName);
+
 		const stat = await fs.promises.lstat(fullPath);
-		if (stat.isDirectory()) return res.sendStatus(404);
+		if (!stat.isFile()) return res.sendStatus(404);
 
 		const mdFile = await fs.promises.readFile(fullPath, 'utf8');
-		const html = Marked.parse(mdFile);
-
-		res.render('markdown-viewer.ejs', { version,
-			html,
+		res.render('markdown-viewer.ejs', {
+			html: Marked.parse(mdFile),
 			title: mdFile.match(TITLE_REGEX) ? mdFile.match(TITLE_REGEX)[1] : undefined,
 			desc: mdFile.match(DESC_REGEX) ? mdFile.match(DESC_REGEX)[1] : undefined,
 			tags: mdFile.match(TAGS_REGEX) ? mdFile.match(TAGS_REGEX)[1] : undefined,

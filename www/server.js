@@ -1,11 +1,13 @@
 const express = require('express');
-const cors = require('cors');
 const helmet = require('helmet');
 const path = require('node:path');
 const WebSocket = require('ws');
-const increment = require('./middlewares/increment.js');
+
+// Middleware imports
+const timeout = require('./middlewares/timeout.js');
 const logger = require('./middlewares/morgan.js');
 const limiter = require('./middlewares/ratelimit.js');
+const increment = require('./middlewares/increment.js');
 const { notFound, internalError } = require('./middlewares/other/errors.js');
 
 // MongoDB
@@ -23,17 +25,18 @@ app.set('trust proxy', 1);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-
 // Use
-app.use(cors({ origin: true }));
 app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false }));
+
+// Ratelimits & morgan
 app.use(logger.use);
 app.use(limiter);
+app.use(timeout());
 
-// Static
+// Static (public)
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Static (docs)
 app.use('/docs', express.static(path.join(__dirname, '..', 'docs')));
 
 
