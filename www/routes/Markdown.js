@@ -24,9 +24,12 @@ router.use('/markdown/info', autoIndex(path.join(__dirname, '..', '..', 'docs', 
 router.use('/markdown/tutorials', autoIndex(path.join(__dirname, '..', '..', 'docs', 'tutorials'), options));
 
 router.use('/viewer/:type', async (req, res) => {
-	const file = req.url.replace(`/viewer/${req.params.type}`, '').replace(/_/g, ' ');
+	const category = req.params.type;
+	const file = req.url.replace(`/viewer/${category}`, '').replace(/_/g, ' ').replace(/\.md/, '').replace(/%20/g, ' ');
+	if (file.endsWith('.txt')) return res.redirect(`/docs/${category}/${file}`);
+
 	const fileName = `${file}.md`;
-	const fullPath = path.join(__dirname, '..', '..', 'docs', req.params.type, fileName);
+	const fullPath = path.join(__dirname, '..', '..', 'docs', category, fileName);
 
 	try {
 		const stat = await fs.promises.lstat(fullPath);
@@ -37,7 +40,6 @@ router.use('/viewer/:type', async (req, res) => {
 
 		res.render('markdown-viewer.ejs', { version,
 			html,
-			file,
 			title: mdFile.match(TITLE_REGEX) ? mdFile.match(TITLE_REGEX)[1] : undefined,
 			desc: mdFile.match(DESC_REGEX) ? mdFile.match(DESC_REGEX)[1] : undefined,
 			tags: mdFile.match(TAGS_REGEX) ? mdFile.match(TAGS_REGEX)[1] : undefined,
