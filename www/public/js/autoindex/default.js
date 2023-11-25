@@ -53,7 +53,7 @@ function updateFileSizeAndTime(link) {
 tableLinks.forEach(link => {
 	const href = link.getAttribute('href');
 	const linkText = link.textContent.trim();
-	link.href = link.href.replace(/%20/g, '-').replace('.md', '');
+	link.href = link.href.replace(/%20/g, '_').replace('.md', '');
 
 	if (href.endsWith('/')) {
 		applyLinkStyles(link, 'blue', 'back.png');
