@@ -174,7 +174,7 @@ sefinek.net.            255     IN      A       188.114.96.11
 
 This output indicates successful resolution of the `sefinek.net` domain to its corresponding IP addresses (`188.114.97.11` and `188.114.96.11`).
 Confirming this result means Unbound is operating as expected.<br><br>
-Yay! We've successfully obtained the IP address for sefinek.net!
+Yay! We've successfully obtained the IP address for [sefinek.net](https://sefinek.net)!
 
 
 ## » Step 6: Configure Pi-hole to use Unbound
