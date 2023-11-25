@@ -3,9 +3,7 @@ require('dotenv').config();
 const cluster = require('node:cluster');
 const { availableParallelism } = require('node:os');
 const path = require('node:path');
-
 const createDir = require('./scripts/functions/createDir.js');
-const logsPath = path.join(__dirname, 'www', 'public', 'logs');
 
 if (!process.env.NODE_ENV || !process.env.DOMAIN || !process.env.PORT) {
 	throw new Error('Environment variables are null or undefined');
@@ -19,13 +17,12 @@ if (!process.env.SEFINEK_API) {
 	throw new Error('Specify the `SEFINEK_API` environment variable, e.g., https://api.sefinek.net/api/v2');
 }
 
+createDir(path.join(__dirname, 'www', 'public', 'logs'));
 
 if (process.env.NODE_ENV === 'development') {
-	createDir(logsPath);
 	require('./www/server.js');
 } else if (cluster.isMaster) {
-	createDir(logsPath);
-	console.log(`Primary ${process.pid} is running: ${process.env.DOMAIN}:${process.env.PORT}`);
+	console.log(`Primary ${process.pid} is running: http://${process.env.PORT}`);
 
 	const numberCPUs = availableParallelism();
 	for (let i = 0; i < numberCPUs; i++) {
