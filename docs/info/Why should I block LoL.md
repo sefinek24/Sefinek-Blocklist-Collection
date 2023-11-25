@@ -47,4 +47,4 @@ In summary, dealing with aggression in League of Legends entails staying calm, m
 By following these steps, you can protect yourself from toxic behavior and enjoy the game in a safe and welcoming environment.
 
 ## 🐈 Thank you for reading
-If you found this repository useful or interesting, please consider starring it to show your support!
+If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider starring it to show your support!

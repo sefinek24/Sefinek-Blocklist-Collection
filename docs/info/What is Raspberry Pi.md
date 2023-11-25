@@ -40,4 +40,4 @@ In conclusion, Raspberry Pi is a versatile and affordable single-board computer 
 Its popularity has led to a vibrant community of developers and enthusiasts who share their knowledge and expertise through online forums, tutorials, and projects. 👥🌟
 
 ## 🐈 Thank you for reading
-If you found this repository useful or interesting, please consider starring it to show your support!
+If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider starring it to show your support!

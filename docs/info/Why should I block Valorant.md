@@ -32,4 +32,4 @@ In conclusion, while Valorant is a popular game with many positive aspects, ther
 Therefore, some people may choose to block it using a tool like Pi-hole to ensure that their personal information is not being compromised and their overall online security is improved.
 
 ## 🐈 Thank you for reading
-If you found this repository useful or interesting, please consider starring it to show your support!
+If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider starring it to show your support!

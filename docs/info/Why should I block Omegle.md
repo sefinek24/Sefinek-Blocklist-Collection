@@ -28,4 +28,4 @@ In conclusion, while Omegle can be a fun and entertaining platform, it's importa
 By taking precautions and using tools such as Pi-hole, users can protect themselves and their loved ones from the potential dangers posed by this platform.
 
 ## 🐈 Thank you for reading
-If you found this repository useful or interesting, please consider starring it to show your support!
+If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider starring it to show your support!
