@@ -18,17 +18,22 @@ router.use('/markdown/info', autoIndex(path.join(__dirname, '..', '..', 'docs', 
 router.use('/markdown/tutorials', autoIndex(path.join(__dirname, '..', '..', 'docs', 'tutorials'), options));
 
 router.use('/viewer/:type', async (req, res) => {
-	const file = req.url.replace(`/viewer/${req.params.type}`, '').replace(/-/g, ' ');
+	const file = req.url.replace(`/viewer/${req.params.type}`, '').replace(/_/g, ' ');
 	const fileName = `${file}.md`;
 	const fullPath = path.join(__dirname, '..', '..', 'docs', req.params.type, fileName);
 
-	const stat = await fs.promises.lstat(fullPath);
-	if (stat.isDirectory()) return res.sendStatus(404);
+	try {
+		const stat = await fs.promises.lstat(fullPath);
+		if (stat.isDirectory()) return res.sendStatus(404);
 
-	const mdFile = await fs.promises.readFile(fullPath, 'utf8');
-	const html = Marked.parse(mdFile);
+		const mdFile = await fs.promises.readFile(fullPath, 'utf8');
+		const html = Marked.parse(mdFile);
 
-	res.render('markdown-viewer.ejs', { version, html, file });
+		res.render('markdown-viewer.ejs', { version, html, file });
+	} catch (err) {
+		res.sendStatus(500);
+		console.error(err);
+	}
 });
 
 
