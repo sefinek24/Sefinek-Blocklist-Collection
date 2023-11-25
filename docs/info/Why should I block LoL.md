@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/Why_should_I_block_LoL
 ]]> -->
 
 ## 🤔 Why should I block League of Legends?

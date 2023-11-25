@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/block/Advertising
 ]]> -->
 
 ## 🚫 Domains with Malicious Ads

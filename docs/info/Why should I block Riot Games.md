@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/Why_should_I_block_Riot_Games
 ]]> -->
 
 ## 🤔 Why should I block Valorant?

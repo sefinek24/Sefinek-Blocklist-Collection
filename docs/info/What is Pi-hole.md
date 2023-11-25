@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/What_is_Pi-hole
 ]]> -->
 
 ## 🍒 Pi-hole: A Powerful Ad Blocker and Privacy-Enhancing Tool

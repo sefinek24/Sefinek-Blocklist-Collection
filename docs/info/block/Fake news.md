@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/block/Fake_news
 ]]> -->
 
 ## 📰 Identifying and Blocking Fake News Domains

@@ -2,7 +2,7 @@
 ###### Title: How to Install Unbound for Pi-hole?
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/tutorials/How_to_install_Unbound_for_Pi-hole
 ]]> -->
 
 # 🤖 How to Install Unbound for Pi-hole?

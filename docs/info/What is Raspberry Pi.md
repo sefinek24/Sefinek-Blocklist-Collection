@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/What_is_Raspberry_Pi
 ]]> -->
 
 ## 🍓 What is Raspberry Pi? 

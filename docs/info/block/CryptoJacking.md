@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/block/CryptoJacking
 ]]> -->
 
 ## 🧮 What are Cryptojacking Domains?

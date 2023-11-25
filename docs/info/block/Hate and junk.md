@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/block/Hate_and_junk
 ]]> -->
 
 ## 😪 List of Hate and Junk Domains

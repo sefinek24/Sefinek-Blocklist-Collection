@@ -1,8 +1,8 @@
 <!-- [[> SEO
-###### Title: How to Install and Configure Pi-hole for Network-Level Ad Blocking
-###### Description: 
-###### Tags: 
-###### Canonical: 
+###### Title: How to Install and Configure Pi-hole
+###### Description: test1
+###### Tags: 1, 2, 3, 4
+###### Canonical: /viewer/tutorials/How_to_install_Pi-hole
 ]]> -->
 
 ## 🍒 How to Install and Configure Pi-hole for Network-Level Ad Blocking

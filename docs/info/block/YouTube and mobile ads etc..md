@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/block/YouTube_and_mobile_ads_etc.
 ]]> -->
 
 ## 📃 Information

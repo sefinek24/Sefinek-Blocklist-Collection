@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/block/Block_websites_and_games
 ]]> -->
 
 ## 🔒 Block TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends

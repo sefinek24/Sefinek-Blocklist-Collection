@@ -2,7 +2,7 @@
 ###### Title: 
 ###### Description: 
 ###### Tags: 
-###### Canonical: 
+###### Canonical: /viewer/info/block/Scam
 ]]> -->
 
 ## 🕵️‍♀️ Scam domains
