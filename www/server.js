@@ -28,13 +28,13 @@ app.set('views', path.join(__dirname, 'views'));
 // Use
 app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false }));
 
-// Ratelimits & morgan
+// Static (public)
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Morgan & ratelimits & timeout
 app.use(logger.use);
 app.use(limiter);
 app.use(timeout());
-
-// Static (public)
-app.use(express.static(path.join(__dirname, 'public')));
 
 // Static (docs)
 app.use('/docs', express.static(path.join(__dirname, '..', 'docs')));
@@ -42,7 +42,7 @@ app.use('/docs', express.static(path.join(__dirname, '..', 'docs')));
 
 
 // Stats
-app.use('*', increment.requests);
+app.get('*', increment.requests);
 
 // Endpoints
 app.use(require('./routes/Main.js'));

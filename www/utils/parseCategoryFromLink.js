@@ -1,6 +1,4 @@
-module.exports = url => {
-	const parts = url.split('/');
-	if (parts.length >= 3) return parts[1];
-
-	return null;
+module.exports = (url) => {
+	const [, , result] = url.split('/');
+	return result === '0.0.0.0' ? '00000' : result === '127.0.0.1' ? '127001' : result;
 };

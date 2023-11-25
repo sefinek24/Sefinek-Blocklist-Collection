@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const autoIndex = require('express-autoindex');
-const path = require('path');
-const increment = require('../middlewares/increment.js');
+const path = require('node:path');
 
 // Variables
 const SERVE_FILES = process.env.SERVE_FILES;
@@ -11,8 +10,8 @@ const SERVE_FILES = process.env.SERVE_FILES;
 const generated = path.join(__dirname, '..', '..', 'blocklist', 'generated');
 const ZeroZeroZeroZero = path.join(__dirname, '..', '..', 'blocklist', 'generated', '0.0.0.0');
 const logs = path.join(__dirname, '..', 'public', 'logs');
-const optionsGenerated = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'generated.html'), dirAtTop: true };
-const optionsLogs = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'logs.html'), dirAtTop: true };
+const optionsGenerated = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'generated.html') };
+const optionsLogs = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'logs.html') };
 
 // Functions
 const redirectMiddleware = (req, res) => {
@@ -25,9 +24,9 @@ const redirectMiddleware = (req, res) => {
 
 // Serve block lists
 if (SERVE_FILES === 'static') {
-	router.use('/generated', increment.blocklist, autoIndex(generated, optionsGenerated), express.static(generated));
+	router.use('/generated', autoIndex(generated, optionsGenerated));
 } else if (SERVE_FILES === 'redirect') {
-	router.use('/generated', increment.blocklist, /* autoIndex(generated, options), */ redirectMiddleware);
+	router.get('/generated', redirectMiddleware);
 } else {
 	console.error('Invalid value for the SERVE_FILES environment variable');
 	process.exit(1);
