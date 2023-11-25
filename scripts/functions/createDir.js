@@ -1,4 +1,4 @@
-const { mkdir } = require('fs');
+const { mkdir } = require('node:fs');
 
 module.exports = path => {
 	mkdir(path, { recursive: true }, err => {
