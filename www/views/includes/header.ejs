@@ -10,11 +10,11 @@
     <% if (process.env.NODE_ENV === 'production') { %>
         <% if (meta.siteName) { %><meta property="og:siteName" content="<%= meta.siteName %>"><% } %>
         <% if (meta.color) { %><meta name="theme-color" content="<%= meta.color %>"><% } %>
-        <meta property="og:url" content="<%= process.env.DOMAIN %>>">
+        <meta property="og:url" content="<%= process.env.DOMAIN %>">
+    <% } %>
 
-        <% if (canonical || canonical === '') { %>
-            <link rel="canonical" href="<%= `${process.env.DOMAIN}${process.env.NODE_ENV === 'production' ? '' : `:${process.env.PORT}`}` %>">
-        <% } %>
+    <% if (canonical || canonical === '') { %>
+        <link rel="canonical" href="<%= process.env.NODE_ENV === 'production' ? `${process.env.DOMAIN}${canonical}` : `${process.env.DOMAIN}:${process.env.PORT}${canonical}` %>">
     <% } %>
 
     <link rel="stylesheet" href="/css/default.css">
