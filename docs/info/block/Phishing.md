@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🎣 Phishing Domains
 Phishing domains are websites designed to mimic legitimate websites to deceive users into sharing sensitive information such as usernames, passwords, and credit card numbers.
 Phishing websites often use social engineering techniques, such as creating a sense of urgency or pretending to be a trustworthy organization, to trick users into divulging their personal information.

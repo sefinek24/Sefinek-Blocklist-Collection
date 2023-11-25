@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🕵️‍♀️ Scam domains
 Scam domains refer to fraudulent websites that aim to deceive individuals by offering them something that is too good to be true or by luring them into revealing personal information or providing money.
 Scams can manifest in various forms, including phishing, lottery scams, and investment scams.

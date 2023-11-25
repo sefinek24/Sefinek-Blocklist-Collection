@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 📃 Information
 Here is some additional information on pointless/unused domains:
 

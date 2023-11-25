@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🔍 Spyware Domains
 Spyware domains are websites or internet domains that are used by malicious actors to track user behavior, collect personal data, and perform other malicious activities without the user's knowledge or consent.
 By blocking these domains with Pi-hole, you can improve the privacy and security of your device.

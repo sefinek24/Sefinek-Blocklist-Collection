@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 # 🔧 Regex
 Pi-hole allows you to use regular expressions to create [custom blocklists](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/info/regex/List.md#-----regex-filters-provided-by-mmotti). This means you can block an entire domain or specific parts of a domain using a single rule.
 

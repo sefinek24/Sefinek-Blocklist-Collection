@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🗑️ Abuse Domains
 Abuse domains are websites or URLs associated with abusive behavior, such as spamming, phishing, or distributing malware.
 By blocking these domains with Pi-hole, you can enhance the security and privacy of your devices and network, and protect them from these types of attacks.

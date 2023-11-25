@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 📃 Information
 Here is a list of URLs containing domains that can be blocked in Pi-hole to improve online safety and reduce potential risks.
 However, please note that this list may not be exhaustive.

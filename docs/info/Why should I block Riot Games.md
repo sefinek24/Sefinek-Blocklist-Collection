@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🤔 Why should I block Valorant?
 Riot Games is a beloved game developer responsible for the creation of popular games like League of Legends (LoL), Valorant, and Teamfight Tactics.
 These games boast millions of players worldwide and offer plenty of fun and entertainment.

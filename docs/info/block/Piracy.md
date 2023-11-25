@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🔒 What are Piracy Domains?
 Piracy domains are websites, servers, and services that are used to distribute copyrighted content such as movies, music, books, and computer games without permission from the copyright holders.
 Accessing and downloading such content from these domains is illegal and can result in serious legal consequences.

@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🤔 Why should I block Omegle?
 Omegle is a popular online chat website that allows users to connect with strangers anonymously.
 It's a simple concept: users are randomly paired for one-on-one chat sessions, during which they can either remain anonymous or reveal their identities to each other.

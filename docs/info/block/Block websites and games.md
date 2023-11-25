@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🔒 Block TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends
 Blocking access to certain services, particularly
 [TikTok](../Why%20should%20I%20block%20TikTok.md), [Snapchat](../Why%20should%20I%20block%20Snapchat.md), [Omegle](../Why%20should%20I%20block%20Omegle.md), [Riot Games](../Why%20should%20I%20block%20Riot%20Games.md), [Valorant](../Why%20should%20I%20block%20Valorant.md), and [League of Legends](../Why%20should%20I%20block%20LoL.md),

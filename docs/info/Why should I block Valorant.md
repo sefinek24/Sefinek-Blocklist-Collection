@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🤔 Why should I block Valorant?
 Valorant is a first-person shooter game developed by Riot Games that was released in 2020.
 It has gained a large following and become a significant part of the esports scene.

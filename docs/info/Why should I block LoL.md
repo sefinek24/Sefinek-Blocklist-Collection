@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🤔 Why should I block League of Legends?
 League of Legends (LoL) is a popular multiplayer online battle arena (MOBA) game developed and published by Riot Games.
 However, it has gained a reputation for having a toxic community characterized by verbally abusive, hostile, or insulting behavior towards other players.

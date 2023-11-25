@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 😣 Ransomware Domains
 Ransomware is a type of malware that encrypts a victim's files and demands payment (usually in cryptocurrency) in exchange for the decryption key.
 These attacks can have devastating consequences, as the victim's files may be lost forever if the ransom is not paid.

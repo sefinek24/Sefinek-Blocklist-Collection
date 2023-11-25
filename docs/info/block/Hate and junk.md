@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 😪 List of Hate and Junk Domains
 Hate and junk domains are those that contain content related to hate speech, spam, or other unwanted material.
 These types of domains can be blocked in Pi-hole or other network-level blockers to prevent users from accessing them.

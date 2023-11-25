@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🚫 Domains with Malicious Ads
 Advertisements are commonly encountered on various websites and serve as a source of revenue for their owners (e.g., through Google AdSense).
 Although they can be bothersome or annoying at times, they can also pose a threat to the security of your device.

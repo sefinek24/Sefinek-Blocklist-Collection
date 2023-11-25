@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: How to Install and Configure Pi-hole for Network-Level Ad Blocking
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🍒 How to Install and Configure Pi-hole for Network-Level Ad Blocking
 Pi-hole is a free and open-source DNS-based ad blocker that can block ads and trackers at the network level.
 By setting it up on your device, you can enjoy enhanced online safety and protection against unwanted ads and malicious websites.

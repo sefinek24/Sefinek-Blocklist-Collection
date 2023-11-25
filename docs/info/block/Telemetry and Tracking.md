@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 📝 Information
 Please note that the following is a list of some telemetry and tracking domains that can be blocked using Pi-hole, but it is not necessarily exhaustive.
 Blocking these domains can improve online safety and help protect your privacy.

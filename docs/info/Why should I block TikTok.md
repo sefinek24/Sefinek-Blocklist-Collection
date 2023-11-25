@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🤔 Why should I block TikTok?
 TikTok is a social media platform that has gained immense popularity, especially among younger generations, in recent years.
 It enables users to create short videos, usually around 15 seconds long, with a variety of effects, filters, and music.

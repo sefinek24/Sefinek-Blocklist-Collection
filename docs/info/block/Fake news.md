@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 📰 Identifying and Blocking Fake News Domains
 Fake news domains refer to websites that deliberately publish false or misleading information with the aim of manipulating public opinion or generating traffic for their own gain.
 They pose a significant challenge as they can spread misinformation on crucial issues and undermine trust in legitimate sources of information.

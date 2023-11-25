@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## ✅ AMP Domains
 AMP (Accelerated Mobile Pages) is an open-source framework developed by Google to help speed up the loading of mobile web pages.
 It is designed to deliver content quickly on mobile devices by removing unnecessary features and optimizing the HTML code.

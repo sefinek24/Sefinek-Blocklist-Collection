@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🤡 Drug-Related Domains
 Drug-related domains refer to websites that provide information about illegal drugs or promote their use.
 These sites are associated with drug addiction and can have serious negative consequences for individuals and society as a whole.

@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: How to Install Unbound for Pi-hole?
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 # 🤖 How to Install Unbound for Pi-hole?
 If you want to improve the performance and security of your [Pi-hole](../info/What%20is%20Pi-hole.md)
 setup, you can install Unbound, a DNS resolver that provides more advanced features than the default DNS server used by Pi-hole.

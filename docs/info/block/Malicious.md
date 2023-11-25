@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🛡️ Malicious domains
 These are domains that are known to host or distribute malicious software such as viruses, trojans, ransomware, or spyware.
 Some of them may be considered dangerous or malicious.

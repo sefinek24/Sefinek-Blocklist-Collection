@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🍑 Porn Domains
 Pornography domains are websites that contain explicit sexual content, such as images, videos, and text.
 While some individuals may not see anything wrong with pornography, it can be a problem, particularly when accessed by minors or in inappropriate contexts.

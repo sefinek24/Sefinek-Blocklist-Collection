@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🧮 What are Cryptojacking Domains?
 Cryptojacking domains refer to websites that use visitors' devices to mine cryptocurrencies without their knowledge or consent.
 These domains typically have scripts embedded in them that run in the background, using the visitors' CPU resources to mine cryptocurrency.

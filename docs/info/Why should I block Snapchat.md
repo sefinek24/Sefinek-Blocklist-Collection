@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🤔 Why should I block Snapchat?
 Snapchat is a popular social media app that enables users to share photos and videos that disappear after a short period.
 Although it may seem like a fun way to stay connected with friends and share experiences, it is essential to consider the concerns around privacy and data security.

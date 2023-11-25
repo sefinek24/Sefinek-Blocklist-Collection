@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🍓 What is Raspberry Pi? 
 Raspberry Pi is a single-board computer developed by the Raspberry Pi Foundation in the United Kingdom 🇬🇧.
 It is about the size of a credit card and was first introduced in 2012.

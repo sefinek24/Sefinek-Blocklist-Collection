@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 🍒 Pi-hole: A Powerful Ad Blocker and Privacy-Enhancing Tool
 Pi-hole is a network-level ad blocker and privacy-enhancing tool that enables users to block unwanted content from their internet connection.
 It operates at the DNS (Domain Name System) level, blocking ads and other undesired content before it even reaches your devices.

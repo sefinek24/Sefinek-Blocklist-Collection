@@ -1,3 +1,10 @@
+<!-- [[> SEO
+###### Title: 
+###### Description: 
+###### Tags: 
+###### Canonical: 
+]]> -->
+
 ## 📩 Spam Mail Domains
 Spam mail domains are websites known for sending unsolicited and often fraudulent emails.
 These emails can contain different types of scams, including phishing attempts, malware distribution, and fake promotions.
