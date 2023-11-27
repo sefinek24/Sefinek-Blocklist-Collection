@@ -5,7 +5,7 @@
 ###### Canonical: /viewer/info/What_is_Pi-hole
 ]]> -->
 
-## 🍒 Pi-hole: A Powerful Ad Blocker and Privacy-Enhancing Tool
+# 🍒 Pi-hole: A Powerful Ad Blocker and Privacy-Enhancing Tool
 Pi-hole stands as a network-level ad blocker and privacy tool, empowering users to filter out unwanted content from their internet connection.
 It operates at the DNS (Domain Name System) level, intercepting ads and undesirable content before it reaches your devices.
 This process not only accelerates internet browsing but also fortifies privacy and curtails data consumption by your devices.
@@ -55,5 +55,5 @@ Pi-hole offers several advantages over other ad-blocking solutions:
 
 Overall, Pi-hole is a versatile tool capable of blocking undesirable domains and providing functionalities such as enhanced privacy, improved performance, and customizable control over your network's content, making it a valuable asset for various online needs.
 
-## 🐈 Thank you for reading
+### 🐈 Thank you for reading
 If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider giving it a star to show your support!
