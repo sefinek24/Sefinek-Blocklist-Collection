@@ -10,6 +10,11 @@ Pi-hole stands as a free and open-source DNS-based ad blocker that effectively b
 Installing it on your device ensures heightened online safety by shielding against unwanted ads and malicious websites.
 Let's delve into the step-by-step process of installing and configuring Pi-hole:
 
+## 🔧 Step 0: Update your operating system
+```bash
+sudo apt update && sudo apt upgrade
+```
+
 ## 🔧 Step 1: Install Pi-hole (One-Step Automated Installation)
 Those who want to get started quickly and conveniently may install Pi-hole using the following command:
 ```bash
