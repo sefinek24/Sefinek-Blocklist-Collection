@@ -43,7 +43,7 @@ router.use('/viewer/:type', async (req, res) => {
 		.replace(/\.md/, '')
 		.replace(/%20/g, ' ');
 
-	if (file.includes('..') || file.includes('//') || file.includes('\\')) return res.status(404).send('Invalid file name');
+	if (file.includes('..') || file.includes('//') || file.includes('\\')) return res.sendStatus(404);
 	if (file.endsWith('.txt')) return res.redirect(`/docs/${category}/${file}`);
 
 	try {
