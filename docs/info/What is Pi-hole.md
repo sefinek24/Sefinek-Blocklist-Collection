@@ -62,4 +62,4 @@ and customizable control over your network's content, making it a valuable asset
 
 <hr>
 <h3 align="center">🐈 Thank you for reading</h3>
-If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">this repository</a> useful or interesting, please consider giving it a star to show your support!
+If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank" title="sefinek24/Sefinek-Blocklist-Collection">this repository</a> useful or interesting, please consider giving it a star to show your support!
