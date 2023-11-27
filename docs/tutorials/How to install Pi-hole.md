@@ -60,10 +60,12 @@ To ensure Pi-hole is functioning correctly, it's important to monitor its activi
 2. Check the dashboard for information on blocked domains and activity on your network.
 
 ## 📝 Conclusion
-By following these straightforward steps, you can set up Pi-hole on your device and begin blocking unwanted domains today! Pi-hole is versatile, compatible with various devices like Raspberry Pi, Docker containers, and virtual machines.
+By following these straightforward steps, you can set up Pi-hole on your device and begin blocking unwanted domains today!
+Pi-hole is versatile, compatible with various devices like Raspberry Pi, Docker containers, and virtual machines.
 Offering fundamental network-level ad-blocking and malware protection, it's adaptable to multiple devices such as smartphones, smart TVs, and gaming consoles.
 
-It's crucial to remember that while Pi-hole enhances security, it isn't a substitute for a VPN or antivirus software. Nonetheless, when used alongside them, it provides an extra layer of protection.
+It's crucial to remember that while Pi-hole enhances security, it isn't a substitute for a VPN or antivirus software.
+Nonetheless, when used alongside them, it provides an extra layer of protection.
 
 In summary, Pi-hole is an effective and free ad-blocking solution that can enhance your online privacy and security. Try it out today!
 
