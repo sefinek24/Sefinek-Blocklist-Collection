@@ -30,12 +30,12 @@ However, you can also add a custom list of domains to block. Here's how:
 2. Click on `Adlists`.
 3. Add new URL addresses from [this list](../../lists/md/Pi-hole.md) or generate your own list using [🍒 Pi-hole Blocklist customization (recommended)](https://sefinek.net/blocklist-generator/pihole).
 
-## 🔄 Step 4: Ensure you have the latest version of Pi-hole
+## 🔄 Step 4: Ensure you have the latest version of Pi-hole (recommended)
 To keep Pi-hole up to date, it needs regular updates. Here's how to do it:
 1. Open the terminal and connect to your server using the SSH protocol.
 2. Execute the following command: `pihole -up`
 
-## 🛡️ Step 6: Additional Security Measures (important)
+## 🛡️ Step 6: Additional Security Measures (recommended)
 ### a) Install the Unbound resolver
 Click [here](./How%20to%20install%20Unbound%20for%20Pi-hole.md) to learn how to do it.
 
