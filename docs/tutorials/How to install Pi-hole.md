@@ -5,7 +5,7 @@
 ###### Canonical: /viewer/tutorials/How_to_install_Pi-hole
 ]]> -->
 
-# 🍒 How to install and configure Pi-hole for improved network security?
+# 🍒 How to install and configure Pi-hole? Step by step
 Pi-hole stands as a free and open-source DNS-based ad blocker that effectively bars ads and trackers at the network level.
 Installing it on your device ensures heightened online safety by shielding against unwanted ads and malicious websites.
 Let's delve into the step-by-step process of installing and configuring Pi-hole:
