@@ -66,6 +66,9 @@ If you're unable or unwilling to update this file regularly, you can add a new c
    ```
 
 2. Paste the following configuration into the file:
+<details>
+  <summary>Click here to show the content of the `conf` file</summary>
+
    ```yaml
    server:
       # If no logfile is specified, syslog is used
@@ -135,7 +138,7 @@ If you're unable or unwilling to update this file regularly, you can add a new c
       private-address: fd00::/8
       private-address: fe80::/10
    ```
-
+   </details>
 
 ## » Step 5: Restart Unbound
 To apply the changes, restart Unbound by running the following commands:

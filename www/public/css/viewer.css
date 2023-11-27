@@ -50,6 +50,19 @@ ol, ul {
     padding-left: 33px;
 }
 
+summary {
+    padding-top: 6px;
+    font-family: "Calibri Light", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    color: #8c8cff;
+    user-select: none;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
+
 /* Code and Syntax Highlighting */
 code {
     font-family: 'Courier New', Courier, monospace;
