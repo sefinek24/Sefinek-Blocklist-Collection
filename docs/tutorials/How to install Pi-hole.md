@@ -13,7 +13,7 @@ Here's a step-by-step guide to installing and configuring Pi-hole on your device
 ## 🔧 Step 1: Install Pi-hole
 In order to use Pi-hole, you will need to install it on your device.
 Follow the instructions provided on the Pi-hole website: https://docs.pi-hole.net/main/basic-install to complete the installation process.
-Make sure to check the requirements before installing, which are available here: https://docs.pi-hole.net/main/prerequisites.
+Make sure to check the requirements before installing, which are available here: https://docs.pi-hole.net/main/prerequisites
 
 ## 🌐 Step 2: Configure Pi-hole
 After installing Pi-hole, you need to configure it to work with your network by setting it as your DNS server.

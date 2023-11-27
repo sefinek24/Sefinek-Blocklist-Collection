@@ -64,7 +64,7 @@ If you're unable or unwilling to update this file regularly, you can add a new c
    ```bash
    sudo nano /etc/unbound/unbound.conf.d/pi-hole.conf
    ```
-   
+
 2. Paste the following configuration into the file:
    ```yaml
    server:
@@ -187,7 +187,6 @@ Yay! We've successfully obtained the IP address for [sefinek.net](https://sefine
 
 ## » Step 7: Final tests
 It's vital to ensure that everything is operating flawlessly.
-You can verify the functionality of your ad blocker by visiting https://d3ward.github.io/toolz/adblock.html.
-This tool helps test the effectiveness of your ad-blocking setup.
+You can verify the functionality of your DNS resolver by visiting https://d3ward.github.io/toolz/adblock.html. This tool helps test the effectiveness of your ad-blocking setup.
 
 ### 🎉 You have successfully installed Unbound for Pi-hole!
