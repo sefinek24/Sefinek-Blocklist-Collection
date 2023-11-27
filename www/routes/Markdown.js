@@ -19,9 +19,7 @@ const CANONICAL_REGEX = /\* Canonical\s+:\s+(.*)/;
 
 // Functions
 function convertUrls(link) {
-	if ((/\/viewer\//).test(link)) {
-		link = link.replace(/%20/g, '_').replace('.md', '');
-	}
+	if ((/\/viewer\//).test(link)) link = link.replace(/%20/g, '_').replace('.md', '');
 	return link;
 }
 
@@ -33,9 +31,7 @@ router.use('/markdown/tutorials', autoIndex(path.join(__dirname, '..', '..', 'do
 
 router.use('/viewer/:type', async (req, res) => {
 	const category = req.params.type;
-	if (!(/^[a-zA-Z0-9_-]+$/).test(category)) {
-		return res.status(400).send('Invalid category name');
-	}
+	if (!(/^[a-zA-Z0-9_-]+/).test(category)) return res.sendStatus(400);
 
 	const file = req.url
 		.replace(`/viewer/${category}`, '')
