@@ -74,25 +74,20 @@ In summary, Pi-hole is an effective and free ad-blocking solution that can enhan
 
 ## 📌 Additional information
 ### 🌠 General
-- Pi-hole uses various blocklists, including popular ones like AdBlock, EasyList, and AdAway, to block ads and trackers.
-- Pi-hole can block entire domains rather than just individual ads or trackers.
-- Pi-hole does not require any additional software or browser extensions to function.
-- The performance of Pi-hole may be influenced by factors such as the number of devices on your network and the complexity of the websites you are browsing. If you experience slow browsing or other issues, you may want to consider upgrading the Pi-hole hardware or adjusting its settings for optimal performance.
+- Pi-hole utilizes various blocklists, including well-known ones like EasyList, and AdAway, to effectively block ads and trackers.
+- It can block entire domains rather than singular ads or trackers, enhancing its efficiency.
+- Pi-hole functions independently without the need for extra software or browser extensions.
 
 ### 🐧 Installing Pi-hole on Linux
-Pi-hole is compatible with different operating systems, including Linux. If you are using Linux, you can install Pi-hole through the command line.
-To do so, open your terminal and follow the instructions on the Pi-hole website.
+Pi-hole is compatible with various operating systems, including Linux, and can be installed through the command line.
 
 ### 🚦 Testing Pi-hole
-After installing Pi-hole, you can verify if it is working correctly by using the "debug" tool to run a series of tests and receive feedback on any issues discovered.
-Access the debug tool from your Pi-hole admin console by clicking on `Tools` and selecting `Generate Debug Log`.
+After installation, verify Pi-hole's functionality using the "debug" tool available in the admin console. Access it by navigating to `Tools` and selecting `Generate Debug Log`.
 
 ### 🌍 Pi-hole and VPNs
-If you use a virtual private network (VPN), you may need to configure Pi-hole to work with it.
-You will need to set up Pi-hole as your DNS server for the VPN connection.
-The instructions for this will depend on the VPN software you are using, so consult your VPN's documentation.
+To integrate Pi-hole with a virtual private network (VPN), configure Pi-hole as the DNS server for the VPN connection.
+The configuration steps will vary based on your VPN software; refer to your VPN's documentation for guidance.
 
 ### 📉 Pi-hole Performance
-Pi-hole is designed to be efficient and lightweight.
-However, its performance can be influenced by factors such as the number of devices on your network and the complexity of the websites you visit.
-If you experience slow browsing or other issues, consider upgrading the Pi-hole hardware or adjusting its settings to improve performance.
+While Pi-hole is designed to be resource-efficient, its performance can still be affected by factors like network device quantity and website complexity.
+Consider hardware upgrades or settings modifications to enhance Pi-hole's performance if encountering slow browsing or related issues.
