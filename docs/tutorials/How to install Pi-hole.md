@@ -1,7 +1,7 @@
 <!-- [[> SEO
-###### Title: How to properly install and configure Pi-hole for your network?
-###### Description:
-###### Tags:
+###### Title: Step-by-Step Guide: How to Install and Configure Pi-hole for your network
+###### Description: Discover the step-by-step process to install and configure Pi-hole, the open-source DNS-based ad blocker. Enhance online safety by blocking unwanted ads and trackers at the network level.
+###### Tags: pi-hole, ad blocking, network-level security, internet privacy, open-source software, online advertising, malware protection, device compatibility, Raspberry Pi, Docker containers, cybersecurity tips, ad-blocker setup, DNS configuration, network monitoring, software updates, Unbound resolver, ufw firewall, SSH protocol, VPN integration, antivirus software, ad-blocker efficiency, performance optimization, website complexity, blocklists, EasyList, AdAway, DNS server configuration
 ###### Canonical: /viewer/tutorials/How_to_install_Pi-hole
 ]]> -->
 
