@@ -55,5 +55,5 @@ Pi-hole offers several advantages over other ad-blocking solutions:
 
 Overall, Pi-hole is a versatile tool capable of blocking undesirable domains and providing functionalities such as enhanced privacy, improved performance, and customizable control over your network's content, making it a valuable asset for various online needs.
 
-### 🐈 Thank you for reading
+<h3 align="center">🐈 Thank you for reading</h3>
 If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider giving it a star to show your support!
