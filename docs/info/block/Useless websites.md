@@ -41,5 +41,5 @@ Below are some example URLs with lists of pointless/unused domains that you may 
 
 ## 🐈 Thank you for reading
 If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../../lists/md/Pi-hole.md).
-Please consider supporting this repository by starring it if you found this information helpful.
+Please consider supporting [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.
