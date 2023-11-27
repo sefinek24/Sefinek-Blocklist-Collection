@@ -5,7 +5,7 @@
 ###### Canonical: /viewer/info/What_is_Raspberry_Pi
 ]]> -->
 
-## 🍓 What is Raspberry Pi?
+# 🍓 What is Raspberry Pi?
 Raspberry Pi is a single-board computer developed by the Raspberry Pi Foundation in the United Kingdom 🇬🇧.
 It is about the size of a credit card and was first introduced in 2012.
 Since then, it has gained immense popularity due to its affordability, versatility, and ease of use.
