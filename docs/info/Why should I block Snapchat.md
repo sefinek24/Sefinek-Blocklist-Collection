@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: Why should I block Snapchat?
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/Why_should_I_block_Snapchat
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : Why should I block Snapchat?
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/Why_should_I_block_Snapchat
+-->
 
 ## 🤔 Why should I block Snapchat?
 Snapchat is a popular social media app that enables users to share photos and videos that disappear after a short period.

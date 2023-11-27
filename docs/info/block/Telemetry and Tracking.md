@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Telemetry_and_Tracking
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Telemetry_and_Tracking
+-->
 
 ## 📝 Information
 Please note that the following is a list of some telemetry and tracking domains that can be blocked using Pi-hole, but it is not necessarily exhaustive.

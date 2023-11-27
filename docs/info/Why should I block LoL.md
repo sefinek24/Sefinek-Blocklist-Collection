@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: Why should I block League of Legends?
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/Why_should_I_block_LoL
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : Why should I block League of Legends?
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/Why_should_I_block_LoL
+-->
 
 ## 🤔 Why should I block League of Legends?
 League of Legends (LoL) is a popular multiplayer online battle arena (MOBA) game developed and published by Riot Games.

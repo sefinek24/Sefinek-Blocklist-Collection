@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: Why should I block TikTok?
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/Why_should_I_block_TikTok
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : Why should I block TikTok?
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/Why_should_I_block_TikTok
+-->
 
 ## 🤔 Why should I block TikTok?
 TikTok is a social media platform that has gained immense popularity, especially among younger generations, in recent years.

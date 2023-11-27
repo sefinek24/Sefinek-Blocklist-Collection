@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/CryptoJacking
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/CryptoJacking
+-->
 
 ## 🧮 What are Cryptojacking Domains?
 Cryptojacking domains refer to websites that use visitors' devices to mine cryptocurrencies without their knowledge or consent.

@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Gambling
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Gambling
+-->
 
 ## 🕹️ Gambling Domains
 Gambling domains refer to websites that offer online gambling services, such as sports betting, casino games, and poker.

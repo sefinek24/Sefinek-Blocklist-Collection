@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Redirect
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Redirect
+-->
 
 ## 📃 Information
 Here is a list of URLs containing domains that can be blocked in Pi-hole to improve online safety and reduce potential risks.

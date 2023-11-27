@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Malicious
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Malicious
+-->
 
 ## 🛡️ Malicious domains
 These are domains that are known to host or distribute malicious software such as viruses, trojans, ransomware, or spyware.

@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Phishing
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Phishing
+-->
 
 ## 🔒 What are Piracy Domains?
 Piracy domains are websites, servers, and services that are used to distribute copyrighted content such as movies, music, books, and computer games without permission from the copyright holders.

@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/YouTube_and_mobile_ads_etc.
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/YouTube_and_mobile_ads_etc.
+-->
 
 ## 📃 Information
 This is a list of URLs that can be blocked in Pi-hole to improve online safety and reduce potential risks.

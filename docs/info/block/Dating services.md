@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Dating_services
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Dating_services
+-->
 
 ## 💘 Dating Website Domains
 Dating website domains are websites that specialize in helping people find romantic partners, friends, or casual relationships.

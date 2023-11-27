@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Advertising
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Advertising
+-->
 
 ## 🚫 Domains with Malicious Ads
 Advertisements are commonly encountered on various websites and serve as a source of revenue for their owners (e.g., through Google AdSense).

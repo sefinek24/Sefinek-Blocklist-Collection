@@ -12,10 +12,10 @@ const Marked = require('marked');
 Marked.use({ pedantic: false, gfm: true });
 
 // Regex
-const TITLE_REGEX = /^######\s*Title:\s*(.*)/mi;
-const DESC_REGEX = /^######\s*Description:\s*(.*)/mi;
-const TAGS_REGEX = /^######\s*Tags:\s*(.*)/mi;
-const CANONICAL_REGEX = /^######\s*Canonical:\s*(.*)/mi;
+const TITLE_REGEX = /\* Title\s+:\s+(.*)/;
+const DESC_REGEX = /\* Description\s+:\s+(.*)/;
+const TAGS_REGEX = /\* Tags\s+:\s+(.*)/;
+const CANONICAL_REGEX = /\* Canonical\s+:\s+(.*)/;
 
 
 router.get('/markdown', (req, res) => res.render('markdown.ejs', { version }));
@@ -48,7 +48,7 @@ router.use('/viewer/:type', async (req, res) => {
 		const mdFile = await fs.promises.readFile(fullPath, 'utf8');
 		res.render('markdown-viewer.ejs', {
 			html: Marked.parse(mdFile),
-			title: mdFile.match(TITLE_REGEX) ? mdFile.match(TITLE_REGEX)[1] : undefined,
+			title: mdFile.match(TITLE_REGEX) ? mdFile.match(TITLE_REGEX)[1] : 'Unknown title',
 			desc: mdFile.match(DESC_REGEX) ? mdFile.match(DESC_REGEX)[1] : undefined,
 			tags: mdFile.match(TAGS_REGEX) ? mdFile.match(TAGS_REGEX)[1] : undefined,
 			canonical: mdFile.match(CANONICAL_REGEX) ? mdFile.match(CANONICAL_REGEX)[1].trim() : undefined,

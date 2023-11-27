@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: Why should I block Riot Games?
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/Why_should_I_block_Riot_Games
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : Why should I block Riot Games?
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/Why_should_I_block_Riot_Games
+-->
 
 ## 🤔 Why should I block Riot Games?
 Riot Games is a beloved game developer responsible for the creation of popular games like League of Legends (LoL), Valorant, and Teamfight Tactics.

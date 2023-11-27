@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Hate_and_junk
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Hate_and_junk
+-->
 
 ## 😪 List of Hate and Junk Domains
 Hate and junk domains are those that contain content related to hate speech, spam, or other unwanted material.

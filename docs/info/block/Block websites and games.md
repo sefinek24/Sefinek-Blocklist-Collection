@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Block_websites_and_games
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Block_websites_and_games
+-->
 
 ## 🔒 Block TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends
 Blocking access to certain services, particularly

@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: Why should I block Omegle?
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/Why_should_I_block_Omegle
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : Why should I block Omegle?
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/Why_should_I_block_Omegle
+-->
 
 ## 🤔 Why should I block Omegle?
 Omegle is a popular online chat website that allows users to connect with strangers anonymously.

@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Abuse
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Abuse
+-->
 
 ## 🗑️ Abuse Domains
 Abuse domains are websites or URLs associated with abusive behavior, such as spamming, phishing, or distributing malware.

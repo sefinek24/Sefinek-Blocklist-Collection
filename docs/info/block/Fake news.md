@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Fake_news
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Fake_news
+-->
 
 ## 📰 Identifying and Blocking Fake News Domains
 Fake news domains refer to websites that deliberately publish false or misleading information with the aim of manipulating public opinion or generating traffic for their own gain.

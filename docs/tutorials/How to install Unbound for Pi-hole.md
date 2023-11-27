@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: How to Install Unbound for Pi-hole: A Comprehensive Guide
-###### Description: Enhance the performance and security of your Pi-hole setup by installing Unbound, a powerful DNS resolver. Follow this step-by-step guide for seamless integration.
-###### Tags: Pi-hole, Unbound, DNS resolver, DNS security, DNS encryption, cybersecurity, cyber-security, DNSSEC, open-source, performance optimization, secure DNS, installation guide, network security, DNS configuration, DNS-over-TLS, DNS-over-HTTPS, ad blocking, Raspberry Pi, DNS integrity
-###### Canonical: /viewer/tutorials/How_to_install_Unbound_for_Pi-hole
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : How to Install Unbound for Pi-hole: A Comprehensive Guide
+* Description : Enhance the performance and security of your Pi-hole setup by installing Unbound, a powerful DNS resolver. Follow this step-by-step guide for seamless integration.
+* Tags        : Pi-hole, Unbound, DNS resolver, DNS security, DNS encryption, cybersecurity, cyber-security, DNSSEC, open-source, performance optimization, secure DNS, installation guide, network security, DNS configuration, DNS-over-TLS, DNS-over-HTTPS, ad blocking, Raspberry Pi, DNS integrity
+* Canonical   : /viewer/tutorials/How_to_install_Unbound_for_Pi-hole
+-->
 
 # 🤖 Boost Pi-hole Performance with Unbound DNS Resolver
 If you're looking to boost the performance and security of your [Pi-hole](../info/What%20is%20Pi-hole.md) setup, installing Unbound is a great choice.

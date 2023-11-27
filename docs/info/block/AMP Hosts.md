@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/AMP_Hosts
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/AMP_Hosts
+-->
 
 ## ✅ AMP Domains
 AMP (Accelerated Mobile Pages) is an open-source framework developed by Google to help speed up the loading of mobile web pages.

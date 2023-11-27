@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Phishing
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Phishing
+-->
 
 ## 🎣 Phishing Domains
 Phishing domains are websites designed to mimic legitimate websites to deceive users into sharing sensitive information such as usernames, passwords, and credit card numbers.

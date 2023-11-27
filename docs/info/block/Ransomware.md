@@ -1,9 +1,9 @@
-<!-- [[> SEO
-###### Title: 
-###### Description: 
-###### Tags: 
-###### Canonical: /viewer/info/block/Ransomware
-]]> -->
+<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+* Title       : 
+* Description : 
+* Tags        :
+* Canonical   : /viewer/info/block/Ransomware
+-->
 
 ## 😣 Ransomware Domains
 Ransomware is a type of malware that encrypts a victim's files and demands payment (usually in cryptocurrency) in exchange for the decryption key.
