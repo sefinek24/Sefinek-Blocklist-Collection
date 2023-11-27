@@ -1,5 +1,5 @@
 <!-- [[> SEO
-###### Title: Raspberry Pi: Your Comprehensive Guide to the Versatile Single-Board Computer
+###### Title: Raspberry Pi: Your comprehensive guide to the versatile single-board computer
 ###### Description: Unlock the potential of Raspberry Pi! Learn about its features, applications in education, home automation, robotics, and IoT.
 ###### Tags: raspberry pi, single-board computer, iot, education, home automation, robotics, diy projects, programming, electronics, technology, affordable computing
 ###### Canonical: /viewer/info/What_is_Raspberry_Pi
