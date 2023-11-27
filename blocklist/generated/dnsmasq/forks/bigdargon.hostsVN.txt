@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 22 Nov 2023 09:01 UTC+7
-# Version: 2311220901
-# Blocked: 19,953 domains
+# Last modified: 27 Nov 2023 15:23 UTC+7
+# Version: 2311271523
+# Blocked: 19,959 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11549,6 +11549,14 @@ server=/srv1.aaacompany.net/
 server=/assistads.net/
 server=/adserver.assistads.net/
 server=/media.assistads.net/
+#[llxads.com]
+server=/console.llxads.com/
+server=/llxads.com/
+#[scopely.io]
+server=/adsgard.aprod.scopely.io/
+server=/collector.scopely.io/
+server=/data-sharing-consent.aprod.scopely.io/
+server=/preview-collector.scopely.io/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
