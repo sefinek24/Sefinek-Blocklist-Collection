@@ -44,7 +44,7 @@ Click [here](./How%20to%20install%20Unbound%20for%20Pi-hole.md) to learn how to 
     ```bash
     sudo ufw allow
     ```
-2. Open ports for `SSH [22]`, `HTTP [80]`, `HTTPS [443] port for the new Pi-hole 6 version` & `DNS [53]`
+2. Open ports for `SSH [22]`, `HTTP [80]`, `HTTPS [443] for the new Pi-hole 6 version` & `DNS [53]`
     ```bash
     sudo ufw allow 22/tcp && sudo ufw allow 80/tcp && sudo ufw allow 443/tcp && sudo ufw allow 53
     ```
