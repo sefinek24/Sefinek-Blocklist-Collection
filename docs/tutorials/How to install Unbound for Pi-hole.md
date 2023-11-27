@@ -15,13 +15,12 @@ Its open-source nature fosters continual improvements and transparency within th
 
 > For more details, refer to the [Unbound - Pi-hole documentation](https://docs.pi-hole.net/guides/dns/unbound).
 
-## ⭐ Prerequisites
-Before initiating the installation process, ensure you have the following:
+## » Step 1: Prerequisites
+### a) Before initiating the installation process, ensure you have the following:
 - A Raspberry Pi or another device running Pi-hole
 - Access to the terminal or SSH
 
-
-## » Step 1: Update your system
+### b) Update your system
 Ensure your system is up-to-date by executing the following commands:
 ```bash
 sudo apt update && sudo apt upgrade
