@@ -29,8 +29,8 @@ router.use('/markdown/lists', autoIndex(path.join(__dirname, '..', '..', 'docs',
 router.use('/markdown/info', autoIndex(path.join(__dirname, '..', '..', 'docs', 'info'), options));
 router.use('/markdown/tutorials', autoIndex(path.join(__dirname, '..', '..', 'docs', 'tutorials'), options));
 
-router.use('/viewer/:type', async (req, res) => {
-	const category = req.params.type;
+router.use('/viewer/:category', async (req, res) => {
+	const { category } = req.params;
 	if (!(/^[a-zA-Z0-9_-]+/).test(category)) return res.sendStatus(400);
 
 	const file = req.url
