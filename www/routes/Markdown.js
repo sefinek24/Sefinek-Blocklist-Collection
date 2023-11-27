@@ -17,6 +17,14 @@ const DESC_REGEX = /\* Description\s+:\s+(.*)/;
 const TAGS_REGEX = /\* Tags\s+:\s+(.*)/;
 const CANONICAL_REGEX = /\* Canonical\s+:\s+(.*)/;
 
+// Functions
+function convertUrls(link) {
+	if ((/\/viewer\//).test(link)) {
+		link = link.replace(/%20/g, '_').replace('.md', '');
+	}
+	return link;
+}
+
 
 router.get('/markdown', (req, res) => res.render('markdown.ejs', { version }));
 router.use('/markdown/lists', autoIndex(path.join(__dirname, '..', '..', 'docs', 'lists'), options));
@@ -35,19 +43,18 @@ router.use('/viewer/:type', async (req, res) => {
 		.replace(/\.md/, '')
 		.replace(/%20/g, ' ');
 
-	if (file.includes('..') || file.includes('//') || file.includes('\\')) return res.status(400).send('Invalid file name');
+	if (file.includes('..') || file.includes('//') || file.includes('\\')) return res.status(404).send('Invalid file name');
 	if (file.endsWith('.txt')) return res.redirect(`/docs/${category}/${file}`);
 
 	try {
-		const fileName = `${file}.md`;
-		const fullPath = path.join(__dirname, '..', '..', 'docs', category, fileName);
+		const fullPath = path.join(__dirname, '..', '..', 'docs', category, `${file}.md`);
 
 		const stat = await fs.promises.lstat(fullPath);
 		if (!stat.isFile()) return res.sendStatus(404);
 
 		const mdFile = await fs.promises.readFile(fullPath, 'utf8');
 		res.render('markdown-viewer.ejs', {
-			html: Marked.parse(mdFile),
+			html: Marked.parse(convertUrls(mdFile)),
 			title: mdFile.match(TITLE_REGEX) ? mdFile.match(TITLE_REGEX)[1] : 'Unknown title',
 			desc: mdFile.match(DESC_REGEX) ? mdFile.match(DESC_REGEX)[1] : undefined,
 			tags: mdFile.match(TAGS_REGEX) ? mdFile.match(TAGS_REGEX)[1] : undefined,
