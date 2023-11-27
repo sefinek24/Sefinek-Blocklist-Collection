@@ -39,7 +39,7 @@ To keep Pi-hole up to date, it needs regular updates. Here's how to do it:
 ### a) Install the Unbound resolver
 Click [here](./How%20to%20install%20Unbound%20for%20Pi-hole.md) to learn how to do it.
 
-### b) Enable ufw Firewall if Possible
+### b) Enable ufw firewall if possible
 1. Execute the following command to do so
     ```bash
     sudo ufw allow
