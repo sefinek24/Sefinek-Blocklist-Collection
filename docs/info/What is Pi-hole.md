@@ -36,7 +36,8 @@ Pi-hole offers several advantages over other ad-blocking solutions:
    Pi-hole blocks undesirable domains across your entire network, not just on a specific device or browser.
 
 2. **Reduced data consumption:**
-   Pi-hole's blocking of unwanted domains and content helps minimize the data your devices need to fetch, leading to more efficient data usage, faster internet speeds.
+   Pi-hole's blocking of unwanted domains and content helps minimize the data your devices need to fetch,
+   leading to more efficient data usage, faster internet speeds.
 
 3. **Enhanced privacy:**
    Pi-hole can block many tracking and analytics scripts that websites and advertisers use to collect your data.
@@ -45,7 +46,9 @@ Pi-hole offers several advantages over other ad-blocking solutions:
    Pi-hole allows you to customize its blocklists and whitelist specific domains or IP addresses.
 
 5. **Parental Control and Safe Browsing:**
-   Pi-hole can also function as a parental control tool by efficiently blocking access to websites containing adult content. Its ability to filter specific categories of websites, particularly those designated for adults, positions it as a practical choice for overseeing internet access for children and ensuring a safer browsing experience. With Pi-hole's configuration and filtering options, parents or network administrators can limit access to explicit content, providing an additional level of control over the content accessible within their network.
+   Pi-hole can also function as a parental control tool by efficiently blocking access to websites containing adult content.
+   Its ability to filter specific categories of websites, particularly those designated for adults,
+   positions it as a practical choice for overseeing internet access for children and ensuring a safer browsing experience. With Pi-hole's configuration and filtering options, parents or network administrators can limit access to explicit content, providing an additional level of control over the content accessible within their network.
 
 6. **Ease of Installation:**
    Pi-hole can be installed on a Raspberry Pi or another Linux-based system using a single command and managed through a web interface.
@@ -53,7 +56,10 @@ Pi-hole offers several advantages over other ad-blocking solutions:
 7. **Open source:**
    Pi-hole is an open-source project, meaning it is free to use and can be modified and improved by the community.
 
-Overall, Pi-hole is a versatile tool capable of blocking undesirable domains and providing functionalities such as enhanced privacy, improved performance, and customizable control over your network's content, making it a valuable asset for various online needs.
+Overall, Pi-hole is a versatile tool capable of blocking undesirable domains and providing functionalities such as enhanced privacy, improved performance,
+and customizable control over your network's content, making it a valuable asset for various online needs.
 
+
+<hr>
 <h3 align="center">🐈 Thank you for reading</h3>
-If you found [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) useful or interesting, please consider giving it a star to show your support!
+If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">this repository</a> useful or interesting, please consider giving it a star to show your support!
