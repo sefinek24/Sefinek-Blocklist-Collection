@@ -56,7 +56,7 @@ If you're unable or unwilling to update this file regularly, you can add a new c
    30 6 1 * * wget -qO- https://www.internic.net/domain/named.root | sudo tee /var/lib/unbound/root.hints >/dev/null 2>&1
    ```
    Remember to add a new line at the bottom of the file.
-3. Save the file. To start from now on, your device will update the file automatically at [06:30 every first day of the month](https://crontab.guru/#30_6_1_*_*).
+3. Save the file. To start from now on, your device will update the file automatically at <a href="https://crontab.guru/#30_6_1_*_*" target="_blank">06:30 every first day of the month</a>.
 
 
 ## » Step 4: Configure Unbound
