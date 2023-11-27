@@ -33,7 +33,7 @@ However, you can also add a custom list of domains to block. Here's how:
 ## 🔄 Step 4: Ensure you have the latest version of Pi-hole
 To keep Pi-hole up to date, it needs regular updates. Here's how to do it:
 1. Open the terminal and connect to your server using the SSH protocol.
-2. Execute the following command: `pihole -up`.
+2. Execute the following command: `pihole -up`
 
 ## 🛡️ Step 6: Additional Security Measures (important)
 ### Install the Unbound resolver
