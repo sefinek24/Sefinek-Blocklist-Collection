@@ -9,7 +9,7 @@
 Raspberry Pi is a single-board computer developed by the Raspberry Pi Foundation in the United Kingdom 🇬🇧.
 It is about the size of a credit card and was first introduced in 2012.
 Since then, it has gained immense popularity due to its affordability, versatility, and ease of use.
-The latest model, Raspberry Pi 4, comes with a quad-core ARM Cortex-A72 processor, up to 8 GB of RAM, and 4 USB ports.
+The latest model, Raspberry Pi 5 (from 2023 y.), comes with a quad-core ARM Cortex-A76 processor, up to 8 GB of RAM, and 4 USB ports.
 
 ## 🛠️ What is Raspberry Pi used for?
 Raspberry Pi can be used for a wide range of purposes, from education and hobby projects to professional applications in industries such as robotics, automation, and IoT (Internet of Things) 🚀.
