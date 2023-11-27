@@ -5,7 +5,7 @@
 ###### Canonical: /viewer/tutorials/How_to_install_Pi-hole
 ]]> -->
 
-# 🍒 How to Install and Configure Pi-hole for Network-Level Ad Blocking
+# 🍒 How to Install and Configure Pi-hole for Network-Level Ad Blocking?
 Pi-hole stands as a free and open-source DNS-based ad blocker that effectively bars ads and trackers at the network level.
 Installing it on your device ensures heightened online safety by shielding against unwanted ads and malicious websites.
 Let's delve into the step-by-step process of installing and configuring Pi-hole:
@@ -16,7 +16,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
 curl -sSL https://install.pi-hole.net | bash
 ```
 
-## 🌐 Step 2: Configure Pi-hole
+## 🌐 Step 2: Configure
 After installing Pi-hole, it's necessary to configure it to work with your network by setting it up as the DNS server.
 Here are the steps to follow:
 1. Open your router's configuration page.
