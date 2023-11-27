@@ -29,7 +29,9 @@ If you or someone you know is struggling with drug addiction, please seek help f
 Many resources are available, including hotlines, online forums, and local treatment centers.
 Remember, recovery is possible, and seeking help is the first step towards a healthier, happier life.
 
-## 🐈 Thank you for reading
-If you're interested in using [Pi-hole](../What%20is%20Pi-hole.md) to block unwanted domains, you can find a complete list of blocklists [here](../../../lists/md/Pi-hole.md).
-Please consider supporting [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) by starring it if you found this information helpful.
+
+<hr>
+<h3 align="center">✨ Thank you for reading</h3>
+If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../../lists/md/Pi-hole.md">here</a>.
+Please consider supporting <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">this repository</a> by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

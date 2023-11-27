@@ -26,5 +26,7 @@ In August 2020, it was reported that the app was collecting biometric data from 
 In conclusion, while TikTok is an entertaining app, its privacy and security practices raise serious concerns.
 Blocking TikTok on the home network using tools like Pi-hole can help protect user data and prevent sensitive information from being shared with the app's servers.
 
-## 🐈 Thank you for reading
-> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.
+
+<hr>
+<h3 align="center">✨ Thank you for reading</h3>
+If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank" title="sefinek24/Sefinek-Blocklist-Collection">this repository</a> useful or interesting, please consider giving it a star to show your support!

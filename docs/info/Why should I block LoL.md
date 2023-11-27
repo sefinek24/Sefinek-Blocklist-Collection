@@ -46,5 +46,7 @@ Taking breaks from the game, practicing mindfulness or relaxation techniques, an
 In summary, dealing with aggression in League of Legends entails staying calm, muting or blocking aggressive players, reporting their behavior, surrounding yourself with positive players, and prioritizing your mental health and well-being.
 By following these steps, you can protect yourself from toxic behavior and enjoy the game in a safe and welcoming environment.
 
-## 🐈 Thank you for reading
-> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.
+
+<hr>
+<h3 align="center">✨ Thank you for reading</h3>
+If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank" title="sefinek24/Sefinek-Blocklist-Collection">this repository</a> useful or interesting, please consider giving it a star to show your support!

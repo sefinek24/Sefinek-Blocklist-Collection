@@ -39,5 +39,7 @@ It can also be used to collect, process, and transmit data to cloud services suc
 In conclusion, Raspberry Pi is a versatile and affordable single-board computer that can be used for a wide range of purposes, from education and hobby projects to professional applications in industries such as robotics, automation and IoT.
 Its popularity has led to a vibrant community of developers and enthusiasts who share their knowledge and expertise through online forums, tutorials, and projects. 👥🌟
 
-## 🐈 Thank you for reading
-> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.
+
+<hr>
+<h3 align="center">✨ Thank you for reading</h3>
+If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank" title="sefinek24/Sefinek-Blocklist-Collection">this repository</a> useful or interesting, please consider giving it a star to show your support!

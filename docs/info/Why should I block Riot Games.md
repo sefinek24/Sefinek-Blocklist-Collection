@@ -24,5 +24,7 @@ By removing the temptation to play these games, you can focus on more productive
 In summary, Riot Games and their games are fantastic sources of entertainment, but if you're looking to safeguard your online privacy, avoid toxic communities, or reduce time spent gaming, using Pi-hole to block Riot Games is a wise choice.
 With Pi-hole, you can control your online experience and only engage with content that aligns with your values and priorities.
 
-## 🐈 Thank you for reading
-> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.
+
+<hr>
+<h3 align="center">✨ Thank you for reading</h3>
+If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank" title="sefinek24/Sefinek-Blocklist-Collection">this repository</a> useful or interesting, please consider giving it a star to show your support!

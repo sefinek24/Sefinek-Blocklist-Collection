@@ -27,5 +27,7 @@ Pi-hole is a network-level ad blocker that can also block access to specific dom
 In conclusion, while Snapchat can be a fun way to stay connected with friends, it is essential to be aware of the privacy and security risks associated with the app.
 By taking steps to protect your data and blocking access to Snapchat on your network, you can help ensure a safer and more secure online experience.
 
-## 🐈 Thank you for reading
-> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.
+
+<hr>
+<h3 align="center">✨ Thank you for reading</h3>
+If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank" title="sefinek24/Sefinek-Blocklist-Collection">this repository</a> useful or interesting, please consider giving it a star to show your support!

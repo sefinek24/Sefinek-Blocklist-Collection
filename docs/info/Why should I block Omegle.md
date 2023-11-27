@@ -27,5 +27,7 @@ This can help prevent access to the website and protect users' privacy and secur
 In conclusion, while Omegle can be a fun and entertaining platform, it's important to be aware of the potential risks associated with its use.
 By taking precautions and using tools such as Pi-hole, users can protect themselves and their loved ones from the potential dangers posed by this platform.
 
-## 🐈 Thank you for reading
-> If you find this information helpful, consider giving the [GitHub repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection) a star.
+
+<hr>
+<h3 align="center">✨ Thank you for reading</h3>
+If you found <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank" title="sefinek24/Sefinek-Blocklist-Collection">this repository</a> useful or interesting, please consider giving it a star to show your support!
