@@ -21,8 +21,6 @@ Here are some sample URLs with a list of domains:
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/4skinSkywalker.Anti-Porn.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.porn.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/chadmayfield.pi_blocklist_porn_all.txtcklist_porn_all.list
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/mhhakim.custom-porn-blocklist.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/mhhakim.porn.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/oisd.nsfw.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/Sinfonietta.pornography-hosts.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/porn.txt
