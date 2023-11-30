@@ -125,7 +125,7 @@ urls=(
   # marktron
   "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews,marktron.fakenews.txt"
 
-  # mhhakim
+  # mhhakim (DEPRECATED)
   "https://raw.githubusercontent.com/mhhakim/pihole-blocklist/master/custom-porn-blocklist.txt,mhhakim.custom-porn-blocklist.txt"
 
   # mitchellkrogza

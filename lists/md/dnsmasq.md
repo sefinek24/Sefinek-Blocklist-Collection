@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Dnsmasq - server=/[Domain]/</b><br>
-        📥 » <b>Last update: 14.08.2023 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 30.11.2023 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -76,7 +76,6 @@ https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.hostfile.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.SmartTV_ads.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/malware-filter.urlhaus-filter-hosts-online.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/marktron.fakenews.txt
-https://blocklist.sefinek.net/generated/dnsmasq/forks/mhhakim.custom-porn-blocklist.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/mitchellkrogza.Stop.Google.Analytics.Ghost.Spam-INACTIVE.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/neodevpro.neodevhost.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/notracking.hostnames.txt
