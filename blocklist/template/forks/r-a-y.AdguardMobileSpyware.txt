@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Fri, 24 Nov 2023 01:20:11 +0000
+# Last converted - Mon, 04 Dec 2023 21:18:59 +0000
 #
 
 0.0.0.0 adeventtracker.spotify.com
@@ -23,7 +23,6 @@
 0.0.0.0 logs.supersonic.com
 0.0.0.0 ntracker-collector.naver.com
 0.0.0.0 ace.naver.com
-0.0.0.0 api.sec.intl.miui.com
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 flash.sec.intl.miui.com
 0.0.0.0 api.setting.intl.miui.com
@@ -70,7 +69,6 @@
 0.0.0.0 cdn-settings.appsflyersdk.com
 0.0.0.0 dlsdk.appsflyersdk.com
 0.0.0.0 adrevenue.appsflyer.com
-0.0.0.0 af-event-logger.appsflyer.com
 0.0.0.0 api.appsflyer.com
 0.0.0.0 api2.appsflyer.com
 0.0.0.0 app.appsflyer.com
@@ -96,7 +94,6 @@
 0.0.0.0 sdk-services.appsflyer.com
 0.0.0.0 sdk.appsflyer.com
 0.0.0.0 stats.appsflyer.com
-0.0.0.0 statsgoogle.appsflyer.com
 0.0.0.0 t.appsflyer.com
 0.0.0.0 track.appsflyer.com
 0.0.0.0 validate.appsflyer.com
@@ -125,6 +122,8 @@
 0.0.0.0 int.vlancaa.site
 0.0.0.0 int.vlancaa.fun
 0.0.0.0 tok.vaicore.xyz
+0.0.0.0 api.bytebrew.io
+0.0.0.0 lg-release-tracking-8080.gcld-line.com
 0.0.0.0 iemiq.com
 0.0.0.0 yun-hl.3g.qq.com
 0.0.0.0 up-hl.3g.qq.com
@@ -323,7 +322,6 @@
 0.0.0.0 msg.umengcloud.com
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ulogs.umengcloud.com
-0.0.0.0 ada-tr.staff-start.com
 0.0.0.0 analytics.liveact-vault.com
 0.0.0.0 dex50.deteql.net
 0.0.0.0 analytics.300624.com
@@ -594,7 +592,6 @@
 0.0.0.0 geoip.ifunny.co
 0.0.0.0 alogs.umeng.com
 0.0.0.0 alogs.umengcloud.com
-0.0.0.0 stats.umsns.com
 0.0.0.0 4seeresults.com
 0.0.0.0 adash.m.taobao.com
 0.0.0.0 adfuture.cn
@@ -616,7 +613,6 @@
 0.0.0.0 api.apptentive.com
 0.0.0.0 api.branch.io
 0.0.0.0 api2.branch.io
-0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 api.gimbal.com
 0.0.0.0 appmetrica.yandex.net
@@ -696,4 +692,3 @@
 0.0.0.0 upoll.umengcloud.com
 0.0.0.0 utop.umengcloud.com
 0.0.0.0 analy.qq.com
-0.0.0.0 api.safegraph.com
