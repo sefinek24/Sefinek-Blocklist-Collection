@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 03 Dec 2023 20:48 UTC+7
-# Version: 2312032048
-# Blocked: 19,962 domains
+# Last modified: 05 Dec 2023 22:51 UTC+7
+# Version: 2312052251
+# Blocked: 19,964 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -12626,19 +12626,23 @@ server=/testcentre.vn/
 server=/api.piads.vn/
 server=/piads.vn/
 server=/static.piads.vn/
-#[haraloyalty.com]
-server=/app.haraloyalty.com/
-server=/haraloyalty.com/
-server=/www.haraloyalty.com/
-#[harafunnel.com]
+#[hara*.com]
 server=/app.harafunnel.com/
-server=/assets.harafunnel.com/
-server=/harafunnel.com/
-server=/www.harafunnel.com/
-#[haraads.com]
+server=/app.haraloyalty.com/
+server=/app.harasocial.com/
 server=/apps.haraads.com/
-server=/haraads.com/
-server=/www.haraads.com/
+server=/assets.harafunnel.com/
+#[haravan.com]
+server=/combo-omni.haravan.com/
+server=/socialloginplus-apps.haravan.com/
+server=/facebookinbox-omni-onapp.haravan.com/
+server=/promotion.haravan.com/
+server=/onapp.haravan.com/
+#[hara.vn]
+server=/facebook-ads.hara.vn/
+server=/google-ads.hara.vn/
+server=/stats.hara.vn/
+server=/tiktok-ads.hara.vn/
 #[starseed.fr]
 server=/cdn.starseed.fr/
 server=/log.starseed.fr/
@@ -13021,12 +13025,6 @@ server=/aanetwork.vn/
 server=/cdn.aanetwork.vn/
 server=/imgs2.aanetwork.vn/
 server=/pub.aanetwork.vn/
-#[haravan.com]
-server=/combo-omni.haravan.com/
-server=/socialloginplus-apps.haravan.com/
-server=/facebookinbox-omni-onapp.haravan.com/
-server=/promotion.haravan.com/
-server=/onapp.haravan.com/
 #[ultraviewer.net]
 server=/ads.ultraviewer.net/
 server=/qc.ultraviewer.net/
@@ -21097,6 +21095,7 @@ server=/kameleoon.eu/
 server=/kidsghibli.com/
 server=/kissmetrics.com/
 server=/kitbit.net/
+server=/knotch-cdn.com/
 server=/largeer.com/
 server=/lcs.loginfra.com/
 server=/leadzutw.com/
@@ -21288,6 +21287,7 @@ server=/smart-dmp.com/
 server=/smetrics.bestbuy.com/
 server=/smetrics.boston.com/
 server=/smetrics.fedex.com/
+server=/smetrics.foxnews.com/
 server=/snap.licdn.com/
 server=/snnd.co/
 server=/snowplow-pixel.tradingview.com/
@@ -21467,6 +21467,7 @@ server=/www.hitcpm.com/
 server=/www.hostg.xyz/
 server=/www.hypestat.com/
 server=/www.jsonip.com/
+server=/www.knotch-cdn.com/
 server=/www.montacarichi.it/
 server=/www.mousestats.com/
 server=/www.npttech.com/
