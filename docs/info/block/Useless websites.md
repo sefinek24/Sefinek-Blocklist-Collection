@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Pointless/Unused Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Useless_websites

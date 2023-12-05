@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Identifying and Blocking Fake News Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Fake_news

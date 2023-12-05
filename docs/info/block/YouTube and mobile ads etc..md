@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : YouTube and Mobile Ad Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/YouTube_and_mobile_ads_etc.

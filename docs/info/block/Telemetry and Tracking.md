@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Telemetry Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Telemetry_and_Tracking

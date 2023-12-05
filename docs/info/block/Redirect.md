@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Redirect Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Redirect

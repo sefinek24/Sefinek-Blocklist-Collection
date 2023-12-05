@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Abuse Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Abuse

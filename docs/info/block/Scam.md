@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Scam domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Scam

@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : List of Hate and Junk Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Hate_and_junk

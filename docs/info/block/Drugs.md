@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Drug-Related Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Drugs

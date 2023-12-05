@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Phishing Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Phishing

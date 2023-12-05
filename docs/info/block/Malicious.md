@@ -1,11 +1,11 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Malicious Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Malicious
 -->
 
-## 🛡️ Malicious domains
+## 🛡️ Malicious Domains
 These are domains that are known to host or distribute malicious software such as viruses, trojans, ransomware, or spyware.
 Some of them may be considered dangerous or malicious.
 By blocking access to these domains using tools like Pi-hole, you can prevent devices from getting infected with harmful programs.

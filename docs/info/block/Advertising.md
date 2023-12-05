@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : Domains with Malicious Ads
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/Advertising

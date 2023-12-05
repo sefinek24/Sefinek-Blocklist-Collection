@@ -1,5 +1,5 @@
 <!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
-* Title       : 
+* Title       : AMP Domains
 * Description : 
 * Tags        :
 * Canonical   : /viewer/info/block/AMP_Hosts
