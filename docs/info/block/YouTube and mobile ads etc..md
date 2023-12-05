@@ -17,7 +17,6 @@ While ads can be a source of revenue for content creators and app developers, th
 
 Here are some URLs associated with these domains that you can block using Pi-hole:
 - https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt
-- https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/black.list
 - https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
 
 
