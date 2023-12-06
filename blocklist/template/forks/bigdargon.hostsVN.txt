@@ -1,6 +1,6 @@
 # Title: hostsVN
-# Last modified: 05 Dec 2023 22:51 UTC+7
-# Version: 2312052251
+# Last modified: 06 Dec 2023 10:27 UTC+7
+# Version: 2312061027
 # Blocked: 19,964 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
@@ -11557,6 +11557,9 @@
 0.0.0.0 collector.scopely.io
 0.0.0.0 data-sharing-consent.aprod.scopely.io
 0.0.0.0 preview-collector.scopely.io
+#[adserve.tv]
+0.0.0.0 adserve.tv
+0.0.0.0 v.adserve.tv
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -11971,12 +11974,9 @@
 0.0.0.0 log.zingmp3.vn
 0.0.0.0 za.zingmp3.vn
 0.0.0.0 zlog.zingmp3.vn
-#[zingnews.vn]
+#[zingnews]
 0.0.0.0 log.zingnews.vn
-0.0.0.0 za.zingnews.vn
-#[zingnews.com.vn]
-0.0.0.0 log.zingnews.com.vn
-0.0.0.0 za.zingnews.com.vn
+0.0.0.0 log.znews.vn
 #[zalo.me]
 0.0.0.0 ads-platform.zalo.me
 0.0.0.0 ads.platform.zalo.me
