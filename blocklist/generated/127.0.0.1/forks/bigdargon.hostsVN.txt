@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 06 Dec 2023 10:27 UTC+7
-# Version: 2312061027
-# Blocked: 19,964 domains
+# Last modified: 08 Dec 2023 23:41 UTC+7
+# Version: 2312082341
+# Blocked: 20,004 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -10375,6 +10375,10 @@
 127.0.0.1 nmetrics.samsung.com
 127.0.0.1 smetrics.samsung.com
 127.0.0.1 target-us.samsung.com
+127.0.0.1 analytics.bigdata.samsung.com
+#[samsungrs.com]
+127.0.0.1 adconsent.samsungrs.com
+127.0.0.1 sspapi-prd.samsungrs.com
 #[nc0.co]
 127.0.0.1 edge-geo.nc0.co
 127.0.0.1 nc0.co
@@ -11238,6 +11242,7 @@
 127.0.0.1 ads.livetv703.me
 127.0.0.1 ads.livetv705.me
 127.0.0.1 ads.livetv708.me
+127.0.0.1 ads.livetv723.me
 #[company-target.com]
 127.0.0.1 company-target.com
 127.0.0.1 api-staging.company-target.com
@@ -11560,6 +11565,9 @@
 #[adserve.tv]
 127.0.0.1 adserve.tv
 127.0.0.1 v.adserve.tv
+#[wtg-ads.com]
+127.0.0.1 wtg-ads.com
+127.0.0.1 lib.wtg-ads.com
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -11977,6 +11985,11 @@
 #[zingnews]
 127.0.0.1 log.zingnews.vn
 127.0.0.1 log.znews.vn
+#[zingplay.com]
+127.0.0.1 trackingbr.zingplay.com
+127.0.0.1 trackingin.zingplay.com
+127.0.0.1 trackingsea.zingplay.com
+127.0.0.1 trackingvn.zingplay.com
 #[zalo.me]
 127.0.0.1 ads-platform.zalo.me
 127.0.0.1 ads.platform.zalo.me
@@ -13041,6 +13054,9 @@
 127.0.0.1 realclick.vn
 127.0.0.1 stats.realclick.vn
 127.0.0.1 www.realclick.vn
+#[admon.com.vn]
+127.0.0.1 admon.com.vn
+127.0.0.1 slb.admon.com.vn
 # --- Block adsVN ---
 127.0.0.1 12signup.com
 127.0.0.1 ad-admin.vnay.vn
@@ -13111,6 +13127,7 @@
 127.0.0.1 ads.thegioitiepthi.vn
 127.0.0.1 ads.thesaigontimes.vn
 127.0.0.1 ads.thitruongtaichinhtiente.vn
+127.0.0.1 ads.thvli.vn
 127.0.0.1 ads.tiki.vn
 127.0.0.1 ads.vietbao.vn
 127.0.0.1 ads.vishare.vn
@@ -13289,15 +13306,20 @@
 127.0.0.1 affiliate.chiaki.vn
 127.0.0.1 alexajstrack.com
 127.0.0.1 analytic.baodantoc.vn
+127.0.0.1 analytic.thuanbui.me
 127.0.0.1 analytic.vnanet.vn
 127.0.0.1 analytics.admon.com.vn
 127.0.0.1 analytics.aita.gov.vn
+127.0.0.1 analytics.amedigital.vn
 127.0.0.1 analytics.bachtuongphat.com
 127.0.0.1 analytics.bkav.com
 127.0.0.1 analytics.bkav.com.vn
 127.0.0.1 analytics.diamondstarfinancial.com.vn
+127.0.0.1 analytics.digi8.vn
 127.0.0.1 analytics.evgcdn.net
 127.0.0.1 analytics.fsoft.com.vn
+127.0.0.1 analytics.gotama.link
+127.0.0.1 analytics.hapo.vn
 127.0.0.1 analytics.hebela.vn
 127.0.0.1 analytics.hub-js.com
 127.0.0.1 analytics.jamstackvietnam.com
@@ -13447,6 +13469,7 @@
 127.0.0.1 newlog.daidoanket.vn
 127.0.0.1 newlog.tapchitaichinh.vn
 127.0.0.1 nstat.headlines.pw
+127.0.0.1 plausible.vucar.vn
 127.0.0.1 production-tracking.riviu.co
 127.0.0.1 proof.sudo.vn
 127.0.0.1 px.saostar.vn
@@ -13499,6 +13522,7 @@
 127.0.0.1 track.lapa.pub
 127.0.0.1 track.lemonnovel.com
 127.0.0.1 track.pnj.com.vn
+127.0.0.1 track.popsww.com
 127.0.0.1 track.sendo.vn
 127.0.0.1 track.vio.edu.vn
 127.0.0.1 tracker.anime47.com
@@ -13525,9 +13549,8 @@
 127.0.0.1 tracking.vegaid.vn
 127.0.0.1 tracking.vht.com.vn
 127.0.0.1 tracking.vietbao.vn
+127.0.0.1 tracking.viez.vn
 127.0.0.1 trackingapi.foody.vn
-127.0.0.1 trackingsea.zingplay.com
-127.0.0.1 trackingvn.zingplay.com
 127.0.0.1 trackity.tiki.vn
 127.0.0.1 traffic.vietnhan.co
 127.0.0.1 trk.123c.vn
@@ -13658,6 +13681,7 @@
 127.0.0.1 ac.rnm.ca
 127.0.0.1 acacdn.com
 127.0.0.1 acbbpadizl.com
+127.0.0.1 accidentallyrussian.com
 127.0.0.1 accomplicepeach.com
 127.0.0.1 acdcdn.com
 127.0.0.1 acduyqwnz.com
@@ -15062,6 +15086,7 @@
 127.0.0.1 bfijteodglun.com
 127.0.0.1 bg4nxu2u5t.com
 127.0.0.1 bhalukecky.com
+127.0.0.1 bharalhallahs.com
 127.0.0.1 bhbtmipjiqn.com
 127.0.0.1 bhcumsc.com
 127.0.0.1 bhofavwigram.com
@@ -15197,6 +15222,7 @@
 127.0.0.1 bravobusboy.com
 127.0.0.1 brazenwholly.com
 127.0.0.1 breakupbun.com
+127.0.0.1 breathelicense.com
 127.0.0.1 brechtembrowd.com
 127.0.0.1 breedwaste.com
 127.0.0.1 briarsbarrer.guru
@@ -16064,6 +16090,7 @@
 127.0.0.1 dxgo95ahe73e8.cloudfront.net
 127.0.0.1 dyeingjaun.com
 127.0.0.1 dynamicadx.com
+127.0.0.1 dynspt.com
 127.0.0.1 dyntrk.com
 127.0.0.1 dzienkudrow.com
 127.0.0.1 dzuowpapvcu.com
@@ -16424,6 +16451,7 @@
 127.0.0.1 forex-affiliate.net
 127.0.0.1 forgerylimit.com
 127.0.0.1 forgiemaulvi.com
+127.0.0.1 formalitydetached.com
 127.0.0.1 formssalvagelistless.com
 127.0.0.1 forshrd.com
 127.0.0.1 forsungprosode.com
@@ -16434,6 +16462,7 @@
 127.0.0.1 fountainsuperior.com
 127.0.0.1 fourarithmetic.com
 127.0.0.1 foutyoxyaena.website
+127.0.0.1 foxpush.com
 127.0.0.1 fpmleqdb.com
 127.0.0.1 fpujadwzowa.com
 127.0.0.1 fpukxcinlf.com
@@ -16785,6 +16814,7 @@
 127.0.0.1 herdcowhas.icu
 127.0.0.1 heresjokey.com
 127.0.0.1 heroinslagunes.com
+127.0.0.1 herynore.com
 127.0.0.1 hesitationvariationscanal.com
 127.0.0.1 heukpiroot.com
 127.0.0.1 hewawkward.com
@@ -16942,6 +16972,7 @@
 127.0.0.1 iberiavihuela.guru
 127.0.0.1 iclickcdn.com
 127.0.0.1 iconadserver.com
+127.0.0.1 iconcardinal.com
 127.0.0.1 icptrack.com
 127.0.0.1 icyattestation.com
 127.0.0.1 idcounter.com
@@ -17267,6 +17298,7 @@
 127.0.0.1 kildirombo.com
 127.0.0.1 kindads.com
 127.0.0.1 kindleaimingbase.com
+127.0.0.1 kindledownstairsskeleton.com
 127.0.0.1 kindly-face.pro
 127.0.0.1 king3rsc7ol9e3ge.com
 127.0.0.1 kinhincauking.website
@@ -19246,6 +19278,7 @@
 127.0.0.1 shubad2u8ba09.com
 127.0.0.1 shulskerbaya.top
 127.0.0.1 shyhuetub.site
+127.0.0.1 sibautomation.com
 127.0.0.1 siccash.com
 127.0.0.1 sickflock.com
 127.0.0.1 sicksmash.com
@@ -19372,6 +19405,7 @@
 127.0.0.1 sparkstudios.com
 127.0.0.1 spathalbarmie.com
 127.0.0.1 speakspurink.com
+127.0.0.1 special.beatifulllhistory.com
 127.0.0.1 specially4u.net
 127.0.0.1 specialstatement.com
 127.0.0.1 specificmedia.co.uk
@@ -19405,6 +19439,7 @@
 127.0.0.1 spotx.tv
 127.0.0.1 sppzkqnk9.com
 127.0.0.1 springaftermath.com
+127.0.0.1 springserve.com
 127.0.0.1 spruecutworm.com
 127.0.0.1 sprungencase.com
 127.0.0.1 spurioussteam.com
@@ -19423,7 +19458,6 @@
 127.0.0.1 srv.tunefindforfans.com
 127.0.0.1 srv2.trafficgate.net
 127.0.0.1 srwww1.com
-127.0.0.1 sspapi-prd.samsungrs.com
 127.0.0.1 ssqyuvavse.com
 127.0.0.1 st-n.pc2ads.com
 127.0.0.1 stagepopkek.com
@@ -19482,6 +19516,7 @@
 127.0.0.1 stickssheep.com
 127.0.0.1 stihruojvag.com
 127.0.0.1 stingyshoe.com
+127.0.0.1 stinicf.com
 127.0.0.1 stogivpi.com
 127.0.0.1 stolenforensicssausage.com
 127.0.0.1 stootsou.net
@@ -19785,6 +19820,7 @@
 127.0.0.1 tomeleafs.com
 127.0.0.1 tonicliquidoversight.com
 127.0.0.1 toothbrushnote.com
+127.0.0.1 tooyeobui.mom
 127.0.0.1 top-advertise.com
 127.0.0.1 top-casting-termine.de
 127.0.0.1 top-site-list.com
@@ -19905,6 +19941,7 @@
 127.0.0.1 truehits.net
 127.0.0.1 trumpia.com
 127.0.0.1 trustaffs.com
+127.0.0.1 trustbummler.com
 127.0.0.1 trustedcpmrevenue.com
 127.0.0.1 trustedgatetocontent.com
 127.0.0.1 trustednotice.news
@@ -19912,6 +19949,7 @@
 127.0.0.1 trustlearningclearly.com
 127.0.0.1 truthful-quote.pro
 127.0.0.1 tsiwqtng8huauw30n.com
+127.0.0.1 tstats-13fkh44r.com
 127.0.0.1 tsyndolls.com
 127.0.0.1 ttgmjfgldgv9ed10.com
 127.0.0.1 ttl9e3r0i.com
@@ -19957,6 +19995,7 @@
 127.0.0.1 tzuhumrwypw.com
 127.0.0.1 u1pmt.com
 127.0.0.1 u40cc3twb.com
+127.0.0.1 u9axpzf50.com
 127.0.0.1 uarating.com
 127.0.0.1 ubbfpm.com
 127.0.0.1 uberads.com
@@ -20034,6 +20073,7 @@
 127.0.0.1 upskittyan.com
 127.0.0.1 upsnap.com
 127.0.0.1 upspinarakor.com
+127.0.0.1 uptimecdn.com
 127.0.0.1 uptrendsdata.com
 127.0.0.1 upupoidoutjazz.website
 127.0.0.1 upwaftssoland.digital
@@ -20896,6 +20936,7 @@
 127.0.0.1 app.adjust.world
 127.0.0.1 applog.camera360.com
 127.0.0.1 appres.camera360.com
+127.0.0.1 arc.io
 127.0.0.1 asadcdn.com
 127.0.0.1 asdkd.tutuapp.com
 127.0.0.1 astat.nikkei.com
@@ -21040,6 +21081,7 @@
 127.0.0.1 geoplugin.net
 127.0.0.1 getexceptional.com
 127.0.0.1 getsitecontrol.com
+127.0.0.1 getstats.org
 127.0.0.1 gf.umenglog.com
 127.0.0.1 glanceguide.com
 127.0.0.1 global.ketchcdn.com
@@ -21270,6 +21312,7 @@
 127.0.0.1 sc-static.net
 127.0.0.1 sc.pages03.net
 127.0.0.1 sdk-monitoring.ogury.co
+127.0.0.1 sdk.conscent.in
 127.0.0.1 seal.digicert.com
 127.0.0.1 seal.godaddy.com
 127.0.0.1 seal.networksolutions.com
@@ -21304,6 +21347,7 @@
 127.0.0.1 stat.i3.dmm.com
 127.0.0.1 stat.media
 127.0.0.1 stat.meitudata.com
+127.0.0.1 stat.microvirt.com
 127.0.0.1 stat2.openinstall.io
 127.0.0.1 stathat.com
 127.0.0.1 static.intentarget.com
