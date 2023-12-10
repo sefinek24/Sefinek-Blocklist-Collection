@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 09 Dec 2023 07:40 UTC+7
-# Version: 2312090740
-# Blocked: 20,002 domains
+# Last modified: 10 Dec 2023 22:06 UTC+7
+# Version: 2312102206
+# Blocked: 20,010 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -543,6 +543,12 @@ m.yap.yahoo.com
 us.ads.yap.yahoo.com
 #[adtech.yahooinc.com]
 adtech.yahooinc.com
+#[jac.yahoosandbox.com]
+jac.yahoosandbox.com
+openweb.jac.yahoosandbox.com
+#[yahoo.net]
+admarketing.yahoo.net
+hb.yahoo.net
 #[yahoo.co.jp]
 ard.yahoo.co.jp
 b90.yahoo.co.jp
@@ -11568,6 +11574,9 @@ v.adserve.tv
 #[wtg-ads.com]
 wtg-ads.com
 lib.wtg-ads.com
+#[shopify.com]
+stats.shopify.com
+v.shopify.com
 # --- GroupVN block ---
 #[adtimaserver]
 adtimaserver.vn
@@ -21057,6 +21066,7 @@ events.attentivemobile.com
 events.jora.com
 events.launchdarkly.com
 events.mapbox.com
+events.newsroom.bi
 events.redditmedia.com
 events.shoplytics.com
 events.split.io
@@ -21293,6 +21303,7 @@ rum-collector-2.pingdom.net
 rum-collector.pingdom.net
 rum-static.pingdom.net
 rum.uptime.com
+rumt-sg.com
 s.iaudienc.com
 s.infogram.com
 s.media-imdb.com

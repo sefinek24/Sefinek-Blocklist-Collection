@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 09 Dec 2023 07:40 UTC+7
-# Version: 2312090740
-# Blocked: 20,002 domains
+# Last modified: 10 Dec 2023 22:06 UTC+7
+# Version: 2312102206
+# Blocked: 20,010 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -543,6 +543,12 @@ server=/m.yap.yahoo.com/
 server=/us.ads.yap.yahoo.com/
 #[adtech.yahooinc.com]
 server=/adtech.yahooinc.com/
+#[jac.yahoosandbox.com]
+server=/jac.yahoosandbox.com/
+server=/openweb.jac.yahoosandbox.com/
+#[yahoo.net]
+server=/admarketing.yahoo.net/
+server=/hb.yahoo.net/
 #[yahoo.co.jp]
 server=/ard.yahoo.co.jp/
 server=/b90.yahoo.co.jp/
@@ -11568,6 +11574,9 @@ server=/v.adserve.tv/
 #[wtg-ads.com]
 server=/wtg-ads.com/
 server=/lib.wtg-ads.com/
+#[shopify.com]
+server=/stats.shopify.com/
+server=/v.shopify.com/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -21057,6 +21066,7 @@ server=/events.attentivemobile.com/
 server=/events.jora.com/
 server=/events.launchdarkly.com/
 server=/events.mapbox.com/
+server=/events.newsroom.bi/
 server=/events.redditmedia.com/
 server=/events.shoplytics.com/
 server=/events.split.io/
@@ -21293,6 +21303,7 @@ server=/rum-collector-2.pingdom.net/
 server=/rum-collector.pingdom.net/
 server=/rum-static.pingdom.net/
 server=/rum.uptime.com/
+server=/rumt-sg.com/
 server=/s.iaudienc.com/
 server=/s.infogram.com/
 server=/s.media-imdb.com/

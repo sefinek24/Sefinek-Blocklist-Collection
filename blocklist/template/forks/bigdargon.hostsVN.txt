@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 09 Dec 2023 07:40 UTC+7
-# Version: 2312090740
-# Blocked: 20,002 domains
+# Last modified: 10 Dec 2023 22:06 UTC+7
+# Version: 2312102206
+# Blocked: 20,010 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -543,6 +543,12 @@
 0.0.0.0 us.ads.yap.yahoo.com
 #[adtech.yahooinc.com]
 0.0.0.0 adtech.yahooinc.com
+#[jac.yahoosandbox.com]
+0.0.0.0 jac.yahoosandbox.com
+0.0.0.0 openweb.jac.yahoosandbox.com
+#[yahoo.net]
+0.0.0.0 admarketing.yahoo.net
+0.0.0.0 hb.yahoo.net
 #[yahoo.co.jp]
 0.0.0.0 ard.yahoo.co.jp
 0.0.0.0 b90.yahoo.co.jp
@@ -11568,6 +11574,9 @@
 #[wtg-ads.com]
 0.0.0.0 wtg-ads.com
 0.0.0.0 lib.wtg-ads.com
+#[shopify.com]
+0.0.0.0 stats.shopify.com
+0.0.0.0 v.shopify.com
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -21057,6 +21066,7 @@
 0.0.0.0 events.jora.com
 0.0.0.0 events.launchdarkly.com
 0.0.0.0 events.mapbox.com
+0.0.0.0 events.newsroom.bi
 0.0.0.0 events.redditmedia.com
 0.0.0.0 events.shoplytics.com
 0.0.0.0 events.split.io
@@ -21293,6 +21303,7 @@
 0.0.0.0 rum-collector.pingdom.net
 0.0.0.0 rum-static.pingdom.net
 0.0.0.0 rum.uptime.com
+0.0.0.0 rumt-sg.com
 0.0.0.0 s.iaudienc.com
 0.0.0.0 s.infogram.com
 0.0.0.0 s.media-imdb.com

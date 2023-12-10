@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 09 Dec 2023 07:40 UTC+7
-# Version: 2312090740
-# Blocked: 20,002 domains
+# Last modified: 10 Dec 2023 22:06 UTC+7
+# Version: 2312102206
+# Blocked: 20,010 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -543,6 +543,12 @@
 127.0.0.1 us.ads.yap.yahoo.com
 #[adtech.yahooinc.com]
 127.0.0.1 adtech.yahooinc.com
+#[jac.yahoosandbox.com]
+127.0.0.1 jac.yahoosandbox.com
+127.0.0.1 openweb.jac.yahoosandbox.com
+#[yahoo.net]
+127.0.0.1 admarketing.yahoo.net
+127.0.0.1 hb.yahoo.net
 #[yahoo.co.jp]
 127.0.0.1 ard.yahoo.co.jp
 127.0.0.1 b90.yahoo.co.jp
@@ -11568,6 +11574,9 @@
 #[wtg-ads.com]
 127.0.0.1 wtg-ads.com
 127.0.0.1 lib.wtg-ads.com
+#[shopify.com]
+127.0.0.1 stats.shopify.com
+127.0.0.1 v.shopify.com
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -21057,6 +21066,7 @@
 127.0.0.1 events.jora.com
 127.0.0.1 events.launchdarkly.com
 127.0.0.1 events.mapbox.com
+127.0.0.1 events.newsroom.bi
 127.0.0.1 events.redditmedia.com
 127.0.0.1 events.shoplytics.com
 127.0.0.1 events.split.io
@@ -21293,6 +21303,7 @@
 127.0.0.1 rum-collector.pingdom.net
 127.0.0.1 rum-static.pingdom.net
 127.0.0.1 rum.uptime.com
+127.0.0.1 rumt-sg.com
 127.0.0.1 s.iaudienc.com
 127.0.0.1 s.infogram.com
 127.0.0.1 s.media-imdb.com
