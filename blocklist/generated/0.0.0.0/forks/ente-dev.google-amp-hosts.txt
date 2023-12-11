@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+0.0.0.0 <html>
+0.0.0.0 <body>
+<input type="hidden" id="http" name="http" value="5002">
+<input type="hidden" id="https" name="https" value="5555">
+<input type="hidden" id="prefer_https" name="prefer_https" value="true">
+
+0.0.0.0 </body>
+<script type="text/javascript">
+var protocol="https:";
+var port=5555;
+var URL=protocol+"//"+location.hostname+":"+port+location.pathname+location.search;
+0.0.0.0 location.replace(url);
+0.0.0.0 </script>
+0.0.0.0 </html>
