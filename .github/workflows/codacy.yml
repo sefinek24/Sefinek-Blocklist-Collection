@@ -18,7 +18,7 @@ jobs:
       security-events: write
       actions: read
     name: Codacy Security Scan
-    runs-on: sefin-runner-vps1
+    runs-on: sefin-runner-blocklist
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
