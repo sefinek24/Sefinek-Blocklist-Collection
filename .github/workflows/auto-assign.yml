@@ -10,7 +10,7 @@ on:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: sefin-runner-vps1
 
     permissions:
       issues: write
