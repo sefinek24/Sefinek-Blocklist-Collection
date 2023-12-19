@@ -3,6 +3,7 @@
 # Blocklist urls
 urls=(
   # adaway.org
+  "https://sefinek.net,test-sefinek.txt"
   "https://adaway.org/hosts.txt,adaway.hosts.txt"
 
   # oisd
