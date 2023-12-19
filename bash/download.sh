@@ -248,14 +248,17 @@ for url in "${urls[@]}"; do
   IFS=$'\n'
 
   # Download the file using curl command
-  printf "Downloading %s...\n" "$filename"
+  echo "Downloading $filename..."
   if ! curl -A "$user_agent" -S -L -o "$output_dir/$filename" "$download_url"; then
-    printf "✖ Error occurred while downloading %s\n\n" "$download_url"
+    echo "✖ Error occurred while downloading $download_url"
   else
-    printf "✔ Downloaded %s\n\n" "$filename"
+    echo "✔ Downloaded $filename"
   fi
+
+  echo
 
   IFS="$old_ifs"
 done
 
-printf "\n✔ Success! Finished at: %s\n" "$(date +'%Y-%m-%d %H:%M:%S')"
+echo
+echo "✔ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
