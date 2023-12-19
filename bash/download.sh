@@ -250,8 +250,11 @@ for url in "${urls[@]}"; do
   old_ifs="$IFS"
   IFS=$'\n'
 
+  # Get the file size from the URL
+  file_size=$(curl -sI "$download_url" | awk '/Content-Length/ {print $2}')
+
   # Download the file using curl command
-  echo "📥 Downloading $filename from $download_url..."
+  echo "📥 Downloading $filename from $download_url... [$file_size]"
   if ! curl -A "$user_agent" -L -o "$output_dir/$filename" "$download_url" --progress-bar; then
     echo -e "\n❌ An error occurred while downloading $download_url\n"
   else
