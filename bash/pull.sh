@@ -30,9 +30,9 @@ mkdir -p "$logs_dir"
         echo
 
         if git fetch && git pull; then
-            echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')"
+            echo -e "\nSuccess! Date: $(date +'%Y-%m-%d %H:%M:%S')"
         else
-            echo "Error during Git operations."
+            echo -e "\nError during Git operations."
         fi
         echo
     else
@@ -42,4 +42,4 @@ mkdir -p "$logs_dir"
 } >> "$output_file"
 
 # Final
-echo "Done. Output file has been created or updated: $output_file"
+echo "Done! Output file has been created or updated: $output_file"
