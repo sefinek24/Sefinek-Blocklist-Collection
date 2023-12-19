@@ -214,19 +214,19 @@ urls=(
 
 # Check for necessary tools
 if ! command -v curl &> /dev/null; then
-    echo "curl could not be found. Please install curl."
+    echo "❌ curl could not be found. Please install curl."
     exit 1
 fi
 
 if ! command -v node &> /dev/null; then
-    echo "node could not be found. Please install Node.js."
+    echo "❌ node could not be found. Please install Node.js."
     exit 1
 fi
 
 # Directory
 output_dir="blocklist/template/forks"
 if [ ! -d "$output_dir" ]; then
-  echo "Creating folder..."
+  echo "🔵 Creating folder..."
   mkdir -p "$output_dir"
 fi
 
@@ -237,12 +237,12 @@ if [ -f "$package_json_path" ]; then
   version=$(node -p "require('$package_json_path').version")
   user_agent="Mozilla/5.0 (compatible; SefinekBlocklistsAgent/${version}; +https://blocklist.sefinek.net)"
 else
-  echo "✖ package.json file not found."
+  echo "🔴 package.json file not found."
   exit 1
 fi
 
 # Download files
-echo "Starting download process..."
+echo "🔵 Starting download process..."
 echo
 
 for url in "${urls[@]}"; do
@@ -251,15 +251,15 @@ for url in "${urls[@]}"; do
   IFS=$'\n'
 
   # Download the file using curl command
-  echo "Downloading $filename from $download_url"
+  echo "📥 Downloading $filename from $download_url"
   if ! curl -A "$user_agent" -S -L -o "$output_dir/$filename" "$download_url"; then
-    echo -e "✖ An error occurred while downloading $download_url\n"
+    echo -e "❌ An error occurred while downloading $download_url\n"
   else
-    echo -e "✔ Successfully downloaded $filename\n"
+    echo -e "✔️ Successfully downloaded $filename\n"
   fi
 
   IFS="$old_ifs"
 done
 
 echo
-echo "✔ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
+echo "✔️ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
