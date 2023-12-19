@@ -255,7 +255,15 @@ for url in "${urls[@]}"; do
   if ! file_size=$(curl -A "$user_agent" -s -L -o "$output_dir/$filename" "$download_url" --progress-bar -w "%{size_download}"); then
     echo -e "\n❌ An error occurred while downloading $download_url\n"
   else
-    echo -e "\n✔️ Successfully downloaded $filename (Size: $file_size bytes)\n"
+    # Convert file size to KB or MB
+    if [ "$file_size" -ge 1048576 ]; then
+      file_size=$(echo "scale=2; $file_size / 1048576" | bc)
+      size_unit="MB"
+    else
+      file_size=$(echo "scale=2; $file_size / 1024" | bc)
+      size_unit="KB"
+    fi
+    echo -e "\n✔️ Successfully downloaded $filename (Size: $file_size $size_unit)\n"
   fi
 
   IFS="$old_ifs"
