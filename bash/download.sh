@@ -190,7 +190,7 @@ urls=(
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Chat,ShadowWhisperer.Chat.txt"
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Cryptocurrency,ShadowWhisperer.Cryptocurrency.txt"
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating,ShadowWhisperer.Dating.txt"
-  "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Filter,ShadowWhisperer.Filter.txt"
+  "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic,ShadowWhisperer.Dynamic.txt"
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Free,ShadowWhisperer.Free.txt"
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Gambling,ShadowWhisperer.Gambling.txt"
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Junk,ShadowWhisperer.Junk.txt"

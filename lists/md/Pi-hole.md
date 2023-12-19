@@ -136,7 +136,7 @@ https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Typo.txt
 ## Other
 ```
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Ads.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Filter.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Dynamic.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Apple.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Bloat.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/ShadowWhisperer.Chat.txt
