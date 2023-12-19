@@ -11,6 +11,8 @@ if ! command -v git &> /dev/null; then
     exit 1
 fi
 
+echo -e "Please wait...\n"
+
 # Create the logs directory if it doesn't exist
 mkdir -p "$logs_dir"
 
