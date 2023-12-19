@@ -1,21 +1,22 @@
 const { readdir } = require('node:fs/promises');
-const { resolve } = require('node:path');
+const { resolve, extname } = require('node:path');
 
 async function getAllTxtFilesRecursively(directoryPath) {
-	const dirents = await readdir(directoryPath, { withFileTypes: true });
-	const files = await Promise.all(
-		dirents.map(async dirent => {
-			const filePath = resolve(directoryPath, dirent.name);
+	const directoryEntries = await readdir(directoryPath, { withFileTypes: true });
+	let txtFiles = [];
 
-			if (dirent.isDirectory()) {
-				return getAllTxtFilesRecursively(filePath);
-			} else {
-				return filePath;
-			}
-		}),
-	);
+	for (const entry of directoryEntries) {
+		const entryPath = resolve(directoryPath, entry.name);
 
-	return files.flat().filter(file => file.endsWith('.txt'));
+		if (entry.isDirectory()) {
+			const nestedTxtFiles = await getAllTxtFilesRecursively(entryPath);
+			txtFiles = txtFiles.concat(nestedTxtFiles);
+		} else if (extname(entryPath) === '.txt') {
+			txtFiles.push(entryPath);
+		}
+	}
+
+	return txtFiles;
 }
 
 module.exports = getAllTxtFilesRecursively;

@@ -1,82 +1,68 @@
-const { readFile, writeFile } = require('node:fs/promises');
-const kleur = require('kleur');
+const { createReadStream, createWriteStream } = require('node:fs');
+const { red, yellow, blue, green } = require('kleur');
 const readline = require('readline');
 const { join } = require('node:path');
 const getAllTxtFiles = require('./functions/getAllTxtFiles.js');
 
-// Check if the '--ignore-question' command line parameter is present
 const ignoreQuestion = process.argv.includes('--ignore-question');
 
-// Create an interface for reading user input
-const rl = readline.createInterface({
-	input: process.stdin,
-	output: process.stdout,
-});
-
 (async () => {
-	// If '--ignore-question' is not present, ask for user confirmation
 	if (!ignoreQuestion) {
-		rl.question(
-			`${kleur.red('[WARN]: THIS PROCEDURE DEMANDS A SIGNIFICANT AMOUNT OF RAM!')}\n\n> ${kleur.yellow('Are you sure? [Yes/no]: ')}`,
-			async (answer) => {
-				if (answer.toLowerCase() === 'no') {
-					console.log(kleur.red('[INFO]: Procedure aborted by the user.'));
-					rl.close();
-					return;
-				}
+		const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+		const answer = await new Promise(resolve => {
+			rl.question(`${red('[WARN]: THIS PROCEDURE DEMANDS A SIGNIFICANT AMOUNT OF RAM!')}\n\n> ${yellow('Are you sure? [Yes/no]: ')}`, resolve);
+		});
+		rl.close();
 
-				console.log(kleur.green('[INFO]: Continuing the procedure...\n'));
-				await proceedWithProcedure();
-			},
-		);
-	} else {
-		// If '--ignore-question' is present, proceed with the procedure directly
-		await proceedWithProcedure();
+		if (answer.toLowerCase() === 'no') {
+			console.log(red('[INFO]: Procedure aborted by the user.'));
+			return;
+		}
 	}
+
+	await proceedWithProcedure();
 })();
 
 async function proceedWithProcedure() {
 	const blockListDir = join(__dirname, '..', 'blocklist', 'generated');
-	console.log(kleur.blue('[INFO]:'), `Path: ${blockListDir}`);
+	console.log(blue('[INFO]:'), `Path: ${blockListDir}`);
 
-	console.log(kleur.blue('[INFO]:'), 'Searching txt files...');
-	const files = await getAllTxtFiles(blockListDir);
+	try {
+		const files = await getAllTxtFiles(blockListDir);
+		console.log(blue('[INFO]:'), `Processing ${files.length} txt files...`);
 
-	console.log(kleur.blue('[INFO]:'), 'Promise.all()');
-	console.log(kleur.yellow('[WARN]:'), 'This may take a while. Your computer may become unresponsive for a moment.');
-	await Promise.all(files.map(async (file) => {
-		console.log(kleur.green('[INFO]:'), `Counting domains in the file: ${file}`);
-
-		const existingDomains = new Set();
-		const fileContents = await readFile(file, 'utf8');
-		fileContents.split('\n').forEach((line) => {
-			if (
-				line.startsWith('0.0.0.0 ') ||
-				line.startsWith('127.0.0.1 ') ||
-				line.startsWith('server=/') ||
-				line.startsWith('||')
-			) {
-				const domain = line.replace(/^(0\.0\.0\.0|127\.0\.0\.1|server=\/|^\|\|)\s+/g, '');
-				existingDomains.add(domain);
-			}
-		});
-
-		try {
-			console.log(kleur.green('[INFO]:'), `Saving the file: ${file}`);
-
-			await writeFile(
-				file,
-				fileContents
-					.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${existingDomains.size}`)
-					.replace('# Count       : N/A', `# Count       : ${existingDomains.size}`)
-					.replace('! Count       : N/A', `! Count       : ${existingDomains.size}`),
-				'utf8',
-			);
-		} catch (err) {
-			console.log(kleur.red('[ERROR]:'), err.stack);
+		for (const file of files) {
+			await processFile(file);
 		}
-	}));
+	} catch (err) {
+		console.error(red('[ERROR]:'), err.message);
+	}
+}
 
-	// Close the readline interface
-	rl.close();
+async function processFile(file) {
+	const readStream = createReadStream(file, 'utf8');
+	const fileInterface = readline.createInterface({ input: readStream });
+
+	let domainCount = 0;
+	let updatedContent = '';
+	for await (const line of fileInterface) {
+		if (line.startsWith('0.0.0.0 ') || line.startsWith('127.0.0.1 ') || line.startsWith('server=/') || line.startsWith('||')) {
+			domainCount++;
+		}
+		updatedContent += line + '\n';
+	}
+
+	fileInterface.close();
+	readStream.close();
+
+	const updatedFileContents = updatedContent
+		.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${domainCount}`)
+		.replace('# Count       : N/A', `# Count       : ${domainCount}`)
+		.replace('! Count       : N/A', `! Count       : ${domainCount}`);
+
+	const writeStream = createWriteStream(file);
+	writeStream.write(updatedFileContents);
+	writeStream.end();
+
+	console.log(green('[INFO]:'), `Saved: ${file} (${domainCount} domains)`);
 }
