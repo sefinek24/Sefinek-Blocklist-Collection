@@ -1,4 +1,5 @@
-const { createReadStream, createWriteStream } = require('node:fs');
+const { writeFile } = require('node:fs/promises');
+const { createReadStream } = require('node:fs');
 const { red, yellow, blue, green } = require('kleur');
 const readline = require('readline');
 const { join } = require('node:path');
@@ -44,25 +45,30 @@ async function processFile(file) {
 	const fileInterface = readline.createInterface({ input: readStream });
 
 	let domainCount = 0;
-	let updatedContent = '';
-	for await (const line of fileInterface) {
-		if (line.startsWith('0.0.0.0 ') || line.startsWith('127.0.0.1 ') || line.startsWith('server=/') || line.startsWith('||')) {
-			domainCount++;
+	const updatedContent = [];
+	try {
+		for await (const line of fileInterface) {
+			if (isDomainLine(line)) domainCount++;
+			updatedContent.push(line);
 		}
-		updatedContent += line + '\n';
+	} finally {
+		fileInterface.close();
+		readStream.close();
 	}
 
-	fileInterface.close();
-	readStream.close();
+	const updatedFileContents = createUpdatedContents(updatedContent, domainCount);
+	await writeFile(file, updatedFileContents, 'utf8');
 
-	const updatedFileContents = updatedContent
+	console.log(green('[INFO]:'), `Saved: ${file} (${domainCount} domains)`);
+}
+
+function isDomainLine(line) {
+	return line.startsWith('0.0.0.0 ') || line.startsWith('127.0.0.1 ') || line.startsWith('server=/') || line.startsWith('||');
+}
+
+function createUpdatedContents(lines, domainCount) {
+	return lines.join('\n')
 		.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${domainCount}`)
 		.replace('# Count       : N/A', `# Count       : ${domainCount}`)
 		.replace('! Count       : N/A', `! Count       : ${domainCount}`);
-
-	const writeStream = createWriteStream(file);
-	writeStream.write(updatedFileContents);
-	writeStream.end();
-
-	console.log(green('[INFO]:'), `Saved: ${file} (${domainCount} domains)`);
 }
