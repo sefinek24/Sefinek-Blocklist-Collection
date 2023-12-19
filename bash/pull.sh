@@ -42,4 +42,4 @@ mkdir -p "$logs_dir"
 } >> "$output_file"
 
 # Final
-echo "Done! Output file has been created or updated: $output_file"
+echo -e "\nDone! Output file has been created or updated: $output_file"
