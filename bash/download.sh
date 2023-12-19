@@ -1,14 +1,5 @@
 #!/bin/bash
 
-
-# Directory
-output_dir="blocklist/template/forks"
-if [ ! -d $output_dir ]; then
-  echo "Creating folder..."
-  mkdir -p $output_dir
-fi
-
-
 # Blocklist urls
 urls=(
   # adaway.org
@@ -221,11 +212,30 @@ urls=(
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt,hagezi.pro.txt"
 )
 
+# Check for necessary tools
+if ! command -v curl &> /dev/null; then
+    echo "curl could not be found. Please install curl."
+    exit 1
+fi
+
+if ! command -v node &> /dev/null; then
+    echo "node could not be found. Please install Node.js."
+    exit 1
+fi
+
+# Directory
+output_dir="blocklist/template/forks"
+if [ ! -d "$output_dir" ]; then
+  echo "Creating folder..."
+  mkdir -p "$output_dir"
+fi
+
 # Read version from package.json
 package_json_path="./package.json"
 if [ -f "$package_json_path" ]; then
   # Set the user agent with the version from package.json
-  user_agent="Mozilla/5.0 (compatible; SefinekBlocklistsAgent/$(node -p "require('$package_json_path').version"); +https://blocklist.sefinek.net)"
+  version=$(node -p "require('$package_json_path').version")
+  user_agent="Mozilla/5.0 (compatible; SefinekBlocklistsAgent/${version}; +https://blocklist.sefinek.net)"
 else
   echo "✖ package.json file not found."
   exit 1
@@ -233,38 +243,19 @@ fi
 
 # Download files
 for url in "${urls[@]}"; do
-  url_parts=(${url//,/ })
-  download_url=${url_parts[0]}
-  filename=${url_parts[1]}
+  IFS=',' read -r download_url filename <<< "$url"
+  old_ifs="$IFS"
+  IFS=$'\n'
 
-  # Download the file using wget command
-  wget -U "Mozilla/5.0 (compatible; SefinekBlocklistsAgent/$user_agent; +https://blocklist.sefinek.net)" -P "$output_dir" --no-check-certificate -O "$output_dir/$filename" "$download_url" 2>&1 |
-  while IFS= read -r line; do
-    if [[ $line == *%* ]]; then
-      # Print download progress if line contains '%'
-      echo -ne "\033[2K\r$line"
-    else
-      # Print other output lines
-      echo "$line"
-    fi
-  done
-
-  # Capture the HTTP status code
-  http_status=$?
-
-  # Handle HTTP errors
-  if [ "$http_status" -eq 0 ]; then
-    echo "✔ Download completed successfully."
-  elif [ "$http_status" -eq 8 ]; then
-    echo "✖ File does not exist (error 404)."
-  elif [ "$http_status" -eq 4 ]; then
-    echo "✖ Access denied to the file (error 403)."
+  # Download the file using curl command
+  echo "Downloading $filename..."
+  if ! curl -A "$user_agent" -o "$output_dir/$filename" "$download_url"; then
+    echo "✖ Error occurred while downloading $download_url"
   else
-    echo "✖ An error occurred during download (status code: $http_status)."
+    echo "✔ Downloaded $filename"
   fi
 
-  echo ""
-  echo ""
+  IFS="$old_ifs"
 done
 
 echo "✔ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
