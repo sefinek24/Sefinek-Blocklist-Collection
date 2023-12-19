@@ -242,20 +242,21 @@ else
 fi
 
 # Download files
+echo "Starting download process..."
+echo
+
 for url in "${urls[@]}"; do
   IFS=',' read -r download_url filename <<< "$url"
   old_ifs="$IFS"
   IFS=$'\n'
 
   # Download the file using curl command
-  echo "Downloading $filename..."
+  echo "Downloading $filename from $download_url"
   if ! curl -A "$user_agent" -S -L -o "$output_dir/$filename" "$download_url"; then
-    echo "✖ Error occurred while downloading $download_url"
+    echo -e "✖ An error occurred while downloading $download_url\n"
   else
-    echo "✔ Downloaded $filename"
+    echo -e "✔ Successfully downloaded $filename\n"
   fi
-
-  echo
 
   IFS="$old_ifs"
 done
