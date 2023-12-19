@@ -249,10 +249,14 @@ for url in "${urls[@]}"; do
 
   # Download the file using curl command
   echo "Downloading $filename..."
-  if ! curl -A "$user_agent" -o "$output_dir/$filename" "$download_url"; then
-    echo -e "\n✖ Error occurred while downloading $download_url"
+  file_content=$(curl -A "$user_agent" -s -L "$download_url")
+  exit_status=$?
+
+  if [ $exit_status -ne 0 ]; then
+    echo -e "✖ Error occurred while downloading $download_url\n"
   else
-    echo -e "\n✔ Downloaded $filename"
+    echo "$file_content" > "$output_dir/$filename"
+    echo -e "✔ Downloaded $filename\n"
   fi
 
   IFS="$old_ifs"
