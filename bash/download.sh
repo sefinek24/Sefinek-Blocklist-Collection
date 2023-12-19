@@ -250,12 +250,12 @@ for url in "${urls[@]}"; do
   # Download the file using curl command
   echo "Downloading $filename..."
   if ! curl -A "$user_agent" -o "$output_dir/$filename" "$download_url"; then
-    echo "✖ Error occurred while downloading $download_url"
+    echo -e "\n✖ Error occurred while downloading $download_url"
   else
-    echo "✔ Downloaded $filename"
+    echo -e "\n✔ Downloaded $filename"
   fi
 
   IFS="$old_ifs"
 done
 
-echo "✔ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
+echo -e "\n✔ Success! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
