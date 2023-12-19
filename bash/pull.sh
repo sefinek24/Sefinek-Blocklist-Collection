@@ -5,30 +5,41 @@ repo_path="/home/ubuntu/node/Sefinek-Blocklist-Collection"  # Path to the reposi
 logs_dir="$repo_path/www/public/logs"  # Directory to store logs
 output_file="$logs_dir/pull_$(date +'%Y-%m-%d').log"  # Path to the output log file
 
-# Change to the repository directory
-cd "$repo_path" || exit
+# Check if Git is installed
+if ! command -v git &> /dev/null; then
+    echo "Git is not installed. Please install Git."
+    exit 1
+fi
 
 # Create the logs directory if it doesn't exist
 mkdir -p "$logs_dir"
 
-# Write the full date and time to the output file
-echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') ==========================================" >> "$output_file"
-echo "Repository path : $repo_path" >> "$output_file"
-echo "Logs directory  : $logs_dir" >> "$output_file"
-echo "Output file     : $output_file" >> "$output_file"
-echo >> "$output_file"
+# Write logs to the output file
+{
+    echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') =========================================="
+    echo "Repository path : $repo_path"
+    echo "Logs directory  : $logs_dir"
+    echo "Output file     : $output_file"
+    echo
 
-# Git
-git --version >> "$output_file" 2>&1  # Check Git version and append it to the output file
-echo >> "$output_file"
+    # Check if the repository directory exists
+    if [ -d "$repo_path" ]; then
+        cd "$repo_path" || exit
 
-git fetch >> "$output_file" 2>&1  # Fetch the latest changes from the remote repository and append output to the log file
-git pull >> "$output_file" 2>&1  # Pull the latest changes from the remote repository and append output to the log file
+        git --version
+        echo
 
-echo >> "$output_file" 2>&1
-echo >> "$output_file" 2>&1
-echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')" >> "$output_file" 2>&1  # Add a success message with the current date and time to the output file
-echo >> "$output_file" 2>&1
+        if git fetch && git pull; then
+            echo "Success! Date: $(date +'%Y-%m-%d %H:%M:%S')"
+        else
+            echo "Error during Git operations."
+        fi
+        echo
+    else
+        echo "Repository path $repo_path does not exist."
+        exit 1
+    fi
+} >> "$output_file"
 
 # Final
-echo "Done. Output file has been created or updated: $output_file"  # Print a message indicating that the script has finished and the output file location
+echo "Done. Output file has been created or updated: $output_file"
