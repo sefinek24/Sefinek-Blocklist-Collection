@@ -1,8 +1,8 @@
 !
 !    File: Microsoft
 !    Info: Apps, Bing, Tiles, Unknown
-! Domains: 673
-! Updated: 12/21/2023  12:37 (12:37 PM CST)
+! Domains: 675
+! Updated: 12/29/2023  12:57 (12:57 PM CST)
 ! Creator: ShadowWhisperer (Sean H.)
 !
 !    Curl: curl -s https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Microsoft
@@ -26,6 +26,7 @@ t-ring.msedge.net                              !App   Office
 v4ncsi.msedge.net                              !App   Office
 1drv.com                                       !App     OneDrive
 1drv.ms                                        !App     OneDrive
+common-us.onedrive.akadns.net                  !App     OneDrive
 livefilestore.com                              App      OneDrive
 oneclient.sfx.ms                               !App     OneDrive
 onedrive.akadns.net                            !App     OneDrive
@@ -434,6 +435,7 @@ privacy.xboxlive.com                           !Xbox
 
 ||a-0003.a-msedge.net^
 ||aad.cs.dds.microsoft.com^
+||access-point.cloudmessaging.edge.microsoft.com^
 ||acompli.net^
 ||adl.windows.com^
 ||admin-mcas-gov.us^
