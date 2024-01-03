@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 02 Jan 2024 16:26 UTC+7
-# Version: 2401021626
-# Blocked: 19,806 domains
+# Last modified: 03 Jan 2024 16:35 UTC+7
+# Version: 2401031635
+# Blocked: 19,810 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -1274,6 +1274,9 @@
 0.0.0.0 logsdk.qq.com
 0.0.0.0 mtrace.qq.com
 0.0.0.0 report.qq.com
+#[3g.qq.com]
+0.0.0.0 up-hl.3g.qq.com
+0.0.0.0 yun-hl.3g.qq.com
 #[beacon.qq.com]
 0.0.0.0 beacon.qq.com
 0.0.0.0 aeventlog.beacon.qq.com
@@ -10577,12 +10580,6 @@
 0.0.0.0 ads.imgur.com
 0.0.0.0 p.imgur.com
 0.0.0.0 t.imgur.com
-#[omtrdc.net]
-0.0.0.0 cdn.tt.omtrdc.net
-0.0.0.0 hb.omtrdc.net
-0.0.0.0 omtrdc.net
-0.0.0.0 sc.omtrdc.net
-0.0.0.0 tt.omtrdc.net
 #[demdex.net]
 0.0.0.0 demdex.net
 0.0.0.0 dpm.demdex.net
@@ -11071,8 +11068,16 @@
 #[data.adobedc.net]
 0.0.0.0 data.adobedc.net
 0.0.0.0 adobecorp.data.adobedc.net
+0.0.0.0 adobemobiledev.data.adobedc.net
 0.0.0.0 esdk.data.adobedc.net
-0.0.0.0 edge.adobedc.net
+#[omtrdc.net]
+0.0.0.0 cdn.tt.omtrdc.net
+0.0.0.0 hb.omtrdc.net
+0.0.0.0 omtrdc.net
+0.0.0.0 sc.omtrdc.net
+0.0.0.0 tt.omtrdc.net
+#[2o7.net]
+0.0.0.0 2o7.net
 #[marca.com]
 0.0.0.0 anapixel.marca.com
 0.0.0.0 pixelcounter.marca.com
@@ -20664,7 +20669,6 @@
 0.0.0.0 zygomasbeaches.guru
 0.0.0.0 zzelicawwofl.com
 # --- Block other trackingVN ---
-0.0.0.0 2o7.net
 0.0.0.0 3gl.net
 0.0.0.0 a.apkpure.com
 0.0.0.0 a.mailmunch.co
@@ -20881,6 +20885,7 @@
 0.0.0.0 ethtrader.de
 0.0.0.0 event.stat.wedobest.com.cn
 0.0.0.0 event.wedobest.com.cn
+0.0.0.0 eventgw.twilio.com
 0.0.0.0 events.apester.com
 0.0.0.0 events.attentivemobile.com
 0.0.0.0 events.jora.com
@@ -20898,6 +20903,7 @@
 0.0.0.0 fathomseo.com
 0.0.0.0 firsthive.com
 0.0.0.0 flagcounter.com
+0.0.0.0 fo.iemiq.com
 0.0.0.0 fpnpmcdn.net
 0.0.0.0 front.optimonk.com
 0.0.0.0 fullstory.com

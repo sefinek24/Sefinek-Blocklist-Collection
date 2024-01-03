@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 02 Jan 2024 16:26 UTC+7
-# Version: 2401021626
-# Blocked: 19,806 domains
+# Last modified: 03 Jan 2024 16:35 UTC+7
+# Version: 2401031635
+# Blocked: 19,810 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -1274,6 +1274,9 @@ server=/log.tbs.qq.com/
 server=/logsdk.qq.com/
 server=/mtrace.qq.com/
 server=/report.qq.com/
+#[3g.qq.com]
+server=/up-hl.3g.qq.com/
+server=/yun-hl.3g.qq.com/
 #[beacon.qq.com]
 server=/beacon.qq.com/
 server=/aeventlog.beacon.qq.com/
@@ -10577,12 +10580,6 @@ server=/track1.avplayer.com/
 server=/ads.imgur.com/
 server=/p.imgur.com/
 server=/t.imgur.com/
-#[omtrdc.net]
-server=/cdn.tt.omtrdc.net/
-server=/hb.omtrdc.net/
-server=/omtrdc.net/
-server=/sc.omtrdc.net/
-server=/tt.omtrdc.net/
 #[demdex.net]
 server=/demdex.net/
 server=/dpm.demdex.net/
@@ -11071,8 +11068,16 @@ server=/cdn.hubvisor.io/
 #[data.adobedc.net]
 server=/data.adobedc.net/
 server=/adobecorp.data.adobedc.net/
+server=/adobemobiledev.data.adobedc.net/
 server=/esdk.data.adobedc.net/
-server=/edge.adobedc.net/
+#[omtrdc.net]
+server=/cdn.tt.omtrdc.net/
+server=/hb.omtrdc.net/
+server=/omtrdc.net/
+server=/sc.omtrdc.net/
+server=/tt.omtrdc.net/
+#[2o7.net]
+server=/2o7.net/
 #[marca.com]
 server=/anapixel.marca.com/
 server=/pixelcounter.marca.com/
@@ -20664,7 +20669,6 @@ server=/zygenidempaper.digital/
 server=/zygomasbeaches.guru/
 server=/zzelicawwofl.com/
 # --- Block other trackingVN ---
-server=/2o7.net/
 server=/3gl.net/
 server=/a.apkpure.com/
 server=/a.mailmunch.co/
@@ -20881,6 +20885,7 @@ server=/emltrk.com/
 server=/ethtrader.de/
 server=/event.stat.wedobest.com.cn/
 server=/event.wedobest.com.cn/
+server=/eventgw.twilio.com/
 server=/events.apester.com/
 server=/events.attentivemobile.com/
 server=/events.jora.com/
@@ -20898,6 +20903,7 @@ server=/fastly-insights.com/
 server=/fathomseo.com/
 server=/firsthive.com/
 server=/flagcounter.com/
+server=/fo.iemiq.com/
 server=/fpnpmcdn.net/
 server=/front.optimonk.com/
 server=/fullstory.com/
