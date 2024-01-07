@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 05 Jan 2024 15:51 UTC+7
-# Version: 2401051551
-# Blocked: 19,815 domains
+# Last modified: 07 Jan 2024 14:17 UTC+7
+# Version: 2401071417
+# Blocked: 19,833 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -6950,6 +6950,9 @@
 127.0.0.1 publisher.optad360.com
 127.0.0.1 stats.optad360.com
 127.0.0.1 www.optad360.com
+#[optad360.net]
+127.0.0.1 optad360.net
+127.0.0.1 cdn.optad360.net
 #[themoneytizer.com]
 127.0.0.1 ads.themoneytizer.com
 127.0.0.1 alternativa.themoneytizer.com
@@ -7444,6 +7447,9 @@
 127.0.0.1 origin-ads.realsrv.com
 127.0.0.1 realsrv.com
 127.0.0.1 syndication.realsrv.com
+#[realsrvcdn.com]
+127.0.0.1 realsrvcdn.com
+127.0.0.1 a.realsrvcdn.com
 #[vivaclix.com]
 127.0.0.1 media.vivaclix.com
 127.0.0.1 srv.vivaclix.com
@@ -9277,6 +9283,7 @@
 #[cachefly.net]
 127.0.0.1 ambientdsp.cachefly.net
 127.0.0.1 flurry.cachefly.net
+127.0.0.1 gamma.cachefly.net
 #[idealmedia.io]
 127.0.0.1 c.idealmedia.io
 127.0.0.1 cdn.idealmedia.io
@@ -10724,10 +10731,6 @@
 127.0.0.1 mwzeom.zeotap.com
 127.0.0.1 spl.zeotap.com
 127.0.0.1 zeotap.com
-#[web1s.com]
-127.0.0.1 web1s.com
-127.0.0.1 ssp.web1s.com
-127.0.0.1 www.web1s.com
 #[intentiq.com]
 127.0.0.1 ads.intentiq.com
 127.0.0.1 api.intentiq.com
@@ -11589,6 +11592,12 @@
 #[labadena.com]
 127.0.0.1 labadena.com
 127.0.0.1 a.labadena.com
+#[aff-online.com]
+127.0.0.1 aff-online.com
+127.0.0.1 api.aff-online.com
+#[aff-track.net]
+127.0.0.1 aff-track.net
+127.0.0.1 red.aff-track.net
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -12899,6 +12908,7 @@
 #[aiservice.vn]
 127.0.0.1 boxpr.aiservice.vn
 127.0.0.1 js.aiservice.vn
+127.0.0.1 lio.aiservice.vn
 127.0.0.1 nspapi.aiservice.vn
 127.0.0.1 rec.aiservice.vn
 #[analytics.saas-vn.network]
@@ -13068,6 +13078,8 @@
 127.0.0.1 pv.vipads.cc
 127.0.0.1 www.vipads.cc
 #[kernh41.com]
+127.0.0.1 ght.kernh41.com
+127.0.0.1 gk.kernh41.com
 127.0.0.1 kernh41.com
 127.0.0.1 static1.kernh41.com
 #[realclick.vn]
@@ -13076,6 +13088,13 @@
 127.0.0.1 realclick.vn
 127.0.0.1 stats.realclick.vn
 127.0.0.1 www.realclick.vn
+#[distinctrobin.com]
+127.0.0.1 agt.distinctrobin.com
+127.0.0.1 dfw.distinctrobin.com
+127.0.0.1 distinctrobin.com
+127.0.0.1 gko.distinctrobin.com
+127.0.0.1 imeg.distinctrobin.com
+127.0.0.1 obin.distinctrobin.com
 # --- Block adsVN ---
 127.0.0.1 12signup.com
 127.0.0.1 ad-admin.vnay.vn
@@ -13155,6 +13174,7 @@
 127.0.0.1 ads.xedoisong.vn
 127.0.0.1 ads.xemphimso.com
 127.0.0.1 ads.xemtivisohd.net
+127.0.0.1 ads.zunia.vn
 127.0.0.1 ads1.careerbuilder.vn
 127.0.0.1 ads8.fpt.vn
 127.0.0.1 adserver.lag.vn
@@ -13224,10 +13244,10 @@
 127.0.0.1 dt.vnecdn.com
 127.0.0.1 duamilsyr.com
 127.0.0.1 financial-agent.headlines.pw
-127.0.0.1 gamma.cachefly.net
 127.0.0.1 go.vnecdn.com
 127.0.0.1 hexapinow.xyz
 127.0.0.1 iads.staticscdn.net
+127.0.0.1 iads.vision
 127.0.0.1 imgcdnbet.com
 127.0.0.1 interactive.tinnhanhchungkhoan.vn
 127.0.0.1 k8trangphim.com
@@ -14819,6 +14839,7 @@
 127.0.0.1 aulteeby.net
 127.0.0.1 ausoafab.net
 127.0.0.1 autchoog.net
+127.0.0.1 autjaetpxhj.com
 127.0.0.1 auto-bannertausch.de
 127.0.0.1 autohits.dk
 127.0.0.1 automaticflock.com
@@ -15749,6 +15770,7 @@
 127.0.0.1 cyberbounty.com
 127.0.0.1 cybermonitor.com
 127.0.0.1 cycledaction.com
+127.0.0.1 cyjprljyvgqeg.com
 127.0.0.1 cynes-gwf.com
 127.0.0.1 czyazwvifoxc.com
 127.0.0.1 d.appsdt.com

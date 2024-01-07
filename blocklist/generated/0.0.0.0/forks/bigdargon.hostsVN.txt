@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 05 Jan 2024 15:51 UTC+7
-# Version: 2401051551
-# Blocked: 19,815 domains
+# Last modified: 07 Jan 2024 14:17 UTC+7
+# Version: 2401071417
+# Blocked: 19,833 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -6950,6 +6950,9 @@
 0.0.0.0 publisher.optad360.com
 0.0.0.0 stats.optad360.com
 0.0.0.0 www.optad360.com
+#[optad360.net]
+0.0.0.0 optad360.net
+0.0.0.0 cdn.optad360.net
 #[themoneytizer.com]
 0.0.0.0 ads.themoneytizer.com
 0.0.0.0 alternativa.themoneytizer.com
@@ -7444,6 +7447,9 @@
 0.0.0.0 origin-ads.realsrv.com
 0.0.0.0 realsrv.com
 0.0.0.0 syndication.realsrv.com
+#[realsrvcdn.com]
+0.0.0.0 realsrvcdn.com
+0.0.0.0 a.realsrvcdn.com
 #[vivaclix.com]
 0.0.0.0 media.vivaclix.com
 0.0.0.0 srv.vivaclix.com
@@ -9277,6 +9283,7 @@
 #[cachefly.net]
 0.0.0.0 ambientdsp.cachefly.net
 0.0.0.0 flurry.cachefly.net
+0.0.0.0 gamma.cachefly.net
 #[idealmedia.io]
 0.0.0.0 c.idealmedia.io
 0.0.0.0 cdn.idealmedia.io
@@ -10724,10 +10731,6 @@
 0.0.0.0 mwzeom.zeotap.com
 0.0.0.0 spl.zeotap.com
 0.0.0.0 zeotap.com
-#[web1s.com]
-0.0.0.0 web1s.com
-0.0.0.0 ssp.web1s.com
-0.0.0.0 www.web1s.com
 #[intentiq.com]
 0.0.0.0 ads.intentiq.com
 0.0.0.0 api.intentiq.com
@@ -11589,6 +11592,12 @@
 #[labadena.com]
 0.0.0.0 labadena.com
 0.0.0.0 a.labadena.com
+#[aff-online.com]
+0.0.0.0 aff-online.com
+0.0.0.0 api.aff-online.com
+#[aff-track.net]
+0.0.0.0 aff-track.net
+0.0.0.0 red.aff-track.net
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -12899,6 +12908,7 @@
 #[aiservice.vn]
 0.0.0.0 boxpr.aiservice.vn
 0.0.0.0 js.aiservice.vn
+0.0.0.0 lio.aiservice.vn
 0.0.0.0 nspapi.aiservice.vn
 0.0.0.0 rec.aiservice.vn
 #[analytics.saas-vn.network]
@@ -13068,6 +13078,8 @@
 0.0.0.0 pv.vipads.cc
 0.0.0.0 www.vipads.cc
 #[kernh41.com]
+0.0.0.0 ght.kernh41.com
+0.0.0.0 gk.kernh41.com
 0.0.0.0 kernh41.com
 0.0.0.0 static1.kernh41.com
 #[realclick.vn]
@@ -13076,6 +13088,13 @@
 0.0.0.0 realclick.vn
 0.0.0.0 stats.realclick.vn
 0.0.0.0 www.realclick.vn
+#[distinctrobin.com]
+0.0.0.0 agt.distinctrobin.com
+0.0.0.0 dfw.distinctrobin.com
+0.0.0.0 distinctrobin.com
+0.0.0.0 gko.distinctrobin.com
+0.0.0.0 imeg.distinctrobin.com
+0.0.0.0 obin.distinctrobin.com
 # --- Block adsVN ---
 0.0.0.0 12signup.com
 0.0.0.0 ad-admin.vnay.vn
@@ -13155,6 +13174,7 @@
 0.0.0.0 ads.xedoisong.vn
 0.0.0.0 ads.xemphimso.com
 0.0.0.0 ads.xemtivisohd.net
+0.0.0.0 ads.zunia.vn
 0.0.0.0 ads1.careerbuilder.vn
 0.0.0.0 ads8.fpt.vn
 0.0.0.0 adserver.lag.vn
@@ -13224,10 +13244,10 @@
 0.0.0.0 dt.vnecdn.com
 0.0.0.0 duamilsyr.com
 0.0.0.0 financial-agent.headlines.pw
-0.0.0.0 gamma.cachefly.net
 0.0.0.0 go.vnecdn.com
 0.0.0.0 hexapinow.xyz
 0.0.0.0 iads.staticscdn.net
+0.0.0.0 iads.vision
 0.0.0.0 imgcdnbet.com
 0.0.0.0 interactive.tinnhanhchungkhoan.vn
 0.0.0.0 k8trangphim.com
@@ -14819,6 +14839,7 @@
 0.0.0.0 aulteeby.net
 0.0.0.0 ausoafab.net
 0.0.0.0 autchoog.net
+0.0.0.0 autjaetpxhj.com
 0.0.0.0 auto-bannertausch.de
 0.0.0.0 autohits.dk
 0.0.0.0 automaticflock.com
@@ -15749,6 +15770,7 @@
 0.0.0.0 cyberbounty.com
 0.0.0.0 cybermonitor.com
 0.0.0.0 cycledaction.com
+0.0.0.0 cyjprljyvgqeg.com
 0.0.0.0 cynes-gwf.com
 0.0.0.0 czyazwvifoxc.com
 0.0.0.0 d.appsdt.com

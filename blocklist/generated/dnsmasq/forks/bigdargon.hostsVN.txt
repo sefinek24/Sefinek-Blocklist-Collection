@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 05 Jan 2024 15:51 UTC+7
-# Version: 2401051551
-# Blocked: 19,815 domains
+# Last modified: 07 Jan 2024 14:17 UTC+7
+# Version: 2401071417
+# Blocked: 19,833 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -6950,6 +6950,9 @@ server=/poczta.optad360.com/
 server=/publisher.optad360.com/
 server=/stats.optad360.com/
 server=/www.optad360.com/
+#[optad360.net]
+server=/optad360.net/
+server=/cdn.optad360.net/
 #[themoneytizer.com]
 server=/ads.themoneytizer.com/
 server=/alternativa.themoneytizer.com/
@@ -7444,6 +7447,9 @@ server=/main.realsrv.com/
 server=/origin-ads.realsrv.com/
 server=/realsrv.com/
 server=/syndication.realsrv.com/
+#[realsrvcdn.com]
+server=/realsrvcdn.com/
+server=/a.realsrvcdn.com/
 #[vivaclix.com]
 server=/media.vivaclix.com/
 server=/srv.vivaclix.com/
@@ -9277,6 +9283,7 @@ server=/www.truepush.com/
 #[cachefly.net]
 server=/ambientdsp.cachefly.net/
 server=/flurry.cachefly.net/
+server=/gamma.cachefly.net/
 #[idealmedia.io]
 server=/c.idealmedia.io/
 server=/cdn.idealmedia.io/
@@ -10724,10 +10731,6 @@ server=/amgdgt.com/
 server=/mwzeom.zeotap.com/
 server=/spl.zeotap.com/
 server=/zeotap.com/
-#[web1s.com]
-server=/web1s.com/
-server=/ssp.web1s.com/
-server=/www.web1s.com/
 #[intentiq.com]
 server=/ads.intentiq.com/
 server=/api.intentiq.com/
@@ -11589,6 +11592,12 @@ server=/ss29.litvp.com/
 #[labadena.com]
 server=/labadena.com/
 server=/a.labadena.com/
+#[aff-online.com]
+server=/aff-online.com/
+server=/api.aff-online.com/
+#[aff-track.net]
+server=/aff-track.net/
+server=/red.aff-track.net/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -12899,6 +12908,7 @@ server=/www.metaconex.io/
 #[aiservice.vn]
 server=/boxpr.aiservice.vn/
 server=/js.aiservice.vn/
+server=/lio.aiservice.vn/
 server=/nspapi.aiservice.vn/
 server=/rec.aiservice.vn/
 #[analytics.saas-vn.network]
@@ -13068,6 +13078,8 @@ server=/vipads.cc/
 server=/pv.vipads.cc/
 server=/www.vipads.cc/
 #[kernh41.com]
+server=/ght.kernh41.com/
+server=/gk.kernh41.com/
 server=/kernh41.com/
 server=/static1.kernh41.com/
 #[realclick.vn]
@@ -13076,6 +13088,13 @@ server=/i.realclick.vn/
 server=/realclick.vn/
 server=/stats.realclick.vn/
 server=/www.realclick.vn/
+#[distinctrobin.com]
+server=/agt.distinctrobin.com/
+server=/dfw.distinctrobin.com/
+server=/distinctrobin.com/
+server=/gko.distinctrobin.com/
+server=/imeg.distinctrobin.com/
+server=/obin.distinctrobin.com/
 # --- Block adsVN ---
 server=/12signup.com/
 server=/ad-admin.vnay.vn/
@@ -13155,6 +13174,7 @@ server=/ads.vovlive.vn/
 server=/ads.xedoisong.vn/
 server=/ads.xemphimso.com/
 server=/ads.xemtivisohd.net/
+server=/ads.zunia.vn/
 server=/ads1.careerbuilder.vn/
 server=/ads8.fpt.vn/
 server=/adserver.lag.vn/
@@ -13224,10 +13244,10 @@ server=/deqik.com/
 server=/dt.vnecdn.com/
 server=/duamilsyr.com/
 server=/financial-agent.headlines.pw/
-server=/gamma.cachefly.net/
 server=/go.vnecdn.com/
 server=/hexapinow.xyz/
 server=/iads.staticscdn.net/
+server=/iads.vision/
 server=/imgcdnbet.com/
 server=/interactive.tinnhanhchungkhoan.vn/
 server=/k8trangphim.com/
@@ -14819,6 +14839,7 @@ server=/aulseewhie.com/
 server=/aulteeby.net/
 server=/ausoafab.net/
 server=/autchoog.net/
+server=/autjaetpxhj.com/
 server=/auto-bannertausch.de/
 server=/autohits.dk/
 server=/automaticflock.com/
@@ -15749,6 +15770,7 @@ server=/cwqljsecvr.com/
 server=/cyberbounty.com/
 server=/cybermonitor.com/
 server=/cycledaction.com/
+server=/cyjprljyvgqeg.com/
 server=/cynes-gwf.com/
 server=/czyazwvifoxc.com/
 server=/d.appsdt.com/
