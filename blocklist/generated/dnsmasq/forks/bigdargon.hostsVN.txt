@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 07 Jan 2024 14:17 UTC+7
-# Version: 2401071417
-# Blocked: 19,833 domains
+# Last modified: 10 Jan 2024 10:21 UTC+7
+# Version: 2401101021
+# Blocked: 19,839 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11598,6 +11598,10 @@ server=/api.aff-online.com/
 #[aff-track.net]
 server=/aff-track.net/
 server=/red.aff-track.net/
+#[event.dfinery.io]
+server=/ap1.event.dfinery.io/
+server=/ap2.event.dfinery.io/
+server=/event.dfinery.io/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -12125,6 +12129,9 @@ server=/tracker-zlivestream.zapps.vn/
 server=/tracking.api.media.zapps.vn/
 server=/za.zapps.vn/
 server=/zplayer.trk.zapps.vn/
+#[zapps.me]
+server=/analytics.zapps.me/
+server=/tech.zapps.me/
 #[yomedia]
 server=/analytics.yomedia.vn/
 server=/delivery.yomedia.vn/
@@ -13450,6 +13457,7 @@ server=/log.infonet.vn/
 server=/log.kaka.me/
 server=/log.kienthuc.net.vn/
 server=/log.kinhtedouong.vn/
+server=/log.lichviet.org/
 server=/log.mekongasean.vn/
 server=/log.ngaynay.vn/
 server=/log.nhandan.vn/
@@ -13512,6 +13520,7 @@ server=/s.homedy.com/
 server=/s.kenh14.vn/
 server=/s.soha.vn/
 server=/s6.textlink.vn/
+server=/sentry.mediacdn.vn/
 server=/smetrics.kone.vn/
 server=/st-a.vtvdigital.vn/
 server=/stat.headlines.pw/
@@ -13534,7 +13543,6 @@ server=/support.tenten.vn/
 server=/sv-api-event.headlines.pw/
 server=/ta.toprework.vn/
 server=/tagging-qadkfoj6ha-as.a.run.app/
-server=/tech.zapps.me/
 server=/thongke.24h.com.vn/
 server=/thongke.arttimes.vn/
 server=/thongke.baotintuc.vn/

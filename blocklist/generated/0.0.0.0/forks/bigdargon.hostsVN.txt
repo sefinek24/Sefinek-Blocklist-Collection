@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 07 Jan 2024 14:17 UTC+7
-# Version: 2401071417
-# Blocked: 19,833 domains
+# Last modified: 10 Jan 2024 10:21 UTC+7
+# Version: 2401101021
+# Blocked: 19,839 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11598,6 +11598,10 @@
 #[aff-track.net]
 0.0.0.0 aff-track.net
 0.0.0.0 red.aff-track.net
+#[event.dfinery.io]
+0.0.0.0 ap1.event.dfinery.io
+0.0.0.0 ap2.event.dfinery.io
+0.0.0.0 event.dfinery.io
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -12125,6 +12129,9 @@
 0.0.0.0 tracking.api.media.zapps.vn
 0.0.0.0 za.zapps.vn
 0.0.0.0 zplayer.trk.zapps.vn
+#[zapps.me]
+0.0.0.0 analytics.zapps.me
+0.0.0.0 tech.zapps.me
 #[yomedia]
 0.0.0.0 analytics.yomedia.vn
 0.0.0.0 delivery.yomedia.vn
@@ -13450,6 +13457,7 @@
 0.0.0.0 log.kaka.me
 0.0.0.0 log.kienthuc.net.vn
 0.0.0.0 log.kinhtedouong.vn
+0.0.0.0 log.lichviet.org
 0.0.0.0 log.mekongasean.vn
 0.0.0.0 log.ngaynay.vn
 0.0.0.0 log.nhandan.vn
@@ -13512,6 +13520,7 @@
 0.0.0.0 s.kenh14.vn
 0.0.0.0 s.soha.vn
 0.0.0.0 s6.textlink.vn
+0.0.0.0 sentry.mediacdn.vn
 0.0.0.0 smetrics.kone.vn
 0.0.0.0 st-a.vtvdigital.vn
 0.0.0.0 stat.headlines.pw
@@ -13534,7 +13543,6 @@
 0.0.0.0 sv-api-event.headlines.pw
 0.0.0.0 ta.toprework.vn
 0.0.0.0 tagging-qadkfoj6ha-as.a.run.app
-0.0.0.0 tech.zapps.me
 0.0.0.0 thongke.24h.com.vn
 0.0.0.0 thongke.arttimes.vn
 0.0.0.0 thongke.baotintuc.vn

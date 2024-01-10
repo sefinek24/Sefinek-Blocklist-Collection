@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 07 Jan 2024 14:17 UTC+7
-# Version: 2401071417
-# Blocked: 19,833 domains
+# Last modified: 10 Jan 2024 10:21 UTC+7
+# Version: 2401101021
+# Blocked: 19,839 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11598,6 +11598,10 @@
 #[aff-track.net]
 127.0.0.1 aff-track.net
 127.0.0.1 red.aff-track.net
+#[event.dfinery.io]
+127.0.0.1 ap1.event.dfinery.io
+127.0.0.1 ap2.event.dfinery.io
+127.0.0.1 event.dfinery.io
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -12125,6 +12129,9 @@
 127.0.0.1 tracking.api.media.zapps.vn
 127.0.0.1 za.zapps.vn
 127.0.0.1 zplayer.trk.zapps.vn
+#[zapps.me]
+127.0.0.1 analytics.zapps.me
+127.0.0.1 tech.zapps.me
 #[yomedia]
 127.0.0.1 analytics.yomedia.vn
 127.0.0.1 delivery.yomedia.vn
@@ -13450,6 +13457,7 @@
 127.0.0.1 log.kaka.me
 127.0.0.1 log.kienthuc.net.vn
 127.0.0.1 log.kinhtedouong.vn
+127.0.0.1 log.lichviet.org
 127.0.0.1 log.mekongasean.vn
 127.0.0.1 log.ngaynay.vn
 127.0.0.1 log.nhandan.vn
@@ -13512,6 +13520,7 @@
 127.0.0.1 s.kenh14.vn
 127.0.0.1 s.soha.vn
 127.0.0.1 s6.textlink.vn
+127.0.0.1 sentry.mediacdn.vn
 127.0.0.1 smetrics.kone.vn
 127.0.0.1 st-a.vtvdigital.vn
 127.0.0.1 stat.headlines.pw
@@ -13534,7 +13543,6 @@
 127.0.0.1 sv-api-event.headlines.pw
 127.0.0.1 ta.toprework.vn
 127.0.0.1 tagging-qadkfoj6ha-as.a.run.app
-127.0.0.1 tech.zapps.me
 127.0.0.1 thongke.24h.com.vn
 127.0.0.1 thongke.arttimes.vn
 127.0.0.1 thongke.baotintuc.vn
