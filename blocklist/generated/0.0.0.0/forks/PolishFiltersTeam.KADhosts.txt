@@ -1,7 +1,7 @@
 # Title: KADhosts
 # Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-# Last modified: Sat, 13 Jan 2024, 21:17 UTC+01:00
-# Version: 2024.1.13.3
+# Last modified: Sun, 14 Jan 2024, 01:18 UTC+01:00
+# Version: 2024.1.14.0
 # Expires: 2 days
 # Website: https://kadantiscam.netlify.app/
 # Based on: https://github.com/FiltersHeroes/KAD
@@ -8165,6 +8165,7 @@
 0.0.0.0 allegrolokalnie.pl-oferta-sprzedazy651014.pl
 0.0.0.0 allegrolokalnie.pl-pay.pl
 0.0.0.0 allegrolokalnie.pl-payu24.pl
+0.0.0.0 allegrolokalnie.pl-platnosc24.pl
 0.0.0.0 allegrolokalnie.pl-platnosc-payu.pl
 0.0.0.0 allegrolokalnie.pl-platnosci3465.pl
 0.0.0.0 allegrolokalnie.pl-platnosci3491.pl
@@ -16102,6 +16103,7 @@
 0.0.0.0 cp-home-pl-00c7d71a5bb.platamix.com
 0.0.0.0 cp-home-pl-0e5c66714e8.platamix.com
 0.0.0.0 cp-home-pl-1bd20fd2291.solidinterimmanagement.nl
+0.0.0.0 cp-home-pl-1d057e8df99.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-1f8755db207.platamix.com
 0.0.0.0 cp-home-pl-1fbebba2105.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-2c4ab4638f7.platamix.com
@@ -16152,6 +16154,7 @@
 0.0.0.0 cp-home-pl-44a6ddc904b.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-48ff2eccc35.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-59b5f6cb6e3.solidinterimmanagement.nl
+0.0.0.0 cp-home-pl-62fdd4e512e.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-63c64b46fd6.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-63fbd0987f9.platamix.com
 0.0.0.0 cp-home-pl-73cee58bcfe.solidinterimmanagement.nl
@@ -16180,6 +16183,7 @@
 0.0.0.0 cp-home-pl-525f8d8cc7c.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-592c8c60792.platamix.com
 0.0.0.0 cp-home-pl-595d1af36df.platamix.com
+0.0.0.0 cp-home-pl-629f823c142.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-672cf24379a.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-690ef629778.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-691aad34cfe.solidinterimmanagement.nl
@@ -16231,6 +16235,7 @@
 0.0.0.0 cp-home-pl-a07551847c2.platamix.com
 0.0.0.0 cp-home-pl-acae3b0fc85.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-ad7d0c4741c.platamix.com
+0.0.0.0 cp-home-pl-ae48c4d6313.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-aea990f7d61.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-aee9519f2ef.platamix.com
 0.0.0.0 cp-home-pl-b2d77977ba3.solidinterimmanagement.nl
@@ -16247,6 +16252,7 @@
 0.0.0.0 cp-home-pl-be83a4768d1.platamix.com
 0.0.0.0 cp-home-pl-bf7155db288.installprofi.nl
 0.0.0.0 cp-home-pl-c2b3327446f.platamix.com
+0.0.0.0 cp-home-pl-c3dc323aaa3.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-c6cb4c3b163.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-c8e49a47478.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-c12e14d75d8.platamix.com
@@ -16268,6 +16274,7 @@
 0.0.0.0 cp-home-pl-d61494ee82a.platamix.com
 0.0.0.0 cp-home-pl-decc2402272.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-df1b6e9df3a.solidinterimmanagement.nl
+0.0.0.0 cp-home-pl-e0a466df94c.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-e2aef914129.platamix.com
 0.0.0.0 cp-home-pl-e2b117231d3.solidinterimmanagement.nl
 0.0.0.0 cp-home-pl-e4ade65641b.solidinterimmanagement.nl
@@ -36814,6 +36821,7 @@
 0.0.0.0 network-mc.com
 0.0.0.0 networkave.com
 0.0.0.0 netysv.sbs
+0.0.0.0 neu7-63.cfd
 0.0.0.0 neu-pro.ofishlprog1.click
 0.0.0.0 neul.sbs
 0.0.0.0 neumap.com
@@ -41041,8 +41049,10 @@
 0.0.0.0 pl-pge1.web.app
 0.0.0.0 pl-pge.web.app
 0.0.0.0 pl-pl-fb.pages.net.br
+0.0.0.0 pl-platnosc24.pl
 0.0.0.0 pl-platnosc-payu.pl
 0.0.0.0 pl-platnosci24.pl
+0.0.0.0 pl-platnosci247.pl
 0.0.0.0 pl-platnosci3465.pl
 0.0.0.0 pl-platnosci3491.pl
 0.0.0.0 pl-platnosci4072.pl
@@ -49607,6 +49617,7 @@
 0.0.0.0 te2.tradelifeworld.top
 0.0.0.0 te3.tradelifeworld.top
 0.0.0.0 te-3.sbs
+0.0.0.0 te-903n.cfd
 0.0.0.0 teakegeh.site
 0.0.0.0 team-pow.com
 0.0.0.0 team.ebutudan.com
@@ -53385,6 +53396,7 @@
 0.0.0.0 vlnted-gb.auiok.info
 0.0.0.0 vlnted-gb.auion.info
 0.0.0.0 vlnted-gb.auioy.info
+0.0.0.0 vlnted-gb.auoif.info
 0.0.0.0 vlnted-gb.auyiok.info
 0.0.0.0 vlnted-gb.auyoy.info
 0.0.0.0 vlnted-gb.axyuo.info
@@ -58404,6 +58416,7 @@
 0.0.0.0 www.allegrolokalnie.pl-oferta-sprzedazy651014.pl
 0.0.0.0 www.allegrolokalnie.pl-pay.pl
 0.0.0.0 www.allegrolokalnie.pl-payu24.pl
+0.0.0.0 www.allegrolokalnie.pl-platnosc24.pl
 0.0.0.0 www.allegrolokalnie.pl-platnosc-payu.pl
 0.0.0.0 www.allegrolokalnie.pl-platnosci3465.pl
 0.0.0.0 www.allegrolokalnie.pl-platnosci3491.pl
@@ -66341,6 +66354,7 @@
 0.0.0.0 www.cp-home-pl-00c7d71a5bb.platamix.com
 0.0.0.0 www.cp-home-pl-0e5c66714e8.platamix.com
 0.0.0.0 www.cp-home-pl-1bd20fd2291.solidinterimmanagement.nl
+0.0.0.0 www.cp-home-pl-1d057e8df99.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-1f8755db207.platamix.com
 0.0.0.0 www.cp-home-pl-1fbebba2105.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-2c4ab4638f7.platamix.com
@@ -66391,6 +66405,7 @@
 0.0.0.0 www.cp-home-pl-44a6ddc904b.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-48ff2eccc35.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-59b5f6cb6e3.solidinterimmanagement.nl
+0.0.0.0 www.cp-home-pl-62fdd4e512e.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-63c64b46fd6.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-63fbd0987f9.platamix.com
 0.0.0.0 www.cp-home-pl-73cee58bcfe.solidinterimmanagement.nl
@@ -66419,6 +66434,7 @@
 0.0.0.0 www.cp-home-pl-525f8d8cc7c.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-592c8c60792.platamix.com
 0.0.0.0 www.cp-home-pl-595d1af36df.platamix.com
+0.0.0.0 www.cp-home-pl-629f823c142.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-672cf24379a.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-690ef629778.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-691aad34cfe.solidinterimmanagement.nl
@@ -66470,6 +66486,7 @@
 0.0.0.0 www.cp-home-pl-a07551847c2.platamix.com
 0.0.0.0 www.cp-home-pl-acae3b0fc85.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-ad7d0c4741c.platamix.com
+0.0.0.0 www.cp-home-pl-ae48c4d6313.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-aea990f7d61.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-aee9519f2ef.platamix.com
 0.0.0.0 www.cp-home-pl-b2d77977ba3.solidinterimmanagement.nl
@@ -66486,6 +66503,7 @@
 0.0.0.0 www.cp-home-pl-be83a4768d1.platamix.com
 0.0.0.0 www.cp-home-pl-bf7155db288.installprofi.nl
 0.0.0.0 www.cp-home-pl-c2b3327446f.platamix.com
+0.0.0.0 www.cp-home-pl-c3dc323aaa3.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-c6cb4c3b163.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-c8e49a47478.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-c12e14d75d8.platamix.com
@@ -66507,6 +66525,7 @@
 0.0.0.0 www.cp-home-pl-d61494ee82a.platamix.com
 0.0.0.0 www.cp-home-pl-decc2402272.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-df1b6e9df3a.solidinterimmanagement.nl
+0.0.0.0 www.cp-home-pl-e0a466df94c.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-e2aef914129.platamix.com
 0.0.0.0 www.cp-home-pl-e2b117231d3.solidinterimmanagement.nl
 0.0.0.0 www.cp-home-pl-e4ade65641b.solidinterimmanagement.nl
@@ -87053,6 +87072,7 @@
 0.0.0.0 www.network-mc.com
 0.0.0.0 www.networkave.com
 0.0.0.0 www.netysv.sbs
+0.0.0.0 www.neu7-63.cfd
 0.0.0.0 www.neu-pro.ofishlprog1.click
 0.0.0.0 www.neul.sbs
 0.0.0.0 www.neumap.com
@@ -91278,8 +91298,10 @@
 0.0.0.0 www.pl-pge1.web.app
 0.0.0.0 www.pl-pge.web.app
 0.0.0.0 www.pl-pl-fb.pages.net.br
+0.0.0.0 www.pl-platnosc24.pl
 0.0.0.0 www.pl-platnosc-payu.pl
 0.0.0.0 www.pl-platnosci24.pl
+0.0.0.0 www.pl-platnosci247.pl
 0.0.0.0 www.pl-platnosci3465.pl
 0.0.0.0 www.pl-platnosci3491.pl
 0.0.0.0 www.pl-platnosci4072.pl
@@ -99756,6 +99778,7 @@
 0.0.0.0 www.te2.tradelifeworld.top
 0.0.0.0 www.te3.tradelifeworld.top
 0.0.0.0 www.te-3.sbs
+0.0.0.0 www.te-903n.cfd
 0.0.0.0 www.teakegeh.site
 0.0.0.0 www.team-pow.com
 0.0.0.0 www.team.ebutudan.com
@@ -103534,6 +103557,7 @@
 0.0.0.0 www.vlnted-gb.auiok.info
 0.0.0.0 www.vlnted-gb.auion.info
 0.0.0.0 www.vlnted-gb.auioy.info
+0.0.0.0 www.vlnted-gb.auoif.info
 0.0.0.0 www.vlnted-gb.auyiok.info
 0.0.0.0 www.vlnted-gb.auyoy.info
 0.0.0.0 www.vlnted-gb.axyuo.info
