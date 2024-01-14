@@ -25,7 +25,7 @@ The following URLs contain lists of domains that you may choose to block if you 
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/firebog.Admiral.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/firebog.Easylist.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/firebog.Prigent-Ads.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/kboghdady.youtubelist.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/ads/kboghdady.youtubelist.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.SmartTV_ads.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/forks/r-a-y.AdguardMobileAds.txt

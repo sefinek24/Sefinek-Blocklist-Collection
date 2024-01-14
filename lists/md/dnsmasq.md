@@ -66,7 +66,7 @@ https://blocklist.sefinek.net/generated/dnsmasq/forks/frogeye.firstparty-tracker
 https://blocklist.sefinek.net/generated/dnsmasq/forks/hole-cert.domains_hosts.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/hoshsadiq.adblock-nocoin-list.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/justdomains.adguarddns.txt
-https://blocklist.sefinek.net/generated/dnsmasq/forks/kboghdady.youtubelist.txt
+https://blocklist.sefinek.net/generated/dnsmasq/ads/kboghdady.youtubelist.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.adguard_host.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.adguard_mobile_host.txt
 https://blocklist.sefinek.net/generated/dnsmasq/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
