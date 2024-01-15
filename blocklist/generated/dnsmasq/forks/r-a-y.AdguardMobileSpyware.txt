@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 18 Dec 2023 22:00:06 +0000
+# Last converted - Mon, 15 Jan 2024 20:54:28 +0000
 #
 
 server=/adeventtracker.spotify.com/
@@ -290,7 +290,15 @@ server=/eventgw.twilio.com/
 server=/log.estand.jp/
 server=/event-search.jorte.com/
 server=/ad-log-upload-os.hoyoverse.com/
+server=/apm-log-upload-os.hoyoverse.com/
+server=/devlog-upload-os.hoyoverse.com/
+server=/hkrpg-log-upload-os.hoyoverse.com/
 server=/log-upload-os.hoyoverse.com/
+server=/minor-api-os.hoyoverse.com/
+server=/overseauspider.yuanshen.com/
+server=/sentry.eks.hoyoverse.com/
+server=/sg-public-data-api.hoyoverse.com/
+server=/ys-log-upload-os.hoyoverse.com/
 server=/analytics.studiodesignapp.com/
 server=/misc.api.snaptube.app/
 server=/dig.bdurl.net/
