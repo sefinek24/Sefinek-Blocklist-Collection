@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 15 Jan 2024 23:07 UTC+7
-# Version: 2401152307
-# Blocked: 19,858 domains
+# Last modified: 20 Jan 2024 16:06 UTC+7
+# Version: 2401201606
+# Blocked: 19,861 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -10278,10 +10278,6 @@ server=/venatusmedia.com/
 #[devtodev.com]
 server=/balancer.devtodev.com/
 server=/statgw.devtodev.com/
-#[cdn.openinstall.io]
-server=/cdn.openinstall.io/
-server=/res.cdn.openinstall.io/
-server=/web.cdn.openinstall.io/
 #[mediaintelligence.de]
 server=/data.mediaintelligence.de/
 server=/mediaintelligence.de/
@@ -11074,6 +11070,8 @@ server=/data.adobedc.net/
 server=/adobecorp.data.adobedc.net/
 server=/adobemobiledev.data.adobedc.net/
 server=/esdk.data.adobedc.net/
+#[edge.adobedc.net]
+server=/edge.adobedc.net/
 #[omtrdc.net]
 server=/cdn.tt.omtrdc.net/
 server=/hb.omtrdc.net/
@@ -11603,6 +11601,10 @@ server=/red.aff-track.net/
 server=/ap1.event.dfinery.io/
 server=/ap2.event.dfinery.io/
 server=/event.dfinery.io/
+#[banggood.com]
+server=/collect.banggood.com/
+server=/dc.banggood.com/
+server=/web-device-id.banggood.com/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -19753,6 +19755,7 @@ server=/tibacta.com/
 server=/tibcpowpiaqv.com/
 server=/ticklesign.com/
 server=/tidaltv.com/
+server=/tieszhu.com/
 server=/tiijdxto.com/
 server=/timzanzcuff.com/
 server=/tinkeregojut.com/
@@ -20567,6 +20570,7 @@ server=/yarningconfer.guru/
 server=/yawledabobra.com/
 server=/yawnspuker.com/
 server=/ybrantdigital.com/
+server=/ybs2ffs7v.com/
 server=/ydworld.com/
 server=/yealnk.com/
 server=/yeanstights.store/
