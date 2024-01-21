@@ -1,7 +1,7 @@
 ! Title: KADhosts
 ! Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-! Last modified: Sun, 21 Jan 2024, 01:18 UTC+01:00
-! Version: 2024.1.21.0
+! Last modified: Sun, 21 Jan 2024, 17:20 UTC+01:00
+! Version: 2024.1.21.1
 ! Expires: 2 days
 ! Website: https://kadantiscam.netlify.app/
 ! Based on: https://github.com/FiltersHeroes/KAD
@@ -10247,6 +10247,7 @@
 ||auta-karwacki.pl^
 ||auta-kosowski.pl^
 ||auta-kowalik.pl^
+||auta-kozak.pl^
 ||auta-kozicki.pl^
 ||auta-kubacki.pl^
 ||auta-kucharski.pl^
@@ -10266,9 +10267,11 @@
 ||auta-potocki.pl^
 ||auta-rakowski.pl^
 ||auta-rawicki.pl^
+||auta-sikorski.pl^
 ||auta-sobanski.pl^
 ||auta-sobieski.pl^
 ||auta-sochacki.pl^
+||auta-szulc.pl^
 ||auta-wilk.pl^
 ||auta-winiarski.pl^
 ||auta-wojtas.pl^
@@ -39028,10 +39031,12 @@
 ||oferta-sprzedazy2142.pl^
 ||oferta-sprzedazy2356.pl^
 ||oferta-sprzedazy2455.pl^
+||oferta-sprzedazy5464.pl^
 ||oferta-sprzedazy5566.pl^
 ||oferta-sprzedazy6234.pl^
 ||oferta-sprzedazy6242.pl^
 ||oferta-sprzedazy8254.pl^
+||oferta-sprzedazy9248.pl^
 ||oferta-sprzedazy25485.pl^
 ||oferta-sprzedazy43536.pl^
 ||oferta-sprzedazy55652.pl^
@@ -39378,6 +39383,7 @@
 ||ollx.1897445.xyz^
 ||ollx.2321435.xyz^
 ||ollx.2578451.xyz^
+||ollx.2897445.xyz^
 ||ollx.4578451.xyz^
 ||ollx.5578451.xyz^
 ||ollx.6578451.xyz^
@@ -47217,6 +47223,7 @@
 ||saturn-e.dedust.care^
 ||saturniobot.com^
 ||saturnoestudio.com^
+||satylve.sbs^
 ||saught.site^
 ||sauguss.life^
 ||saurabhsaket.com^
@@ -47463,6 +47470,7 @@
 ||secure-your-world.pages.net.br^
 ||secure.agfxmarkets.com^
 ||secure.approve534621.com^
+||secure.captchabot-verification.xyz^
 ||secure.marcket.click^
 ||secure.paaygatewayin.com^
 ||secure.payuin.com^
@@ -54512,6 +54520,7 @@
 ||vlnted-gb.ayoic.info^
 ||vlnted-gb.ayoui.info^
 ||vlnted-gb.ayouo.info^
+||vlnted-gb.ayouu.info^
 ||vlnted-gb.ayuiok.info^
 ||vlnted-gb.ayuuu.info^
 ||vlnted-gb.completes-order.info^
@@ -61640,6 +61649,7 @@
 ||www.auta-karwacki.pl^
 ||www.auta-kosowski.pl^
 ||www.auta-kowalik.pl^
+||www.auta-kozak.pl^
 ||www.auta-kozicki.pl^
 ||www.auta-kubacki.pl^
 ||www.auta-kucharski.pl^
@@ -61659,9 +61669,11 @@
 ||www.auta-potocki.pl^
 ||www.auta-rakowski.pl^
 ||www.auta-rawicki.pl^
+||www.auta-sikorski.pl^
 ||www.auta-sobanski.pl^
 ||www.auta-sobieski.pl^
 ||www.auta-sochacki.pl^
+||www.auta-szulc.pl^
 ||www.auta-wilk.pl^
 ||www.auta-winiarski.pl^
 ||www.auta-wojtas.pl^
@@ -90421,10 +90433,12 @@
 ||www.oferta-sprzedazy2142.pl^
 ||www.oferta-sprzedazy2356.pl^
 ||www.oferta-sprzedazy2455.pl^
+||www.oferta-sprzedazy5464.pl^
 ||www.oferta-sprzedazy5566.pl^
 ||www.oferta-sprzedazy6234.pl^
 ||www.oferta-sprzedazy6242.pl^
 ||www.oferta-sprzedazy8254.pl^
+||www.oferta-sprzedazy9248.pl^
 ||www.oferta-sprzedazy25485.pl^
 ||www.oferta-sprzedazy43536.pl^
 ||www.oferta-sprzedazy55652.pl^
@@ -90771,6 +90785,7 @@
 ||www.ollx.1897445.xyz^
 ||www.ollx.2321435.xyz^
 ||www.ollx.2578451.xyz^
+||www.ollx.2897445.xyz^
 ||www.ollx.4578451.xyz^
 ||www.ollx.5578451.xyz^
 ||www.ollx.6578451.xyz^
@@ -98514,6 +98529,7 @@
 ||www.saturn-e.dedust.care^
 ||www.saturniobot.com^
 ||www.saturnoestudio.com^
+||www.satylve.sbs^
 ||www.saught.site^
 ||www.sauguss.life^
 ||www.saurabhsaket.com^
@@ -98760,6 +98776,7 @@
 ||www.secure-your-world.pages.net.br^
 ||www.secure.agfxmarkets.com^
 ||www.secure.approve534621.com^
+||www.secure.captchabot-verification.xyz^
 ||www.secure.marcket.click^
 ||www.secure.paaygatewayin.com^
 ||www.secure.payuin.com^
@@ -105809,6 +105826,7 @@
 ||www.vlnted-gb.ayoic.info^
 ||www.vlnted-gb.ayoui.info^
 ||www.vlnted-gb.ayouo.info^
+||www.vlnted-gb.ayouu.info^
 ||www.vlnted-gb.ayuiok.info^
 ||www.vlnted-gb.ayuuu.info^
 ||www.vlnted-gb.completes-order.info^
