@@ -3,7 +3,7 @@
   This file contains a collection of blocklists (their sources) that have been modified to not block trusted domains.
 
   <h1>📥 Last update</h1>
-  23.06.2023<br>
+  30.01.2024<br>
   <code>DD.MM.YYYY</code>
 </div>
 
@@ -37,7 +37,7 @@
 - 🗑️ **Removed:**
   1. `arc.msn.com` - This subdomain has been removed from the list as it is necessary to receive benefits from [Xbox Game Pass](https://www.xbox.com/en-US/xbox-game-pass).
   2. `widget.trustpilot.com` - The subdomain is responsible for displaying the [trustpilot.com](https://www.trustpilot.com) widget. This widget is not an advertisement and can be useful in determining whether a particular website is trustworthy (e.g., an online store) based on user reviews. The majority of companies use Trustpilot to enhance their customer trust.
-
+  3. `obs.line-scdn.net` - This subdomain is utilized by [LINE](https://line.me). Blocking this subdomain may result in issues with the display or use of stickers in the chat, particularly in the PC version of the application.
 
 ## DandelionSprout/adfilt
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt)] • https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt
@@ -48,7 +48,7 @@
 ## jerryn70/GoodbyeAds
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt)] • https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt
 - ✔️ **Fixed:**
-  1. `trk.mail.ru,ping` - [[#379]](https://github.com/jerryn70/GoodbyeAds/pull/379)
+  1. `trk.mail.ru,ping` - [[PR #379]](https://github.com/jerryn70/GoodbyeAds/pull/379)
 
 ## kboghdady/youTube_ads_4_pi-hole
 #### 1. [[Modified version](https://blocklist.sefinek.net/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt)] • https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt
