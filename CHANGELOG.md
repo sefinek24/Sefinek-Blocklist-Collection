@@ -1,3 +1,5 @@
+## 30.01.2024 - Update v0.13.0
+
 ## 10.12.2023 - Update v0.13.0
 1. Updated node modules. [[59c80cf](https://github.com/sefinek24/Sefinek-Blocklist-Collection/commit/59c80cf6a2aa2d786b03a2b8fdec9d47012592bd)]
 2. Improved responsiveness of the block list generator.
