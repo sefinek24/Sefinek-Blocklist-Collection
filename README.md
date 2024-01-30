@@ -3,7 +3,7 @@
     <h1>
         The best Blocklist Collection<br> made by Sefinek ✋
     </h1>
-    <img src="images/adlists.png" alt="Domains on Adlists" title="Screenshot from 20.06.2023 (DD.MM.YYYY).">
+    <img src="images/adlists.png" alt="Domains on Adlists" title="Screenshot from 30.01.2024 (DD.MM.YYYY).">
     <br><br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
@@ -22,7 +22,7 @@
     <br>
     👋 <b>Have fun and stay safe!</b> o(>ω<)o 👋
     <br><br>
-    <img src="https://count.getloli.com/get/@Sefinek-Blocklist-Collection?theme=rule34" alt="Views" title="Repository views">
+    <img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection?theme=rule34" alt="Views" title="Repository views">
 </div>
 
 
@@ -67,27 +67,28 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 
 
 ## ✨ Default blocklist
-- [**Abuse:**](docs/info/block/Abuse.md) Blocks known domains involved in online abuse or harassment.
-- [**Advertising:**](docs/info/block/Advertising.md) Blocks domains that serve advertisements to visitors.
-- [**AMP Hosts:**](docs/info/block/AMP%20Hosts.md) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
-- [**Websites & Games:**](docs/info/block/Block%20websites%20and%20games.md) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
-- [**CryptoJacking:**](docs/info/block/CryptoJacking.md) Blocks domains that hijack your device to mine cryptocurrency.
-- [**Dating Services:**](docs/info/block/Dating%20services.md) Blocks domains of dating websites and apps.
-- [**Drugs:**](docs/info/block/Drugs.md) Blocks domains that sell or promote drugs.
-- [**Fake News:**](docs/info/block/Fake%20news.md) Blocks domains that are known to publish fake or misleading news.
-- [**Gambling:**](docs/info/block/Gambling.md) Blocks domains of online gambling websites.
-- [**Hate & Junk:**](docs/info/block/Hate%20and%20junk.md) Blocks domains promoting hate speech or spreading false information.
-- [**Malicious:**](docs/info/block/Malicious.md) Blocks domains that are considered dangerous or malicious.
-- [**Phishing:**](docs/info/block/Phishing.md) Blocks domains involved in phishing attempts.
-- [**Piracy:**](docs/info/block/Piracy.md) Blocks domains that distribute pirated software or media.
-- [**Porn:**](docs/info/block/Porn.md) Blocks domains of adult websites.
-- [**Ransomware:**](docs/info/block/Ransomware.md) Blocks domains involved in ransomware attacks.
-- [**Redirect:**](docs/info/block/Redirect.md) Blocks domains that redirect users to unintended websites.
-- [**Scam:**](docs/info/block/Scam.md) Blocks domains that are known to promote scams or fraudulent activity.
-- [**Spam mails:**](docs/info/block/Spam%20mails.md) Blocks domains that send unsolicited email.
-- [**Spyware:**](docs/info/block/Spyware.md) Blocks domains that distribute spyware or adware.
-- [**Telemetry & Tracking:**](docs/info/block/Telemetry%20and%20Tracking.md) Blocks domains that track user activity for analytics purposes.
-- [**Useless websites:**](docs/info/block/Useless%20websites.md) Blocks domains that offer little or no value to users.
+- [**AMP Hosts:**](https://blocklist.sefinek.net/viewer/info/block/AMP_Hosts) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
+- [**Abuse:**](https://blocklist.sefinek.net/viewer/info/block/Abuse) Blocks known domains involved in online abuse or harassment.
+- [**Advertising:**](https://blocklist.sefinek.net/viewer/info/block/Advertising) Blocks domains that serve advertisements to visitors.
+- [**Websites & Games:**](https://blocklist.sefinek.net/viewer/info/block/Block_websites_and_games) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
+- [**CryptoJacking:**](https://blocklist.sefinek.net/viewer/info/block/CryptoJacking) Blocks domains that hijack your device to mine cryptocurrency.
+- [**Dating Services:**](https://blocklist.sefinek.net/viewer/info/block/Dating_services) Blocks domains of dating websites and apps.
+- [**Drugs:**](https://blocklist.sefinek.net/viewer/info/block/Drugs) Blocks domains that sell or promote drugs.
+- [**Fake News:**](https://blocklist.sefinek.net/viewer/info/block/Fake_news) Blocks domains that are known to publish fake or misleading news.
+- [**Gambling:**](https://blocklist.sefinek.net/viewer/info/block/Gambling) Blocks domains of online gambling websites.
+- [**Hate & Junk:**](https://blocklist.sefinek.net/viewer/info/block/Hate_and_junk) Blocks domains promoting hate speech or spreading false information.
+- [**Malicious:**](https://blocklist.sefinek.net/viewer/info/block/Malicious) Blocks domains that are considered dangerous or malicious.
+- [**Phishing:**](https://blocklist.sefinek.net/viewer/info/block/Phishing) Blocks domains involved in phishing attempts.
+- [**Piracy:**](https://blocklist.sefinek.net/viewer/info/block/Piracy) Blocks domains that distribute pirated software or media.
+- [**Porn:**](https://blocklist.sefinek.net/viewer/info/block/Porn) Blocks domains of adult websites.
+- [**Ransomware:**](https://blocklist.sefinek.net/viewer/info/block/Ransomware) Blocks domains involved in ransomware attacks.
+- [**Redirect:**](https://blocklist.sefinek.net/viewer/info/block/Redirect) Blocks domains that redirect users to unintended websites.
+- [**Scam:**](https://blocklist.sefinek.net/viewer/info/block/Scam) Blocks domains that are known to promote scams or fraudulent activity.
+- [**Spam mails:**](https://blocklist.sefinek.net/viewer/info/block/Spam_mails) Blocks domains that send unsolicited email.
+- [**Spyware:**](https://blocklist.sefinek.net/viewer/info/block/Telemetry_and_Tracking) Blocks domains that distribute spyware or adware.
+- [**Telemetry & Tracking:**](https://blocklist.sefinek.net/viewer/info/block/Telemetry_and_Tracking) Blocks domains that track user activity for analytics purposes.
+- [**Useless websites:**](https://blocklist.sefinek.net/viewer/info/block/Useless_websites) Blocks domains that offer little or no value to users.
+- [**YouTube Ads:**](https://blocklist.sefinek.net/viewer/info/block/Useless_websites) Blocks ads on YouTube. Unfortunately, this will not be effective.
 
 <h3 align="right">
     📃 <a href="lists/Index.md">Choose your adblocker and copy URL addresses »</a>
@@ -106,8 +107,8 @@ However, it should be noted that while this blocking list can improve your priva
 
 
 ## 🤔 Tutorials
-- [How to install Pi-hole?](docs/tutorials/How%20to%20install%20Pi-hole.md)
-- [How to install Unbound for Pi-hole?](docs/tutorials/How%20to%20install%20Unbound%20for%20Pi-hole.md)
+- [How to install Pi-hole?](https://blocklist.sefinek.net/viewer/tutorials/How_to_install_Pi-hole)
+- [How to install Unbound for Pi-hole?](https://blocklist.sefinek.net/viewer/tutorials/How_to_install_Unbound_for_Pi-hole)
 
 
 ## 🤝 Contributing
