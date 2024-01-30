@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
     <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
     <br>
-    <a href="https://blocklist.sefinek.net">View more stats... »</a>
+    <a href="https://blocklist.sefinek.net/#stats">View more stats... »</a>
 </div>
 <br>
 <div align="center">
