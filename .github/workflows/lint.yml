@@ -7,13 +7,13 @@ on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - '**.txt'
+      - 'blocklist/**'
 
   workflow_dispatch:
 
 jobs:
   lint:
-    runs-on: sefin-runner-blocklist
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
