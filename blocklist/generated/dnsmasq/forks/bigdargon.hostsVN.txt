@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 23 Jan 2024 22:44 UTC+7
-# Version: 2401232244
-# Blocked: 19,862 domains
+# Last modified: 01 Feb 2024 11:03 UTC+7
+# Version: 2402011103
+# Blocked: 19,871 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11606,6 +11606,10 @@ server=/event.dfinery.io/
 server=/collect.banggood.com/
 server=/dc.banggood.com/
 server=/web-device-id.banggood.com/
+#[mtgglobals.com]
+server=/mtgglobals.com/
+server=/cdn-adn-https.mtgglobals.com/
+server=/sg01.mtgglobals.com/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -12771,6 +12775,7 @@ server=/mautic.thietkexaynhadep.vn/
 server=/mautic.vmax.vn/
 #[piwik.*.vn]
 server=/piwik.rta.vn/
+server=/piwik.softonic.vn/
 #[piwik.*.com.vn]
 server=/piwik.tienhiep.com.vn/
 #[accesstrade.vn]
@@ -14262,6 +14267,7 @@ server=/ads.uncrate.com/
 server=/ads.usatoday.com/
 server=/ads.verticalresponse.com/
 server=/ads.vgchartz.com/
+server=/ads.videy.co/
 server=/ads.virtual-nights.com/
 server=/ads.virtualcountries.com/
 server=/ads.vnd89.com/
@@ -20961,6 +20967,7 @@ server=/fathomseo.com/
 server=/firsthive.com/
 server=/flagcounter.com/
 server=/fo.iemiq.com/
+server=/fpcdn.io/
 server=/fpnpmcdn.net/
 server=/front.optimonk.com/
 server=/fullstory.com/
@@ -21222,6 +21229,7 @@ server=/snowplow-pixel.tradingview.com/
 server=/soflopxl.com/
 server=/soidc.com/
 server=/soperson.com/
+server=/spysubstance.com/
 server=/srmdata.com/
 server=/ssm.codes/
 server=/st.top100.ru/
@@ -21247,6 +21255,7 @@ server=/stats.popcap.com/
 server=/stats.pornpics.com/
 server=/stats.pusher.com/
 server=/stats.searchftps.net/
+server=/stats.symptoma.com/
 server=/stats.unlimapps.com/
 server=/stats.vk-portal.net/
 server=/stats.wp.com/
@@ -21265,6 +21274,7 @@ server=/t.9gag.com/
 server=/t.dailymail.co.uk/
 server=/t.dtscdn.com/
 server=/t.eloqua.com/
+server=/t.firstpromoter.com/
 server=/t.freelancer.com/
 server=/tag.imagino.com/
 server=/tag.wknd.ai/
