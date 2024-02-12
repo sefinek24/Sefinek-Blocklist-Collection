@@ -5,7 +5,7 @@ const WebSocket = require('ws');
 
 // Middleware imports
 const timeout = require('./middlewares/timeout.js');
-const logger = require('./middlewares/morgan.js');
+const morgan = require('./middlewares/morgan.js');
 const limiter = require('./middlewares/ratelimit.js');
 const increment = require('./middlewares/increment.js');
 const { notFound, internalError } = require('./middlewares/other/errors.js');
@@ -32,7 +32,7 @@ app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false 
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Morgan & ratelimits & timeout
-app.use(logger.use);
+app.use(morgan.use);
 app.use(limiter);
 app.use(timeout());
 
