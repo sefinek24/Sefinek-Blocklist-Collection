@@ -43,8 +43,15 @@ const skipUserAgent = () => req => {
 	return userAgentsToSkip.includes(userAgent);
 };
 
-const logger = morgan('[:status :method :response-time ms] :url - :user-agent', {
-	skip: skipUserAgent(),
-});
+const normalizeBody = ({ body }) => {
+	if (!(body && typeof body === 'object' && Object.keys(body).length)) return null;
 
-module.exports = { use: logger, userAgents };
+	return JSON.stringify(body);
+};
+
+morgan.token('body', normalizeBody);
+
+module.exports = {
+	use: morgan('[:status :method :response-time ms] :url :user-agent ":referrer" :body', { skip: skipUserAgent() }),
+	userAgents,
+};
