@@ -1,7 +1,7 @@
 ! Title: KADhosts
 ! Description: Filtry chroniace przed roznego rodzaju przekretami i oszustwami, takimi jak np. subskrypcje SMS, wirusy i falszywe sklepy internetowe. Oprocz wlasnego zestawu, zawieraja one rowniez wpisy z list stworzonych przez takie zespoly jak np. CERT Polska, legalniewsieci.pl i KNF.
-! Last modified: Sun, 18 Feb 2024, 09:19 UTC+01:00
-! Version: 2024.2.18.1
+! Last modified: Sun, 18 Feb 2024, 13:27 UTC+01:00
+! Version: 2024.2.18.2
 ! Expires: 2 days
 ! Website: https://kadantiscam.netlify.app/
 ! Based on: https://github.com/FiltersHeroes/KAD
@@ -7977,6 +7977,7 @@
 ||allegro.su^
 ||allegro.szybki-zakup24.pl^
 ||allegro.szybkie-zakupy24h.pl^
+||allegro.szybkizakup24h.pl^
 ||allegro.szybkizakup-24h.pl^
 ||allegro.ttsl.pl^
 ||allegro.zakup-online24.pl^
@@ -8435,6 +8436,7 @@
 ||allegrolokalnie.szybkie-aukcje.pl^
 ||allegrolokalnie.szybkie-kupno.pl^
 ||allegrolokalnie.szybkiekupno.pl^
+||allegrolokalnie.szybkizakup24h.pl^
 ||allegrolokalnie.szybkizakup00921.pl^
 ||allegrolokalnie.szybkizakup15132.pl^
 ||allegrolokalnie.szybkizakup22011.pl^
@@ -10063,10 +10065,12 @@
 ||auta-bemowo.pl^
 ||auta-bielany.pl^
 ||auta-borkowski.pl^
+||auta-ceglinski.pl^
 ||auta-dzikowski.pl^
 ||auta-fikus.pl^
 ||auta-filipski.pl^
 ||auta-fornalski.pl^
+||auta-gorski.pl^
 ||auta-grzesik.pl^
 ||auta-gutowski.pl^
 ||auta-jakubiak.pl^
@@ -33341,6 +33345,7 @@
 ||lnpost-pl.cc^
 ||lnpost-pl.icu^
 ||lnpost-pl.wiki^
+||lnpost.197454412.xyz^
 ||lnpost.abika.lol^
 ||lnpost.advous.top^
 ||lnpost.ahzc.shop^
@@ -39353,6 +39358,7 @@
 ||olx.kupuje-teraz.pl^
 ||olx.market-following.pw^
 ||olx.mirror-left.pw^
+||olx.ndjwbu.org^
 ||olx.ochrona-ogloszenia.pl^
 ||olx.ochrona-paczki.pl^
 ||olx.oferta247h.pl^
@@ -39401,6 +39407,7 @@
 ||olx.szybki-zakup24.pl^
 ||olx.szybkieaukcje.pl^
 ||olx.szybkiezakupy247h.pl^
+||olx.szybkizakup24h.pl^
 ||olx.szybkizakup-24h.pl^
 ||olx.themilitia.shop^
 ||olx.torina.top^
@@ -49612,6 +49619,7 @@
 ||stowesjoage.life^
 ||stowjestesmyztoba.fryderykmatvii.pl^
 ||stowncold.site^
+||stpl.mazecuadr.top^
 ||stpp.goprogramia.top^
 ||str1.freepl.top^
 ||str4.freepl.top^
@@ -59739,6 +59747,7 @@
 ||www.allegro.su^
 ||www.allegro.szybki-zakup24.pl^
 ||www.allegro.szybkie-zakupy24h.pl^
+||www.allegro.szybkizakup24h.pl^
 ||www.allegro.szybkizakup-24h.pl^
 ||www.allegro.ttsl.pl^
 ||www.allegro.zakup-online24.pl^
@@ -60197,6 +60206,7 @@
 ||www.allegrolokalnie.szybkie-aukcje.pl^
 ||www.allegrolokalnie.szybkie-kupno.pl^
 ||www.allegrolokalnie.szybkiekupno.pl^
+||www.allegrolokalnie.szybkizakup24h.pl^
 ||www.allegrolokalnie.szybkizakup00921.pl^
 ||www.allegrolokalnie.szybkizakup15132.pl^
 ||www.allegrolokalnie.szybkizakup22011.pl^
@@ -61825,10 +61835,12 @@
 ||www.auta-bemowo.pl^
 ||www.auta-bielany.pl^
 ||www.auta-borkowski.pl^
+||www.auta-ceglinski.pl^
 ||www.auta-dzikowski.pl^
 ||www.auta-fikus.pl^
 ||www.auta-filipski.pl^
 ||www.auta-fornalski.pl^
+||www.auta-gorski.pl^
 ||www.auta-grzesik.pl^
 ||www.auta-gutowski.pl^
 ||www.auta-jakubiak.pl^
@@ -85103,6 +85115,7 @@
 ||www.lnpost-pl.cc^
 ||www.lnpost-pl.icu^
 ||www.lnpost-pl.wiki^
+||www.lnpost.197454412.xyz^
 ||www.lnpost.abika.lol^
 ||www.lnpost.advous.top^
 ||www.lnpost.ahzc.shop^
@@ -91115,6 +91128,7 @@
 ||www.olx.kupuje-teraz.pl^
 ||www.olx.market-following.pw^
 ||www.olx.mirror-left.pw^
+||www.olx.ndjwbu.org^
 ||www.olx.ochrona-ogloszenia.pl^
 ||www.olx.ochrona-paczki.pl^
 ||www.olx.oferta247h.pl^
@@ -91163,6 +91177,7 @@
 ||www.olx.szybki-zakup24.pl^
 ||www.olx.szybkieaukcje.pl^
 ||www.olx.szybkiezakupy247h.pl^
+||www.olx.szybkizakup24h.pl^
 ||www.olx.szybkizakup-24h.pl^
 ||www.olx.themilitia.shop^
 ||www.olx.torina.top^
@@ -101285,6 +101300,7 @@
 ||www.stowesjoage.life^
 ||www.stowjestesmyztoba.fryderykmatvii.pl^
 ||www.stowncold.site^
+||www.stpl.mazecuadr.top^
 ||www.stpp.goprogramia.top^
 ||www.str1.freepl.top^
 ||www.str4.freepl.top^
@@ -108682,6 +108698,7 @@
 ||www.yvzplast.com^
 ||www.yw4-blw.cfd^
 ||www.yw5e.hair^
+||www.yw7.eu^
 ||www.ywe-247.homes^
 ||www.ywekls.sbs^
 ||www.ywenlip.sbs^
@@ -110040,6 +110057,7 @@
 ||yvzplast.com^
 ||yw4-blw.cfd^
 ||yw5e.hair^
+||yw7.eu^
 ||ywe-247.homes^
 ||ywekls.sbs^
 ||ywenlip.sbs^
