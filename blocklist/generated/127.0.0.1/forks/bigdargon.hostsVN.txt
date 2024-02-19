@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 04 Feb 2024 23:30 UTC+7
-# Version: 2402042330
-# Blocked: 19,872 domains
+# Last modified: 19 Feb 2024 11:03 UTC+7
+# Version: 2402191103
+# Blocked: 19,903 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -863,6 +863,7 @@
 127.0.0.1 pdn.applovin.com
 127.0.0.1 prod-a.applovin.com
 127.0.0.1 prod-bid.applovin.com
+127.0.0.1 prod-mediate-events.applovin.com
 127.0.0.1 prod-ms.applovin.com
 127.0.0.1 prod-ms4.applovin.com
 127.0.0.1 res1.applovin.com
@@ -8859,8 +8860,11 @@
 #[opera.com]
 127.0.0.1 pps-log.op-mobile.opera.com
 127.0.0.1 s-adx.op-mobile.opera.com
-127.0.0.1 s.adx.opera.com
 127.0.0.1 sdklog.tvstore.opera.com
+#[adx.opera.com]
+127.0.0.1 res.adx.opera.com
+127.0.0.1 s.adx.opera.com
+127.0.0.1 t.adx.opera.com
 #[valuecommerce.com]
 127.0.0.1 ad.jp.ap.valuecommerce.com
 127.0.0.1 ads.jp.ap.valuecommerce.com
@@ -9263,6 +9267,9 @@
 127.0.0.1 yandexadexchange.net
 127.0.0.1 advideo.dsp.yandexadexchange.net
 127.0.0.1 bigo.dsp.yandexadexchange.net
+#[yads.tech]
+127.0.0.1 yads.tech
+127.0.0.1 core.yads.tech
 #[jampp.com]
 127.0.0.1 cdn.jampp.com
 127.0.0.1 imgx.jampp.com
@@ -11257,6 +11264,7 @@
 127.0.0.1 ads.livetv705.me
 127.0.0.1 ads.livetv708.me
 127.0.0.1 ads.livetv723.me
+127.0.0.1 ads.livetv760.me
 #[company-target.com]
 127.0.0.1 company-target.com
 127.0.0.1 api-staging.company-target.com
@@ -11611,6 +11619,21 @@
 127.0.0.1 adx-tk.mtgglobals.com
 127.0.0.1 cdn-adn-https.mtgglobals.com
 127.0.0.1 sg01.mtgglobals.com
+#[new-programmatic.com]
+127.0.0.1 new-programmatic.com
+127.0.0.1 match.new-programmatic.com
+#[gonet-ads.com]
+127.0.0.1 gonet-ads.com
+127.0.0.1 sync.gonet-ads.com
+#[upravel.com]
+127.0.0.1 upravel.com
+127.0.0.1 sync.upravel.com
+#[aidata.io]
+127.0.0.1 aidata.io
+127.0.0.1 x01.aidata.io
+#[arcspire.io]
+127.0.0.1 arcspire.io
+127.0.0.1 px.arcspire.io
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -13246,6 +13269,7 @@
 127.0.0.1 bgadx.com
 127.0.0.1 bidgear-syndication.com
 127.0.0.1 cdn-ads.thesaigontimes.vn
+127.0.0.1 cdn.qc24h.com
 127.0.0.1 cdn2.cache.vn
 127.0.0.1 chiasephim.xyz
 127.0.0.1 click.vieon.vn
@@ -13503,6 +13527,7 @@
 127.0.0.1 logging.kinhtedothi.vn
 127.0.0.1 logs.1cdn.vn
 127.0.0.1 logs.docnhanh.com.vn
+127.0.0.1 logs.sanchoikns.vn
 127.0.0.1 logs.thethaovanhoa.vn
 127.0.0.1 logsbin.dantri.com.vn
 127.0.0.1 logscafef.channelvn.net
@@ -13779,6 +13804,7 @@
 127.0.0.1 ad-static.qanda.ai
 127.0.0.1 ad-tech.com
 127.0.0.1 ad-up.com
+127.0.0.1 ad.22betpartners.com
 127.0.0.1 ad.980x.com
 127.0.0.1 ad.abcnews.com
 127.0.0.1 ad.abctv.com
@@ -13787,6 +13813,7 @@
 127.0.0.1 ad.adpon.jp
 127.0.0.1 ad.anuntis.com
 127.0.0.1 ad.api.3g.tudou.com
+127.0.0.1 ad.apl318.me
 127.0.0.1 ad.apsalar.com
 127.0.0.1 ad.auditude.com
 127.0.0.1 ad.bizo.com
@@ -13842,6 +13869,7 @@
 127.0.0.1 ad.wz.cz
 127.0.0.1 ad.xmmnsl.com
 127.0.0.1 ad.xrea.com
+127.0.0.1 ad.xunkids.com
 127.0.0.1 ad.zanox.com
 127.0.0.1 ad.zuimeitianqi.com
 127.0.0.1 ad0.bigmir.net
@@ -14246,6 +14274,7 @@
 127.0.0.1 ads.space.com
 127.0.0.1 ads.sportradar.com
 127.0.0.1 ads.stackoverflow.com
+127.0.0.1 ads.starzd.com
 127.0.0.1 ads.sun.com
 127.0.0.1 ads.sunmaker.com
 127.0.0.1 ads.suomiautomaatti.com
@@ -16565,6 +16594,7 @@
 127.0.0.1 gatetodisplaycontent.com
 127.0.0.1 gatewayimpossibilitypursue.com
 127.0.0.1 gaudetehoazin.com
+127.0.0.1 gaunchdelimes.com
 127.0.0.1 gaut-hil.com
 127.0.0.1 gavnogeeygaika.com
 127.0.0.1 gayadnetwork.com
@@ -17541,6 +17571,7 @@
 127.0.0.1 lzjl.com
 127.0.0.1 lzyjcooxsodz.com
 127.0.0.1 m.trb.com
+127.0.0.1 m0rsq075u.com
 127.0.0.1 m2e6t0d57rudx9y0edn8xhaw5fh8awjxla25cz8s0zwj5auc7ahw1far3x8d.com
 127.0.0.1 m32.media
 127.0.0.1 m4n.nl
@@ -19825,6 +19856,7 @@
 127.0.0.1 topsite.lv
 127.0.0.1 topsites.com.br
 127.0.0.1 topstats.com
+127.0.0.1 toptrendyinc.com
 127.0.0.1 tornbed.pro
 127.0.0.1 toroadvertisingmedia.com
 127.0.0.1 tosfeed.com
@@ -20790,6 +20822,7 @@
 127.0.0.1 analytics.nike.com
 127.0.0.1 analytics.ninjakiwi.com
 127.0.0.1 analytics.nova.fox.com
+127.0.0.1 analytics.pangle-ads.com
 127.0.0.1 analytics.phando.com
 127.0.0.1 analytics.picsart.com
 127.0.0.1 analytics.pixels.ai
@@ -20991,6 +21024,7 @@
 127.0.0.1 greedseed.world
 127.0.0.1 guihua-china.com
 127.0.0.1 gurgle.zdbb.net
+127.0.0.1 gw-iad-bid.ymmobi.com
 127.0.0.1 hairtease.com
 127.0.0.1 hdmtools.com
 127.0.0.1 histats.link
@@ -21013,6 +21047,7 @@
 127.0.0.1 idio.co
 127.0.0.1 ie8eamus.com
 127.0.0.1 ilogs.bytefence.com
+127.0.0.1 im.bluevoox.com
 127.0.0.1 img.leadzutw.com
 127.0.0.1 img3.usefathom.com
 127.0.0.1 imp.pvnsolutions.com
@@ -21113,6 +21148,7 @@
 127.0.0.1 openfpcdn.io
 127.0.0.1 opensharecount.com
 127.0.0.1 ophan.theguardian.com
+127.0.0.1 oplog.mulai.pw
 127.0.0.1 optnmstr.com
 127.0.0.1 pegloang.com
 127.0.0.1 perf.hsforms.com
@@ -21214,6 +21250,7 @@
 127.0.0.1 selfishsnake.com
 127.0.0.1 semantiqo.com
 127.0.0.1 sessions.bugsnag.com
+127.0.0.1 shopnetic.com
 127.0.0.1 showbiz.owndata.network
 127.0.0.1 simplesharebuttons.com
 127.0.0.1 siteimproveanalytics.com
@@ -21244,6 +21281,7 @@
 127.0.0.1 static.intentarget.com
 127.0.0.1 static.leaddyno.com
 127.0.0.1 static.site24x7rum.com
+127.0.0.1 statistik.changing-cities.org
 127.0.0.1 stats.apester.com
 127.0.0.1 stats.avaaz.org
 127.0.0.1 stats.bannernow.com

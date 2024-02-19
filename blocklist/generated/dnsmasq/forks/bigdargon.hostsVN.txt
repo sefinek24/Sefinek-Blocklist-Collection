@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 04 Feb 2024 23:30 UTC+7
-# Version: 2402042330
-# Blocked: 19,872 domains
+# Last modified: 19 Feb 2024 11:03 UTC+7
+# Version: 2402191103
+# Blocked: 19,903 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -863,6 +863,7 @@ server=/ms4.applovin.com/
 server=/pdn.applovin.com/
 server=/prod-a.applovin.com/
 server=/prod-bid.applovin.com/
+server=/prod-mediate-events.applovin.com/
 server=/prod-ms.applovin.com/
 server=/prod-ms4.applovin.com/
 server=/res1.applovin.com/
@@ -8859,8 +8860,11 @@ server=/www.datawrkz.com/
 #[opera.com]
 server=/pps-log.op-mobile.opera.com/
 server=/s-adx.op-mobile.opera.com/
-server=/s.adx.opera.com/
 server=/sdklog.tvstore.opera.com/
+#[adx.opera.com]
+server=/res.adx.opera.com/
+server=/s.adx.opera.com/
+server=/t.adx.opera.com/
 #[valuecommerce.com]
 server=/ad.jp.ap.valuecommerce.com/
 server=/ads.jp.ap.valuecommerce.com/
@@ -9263,6 +9267,9 @@ server=/st.yandexadexchange.net/
 server=/yandexadexchange.net/
 server=/advideo.dsp.yandexadexchange.net/
 server=/bigo.dsp.yandexadexchange.net/
+#[yads.tech]
+server=/yads.tech/
+server=/core.yads.tech/
 #[jampp.com]
 server=/cdn.jampp.com/
 server=/imgx.jampp.com/
@@ -11257,6 +11264,7 @@ server=/ads.livetv703.me/
 server=/ads.livetv705.me/
 server=/ads.livetv708.me/
 server=/ads.livetv723.me/
+server=/ads.livetv760.me/
 #[company-target.com]
 server=/company-target.com/
 server=/api-staging.company-target.com/
@@ -11611,6 +11619,21 @@ server=/mtgglobals.com/
 server=/adx-tk.mtgglobals.com/
 server=/cdn-adn-https.mtgglobals.com/
 server=/sg01.mtgglobals.com/
+#[new-programmatic.com]
+server=/new-programmatic.com/
+server=/match.new-programmatic.com/
+#[gonet-ads.com]
+server=/gonet-ads.com/
+server=/sync.gonet-ads.com/
+#[upravel.com]
+server=/upravel.com/
+server=/sync.upravel.com/
+#[aidata.io]
+server=/aidata.io/
+server=/x01.aidata.io/
+#[arcspire.io]
+server=/arcspire.io/
+server=/px.arcspire.io/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -13246,6 +13269,7 @@ server=/banner.uto.vn/
 server=/bgadx.com/
 server=/bidgear-syndication.com/
 server=/cdn-ads.thesaigontimes.vn/
+server=/cdn.qc24h.com/
 server=/cdn2.cache.vn/
 server=/chiasephim.xyz/
 server=/click.vieon.vn/
@@ -13503,6 +13527,7 @@ server=/logapi.misa.com.vn/
 server=/logging.kinhtedothi.vn/
 server=/logs.1cdn.vn/
 server=/logs.docnhanh.com.vn/
+server=/logs.sanchoikns.vn/
 server=/logs.thethaovanhoa.vn/
 server=/logsbin.dantri.com.vn/
 server=/logscafef.channelvn.net/
@@ -13779,6 +13804,7 @@ server=/ad-srv.net/
 server=/ad-static.qanda.ai/
 server=/ad-tech.com/
 server=/ad-up.com/
+server=/ad.22betpartners.com/
 server=/ad.980x.com/
 server=/ad.abcnews.com/
 server=/ad.abctv.com/
@@ -13787,6 +13813,7 @@ server=/ad.abum.com/
 server=/ad.adpon.jp/
 server=/ad.anuntis.com/
 server=/ad.api.3g.tudou.com/
+server=/ad.apl318.me/
 server=/ad.apsalar.com/
 server=/ad.auditude.com/
 server=/ad.bizo.com/
@@ -13842,6 +13869,7 @@ server=/ad.weatherbug.com/
 server=/ad.wz.cz/
 server=/ad.xmmnsl.com/
 server=/ad.xrea.com/
+server=/ad.xunkids.com/
 server=/ad.zanox.com/
 server=/ad.zuimeitianqi.com/
 server=/ad0.bigmir.net/
@@ -14246,6 +14274,7 @@ server=/ads.soft32.com/
 server=/ads.space.com/
 server=/ads.sportradar.com/
 server=/ads.stackoverflow.com/
+server=/ads.starzd.com/
 server=/ads.sun.com/
 server=/ads.sunmaker.com/
 server=/ads.suomiautomaatti.com/
@@ -16565,6 +16594,7 @@ server=/gastersliddry.com/
 server=/gatetodisplaycontent.com/
 server=/gatewayimpossibilitypursue.com/
 server=/gaudetehoazin.com/
+server=/gaunchdelimes.com/
 server=/gaut-hil.com/
 server=/gavnogeeygaika.com/
 server=/gayadnetwork.com/
@@ -17541,6 +17571,7 @@ server=/lytics.io/
 server=/lzjl.com/
 server=/lzyjcooxsodz.com/
 server=/m.trb.com/
+server=/m0rsq075u.com/
 server=/m2e6t0d57rudx9y0edn8xhaw5fh8awjxla25cz8s0zwj5auc7ahw1far3x8d.com/
 server=/m32.media/
 server=/m4n.nl/
@@ -19825,6 +19856,7 @@ server=/topsir.com/
 server=/topsite.lv/
 server=/topsites.com.br/
 server=/topstats.com/
+server=/toptrendyinc.com/
 server=/tornbed.pro/
 server=/toroadvertisingmedia.com/
 server=/tosfeed.com/
@@ -20790,6 +20822,7 @@ server=/analytics.newscred.com/
 server=/analytics.nike.com/
 server=/analytics.ninjakiwi.com/
 server=/analytics.nova.fox.com/
+server=/analytics.pangle-ads.com/
 server=/analytics.phando.com/
 server=/analytics.picsart.com/
 server=/analytics.pixels.ai/
@@ -20991,6 +21024,7 @@ server=/grabify.link/
 server=/greedseed.world/
 server=/guihua-china.com/
 server=/gurgle.zdbb.net/
+server=/gw-iad-bid.ymmobi.com/
 server=/hairtease.com/
 server=/hdmtools.com/
 server=/histats.link/
@@ -21013,6 +21047,7 @@ server=/ibd-as-api.iq.com/
 server=/idio.co/
 server=/ie8eamus.com/
 server=/ilogs.bytefence.com/
+server=/im.bluevoox.com/
 server=/img.leadzutw.com/
 server=/img3.usefathom.com/
 server=/imp.pvnsolutions.com/
@@ -21113,6 +21148,7 @@ server=/oms.expedia.com/
 server=/openfpcdn.io/
 server=/opensharecount.com/
 server=/ophan.theguardian.com/
+server=/oplog.mulai.pw/
 server=/optnmstr.com/
 server=/pegloang.com/
 server=/perf.hsforms.com/
@@ -21214,6 +21250,7 @@ server=/segment-cdn.producthunt.com/
 server=/selfishsnake.com/
 server=/semantiqo.com/
 server=/sessions.bugsnag.com/
+server=/shopnetic.com/
 server=/showbiz.owndata.network/
 server=/simplesharebuttons.com/
 server=/siteimproveanalytics.com/
@@ -21244,6 +21281,7 @@ server=/stathat.com/
 server=/static.intentarget.com/
 server=/static.leaddyno.com/
 server=/static.site24x7rum.com/
+server=/statistik.changing-cities.org/
 server=/stats.apester.com/
 server=/stats.avaaz.org/
 server=/stats.bannernow.com/

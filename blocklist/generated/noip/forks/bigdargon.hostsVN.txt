@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 04 Feb 2024 23:30 UTC+7
-# Version: 2402042330
-# Blocked: 19,872 domains
+# Last modified: 19 Feb 2024 11:03 UTC+7
+# Version: 2402191103
+# Blocked: 19,903 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -863,6 +863,7 @@ ms4.applovin.com
 pdn.applovin.com
 prod-a.applovin.com
 prod-bid.applovin.com
+prod-mediate-events.applovin.com
 prod-ms.applovin.com
 prod-ms4.applovin.com
 res1.applovin.com
@@ -8859,8 +8860,11 @@ www.datawrkz.com
 #[opera.com]
 pps-log.op-mobile.opera.com
 s-adx.op-mobile.opera.com
-s.adx.opera.com
 sdklog.tvstore.opera.com
+#[adx.opera.com]
+res.adx.opera.com
+s.adx.opera.com
+t.adx.opera.com
 #[valuecommerce.com]
 ad.jp.ap.valuecommerce.com
 ads.jp.ap.valuecommerce.com
@@ -9263,6 +9267,9 @@ st.yandexadexchange.net
 yandexadexchange.net
 advideo.dsp.yandexadexchange.net
 bigo.dsp.yandexadexchange.net
+#[yads.tech]
+yads.tech
+core.yads.tech
 #[jampp.com]
 cdn.jampp.com
 imgx.jampp.com
@@ -11257,6 +11264,7 @@ ads.livetv703.me
 ads.livetv705.me
 ads.livetv708.me
 ads.livetv723.me
+ads.livetv760.me
 #[company-target.com]
 company-target.com
 api-staging.company-target.com
@@ -11611,6 +11619,21 @@ mtgglobals.com
 adx-tk.mtgglobals.com
 cdn-adn-https.mtgglobals.com
 sg01.mtgglobals.com
+#[new-programmatic.com]
+new-programmatic.com
+match.new-programmatic.com
+#[gonet-ads.com]
+gonet-ads.com
+sync.gonet-ads.com
+#[upravel.com]
+upravel.com
+sync.upravel.com
+#[aidata.io]
+aidata.io
+x01.aidata.io
+#[arcspire.io]
+arcspire.io
+px.arcspire.io
 # --- GroupVN block ---
 #[adtimaserver]
 adtimaserver.vn
@@ -13246,6 +13269,7 @@ banner.uto.vn
 bgadx.com
 bidgear-syndication.com
 cdn-ads.thesaigontimes.vn
+cdn.qc24h.com
 cdn2.cache.vn
 chiasephim.xyz
 click.vieon.vn
@@ -13503,6 +13527,7 @@ logapi.misa.com.vn
 logging.kinhtedothi.vn
 logs.1cdn.vn
 logs.docnhanh.com.vn
+logs.sanchoikns.vn
 logs.thethaovanhoa.vn
 logsbin.dantri.com.vn
 logscafef.channelvn.net
@@ -13779,6 +13804,7 @@ ad-srv.net
 ad-static.qanda.ai
 ad-tech.com
 ad-up.com
+ad.22betpartners.com
 ad.980x.com
 ad.abcnews.com
 ad.abctv.com
@@ -13787,6 +13813,7 @@ ad.abum.com
 ad.adpon.jp
 ad.anuntis.com
 ad.api.3g.tudou.com
+ad.apl318.me
 ad.apsalar.com
 ad.auditude.com
 ad.bizo.com
@@ -13842,6 +13869,7 @@ ad.weatherbug.com
 ad.wz.cz
 ad.xmmnsl.com
 ad.xrea.com
+ad.xunkids.com
 ad.zanox.com
 ad.zuimeitianqi.com
 ad0.bigmir.net
@@ -14246,6 +14274,7 @@ ads.soft32.com
 ads.space.com
 ads.sportradar.com
 ads.stackoverflow.com
+ads.starzd.com
 ads.sun.com
 ads.sunmaker.com
 ads.suomiautomaatti.com
@@ -16565,6 +16594,7 @@ gastersliddry.com
 gatetodisplaycontent.com
 gatewayimpossibilitypursue.com
 gaudetehoazin.com
+gaunchdelimes.com
 gaut-hil.com
 gavnogeeygaika.com
 gayadnetwork.com
@@ -17541,6 +17571,7 @@ lytics.io
 lzjl.com
 lzyjcooxsodz.com
 m.trb.com
+m0rsq075u.com
 m2e6t0d57rudx9y0edn8xhaw5fh8awjxla25cz8s0zwj5auc7ahw1far3x8d.com
 m32.media
 m4n.nl
@@ -19825,6 +19856,7 @@ topsir.com
 topsite.lv
 topsites.com.br
 topstats.com
+toptrendyinc.com
 tornbed.pro
 toroadvertisingmedia.com
 tosfeed.com
@@ -20790,6 +20822,7 @@ analytics.newscred.com
 analytics.nike.com
 analytics.ninjakiwi.com
 analytics.nova.fox.com
+analytics.pangle-ads.com
 analytics.phando.com
 analytics.picsart.com
 analytics.pixels.ai
@@ -20991,6 +21024,7 @@ grabify.link
 greedseed.world
 guihua-china.com
 gurgle.zdbb.net
+gw-iad-bid.ymmobi.com
 hairtease.com
 hdmtools.com
 histats.link
@@ -21013,6 +21047,7 @@ ibd-as-api.iq.com
 idio.co
 ie8eamus.com
 ilogs.bytefence.com
+im.bluevoox.com
 img.leadzutw.com
 img3.usefathom.com
 imp.pvnsolutions.com
@@ -21113,6 +21148,7 @@ oms.expedia.com
 openfpcdn.io
 opensharecount.com
 ophan.theguardian.com
+oplog.mulai.pw
 optnmstr.com
 pegloang.com
 perf.hsforms.com
@@ -21214,6 +21250,7 @@ segment-cdn.producthunt.com
 selfishsnake.com
 semantiqo.com
 sessions.bugsnag.com
+shopnetic.com
 showbiz.owndata.network
 simplesharebuttons.com
 siteimproveanalytics.com
@@ -21244,6 +21281,7 @@ stathat.com
 static.intentarget.com
 static.leaddyno.com
 static.site24x7rum.com
+statistik.changing-cities.org
 stats.apester.com
 stats.avaaz.org
 stats.bannernow.com
