@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 19 Feb 2024 11:03 UTC+7
-# Version: 2402191103
-# Blocked: 19,903 domains
+# Last modified: 20 Feb 2024 11:07 UTC+7
+# Version: 2402201107
+# Blocked: 19,921 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -8098,6 +8098,9 @@
 #[mobads.baidu.com]
 127.0.0.1 mobads.baidu.com
 127.0.0.1 static.mobads.baidu.com
+#[pos.baidu.com]
+127.0.0.1 pos.baidu.com
+127.0.0.1 cm.pos.baidu.com
 #[baidustatic.com]
 127.0.0.1 cpro.baidustatic.com
 127.0.0.1 dup.baidustatic.com
@@ -10201,7 +10204,6 @@
 127.0.0.1 cdn.p-n.io
 127.0.0.1 p-n.io
 #[optimizely.com]
-127.0.0.1 cdn.optimizely.com
 127.0.0.1 log.optimizely.com
 127.0.0.1 logx.optimizely.com
 #[tm-awx.com]
@@ -10745,10 +10747,20 @@
 127.0.0.1 sync.intentiq.com
 127.0.0.1 sync1.intentiq.com
 #[360.cn]
+127.0.0.1 ad.dev.360.cn
+127.0.0.1 ad.gamebox.360.cn
 127.0.0.1 ad.jia.360.cn
+127.0.0.1 c.sayhi.360.cn
+127.0.0.1 s.union.360.cn
+127.0.0.1 stat.m.360.cn
+#[s.360.cn]
+127.0.0.1 s.360.cn
 127.0.0.1 g.s.360.cn
 127.0.0.1 p.s.360.cn
 127.0.0.1 sdk.s.360.cn
+#[tf.360.cn]
+127.0.0.1 stat.e.tf.360.cn
+127.0.0.1 tracking.v.tf.360.cn
 #[byteoversea.com]
 127.0.0.1 p16-ad.byteoversea.com
 127.0.0.1 v16-ad.byteoversea.com
@@ -11634,6 +11646,18 @@
 #[arcspire.io]
 127.0.0.1 arcspire.io
 127.0.0.1 px.arcspire.io
+#[tanx.com]
+127.0.0.1 cms.tanx.com
+127.0.0.1 df.tanx.com
+127.0.0.1 ef-dongfeng.tanx.com
+127.0.0.1 et.tanx.com
+127.0.0.1 ifsk2.tanx.com
+127.0.0.1 kgb-ifs.tanx.com
+127.0.0.1 p.tanx.com
+127.0.0.1 tanx.com
+#[mediav.com]
+127.0.0.1 mediav.com
+127.0.0.1 ckmap.mediav.com
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -18375,7 +18399,6 @@
 127.0.0.1 ozqoztrkoaj.com
 127.0.0.1 ozsoekwgy.com
 127.0.0.1 ozwvkazrik.com
-127.0.0.1 p.tanx.com
 127.0.0.1 p4r24.eu
 127.0.0.1 pacekami.com
 127.0.0.1 padp5arja8dgsd9cha.com

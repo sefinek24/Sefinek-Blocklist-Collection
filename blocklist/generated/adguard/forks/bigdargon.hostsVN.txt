@@ -1,7 +1,7 @@
 ! Title: hostsVN
-! Last modified: 19 Feb 2024 11:03 UTC+7
-! Version: 2402191103
-! Blocked: 19,903 domains
+! Last modified: 20 Feb 2024 11:07 UTC+7
+! Version: 2402201107
+! Blocked: 19,921 domains
 ! Please report any ads or problems on GitHub
 ! Homepage: https://bigdargon.github.io/hostsVN/
 ! GitHub: https://github.com/bigdargon/hostsVN
@@ -8098,6 +8098,9 @@
 ![mobads.baidu.com]
 ||mobads.baidu.com^
 ||static.mobads.baidu.com^
+![pos.baidu.com]
+||pos.baidu.com^
+||cm.pos.baidu.com^
 ![baidustatic.com]
 ||cpro.baidustatic.com^
 ||dup.baidustatic.com^
@@ -10201,7 +10204,6 @@
 ||cdn.p-n.io^
 ||p-n.io^
 ![optimizely.com]
-||cdn.optimizely.com^
 ||log.optimizely.com^
 ||logx.optimizely.com^
 ![tm-awx.com]
@@ -10745,10 +10747,20 @@
 ||sync.intentiq.com^
 ||sync1.intentiq.com^
 ![360.cn]
+||ad.dev.360.cn^
+||ad.gamebox.360.cn^
 ||ad.jia.360.cn^
+||c.sayhi.360.cn^
+||s.union.360.cn^
+||stat.m.360.cn^
+![s.360.cn]
+||s.360.cn^
 ||g.s.360.cn^
 ||p.s.360.cn^
 ||sdk.s.360.cn^
+![tf.360.cn]
+||stat.e.tf.360.cn^
+||tracking.v.tf.360.cn^
 ![byteoversea.com]
 ||p16-ad.byteoversea.com^
 ||v16-ad.byteoversea.com^
@@ -11634,6 +11646,18 @@
 ![arcspire.io]
 ||arcspire.io^
 ||px.arcspire.io^
+![tanx.com]
+||cms.tanx.com^
+||df.tanx.com^
+||ef-dongfeng.tanx.com^
+||et.tanx.com^
+||ifsk2.tanx.com^
+||kgb-ifs.tanx.com^
+||p.tanx.com^
+||tanx.com^
+![mediav.com]
+||mediav.com^
+||ckmap.mediav.com^
 ! --- GroupVN block ---
 ![adtimaserver]
 ||adtimaserver.vn^
@@ -18375,7 +18399,6 @@
 ||ozqoztrkoaj.com^
 ||ozsoekwgy.com^
 ||ozwvkazrik.com^
-||p.tanx.com^
 ||p4r24.eu^
 ||pacekami.com^
 ||padp5arja8dgsd9cha.com^

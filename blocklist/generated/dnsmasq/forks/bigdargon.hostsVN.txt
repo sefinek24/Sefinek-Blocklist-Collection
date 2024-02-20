@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 19 Feb 2024 11:03 UTC+7
-# Version: 2402191103
-# Blocked: 19,903 domains
+# Last modified: 20 Feb 2024 11:07 UTC+7
+# Version: 2402201107
+# Blocked: 19,921 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -8098,6 +8098,9 @@ server=/log.hm.baidu.com/
 #[mobads.baidu.com]
 server=/mobads.baidu.com/
 server=/static.mobads.baidu.com/
+#[pos.baidu.com]
+server=/pos.baidu.com/
+server=/cm.pos.baidu.com/
 #[baidustatic.com]
 server=/cpro.baidustatic.com/
 server=/dup.baidustatic.com/
@@ -10201,7 +10204,6 @@ server=/rezync.com/
 server=/cdn.p-n.io/
 server=/p-n.io/
 #[optimizely.com]
-server=/cdn.optimizely.com/
 server=/log.optimizely.com/
 server=/logx.optimizely.com/
 #[tm-awx.com]
@@ -10745,10 +10747,20 @@ server=/pe1.intentiq.com/
 server=/sync.intentiq.com/
 server=/sync1.intentiq.com/
 #[360.cn]
+server=/ad.dev.360.cn/
+server=/ad.gamebox.360.cn/
 server=/ad.jia.360.cn/
+server=/c.sayhi.360.cn/
+server=/s.union.360.cn/
+server=/stat.m.360.cn/
+#[s.360.cn]
+server=/s.360.cn/
 server=/g.s.360.cn/
 server=/p.s.360.cn/
 server=/sdk.s.360.cn/
+#[tf.360.cn]
+server=/stat.e.tf.360.cn/
+server=/tracking.v.tf.360.cn/
 #[byteoversea.com]
 server=/p16-ad.byteoversea.com/
 server=/v16-ad.byteoversea.com/
@@ -11634,6 +11646,18 @@ server=/x01.aidata.io/
 #[arcspire.io]
 server=/arcspire.io/
 server=/px.arcspire.io/
+#[tanx.com]
+server=/cms.tanx.com/
+server=/df.tanx.com/
+server=/ef-dongfeng.tanx.com/
+server=/et.tanx.com/
+server=/ifsk2.tanx.com/
+server=/kgb-ifs.tanx.com/
+server=/p.tanx.com/
+server=/tanx.com/
+#[mediav.com]
+server=/mediav.com/
+server=/ckmap.mediav.com/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -18375,7 +18399,6 @@ server=/ozongees.com/
 server=/ozqoztrkoaj.com/
 server=/ozsoekwgy.com/
 server=/ozwvkazrik.com/
-server=/p.tanx.com/
 server=/p4r24.eu/
 server=/pacekami.com/
 server=/padp5arja8dgsd9cha.com/
