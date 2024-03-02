@@ -1,7 +1,6 @@
 /* Body */
 body {
-    background: url(/images/bg3.jpg) fixed center;
-    background-size: cover;
+    background: url(/images/bg2.png) fixed center;
 }
 
 /* Content */
@@ -18,39 +17,39 @@ body {
 }
 
 /* Text Elements */
-ol, p, li, pre {
+.container-box ol, .container-box p, .container-box li, .container-box pre {
     text-align: left !important;
 }
 
-h1, h2 {
+.container-box h1, .container-box h2 {
     padding: 0 !important;
 }
 
-h2:not(:first-child) {
+.container-box h2:not(:first-child) {
     font-size: 24px;
     margin-top: 25px;
 }
 
-h3 {
+.container-box h3 {
     font-size: 19px;
 }
 
-h2, h3 {
+.container-box h2, .container-box h3 {
     text-align: left;
     margin-bottom: 0;
 }
 
-p {
+.container-box p {
     margin-top: 6px !important;
     margin-bottom: 0 !important;
 }
 
-ol, ul {
+.container-box ol, .container-box ul {
     margin-top: 6px;
     padding-left: 33px;
 }
 
-summary {
+.container-box summary {
     padding-top: 6px;
     font-family: "Calibri Light", sans-serif;
     font-size: 17px;
@@ -59,7 +58,7 @@ summary {
     user-select: none;
 }
 
-summary:hover {
+.container-box summary:hover {
     text-decoration: underline;
 }
 
@@ -85,18 +84,18 @@ code {
     color: #fff;
 }
 
-code.language-ini {
+.container-box code.language-ini {
     color: #939393;
 }
 
 /* Styling blockquote */
-blockquote {
+.container-box blockquote {
     padding: 0.8em;
     background-color: #1f2a3899;
     border-left: 4px solid #0f7dc299;
     margin: 12px 0 12px;
 }
 
-blockquote p {
+.container-box blockquote p {
     margin: 0!important;
 }

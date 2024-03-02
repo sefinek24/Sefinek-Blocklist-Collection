@@ -16,10 +16,6 @@ const RequestStats = new Schema({
 		500: { type: Number, default: 0 },
 		503: { type: Number, default: 0 },
 	},
-},
-{
-	timestamps: true,
-	versionKey: false,
-});
+}, { timestamps: true, versionKey: false });
 
 module.exports = model('requests-stats', RequestStats);
