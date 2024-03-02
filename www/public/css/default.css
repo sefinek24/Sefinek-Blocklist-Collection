@@ -80,7 +80,7 @@ button {
     background: linear-gradient(90deg, rgba(0, 10, 24, 0.5), rgba(0, 10, 24, 0.6));
     color: #fff;
     border: none;
-    border-radius: 17px!important;
+    border-radius: 17px;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 0 4px rgba(0, 10, 24, 0.66);
@@ -89,11 +89,11 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(90deg, rgba(0, 10, 24, 0.45), rgba(0, 10, 24, 0.7))!important;
+    background: linear-gradient(90deg, rgba(0, 10, 24, 0.45), rgba(0, 10, 24, 0.7));
     transform: scale(1.05);
-    box-shadow: 0 0 7px rgba(0, 10, 24, 0.66)!important;
+    box-shadow: 0 0 7px rgba(0, 10, 24, 0.66);
     backdrop-filter: blur(6px);
-    border-radius: 10px!important;
+    border-radius: 10px;
 }
 
 button:active {
@@ -164,7 +164,7 @@ button:active {
     background: linear-gradient(180deg, rgba(11, 121, 191, 0.1), rgba(11, 121, 191, 0.14));;
     color: #fff;
     border: none;
-    border-radius: 12px!important;
+    border-radius: 12px;
     cursor: pointer;
     transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -258,7 +258,7 @@ button:active {
         flex: 0!important;
     }
 
-    #category-big {font-size: 25px!important}
+    #category-big {font-size: 23px!important}
     #category-small {font-size: 22px!important}
 }
 
