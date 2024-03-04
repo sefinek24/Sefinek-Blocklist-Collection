@@ -59,10 +59,8 @@ jobs:
       - name: Count domains
         run: node scripts/update-number-of-domains.js --ignore-question
 
-      - name: Commit files
+      - name: Commit and push changes
         run: |
-          git config --global user.name "Sefinek Actions"
-          git config --global user.email "sefinek.actions@gmail.com"
           git add .
           if [ -n "$(git status -s)" ]; then
             git status
@@ -71,3 +69,5 @@ jobs:
           else
             echo "No changes to commit"
           fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_SECRET }}
