@@ -3,8 +3,8 @@ const path = require('node:path');
 const date = require('../functions/date.js');
 const sha256 = require('../functions/sha256.js');
 
-const convert = async (folderPath = path.join(__dirname, '../blocklist/template')) => {
-	const generatedPath = path.join(__dirname, '../blocklist/generated/noip');
+const convert = async (folderPath = path.join(__dirname, '../../blocklist/template')) => {
+	const generatedPath = path.join(__dirname, '../../blocklist/generated/noip');
 	try {
 		await fs.access(generatedPath);
 	} catch (err) {
