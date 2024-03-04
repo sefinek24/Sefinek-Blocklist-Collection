@@ -1,0 +1,38 @@
+---
+
+name: Test
+
+on:
+  push:
+    branches:
+    paths:
+
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Create test.txt file
+        run: |
+          echo "test" > test.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Sefinek Actions"
+          git config --global user.email "sefinek.actions@gmail.com"
+          git add .
+          if [ -n "$(git status -s)" ]; then
+            git status
+            git commit -m "Update committed blocklist files"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.SEFINEK_ACTIONS_PAT }}
