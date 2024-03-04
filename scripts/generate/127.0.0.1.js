@@ -1,10 +1,10 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
-const date = require('./functions/date.js');
-const sha256 = require('./functions/sha256.js');
+const date = require('../functions/date.js');
+const sha256 = require('../functions/sha256.js');
 
 const convert = async (folderPath = path.join(__dirname, '../blocklist/template')) => {
-	const generatedPath = path.join(__dirname, '../blocklist/generated/0.0.0.0');
+	const generatedPath = path.join(__dirname, '../blocklist/generated/127.0.0.1');
 	try {
 		await fs.access(generatedPath);
 	} catch (err) {
@@ -18,17 +18,16 @@ const convert = async (folderPath = path.join(__dirname, '../blocklist/template'
 		const thisFileName = path.join(folderPath, file.name);
 
 		// Cache
-		const { cacheHash, stop } = await sha256(thisFileName, '0.0.0.0', file);
+		const { cacheHash, stop } = await sha256(thisFileName, '127.0.0.1', file);
 		if (stop) return;
 
 		// Content
 		const fileContent = await fs.readFile(thisFileName, 'utf8');
 		const replacedFile = fileContent
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /gmu, '0.0.0.0 ')
-			// grex "#0.0.0.0 " "#127.0.0.1 " "# 0.0.0.0 " "# 127.0.0.1 " ":: "
-			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /gmu, '# 0.0.0.0 ')
-			.replace(/<Release>/gim, '0.0.0.0 before each domain')
-			.replace(/<Version>/gim, date.timestamp)
+			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /gmu, '127.0.0.1 ')
+			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /gmu, '# 127.0.0.1 ')
+			.replace(/<Release>/gim, '127.0.0.1 before each domain')
+			.replace(/<Version>/gim, date.timestamp.toString())
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);
 
 		const subFolderName = path.basename(path.dirname(thisFileName));

@@ -1,10 +1,10 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
-const date = require('./functions/date.js');
-const sha256 = require('./functions/sha256.js');
+const date = require('../functions/date.js');
+const sha256 = require('../functions/sha256.js');
 
 const convert = async (folderPath = path.join(__dirname, '../blocklist/template')) => {
-	const generatedPath = path.join(__dirname, '../blocklist/generated/adguard');
+	const generatedPath = path.join(__dirname, '../blocklist/generated/noip');
 	try {
 		await fs.access(generatedPath);
 	} catch (err) {
@@ -18,21 +18,23 @@ const convert = async (folderPath = path.join(__dirname, '../blocklist/template'
 		const thisFileName = path.join(folderPath, file.name);
 
 		// Cache
-		const { cacheHash, stop } = await sha256(thisFileName, 'adguard', file);
+		const { cacheHash, stop } = await sha256(thisFileName, 'noip', file);
 		if (stop) return;
 
 		// Content
 		const fileContent = await fs.readFile(thisFileName, 'utf8');
 		const replacedFile = fileContent
+			// grex "127.0.0.1 localhost" "127.0.0.1  localhost" "127.0.0.1 localhost.localdomain" "127.0.0.1 local" "255.255.255.255 broadcasthost" "::1 localhost" "::1  localhost" "::1 ip6-localhost" "::1 ip6-loopback" "fe80::1%lo0 localhost" "ff00::0 ip6-localnet" "ff00::0 ip6-mcastprefix" "ff02::1 ip6-allnodes" "ff02::2 ip6-allrouters" "ff02::3 ip6-allhosts" "0.0.0.0 0.0.0.0"
 			.replaceAll(
 				/127\.0\.0\.1 localhost\.localdomain|255\.255\.255\.255 broadcasthost|ff0(?:0::0 ip6-mcastprefix|2::(?:2 ip6-allrouter|(?:1 ip6-allnode|3 ip6-allhost))s)|(?:fe80::1%lo0 |(?:(?:127\.0\.0\.|::)1 {2}|::1 (?:ip6-)?))localhost|ff00::0 ip6-localnet|127\.0\.0\.1 local(?:host)?|::1 ip6-loopback|0\.0\.0\.0 0\.0\.0\.0/gi,
 				'',
 			)
-			.replaceAll('#=====', '! =====')
-			.replace(/^# 0\.0\.0\.0 (.*?) (.*)/gmu, '@@||$1^! $2')
-			.replace(/0\.0\.0\.0 (.*?)$/gmu, '||$1^')
-			.replaceAll(/::|#/gmu, '!')
-			.replace(/<Release>/gim, 'AdGuard [adguard.com]')
+			.replaceAll('#=====', '# =====')
+			// grex "0.0.0.0 " "127.0.0.1 "
+			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /gmu, '')
+			// grex "#" "::"
+			.replaceAll(/::|#/gmu, '#')
+			.replace(/<Release>/gim, 'No IP (only domains)')
 			.replace(/<Version>/gim, date.timestamp.toString())
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);
 

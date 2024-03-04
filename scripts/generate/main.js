@@ -1,12 +1,12 @@
-const lint = require('./lint.js');
-const replaceTo00000 = require('./prepare-templates.js');
-const removeDuplicates = require('./remove-duplicates.js');
-const createEverythingList = require('./create-everything-list.js');
-const generate000 = require('./generate-0.0.0.0.js');
-const generate127 = require('./generate-127.0.0.1.js');
-const generateAdGuard = require('./generate-adguard.js');
-const generateDnsmasq = require('./generate-dnsmasq.js');
-const generateNoIP = require('./generate-noip.js');
+const lint = require('../lint.js');
+const replaceTo00000 = require('../prepare-templates.js');
+const removeDuplicates = require('../remove-duplicates.js');
+const createEverythingList = require('../create-everything-list.js');
+const generate000 = require('./0.0.0.0.js');
+const generate127 = require('./127.0.0.1.js');
+const generateAdGuard = require('./adguard.js');
+const generateDnsmasq = require('./dnsmasq.js');
+const generateNoIP = require('./noip.js');
 
 (async () => {
 	console.log('\n\n🟣 Linting...');
