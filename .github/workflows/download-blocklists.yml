@@ -37,6 +37,9 @@ jobs:
       - name: Remove duplicates
         run: node scripts/remove-duplicates.js
 
+      - name: Remove domains that are on the whitelist
+        run: node scripts/whitelist.js
+
       - name: Lint
         run: node scripts/lint.js
 
@@ -44,19 +47,19 @@ jobs:
       #   run: node scripts/create-everything-list.js
 
       - name: Generate No IP list
-        run: node scripts/generate-noip.js
+        run: node scripts/generate/noip.js
 
       - name: Generate 0.0.0.0 list
-        run: node scripts/generate-0.0.0.0.js
+        run: node scripts/generate/0.0.0.0.js
 
       - name: Generate 127.0.0.1 list
-        run: node scripts/generate-127.0.0.1.js
+        run: node scripts/generate/127.0.0.1.js
 
       - name: Generate AdGuard list
-        run: node scripts/generate-adguard.js
+        run: node scripts/generate/adguard.js
 
       - name: Generate Dnsmasq list
-        run: node scripts/generate-dnsmasq.js
+        run: node scripts/generate/dnsmasq.js
 
       - name: Count domains
         run: node scripts/update-number-of-domains.js --ignore-question
