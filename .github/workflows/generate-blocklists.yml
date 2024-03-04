@@ -61,6 +61,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git config --global user.name "Sefinek Actions"
+          git config --global user.email "sefinek.actions@gmail.com"
           git add .
           if [ -n "$(git status -s)" ]; then
             git status
@@ -70,4 +72,4 @@ jobs:
             echo "No changes to commit"
           fi
         env:
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.SEFINEK_ACTIONS_PAT }}
