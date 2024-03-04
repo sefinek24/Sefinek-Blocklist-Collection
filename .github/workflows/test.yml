@@ -2,7 +2,14 @@
 
 name: Test
 
-workflow_dispatch:
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.txt'
+
+  workflow_dispatch:
 
 jobs:
   generate:
