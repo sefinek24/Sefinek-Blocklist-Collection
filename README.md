@@ -10,17 +10,14 @@
     <br>
     <a href="https://blocklist.sefinek.net/#stats" target="_blank">View more stats... »</a>
 </div>
-<br>
+
 <div align="center">
     <a href="https://sefinek.net/blocklist-generator" title="Personalized Blocklist Generator - Take Full Control of Your Network">
         <img src="images/generator.png" width="87%" alt="">
     </a>
-</div>
-
-<img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection?theme=rule34" alt="README.md views" title="Repository views" align="left">
-<div align="center">
-    ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b
-    <br><br>
+    <img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection?theme=rule34" alt="README.md views" title="Repository views" align="left">
+    <br>
+    <p>⭐ If you found this repository helpful or interesting, please consider giving it a star to show your support!</p>
     <b>Have fun and stay safe!</b> o(>ω<)o 👋
 </div>
 
