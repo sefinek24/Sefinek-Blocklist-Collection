@@ -19,10 +19,11 @@
 
 <img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection?theme=rule34" alt="Views" title="Repository views" align="left">
 <div align="center">
-    ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b> ⭐
+    ⭐ <b>If you found this repository helpful or interesting, please consider giving it a star to show your support!</b
     <br>
-    👋 <b>Have fun and stay safe!</b> o(>ω<)o 👋
-    <br><br>
+    <b>Have fun and stay safe!</b>
+    <br>
+    o(>ω<)o 👋
 </div>
 
 
