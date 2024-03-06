@@ -1,11 +1,15 @@
 ##
 # About: This file is part of the Sefinek's Blocklist Collection, maintained by github.com/sefinek24.
 #
-# Last update       : 04.03.2024
+# Last update       : 06.03.2024
 # Author            : Sefinek (https://sefinek.net) <contact@sefinek.net>
 # GitHub repository : https://github.com/sefinek24/Sefinek-Blocklist-Collection
 # Main URL address  : https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/whitelist/default.txt
 ##
+
+# Discord
+click.discord.com forks/StevenBlack.fakenews-gambling-porn.txt
+click.discord.com forks/StevenBlack.hosts.txt
 
 # FaceIT
 email.faceit.com ads/jerryn70.GoodbyeAds.txt
@@ -14,16 +18,7 @@ email.faceit.com forks/RPiList-Malware.txt
 # Google
 manifest.googlevideo.com forks/kboghdady.youtubelist.txt
 
-# Binance
-accounts.binance.com forks/phishingArmy.phishing_army_blocklist_extended.txt
-binance.com ads/jerryn70.GoodbyeAds.txt
-binance.com forks/PolishFiltersTeam.KADhosts.txt
-binance.com forks/RPiList-Malware.txt
-binance.com forks/RPiList-Phishing.txt
-binance.com forks/RPiList.Spam-Mails.txt
-www.binance.com forks/blocklistproject.phishing.txt
-
-# Stripe
+# Stripe (Payment gateway)
 m.stripe.com forks/firebog.AdguardDNS.txt
 m.stripe.com forks/MajkiIT.adguard_host.txt
 
@@ -33,3 +28,27 @@ deviantart.com ads/jerryn70.GoodbyeAds.txt
 deviantart.com ads/yoyo.AdsTrackersEtc.txt
 deviantart.com forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
 www.deviantart.com forks/4skinSkywalker.Anti-Porn.txt
+
+# Booth
+booth.pm forks/Sinfonietta.pornography-hosts.txt
+booth.pm forks/StevenBlack.fakenews-gambling-porn.txt
+
+# TheAnnoyingSite
+theannoyingsite.com ads/blocklistproject.ads.txt
+theannoyingsite.com forks/4skinSkywalker.Anti-Porn.txt
+theannoyingsite.com forks/StevenBlack.fakenews-gambling-porn.txt
+theannoyingsite.com forks/StevenBlack.hosts.txt
+theannoyingsite.com forks/neodevpro.neodevhost.txt
+
+# KuCoin (Crypto)
+kucoin.com forks/firebog.Prigent-Crypto.txt
+kucoin.com forks/zerodot1.CoinBlockerLists.txt
+
+# Binance (Crypto)
+accounts.binance.com forks/phishingArmy.phishing_army_blocklist_extended.txt
+binance.com ads/jerryn70.GoodbyeAds.txt
+binance.com forks/PolishFiltersTeam.KADhosts.txt
+binance.com forks/RPiList-Malware.txt
+binance.com forks/RPiList-Phishing.txt
+binance.com forks/RPiList.Spam-Mails.txt
+www.binance.com forks/blocklistproject.phishing.txt
