@@ -34,8 +34,6 @@ const processDirectory = async (dirPath) => {
 			if (duplicatesRemoved > 0) {
 				await writeFile(filePath, fileContents, 'utf8');
 				console.log(`🗑️ ${duplicatesRemoved} ${duplicatesRemoved === 1 ? 'duplicate' : 'duplicates'} removed from ${filePath}`);
-			} else {
-				console.log(`✔️ No duplicates found in ${filePath}`);
 			}
 		}
 
