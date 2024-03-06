@@ -30,7 +30,7 @@ base_output_dir="blocklist/template"
 # Creating the base directory if it does not exist, notifying the user
 if [ ! -d "$base_output_dir" ]; then
   mkdir -p "$base_output_dir"
-  echo "🔵 Directory '$base_output_dir' was created."
+  echo "🔵 Directory '$base_output_dir' was created"
 fi
 
 # Reading the version from package.json to use in the user agent
