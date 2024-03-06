@@ -14,8 +14,8 @@ This list includes some URLs associated with certain domains that you may wish t
 However, it's important to use this list as a reference and consider additional measures to further enhance online safety.
 
 Here are some sample URLs with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/abuse.urlhaus.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/blocklistproject.abuse.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/abuse/blocklistproject/hosts.fork.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/abuse/urlhaus.abuse.ch/hostfile.fork.txt
 
 Blocking these domains with Pi-hole can help improve the security and privacy of your devices and network.
 

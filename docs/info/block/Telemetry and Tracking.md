@@ -21,13 +21,7 @@ Blocking these domains with Pi-hole can help protect your online privacy by prev
 
 ## 📃 List
 List of sample links containing domains to be blocked:
-
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/0Zinc.easyprivacy.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/ente-dev.tv.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/frogeye.firstparty-trackers-hosts.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.adguard_mobile_host.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/mitchellkrogza.Stop.Google.Analytics.Ghost.Spam-INACTIVE.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/neodevpro.neodevhost.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 
 
 <hr>

@@ -10,10 +10,7 @@ Phishing domains are websites designed to mimic legitimate websites to deceive u
 Phishing websites often use social engineering techniques, such as creating a sense of urgency or pretending to be a trustworthy organization, to trick users into divulging their personal information.
 
 Here are some sample URLs with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.phishing.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/Dogino.Discord-Phishing-URLs-phishing.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/phishingArmy.phishing_army_blocklist_extended.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/RPiList-Phishing.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 - https://blocklist.sefinek.net/generated/0.0.0.0/malicious/phishing.txt
 
 

@@ -19,8 +19,7 @@ These URLs are associated with specific domains that you may want to block on yo
 You can use this list as a reference and consider other measures to improve online safety further.
 
 Here is a sample URL with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/RPiList.Spam-Mails.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/stopforumspam.toxic_domains_whole.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 
 While blocking these domains can limit exposure to spam mail, it's crucial to take other precautions, such as using a spam filter and being cautious when opening emails from unknown senders.
 

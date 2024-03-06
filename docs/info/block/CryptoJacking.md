@@ -20,8 +20,8 @@ The URLs are associated with certain domains that you may wish to block on your 
 It is important to use this list as a reference and consider other measures to further enhance online safety.
 
 Below are some sample URLs that can be used to block cryptojacking domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/hoshsadiq.adblock-nocoin-list.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/Snota418.Crypto-streams.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 
 
 <hr>

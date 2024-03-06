@@ -14,7 +14,7 @@ Please note that the list of URLs provided below is not comprehensive but can se
 Blocking these URLs can improve online safety and reduce potential risks. It is also recommended to consider additional measures to enhance online safety.
 
 Here is an example of a URL that provides a list of ransomware domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.ransomware.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 
 
 <hr>

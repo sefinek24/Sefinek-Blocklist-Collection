@@ -14,8 +14,7 @@ One way to do this is by using tools like Pi-hole, which can block specific doma
 You can add a list of gambling domains to Pi-hole to prevent users on your network from accessing these websites and potentially developing gambling addictions.
 
 The following are some sample URLs with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.gambling.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/MajkiIT.gambling-hosts.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 - https://blocklist.sefinek.net/generated/0.0.0.0/gambling.txt
 
 Please note that this list of URLs is not comprehensive and there may be other domains that you may wish to block on your network to improve online safety and reduce potential risks.

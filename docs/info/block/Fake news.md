@@ -18,7 +18,7 @@ These URLs are linked to specific domains that you may opt to block on your netw
 Please consider this list as a reference and implement additional measures to further enhance online safety.
 
 Here's an example URL with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/marktron.fakenews.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 
 While blocking these domains can be an effective way to limit exposure to fake news content, it's equally essential to educate yourself on how to identify and avoid fake news.
 

@@ -18,7 +18,7 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further enhance online safety.
 
 Here is a sample URL with a list of drug-related domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.drugs.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 
 ## ⚠️ Important information
 Blocking drug-related domains may be an effective way to limit exposure to drug-related content, but it is not a substitute for seeking professional help for drug addiction.

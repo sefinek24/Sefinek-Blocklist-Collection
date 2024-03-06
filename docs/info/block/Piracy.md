@@ -23,7 +23,7 @@ In addition to blocking piracy domains, Pi-hole can also block other types of un
 
 📜 Where can you find piracy domain blocklists?
 Here are some sample URLs with a list of domains that you can use to block piracy domains with Pi-hole:
-- https://blocklist.sefinek.net/generated/0.0.0.0/forks/blocklistproject.piracy.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/
 
 For a complete list of blocklists that you can use with Pi-hole, please refer to the [List.md](../../lists/md/PiHole.md) file in [this repository](https://github.com/sefinek24/Sefinek-Blocklist-Collection).
 
