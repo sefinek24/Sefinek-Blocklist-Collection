@@ -8,7 +8,7 @@
 urls=(
   # ADS Blocklists
   "https://blocklistproject.github.io/Lists/ads.txt ads/blocklistproject/ads.fork.txt"
-  "https://github.com/jerryn70/GoodbyeAds/blob/master/Hosts/GoodbyeAds.txt ads/jerryn70/GoodbyeAds.fork.txt"
+  "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt ads/jerryn70/GoodbyeAds.fork.txt"
   "https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt ads/kboghdady/youtubelist.fork.txt"
   "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext ads/yoyo.AdsTrackersEtc.fork.txt"
 )
