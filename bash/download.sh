@@ -108,7 +108,6 @@ urls=(
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt extension/r-a-y/AdguardApps.fork.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt extension/r-a-y/AdguardMobileSpyware.fork.txt"
   "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts extension/StevenBlack/fakenews-gambling"
-  "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts extension/StevenBlack/fakenews-gambling"
   "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts extension/FadeMind/add-2o7Net.fork.txt"
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt extension/hagezi/pro.fork.txt"
 
