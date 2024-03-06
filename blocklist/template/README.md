@@ -1,5 +1,11 @@
-## 📝 Information
+# 📝 Information
+Here are the files containing templates for the blocklist, which then go through conversions to various formats by GitHub Actions.
 
-Here you can find files with templates for the blocklist, and you can easily edit them by adding or removing domains.
-If you come across any typos in the comments (after the # sign), you can also correct them. I am generally open to any changes.
-I would be happy if you create a new Pull Request with your changes! Any help in developing this repository is welcome.
+## Which files can I edit?
+Files with the `.fork` prefix (e.g., `KADhosts.fork.txt`) will be automatically overwritten by GitHub Actions and should not be modified!
+
+## False positives
+If you encounter any false positives, create a new [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls) and add an exception to the whitelist located at [`whitelist\default.txt`](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/whitelist/default.txt).
+
+## Pull Requests
+Generally, I am open to all changes. I would be happy if you created a new [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls) with your changes! Any help in developing this repository is welcome. Have fun!
