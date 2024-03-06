@@ -35,6 +35,9 @@ jobs:
       - name: Remove duplicates
         run: node scripts/remove-duplicates.js
 
+      - name: Remove domains that are on the whitelist
+        run: node scripts/whitelist.js
+
       - name: Lint
         run: node scripts/lint.js
 
