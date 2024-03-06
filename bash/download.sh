@@ -6,7 +6,7 @@
 # List of URLs for blocklists. Each entry includes the URL and the desired path.
 # The path now includes an author-specific folder and a "fork" prefix for the filename.
 urls=(
-  # ADS Blocklists
+  # Ads
   "https://blocklistproject.github.io/Lists/ads.txt ads/blocklistproject/ads.fork.txt"
   "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt ads/jerryn70/GoodbyeAds.fork.txt"
   "https://raw.githubusercontent.com/kboghdady/youTube_ads_4_pi-hole/master/youtubelist.txt ads/kboghdady/youtubelist.fork.txt"
@@ -25,7 +25,7 @@ if ! command -v node &> /dev/null; then
 fi
 
 # Setting up the base directory for blocklist downloads
-base_output_dir="blocklist"
+base_output_dir="blocklist/template"
 
 # Creating the base directory if it does not exist, notifying the user
 if [ ! -d "$base_output_dir" ]; then
