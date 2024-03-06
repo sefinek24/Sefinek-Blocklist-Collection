@@ -31,7 +31,7 @@ urls=(
   "https://ente.dev/api/blocklist/tv tracking-and-telemetry/ente-dev/tv.fork.txt"
   "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt"
   "https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt tracking-and-telemetry/0Zinc/easyprivacy.fork.txt"
-  "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt tracking-and-telemetry/MajkiIT/adguard_mobile_host.fork.txt"
+  "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt"
   "https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt"
   "https://raw.githubusercontent.com/neodevpro/neodevhost/master/host tracking-and-telemetry/neodevpro/host.fork.txt"
 
@@ -49,14 +49,13 @@ urls=(
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt malicious/DandelionSprout-AntiMalwareHosts.fork.txt"
   "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware malicious/RPiList/Malware.fork.txt"
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt malicious/Spam404/main-blacklist.fork.txt"
-  "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt malicious/disconnectme/simple_malvertising.fork.txt"
+  "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt malicious/disconnectme/simple-malvertising.fork.txt"
 
   ## Phishing
-  "https://blocklistproject.github.io/Lists/phishing.txt blocklistproject.phishing.txt"
   "https://blocklistproject.github.io/Lists/phishing.txt phishing/blocklistproject/phishing.fork.txt"
   "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-phishing.txt phishing/quidsup/notrack-phishing.fork.txt"
-  "https://phishing.army/download/phishing_army_blocklist_extended.txt phishing/phishing.army_blocklist_extended.fork.txt"
-  "https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt phishing/Dogino.Discord-Phishing-URLs-phishing.fork.txt"
+  "https://phishing.army/download/phishing_army_blocklist_extended.txt phishing/phishing.army/blocklist-extended.fork.txt"
+  "https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt"
   "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe phishing/RPiList/Phishing-Angriffe.fork.txt"
 
   ## Ransomware
@@ -104,8 +103,8 @@ urls=(
   "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList.txt extension/deathbybandaid/ParsedBlacklists-EasyList.fork.txt"
   "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts extension/FadeMind/add-2o7Net.fork.txt"
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt extension/hagezi/pro.fork.txt"
-  "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt extension/MajkiIT/adguard_host.fork.txt"
-  "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt extension/MajkiIT/easy_privacy_host.fork.txt"
+  "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt extension/MajkiIT/adguard-host.fork.txt"
+  "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt extension/MajkiIT/easy-privacy-host.fork.txt"
   "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt extension/notracking/hostnames.fork.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt extension/r-a-y/AdguardApps.fork.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt extension/r-a-y/AdguardMobileSpyware.fork.txt"
@@ -115,7 +114,7 @@ urls=(
   "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts StevenBlack/hosts.fork.txt"
 
   ## Polish filters
-  "https://hole.cert.pl/domains/domains_hosts.txt polish-blocklists/cert.pl/domains_hosts.fork.txt"
+  "https://hole.cert.pl/domains/domains_hosts.txt polish-blocklists/cert.pl/domains-hosts.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt polish-blocklists/MajkiIT/hostfile.fork.txt"
   "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt polish-blocklists/PolishFiltersTeam/KADhosts.fork.txt"
 

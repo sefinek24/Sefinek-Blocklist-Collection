@@ -19,7 +19,7 @@ https://blocklist.sefinek.net/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/0Zinc.easylist.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/0Zinc.easyprivacy.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/4skinSkywalker.Anti-Porn.txt
-https://blocklist.sefinek.net/generated/0.0.0.0/forks/abuse.urlhaus.txt
+https://blocklist.sefinek.net/generated/0.0.0.0/malicious/malware-filter/urlhaus-filter-hosts-online.fork.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/adaway.hosts.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/anudeepND.adservers.txt
 https://blocklist.sefinek.net/generated/0.0.0.0/forks/AssoEchap.stalkerware-indicators.txt
