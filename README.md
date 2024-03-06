@@ -11,6 +11,8 @@
     <a href="https://blocklist.sefinek.net/#stats" target="_blank">View more stats... »</a>
 </div>
 
+<h2>😸 A NEW BLOCKLIST GENERATION SYSTEM (WITH WHITELISTS) HAS BEEN ADDED TO THE REPOSITORY! BLOCKLIST LINKS WILL CHANGE!</h2>
+
 <div align="center">
     <a href="https://sefinek.net/blocklist-generator" title="Personalized Blocklist Generator - Take Full Control of Your Network">
         <img src="images/generator.png" width="87%" alt="">
