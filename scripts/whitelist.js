@@ -65,8 +65,6 @@ const processDirectory = async (dirPath, whitelist, basePath) => {
 		if (domainsRemoved > 0) {
 			await writeFile(filePath, filteredLines.join('\n'), 'utf8');
 			console.log(`🗑️ ${domainsRemoved} domains removed from ${filePath}`);
-		} else {
-			console.log(`✔️ No domains to remove in ${filePath} (${relativePath})`);
 		}
 	}
 
