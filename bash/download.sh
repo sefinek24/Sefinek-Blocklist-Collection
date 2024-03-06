@@ -40,7 +40,6 @@ urls=(
   "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt amp/developerdan/amp-hosts-extended.fork.txt"
 
   # Malicious
-  "https://blocklistproject.github.io/Lists/malware.txt blocklistproject.malware.txt"
   "https://blocklistproject.github.io/Lists.malware.txt malicious/blocklistproject/malware.fork.txt"
   "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt malicious/quidsup/notrack-malware.fork.txt"
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt malicious/malware-filter/urlhaus-filter-hosts-online.fork.txt"
@@ -70,8 +69,8 @@ urls=(
   "https://zerodot1.gitlab.io/CoinBlockerLists/hosts cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt"
 
   # Abuse
-  "https://blocklistproject.github.io/Lists/abuse.txt abuse/blocklistproject/abuse.fork.txt"
-  "https://urlhaus.abuse.ch/downloads/hostfile urlhaus.abuse.ch/hostfile.fork.txt"
+  "https://blocklistproject.github.io/Lists/abuse.txt abuse/blocklistproject/hosts.fork.txt"
+  "https://urlhaus.abuse.ch/downloads/hostfile abuse/urlhaus.abuse.ch/hostfile.fork.txt"
 
   # Fraud
   "https://blocklistproject.github.io/Lists/fraud.txt fraud/blocklistproject/hosts.fork.txt"
@@ -135,7 +134,7 @@ urls=(
   "https://blocklistproject.github.io/Lists/drugs.txt drugs/blocklistproject/drugs.fork.txt"
 
   # Fake news
-  "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews marktron/fakenews/hosts.txt"
+  "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews fakenews/marktron/hosts.txt"
 
   # Gambling
   "https://blocklistproject.github.io/Lists/gambling.txt gambling/blocklistproject/hosts.fork.txt"
