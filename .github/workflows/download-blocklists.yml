@@ -74,7 +74,7 @@ jobs:
             git commit -m "Download blocklists and update files"
             git push
           else
-            echo "No changes to commit"
+            echo "Canceled. No changes to commit."
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.SEFINEK_ACTIONS_PAT }}
