@@ -6,7 +6,7 @@
 # List of URLs for blocklists. Each entry includes the URL and the desired path.
 # The path now includes an author-specific folder and a "fork" prefix for the filename.
 urls=(
-  # Ads
+  ## Ads
   "https://adaway.org/hosts.txt ads/adaway/hosts.fork.txt"
   "https://blocklistproject.github.io/Lists/ads.txt ads/blocklistproject/hosts.fork.txt"
   "https://blocklistproject.github.io/Lists/youtube.txt ads/blocklistproject/youtube.fork.txt"
@@ -27,7 +27,7 @@ urls=(
   "https://v.firebog.net/hosts/Easylist.txt ads/firebog/Easylist.fork.txt"
   "https://v.firebog.net/hosts/Prigent-Ads.txt ads/firebog/Prigent-Ads.fork.txt"
 
-  # Tracking and telemetry
+  ## Tracking and telemetry
   "https://ente.dev/api/blocklist/tv tracking-and-telemetry/ente-dev/tv.fork.txt"
   "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt"
   "https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt tracking-and-telemetry/0Zinc/easyprivacy.fork.txt"
@@ -35,11 +35,11 @@ urls=(
   "https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt"
   "https://raw.githubusercontent.com/neodevpro/neodevhost/master/host tracking-and-telemetry/neodevpro/host.fork.txt"
 
-  # AMP hosts
+  ## AMP hosts
   "https://ente.dev/api/blocklist/google-amp-hosts amp/ente-dev/google-amp-hosts.fork.txt"
   "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt amp/developerdan/amp-hosts-extended.fork.txt"
 
-  # Malicious
+  ## Malicious
   "https://blocklistproject.github.io/Lists.malware.txt malicious/blocklistproject/malware.fork.txt"
   "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt malicious/quidsup/notrack-malware.fork.txt"
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt malicious/malware-filter/urlhaus-filter-hosts-online.fork.txt"
@@ -51,7 +51,7 @@ urls=(
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt malicious/Spam404/main-blacklist.fork.txt"
   "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt malicious/disconnectme/simple_malvertising.fork.txt"
 
-  # Phishing
+  ## Phishing
   "https://blocklistproject.github.io/Lists/phishing.txt blocklistproject.phishing.txt"
   "https://blocklistproject.github.io/Lists/phishing.txt phishing/blocklistproject/phishing.fork.txt"
   "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-phishing.txt phishing/quidsup/notrack-phishing.fork.txt"
@@ -59,87 +59,87 @@ urls=(
   "https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/pihole-phishing-adlist.txt phishing/Dogino.Discord-Phishing-URLs-phishing.fork.txt"
   "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe phishing/RPiList/Phishing-Angriffe.fork.txt"
 
-  # Ransomware
+  ## Ransomware
   "https://blocklistproject.github.io/Lists/ransomware.txt ransomware/blocklistproject/ransomware.fork.txt"
 
-  # CryptoJacking
+  ## CryptoJacking
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt cryptojacking/hoshsadiq/adblock-nocoin-list.fork.txt"
   "https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams cryptojacking/Snota418/Crypto-streams.fork.txt"
   "https://v.firebog.net/hosts/Prigent-Crypto.txt cryptojacking/firebog/Prigent/Crypto.fork.txt"
   "https://zerodot1.gitlab.io/CoinBlockerLists/hosts cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt"
 
-  # Abuse
+  ## Abuse
   "https://blocklistproject.github.io/Lists/abuse.txt abuse/blocklistproject/hosts.fork.txt"
   "https://urlhaus.abuse.ch/downloads/hostfile abuse/urlhaus.abuse.ch/hostfile.fork.txt"
 
-  # Fraud
+  ## Fraud
   "https://blocklistproject.github.io/Lists/fraud.txt fraud/blocklistproject/hosts.fork.txt"
 
-  # Spam
+  ## Spam
+  "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts spam/FadeMind/add-Spam.fork.txt"
   "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/spam.mails spam/RPiList/spam-mails.fork.txt"
   "https://www.stopforumspam.com/downloads/toxic_domains_whole.txt spam/stopforumspam/toxic-domains-whole.fork.txt"
-  "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts spam/FadeMind/add-Spam.fork.txt"
 
-  # Piracy
+  ## Piracy
   "https://blocklistproject.github.io/Lists/piracy.txt piracy/blocklistproject/piracy.fork.txt"
 
-  # Redirects
+  ## Redirects
   "https://blocklistproject.github.io/Lists/redirect.txt redirect/blocklistproject/redirect.fork.txt"
 
-  # Scam
+  ## Scam
   "https://blocklistproject.github.io/Lists/scam.txt scam/blocklistproject/scam.fork.txt"
   "https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt scam/Dogino/Discord-Phishing-URLs-scam.fork.txt"
   "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt scam/durablenapkin/scamblocklist.fork.txt"
 
-  # Suspicious
-  "https://v.firebog.net/hosts/static/w3kbl.txt suspicious/firebog/w3kbl.fork.txt"
+  ## Suspicious
   "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts suspicious/FadeMind/add-Risk.fork.txt"
+  "https://v.firebog.net/hosts/static/w3kbl.txt suspicious/firebog/w3kbl.fork.txt"
 
-  # Extension
+  ## Extension
+  "https://big.oisd.nl extension/oisd/big.fork.txt"
+  "https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt extension/justdomains/adguarddns-justdomains.fork.txt"
   "https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains.24733 extension/cbuijs/adult-domains-24733.fork.txt"
   "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CountryCodesLists/France.txt extension/deathbybandaid/CountryCodesLists-France.fork.txt"
   "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList-Liste-FR.txt extension/deathbybandaid/ParsedBlacklists-EasyList-Liste-FR.fork.txt"
   "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/ParsedBlacklists/EasyList.txt extension/deathbybandaid/ParsedBlacklists-EasyList.fork.txt"
-  "https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt extension/justdomains/adguarddns-justdomains.fork.txt"
+  "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts extension/FadeMind/add-2o7Net.fork.txt"
+  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt extension/hagezi/pro.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt extension/MajkiIT/adguard_host.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt extension/MajkiIT/easy_privacy_host.fork.txt"
   "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt extension/notracking/hostnames.fork.txt"
-  "https://big.oisd.nl extension/oisd/big.fork.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt extension/r-a-y/AdguardApps.fork.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt extension/r-a-y/AdguardMobileSpyware.fork.txt"
   "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts extension/StevenBlack/fakenews-gambling"
-  "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts extension/FadeMind/add-2o7Net.fork.txt"
-  "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt extension/hagezi/pro.fork.txt"
 
-  # StevenBlack hosts
+  ## StevenBlack hosts
   "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts StevenBlack/hosts.fork.txt"
 
-  # Polish filters
+  ## Polish filters
   "https://hole.cert.pl/domains/domains_hosts.txt polish-blocklists/cert.pl/domains_hosts.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt polish-blocklists/MajkiIT/hostfile.fork.txt"
   "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt polish-blocklists/PolishFiltersTeam/KADhosts.fork.txt"
 
-  # Porn
-  "https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt porn/4skinSkywalker/hosts.fork.txt"
+  ## Porn
   "https://blocklistproject.github.io/Lists/porn.txt porn/blocklistproject/porn.fork.txt"
-  "https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list porn/chadmayfield/pi-blocklist-porn-all.fork.txt"
   "https://nsfw.oisd.nl porn/oisd/nsfw.fork.txt"
+  "https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt porn/4skinSkywalker/hosts.fork.txt"
+  "https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list porn/chadmayfield/pi-blocklist-porn-all.fork.txt"
   "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts porn/Sinfonietta/pornography-hosts.fork.txt"
 
-  # Hate and junk
+  ## Hate and junk
   "https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt hate-and-junk/developerdan/extended.fork.txt"
 
-  # Drugs
+  ## Drugs
   "https://blocklistproject.github.io/Lists/drugs.txt drugs/blocklistproject/drugs.fork.txt"
 
-  # Fake news
+  ## Fake news
   "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews fakenews/marktron/hosts.txt"
 
-  # Gambling
+  ## Gambling
   "https://blocklistproject.github.io/Lists/gambling.txt gambling/blocklistproject/hosts.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt gambling/MajkiIT/gambling-hosts.fork.txt"
 
-  # Dating services
+  ## Dating services
   "https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt dating-services/developerdan/extended.fork.txt"
 )
 
