@@ -1,10 +1,12 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
 const date = require('../functions/date.js');
-const sha256 = require('../functions/sha256.js');
+const sha256 = require('../functions/sha512.js');
 
-const convert = async (folderPath = path.join(__dirname, '../../blocklist/template')) => {
-	const generatedPath = path.join(__dirname, '../../blocklist/generated/noip');
+const format = 'noip';
+
+const convert = async (folderPath = path.join(__dirname, '../../blocklist/template'), relativePath = '') => {
+	const generatedPath = path.join(__dirname, `../../blocklist/generated/${format}`, relativePath);
 	try {
 		await fs.access(generatedPath);
 	} catch (err) {
@@ -18,13 +20,12 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklist/templa
 		const thisFileName = path.join(folderPath, file.name);
 
 		// Cache
-		const { cacheHash, stop } = await sha256(thisFileName, 'noip', file);
+		const { cacheHash, stop } = await sha256(thisFileName, format, file);
 		if (stop) return;
 
 		// Content
 		const fileContent = await fs.readFile(thisFileName, 'utf8');
 		const replacedFile = fileContent
-			// grex "127.0.0.1 localhost" "127.0.0.1  localhost" "127.0.0.1 localhost.localdomain" "127.0.0.1 local" "255.255.255.255 broadcasthost" "::1 localhost" "::1  localhost" "::1 ip6-localhost" "::1 ip6-loopback" "fe80::1%lo0 localhost" "ff00::0 ip6-localnet" "ff00::0 ip6-mcastprefix" "ff02::1 ip6-allnodes" "ff02::2 ip6-allrouters" "ff02::3 ip6-allhosts" "0.0.0.0 0.0.0.0"
 			.replaceAll(
 				/127\.0\.0\.1 localhost\.localdomain|255\.255\.255\.255 broadcasthost|ff0(?:0::0 ip6-mcastprefix|2::(?:2 ip6-allrouter|(?:1 ip6-allnode|3 ip6-allhost))s)|(?:fe80::1%lo0 |(?:(?:127\.0\.0\.|::)1 {2}|::1 (?:ip6-)?))localhost|ff00::0 ip6-localnet|127\.0\.0\.1 local(?:host)?|::1 ip6-loopback|0\.0\.0\.0 0\.0\.0\.0/gi,
 				'',
@@ -38,27 +39,20 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklist/templa
 			.replace(/<Version>/gim, date.timestamp.toString())
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);
 
-		const subFolderName = path.basename(path.dirname(thisFileName));
-		const categoryPath = subFolderName === 'template' ? generatedPath : path.join(generatedPath, subFolderName);
-		const fullNewFile = path.join(categoryPath, file.name);
-
-		try {
-			await fs.access(categoryPath);
-		} catch (err) {
-			await fs.mkdir(categoryPath, { recursive: true });
-		}
-
+		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(fullNewFile, replacedFile);
-		console.log(`✔️ ${cacheHash || file.name} saved in ${thisFileName}`);
+
+		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
 	try {
 		const subdirectories = files.filter(file => file.isDirectory());
 		await Promise.all(subdirectories.map(async subdirectory => {
-			await convert(path.join(folderPath, subdirectory.name));
+			const nextRelativePath = path.join(relativePath, subdirectory.name);
+			await convert(path.join(folderPath, subdirectory.name), nextRelativePath);
 		}));
 	} catch (err) {
-		console.error(`❌ ${folderPath}:`, err);
+		console.error(`❌ Error processing ${folderPath}:`, err);
 	}
 };
 
@@ -69,4 +63,4 @@ const run = async () => {
 
 (async () => await run())();
 
-module.exports = () => run;
+module.exports = run;

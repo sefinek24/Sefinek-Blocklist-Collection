@@ -1,10 +1,12 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
 const date = require('../functions/date.js');
-const sha256 = require('../functions/sha256.js');
+const sha256 = require('../functions/sha512.js');
 
-const convert = async (folderPath = path.join(__dirname, '../../blocklist/template')) => {
-	const generatedPath = path.join(__dirname, '../../blocklist/generated/adguard');
+const format = 'adguard';
+
+const convert = async (folderPath = path.join(__dirname, '../../blocklist/template'), relativePath = '') => {
+	const generatedPath = path.join(__dirname, `../../blocklist/generated/${format}`, relativePath);
 	try {
 		await fs.access(generatedPath);
 	} catch (err) {
@@ -18,7 +20,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklist/templa
 		const thisFileName = path.join(folderPath, file.name);
 
 		// Cache
-		const { cacheHash, stop } = await sha256(thisFileName, 'adguard', file);
+		const { cacheHash, stop } = await sha256(thisFileName, format, file);
 		if (stop) return;
 
 		// Content
@@ -36,27 +38,20 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklist/templa
 			.replace(/<Version>/gim, date.timestamp.toString())
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);
 
-		const subFolderName = path.basename(path.dirname(thisFileName));
-		const categoryPath = subFolderName === 'template' ? generatedPath : path.join(generatedPath, subFolderName);
-		const fullNewFile = path.join(categoryPath, file.name);
-
-		try {
-			await fs.access(categoryPath);
-		} catch (err) {
-			await fs.mkdir(categoryPath, { recursive: true });
-		}
-
+		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(fullNewFile, replacedFile);
-		console.log(`✔️ ${cacheHash || file.name} saved in ${thisFileName}`);
+
+		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
 	try {
 		const subdirectories = files.filter(file => file.isDirectory());
 		await Promise.all(subdirectories.map(async subdirectory => {
-			await convert(path.join(folderPath, subdirectory.name));
+			const nextRelativePath = path.join(relativePath, subdirectory.name);
+			await convert(path.join(folderPath, subdirectory.name), nextRelativePath);
 		}));
 	} catch (err) {
-		console.error(`❌ ${folderPath}:`, err);
+		console.error(`❌ Error processing ${folderPath}:`, err);
 	}
 };
 
@@ -67,4 +62,4 @@ const run = async () => {
 
 (async () => await run())();
 
-module.exports = () => run;
+module.exports = run;

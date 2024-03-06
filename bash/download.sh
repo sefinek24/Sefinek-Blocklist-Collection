@@ -6,7 +6,11 @@
 # List of URLs for blocklists. Each entry includes the URL and the desired path.
 # The path now includes an author-specific folder and a "fork" prefix for the filename.
 urls=(
-  ## Ads
+  ## Abuse
+  "https://blocklistproject.github.io/Lists/abuse.txt abuse/blocklistproject/hosts.fork.txt"
+  "https://urlhaus.abuse.ch/downloads/hostfile abuse/urlhaus.abuse.ch/hostfile.fork.txt"
+
+  ## Advertising
   "https://adaway.org/hosts.txt ads/adaway/hosts.fork.txt"
   "https://blocklistproject.github.io/Lists/ads.txt ads/blocklistproject/hosts.fork.txt"
   "https://blocklistproject.github.io/Lists/youtube.txt ads/blocklistproject/youtube.fork.txt"
@@ -27,6 +31,10 @@ urls=(
   "https://v.firebog.net/hosts/Easylist.txt ads/firebog/Easylist.fork.txt"
   "https://v.firebog.net/hosts/Prigent-Ads.txt ads/firebog/Prigent-Ads.fork.txt"
 
+  ## AMP hosts
+  "https://ente.dev/api/blocklist/google-amp-hosts amp/ente-dev/google-amp-hosts.fork.txt"
+  "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt amp/developerdan/amp-hosts-extended.fork.txt"
+
   ## Tracking and telemetry
   "https://ente.dev/api/blocklist/tv tracking-and-telemetry/ente-dev/tv.fork.txt"
   "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt"
@@ -34,10 +42,6 @@ urls=(
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt"
   "https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt"
   "https://raw.githubusercontent.com/neodevpro/neodevhost/master/host tracking-and-telemetry/neodevpro/host.fork.txt"
-
-  ## AMP hosts
-  "https://ente.dev/api/blocklist/google-amp-hosts amp/ente-dev/google-amp-hosts.fork.txt"
-  "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt amp/developerdan/amp-hosts-extended.fork.txt"
 
   ## Malicious
   "https://blocklistproject.github.io/Lists.malware.txt malicious/blocklistproject/malware.fork.txt"
@@ -66,10 +70,6 @@ urls=(
   "https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams cryptojacking/Snota418/Crypto-streams.fork.txt"
   "https://v.firebog.net/hosts/Prigent-Crypto.txt cryptojacking/firebog/Prigent/Crypto.fork.txt"
   "https://zerodot1.gitlab.io/CoinBlockerLists/hosts cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt"
-
-  ## Abuse
-  "https://blocklistproject.github.io/Lists/abuse.txt abuse/blocklistproject/hosts.fork.txt"
-  "https://urlhaus.abuse.ch/downloads/hostfile abuse/urlhaus.abuse.ch/hostfile.fork.txt"
 
   ## Fraud
   "https://blocklistproject.github.io/Lists/fraud.txt fraud/blocklistproject/hosts.fork.txt"
