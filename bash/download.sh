@@ -98,9 +98,9 @@ urls=(
   "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt scam/durablenapkin/scamblocklist.fork.txt"
 
   ## Polish filters
-  "https://hole.cert.pl/domains/domains_hosts.txt polish-blocklists/cert.pl/domains-hosts.fork.txt"
-  "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt polish-blocklists/MajkiIT/hostfile.fork.txt"
-  "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt polish-blocklists/PolishFiltersTeam/KADhosts.fork.txt"
+  "https://hole.cert.pl/domains/domains_hosts.txt other/polish-blocklists/cert.pl/domains-hosts.fork.txt"
+  "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/hostfile.txt other/polish-blocklists/MajkiIT/hostfile.fork.txt"
+  "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt other/polish-blocklists/PolishFiltersTeam/KADhosts.fork.txt"
 
   ## Spam
   "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts spam/FadeMind/add-Spam.fork.txt"
