@@ -19,6 +19,6 @@
 
 <div align="center">
     <a href="https://sefinek.net/blocklist-generator" title="Personalized Blocklist Generator - Take Full Control of Your Network">
-        <img src="../images/generator.png" width="60%" alt="">
+        <img src="../../images/generator.png" width="60%" alt="">
     </a>
 </div>

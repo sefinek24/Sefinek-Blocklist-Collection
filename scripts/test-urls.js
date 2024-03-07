@@ -7,17 +7,17 @@ const readline = require('readline');
 const { version } = require('../package.json');
 
 const markdownFiles = [
-	'./lists/md/127.0.0.1.md',
-	'./lists/md/AdGuard.md',
-	'./lists/md/dnsmasq.md',
-	'./lists/md/noip.md',
-	'./lists/md/Pi-hole.md',
+	'./docs/lists/md/127.0.0.1.md',
+	'./docs/lists/md/AdGuard.md',
+	'./docs/lists/md/dnsmasq.md',
+	'./docs/lists/md/noip.md',
+	'./docs/lists/md/Pi-hole.md',
 ];
 
 // Axios
 const headers = {
 	headers: {
-		'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklistsAgent/${version}; +https://blocklist.sefinek.net)`,
+		'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklists/${version}; +https://blocklist.sefinek.net)`,
 	},
 };
 

@@ -19,13 +19,15 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further boost online safety.
 
 Here are some example URLs with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/
+- https://blocklist.sefinek.net/generated/0.0.0.0/scam/blocklistproject/scam.fork.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/scam/durablenapkin/scamblocklist.fork.txt
 
 Please note that while blocking these domains can help limit exposure to scam websites, it is important to also educate yourself on how to identify and avoid scams.
 
 
 <hr>
 <h3 align="center">✨ Thank you for reading</h3>
-If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../../lists/md/Pi-hole.md">here</a>.
+If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../lists/md/Pi-hole.md">here</a>.
 Please consider supporting <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">this repository</a> by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

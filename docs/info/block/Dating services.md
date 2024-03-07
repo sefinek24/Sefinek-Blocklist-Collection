@@ -20,13 +20,13 @@ There are various blocklists available for Pi-hole that can help improve online 
 Please note that the list of URLs available for blocking in Pi-hole is not comprehensive and may not include all dating website domains.
 
 Here are some sample URLs with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/
+- https://blocklist.sefinek.net/generated/0.0.0.0/dating-services/developerdan/extended.fork.txt
 
 When using Pi-hole or any other blocking software, it is important to also consider other measures to enhance online safety, such as using antivirus software and regularly updating your devices.
 
 
 <hr>
 <h3 align="center">✨ Thank you for reading</h3>
-If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../../lists/md/Pi-hole.md">here</a>.
+If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../lists/md/Pi-hole.md">here</a>.
 Please consider supporting <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">this repository</a> by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

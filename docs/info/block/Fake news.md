@@ -18,13 +18,13 @@ These URLs are linked to specific domains that you may opt to block on your netw
 Please consider this list as a reference and implement additional measures to further enhance online safety.
 
 Here's an example URL with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/
+- https://blocklist.sefinek.net/generated/0.0.0.0/fakenews/marktron/hosts.txt
 
 While blocking these domains can be an effective way to limit exposure to fake news content, it's equally essential to educate yourself on how to identify and avoid fake news.
 
 
 <hr>
 <h3 align="center">✨ Thank you for reading</h3>
-If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../../lists/md/Pi-hole.md">here</a>.
+If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../lists/md/Pi-hole.md">here</a>.
 Please consider supporting <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">this repository</a> by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

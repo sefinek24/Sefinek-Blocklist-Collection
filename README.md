@@ -87,13 +87,13 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 - [**Redirect:**](https://blocklist.sefinek.net/viewer/info/block/Redirect) Blocks domains that redirect users to unintended websites.
 - [**Scam:**](https://blocklist.sefinek.net/viewer/info/block/Scam) Blocks domains that are known to promote scams or fraudulent activity.
 - [**Spam mails:**](https://blocklist.sefinek.net/viewer/info/block/Spam_mails) Blocks domains that send unsolicited email.
-- [**Spyware:**](https://blocklist.sefinek.net/viewer/info/block/Telemetry_and_Tracking) Blocks domains that distribute spyware or adware.
+- [**Spyware:**](https://blocklist.sefinek.net/viewer/info/block/Spyware) Blocks domains that distribute spyware or adware.
 - [**Telemetry & Tracking:**](https://blocklist.sefinek.net/viewer/info/block/Telemetry_and_Tracking) Blocks domains that track user activity for analytics purposes.
 - [**Useless websites:**](https://blocklist.sefinek.net/viewer/info/block/Useless_websites) Blocks domains that offer little or no value to users.
-- [**YouTube Ads:**](https://blocklist.sefinek.net/viewer/info/block/Useless_websites) Blocks ads on YouTube. Unfortunately, this will not be effective.
+- [**YouTube Ads:**](https://blocklist.sefinek.net/viewer/info/block/YouTube_and_mobile_ads_etc.) Blocks ads on YouTube. Unfortunately, this will not be effective.
 
 <h3 align="right">
-    📃 <a href="lists/Index.md">Choose your adblocker and copy URL addresses »</a>
+    📃 <a href="docs/lists/Index.md">Choose your adblocker and copy URL addresses »</a>
 </h3>
 
 

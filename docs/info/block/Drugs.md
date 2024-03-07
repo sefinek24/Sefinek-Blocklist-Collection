@@ -18,7 +18,7 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further enhance online safety.
 
 Here is a sample URL with a list of drug-related domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/
+- https://blocklist.sefinek.net/generated/0.0.0.0/drugs/blocklistproject/drugs.fork.txt
 
 ## ⚠️ Important information
 Blocking drug-related domains may be an effective way to limit exposure to drug-related content, but it is not a substitute for seeking professional help for drug addiction.
@@ -32,6 +32,6 @@ Remember, recovery is possible, and seeking help is the first step towards a hea
 
 <hr>
 <h3 align="center">✨ Thank you for reading</h3>
-If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../../lists/md/Pi-hole.md">here</a>.
+If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../lists/md/Pi-hole.md">here</a>.
 Please consider supporting <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">this repository</a> by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.

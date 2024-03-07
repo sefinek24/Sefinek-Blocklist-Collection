@@ -20,12 +20,14 @@ The URLs are associated with certain domains that you may wish to block on your 
 It is important to use this list as a reference and consider other measures to further enhance online safety.
 
 Below are some sample URLs that can be used to block cryptojacking domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/
-- https://blocklist.sefinek.net/generated/0.0.0.0/
+- https://blocklist.sefinek.net/generated/0.0.0.0/cryptojacking/hoshsadiq/adblock-nocoin-list.fork.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/cryptojacking/Snota418/Crypto-streams.fork.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/cryptojacking/firebog/Prigent/Crypto.fork.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 
 
 <hr>
 <h3 align="center">✨ Thank you for reading</h3>
-If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../../lists/md/Pi-hole.md">here</a>.
+If you're interested in using <a href="../What%20is%20Pi-hole.md">Pi-hole</a> to block unwanted domains, you can find a complete list of blocklists <a href="../../lists/md/Pi-hole.md">here</a>.
 Please consider supporting <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank">this repository</a> by starring it if you found this information helpful.
 If you have any questions or need further assistance, don't hesitate to ask.
