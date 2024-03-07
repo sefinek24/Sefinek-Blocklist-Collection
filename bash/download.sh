@@ -135,8 +135,8 @@ urls=(
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt extension/r-a-y/AdguardMobileSpyware.fork.txt"
 
   ## StevenBlack hosts
-  "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts StevenBlack/hosts.fork.txt"
-  "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts StevenBlack/fakenews-gambling-porn.fork.txt"
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts other/StevenBlack/hosts.fork.txt"
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts other/StevenBlack/fakenews-gambling-porn.fork.txt"
 
   ## Fraud
   "https://blocklistproject.github.io/Lists/fraud.txt fraud/blocklistproject/hosts.fork.txt"
