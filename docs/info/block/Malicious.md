@@ -21,7 +21,13 @@ Here are the links containing a list of domains known to be dangerous or malicio
 - https://blocklist.sefinek.net/generated/0.0.0.0/malicious/RPiList/Malware.fork.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/malicious/Spam404/main-blacklist.fork.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/malicious/disconnectme/simple-malvertising.fork.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/main.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/DandelionSprout-AntiMalwareHosts.fork.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/phishing.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/reported-by-norton.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/sefinek.hosts1.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/sefinek.hosts2.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/suspicious.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/malicious/web-attacks.txt
 
 
 <hr>

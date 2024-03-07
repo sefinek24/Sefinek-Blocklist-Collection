@@ -23,7 +23,7 @@ Here are some sample URLs with a list of domains:
 - https://blocklist.sefinek.net/generated/0.0.0.0/porn/4skinSkywalker/hosts.fork.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/porn/chadmayfield/pi-blocklist-porn-all.fork.txt
 - https://blocklist.sefinek.net/generated/0.0.0.0/porn/Sinfonietta/pornography-hosts.fork.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/porn.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/porn/sefinek.hosts.txt
 
 Please note that this is just a small sample of porn domains, and there are many more out there.
 It's important to keep your list up to date and regularly review it to ensure that it is blocking appropriate content.
