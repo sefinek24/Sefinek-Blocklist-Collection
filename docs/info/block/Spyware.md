@@ -16,7 +16,7 @@ These URLs are associated with certain domains that are known to engage in malic
 However, it is important to note that blocking these domains is only one of many measures that can be taken to enhance online safety.
 
 Here is a sample URL that contains a list of domains that can be blocked using Pi-hole:
-- https://blocklist.sefinek.net/generated/0.0.0.0/extension/r-a-y/AdguardMobileSpyware.fork.txt
+- https://blocklist.sefinek.net/generated/0.0.0.0/extensions/r-a-y/AdguardMobileSpyware.fork.txt
 
 
 <hr>

@@ -36,10 +36,10 @@ urls=(
   "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt amp/developerdan/amp-hosts-extended.fork.txt"
 
   ## CryptoJacking
-  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt cryptojacking/hoshsadiq/adblock-nocoin-list.fork.txt"
-  "https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams cryptojacking/Snota418/Crypto-streams.fork.txt"
-  "https://v.firebog.net/hosts/Prigent-Crypto.txt cryptojacking/firebog/Prigent/Crypto.fork.txt"
-  "https://zerodot1.gitlab.io/CoinBlockerLists/hosts cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt"
+  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt crypto/cryptojacking/hoshsadiq/adblock-nocoin-list.fork.txt"
+  "https://raw.githubusercontent.com/Snota418/Youtube-spam-host-list/main/Crypto%20streams crypto/cryptojacking/Snota418/Crypto-streams.fork.txt"
+  "https://v.firebog.net/hosts/Prigent-Crypto.txt crypto/cryptojacking/firebog/Prigent/Crypto.fork.txt"
+  "https://zerodot1.gitlab.io/CoinBlockerLists/hosts crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt"
 
   ## Dating services
   "https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt dating-services/developerdan/extended.fork.txt"
