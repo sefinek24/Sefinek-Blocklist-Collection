@@ -6,21 +6,24 @@ const kleur = require('kleur');
 const readline = require('readline');
 const { version } = require('../package.json');
 
+// New
+const markdownFiles = [
+	'./docs/lists/md/127.0.0.1.md',
+	'./docs/lists/md/AdGuard.md',
+	'./docs/lists/md/dnsmasq.md',
+	'./docs/lists/md/noip.md',
+	'./docs/lists/md/Pi-hole.md',
+];
+
+// Old
 // const markdownFiles = [
-// 	'./docs/lists/md/127.0.0.1.md',
-// 	'./docs/lists/md/AdGuard.md',
-// 	'./docs/lists/md/dnsmasq.md',
-// 	'./docs/lists/md/noip.md',
-// 	'./docs/lists/md/Pi-hole.md',
+// 	'./docs/lists/deprecated/lists/127.0.0.1.md',
+// 	'./docs/lists/deprecated/lists/AdGuard.md',
+// 	'./docs/lists/deprecated/lists/dnsmasq.md',
+// 	'./docs/lists/deprecated/lists/noip.md',
+// 	'./docs/lists/deprecated/lists/Pi-hole.md',
 // ];
 
-const markdownFiles = [
-	'./docs/lists/other/old/127.0.0.1.md',
-	'./docs/lists/other/old/AdGuard.md',
-	'./docs/lists/other/old/dnsmasq.md',
-	'./docs/lists/other/old/noip.md',
-	'./docs/lists/other/old/Pi-hole.md',
-];
 
 // Axios
 const headers = {
@@ -45,7 +48,8 @@ const invalidLinks = [];
 function serveUrl(link) {
 	const linkRegex = /(http|https):\/\/[^ "]+/g;
 	const mainDomainRegex = /https:\/\/blocklist\.sefinek\.net/gi;
-	const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
+	const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
+	// const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
 
 	if (!linkRegex.test(link)) {
 		console.warn(kleur.yellow('Error:'), `Invalid link: ${link}`);
@@ -167,7 +171,8 @@ function extractLinks(content) {
 
 	while ((match = linkRegex.exec(content))) {
 		const codeBlock = match[1];
-		const urlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
+		const urlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
+		// const urlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
 		let urlMatch;
 
 		while ((urlMatch = urlRegex.exec(codeBlock))) {
