@@ -16,7 +16,7 @@ These are URLs that redirect the user from one web page to another, often used b
 By blocking these domains with Pi-hole, you can help protect your device from malware and scams.
 
 Here is a sample URL that contains a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/redirect/blocklistproject/redirect.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/redirect/blocklistproject/redirect.fork.txt
 
 
 <hr>

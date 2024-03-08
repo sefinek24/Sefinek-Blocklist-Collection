@@ -19,9 +19,9 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further boost online safety.
 
 Here are some example URLs with a list of domains:
-- https://blocklist.sefinek.net/generated/0.0.0.0/scam/blocklistproject/scam.fork.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
-- https://blocklist.sefinek.net/generated/0.0.0.0/scam/durablenapkin/scamblocklist.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/blocklistproject/scam.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/durablenapkin/scamblocklist.fork.txt
 
 Please note that while blocking these domains can help limit exposure to scam websites, it is important to also educate yourself on how to identify and avoid scams.
 

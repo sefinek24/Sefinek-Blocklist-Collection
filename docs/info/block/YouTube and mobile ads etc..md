@@ -16,7 +16,7 @@ Advertisers use YouTube and mobile ad domains to display ads on YouTube videos a
 While ads can be a source of revenue for content creators and app developers, they can also be intrusive and disruptive to the user experience.
 
 Here are some URLs associated with these domains that you can block using Pi-hole:
-- https://blocklist.sefinek.net/generated/0.0.0.0/
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/
 
 
 <hr>
