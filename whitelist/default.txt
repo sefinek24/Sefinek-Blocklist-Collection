@@ -1,45 +1,67 @@
-##
-# About: This file is part of the Sefinek's Blocklist Collection, maintained by github.com/sefinek24.
+#     _____   ______   ______   _____   _   _   ______   _  __      __          __  _    _   _____   _______   ______   _        _____    _____   _______
+#    / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /      \ \        / / | |  | | |_   _| |__   __| |  ____| | |      |_   _|  / ____| |__   __|
+#   | (___   | |__    | |__      | |   |  \| | | |__    | ' /        \ \  /\  / /  | |__| |   | |      | |    | |__    | |        | |   | (___      | |
+#    \___ \  |  __|   |  __|     | |   | . ` | |  __|   |  <          \ \/  \/ /   |  __  |   | |      | |    |  __|   | |        | |    \___ \     | |
+#    ____) | | |____  | |       _| |_  | |\  | | |____  | . \          \  /\  /    | |  | |  _| |_     | |    | |____  | |____   _| |_   ____) |    | |
+#   |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\          \/  \/     |_|  |_| |_____|    |_|    |______| |______| |_____| |_____/     |_|
 #
-# Last update       : 08.03.2024
+#                   This file belongs to Sefinek's Blocklist Collection, which is curated and maintained by: github.com/sefinek24
+#
+#  Should you encounter any false positives, you are encouraged to add such exceptions to this whitelist.
+#  The reported false positive will be addressed and removed from the relevant blocklist within 24 hours.
+#  To ensure a smooth and efficient process, adherence to the required format when submitting a Pull Request is mandatory.
+#  The format necessitates including the domain name followed by the path to the file where the false positive was detected.
+#
+# - Example:
+#   # Spotify (music streaming)
+#   open.spotify.com apps/discord.txt
+#
+# - In certain instances, you can also explain why you chose to add the domain/subdomain here:
+#   # TheAnnoyingSite (this page is actually a meme and is entirely safe)
+#   theannoyingsite.com other/StevenBlack/fakenews-gambling-porn.fork.txt
+#
+# Last update       : 08.03.2024 [DD.MM.YYYY]
 # Author            : Sefinek (https://sefinek.net) <contact@sefinek.net>
+# License           : GNU General Public License v3.0
 # GitHub repository : https://github.com/sefinek24/Sefinek-Blocklist-Collection
-# Main URL address  : https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/whitelist/default.txt
-##
+# Issues            : https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues
+# Pull requests     : https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls
+#
+# -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Discord
+# Discord (chat)
 click.discord.com ads/jerryn70/GoodbyeAds.fork.txt
 click.discord.com ads/yoyo/ads-trackers-etc.fork.txt
-click.discord.com ads/other/StevenBlack/fakenews-gambling-porn.fork.txt
+click.discord.com other/StevenBlack/fakenews-gambling-porn.fork.txt
 
-# FaceIT
+# FaceIT (gaming platform)
 email.faceit.com ads/jerryn70/GoodbyeAds.fork.txt
 
 # Google
 manifest.googlevideo.com ads/kboghdady/youtubelist.fork.txt
 
-# Stripe (Payment gateway)
+# Stripe (payment gateway)
 m.stripe.com ads/firebog/AdguardDNS.fork.txt
 m.stripe.com extensions/MajkiIT/adguard-host.fork.txt
 
-# DeviantArt
+# DeviantArt (art community)
 deviantart.com porn/4skinSkywalker/hosts.fork.txt
 
-# Booth
+# Booth (art community)
 booth.pm other/StevenBlack/fakenews-gambling-porn.fork.txt
 booth.pm porn/Sinfonietta/pornography-hosts.fork.txt
 
-# TheAnnoyingSite
+# TheAnnoyingSite (this page is actually a meme and is entirely safe)
+theannoyingsite.com ads/blocklistproject/hosts.fork.txt
 theannoyingsite.com other/StevenBlack/fakenews-gambling-porn.fork.txt
 theannoyingsite.com porn/4skinSkywalker/hosts.fork.txt
 theannoyingsite.com tracking-and-telemetry/neodevpro/host.fork.txt
-theannoyingsite.com ads/blocklistproject/hosts.fork.txt
 
-# KuCoin (Crypto)
+# KuCoin (crypto)
 kucoin.com crypto/cryptojacking/firebog/Prigent/Crypto.fork.txt
 kucoin.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 
-# Binance (Crypto)
+# Binance (crypto)
 accounts.binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 www.binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
@@ -50,3 +72,24 @@ widget.trustpilot.com ads/ShadowWhisperer/Ads.fork.txt
 
 # Userlike (chat)
 userlike-cdn-widgets.s3-eu-west-1.amazonaws.com ads/ShadowWhisperer/Ads.fork.txt
+
+# Komputer Świat (Polish magazine)
+download.komputerswiat.pl abuse/blocklistproject/hosts.fork.txt
+download.komputerswiat.pl malicious/blocklistproject/malware.fork.txt
+komputerswiat.pl abuse/blocklistproject/hosts.fork.txt
+komputerswiat.pl malicious/blocklistproject/malware.fork.txt
+www.komputerswiat.pl malicious/blocklistproject/malware.fork.txt
+
+# Forum PCLab.pl (Polish forum)
+forum.pclab.pl abuse/blocklistproject/hosts.fork.txt
+forum.pclab.pl malicious/blocklistproject/malware.fork.txt
+
+# G2A (Game marketplace)
+g2a.com fraud/blocklistproject/hosts.fork.txt
+
+# Microsoft
+arc.msn.com ads/blocklistproject/hosts.fork.txt
+arc.msn.com ads/ShadowWhisperer/Ads.fork.txt
+
+# mail.ru (Russian mail service; I don't believe this subdomain poses any danger)
+trk.mail.ru extensions/hagezi/pro.fork.txt
