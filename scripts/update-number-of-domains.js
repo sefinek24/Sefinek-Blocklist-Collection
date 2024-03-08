@@ -70,5 +70,6 @@ function createUpdatedContents(lines, domainCount) {
 	return lines.join('\n')
 		.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${domainCount || 'N/A'}`)
 		.replace('# Count       : N/A', `# Count       : ${domainCount || 'N/A'}`)
+		.replace('# Count:', `# Count: ${domainCount || 'N/A'}`)
 		.replace('! Count       : N/A', `! Count       : ${domainCount || 'N/A'}`);
 }
