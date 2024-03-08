@@ -48,7 +48,8 @@ app.get('*', increment.requests);
 app.use(require('./routes/Main.js'));
 
 // Blocklists
-app.use(require('./routes/Blocklists.js'));
+app.use(require('./routes/Blocklists/Deprecated.js'));
+app.use(require('./routes/Blocklists/Main.js'));
 
 // Markdown
 app.use(require('./routes/Markdown.js'));

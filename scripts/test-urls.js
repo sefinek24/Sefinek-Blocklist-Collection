@@ -6,12 +6,20 @@ const kleur = require('kleur');
 const readline = require('readline');
 const { version } = require('../package.json');
 
+// const markdownFiles = [
+// 	'./docs/lists/md/127.0.0.1.md',
+// 	'./docs/lists/md/AdGuard.md',
+// 	'./docs/lists/md/dnsmasq.md',
+// 	'./docs/lists/md/noip.md',
+// 	'./docs/lists/md/Pi-hole.md',
+// ];
+
 const markdownFiles = [
-	'./docs/lists/md/127.0.0.1.md',
-	'./docs/lists/md/AdGuard.md',
-	'./docs/lists/md/dnsmasq.md',
-	'./docs/lists/md/noip.md',
-	'./docs/lists/md/Pi-hole.md',
+	'./docs/lists/other/old/127.0.0.1.md',
+	'./docs/lists/other/old/AdGuard.md',
+	'./docs/lists/other/old/dnsmasq.md',
+	'./docs/lists/other/old/noip.md',
+	'./docs/lists/other/old/Pi-hole.md',
 ];
 
 // Axios
