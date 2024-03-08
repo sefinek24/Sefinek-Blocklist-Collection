@@ -54,7 +54,7 @@ https://blocklist.sefinek.net/generated/noip/extensions/notracking/hostnames.for
 https://blocklist.sefinek.net/generated/noip/extensions/oisd/big.fork.txt
 https://blocklist.sefinek.net/generated/noip/extensions/r-a-y/AdguardApps.fork.txt
 https://blocklist.sefinek.net/generated/noip/extensions/r-a-y/AdguardMobileSpyware.fork.txt
-https://blocklist.sefinek.net/generated/noip/extensions/StevenBlack/fakenews-gambling-porn
+https://blocklist.sefinek.net/generated/noip/other/StevenBlack/fakenews-gambling-porn.fork.txt
 https://blocklist.sefinek.net/generated/noip/fakenews/marktron/hosts.fork.txt
 https://blocklist.sefinek.net/generated/noip/fraud/blocklistproject/hosts.fork.txt
 https://blocklist.sefinek.net/generated/noip/gambling/blocklistproject/hosts.fork.txt

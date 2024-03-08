@@ -54,7 +54,7 @@ https://blocklist.sefinek.net/generated/dnsmasq/extensions/notracking/hostnames.
 https://blocklist.sefinek.net/generated/dnsmasq/extensions/oisd/big.fork.txt
 https://blocklist.sefinek.net/generated/dnsmasq/extensions/r-a-y/AdguardApps.fork.txt
 https://blocklist.sefinek.net/generated/dnsmasq/extensions/r-a-y/AdguardMobileSpyware.fork.txt
-https://blocklist.sefinek.net/generated/dnsmasq/extensions/StevenBlack/fakenews-gambling-porn
+https://blocklist.sefinek.net/generated/dnsmasq/other/StevenBlack/fakenews-gambling-porn.fork.txt
 https://blocklist.sefinek.net/generated/dnsmasq/fakenews/marktron/hosts.fork.txt
 https://blocklist.sefinek.net/generated/dnsmasq/fraud/blocklistproject/hosts.fork.txt
 https://blocklist.sefinek.net/generated/dnsmasq/gambling/blocklistproject/hosts.fork.txt
