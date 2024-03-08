@@ -2,6 +2,7 @@ const { promises: fs } = require('node:fs');
 const path = require('node:path');
 const date = require('../functions/date.js');
 const sha256 = require('../functions/sha512.js');
+const process = require('../functions/process.js');
 
 const format = '127.0.0.1';
 
@@ -38,15 +39,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklist/templa
 		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
-	try {
-		const subdirectories = files.filter(file => file.isDirectory());
-		await Promise.all(subdirectories.map(async subdirectory => {
-			const nextRelativePath = path.join(relativePath, subdirectory.name);
-			await convert(path.join(folderPath, subdirectory.name), nextRelativePath);
-		}));
-	} catch (err) {
-		console.error(`❌ Error processing ${folderPath}:`, err);
-	}
+	await process(convert, files, relativePath, folderPath);
 };
 
 const run = async () => {

@@ -1,7 +1,7 @@
 const { readdir } = require('node:fs/promises');
 const { resolve, extname } = require('node:path');
 
-async function getAllTxtFilesRecursively(directoryPath) {
+const getAllTxtFilesRecursively = async directoryPath => {
 	const directoryEntries = await readdir(directoryPath, { withFileTypes: true });
 	let txtFiles = [];
 
@@ -17,6 +17,6 @@ async function getAllTxtFilesRecursively(directoryPath) {
 	}
 
 	return txtFiles;
-}
+};
 
 module.exports = getAllTxtFilesRecursively;
