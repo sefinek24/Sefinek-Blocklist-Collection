@@ -49,7 +49,7 @@ Update it approximately every six months! Keep in mind that this file changes in
 
 ### Cron
 If you're unable or unwilling to update this file regularly, you can add a new cron job.
-1. Enter the command `crontab -e`.
+1. Enter the command sudo `sudo crontab -e` to edit the crontab file. In this specific case, remember to prefix `crontab -e` with `sudo` to ensure the cron job has the necessary permissions.
 2. Paste the new Cron job into the file:
    ```cronexp
    30 6 1 * * wget -qO- https://www.internic.net/domain/named.root | sudo tee /var/lib/unbound/root.hints >/dev/null 2>&1
