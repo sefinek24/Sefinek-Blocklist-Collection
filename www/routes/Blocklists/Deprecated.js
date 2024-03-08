@@ -72,6 +72,7 @@ router.get('/generated/0.0.0.0/forks/blocklistproject.ransomware.txt', (req, res
 router.get('/generated/0.0.0.0/forks/hoshsadiq.adblock-nocoin-list.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/crypto/cryptojacking/hoshsadiq/adblock-nocoin-list.fork.txt`));
 router.get('/generated/0.0.0.0/forks/Snota418.Crypto-streams.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/crypto/cryptojacking/Snota418/Crypto-streams.fork.txt`));
 router.get('/generated/0.0.0.0/forks/firebog.Prigent-Crypto.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/crypto/cryptojacking/firebog/Prigent/Crypto.fork.txt`));
+router.get('/generated/0.0.0.0/forks/zerodot1.CoinBlockerLists.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt`));
 
 // Abuse
 router.get('/generated/0.0.0.0/forks/abuse.urlhaus.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}//abuse/urlhaus.abuse.ch/hostfile.fork.txt`));
