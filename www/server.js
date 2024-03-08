@@ -47,8 +47,8 @@ app.get('*', increment.requests);
 // Endpoints
 app.use(require('./routes/Main.js'));
 
-// Blocklist
-app.use(require('./routes/Blocklist.js'));
+// Blocklists
+app.use(require('./routes/Blocklists.js'));
 
 // Markdown
 app.use(require('./routes/Markdown.js'));

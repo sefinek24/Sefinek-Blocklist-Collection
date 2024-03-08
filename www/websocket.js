@@ -1,4 +1,4 @@
-const osu = require('node-os-utils');
+const { cpu } = require('node-os-utils');
 const formatTime = require('../www/utils/formatTime.js');
 const RequestStats = require('./database/models/RequestStats');
 
@@ -11,7 +11,7 @@ module.exports = wss => {
 		// Set up an interval to periodically send data to the connected client
 		const interval = setInterval(async () => {
 			const database = await RequestStats.findOne({}).limit(1);
-			const cpuUsage = await osu.cpu.usage();
+			const cpuUsage = await cpu.usage();
 
 			// Prepare and send JSON data to the client
 			ws.send(JSON.stringify({

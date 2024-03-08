@@ -101,8 +101,8 @@ router.use('/viewer/:category', async (req, res) => {
 			canonical: mdFile.match(CANONICAL_REGEX) ? mdFile.match(CANONICAL_REGEX)[1].trim() : undefined,
 		});
 	} catch (err) {
-		res.sendStatus(500);
 		console.error(err);
+		res.sendStatus(500);
 	}
 });
 

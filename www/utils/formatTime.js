@@ -1,6 +1,6 @@
 const pad = y => (y < 10 ? '0' : '') + y;
 
-module.exports.HHMMSS = x => {
+module.exports.time = x => {
 	const hh = Math.floor(x / (60 * 60));
 	const mm = Math.floor((x % (60 * 60)) / 60);
 	const ss = Math.floor(x % 60);
