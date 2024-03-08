@@ -54,7 +54,6 @@ https://blocklist.sefinek.net/generated/adguard/extensions/notracking/hostnames.
 https://blocklist.sefinek.net/generated/adguard/extensions/oisd/big.fork.txt
 https://blocklist.sefinek.net/generated/adguard/extensions/r-a-y/AdguardApps.fork.txt
 https://blocklist.sefinek.net/generated/adguard/extensions/r-a-y/AdguardMobileSpyware.fork.txt
-https://blocklist.sefinek.net/generated/adguard/other/StevenBlack/fakenews-gambling-porn.fork.txt
 https://blocklist.sefinek.net/generated/adguard/fakenews/marktron/hosts.fork.txt
 https://blocklist.sefinek.net/generated/adguard/fraud/blocklistproject/hosts.fork.txt
 https://blocklist.sefinek.net/generated/adguard/gambling/blocklistproject/hosts.fork.txt
@@ -86,7 +85,7 @@ https://blocklist.sefinek.net/generated/adguard/other/StevenBlack/fakenews-gambl
 https://blocklist.sefinek.net/generated/adguard/phishing/blocklistproject/phishing.fork.txt
 https://blocklist.sefinek.net/generated/adguard/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt
 https://blocklist.sefinek.net/generated/adguard/phishing/phishing.army/blocklist-extended.fork.txt
-https://blocklist.sefinek.net/generated/adguard/phishing/quidsup/notrack-phishing.fork.txt
+https://blocklist.sefinek.net/generated/adguard/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 https://blocklist.sefinek.net/generated/adguard/phishing/RPiList/Phishing-Angriffe.fork.txt
 https://blocklist.sefinek.net/generated/adguard/piracy/blocklistproject/piracy.fork.txt
 https://blocklist.sefinek.net/generated/adguard/porn/4skinSkywalker/hosts.fork.txt
