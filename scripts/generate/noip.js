@@ -37,7 +37,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklist/templa
 		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
-	await process(convert, allFiles, path, fs, relativePath, folderPath);
+	await process(convert, allFiles, path, relativePath, folderPath);
 };
 
 const run = async () => {
