@@ -1,8 +1,6 @@
-const path = require('node:path');
-
-module.exports = async (convert, files, relativePath, folderPath) => {
+module.exports = async (convert, allFiles, path, relativePath, folderPath) => {
 	try {
-		const subdirectories = files.filter(file => file.isDirectory());
+		const subdirectories = allFiles.filter(file => file.isDirectory());
 		await Promise.all(subdirectories.map(async subdirectory => {
 			const nextRelativePath = path.join(relativePath, subdirectory.name);
 			await convert(path.join(folderPath, subdirectory.name), nextRelativePath);

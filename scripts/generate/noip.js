@@ -1,21 +1,12 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
-const date = require('../functions/date.js');
-const sha256 = require('../functions/sha512.js');
+const date = require('../utils/date.js');
+const sha256 = require('../utils/sha512.js');
+const txtFilter = require('../functions/txtFilter.js');
 const process = require('../functions/process.js');
 
-const format = 'noip';
-
 const convert = async (folderPath = path.join(__dirname, '../../blocklist/template'), relativePath = '') => {
-	const generatedPath = path.join(__dirname, `../../blocklist/generated/${format}`, relativePath);
-	try {
-		await fs.access(generatedPath);
-	} catch (err) {
-		await fs.mkdir(generatedPath, { recursive: true });
-	}
-
-	const files = await fs.readdir(folderPath, { withFileTypes: true });
-	const txtFiles = files.filter(file => file.isFile() && file.name.endsWith('.txt'));
+	const { format, allFiles, txtFiles, generatedPath } = await txtFilter('noip', path, fs, relativePath, folderPath);
 
 	await Promise.all(txtFiles.map(async file => {
 		const thisFileName = path.join(folderPath, file.name);
@@ -46,7 +37,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklist/templa
 		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
-	await process(convert, files, relativePath, folderPath);
+	await process(convert, allFiles, path, fs, relativePath, folderPath);
 };
 
 const run = async () => {
