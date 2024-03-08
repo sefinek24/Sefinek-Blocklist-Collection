@@ -1,54 +1,52 @@
 ##
 # About: This file is part of the Sefinek's Blocklist Collection, maintained by github.com/sefinek24.
 #
-# Last update       : 06.03.2024
+# Last update       : 08.03.2024
 # Author            : Sefinek (https://sefinek.net) <contact@sefinek.net>
 # GitHub repository : https://github.com/sefinek24/Sefinek-Blocklist-Collection
 # Main URL address  : https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/whitelist/default.txt
 ##
 
 # Discord
-click.discord.com forks/StevenBlack.fakenews-gambling-porn.txt
-click.discord.com forks/StevenBlack.hosts.txt
+click.discord.com ads/jerryn70/GoodbyeAds.fork.txt
+click.discord.com ads/yoyo/ads-trackers-etc.fork.txt
+click.discord.com ads/other/StevenBlack/fakenews-gambling-porn.fork.txt
 
 # FaceIT
-email.faceit.com ads/jerryn70.GoodbyeAds.txt
-email.faceit.com forks/RPiList-Malware.txt
+email.faceit.com ads/jerryn70/GoodbyeAds.fork.txt
 
 # Google
-manifest.googlevideo.com forks/kboghdady.youtubelist.txt
+manifest.googlevideo.com ads/kboghdady/youtubelist.fork.txt
 
 # Stripe (Payment gateway)
-m.stripe.com forks/firebog.AdguardDNS.txt
-m.stripe.com forks/MajkiIT.adguard_host.txt
+m.stripe.com ads/firebog/AdguardDNS.fork.txt
+m.stripe.com extensions/MajkiIT/adguard-host.fork.txt
 
 # DeviantArt
-deviantart.com ads/blocklistproject.ads.txt
-deviantart.com ads/jerryn70.GoodbyeAds.txt
-deviantart.com ads/yoyo.AdsTrackersEtc.txt
-deviantart.com forks/MajkiIT.Ad_filter_list_by_Disconnect.txt
-www.deviantart.com forks/4skinSkywalker.Anti-Porn.txt
+deviantart.com porn/4skinSkywalker/hosts.fork.txt
 
 # Booth
-booth.pm forks/Sinfonietta.pornography-hosts.txt
-booth.pm forks/StevenBlack.fakenews-gambling-porn.txt
+booth.pm other/StevenBlack/fakenews-gambling-porn.fork.txt
+booth.pm porn/Sinfonietta/pornography-hosts.fork.txt
 
 # TheAnnoyingSite
-theannoyingsite.com ads/blocklistproject.ads.txt
-theannoyingsite.com forks/4skinSkywalker.Anti-Porn.txt
-theannoyingsite.com forks/StevenBlack.fakenews-gambling-porn.txt
-theannoyingsite.com forks/StevenBlack.hosts.txt
-theannoyingsite.com forks/neodevpro.neodevhost.txt
+theannoyingsite.com other/StevenBlack/fakenews-gambling-porn.fork.txt
+theannoyingsite.com porn/4skinSkywalker/hosts.fork.txt
+theannoyingsite.com tracking-and-telemetry/neodevpro/host.fork.txt
+theannoyingsite.com ads/blocklistproject/hosts.fork.txt
 
 # KuCoin (Crypto)
-kucoin.com forks/firebog.Prigent-Crypto.txt
-kucoin.com forks/zerodot1.CoinBlockerLists.txt
+kucoin.com crypto/cryptojacking/firebog/Prigent/Crypto.fork.txt
+kucoin.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 
 # Binance (Crypto)
-accounts.binance.com forks/phishingArmy.phishing_army_blocklist_extended.txt
-binance.com ads/jerryn70.GoodbyeAds.txt
-binance.com forks/PolishFiltersTeam.KADhosts.txt
-binance.com forks/RPiList-Malware.txt
-binance.com forks/RPiList-Phishing.txt
-binance.com forks/RPiList.Spam-Mails.txt
-www.binance.com forks/blocklistproject.phishing.txt
+accounts.binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+www.binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+
+# Trustpilot (widget)
+widget.trustpilot.com ads/blocklistproject/hosts.fork.txt
+widget.trustpilot.com ads/ShadowWhisperer/Ads.fork.txt
+
+# Userlike (chat)
+userlike-cdn-widgets.s3-eu-west-1.amazonaws.com ads/ShadowWhisperer/Ads.fork.txt
