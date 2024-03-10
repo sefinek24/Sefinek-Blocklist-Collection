@@ -5,7 +5,7 @@ const sha256 = require('../utils/sha512.js');
 const txtFilter = require('../functions/txtFilter.js');
 const process = require('../functions/process.js');
 
-const convert = async (folderPath = path.join(__dirname, '../../blocklist/template'), relativePath = '') => {
+const convert = async (folderPath = path.join(__dirname, '../../blocklists/template'), relativePath = '') => {
 	const { format, allFiles, txtFiles, generatedPath } = await txtFilter('dnsmasq', path, fs, relativePath, folderPath);
 
 	await Promise.all(txtFiles.map(async file => {

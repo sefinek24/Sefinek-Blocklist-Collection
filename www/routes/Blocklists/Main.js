@@ -17,7 +17,7 @@ const redirectMiddleware = (req, res) => {
 	const url = req.url;
 	if (!url || url.length === 0) return res.sendStatus(400);
 
-	return res.status(301).redirect(`https://raw.githubusercontent.com/sefinek24/Sefinek-Blocklist-Collection/main/blocklist/generated/${url}`);
+	return res.status(301).redirect(`https://raw.githubusercontent.com/sefinek24/Sefinek-Blocklist-Collection/main/blocklists/generated/${url}`);
 };
 
 

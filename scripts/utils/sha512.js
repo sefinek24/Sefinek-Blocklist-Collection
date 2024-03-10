@@ -3,7 +3,7 @@ const path = require('node:path');
 const { createHash } = require('node:crypto');
 
 module.exports = async (thisFileName, type) => {
-	const basePath = path.join(__dirname, '../../blocklist/template');
+	const basePath = path.join(__dirname, '../../blocklists/template');
 	const relativePath = path.relative(basePath, path.dirname(thisFileName));
 	const cacheFolder = path.join(__dirname, `../../cache/${type}`, relativePath);
 
