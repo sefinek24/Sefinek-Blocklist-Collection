@@ -22,8 +22,8 @@ If you want to block access to AMP pages on your network, you can add the AMP do
 However, blocking AMP pages may not be the best solution for everyone.
 
 Here are some sample URLs with a list of domains:
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/amp/ente-dev/google-amp-hosts.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/amp/developerdan/amp-hosts-extended.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/amp/ente-dev/google-amp-hosts.fork.txt
 
 By blocking these domains with Pi-hole, you can prevent your data from being shared with third-party companies without your consent, and potentially improve your browsing experience.
 However, it's worth noting that some websites may not function correctly without AMP pages, and blocking them could lead to a degraded user experience.

@@ -11,11 +11,10 @@ Phishing websites often use social engineering techniques, such as creating a se
 
 Here are some sample URLs with a list of domains:
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/blocklistproject/phishing.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/phishing.army/blocklist-extended.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/RPiList/Phishing-Angriffe.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/phishing.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/sefinek.hosts.txt
 
 
 <hr>

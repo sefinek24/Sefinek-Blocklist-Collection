@@ -11,21 +11,20 @@ Some of them may be considered dangerous or malicious.
 By blocking access to these domains using tools like Pi-hole, you can prevent devices from getting infected with harmful programs.
 
 Here are the links containing a list of domains known to be dangerous or malicious:
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/blocklistproject/malware.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/quidsup/notrack-malware.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/malware-filter/urlhaus-filter-hosts-online.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/digitalside/latestdomains.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/AssoEchap/stalkerware-indicators.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/bigdargon/hostsVN.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/blocklistproject/malware.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/DandelionSprout-AntiMalwareHosts.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/RPiList/Malware.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/Spam404/main-blacklist.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/digitalside/latestdomains.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/disconnectme/simple-malvertising.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/DandelionSprout-AntiMalwareHosts.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/malware-filter/urlhaus-filter-hosts-online.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/phishing.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/quidsup/notrack-malware.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/reported-by-norton.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/RPiList/Malware.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/sefinek.hosts1.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/sefinek.hosts2.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/Spam404/main-blacklist.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/suspicious.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/malicious/web-attacks.txt
 

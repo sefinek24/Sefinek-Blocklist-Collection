@@ -18,12 +18,12 @@ These URLs are associated with certain domains that you may wish to block on you
 Please use this list as a reference and consider other measures to further enhance online safety.
 
 Here are some sample URLs with a list of domains:
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/blocklistproject/porn.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/oisd/nsfw.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/4skinSkywalker/hosts.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/blocklistproject/porn.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/chadmayfield/pi-blocklist-porn-all.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/Sinfonietta/pornography-hosts.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/oisd/nsfw.fork.txt
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/sefinek.hosts.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/Sinfonietta/pornography-hosts.fork.txt
 
 Please note that this is just a small sample of porn domains, and there are many more out there.
 It's important to keep your list up to date and regularly review it to ensure that it is blocking appropriate content.
