@@ -36,7 +36,7 @@ const processDirectory = async (dirPath, whitelist, basePath) => {
 
 	for (const fileName of txtFiles) {
 		const filePath = join(dirPath, fileName);
-		const relativePath = relative(basePath, filePath).replace(/\\/g, '/').replace('template/', '');
+		const relativePath = relative(basePath, filePath).replace(/\\/g, '/').replace('templates/', '');
 		const fileContents = await readFile(filePath, 'utf8');
 		let domainsRemoved = 0;
 		const existingDomains = new Set();
