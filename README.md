@@ -59,7 +59,7 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 - [Blocklist generator (sefinek.net)](https://sefinek.net/blocklist-generator)
 - [Homepage of blocklist.sefinek.net (stats, updates frequency, API for devs etc.)](https://blocklist.sefinek.net)
 - [File explorer (Index of /generated/)](https://blocklist.sefinek.net/generated)
-- [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs): `Remote` [github.com] → `Local` [blocklist.sefinek.net]
+- [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs/v1): `Remote` [github.com] → `Local` [blocklist.sefinek.net]
 
 
 ## ✨ Default blocklist
