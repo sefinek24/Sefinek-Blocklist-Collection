@@ -45,7 +45,8 @@ Shortly thereafter, the false positive will be automatically removed from the bl
 The blocklists on the primary server (blocklist.sefinek.net) are updated every 24 hours (cron schedule: 0 0,6 * * *).
 
 ### ⏰ Can I create a Pull Request and add a false positive to the whitelist?
-Of course, you can definitely create such a pull request. Remember to follow the required syntax! You can find it at the very top of the [whitelists/main.txt](whitelists/main.txt) file
+Of course, you can definitely create such a pull request. Remember to follow the required syntax!
+You can find it at the very top of the [whitelists/main.txt](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/whitelists/main.txt#L10) file
 
 
 ## 📥 Update frequency
