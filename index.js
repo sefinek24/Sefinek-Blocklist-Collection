@@ -22,7 +22,7 @@ createDir(path.join(__dirname, 'www', 'public', 'logs'));
 if (process.env.NODE_ENV === 'development') {
 	require('./www/server.js');
 } else if (cluster.isMaster) {
-	console.log(`Primary ${process.pid} is running: http://${process.env.PORT}`);
+	console.log(`Primary ${process.pid} is running: http://127.0.0.1:${process.env.PORT}`);
 
 	const numberCPUs = availableParallelism();
 	for (let i = 0; i < numberCPUs; i++) {
