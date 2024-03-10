@@ -7,7 +7,7 @@ on:
   pull_request:
     types: [opened, synchronize]
     paths:
-      - 'blocklist/**'
+      - 'blocklists/**'
 
   workflow_dispatch:
 

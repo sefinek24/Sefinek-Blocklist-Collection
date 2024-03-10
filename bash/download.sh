@@ -154,7 +154,7 @@ if ! command -v node &> /dev/null; then
 fi
 
 # Setting up the base directory for blocklist downloads
-base_output_dir="blocklist/template"
+base_output_dir="blocklists/template"
 
 # Creating the base directory if it does not exist, notifying the user
 if [ ! -d "$base_output_dir" ]; then
