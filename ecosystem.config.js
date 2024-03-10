@@ -1,6 +1,6 @@
 module.exports = {
 	apps: [{
-		name                  : 'blocklist',
+		name                  : 'blocklists',
 		script                : './index.js',
 
 		log_date_format       : 'HH:mm:ss.SSS DD.MM.YYYY',

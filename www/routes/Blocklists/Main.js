@@ -7,7 +7,7 @@ const path = require('node:path');
 const SERVE_FILES = process.env.SERVE_FILES;
 
 // Paths
-const generated = path.join(__dirname, '..', '..', '..', 'blocklist', 'generated');
+const generated = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated');
 const logs = path.join(__dirname, '..', '..', 'public', 'logs');
 const optionsGenerated = { customTemplate: path.join(__dirname, '..', '..', 'views', 'autoindex', 'generated.html') };
 const optionsLogs = { customTemplate: path.join(__dirname, '..', '..', 'views', 'autoindex', 'logs.html') };

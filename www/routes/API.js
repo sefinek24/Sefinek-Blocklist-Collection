@@ -6,7 +6,7 @@ const fs = require('node:fs');
 const formatTime = require('../utils/formatTime.js');
 const { version } = require('../../package.json');
 
-const generated = path.join(__dirname, '..', '..', 'blocklist', 'generated');
+const generated = path.join(__dirname, '..', '..', 'blocklists', 'generated');
 const logs = path.join(__dirname, '..', 'public', 'logs');
 
 // Default

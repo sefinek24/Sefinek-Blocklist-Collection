@@ -2,11 +2,11 @@ const express = require('express');
 const router = express.Router();
 const path = require('node:path');
 
-const ZeroZeroZeroZero = path.join(__dirname, '..', '..', '..', 'blocklist', 'generated', '0.0.0.0');
-const localhost = path.join(__dirname, '..', '..', '..', 'blocklist', 'generated', '127.0.0.1');
-const noIp = path.join(__dirname, '..', '..', '..', 'blocklist', 'generated', 'noip');
-const adguard = path.join(__dirname, '..', '..', '..', 'blocklist', 'generated', 'adguard');
-const dnsmasq = path.join(__dirname, '..', '..', '..', 'blocklist', 'generated', 'dnsmasq');
+const ZeroZeroZeroZero = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated', '0.0.0.0');
+const localhost = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated', '127.0.0.1');
+const noIp = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated', 'noip');
+const adguard = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated', 'adguard');
+const dnsmasq = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated', 'dnsmasq');
 
 // ----------------- 0.0.0.0 -----------------
 // Ads
