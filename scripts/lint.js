@@ -4,7 +4,7 @@ const { resolve, join } = require('node:path');
 const worker = async () => {
 	let hasError = false;
 
-	const blockListDir = join(__dirname, '..', 'blocklist', 'template');
+	const blockListDir = join(__dirname, '..', 'blocklists', 'templates');
 	const files = await getAllTxtFiles(blockListDir);
 
 	async function getAllTxtFiles(dir) {
@@ -17,7 +17,7 @@ const worker = async () => {
 			}),
 		);
 		return Array.prototype.concat(...filesPromise).filter((file) => {
-			return file.endsWith('.txt') && file.includes('blocklist');
+			return file.endsWith('.txt') && file.includes('blocklists');
 		});
 	}
 

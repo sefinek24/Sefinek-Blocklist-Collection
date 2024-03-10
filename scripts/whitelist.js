@@ -78,9 +78,9 @@ const processDirectory = async (dirPath, whitelist, basePath) => {
 
 const run = async () => {
 	try {
-		const basePath = join(__dirname, '..', 'blocklist');
+		const basePath = join(__dirname, '..', 'blocklists');
 		const whitelist = await loadWhitelist(join(__dirname, '..', 'whitelist', 'default.txt'));
-		await processDirectory(join(basePath, 'template'), whitelist, basePath);
+		await processDirectory(join(basePath, 'templates'), whitelist, basePath);
 	} catch (error) {
 		console.error(error);
 	}

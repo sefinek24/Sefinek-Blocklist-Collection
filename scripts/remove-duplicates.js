@@ -53,10 +53,10 @@ const processDirectory = async (dirPath) => {
 const run = async () => {
 	try {
 		console.log('🔍 Searching for duplicates in blocklist/template directory...');
-		await processDirectory(join(__dirname, '..', 'blocklist', 'template'));
+		await processDirectory(join(__dirname, '..', 'blocklists', 'templates'));
 
 		// console.log('🔍 Searching for duplicates in blocklist/generated directory...');
-		// await processDirectory(join(__dirname, '..', 'blocklist', 'generated'));
+		// await processDirectory(join(__dirname, '..', 'blocklists', 'generated'));
 	} catch (error) {
 		console.error(error);
 	}

@@ -176,7 +176,7 @@ const run = async () => {
 	try {
 		console.log('🔍 Searching for .txt files in template directory...');
 
-		const templateDirPath = join(__dirname, '..', 'blocklist', 'template');
+		const templateDirPath = join(__dirname, '..', 'blocklists', 'templates');
 		await processDirectory(templateDirPath);
 		console.log(`✔️ The process is completed successfully for ${templateDirPath} directory`);
 	} catch (err) {

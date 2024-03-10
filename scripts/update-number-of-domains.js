@@ -25,7 +25,7 @@ const ignoreQuestion = process.argv.includes('--ignore-question');
 })();
 
 async function proceedWithProcedure() {
-	const blockListDir = join(__dirname, '..', 'blocklist', 'generated');
+	const blockListDir = join(__dirname, '..', 'blocklists', 'generated');
 	console.log(blue('[INFO]:'), `Path: ${blockListDir}`);
 
 	try {
