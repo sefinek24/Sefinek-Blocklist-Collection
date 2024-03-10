@@ -108,6 +108,7 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/spam/RPiList/spam-mails.fork.
 https://blocklist.sefinek.net/generated/v1/dnsmasq/spam/stopforumspam/toxic-domains-whole.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/suspicious/FadeMind/add-Risk.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/suspicious/firebog/w3kbl.fork.txt
+https://blocklist.sefinek.net/generated/v1/adguard/test.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/tracking-and-telemetry/0Zinc/easyprivacy.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/tracking-and-telemetry/ente-dev/tv.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt

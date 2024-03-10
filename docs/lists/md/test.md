@@ -108,6 +108,7 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/spam/RPiList/spam-mails.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/spam/stopforumspam/toxic-domains-whole.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/suspicious/FadeMind/add-Risk.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/suspicious/firebog/w3kbl.fork.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/test.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/0Zinc/easyprivacy.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/ente-dev/tv.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt
