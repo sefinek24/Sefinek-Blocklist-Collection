@@ -64,7 +64,7 @@ router.get('/generated/0.0.0.0/forks/blocklistproject.phishing.txt', (req, res) 
 router.get('/generated/0.0.0.0/forks/Dogino.Discord-Phishing-URLs-phishing.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt`));
 router.get('/generated/0.0.0.0/forks/phishingArmy.phishing_army_blocklist_extended.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/phishing/phishing.army/blocklist-extended.fork.txt`));
 router.get('/generated/0.0.0.0/forks/RPiList-Phishing.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/phishing/RPiList/Phishing-Angriffe.fork.txt`));
-router.get('/generated/0.0.0.0/malicious/phishing.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/phishing/sefinek.hosts.txt`));
+router.get('/generated/0.0.0.0/phishing.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/phishing/sefinek.hosts.txt`));
 
 // Ransomware
 router.get('/generated/0.0.0.0/forks/blocklistproject.ransomware.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ransomware/blocklistproject/ransomware.fork.txt`));
@@ -246,7 +246,7 @@ router.get('/generated/127.0.0.1/forks/blocklistproject.phishing.txt', (req, res
 router.get('/generated/127.0.0.1/forks/Dogino.Discord-Phishing-URLs-phishing.txt', (req, res) => res.sendFile(`${localhost}/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt`));
 router.get('/generated/127.0.0.1/forks/phishingArmy.phishing_army_blocklist_extended.txt', (req, res) => res.sendFile(`${localhost}/phishing/phishing.army/blocklist-extended.fork.txt`));
 router.get('/generated/127.0.0.1/forks/RPiList-Phishing.txt', (req, res) => res.sendFile(`${localhost}/phishing/RPiList/Phishing-Angriffe.fork.txt`));
-router.get('/generated/127.0.0.1/malicious/phishing.txt', (req, res) => res.sendFile(`${localhost}/phishing/sefinek.hosts.txt`));
+router.get('/generated/127.0.0.1/phishing.txt', (req, res) => res.sendFile(`${localhost}/phishing/sefinek.hosts.txt`));
 
 // Ransomware
 router.get('/generated/127.0.0.1/forks/blocklistproject.ransomware.txt', (req, res) => res.sendFile(`${localhost}/ransomware/blocklistproject/ransomware.fork.txt`));
@@ -427,7 +427,7 @@ router.get('/generated/noip/forks/blocklistproject.phishing.txt', (req, res) => 
 router.get('/generated/noip/forks/Dogino.Discord-Phishing-URLs-phishing.txt', (req, res) => res.sendFile(`${noIp}/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt`));
 router.get('/generated/noip/forks/phishingArmy.phishing_army_blocklist_extended.txt', (req, res) => res.sendFile(`${noIp}/phishing/phishing.army/blocklist-extended.fork.txt`));
 router.get('/generated/noip/forks/RPiList-Phishing.txt', (req, res) => res.sendFile(`${noIp}/phishing/RPiList/Phishing-Angriffe.fork.txt`));
-router.get('/generated/noip/malicious/phishing.txt', (req, res) => res.sendFile(`${noIp}/phishing/sefinek.hosts.txt`));
+router.get('/generated/noip/phishing.txt', (req, res) => res.sendFile(`${noIp}/phishing/sefinek.hosts.txt`));
 
 // Ransomware
 router.get('/generated/noip/forks/blocklistproject.ransomware.txt', (req, res) => res.sendFile(`${noIp}/ransomware/blocklistproject/ransomware.fork.txt`));
@@ -608,7 +608,7 @@ router.get('/generated/adguard/forks/blocklistproject.phishing.txt', (req, res) 
 router.get('/generated/adguard/forks/Dogino.Discord-Phishing-URLs-phishing.txt', (req, res) => res.sendFile(`${adguard}/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt`));
 router.get('/generated/adguard/forks/phishingArmy.phishing_army_blocklist_extended.txt', (req, res) => res.sendFile(`${adguard}/phishing/phishing.army/blocklist-extended.fork.txt`));
 router.get('/generated/adguard/forks/RPiList-Phishing.txt', (req, res) => res.sendFile(`${adguard}/phishing/RPiList/Phishing-Angriffe.fork.txt`));
-router.get('/generated/adguard/malicious/phishing.txt', (req, res) => res.sendFile(`${adguard}/phishing/sefinek.hosts.txt`));
+router.get('/generated/adguard/phishing.txt', (req, res) => res.sendFile(`${adguard}/phishing/sefinek.hosts.txt`));
 
 // Ransomware
 router.get('/generated/adguard/forks/blocklistproject.ransomware.txt', (req, res) => res.sendFile(`${adguard}/ransomware/blocklistproject/ransomware.fork.txt`));
@@ -789,7 +789,7 @@ router.get('/generated/dnsmasq/forks/blocklistproject.phishing.txt', (req, res) 
 router.get('/generated/dnsmasq/forks/Dogino.Discord-Phishing-URLs-phishing.txt', (req, res) => res.sendFile(`${dnsmasq}/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt`));
 router.get('/generated/dnsmasq/forks/phishingArmy.phishing_army_blocklist_extended.txt', (req, res) => res.sendFile(`${dnsmasq}/phishing/phishing.army/blocklist-extended.fork.txt`));
 router.get('/generated/dnsmasq/forks/RPiList-Phishing.txt', (req, res) => res.sendFile(`${dnsmasq}/phishing/RPiList/Phishing-Angriffe.fork.txt`));
-router.get('/generated/dnsmasq/malicious/phishing.txt', (req, res) => res.sendFile(`${dnsmasq}/phishing/sefinek.hosts.txt`));
+router.get('/generated/dnsmasq/phishing.txt', (req, res) => res.sendFile(`${dnsmasq}/phishing/sefinek.hosts.txt`));
 
 // Ransomware
 router.get('/generated/dnsmasq/forks/blocklistproject.ransomware.txt', (req, res) => res.sendFile(`${dnsmasq}/ransomware/blocklistproject/ransomware.fork.txt`));
