@@ -1,13 +1,13 @@
 <div align="center">
     <h1>📝 Default blocklist collection</h1>
     <p>
-        📄 » <b>Format: 127.0.0.1 [Domain]</b><br>
+        📄 » <b>Format: 0.0.0.0 [Domain]</b><br>
         📥 » <b>Last update: 10.03.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
 <h3 align="right">
-    <a href="https://sefinek.net/blocklist-generator/127.0.0.1">🌍 Try blocklist generator on my website (recommended) »</a>
+    <a href="https://sefinek.net/blocklist-generator/0.0.0.0">🌍 Try blocklist generator on my website (recommended) »</a>
 </h3>
 <br>
 
@@ -21,6 +21,7 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/blocklistproject/hosts.fork.t
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/blocklistproject/youtube.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/craiu/mobiletrackers.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/crazy-max/spy.fork.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/disconnectme/simple-ad.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/FadeMind/UncheckyAds.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/firebog/AdguardDNS.fork.txt
@@ -85,7 +86,6 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/other/StevenBlack/fakenews-gambli
 http://192.168.2.150:8080/generated/v1/0.0.0.0/phishing/blocklistproject/phishing.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/phishing/phishing.army/blocklist-extended.fork.txt
-http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/phishing/RPiList/Phishing-Angriffe.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/piracy/blocklistproject/piracy.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/porn/4skinSkywalker/hosts.fork.txt
@@ -99,6 +99,7 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/redirect/blocklistproject/redirec
 http://192.168.2.150:8080/generated/v1/0.0.0.0/scam/blocklistproject/scam.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/scam/durablenapkin/scamblocklist.fork.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/sites/omegle.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/sites/riotgames.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/social/snapchat.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/social/tiktok.txt
@@ -113,5 +114,6 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/frogeye/fi
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/neodevpro/host.fork.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/useless-websites.txt
 ```
