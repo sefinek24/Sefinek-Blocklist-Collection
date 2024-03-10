@@ -25,7 +25,7 @@ const ignoreQuestion = process.argv.includes('--ignore-question');
 })();
 
 async function proceedWithProcedure() {
-	const blockListDir = join(__dirname, '..', 'blocklists', 'generated');
+	const blockListDir = join(__dirname, '..', 'blocklists', 'templates');
 	console.log(blue('[INFO]:'), `Path: ${blockListDir}`);
 
 	try {
@@ -48,7 +48,7 @@ async function processFile(file) {
 	const updatedContent = [];
 	try {
 		for await (const line of fileInterface) {
-			if (isDomainLine(line)) domainCount++;
+			if (line.startsWith('0.0.0.0 ')) domainCount++;
 			updatedContent.push(line);
 		}
 	} finally {
@@ -60,10 +60,6 @@ async function processFile(file) {
 	await writeFile(file, updatedFileContents, 'utf8');
 
 	console.log(green('[INFO]:'), `Saved: ${file} (${domainCount} domains)`);
-}
-
-function isDomainLine(line) {
-	return line.startsWith('0.0.0.0 ') || line.startsWith('127.0.0.1 ') || line.startsWith('server=/') || line.startsWith('||');
 }
 
 function createUpdatedContents(lines, domainCount) {
