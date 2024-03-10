@@ -1,10 +1,16 @@
-## 30.01.2024 - Update v0.13.1
+## Update v0.14.0 - 10.03.2024
+1. The repository has been equipped with a [whitelist](whitelist/default.txt). Domains or subdomains on this list will NEVER appear in the selected blocklists.
+2. Blocklists have been organized by category (the links to these lists have been changed).
+3. Scripts responsible for generating the blocklists have been corrected.
+4. Additional improvements have been made.
+
+## Update v0.13.1 - 30.01.2024
 1. Added [LICENSE](LICENSE).
 2. Updated all dependencies.
 3. Updated blocklists.
 4. Other fixes and improvements.
 
-## 10.12.2023 - Update v0.13.0
+## Update v0.13.0 - 10.12.2023
 1. Updated node modules. [[59c80cf](https://github.com/sefinek24/Sefinek-Blocklist-Collection/commit/59c80cf6a2aa2d786b03a2b8fdec9d47012592bd)]
 2. Improved responsiveness of the block list generator.
 3. Enhanced the appearance of modals.
@@ -12,6 +18,6 @@
 5. Users can also send the generated collection to their email address.
 6. Other fixes and improvements have been made.
 
-## 30.11.2023 - Blocklist generator update
+## Blocklist generator update - 30.11.2023
 1. Added a few missing urls.
 2. Removed deprecated links.
