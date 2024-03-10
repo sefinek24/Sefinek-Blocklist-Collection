@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Pi-hole / 0.0.0.0 [Domain]</b><br>
-        📥 » <b>Last update: 07.03.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 10.03.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -21,6 +21,7 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/blocklistproject/hosts.fo
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/blocklistproject/youtube.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/craiu/mobiletrackers.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/crazy-max/spy.fork.txt
+https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/disconnectme/simple-ad.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/FadeMind/UncheckyAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/firebog/AdguardDNS.fork.txt
@@ -85,7 +86,6 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/other/StevenBlack/fakenews-ga
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/blocklistproject/phishing.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/phishing.army/blocklist-extended.fork.txt
-https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/phishing/RPiList/Phishing-Angriffe.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/piracy/blocklistproject/piracy.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/porn/4skinSkywalker/hosts.fork.txt
@@ -99,6 +99,7 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/redirect/blocklistproject/red
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/blocklistproject/scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/durablenapkin/scamblocklist.fork.txt
+https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/omegle.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/social/snapchat.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/social/tiktok.txt
@@ -113,5 +114,6 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/frogey
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/neodevpro/host.fork.txt
+https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/useless-websites.txt
 ```

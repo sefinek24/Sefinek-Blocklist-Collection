@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: AdGuard</b><br>
-        📥 » <b>Last update: 07.03.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 10.03.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -21,6 +21,7 @@ https://blocklist.sefinek.net/generated/v1/adguard/ads/blocklistproject/hosts.fo
 https://blocklist.sefinek.net/generated/v1/adguard/ads/blocklistproject/youtube.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/craiu/mobiletrackers.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/crazy-max/spy.fork.txt
+https://blocklist.sefinek.net/generated/v1/adguard/ads/DandelionSprout.GameConsoleAdblockList.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/disconnectme/simple-ad.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/FadeMind/UncheckyAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/firebog/AdguardDNS.fork.txt
@@ -85,7 +86,6 @@ https://blocklist.sefinek.net/generated/v1/adguard/other/StevenBlack/fakenews-ga
 https://blocklist.sefinek.net/generated/v1/adguard/phishing/blocklistproject/phishing.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/phishing/Dogino/Discord-Phishing-URLs-phishing.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/phishing/phishing.army/blocklist-extended.fork.txt
-https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/phishing/RPiList/Phishing-Angriffe.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/piracy/blocklistproject/piracy.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/porn/4skinSkywalker/hosts.fork.txt
@@ -99,6 +99,7 @@ https://blocklist.sefinek.net/generated/v1/adguard/redirect/blocklistproject/red
 https://blocklist.sefinek.net/generated/v1/adguard/scam/blocklistproject/scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/scam/durablenapkin/scamblocklist.fork.txt
+https://blocklist.sefinek.net/generated/v1/adguard/sites/omegle.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/v1/adguard/social/snapchat.txt
 https://blocklist.sefinek.net/generated/v1/adguard/social/tiktok.txt
@@ -113,5 +114,6 @@ https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/frogey
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/neodevpro/host.fork.txt
+https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/useless-websites.txt
 ```
