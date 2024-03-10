@@ -44,7 +44,7 @@ Within 48 hours, I will add the domain or subdomain to the [whitelist](whitelist
 Shortly thereafter, the false positive will be automatically removed from the blocklist via [GitHub Actions](.github/workflows/generate-blocklists.yml).
 The blocklists on the primary server (blocklist.sefinek.net) are updated every 24 hours (cron schedule: 0 0,6 * * *).
 
-### ⏰ I have some free time. Can I create a Pull Request and add a false positive to the whitelist?
+### ⏰ Can I create a Pull Request and add a false positive to the whitelist?
 Of course, you can definitely create such a pull request. Remember to follow the required syntax! You can find it at the very top of the [whitelists/main.txt](whitelists/main.txt) file
 
 
