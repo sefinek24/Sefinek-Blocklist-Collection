@@ -56,8 +56,8 @@ The blocklists on the primary server (blocklist.sefinek.net) are updated every 2
 
 
 ## 🌍 Links
-- [Blocklist generator (sefinek.net)](https://sefinek.net/blocklist-generator)
-- [Homepage of blocklist.sefinek.net (stats, updates frequency, API for devs etc.)](https://blocklist.sefinek.net)
+- [Blocklist generator (for Pi-hole, AdGuard, etc.)](https://sefinek.net/blocklist-generator)
+- [Homepage of blocklist.sefinek.net (stats, updates frequency, API for devs, etc.)](https://blocklist.sefinek.net)
 - [File explorer (Index of /generated/v1)](https://blocklist.sefinek.net/generated/v1)
 - [Git pull logs (Last repo synchronizes)](https://blocklist.sefinek.net/logs/v1): `Remote` [github.com] → `Local` [blocklist.sefinek.net]
 
