@@ -12,10 +12,11 @@ const dnsmasq = path.join(__dirname, '..', '..', '..', 'blocklist', 'generated',
 // Ads
 router.get('/generated/0.0.0.0/ads/blocklistproject.ads.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/blocklistproject/hosts.fork.txt`));
 router.get('/generated/0.0.0.0/ads/jerryn70.GoodbyeAds.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/jerryn70/GoodbyeAds.fork.txt`));
-router.get('/generated/0.0.0.0/ads/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/jerryn70/GoodbyeAds.fork.txt`));
+router.get('/generated/0.0.0.0/forks/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/kboghdady/youtubelist.fork.txt`));
 router.get('/generated/0.0.0.0/ads/DandelionSprout.GameConsoleAdblockList.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/DandelionSprout.GameConsoleAdblockList.txt`));
 router.get('/generated/0.0.0.0/ads/yoyo.AdsTrackersEtc.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/yoyo/ads-trackers-etc.fork.txt`));
 router.get('/generated/0.0.0.0/forks/0Zinc.easylist.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/0Zinc/easylist.fork.txt`));
+router.get('/generated/0.0.0.0/forks/ShadowWhisperer.Ads.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/ShadowWhisperer/Ads.fork.txt`));
 router.get('/generated/0.0.0.0/forks/adaway.hosts.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/adaway/hosts.fork.txt`));
 router.get('/generated/0.0.0.0/forks/anudeepND.adservers.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/anudeepND/adservers.fork.txt`));
 router.get('/generated/0.0.0.0/forks/blocklistproject.youtube.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/blocklistproject/youtube.fork.txt`));
@@ -154,14 +155,15 @@ router.get('/generated/0.0.0.0/forks/developerdan.dating-services-extended.txt',
 router.get('/generated/0.0.0.0/useless-websites.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/useless-websites.txt`));
 
 // Anime
-router.get('/generated/0.0.0.0/anime/shinden.pl.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/anime/shinden.pl.fork.txt`));
-router.get('/generated/0.0.0.0/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/anime/myanimelist.net.fork.txt`));
+router.get('/generated/0.0.0.0/anime/shinden.pl.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/anime/shinden.pl.txt`));
+router.get('/generated/0.0.0.0/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/anime/myanimelist.net.txt`));
 
 // Cryptocurrency
 router.get('/generated/0.0.0.0/cryptocurrency.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/cryptocurrency.fork.txt`));
 
 // Sites
 router.get('/generated/0.0.0.0/sites/youtube.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/sites/youtube.txt`));
+router.get('/generated/0.0.0.0/sites/youtube-extended.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/sites/youtube-extended.txt`));
 router.get('/generated/0.0.0.0/sites/pinterest.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/sites/pinterest.txt`));
 router.get('/generated/0.0.0.0/sites/pixiv.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/sites/pixiv.txt`));
 router.get('/generated/0.0.0.0/sites/omegle.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/sites/omegle.txt`));
@@ -192,9 +194,10 @@ router.get('/generated/0.0.0.0/games/valorant.txt', (req, res) => res.sendFile(`
 // Ads
 router.get('/generated/127.0.0.1/ads/blocklistproject.ads.txt', (req, res) => res.sendFile(`${localhost}/ads/blocklistproject/hosts.fork.txt`));
 router.get('/generated/127.0.0.1/ads/jerryn70.GoodbyeAds.txt', (req, res) => res.sendFile(`${localhost}/ads/jerryn70/GoodbyeAds.fork.txt`));
-router.get('/generated/127.0.0.1/ads/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${localhost}/ads/jerryn70/GoodbyeAds.fork.txt`));
+router.get('/generated/127.0.0.1/forks/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${localhost}/ads/kboghdady/youtubelist.fork.txt`));
 router.get('/generated/127.0.0.1/ads/DandelionSprout.GameConsoleAdblockList.txt', (req, res) => res.sendFile(`${localhost}/ads/DandelionSprout.GameConsoleAdblockList.txt`));
 router.get('/generated/127.0.0.1/ads/yoyo.AdsTrackersEtc.txt', (req, res) => res.sendFile(`${localhost}/ads/yoyo/ads-trackers-etc.fork.txt`));
+router.get('/generated/127.0.0.1/forks/ShadowWhisperer.Ads.txt', (req, res) => res.sendFile(`${localhost}/ads/ShadowWhisperer/Ads.fork.txt`));
 router.get('/generated/127.0.0.1/forks/0Zinc.easylist.txt', (req, res) => res.sendFile(`${localhost}/ads/0Zinc/easylist.fork.txt`));
 router.get('/generated/127.0.0.1/forks/adaway.hosts.txt', (req, res) => res.sendFile(`${localhost}/ads/adaway/hosts.fork.txt`));
 router.get('/generated/127.0.0.1/forks/anudeepND.adservers.txt', (req, res) => res.sendFile(`${localhost}/ads/anudeepND/adservers.fork.txt`));
@@ -334,14 +337,15 @@ router.get('/generated/127.0.0.1/forks/developerdan.dating-services-extended.txt
 router.get('/generated/127.0.0.1/useless-websites.txt', (req, res) => res.sendFile(`${localhost}/useless-websites.txt`));
 
 // Anime
-router.get('/generated/127.0.0.1/anime/shinden.pl.txt', (req, res) => res.sendFile(`${localhost}/anime/shinden.pl.fork.txt`));
-router.get('/generated/127.0.0.1/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${localhost}/anime/myanimelist.net.fork.txt`));
+router.get('/generated/127.0.0.1/anime/shinden.pl.txt', (req, res) => res.sendFile(`${localhost}/anime/shinden.pl.txt`));
+router.get('/generated/127.0.0.1/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${localhost}/anime/myanimelist.net.txt`));
 
 // Cryptocurrency
 router.get('/generated/127.0.0.1/cryptocurrency.txt', (req, res) => res.sendFile(`${localhost}/cryptocurrency.fork.txt`));
 
 // Sites
 router.get('/generated/127.0.0.1/sites/youtube.txt', (req, res) => res.sendFile(`${localhost}/sites/youtube.txt`));
+router.get('/generated/127.0.0.1/sites/youtube-extended.txt', (req, res) => res.sendFile(`${localhost}/sites/youtube-extended.txt`));
 router.get('/generated/127.0.0.1/sites/pinterest.txt', (req, res) => res.sendFile(`${localhost}/sites/pinterest.txt`));
 router.get('/generated/127.0.0.1/sites/pixiv.txt', (req, res) => res.sendFile(`${localhost}/sites/pixiv.txt`));
 router.get('/generated/127.0.0.1/sites/omegle.txt', (req, res) => res.sendFile(`${localhost}/sites/omegle.txt`));
@@ -371,10 +375,11 @@ router.get('/generated/127.0.0.1/games/valorant.txt', (req, res) => res.sendFile
 // Ads
 router.get('/generated/noip/ads/blocklistproject.ads.txt', (req, res) => res.sendFile(`${noIp}/ads/blocklistproject/hosts.fork.txt`));
 router.get('/generated/noip/ads/jerryn70.GoodbyeAds.txt', (req, res) => res.sendFile(`${noIp}/ads/jerryn70/GoodbyeAds.fork.txt`));
-router.get('/generated/noip/ads/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${noIp}/ads/jerryn70/GoodbyeAds.fork.txt`));
+router.get('/generated/noip/forks/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${noIp}/ads/kboghdady/youtubelist.fork.txt`));
 router.get('/generated/noip/ads/DandelionSprout.GameConsoleAdblockList.txt', (req, res) => res.sendFile(`${noIp}/ads/DandelionSprout.GameConsoleAdblockList.txt`));
 router.get('/generated/noip/ads/yoyo.AdsTrackersEtc.txt', (req, res) => res.sendFile(`${noIp}/ads/yoyo/ads-trackers-etc.fork.txt`));
 router.get('/generated/noip/forks/0Zinc.easylist.txt', (req, res) => res.sendFile(`${noIp}/ads/0Zinc/easylist.fork.txt`));
+router.get('/generated/noip/forks/ShadowWhisperer.Ads.txt', (req, res) => res.sendFile(`${noIp}/ads/ShadowWhisperer/Ads.fork.txt`));
 router.get('/generated/noip/forks/adaway.hosts.txt', (req, res) => res.sendFile(`${noIp}/ads/adaway/hosts.fork.txt`));
 router.get('/generated/noip/forks/anudeepND.adservers.txt', (req, res) => res.sendFile(`${noIp}/ads/anudeepND/adservers.fork.txt`));
 router.get('/generated/noip/forks/blocklistproject.youtube.txt', (req, res) => res.sendFile(`${noIp}/ads/blocklistproject/youtube.fork.txt`));
@@ -513,14 +518,15 @@ router.get('/generated/noip/forks/developerdan.dating-services-extended.txt', (r
 router.get('/generated/noip/useless-websites.txt', (req, res) => res.sendFile(`${noIp}/useless-websites.txt`));
 
 // Anime
-router.get('/generated/noip/anime/shinden.pl.txt', (req, res) => res.sendFile(`${noIp}/anime/shinden.pl.fork.txt`));
-router.get('/generated/noip/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${noIp}/anime/myanimelist.net.fork.txt`));
+router.get('/generated/noip/anime/shinden.pl.txt', (req, res) => res.sendFile(`${noIp}/anime/shinden.pl.txt`));
+router.get('/generated/noip/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${noIp}/anime/myanimelist.net.txt`));
 
 // Cryptocurrency
 router.get('/generated/noip/cryptocurrency.txt', (req, res) => res.sendFile(`${noIp}/cryptocurrency.fork.txt`));
 
 // Sites
 router.get('/generated/noip/sites/youtube.txt', (req, res) => res.sendFile(`${noIp}/sites/youtube.txt`));
+router.get('/generated/noip/sites/youtube-extended.txt', (req, res) => res.sendFile(`${noIp}/sites/youtube-extended.txt`));
 router.get('/generated/noip/sites/pinterest.txt', (req, res) => res.sendFile(`${noIp}/sites/pinterest.txt`));
 router.get('/generated/noip/sites/pixiv.txt', (req, res) => res.sendFile(`${noIp}/sites/pixiv.txt`));
 router.get('/generated/noip/sites/omegle.txt', (req, res) => res.sendFile(`${noIp}/sites/omegle.txt`));
@@ -550,10 +556,11 @@ router.get('/generated/noip/games/valorant.txt', (req, res) => res.sendFile(`${n
 // Ads
 router.get('/generated/adguard/ads/blocklistproject.ads.txt', (req, res) => res.sendFile(`${adguard}/ads/blocklistproject/hosts.fork.txt`));
 router.get('/generated/adguard/ads/jerryn70.GoodbyeAds.txt', (req, res) => res.sendFile(`${adguard}/ads/jerryn70/GoodbyeAds.fork.txt`));
-router.get('/generated/adguard/ads/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${adguard}/ads/jerryn70/GoodbyeAds.fork.txt`));
+router.get('/generated/adguard/forks/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${adguard}/ads/kboghdady/youtubelist.fork.txt`));
 router.get('/generated/adguard/ads/DandelionSprout.GameConsoleAdblockList.txt', (req, res) => res.sendFile(`${adguard}/ads/DandelionSprout.GameConsoleAdblockList.txt`));
 router.get('/generated/adguard/ads/yoyo.AdsTrackersEtc.txt', (req, res) => res.sendFile(`${adguard}/ads/yoyo/ads-trackers-etc.fork.txt`));
 router.get('/generated/adguard/forks/0Zinc.easylist.txt', (req, res) => res.sendFile(`${adguard}/ads/0Zinc/easylist.fork.txt`));
+router.get('/generated/adguard/forks/ShadowWhisperer.Ads.txt', (req, res) => res.sendFile(`${adguard}/ads/ShadowWhisperer/Ads.fork.txt`));
 router.get('/generated/adguard/forks/adaway.hosts.txt', (req, res) => res.sendFile(`${adguard}/ads/adaway/hosts.fork.txt`));
 router.get('/generated/adguard/forks/anudeepND.adservers.txt', (req, res) => res.sendFile(`${adguard}/ads/anudeepND/adservers.fork.txt`));
 router.get('/generated/adguard/forks/blocklistproject.youtube.txt', (req, res) => res.sendFile(`${adguard}/ads/blocklistproject/youtube.fork.txt`));
@@ -692,14 +699,15 @@ router.get('/generated/adguard/forks/developerdan.dating-services-extended.txt',
 router.get('/generated/adguard/useless-websites.txt', (req, res) => res.sendFile(`${adguard}/useless-websites.txt`));
 
 // Anime
-router.get('/generated/adguard/anime/shinden.pl.txt', (req, res) => res.sendFile(`${adguard}/anime/shinden.pl.fork.txt`));
-router.get('/generated/adguard/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${adguard}/anime/myanimelist.net.fork.txt`));
+router.get('/generated/adguard/anime/shinden.pl.txt', (req, res) => res.sendFile(`${adguard}/anime/shinden.pl.txt`));
+router.get('/generated/adguard/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${adguard}/anime/myanimelist.net.txt`));
 
 // Cryptocurrency
 router.get('/generated/adguard/cryptocurrency.txt', (req, res) => res.sendFile(`${adguard}/cryptocurrency.fork.txt`));
 
 // Sites
 router.get('/generated/adguard/sites/youtube.txt', (req, res) => res.sendFile(`${adguard}/sites/youtube.txt`));
+router.get('/generated/adguard/sites/youtube-extended.txt', (req, res) => res.sendFile(`${adguard}/sites/youtube-extended.txt`));
 router.get('/generated/adguard/sites/pinterest.txt', (req, res) => res.sendFile(`${adguard}/sites/pinterest.txt`));
 router.get('/generated/adguard/sites/pixiv.txt', (req, res) => res.sendFile(`${adguard}/sites/pixiv.txt`));
 router.get('/generated/adguard/sites/omegle.txt', (req, res) => res.sendFile(`${adguard}/sites/omegle.txt`));
@@ -729,10 +737,11 @@ router.get('/generated/adguard/games/valorant.txt', (req, res) => res.sendFile(`
 // Ads
 router.get('/generated/dnsmasq/ads/blocklistproject.ads.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/blocklistproject/hosts.fork.txt`));
 router.get('/generated/dnsmasq/ads/jerryn70.GoodbyeAds.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/jerryn70/GoodbyeAds.fork.txt`));
-router.get('/generated/dnsmasq/ads/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/jerryn70/GoodbyeAds.fork.txt`));
+router.get('/generated/dnsmasq/forks/kboghdady.youtubelist.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/kboghdady/youtubelist.fork.txt`));
 router.get('/generated/dnsmasq/ads/DandelionSprout.GameConsoleAdblockList.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/DandelionSprout.GameConsoleAdblockList.txt`));
 router.get('/generated/dnsmasq/ads/yoyo.AdsTrackersEtc.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/yoyo/ads-trackers-etc.fork.txt`));
 router.get('/generated/dnsmasq/forks/0Zinc.easylist.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/0Zinc/easylist.fork.txt`));
+router.get('/generated/dnsmasq/forks/ShadowWhisperer.Ads.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/ShadowWhisperer/Ads.fork.txt`));
 router.get('/generated/dnsmasq/forks/adaway.hosts.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/adaway/hosts.fork.txt`));
 router.get('/generated/dnsmasq/forks/anudeepND.adservers.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/anudeepND/adservers.fork.txt`));
 router.get('/generated/dnsmasq/forks/blocklistproject.youtube.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/blocklistproject/youtube.fork.txt`));
@@ -871,14 +880,15 @@ router.get('/generated/dnsmasq/forks/developerdan.dating-services-extended.txt',
 router.get('/generated/dnsmasq/useless-websites.txt', (req, res) => res.sendFile(`${dnsmasq}/useless-websites.txt`));
 
 // Anime
-router.get('/generated/dnsmasq/anime/shinden.pl.txt', (req, res) => res.sendFile(`${dnsmasq}/anime/shinden.pl.fork.txt`));
-router.get('/generated/dnsmasq/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${dnsmasq}/anime/myanimelist.net.fork.txt`));
+router.get('/generated/dnsmasq/anime/shinden.pl.txt', (req, res) => res.sendFile(`${dnsmasq}/anime/shinden.pl.txt`));
+router.get('/generated/dnsmasq/anime/myanimelist.net.txt', (req, res) => res.sendFile(`${dnsmasq}/anime/myanimelist.net.txt`));
 
 // Cryptocurrency
 router.get('/generated/dnsmasq/cryptocurrency.txt', (req, res) => res.sendFile(`${dnsmasq}/cryptocurrency.fork.txt`));
 
 // Sites
 router.get('/generated/dnsmasq/sites/youtube.txt', (req, res) => res.sendFile(`${dnsmasq}/sites/youtube.txt`));
+router.get('/generated/dnsmasq/sites/youtube-extended.txt', (req, res) => res.sendFile(`${dnsmasq}/sites/youtube-extended.txt`));
 router.get('/generated/dnsmasq/sites/pinterest.txt', (req, res) => res.sendFile(`${dnsmasq}/sites/pinterest.txt`));
 router.get('/generated/dnsmasq/sites/pixiv.txt', (req, res) => res.sendFile(`${dnsmasq}/sites/pixiv.txt`));
 router.get('/generated/dnsmasq/sites/omegle.txt', (req, res) => res.sendFile(`${dnsmasq}/sites/omegle.txt`));
