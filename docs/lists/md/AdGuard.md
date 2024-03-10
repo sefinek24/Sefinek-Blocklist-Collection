@@ -32,6 +32,7 @@ https://blocklist.sefinek.net/generated/v1/adguard/ads/jerryn70/GoodbyeAds.fork.
 https://blocklist.sefinek.net/generated/v1/adguard/ads/kboghdady/youtubelist.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/MajkiIT/SmartTV-ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/r-a-y/AdguardMobileAds.fork.txt
+https://blocklist.sefinek.net/generated/v1/adguard/ads/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/ShadowWhisperer/Ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/yoyo/ads-trackers-etc.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/amp/developerdan/amp-hosts-extended.fork.txt

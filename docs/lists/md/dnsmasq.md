@@ -32,6 +32,7 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/jerryn70/GoodbyeAds.fork.
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/kboghdady/youtubelist.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/MajkiIT/SmartTV-ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/r-a-y/AdguardMobileAds.fork.txt
+https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/ShadowWhisperer/Ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/yoyo/ads-trackers-etc.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/amp/developerdan/amp-hosts-extended.fork.txt
@@ -108,7 +109,7 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/spam/RPiList/spam-mails.fork.
 https://blocklist.sefinek.net/generated/v1/dnsmasq/spam/stopforumspam/toxic-domains-whole.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/suspicious/FadeMind/add-Risk.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/suspicious/firebog/w3kbl.fork.txt
-https://blocklist.sefinek.net/generated/v1/adguard/test.txt
+https://blocklist.sefinek.net/generated/v1/dnsmasq/test.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/tracking-and-telemetry/0Zinc/easyprivacy.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/tracking-and-telemetry/ente-dev/tv.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt

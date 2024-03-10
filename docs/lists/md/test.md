@@ -32,6 +32,7 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/jerryn70/GoodbyeAds.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/kboghdady/youtubelist.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/MajkiIT/SmartTV-ads.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/r-a-y/AdguardMobileAds.fork.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/sefinek.hosts.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/ShadowWhisperer/Ads.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/ads/yoyo/ads-trackers-etc.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/amp/developerdan/amp-hosts-extended.fork.txt
