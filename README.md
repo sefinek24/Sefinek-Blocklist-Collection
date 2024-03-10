@@ -11,12 +11,6 @@
     <a href="https://blocklist.sefinek.net/#stats" target="_blank">View more stats... »</a>
 </div>
 
-<h2>
-    * A NEW BLOCKLIST GENERATION SYSTEM (WITH WHITELISTS) HAS BEEN ADDED TO THE REPOSITORY! BLOCKLIST LINKS WILL CHANGE!
-    <br><br>
-    * THE BLOCKLISTS (ON THE SERVER BLOCKLIST.SEFINEK.NET) WILL NOT BE UPDATED TODAY (08/09/10.03.2024)
-</h2>
-
 <div align="center">
     <a href="https://sefinek.net/blocklist-generator" title="Personalized Blocklist Generator - Take Full Control of Your Network">
         <img src="images/generator.png" width="87%" alt="">
@@ -27,29 +21,28 @@
     <b>Have fun and stay safe!</b> o(>ω<)o 👋
 </div>
 
-
-## 📝 Information
-False alarms occur very rarely.
-If accidental blocking of a legitimate website occurs, please report it to its original Creator, as some lists in this repository ([blocklist/template/forks](blocklist/template/forks) directory) are only downloaded and converted into various formats.
-Under no circumstances should they be modified because they will be overwritten by [GitHub Actions](.github/workflows/download-blocklists.yml).
-However, if a blocklist is not located in the aforementioned folder, you can create a new [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls) or [Issue](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues).
-
-If I come across a false alarm while browsing the internet, I usually eliminate it immediately if it is within my capabilities.
-
-| Path                         | Modifying | Description                                                                                                                                                                                                   |
-|------------------------------|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `blocklist/template/forks/*` | ❎         | Files with lists downloaded by GitHub Actions and ready to be converted into various formats, e.g., from 0.0.0.0 example.com to another format.<br>**DO NOT MODIFY** THEM, EVEN IF YOU CREATE A PULL REQUEST! |
-| `blocklist/template/*`       | ✅         | Modified copies of other blocklists or custom lists created for this repository.<br>**You can modify** them as they will never be overwritten in the future.                                                  |
-| `blocklist/generated/*`      | ❎         | Blocklists generated in various formats from the template.<br>**DO NOT MODIFY** ANY FILE IN THIS FOLDER!                                                                                                      |
-
-> **Note**
-> You have two options. You can use the [default blocklist](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/lists/Index.md) or [visit my website](https://sefinek.net/blocklist-generator) and use the list generator.
-
-
-## 💸 Support me if you like this
+## 💸 Support me
 Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me. Thank you! 😹😻
 > https://sefinek.net/support-me  (Patreon, Ko-fi, GitHub Sponsors, Stripe)  
 > https://paypal.me/sefinek (email for PayPal: contact@sefinek.net)
+
+
+## 📝 Information
+Visit the official website of the project [blocklist.sefinek.net](https://blocklist.sefinek.net) to get more details.
+
+
+## 📦 How to acquire the blocklist?
+You have two options for acquiring the blocklist.
+- The first option is to [generate your own list](https://sefinek.net/blocklist-generator), which is recommended for all users as it allows for customization based on specific needs and preferences.
+- The second option is to utilize the [default list](https://github.com/sefinek24/Sefinek-Blocklist-Collection/tree/main/docs/lists/md) provided.
+This may be suitable for those who prefer a quick and straightforward solution without the need for customization.
+
+
+## ❌ How to Report a False Positive?
+You can report a false positive by creating a new [Issue](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues), sending me a message on [Discord](https://sefinek.net), or through [email](https://sefinek.net).
+Within 48 hours, I will add the domain or subdomain to the [whitelist](whitelist/default.txt).
+Shortly thereafter, the false positive will be automatically removed from the blocklist via [GitHub Actions](.github/workflows/generate-blocklists.yml).
+The blocklists on the primary server (blocklist.sefinek.net) are updated every 24 hours (cron schedule: 0 0,6 * * *).
 
 
 ## 📥 Update frequency
@@ -105,7 +98,7 @@ It is synchronized daily at `00:00` and `06:00`. 24-hour clock; Poland time zone
 
 ## ✋ Warning
 It is important to regularly check this repository for updates and potential changes.
-However, it should be noted that while this blocking list can improve your privacy and security, it may unintentionally block legitimate content or services. Therefore, use it at your own risk.
+However, it should be noted that while this blocking list can improve your privacy and security, it may unintentionally block legitimate content or services.
 
 
 ## 🤔 Tutorials
