@@ -18,6 +18,6 @@
 5. Users can also send the generated collection to their email address.
 6. Other fixes and improvements have been made.
 
-## Blocklist generator update - 30.11.2023
+## Update - 30.11.2023
 1. Added a few missing urls.
 2. Removed deprecated links.
