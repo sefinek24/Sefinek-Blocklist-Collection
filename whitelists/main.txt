@@ -19,14 +19,14 @@
 #   # TheAnnoyingSite (this page is actually a meme and is entirely safe)
 #   theannoyingsite.com other/StevenBlack/fakenews-gambling-porn.fork.txt
 #
-# Last update       : 08.03.2024 [DD.MM.YYYY]
+# Last update       : 26.03.2024 [DD.MM.YYYY]
 # Author            : Sefinek (https://sefinek.net) <contact@sefinek.net>
 # License           : GNU General Public License v3.0
 # GitHub repository : https://github.com/sefinek24/Sefinek-Blocklist-Collection
 # Issues            : https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues
 # Pull requests     : https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls
 #
-# -------------------------------------------------------------------------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Discord (chat)
 click.discord.com ads/jerryn70/GoodbyeAds.fork.txt
@@ -97,6 +97,9 @@ www.g2a.com fraud/blocklistproject/hosts.fork.txt
 arc.msn.com ads/blocklistproject/hosts.fork.txt
 arc.msn.com ads/ShadowWhisperer/Ads.fork.txt
 
+# Windows
+client.wns.windows.com ads/ShadowWhisperer/Ads.fork.txt
+
 # mail.ru (Russian mail service; I don't believe this subdomain poses any danger)
 trk.mail.ru extensions/hagezi/pro.fork.txt
 
@@ -107,9 +110,24 @@ onelogin.wpcdn.pl ads/ShadowWhisperer/Ads.fork.txt
 events.gfe.nvidia.com tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
 
 # reg.ru (Russian Internet Service Provider that offers web hosting, domain registration, and email services, including RoundCube Reg.ru Webmail)
-parking.reg.ru ads/blocklistproject/hosts.fork.txt
-www.reg.ru ads/blocklistproject/hosts.fork.txt
-parking.reg.ru tracking-and-telemetry/neodevpro/host.fork.txt
-parking.reg.ru extensions/hagezi/pro.fork.txt
 ns2.parking.reg.ru extensions/hagezi/pro.fork.txt
+parking.reg.ru ads/blocklistproject/hosts.fork.txt
+parking.reg.ru extensions/hagezi/pro.fork.txt
 parking.reg.ru StevenBlack/fakenews-gambling-porn.fork.txt
+parking.reg.ru tracking-and-telemetry/neodevpro/host.fork.txt
+www.reg.ru ads/blocklistproject/hosts.fork.txt
+
+# Outbyte (software company)
+outbyte.com malicious/DandelionSprout-AntiMalwareHosts.fork.txt
+outbyte.com malicious/RPiList/Malware.fork.txt
+
+# Chomikuj.pl (Polish file hosting service)
+chomikuj.pl other/StevenBlack/fakenews-gambling-porn.fork.txt
+chomikuj.pl porn/4skinSkywalker/hosts.fork.txt
+chomikuj.pl porn/Sinfonietta/pornography-hosts.fork.txt
+s6704.chomikuj.pl abuse/blocklistproject/hosts.fork.txt
+s6704.chomikuj.pl malicious/blocklistproject/malware.fork.txt
+s72.chomikuj.pl abuse/blocklistproject/hosts.fork.txt
+s72.chomikuj.pl malicious/blocklistproject/malware.fork.txt
+s8802.chomikuj.pl abuse/blocklistproject/hosts.fork.txt
+s8802.chomikuj.pl malicious/blocklistproject/malware.fork.txt
