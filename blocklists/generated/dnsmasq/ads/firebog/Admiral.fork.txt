@@ -1,7 +1,8 @@
 # Admiral, parsed and mirrored by https://firebog.net
-# Updated 11DEC23 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
-# This is sourced from an "adblock" style list which may contain mistakes in how it is parsed
-# Please bring any such issues up at https://github.com/WaLLy3K/wally3k.github.io/issues
+# Updated 01APR24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
+# This is sourced from an "adblock" style list which is flat-out NOT designed to work with DNS sinkholes
+# There WILL be mistakes with how this is parsed, due to how domain names are extracted and exceptions handled
+# Please bring any parsing issues up at https://github.com/WaLLy3K/wally3k.github.io/issues prior to raising a request upstream
 # Please contact the original maintainer for any list corrections
 server=/2znp09oa.com/
 server=/4jnzhl0d0.com/
@@ -593,6 +594,7 @@ server=/honorableland.com/
 server=/hoplaugh.com/
 server=/horsenectar.com/
 server=/hosenews.com/
+server=/hospitablehall.com/
 server=/humdrumhat.com/
 server=/hurtgrape.com/
 server=/hurtteeth.com/
@@ -730,6 +732,7 @@ server=/mixedreading.com/
 server=/modifyeyes.com/
 server=/modularmental.com/
 server=/moldyicicle.com/
+server=/moorshoes.com/
 server=/motionflowers.com/
 server=/motionlessbag.com/
 server=/motionlessbelief.com/
