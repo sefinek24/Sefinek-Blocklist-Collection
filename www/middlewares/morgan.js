@@ -52,6 +52,6 @@ const normalizeBody = ({ body }) => {
 morgan.token('body', normalizeBody);
 
 module.exports = {
-	use: morgan('[:status :method :response-time ms] :url :user-agent ":referrer" :body', { skip: skipUserAgent() }),
+	use: morgan('[:status :method :response-time ms] :url HTTP/:http-version :user-agent ":referrer" :body', { skip: skipUserAgent() }),
 	userAgents,
 };
