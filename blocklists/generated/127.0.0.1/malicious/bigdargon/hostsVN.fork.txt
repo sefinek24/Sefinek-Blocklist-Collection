@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 09 Apr 2024 23:15 UTC+7
-# Version: 2404092315
-# Blocked: 19,976 domains
+# Last modified: 14 Apr 2024 22:12 UTC+7
+# Version: 2404142212
+# Blocked: 20,004 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -1742,6 +1742,14 @@
 127.0.0.1 httpkafka-master.ads.prd.ie.internal.unity3d.com
 127.0.0.1 httpkafka.ads.prd.ie.internal.unity3d.com
 127.0.0.1 publisher-event.ads.prd.ie.internal.unity3d.com
+#[iads.unity3d.com]
+127.0.0.1 iads.unity3d.com
+127.0.0.1 a-uap.iads.unity3d.com
+127.0.0.1 c.iads.unity3d.com
+127.0.0.1 cdn.iads.unity3d.com
+127.0.0.1 icon-uap.iads.unity3d.com
+127.0.0.1 o-pxt.iads.unity3d.com
+127.0.0.1 o.iads.unity3d.com
 #[applvn.com]
 127.0.0.1 a.applvn.com
 127.0.0.1 applvn.com
@@ -2527,14 +2535,11 @@
 127.0.0.1 wpengine.taplytics.com
 127.0.0.1 www.taplytics.com
 #[amplitude.com]
-127.0.0.1 amplitude.com
-127.0.0.1 analytics.amplitude.com
 127.0.0.1 api.amplitude.com
+127.0.0.1 api.eu.amplitude.com
+127.0.0.1 api.lab.amplitude.com
 127.0.0.1 api2.amplitude.com
 127.0.0.1 cdn.amplitude.com
-127.0.0.1 info.amplitude.com
-127.0.0.1 regionconfig.amplitude.com
-127.0.0.1 static.amplitude.com
 #[measuread]
 127.0.0.1 b-stage.measuread.com
 127.0.0.1 b.measuread.com
@@ -5013,25 +5018,6 @@
 127.0.0.1 medusa-api.cbsileads.com
 127.0.0.1 static.cbsileads.com
 127.0.0.1 www.cbsileads.com
-#[cbsinteractive.com]
-127.0.0.1 adops.cbsinteractive.com
-127.0.0.1 ads.asia.cbsinteractive.com
-127.0.0.1 asia.cbsinteractive.com
-127.0.0.1 b2b-ma.cbsinteractive.com
-127.0.0.1 cbsinteractive.com
-127.0.0.1 cnu.cbsinteractive.com
-127.0.0.1 connect.cbsinteractive.com
-127.0.0.1 ddpefewest.cbsinteractive.com
-127.0.0.1 gadgets.cbsinteractive.com
-127.0.0.1 gammo.cbsinteractive.com
-127.0.0.1 i.asia.cbsinteractive.com
-127.0.0.1 legalterms.cbsinteractive.com
-127.0.0.1 nls.cbsinteractive.com
-127.0.0.1 ocp.cbsinteractive.com
-127.0.0.1 secure-ca.cbsinteractive.com
-127.0.0.1 vidtech.cbsinteractive.com
-127.0.0.1 vtstage.cbsinteractive.com
-127.0.0.1 www.cbsinteractive.com
 #[adsfactor.net]
 127.0.0.1 adsfactor.net
 127.0.0.1 cdn.adsfactor.net
@@ -10828,7 +10814,6 @@
 #[cbsi.com]
 127.0.0.1 adimg.cbsi.com
 127.0.0.1 adlog.cbsi.com
-127.0.0.1 at.cbsi.com
 127.0.0.1 intent.cbsi.com
 127.0.0.1 om.cbsi.com
 #[cbsi.video]
@@ -11230,6 +11215,7 @@
 #[trackingtraffo.com]
 127.0.0.1 ads.trackingtraffo.com
 127.0.0.1 rtb.trackingtraffo.com
+127.0.0.1 track-eu.trackingtraffo.com
 127.0.0.1 track.trackingtraffo.com
 127.0.0.1 trackingtraffo.com
 #[adapf.com]
@@ -11670,6 +11656,44 @@
 #[3u.com]
 127.0.0.1 ios-pclog.3u.com
 127.0.0.1 ios.pclog.3u.com
+#[maxvaluead.com]
+127.0.0.1 maxvaluead.com
+127.0.0.1 media.maxvaluead.com
+127.0.0.1 srv.maxvaluead.com
+127.0.0.1 track.maxvaluead.com
+#[adsrv.net]
+127.0.0.1 adsrv.net
+127.0.0.1 api.adsrv.net
+127.0.0.1 media-master.adsrv.net
+127.0.0.1 media.adsrv.net
+127.0.0.1 node-01.adsrv.net
+127.0.0.1 node-02.adsrv.net
+127.0.0.1 node-03.adsrv.net
+127.0.0.1 node-04.adsrv.net
+127.0.0.1 node-05.adsrv.net
+127.0.0.1 node-06.adsrv.net
+127.0.0.1 srv.adsrv.net
+127.0.0.1 track.adsrv.net
+127.0.0.1 zabbix.adsrv.net
+#[youku.com]
+127.0.0.1 adx-open-service.youku.com
+127.0.0.1 cad.youku.com
+127.0.0.1 ems.youku.com
+127.0.0.1 pcapp-data-collect.youku.com
+127.0.0.1 ykad-data.youku.com
+127.0.0.1 ykad-gateway.youku.com
+#[ad.youku.com]
+127.0.0.1 ad.youku.com
+127.0.0.1 pre-yk-ssp.ad.youku.com
+127.0.0.1 yk-ssp.ad.youku.com
+#[atm.youku.com]
+127.0.0.1 atm.youku.com
+127.0.0.1 cm.miaozhen.atm.youku.com
+127.0.0.1 m.atm.youku.com
+127.0.0.1 val.atm.youku.com
+#[ut.youku.com]
+127.0.0.1 adashx.ut.youku.com
+127.0.0.1 h-adashx.ut.youku.com
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -13310,6 +13334,7 @@
 127.0.0.1 bgadx.com
 127.0.0.1 bidgear-syndication.com
 127.0.0.1 cdn-ads.thesaigontimes.vn
+127.0.0.1 cdn.adxcontent.com
 127.0.0.1 cdn.qc24h.com
 127.0.0.1 cdn2.cache.vn
 127.0.0.1 chiasephim.xyz
@@ -14670,6 +14695,7 @@
 127.0.0.1 ahtsrekzeb.com
 127.0.0.1 ahura-maz.com
 127.0.0.1 aibsgc.com
+127.0.0.1 aickeebsi.com
 127.0.0.1 aihoasso.net
 127.0.0.1 ailalbapt.club
 127.0.0.1 ailpielei.com
@@ -15431,6 +15457,7 @@
 127.0.0.1 callloop.com
 127.0.0.1 callousbrake.com
 127.0.0.1 camberchimp.com
+127.0.0.1 cameesse.net
 127.0.0.1 campaign.bharatmatrimony.com
 127.0.0.1 campaigns.williamhill.com
 127.0.0.1 campongprecant.com
@@ -16694,6 +16721,7 @@
 127.0.0.1 gipaxqfpopu.com
 127.0.0.1 gipxpuotwv.com
 127.0.0.1 girawrolrorf.com
+127.0.0.1 gishejuy.com
 127.0.0.1 gk79a2oup.com
 127.0.0.1 gkemujoccwin.com
 127.0.0.1 gketcakpeh.com
@@ -16923,6 +16951,7 @@
 127.0.0.1 hicawxojvcc.com
 127.0.0.1 hidden.gogoceleb.com
 127.0.0.1 hidelen.com
+127.0.0.1 highcpmcreativeformat.com
 127.0.0.1 highcpmrevenuenetwork.com
 127.0.0.1 highfalutinhoney.com
 127.0.0.1 highfalutinroom.com
@@ -17905,6 +17934,7 @@
 127.0.0.1 moodokay.com
 127.0.0.1 moolahmedia.com
 127.0.0.1 moonlitturbots.com
+127.0.0.1 moonoafy.net
 127.0.0.1 moradu.com
 127.0.0.1 morguebattle.com
 127.0.0.1 morrowfreezer.com
@@ -20078,6 +20108,7 @@
 127.0.0.1 ueikno.com
 127.0.0.1 uejwqbgtjxdw.com
 127.0.0.1 ueypzubwo.com
+127.0.0.1 ufiledsit.com
 127.0.0.1 uge521.com
 127.0.0.1 uhealth.care
 127.0.0.1 uhxmyqyevkcvit.com
@@ -20198,6 +20229,7 @@
 127.0.0.1 variousformatscontent.com
 127.0.0.1 vasgenerete.site
 127.0.0.1 vattingbalak.com
+127.0.0.1 vaugroar.com
 127.0.0.1 vcuobpfisalm.com
 127.0.0.1 vdopia.com
 127.0.0.1 ve01.mgod33cme.com
@@ -20811,6 +20843,7 @@
 127.0.0.1 zorprhbnwbezie.com
 127.0.0.1 zosteraclumsy.website
 127.0.0.1 zouemtjzuae.com
+127.0.0.1 zovidree.com
 127.0.0.1 zpbhjatpnaovj.com
 127.0.0.1 zpidadpuhcm.com
 127.0.0.1 zrljkhcwhxhh.com
@@ -21131,6 +21164,7 @@
 127.0.0.1 invitejs.trustpilot.com
 127.0.0.1 invoca.net
 127.0.0.1 iovation.com
+127.0.0.1 ipinyou.com
 127.0.0.1 js.go2sdk.com
 127.0.0.1 js.hscollectedforms.net
 127.0.0.1 js.hsleadflows.net

@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 09 Apr 2024 23:15 UTC+7
-# Version: 2404092315
-# Blocked: 19,976 domains
+# Last modified: 14 Apr 2024 22:12 UTC+7
+# Version: 2404142212
+# Blocked: 20,004 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -1742,6 +1742,14 @@ server=/ads-game-configuration-master.ads.prd.ie.internal.unity3d.com/
 server=/httpkafka-master.ads.prd.ie.internal.unity3d.com/
 server=/httpkafka.ads.prd.ie.internal.unity3d.com/
 server=/publisher-event.ads.prd.ie.internal.unity3d.com/
+#[iads.unity3d.com]
+server=/iads.unity3d.com/
+server=/a-uap.iads.unity3d.com/
+server=/c.iads.unity3d.com/
+server=/cdn.iads.unity3d.com/
+server=/icon-uap.iads.unity3d.com/
+server=/o-pxt.iads.unity3d.com/
+server=/o.iads.unity3d.com/
 #[applvn.com]
 server=/a.applvn.com/
 server=/applvn.com/
@@ -2527,14 +2535,11 @@ server=/taplytics.com/
 server=/wpengine.taplytics.com/
 server=/www.taplytics.com/
 #[amplitude.com]
-server=/amplitude.com/
-server=/analytics.amplitude.com/
 server=/api.amplitude.com/
+server=/api.eu.amplitude.com/
+server=/api.lab.amplitude.com/
 server=/api2.amplitude.com/
 server=/cdn.amplitude.com/
-server=/info.amplitude.com/
-server=/regionconfig.amplitude.com/
-server=/static.amplitude.com/
 #[measuread]
 server=/b-stage.measuread.com/
 server=/b.measuread.com/
@@ -5013,25 +5018,6 @@ server=/creatives.cbsileads.com/
 server=/medusa-api.cbsileads.com/
 server=/static.cbsileads.com/
 server=/www.cbsileads.com/
-#[cbsinteractive.com]
-server=/adops.cbsinteractive.com/
-server=/ads.asia.cbsinteractive.com/
-server=/asia.cbsinteractive.com/
-server=/b2b-ma.cbsinteractive.com/
-server=/cbsinteractive.com/
-server=/cnu.cbsinteractive.com/
-server=/connect.cbsinteractive.com/
-server=/ddpefewest.cbsinteractive.com/
-server=/gadgets.cbsinteractive.com/
-server=/gammo.cbsinteractive.com/
-server=/i.asia.cbsinteractive.com/
-server=/legalterms.cbsinteractive.com/
-server=/nls.cbsinteractive.com/
-server=/ocp.cbsinteractive.com/
-server=/secure-ca.cbsinteractive.com/
-server=/vidtech.cbsinteractive.com/
-server=/vtstage.cbsinteractive.com/
-server=/www.cbsinteractive.com/
 #[adsfactor.net]
 server=/adsfactor.net/
 server=/cdn.adsfactor.net/
@@ -10828,7 +10814,6 @@ server=/sophi.io/
 #[cbsi.com]
 server=/adimg.cbsi.com/
 server=/adlog.cbsi.com/
-server=/at.cbsi.com/
 server=/intent.cbsi.com/
 server=/om.cbsi.com/
 #[cbsi.video]
@@ -11230,6 +11215,7 @@ server=/www.clickcease.com/
 #[trackingtraffo.com]
 server=/ads.trackingtraffo.com/
 server=/rtb.trackingtraffo.com/
+server=/track-eu.trackingtraffo.com/
 server=/track.trackingtraffo.com/
 server=/trackingtraffo.com/
 #[adapf.com]
@@ -11670,6 +11656,44 @@ server=/jsc.yodimedia.com/
 #[3u.com]
 server=/ios-pclog.3u.com/
 server=/ios.pclog.3u.com/
+#[maxvaluead.com]
+server=/maxvaluead.com/
+server=/media.maxvaluead.com/
+server=/srv.maxvaluead.com/
+server=/track.maxvaluead.com/
+#[adsrv.net]
+server=/adsrv.net/
+server=/api.adsrv.net/
+server=/media-master.adsrv.net/
+server=/media.adsrv.net/
+server=/node-01.adsrv.net/
+server=/node-02.adsrv.net/
+server=/node-03.adsrv.net/
+server=/node-04.adsrv.net/
+server=/node-05.adsrv.net/
+server=/node-06.adsrv.net/
+server=/srv.adsrv.net/
+server=/track.adsrv.net/
+server=/zabbix.adsrv.net/
+#[youku.com]
+server=/adx-open-service.youku.com/
+server=/cad.youku.com/
+server=/ems.youku.com/
+server=/pcapp-data-collect.youku.com/
+server=/ykad-data.youku.com/
+server=/ykad-gateway.youku.com/
+#[ad.youku.com]
+server=/ad.youku.com/
+server=/pre-yk-ssp.ad.youku.com/
+server=/yk-ssp.ad.youku.com/
+#[atm.youku.com]
+server=/atm.youku.com/
+server=/cm.miaozhen.atm.youku.com/
+server=/m.atm.youku.com/
+server=/val.atm.youku.com/
+#[ut.youku.com]
+server=/adashx.ut.youku.com/
+server=/h-adashx.ut.youku.com/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -13310,6 +13334,7 @@ server=/banner.uto.vn/
 server=/bgadx.com/
 server=/bidgear-syndication.com/
 server=/cdn-ads.thesaigontimes.vn/
+server=/cdn.adxcontent.com/
 server=/cdn.qc24h.com/
 server=/cdn2.cache.vn/
 server=/chiasephim.xyz/
@@ -14670,6 +14695,7 @@ server=/ahtomjpzymf.com/
 server=/ahtsrekzeb.com/
 server=/ahura-maz.com/
 server=/aibsgc.com/
+server=/aickeebsi.com/
 server=/aihoasso.net/
 server=/ailalbapt.club/
 server=/ailpielei.com/
@@ -15431,6 +15457,7 @@ server=/callfire.com/
 server=/callloop.com/
 server=/callousbrake.com/
 server=/camberchimp.com/
+server=/cameesse.net/
 server=/campaign.bharatmatrimony.com/
 server=/campaigns.williamhill.com/
 server=/campongprecant.com/
@@ -16694,6 +16721,7 @@ server=/ginpithed.live/
 server=/gipaxqfpopu.com/
 server=/gipxpuotwv.com/
 server=/girawrolrorf.com/
+server=/gishejuy.com/
 server=/gk79a2oup.com/
 server=/gkemujoccwin.com/
 server=/gketcakpeh.com/
@@ -16923,6 +16951,7 @@ server=/hhyokmmfoax.com/
 server=/hicawxojvcc.com/
 server=/hidden.gogoceleb.com/
 server=/hidelen.com/
+server=/highcpmcreativeformat.com/
 server=/highcpmrevenuenetwork.com/
 server=/highfalutinhoney.com/
 server=/highfalutinroom.com/
@@ -17905,6 +17934,7 @@ server=/monsterpops.com/
 server=/moodokay.com/
 server=/moolahmedia.com/
 server=/moonlitturbots.com/
+server=/moonoafy.net/
 server=/moradu.com/
 server=/morguebattle.com/
 server=/morrowfreezer.com/
@@ -20078,6 +20108,7 @@ server=/udwuyw.com/
 server=/ueikno.com/
 server=/uejwqbgtjxdw.com/
 server=/ueypzubwo.com/
+server=/ufiledsit.com/
 server=/uge521.com/
 server=/uhealth.care/
 server=/uhxmyqyevkcvit.com/
@@ -20198,6 +20229,7 @@ server=/variouscreativeformats.com/
 server=/variousformatscontent.com/
 server=/vasgenerete.site/
 server=/vattingbalak.com/
+server=/vaugroar.com/
 server=/vcuobpfisalm.com/
 server=/vdopia.com/
 server=/ve01.mgod33cme.com/
@@ -20811,6 +20843,7 @@ server=/zoqueanbemoil.life/
 server=/zorprhbnwbezie.com/
 server=/zosteraclumsy.website/
 server=/zouemtjzuae.com/
+server=/zovidree.com/
 server=/zpbhjatpnaovj.com/
 server=/zpidadpuhcm.com/
 server=/zrljkhcwhxhh.com/
@@ -21131,6 +21164,7 @@ server=/inside-graph.com/
 server=/invitejs.trustpilot.com/
 server=/invoca.net/
 server=/iovation.com/
+server=/ipinyou.com/
 server=/js.go2sdk.com/
 server=/js.hscollectedforms.net/
 server=/js.hsleadflows.net/
