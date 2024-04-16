@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 08 Apr 2024 16:00:28 +0100
+# Last converted - Tue, 16 Apr 2024 10:40:51 +0100
 #
 
 server=/adeventtracker.spotify.com/
@@ -76,7 +76,6 @@ server=/appsflyer-report.honkaiimpact3.com/
 server=/attr.appsflyer.com/
 server=/banner.appsflyer.com/
 server=/cdnappicons.appsflyer.com/
-server=/conversions.appsflyer.com/
 server=/dls2s.appsflyer.com/
 server=/dlsdk.appsflyer.com/
 server=/events.appsflyer.com/
@@ -443,6 +442,7 @@ server=/sdk-api-v1.singular.net/
 server=/analytics-api.liveapp.com/
 server=/telemetry.voxeet.com/
 server=/usertrack.appcpi.net/
+server=/conversions.appsflyer.com/
 server=/collect.serious.li/
 server=/analytics.jodelapis.com/
 server=/analytics.mobilegamestats.com/
@@ -502,9 +502,7 @@ server=/amdcopen.m.taobao.com/
 server=/logsink.zedge.net/
 server=/consent-manager-events.ogury.io/
 server=/api.share.mob.com/
-server=/m.data.mob.com/
 server=/bi.manhuaren.com/
-server=/c.data.mob.com/
 server=/analytics.datasavannah.com/
 server=/sq.requestads.com/
 server=/insight.ucweb.com/
