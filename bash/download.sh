@@ -95,6 +95,7 @@ urls=(
   "https://blocklistproject.github.io/Lists/scam.txt scam/blocklistproject/scam.fork.txt"
   "https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt scam/Dogino/Discord-Phishing-URLs-scam.fork.txt"
   "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt scam/durablenapkin/scamblocklist.fork.txt"
+  "https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt scam/jarelllama/scam.fork.txt"
 
   ## Polish filters
   "https://hole.cert.pl/domains/domains_hosts.txt other/polish-blocklists/cert.pl/domains-hosts.fork.txt"
@@ -140,6 +141,12 @@ urls=(
   ## StevenBlack hosts
   "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts other/StevenBlack/hosts.fork.txt"
   "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts other/StevenBlack/fakenews-gambling-porn.fork.txt"
+
+  ## Useless websites
+  "https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/data/parked_domains.txt useless-websites/jarelllama/parked-domains.fork.txt"
+
+  ## Dead domains
+  "https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/data/dead_domains.txt dead-domains/jarelllama/dead-domains.fork.txt
 )
 
 # Verifying the presence of required tools: curl and node
