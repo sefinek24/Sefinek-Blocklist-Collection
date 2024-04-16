@@ -100,7 +100,9 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/redirect/blocklistproject/redirec
 http://192.168.2.150:8080/generated/v1/0.0.0.0/scam/blocklistproject/scam.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/scam/durablenapkin/scamblocklist.fork.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/sites/gamebanana.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/sites/omegle.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/sites/patreon.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/sites/riotgames.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/social/snapchat.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/social/tiktok.txt

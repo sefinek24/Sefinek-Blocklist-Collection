@@ -100,7 +100,9 @@ https://blocklist.sefinek.net/generated/v1/noip/redirect/blocklistproject/redire
 https://blocklist.sefinek.net/generated/v1/noip/scam/blocklistproject/scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/scam/durablenapkin/scamblocklist.fork.txt
+https://blocklist.sefinek.net/generated/v1/noip/sites/gamebanana.txt
 https://blocklist.sefinek.net/generated/v1/noip/sites/omegle.txt
+https://blocklist.sefinek.net/generated/v1/noip/sites/patreon.txt
 https://blocklist.sefinek.net/generated/v1/noip/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/v1/noip/social/snapchat.txt
 https://blocklist.sefinek.net/generated/v1/noip/social/tiktok.txt

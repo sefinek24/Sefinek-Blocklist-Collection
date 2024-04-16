@@ -100,7 +100,9 @@ https://blocklist.sefinek.net/generated/v1/adguard/redirect/blocklistproject/red
 https://blocklist.sefinek.net/generated/v1/adguard/scam/blocklistproject/scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/scam/durablenapkin/scamblocklist.fork.txt
+https://blocklist.sefinek.net/generated/v1/adguard/sites/gamebanana.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/omegle.txt
+https://blocklist.sefinek.net/generated/v1/adguard/sites/patreon.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/v1/adguard/social/snapchat.txt
 https://blocklist.sefinek.net/generated/v1/adguard/social/tiktok.txt
