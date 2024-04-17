@@ -37,7 +37,7 @@ Let's strive for a safer, more responsible online environment for everyone!
 
 ## 🗑️ Pointless/Unused Domains
 Below are some example URLs with lists of pointless/unused domains that you may find helpful:
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/useless-websites.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/useless-websites/sefinek.hosts.txt
 
 
 <hr>

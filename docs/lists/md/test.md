@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: 0.0.0.0 [Domain]</b><br>
-        📥 » <b>Last update: 16.04.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 17.04.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -119,5 +119,5 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/MajkiIT/ad
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/neodevpro/host.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
-http://192.168.2.150:8080/generated/v1/0.0.0.0/useless-websites.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/useless-websites/sefinek.hosts.txt
 ```

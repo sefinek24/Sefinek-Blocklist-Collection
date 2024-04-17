@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: AdGuard</b><br>
-        📥 » <b>Last update: 16.04.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 17.04.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -119,5 +119,5 @@ https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/MajkiI
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/neodevpro/host.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
-https://blocklist.sefinek.net/generated/v1/adguard/useless-websites.txt
+https://blocklist.sefinek.net/generated/v1/adguard/useless-websites/sefinek.hosts.txt
 ```
