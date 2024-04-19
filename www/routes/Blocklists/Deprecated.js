@@ -153,7 +153,7 @@ router.get('/generated/0.0.0.0/gambling.txt', (req, res) => res.sendFile(`${Zero
 router.get('/generated/0.0.0.0/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/dating-services/developerdan/extended.fork.txt`));
 
 // Useless Websites
-router.get('/generated/0.0.0.0/useless-websites.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/useless-websites.txt`));
+router.get('/generated/0.0.0.0/useless-websites.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/useless-websites/sefinek.hosts.txt`));
 
 // Anime
 router.get('/generated/0.0.0.0/anime/shinden.pl.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/anime/shinden.pl.txt`));
@@ -336,7 +336,7 @@ router.get('/generated/127.0.0.1/gambling.txt', (req, res) => res.sendFile(`${lo
 router.get('/generated/127.0.0.1/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${localhost}/dating-services/developerdan/extended.fork.txt`));
 
 // Useless Websites
-router.get('/generated/127.0.0.1/useless-websites.txt', (req, res) => res.sendFile(`${localhost}/useless-websites.txt`));
+router.get('/generated/127.0.0.1/useless-websites.txt', (req, res) => res.sendFile(`${localhost}/useless-websites/sefinek.hosts.txt`));
 
 // Anime
 router.get('/generated/127.0.0.1/anime/shinden.pl.txt', (req, res) => res.sendFile(`${localhost}/anime/shinden.pl.txt`));
@@ -518,7 +518,7 @@ router.get('/generated/noip/gambling.txt', (req, res) => res.sendFile(`${noIp}/g
 router.get('/generated/noip/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${noIp}/dating-services/developerdan/extended.fork.txt`));
 
 // Useless Websites
-router.get('/generated/noip/useless-websites.txt', (req, res) => res.sendFile(`${noIp}/useless-websites.txt`));
+router.get('/generated/noip/useless-websites.txt', (req, res) => res.sendFile(`${noIp}/useless-websites/sefinek.hosts.txt`));
 
 // Anime
 router.get('/generated/noip/anime/shinden.pl.txt', (req, res) => res.sendFile(`${noIp}/anime/shinden.pl.txt`));
@@ -700,7 +700,7 @@ router.get('/generated/adguard/gambling.txt', (req, res) => res.sendFile(`${adgu
 router.get('/generated/adguard/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${adguard}/dating-services/developerdan/extended.fork.txt`));
 
 // Useless Websites
-router.get('/generated/adguard/useless-websites.txt', (req, res) => res.sendFile(`${adguard}/useless-websites.txt`));
+router.get('/generated/adguard/useless-websites.txt', (req, res) => res.sendFile(`${adguard}/useless-websites/sefinek.hosts.txt`));
 
 // Anime
 router.get('/generated/adguard/anime/shinden.pl.txt', (req, res) => res.sendFile(`${adguard}/anime/shinden.pl.txt`));
@@ -882,7 +882,7 @@ router.get('/generated/dnsmasq/gambling.txt', (req, res) => res.sendFile(`${dnsm
 router.get('/generated/dnsmasq/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${dnsmasq}/dating-services/developerdan/extended.fork.txt`));
 
 // Useless Websites
-router.get('/generated/dnsmasq/useless-websites.txt', (req, res) => res.sendFile(`${dnsmasq}/useless-websites.txt`));
+router.get('/generated/dnsmasq/useless-websites.txt', (req, res) => res.sendFile(`${dnsmasq}/useless-websites/sefinek.hosts.txt`));
 
 // Anime
 router.get('/generated/dnsmasq/anime/shinden.pl.txt', (req, res) => res.sendFile(`${dnsmasq}/anime/shinden.pl.txt`));
