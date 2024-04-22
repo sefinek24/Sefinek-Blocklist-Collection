@@ -131,7 +131,6 @@ urls=(
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/hosts/pro.txt extensions/hagezi/pro.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_host.txt extensions/MajkiIT/adguard-host.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/easy_privacy_host.txt extensions/MajkiIT/easy-privacy-host.fork.txt"
-  "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt extensions/notracking/hostnames.fork.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardApps.txt extensions/r-a-y/AdguardApps.fork.txt"
   "https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardMobileSpyware.txt extensions/r-a-y/AdguardMobileSpyware.fork.txt"
 

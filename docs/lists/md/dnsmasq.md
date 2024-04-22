@@ -53,7 +53,6 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/hagezi/pro.fork.tx
 https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/justdomains/adguarddns-justdomains.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/MajkiIT/adguard-host.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/MajkiIT/easy-privacy-host.fork.txt
-https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/notracking/hostnames.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/oisd/big.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/r-a-y/AdguardApps.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/r-a-y/AdguardMobileSpyware.fork.txt
