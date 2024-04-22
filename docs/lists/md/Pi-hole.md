@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Pi-hole / 0.0.0.0 [Domain]</b><br>
-        📥 » <b>Last update: 17.04.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 23.04.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -42,6 +42,7 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/crypto/cryptojacking/hoshsadi
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/crypto/cryptojacking/Snota418/Crypto-streams.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/dating-services/developerdan/extended.fork.txt
+https://blocklist.sefinek.net/generated/v1/0.0.0.0/dead-domains/jarelllama/dead-domains.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/drugs/blocklistproject/drugs.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/extensions/cbuijs/adult-domains-24733.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/extensions/deathbybandaid/CountryCodesLists-France.fork.txt
@@ -100,6 +101,7 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/redirect/blocklistproject/red
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/blocklistproject/scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/durablenapkin/scamblocklist.fork.txt
+https://blocklist.sefinek.net/generated/v1/0.0.0.0/scam/jarelllama/scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/gamebanana.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/omegle.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/patreon.txt
@@ -119,5 +121,6 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/MajkiI
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/neodevpro/host.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
+https://blocklist.sefinek.net/generated/v1/0.0.0.0/useless-websites/jarelllama/parked-domains.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/useless-websites/sefinek.hosts.txt
 ```
