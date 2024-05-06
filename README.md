@@ -53,7 +53,7 @@ You can find it at the very top of the [whitelists/main.txt](https://github.com/
 - **Repository:**  
 The blocklists in this repository are updated every `2 hours` by [GitHub Actions](.github/workflows/download-blocklists.yml).
 - **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):**  
-Synchronization occurs daily at `00:00` and `06:00`. 24-hour clock; Poland time zone: `GMT+01:00`; Cron: `0 0,6 * * *` (at minute 0, hour 0 and 6);
+Synchronization occurs daily at `01:00` and `06:00`. 24-hour clock; Poland time zone: `GMT+01:00`; Cron: `0 1,6 * * *` (at minute 0 past hour 1 and 6);
 > [!IMPORTANT]
 > Visit this [here](https://blocklist.sefinek.net/update-frequency) to check the next repository synchronization schedule according to your time zone.
 > This can help in setting the optimal time for the cron job for your [Pi-hole](https://pi-hole.net) instance or any other blocking software, including DNS servers.
