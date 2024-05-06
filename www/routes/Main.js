@@ -10,7 +10,7 @@ router.get('/api', (req, res) => res.render('api.ejs', { version }));
 
 router.get('/update-frequency', (req, res) => {
 	const github = parser.parseExpression('0 */2 * * *', tz);
-	const remote = parser.parseExpression('0 0,6 * * *', tz);
+	const remote = parser.parseExpression('0 1,6 * * *', tz);
 
 	res.render('update-frequency.ejs', { cron: { github: github.next().toISOString(), remote: remote.next().toISOString() }, version });
 });
