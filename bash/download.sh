@@ -203,7 +203,7 @@ for url in "${urls[@]}"; do
   if ! file_size=$(curl -A "$user_agent" -L -o "$file_dir/$filename" "$download_url" -w "%{size_download}"); then
     echo "❌ An error occurred while downloading $download_url."
   else
-    # Formatting the file size for better readability.
+    # Formatting the file size for better readability
     if [ "$file_size" -ge 1048576 ]; then
       file_size=$(echo "scale=2; $file_size / 1048576" | bc)
       size_unit="MB"

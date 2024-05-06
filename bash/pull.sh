@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Paths
-repo_path="/home/ubuntu/node/Sefinek-Blocklist-Collection"  # Path to the repository
-logs_dir="$repo_path/www/public/logs"  # Directory to store logs
-output_file="$logs_dir/pull_$(date +'%Y-%m-%d').log"  # Path to the output log file
+repo_path="/home/sefinek/node/Sefinek-Blocklist-Collection" # Path to the repository
+logs_dir="$repo_path/www/public/logs" # Directory to store logs
+output_file="$logs_dir/pull_$(date +'%Y-%m-%d').log" # Path to the output log file
 
 # Check if Git is installed
 if ! command -v git &> /dev/null; then
@@ -34,7 +34,7 @@ mkdir -p "$logs_dir"
         if git fetch && git pull; then
             echo -e "\nSuccess! Date: $(date +'%Y-%m-%d %H:%M:%S')"
         else
-            echo -e "\nError during Git operations."
+            echo -e "\nError during Git operations!"
         fi
         echo
     else
