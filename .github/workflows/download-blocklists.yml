@@ -36,6 +36,48 @@ jobs:
       - name: Prepare templates
         run: node scripts/prepare-templates.js
 
+      - name: Remove duplicates
+        run: node scripts/remove-duplicates.js
+
+      - name: Remove domains that are on the whitelist
+        run: node scripts/whitelist.js
+
+      - name: Sort templates
+        run: node scripts/sort-templates.js
+
+      - name: Set valid encoding
+        run: node scripts/set-valid-encoding.js
+
+      - name: Count domains
+        run: node scripts/update-number-of-domains.js --ignore-question
+
+      - name: Lint
+        run: node scripts/lint.js
+
+      # - name: Create everything list
+      #   run: node scripts/create-everything-list.js
+
+      - name: Generate No IP list
+        run: node scripts/generate/noip.js
+
+      - name: Generate 0.0.0.0 list
+        run: node scripts/generate/0.0.0.0.js
+
+      - name: Generate 127.0.0.1 list
+        run: node scripts/generate/127.0.0.1.js
+
+      - name: Generate AdGuard list
+        run: node scripts/generate/adguard.js
+
+      - name: Generate Dnsmasq list
+        run: node scripts/generate/dnsmasq.js
+
+      - name: Generate RPZ list
+        run: node scripts/generate/rpz.js
+
+      - name: Generate list for Unbound
+        run: node scripts/generate/unbound.js
+
       - name: Track large files
         run: |
           find . -type f -name '*.txt' -size +100M | xargs -I {} git lfs track "{}"
