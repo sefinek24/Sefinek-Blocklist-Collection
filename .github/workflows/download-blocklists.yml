@@ -4,8 +4,6 @@ name: Download and generate blocklists
 
 on:
   schedule: # https://crontab.guru
-    # - cron: '0 */5 * * *' # At minute 0 past every 5th hour.
-    # - cron: '0 * * * *' # At minute 0.
     - cron: '0 */2 * * *' # At minute 0 past every 2nd hour.
 
   workflow_dispatch:
