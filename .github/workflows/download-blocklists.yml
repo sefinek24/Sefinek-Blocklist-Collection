@@ -16,6 +16,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+          lfs: true
+
+      - name: Set up Git LFS
+        run: git lfs install
 
       - name: Download blocklists
         run: bash bash/download.sh
@@ -32,49 +36,11 @@ jobs:
       - name: Prepare templates
         run: node scripts/prepare-templates.js
 
-      - name: Remove duplicates
-        run: node scripts/remove-duplicates.js
+      - name: Track large files
+        run: |
+          git lfs track "blocklists/generated/**"
 
-      - name: Remove domains that are on the whitelist
-        run: node scripts/whitelist.js
-
-      - name: Sort templates
-        run: node scripts/sort-templates.js
-
-      - name: Set valid encoding
-        run: node scripts/set-valid-encoding.js
-
-      - name: Count domains
-        run: node scripts/update-number-of-domains.js --ignore-question
-
-      - name: Lint
-        run: node scripts/lint.js
-
-      # - name: Create everything list
-      #   run: node scripts/create-everything-list.js
-
-      - name: Generate No IP list
-        run: node scripts/generate/noip.js
-
-      - name: Generate 0.0.0.0 list
-        run: node scripts/generate/0.0.0.0.js
-
-      - name: Generate 127.0.0.1 list
-        run: node scripts/generate/127.0.0.1.js
-
-      - name: Generate AdGuard list
-        run: node scripts/generate/adguard.js
-
-      - name: Generate Dnsmasq list
-        run: node scripts/generate/dnsmasq.js
-
-      - name: Generate RPZ list
-        run: node scripts/generate/rpz.js
-
-      - name: Generate list for Unbound
-        run: node scripts/generate/unbound.js
-
-      - name: Commit and push changes
+      - name: Commit large files with LFS
         run: |
           git config --global user.name "Sefinek Actions"
           git config --global user.email "sefinek.actions@gmail.com"
@@ -82,7 +48,7 @@ jobs:
           if [ -n "$(git status -s)" ]; then
             git status
             git commit -m "Download blocklists and update files"
-            git push
+            git push origin main
           else
             echo "Canceled. No changes to commit."
           fi
