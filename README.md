@@ -42,7 +42,7 @@ This may be suitable for those who prefer a quick and straightforward solution w
 You can report a false positive by creating a new [Issue](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues), sending me a message on [Discord](https://sefinek.net), or through [email](https://sefinek.net).
 Within 48 hours, I will add the domain or subdomain to the [whitelist](whitelists/main.txt).
 Shortly thereafter, the false positive will be automatically removed from the blocklist via [GitHub Actions](.github/workflows/generate-blocklists.yml).
-The blocklists on the primary server ([blocklist.sefinek.net](https://blocklist.sefinek.net)) are updated every 24 hours (cron schedule: 0 0,6 * * *).
+The blocklists on the primary server ([blocklist.sefinek.net](https://blocklist.sefinek.net)) are updated every 25 hours (cron schedule: 0 1,6 * * *).
 
 ### ⏰ Can I create a Pull Request and add a false positive to the whitelist?
 Of course, you can definitely create such a [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls). Remember to follow the required syntax!
