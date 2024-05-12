@@ -38,13 +38,16 @@ jobs:
 
       - name: Track large files
         run: |
-          git lfs track "blocklists/generated/**"
+          find . -type f -name '*.txt' -size +100M | xargs -I {} git lfs track "{}"
+          git add .gitattributes
 
-      - name: Commit large files with LFS
+      - name: Add files to staging
+        run: git add .
+
+      - name: Commit and push changes
         run: |
           git config --global user.name "Sefinek Actions"
           git config --global user.email "sefinek.actions@gmail.com"
-          git add .
           if [ -n "$(git status -s)" ]; then
             git status
             git commit -m "Download blocklists and update files"
