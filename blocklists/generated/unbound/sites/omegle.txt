@@ -1,0 +1,98 @@
+server:
+#       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
+#      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
+#     | (___   | |__    | |__      | |   |  \| | | |__    | ' /        | |_) | | |      | |  | | | |      | ' /  | |        | |   | (___      | |
+#      \___ \  |  __|   |  __|     | |   | . ` | |  __|   |  <         |  _ <  | |      | |  | | | |      |  <   | |        | |    \___ \     | |
+#      ____) | | |____  | |       _| |_  | |\  | | |____  | . \        | |_) | | |____  | |__| | | |____  | . \  | |____   _| |_   ____) |    | |
+#     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
+#
+#                                             The best collection of blocklists for your DNS server
+#                                                       https://blocklist.sefinek.net
+#
+# Title       : Block Omegle.com
+# Description : This list includes the main Riot Games website, as well as related services such as game launchers and authentication servers.
+# Count       : 68
+# Author      : Sefinek (https://sefinek.net) <contact@sefinek.net>
+# Modified by : Nobody
+# Source      : N/A
+# License     : Unknown
+# Release     : Unbound
+# Version     : 1715540224354
+# Last update : May 12, 2024 at 6:57 PM UTC | 2024-05-12T18:57:04.354+00:00 | UTC
+#
+# 〢 About:
+# This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
+# If you come across any false positives, please create a new Issue or Pull request on GitHub. Thank you!
+#
+# 〢 Warning:
+# By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
+#
+# -------------------------------------------------------------------------------------------------------------------------------------------------------
+local-zone: "api-2022.omegle.fun." always_nxdomain
+local-zone: "api.omegle.fun." always_nxdomain
+local-zone: "apitest.omegle.fun." always_nxdomain
+local-zone: "chatserv.omegle.com." always_nxdomain
+local-zone: "fbserv.omegle.com." always_nxdomain
+local-zone: "front1.omegle.com." always_nxdomain
+local-zone: "front10.omegle.com." always_nxdomain
+local-zone: "front11.omegle.com." always_nxdomain
+local-zone: "front12.omegle.com." always_nxdomain
+local-zone: "front13.omegle.com." always_nxdomain
+local-zone: "front14.omegle.com." always_nxdomain
+local-zone: "front15.omegle.com." always_nxdomain
+local-zone: "front16.omegle.com." always_nxdomain
+local-zone: "front17.omegle.com." always_nxdomain
+local-zone: "front18.omegle.com." always_nxdomain
+local-zone: "front19.omegle.com." always_nxdomain
+local-zone: "front2.omegle.com." always_nxdomain
+local-zone: "front20.omegle.com." always_nxdomain
+local-zone: "front21.omegle.com." always_nxdomain
+local-zone: "front22.omegle.com." always_nxdomain
+local-zone: "front23.omegle.com." always_nxdomain
+local-zone: "front24.omegle.com." always_nxdomain
+local-zone: "front25.omegle.com." always_nxdomain
+local-zone: "front26.omegle.com." always_nxdomain
+local-zone: "front27.omegle.com." always_nxdomain
+local-zone: "front28.omegle.com." always_nxdomain
+local-zone: "front29.omegle.com." always_nxdomain
+local-zone: "front3.omegle.com." always_nxdomain
+local-zone: "front30.omegle.com." always_nxdomain
+local-zone: "front31.omegle.com." always_nxdomain
+local-zone: "front32.omegle.com." always_nxdomain
+local-zone: "front33.omegle.com." always_nxdomain
+local-zone: "front34.omegle.com." always_nxdomain
+local-zone: "front35.omegle.com." always_nxdomain
+local-zone: "front36.omegle.com." always_nxdomain
+local-zone: "front37.omegle.com." always_nxdomain
+local-zone: "front38.omegle.com." always_nxdomain
+local-zone: "front39.omegle.com." always_nxdomain
+local-zone: "front4.omegle.com." always_nxdomain
+local-zone: "front40.omegle.com." always_nxdomain
+local-zone: "front41.omegle.com." always_nxdomain
+local-zone: "front42.omegle.com." always_nxdomain
+local-zone: "front43.omegle.com." always_nxdomain
+local-zone: "front44.omegle.com." always_nxdomain
+local-zone: "front45.omegle.com." always_nxdomain
+local-zone: "front46.omegle.com." always_nxdomain
+local-zone: "front47.omegle.com." always_nxdomain
+local-zone: "front48.omegle.com." always_nxdomain
+local-zone: "front5.omegle.com." always_nxdomain
+local-zone: "front6.omegle.com." always_nxdomain
+local-zone: "front7.omegle.com." always_nxdomain
+local-zone: "front8.omegle.com." always_nxdomain
+local-zone: "front9.omegle.com." always_nxdomain
+local-zone: "l.omegle.com." always_nxdomain
+local-zone: "lady.omegle.com." always_nxdomain
+local-zone: "log.omegle.com." always_nxdomain
+local-zone: "logs.omegle.com." always_nxdomain
+local-zone: "mail.omegle.fun." always_nxdomain
+local-zone: "omegle.com." always_nxdomain
+local-zone: "omegle.fun." always_nxdomain
+local-zone: "rtmfp.omegle.com." always_nxdomain
+local-zone: "waw1.omegle.com." always_nxdomain
+local-zone: "waw2.omegle.com." always_nxdomain
+local-zone: "waw3.omegle.com." always_nxdomain
+local-zone: "waw4.omegle.com." always_nxdomain
+local-zone: "wawadmin.omegle.com." always_nxdomain
+local-zone: "www.omegle.com." always_nxdomain
+local-zone: "www.omegle.fun." always_nxdomain
