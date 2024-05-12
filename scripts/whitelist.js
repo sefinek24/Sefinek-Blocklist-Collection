@@ -1,7 +1,7 @@
 const { readdir, readFile, writeFile } = require('node:fs/promises');
 const { join, relative } = require('node:path');
 
-const loadWhitelist = async (whitelistPath) => {
+const loadWhitelist = async whitelistPath => {
 	const whitelistContent = await readFile(whitelistPath, 'utf8');
 	const whitelistMap = new Map();
 	const globalWhitelist = new Set();

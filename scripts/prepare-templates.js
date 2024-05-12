@@ -7,7 +7,7 @@ const processDirectory = async dirPath => {
 		await mkdir(dirPath, { recursive: true });
 
 		const fileNames = await readdir(dirPath);
-		const txtFiles = fileNames.filter((fileName) => fileName.endsWith('.txt'));
+		const txtFiles = fileNames.filter(fileName => fileName.endsWith('.txt'));
 
 		await Promise.all(
 			txtFiles.map(async (fileName) => {
