@@ -23,5 +23,5 @@ This regular expression matches any string that starts with any number of letter
 Regular expressions can be a powerful tool for blocking unwanted content on your network. However, they can also be complex to create and maintain, so it's important to test your regex rules thoroughly before implementing them on your Pi-hole.
 
 <h3 align="right">
-    <a href="../../Regex%20list.md">Go to recommended regex list »</a>
+    <a href="../lists/Regex.md">Go to recommended regex list »</a>
 </h3>
