@@ -7,7 +7,7 @@
 
 const fs = require('fs').promises;
 const path = require('path');
-const date = require('./utils/date.js');
+const date = require('./functions/date.js');
 
 const defaultFolder = path.join(__dirname, '..', 'blocklists', 'templates');
 const generatedFolder = path.join(__dirname, '..', 'blocklists', 'generated');

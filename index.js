@@ -3,7 +3,7 @@ require('dotenv').config();
 const cluster = require('node:cluster');
 const { availableParallelism } = require('node:os');
 const path = require('node:path');
-const createDir = require('./scripts/utils/createDir.js');
+const createDir = require('./scripts/functions/createDir.js');
 
 if (!process.env.NODE_ENV || !process.env.DOMAIN || !process.env.PORT) {
 	throw new Error('Environment variables are null or undefined');

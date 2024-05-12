@@ -1,7 +1,7 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
-const date = require('../utils/date.js');
-const sha256 = require('../utils/sha512.js');
+const date = require('../functions/date.js');
+const sha256 = require('../functions/sha512.js');
 const txtFilter = require('../functions/txtFilter.js');
 const process = require('../functions/process.js');
 
