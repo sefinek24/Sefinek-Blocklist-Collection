@@ -2,15 +2,6 @@
 # Description: This list blocks known domains used in the VOIP application Discord by scammers. Adding this list to your Pi-Hole blocklist will prevent those domains from loading.
 # Last modified: Sun, 11 Feb 2024, 19:00 UTC+02
 # Origin: https://github.com/Dogino/Discord-Phishing-URLs
-127.0.0.1 cord.gifts
-127.0.0.1 discord.de
-127.0.0.1 discord.st
-127.0.0.1 discordapp.co
-127.0.0.1 discordcdn.co
-127.0.0.1 iscord.gift
-127.0.0.1 ord.gg
-127.0.0.1 steamcommunity.co
-127.0.0.1 witch.tv
 # Above domains are listed as false positive for Phades, they will be included in the Pi-Hole list.
 127.0.0.1 02ip.ru
 127.0.0.1 0p-1.com
@@ -2298,6 +2289,7 @@
 127.0.0.1 copyrightbussinessgroup.com
 127.0.0.1 cord-gift.site
 127.0.0.1 cord-jobs.com
+127.0.0.1 cord.gifts
 127.0.0.1 corona-virus-map.com
 127.0.0.1 counter-2strike.com
 127.0.0.1 counter-stricke.ru
@@ -3284,8 +3276,6 @@
 127.0.0.1 d1scrod.site
 127.0.0.1 d21isfuwnko22a.cloudfront.net
 127.0.0.1 d2rbbpzoi5ae11.cloudfront.net
-127.0.0.1 discord-app.com
-127.0.0.1 discord.net
 127.0.0.1 dabaicai.com
 127.0.0.1 daddsda.xyz
 127.0.0.1 dadiscord.com
@@ -4434,6 +4424,7 @@
 127.0.0.1 discord-app.club
 127.0.0.1 discord-app.co
 127.0.0.1 discord-app.co.uk
+127.0.0.1 discord-app.com
 127.0.0.1 discord-app.ga
 127.0.0.1 discord-app.gift
 127.0.0.1 discord-app.gifts
@@ -5539,6 +5530,7 @@
 127.0.0.1 discord.data
 127.0.0.1 discord.dating
 127.0.0.1 discord.day
+127.0.0.1 discord.de
 127.0.0.1 discord.deals
 127.0.0.1 discord.directory
 127.0.0.1 discord.download
@@ -5598,6 +5590,7 @@
 127.0.0.1 discord.mom
 127.0.0.1 discord.moscow
 127.0.0.1 discord.my
+127.0.0.1 discord.net
 127.0.0.1 discord.online
 127.0.0.1 discord.org
 127.0.0.1 discord.org.ru
@@ -5623,6 +5616,7 @@
 127.0.0.1 discord.solutions
 127.0.0.1 discord.soy
 127.0.0.1 discord.space
+127.0.0.1 discord.st
 127.0.0.1 discord.study
 127.0.0.1 discord.swaychat.cn
 127.0.0.1 discord.taxi
@@ -5730,6 +5724,7 @@
 127.0.0.1 discordapp.chat
 127.0.0.1 discordapp.click
 127.0.0.1 discordapp.cloud
+127.0.0.1 discordapp.co
 127.0.0.1 discordapp.co.uk
 127.0.0.1 discordapp.code
 127.0.0.1 discordapp.codes
@@ -5878,6 +5873,7 @@
 127.0.0.1 discordcalendar.com
 127.0.0.1 discordcanary.com
 127.0.0.1 discordcb.pl
+127.0.0.1 discordcdn.co
 127.0.0.1 discordcdn.ml
 127.0.0.1 discordcdn.sa.com
 127.0.0.1 discordcdn.xyz
@@ -12230,6 +12226,7 @@
 127.0.0.1 irsinvest.com
 127.0.0.1 isanofca.gq
 127.0.0.1 iscord.club
+127.0.0.1 iscord.gift
 127.0.0.1 iscord.xyz
 127.0.0.1 iscorddiscord.com
 127.0.0.1 iscordglft.org
@@ -15284,6 +15281,7 @@
 127.0.0.1 orbita-lviv.com
 127.0.0.1 orbiter.pm
 127.0.0.1 orcawall.com
+127.0.0.1 ord.gg
 127.0.0.1 order-40.com
 127.0.0.1 order-78.com
 127.0.0.1 order-87.com
@@ -21145,6 +21143,7 @@
 127.0.0.1 steamcommunity.cloud
 127.0.0.1 steamcommunity.cm
 127.0.0.1 steamcommunity.cn
+127.0.0.1 steamcommunity.co
 127.0.0.1 steamcommunity.co.ua
 127.0.0.1 steamcommunity.com-id-k4tushatwitchbabydota.ru
 127.0.0.1 steamcommunity.com.cn
@@ -31287,6 +31286,7 @@
 127.0.0.1 wintwitch.com
 127.0.0.1 wirtualna-ratownikwopr.pl
 127.0.0.1 wishuiuck.net
+127.0.0.1 witch.tv
 127.0.0.1 withereum.com
 127.0.0.1 witoxo.com
 127.0.0.1 wits-nft.com
