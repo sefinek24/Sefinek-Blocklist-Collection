@@ -40,6 +40,12 @@ jobs:
       - name: Remove domains that are on the whitelist
         run: node scripts/whitelist.js
 
+      - name: Sort templates
+        run: node scripts/sort-templates.js
+
+      - name: Set valid encoding
+        run: node scripts/set-valid-encoding.js
+
       - name: Count domains
         run: node scripts/update-number-of-domains.js --ignore-question
 
@@ -63,6 +69,12 @@ jobs:
 
       - name: Generate Dnsmasq list
         run: node scripts/generate/dnsmasq.js
+
+      - name: Generate RPZ list
+        run: node scripts/generate/rpz.js
+
+      - name: Generate list for Unbound
+        run: node scripts/generate/unbound.js
 
       - name: Commit and push changes
         run: |

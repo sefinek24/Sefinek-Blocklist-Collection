@@ -1,7 +1,7 @@
 const { mkdir, readdir, readFile, writeFile } = require('node:fs/promises');
 const { join } = require('node:path');
 
-const processDirectory = async (dirPath) => {
+const processDirectory = async dirPath => {
 	try {
 		await mkdir(dirPath, { recursive: true });
 
