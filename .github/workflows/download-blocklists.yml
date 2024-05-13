@@ -80,7 +80,7 @@ jobs:
 
       - name: Track large files
         run: |
-          find . -type f -name '*.txt' -size +50M | xargs -I {} git lfs track "{}"
+          find . -type f \( -name "*.txt" -o -name "*.conf" \) -size +50M | xargs -I {} git lfs track "{}"
           git add .gitattributes
 
       - name: Add files to staging
