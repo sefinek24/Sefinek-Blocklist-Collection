@@ -1,11 +1,11 @@
 ## Update v0.14.0 - 10.03.2024
-1. The repository has been equipped with a [whitelist](whitelists/main.txt). Domains or subdomains on this list will NEVER appear in the selected blocklists.
+1. The repository has been equipped with a [whitelist](../whitelists/main.txt). Domains or subdomains on this list will NEVER appear in the selected blocklists.
 2. Blocklists have been organized by category (the links to these lists have been changed).
 3. Scripts responsible for generating the blocklists have been corrected.
 4. Additional improvements have been made.
 
 ## Update v0.13.1 - 30.01.2024
-1. Added [LICENSE](LICENSE).
+1. Added [LICENSE](../LICENSE).
 2. Updated all dependencies.
 3. Updated blocklists.
 4. Other fixes and improvements.
