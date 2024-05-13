@@ -10,7 +10,7 @@ module.exports = wss => {
 
 		// Set up an interval to periodically send data to the connected client
 		const interval = setInterval(async () => {
-			const database = await RequestStats.findOne({}).limit(1);
+			const database = await RequestStats.findOne({});
 			const cpuUsage = await cpu.usage();
 
 			// Prepare and send JSON data to the client

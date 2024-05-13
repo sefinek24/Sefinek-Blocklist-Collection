@@ -23,7 +23,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replace(/<Version>/gim, date.timestamp)
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);
 
-		const fullNewFile = path.join(generatedPath, file.name);
+		const fullNewFile = path.join(generatedPath, file.name.replace('.txt', '.conf'));
 		await fs.writeFile(fullNewFile, `server:\n${replacedFile}`);
 
 		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
