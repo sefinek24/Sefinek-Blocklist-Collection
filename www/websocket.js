@@ -37,5 +37,5 @@ module.exports = wss => {
 		});
 	});
 
-	console.log('Loaded WebSocket.');
+	console.log('WebSocket server is running');
 };

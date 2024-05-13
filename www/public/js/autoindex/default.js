@@ -62,6 +62,9 @@ tableLinks.forEach(link => {
 	} else if (isTextFile(linkText)) {
 		applyLinkStyles(link, 'cyan', 'word.png');
 		link.href = link.href.replace('/markdown/', '/viewer/');
+	} else if (linkText.endsWith('.conf')) {
+		applyLinkStyles(link, 'cyan', 'file.png');
+		link.href = link.href.replace('/markdown/', '/viewer/');
 	} else {
 		applyLinkStyles(link, 'red', 'unknown-mail.png');
 	}
