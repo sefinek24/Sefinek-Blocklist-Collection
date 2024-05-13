@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715599278412 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715623784853 43200 3600 259200 300
   NS  localhost.
 ;
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
@@ -12,16 +12,17 @@ $TTL 300
 ;                                             The best collection of blocklists for your DNS server
 ;                                                       https://blocklist.sefinek.net
 ;
-; Title       : Block websites that are reported by Norton Antivirus to be malicious. Read more: https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/Norton.txt
-; Description : These websites may contain malware, viruses, phishing scams, or other types of harmful content that can infect your computer, steal your personal information, or damage your device. Remember not to visit these websites.
-; Count       : 16
-; Author      : Sefinek (https://sefinek.net) <contact@sefinek.net>
-; Modified by : Nobody
-; Source      : N/A
-; License     : Unknown
-; Release     : RPZ
-; Version     : 1715599278412
-; Last update : May 13, 2024 at 11:21 AM UTC | 2024-05-13T11:21:18.412+00:00 | UTC
+; Title: Block websites that are reported by Norton Antivirus to be malicious. Read more: https://cdn.sefinek.net/resources/PiHole-Blocklist-Collection/Norton.txt
+; Description: These websites may contain malware, viruses, phishing scams, or other types of harmful content that can infect your computer, steal your personal information, or damage your device. Remember not to visit these websites.
+; Expires: 1 day
+; Count: 16
+; Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
+; Modified by: Nobody
+; Source: N/A
+; License: Unknown
+; Release: RPZ
+; Version: 1715623784853
+; Last update: May 13, 2024 at 6:09 PM UTC | 2024-05-13T18:09:44.853+00:00 | UTC
 ;
 ; 〢 About:
 ; This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
