@@ -3,7 +3,6 @@ require('dotenv').config({ path: './.env' });
 const fs = require('fs').promises;
 const axios = require('axios');
 const kleur = require('kleur');
-const readline = require('readline');
 const { version } = require('../package.json');
 
 // New
@@ -15,21 +14,9 @@ const markdownFiles = [
 	'./docs/lists/md/Pi-hole.md',
 ];
 
-// Old
-// const markdownFiles = [
-// 	'./docs/lists/deprecated/lists/127.0.0.1.md',
-// 	'./docs/lists/deprecated/lists/AdGuard.md',
-// 	'./docs/lists/deprecated/lists/dnsmasq.md',
-// 	'./docs/lists/deprecated/lists/noip.md',
-// 	'./docs/lists/deprecated/lists/Pi-hole.md',
-// ];
-
-
 // Axios
 const headers = {
-	headers: {
-		'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklists/${version}; +https://blocklist.sefinek.net)`,
-	},
+	headers: { 'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklists/${version}; +https://blocklist.sefinek.net)` },
 };
 
 // Constants
@@ -37,6 +24,7 @@ const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
 
 // Variables
+const urlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
 let totalLinks = 0;
 let successfulLinks = 0;
 let failedLinks = 0;
@@ -49,7 +37,6 @@ function serveUrl(link) {
 	const linkRegex = /(http|https):\/\/[^ "]+/g;
 	const mainDomainRegex = /https:\/\/blocklist\.sefinek\.net/gi;
 	const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
-	// const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
 
 	if (!linkRegex.test(link)) {
 		console.warn(kleur.yellow('Error:'), `Invalid link: ${link}`);
@@ -171,8 +158,6 @@ function extractLinks(content) {
 
 	while ((match = linkRegex.exec(content))) {
 		const codeBlock = match[1];
-		const urlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
-		// const urlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
 		let urlMatch;
 
 		while ((urlMatch = urlRegex.exec(codeBlock))) {
@@ -193,37 +178,12 @@ function sleep(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Immediately invoke the testLinks function when the script is executed
 (async () => {
-	if (process.env.SERVE_FILES === 'redirect') {
-		const rl = readline.createInterface({
-			input: process.stdin,
-			output: process.stdout,
-		});
-
-		rl.question(`${kleur.magenta('SERVE_FILES')} ${kleur.blue('is set to')} ${kleur.magenta('redirect')}. ${kleur.blue('Do you want to continue?')} ${kleur.yellow('[Yes/no]:')} `, async answer => {
-			if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-				try {
-					await testLinks();
-				} catch (err) {
-					console.error(kleur.red(`${process.env.SERVE_FILES}: An error occurred while testing links: ` + err.stack));
-					process.exit(1);
-				}
-			} else {
-				console.log(kleur.yellow(`${process.env.SERVE_FILES}: Okay. Canceled.`));
-			}
-
-			rl.close();
-		});
-	} else {
-		console.log(kleur.yellow(`${kleur.yellow('SERVE_FILES')} ${kleur.blue('is not set to')} ${kleur.yellow('redirect')}.`));
-
-		try {
-			await testLinks();
-		} catch (err) {
-			console.error(kleur.red(`${process.env.SERVE_FILES}: An error occurred while testing links: ` + err.stack));
-			process.exit(1);
-		}
+	try {
+		await testLinks();
+	} catch (err) {
+		console.error(kleur.red(`An error occurred while testing links: ${err.stack}`));
+		process.exit(1);
 	}
 })();
 
