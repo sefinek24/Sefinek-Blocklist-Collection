@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715599278412 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715638903342 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,9 +8,9 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 12 May 2024
+; Updated: 13 May 2024
 ; LatestVersion 24.01
-; Domain Count: 16541
+; Domain Count: 16533
 ;===============================================================
 0i0i0i0.com CNAME .
 *.0i0i0i0.com CNAME .
@@ -46,8 +46,6 @@ $TTL 300
 *.247-inc.net CNAME .
 247.ai CNAME .
 *.247.ai CNAME .
-247inc.net CNAME .
-*.247inc.net CNAME .
 247realmedia.com CNAME .
 *.247realmedia.com CNAME .
 24support.cc CNAME .
@@ -30288,8 +30286,6 @@ ifc.org CNAME .
 *.ifc.org CNAME .
 ig.ca CNAME .
 *.ig.ca CNAME .
-ikea.com CNAME .
-*.ikea.com CNAME .
 illinois.gov CNAME .
 *.illinois.gov CNAME .
 illumina.com CNAME .
@@ -30302,8 +30298,6 @@ intact.ca CNAME .
 *.intact.ca CNAME .
 interbank.pe CNAME .
 *.interbank.pe CNAME .
-com.au CNAME .
-*.com.au CNAME .
 intervalworld.com CNAME .
 *.intervalworld.com CNAME .
 investec.com CNAME .
@@ -30332,8 +30326,6 @@ joefresh.com CNAME .
 *.joefresh.com CNAME .
 johnfrieda.com CNAME .
 *.johnfrieda.com CNAME .
-joules.com CNAME .
-*.joules.com CNAME .
 jre-travel.com CNAME .
 *.jre-travel.com CNAME .
 kaercher.com CNAME .
@@ -30354,24 +30346,18 @@ com.au CNAME .
 *.com.au CNAME .
 kbb.com CNAME .
 *.kbb.com CNAME .
-kenwood.com CNAME .
-*.kenwood.com CNAME .
 kerry.com CNAME .
 *.kerry.com CNAME .
 keysight.com CNAME .
 *.keysight.com CNAME .
 kone.com CNAME .
 *.kone.com CNAME .
-kpmg.us CNAME .
-*.kpmg.us CNAME .
 kyndryl.com CNAME .
 *.kyndryl.com CNAME .
 labaie.com CNAME .
 *.labaie.com CNAME .
 lakeshorelearning.com CNAME .
 *.lakeshorelearning.com CNAME .
-lakeside.com CNAME .
-*.lakeside.com CNAME .
 lambweston.com CNAME .
 *.lambweston.com CNAME .
 landa.com CNAME .
@@ -30414,8 +30400,6 @@ loblaws.ca CNAME .
 *.loblaws.ca CNAME .
 loewshotels.com CNAME .
 *.loewshotels.com CNAME .
-loft.com CNAME .
-*.loft.com CNAME .
 lordabbett.com CNAME .
 *.lordabbett.com CNAME .
 los40.com CNAME .
