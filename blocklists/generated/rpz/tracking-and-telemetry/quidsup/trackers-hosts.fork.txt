@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715638903342 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715811839968 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,9 +8,9 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 13 May 2024
+; Updated: 15 May 2024
 ; LatestVersion 24.01
-; Domain Count: 16533
+; Domain Count: 16514
 ;===============================================================
 0i0i0i0.com CNAME .
 *.0i0i0i0.com CNAME .
@@ -2236,8 +2236,6 @@ clickbank.net CNAME .
 *.clickbank.net CNAME .
 clickcertain.com CNAME .
 *.clickcertain.com CNAME .
-clickdensity.com CNAME .
-*.clickdensity.com CNAME .
 clickdimensions.com CNAME .
 *.clickdimensions.com CNAME .
 clickfrog.ru CNAME .
@@ -9400,6 +9398,8 @@ mkt1197.com CNAME .
 *.mkt1197.com CNAME .
 mkt11971.com CNAME .
 *.mkt11971.com CNAME .
+mkt11973.com CNAME .
+*.mkt11973.com CNAME .
 mkt11975.com CNAME .
 *.mkt11975.com CNAME .
 mkt11979.com CNAME .
@@ -30446,14 +30446,8 @@ mathworks.cn CNAME .
 *.mathworks.cn CNAME .
 mathworks.com CNAME .
 *.mathworks.com CNAME .
-matlab.com CNAME .
-*.matlab.com CNAME .
 maurices.com CNAME .
 *.maurices.com CNAME .
-maxi.ca CNAME .
-*.maxi.ca CNAME .
-maximintegrated.com CNAME .
-*.maximintegrated.com CNAME .
 mcdonalds.com CNAME .
 *.mcdonalds.com CNAME .
 memberdeals.com CNAME .
@@ -30464,10 +30458,6 @@ meteomedia.com CNAME .
 *.meteomedia.com CNAME .
 mgmresorts.com CNAME .
 *.mgmresorts.com CNAME .
-michaeljfox.org CNAME .
-*.michaeljfox.org CNAME .
-michaelkors.ca CNAME .
-*.michaelkors.ca CNAME .
 michaelkors.com CNAME .
 *.michaelkors.com CNAME .
 michaelkors.es CNAME .
@@ -30490,14 +30480,8 @@ co.jp CNAME .
 *.co.jp CNAME .
 com.au CNAME .
 *.com.au CNAME .
-mizuno.com CNAME .
-*.mizuno.com CNAME .
-modernatx.com CNAME .
-*.modernatx.com CNAME .
 modernhealthcare.com CNAME .
 *.modernhealthcare.com CNAME .
-mollymaid.com CNAME .
-*.mollymaid.com CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
 monsanto.com CNAME .
@@ -30506,18 +30490,12 @@ moodys.com CNAME .
 *.moodys.com CNAME .
 morganstanley.com CNAME .
 *.morganstanley.com CNAME .
-motionindustries.com CNAME .
-*.motionindustries.com CNAME .
 motortrend.com CNAME .
 *.motortrend.com CNAME .
-mounjaro.com CNAME .
-*.mounjaro.com CNAME .
 moving.com CNAME .
 *.moving.com CNAME .
 mphasis.com CNAME .
 *.mphasis.com CNAME .
-mrhandyman.com CNAME .
-*.mrhandyman.com CNAME .
 mrrooter.com CNAME .
 *.mrrooter.com CNAME .
 msg.com CNAME .
@@ -30584,8 +30562,6 @@ com.au CNAME .
 *.com.au CNAME .
 nissanusa.com CNAME .
 *.nissanusa.com CNAME .
-nofrills.ca CNAME .
-*.nofrills.ca CNAME .
 northernterritory.com CNAME .
 *.northernterritory.com CNAME .
 nowtv.com CNAME .
@@ -30594,8 +30570,6 @@ nowtv.it CNAME .
 *.nowtv.it CNAME .
 nvidia.com CNAME .
 *.nvidia.com CNAME .
-nyandcompany.com CNAME .
-*.nyandcompany.com CNAME .
 nykaafashion.com CNAME .
 *.nykaafashion.com CNAME .
 nyulangone.org CNAME .
@@ -30628,8 +30602,6 @@ optimum.net CNAME .
 *.optimum.net CNAME .
 optum.com CNAME .
 *.optum.com CNAME .
-orangetheory.com CNAME .
-*.orangetheory.com CNAME .
 orencia.com CNAME .
 *.orencia.com CNAME .
 otsuka-us.com CNAME .
@@ -30650,10 +30622,6 @@ pbteen.ca CNAME .
 *.pbteen.ca CNAME .
 pbteen.com CNAME .
 *.pbteen.com CNAME .
-pcid.ca CNAME .
-*.pcid.ca CNAME .
-pcoptimum.ca CNAME .
-*.pcoptimum.ca CNAME .
 r-agent.com CNAME .
 *.r-agent.com CNAME .
 peakperformance.com CNAME .
@@ -30666,8 +30634,6 @@ pedrodelhierro.com CNAME .
 *.pedrodelhierro.com CNAME .
 penfed.org CNAME .
 *.penfed.org CNAME .
-pennymacusa.com CNAME .
-*.pennymacusa.com CNAME .
 peoplesjewellers.com CNAME .
 *.peoplesjewellers.com CNAME .
 persol.com CNAME .
@@ -30678,10 +30644,6 @@ petco.com CNAME .
 *.petco.com CNAME .
 pfa.dk CNAME .
 *.pfa.dk CNAME .
-informa.com CNAME .
-*.informa.com CNAME .
-playstation.com CNAME .
-*.playstation.com CNAME .
 plumbenefits.com CNAME .
 *.plumbenefits.com CNAME .
 politico.com CNAME .
