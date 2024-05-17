@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715890969327 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1715908928227 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,176
-; Updated: 5/16/2024  13:59 (1:59 PM CST)
+; Domains: 18,178
+; Updated: 5/16/2024  17:33 (5:33 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -28147,6 +28147,8 @@ pxlsrv.net CNAME .
 *.pxlsrv.net CNAME .
 ibpxl.com CNAME .
 *.ibpxl.com CNAME .
+pxpp.online CNAME .
+*.pxpp.online CNAME .
 pykoo.com CNAME .
 *.pykoo.com CNAME .
 pymx5.com CNAME .
@@ -35481,6 +35483,8 @@ xdisplay.site CNAME .
 *.xdisplay.site CNAME .
 xdserv.com CNAME .
 *.xdserv.com CNAME .
+xdxx.online CNAME .
+*.xdxx.online CNAME .
 xebecindia.com CNAME .
 *.xebecindia.com CNAME .
 xedo.me CNAME .
