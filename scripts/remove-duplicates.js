@@ -15,11 +15,9 @@ const processDirectory = async dirPath => {
 			const existingDomains = new Set();
 			let duplicatesRemoved = 0;
 
-			const lines = fileContents.split('\n').map((line) => line.trim()).filter((line) => line !== '');
-			fileContents = lines.filter((line) => {
-				if (line.startsWith('##') || line.startsWith('#') || line.startsWith('!')) {
-					return true;
-				}
+			const lines = fileContents.split('\n').map(line => line.trim()).filter(line => line !== '');
+			fileContents = lines.filter(line => {
+				if (line.startsWith('##') || line.startsWith('#') || line.startsWith('!')) return true;
 
 				const domain = line.replace(/^(0\.0\.0\.0|127\.0\.0\.1)\s+/, '');
 				if (existingDomains.has(domain)) {
@@ -39,8 +37,8 @@ const processDirectory = async dirPath => {
 
 		const allFiles = await readdir(dirPath, { withFileTypes: true });
 		const subdirectories = allFiles
-			.filter((file) => file.isDirectory())
-			.map((file) => join(dirPath, file.name));
+			.filter(file => file.isDirectory())
+			.map(file => join(dirPath, file.name));
 
 		for (const subdirectory of subdirectories) {
 			await processDirectory(subdirectory);

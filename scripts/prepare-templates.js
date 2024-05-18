@@ -19,7 +19,7 @@ const processDirectory = async dirPath => {
 
 				fileContents = fileContents
 					.split('\n')
-					.map((line) => {
+					.map(line => {
 						line = line.trim();
 
 						if (line.includes('127.0.0.1  localhost')) line = '0.0.0.0 localhost';
