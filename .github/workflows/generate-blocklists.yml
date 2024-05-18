@@ -37,7 +37,7 @@ jobs:
         run: node scripts/prepare-templates.js
 
       - name: Remove duplicates
-        run: node scripts/remove-duplicates.js
+        run: node scripts/prepare-lines.js
 
       - name: Remove domains that are on the whitelist
         run: node scripts/whitelist.js
@@ -55,7 +55,7 @@ jobs:
         run: node scripts/lint.js
 
       # - name: Create everything list
-      #  run: node scripts/create-everything-list.js
+      #   run: node scripts/create-everything-list.js
 
       - name: Generate No IP list
         run: node scripts/generate/noip.js
