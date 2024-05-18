@@ -1,11 +1,8 @@
-## Update v0.16.0 - 18.05.2024
+## Update v0.15.0 - 18.05.2024
 1. Added support for RPZ format and Unbound. [#25](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues/26)
 2. Added a new blocklist `gambling/TrustPositif/gambling-indonesia.fork.txt`. [#26](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues/25)
 3. The scripts responsible for generating block lists have been significantly improved
 4. Other quality fixes.
-
-## Update v0.15.0 - 13.05.2024
-1. Sorry, but I don't remember.
 
 ## Update v0.14.0 - 10.03.2024
 1. The repository has been equipped with a [whitelist](../whitelists/main.txt). Domains or subdomains on this list will NEVER appear in the selected blocklists.
