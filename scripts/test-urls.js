@@ -37,21 +37,19 @@ const invalidLinks = [];
 // Function to serve URLs with appropriate protocol and domain
 function serveUrl(link) {
 	const linkRegex = /(http|https):\/\/[^ "]+/g;
-	const mainDomainRegex = /https:\/\/blocklist\.sefinek\.net/gi;
-	const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|rpz|unbound|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
-
 	if (!linkRegex.test(link)) {
 		console.warn(kleur.yellow('Error:'), `Invalid link: ${link}`);
 		failedLinks++;
 		return null;
 	}
 
-	if (!validUrlRegex.test(link)) {
+	if (!(/https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|rpz|unbound|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim).test(link)) {
 		console.warn(kleur.yellow('Error:'), `Invalid link format: ${link}`);
 		failedLinks++;
 		return null;
 	}
 
+	const mainDomainRegex = /https:\/\/blocklist\.sefinek\.net/gi;
 	if (!mainDomainRegex.test(link)) {
 		console.warn(kleur.yellow('Error:'), `Wrong domain: ${link}`);
 		failedLinks++;
