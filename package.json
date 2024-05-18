@@ -49,15 +49,16 @@
     "express-rate-limit": "^7.2.0",
     "express-timeout-handler": "^2.2.2",
     "helmet": "^7.1.0",
+    "ip": "^2.0.1",
     "luxon": "^3.4.4",
     "marked": "^12.0.2",
-    "mongoose": "^8.3.4",
+    "mongoose": "^8.4.0",
     "morgan": "^1.10.0",
     "node-os-utils": "^1.3.7",
+    "validator": "^13.12.0",
     "ws": "^8.17.0"
   },
   "devDependencies": {
     "kleur": "^4.1.5"
-  },
-  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+  }
 }
