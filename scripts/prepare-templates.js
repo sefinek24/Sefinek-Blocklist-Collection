@@ -48,10 +48,12 @@ const processDirectory = async dirPath => {
 						}
 
 
-						// 127.0.0.0 || 195.187.6.33 || 195.187.6.34  || 195.187.6.35 -> 0.0.0.0
-						if (line.includes('127.0.0.1') || line.includes('195.187.6.33') || line.includes('195.187.6.34') || line.includes('195.187.6.35')) {
+						// 127.0.0.1 || 195.187.6.33 || 195.187.6.34  || 195.187.6.35 -> 0.0.0.0
+						// grex "127.0.0.1" "195.187.6.33" "195.187.6.34" "195.187.6.35"
+						const ipsToReplace = (/^1(?:95\.187\.6\.3[3-5]|27\.0\.0\.1)/g);
+						if (ipsToReplace.test(line)) {
 							modifiedLines++;
-							line = line.replace('127.0.0.1', '0.0.0.0');
+							line = line.replace(ipsToReplace, '0.0.0.0');
 						}
 
 
@@ -121,6 +123,12 @@ const processDirectory = async dirPath => {
 							}
 						}
 
+						// 0.0.0.0domain.tld -> 0.0.0.0 domain.tld
+						const match = line.match(/^0\.0\.0\.0([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})(\s+.*)?$/);
+						if (match) {
+							modifiedLines++;
+							line = `0.0.0.0 ${match[1].toLowerCase()}${match[2] ? match[2] : ''}`;
+						}
 
 						// 0.0.0.0 -> nothing
 						if (line === '0.0.0.0') {
