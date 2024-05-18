@@ -18,56 +18,31 @@
 # Contribute:
 # Create an issue at https://github.com/AdAway/adaway.github.io/issues
 #
-
 server=/localhost/
 
-
-# [163.com]
 server=/analytics.163.com/
 server=/crash.163.com/
 server=/iad.g.163.com/
-
-# [1mobile.com]
 server=/api4.1mobile.com/
-
-# [1rx.io]
 server=/sync.1rx.io/
 server=/tag.1rx.io/
-
-# [206ads.com]
 server=/s.206ads.com/
-
-# [247-inc.net]
 server=/api.247-inc.net/
 server=/tie.247-inc.net/
-
-# [247realmedia.com]
 server=/247realmedia.com/
-
-# [2mdn.net]
 server=/s0.2mdn.net/
-
-# [33across.com]
 server=/cms-xch-chicago.33across.com/
 server=/ssc.33across.com/
 server=/ssc-cms.33across.com/
-
-# [360in.com]
 server=/360in.com/
 server=/ad.360in.com/
 server=/challenge.360in.com/
 server=/dispatcher.360in.com/
 server=/exp.360in.com/
-
-# [360yield.com]
 server=/ad.360yield.com/
-
-# [3gl.net]
 server=/3gl.net/
 server=/g.3gl.net/
 server=/r.3gl.net/
-
-# [3lift.com]
 server=/as-eb2.3lift.com/
 server=/as-tlx.3lift.com/
 server=/cdn.3lift.com/
@@ -83,45 +58,23 @@ server=/update.3lift.com/
 server=/s.update.3lift.com/
 server=/us-east-tlx.3lift.com/
 server=/us-west-tlx.3lift.com/
-
-# [404mobi.com]
 server=/404mobi.com/
-
-# [4dex.io]
 server=/c.4dex.io/
 server=/script.4dex.io/
-
-# [4dsply.com]
 server=/4dsply.com/
-
-# [4seeresults.com]
 server=/4seeresults.com/
 server=/controller.4seeresults.com/
 server=/device.4seeresults.com/
 server=/replaycontroller.4seeresults.com/
-
-# [51ginkgo.com]
 server=/51ginkgo.com/
-
-# [81plug.com]
 server=/logs.81plug.com/
-
-# [88-f.net]
 server=/cdn.88-f.net/
 server=/config.88-f.net/
-
-# [9gag.com]
 server=/rlog.9gag.com/
-
-# [a-ads.com]
 server=/ad.a-ads.com/
 server=/click.a-ads.com/
 server=/static.a-ads.com/
-
-# [a.ki]
 server=/fl.a.ki/
-
-# [a2z.com]
 server=/prod.cm.publishers.advertising.a2z.com/
 server=/notify.bugsnag.appstore.a2z.com/
 server=/analytics.console.aws.a2z.com/
@@ -135,23 +88,11 @@ server=/pw.analytics.console.aws.a2z.com/
 server=/prod.pw.analytics.console.aws.a2z.com/
 server=/metrics.client-eng.a2z.com/
 server=/global.telemetry.insights.video.a2z.com/
-
-# [a3cloud.net]
 server=/segment.a3cloud.net/
-
-# [a8.net]
 server=/a8.net/
-
-# [aa.com]
 server=/smetrics.aa.com/
-
-# [aamapi.com]
 server=/aamapi.com/
-
-# [aamsitecertifier.com]
 server=/aamcf.aamsitecertifier.com/
-
-# [aarki.net]
 server=/adx-asia.aarki.net/
 server=/adx-asia-imp.aarki.net/
 server=/adx-west-imp.aarki.net/
@@ -160,160 +101,86 @@ server=/rm.aarki.net/
 server=/rm-hk.aarki.net/
 server=/spire.aarki.net/
 server=/unity-imp.aarki.net/
-
-# [aatkit.com]
 server=/lb.aatkit.com/
 server=/reporting.aatkit.com/
 server=/rules.aatkit.com/
 server=/rules2.aatkit.com/
 server=/rules3.aatkit.com/
 server=/tracking.aatkit.com/
-
-# [aaxads.com]
 server=/c.aaxads.com/
-
-# [abbi.io]
 server=/assets.abbi.io/
 server=/rtapi.abbi.io/
 server=/stats.abbi.io/
-
-# [abc.com]
 server=/sw88.abc.com/
-
-# [abtasty.com]
 server=/ariane.abtasty.com/
 server=/dcinfos-cache.abtasty.com/
 server=/sr-tag.abtasty.com/
-
-# [accengage.com]
 server=/pingapi.accengage.com/
-
-# [accengage.net]
 server=/daraz-by.accengage.net/
-
-# [accesstrade.vn]
 server=/static.accesstrade.vn/
-
-# [acmeaom.com]
 server=/tags.acmeaom.com/
-
-# [activemetering.com]
 server=/activemetering.com/
 server=/track.activemetering.com/
-
-# [acuityplatform.com]
 server=/ums.acuityplatform.com/
-
-# [ad-brix.com]
 server=/config.ad-brix.com/
-
-# [ad-delivery.net]
 server=/ad-delivery.net/
-
-# [ad-locus.com]
 server=/api.ad-locus.com/
 server=/a.api.ad-locus.com/
-
-# [ad-score.com]
 server=/data.ad-score.com/
 server=/data2.ad-score.com/
 server=/js2.ad-score.com/
 server=/rdr.ad-score.com/
 server=/rt.ad-score.com/
-
-# [ad-srv.co]
 server=/c.ad-srv.co/
-
-# [ad-stir.com]
 server=/ad-stir.com/
 server=/bypass.ad-stir.com/
 server=/js.ad-stir.com/
 server=/sync.ad-stir.com/
 server=/tr.ad-stir.com/
-
-# [ad-x.co.uk]
 server=/ad-x.co.uk/
 server=/apps.ad-x.co.uk/
-
-# [ad.gt]
 server=/a.ad.gt/
 server=/ids.ad.gt/
 server=/p.ad.gt/
 server=/pixels.ad.gt/
 server=/seg.ad.gt/
-
-# [ad.org.vn]
 server=/ad.org.vn/
 server=/serving.ad.org.vn/
-
-# [ad2iction.com]
 server=/adlogs.ad2iction.com/
 server=/ads.ad2iction.com/
 server=/content.ad2iction.com/
-
-# [ad4game.com]
 server=/ads.ad4game.com/
-
-# [ad6media.fr]
 server=/ad6media.fr/
-
-# [adacado.com]
 server=/ad.adacado.com/
 server=/content.adacado.com/
 server=/info.adacado.com/
 server=/pixel.adacado.com/
 server=/strtrk.adacado.com/
-
-# [adadapted.com]
 server=/ads.adadapted.com/
 server=/ec.adadapted.com/
 server=/images.adadapted.com/
 server=/payload.adadapted.com/
-
-# [adalliance.io]
 server=/aqt.adalliance.io/
 server=/mafo.adalliance.io/
-
-# [adalyser.com]
 server=/tracking.adalyser.com/
-
-# [adap.tv]
 server=/adap.tv/
 server=/segments.adap.tv/
 server=/sync.adap.tv/
-
-# [adapex.io]
 server=/adapex.io/
 server=/cdn.adapex.io/
-
-# [adasiaholdings.com]
 server=/adasiaholdings.com/
 server=/adnetwork.adasiaholdings.com/
-
-# [adblade.com]
 server=/adblade.com/
 server=/dmp.adblade.com/
 server=/pixel.adblade.com/
 server=/static-cdn.adblade.com/
-
-# [adbro.me]
 server=/adbro.me/
 server=/apis.adbro.me/
 server=/cdn.adbro.me/
-
-# [adcalls.nl]
 server=/api.adcalls.nl/
-
-# [adcdnx.com]
 server=/cdn1.adcdnx.com/
-
-# [adcel.co]
 server=/rtb.adcel.co/
-
-# [adcell.com]
 server=/t.adcell.com/
-
-# [adcolony.com]
 server=/adcolony.com/
 server=/adc3-assets.adcolony.com/
 server=/adc3-launch.adcolony.com/
@@ -333,13 +200,9 @@ server=/events3alt.adcolony.com/
 server=/iosads24.adcolony.com/
 server=/rtb.adcolony.com/
 server=/wd.adcolony.com/
-
-# [addealsnetwork.com]
 server=/adsinter1.addealsnetwork.com/
 server=/adsvideo1.addealsnetwork.com/
 server=/trk-int.addealsnetwork.com/
-
-# [addthis.com]
 server=/api.addthis.com/
 server=/api-public.addthis.com/
 server=/cw.addthis.com/
@@ -355,37 +218,19 @@ server=/s7.addthis.com/
 server=/s8.addthis.com/
 server=/su.addthis.com/
 server=/v1.addthis.com/
-
-# [addthiscdn.com]
 server=/cache.addthiscdn.com/
-
-# [addthisedge.com]
 server=/m.addthisedge.com/
-
-# [addtoany.com]
 server=/static.addtoany.com/
 server=/stats.addtoany.com/
-
-# [adelement.com]
 server=/ads.adelement.com/
 server=/ctv.adelement.com/
 server=/sc.adelement.com/
-
-# [adentifi.com]
 server=/bm.adentifi.com/
 server=/rtb.adentifi.com/
-
-# [adfalcon.com]
 server=/adfalcon.com/
 server=/api.adfalcon.com/
-
-# [adforgames.com]
 server=/adforgames.com/
-
-# [adform.com]
 server=/adform.com/
-
-# [adform.net]
 server=/adform.net/
 server=/a1.adform.net/
 server=/adx.adform.net/
@@ -398,79 +243,45 @@ server=/cm3.adform.net/
 server=/dmp.adform.net/
 server=/s2.adform.net/
 server=/track.adform.net/
-
-# [adformdsp.net]
 server=/adformdsp.net/
-
-# [adfox.net]
 server=/banners.adfox.net/
-
-# [adfox.ru]
 server=/ads.adfox.ru/
 server=/banners.adfox.ru/
-
-# [adfurikun.jp]
 server=/adfurikun.jp/
 server=/api.adfurikun.jp/
 server=/ginf.adfurikun.jp/
-
-# [adfuture.cn]
 server=/adfuture.cn/
 server=/folder.adfuture.cn/
 server=/fotacontrol.adfuture.cn/
 server=/rebootv5.adfuture.cn/
-
-# [adgaterewards.com]
 server=/clk.adgaterewards.com/
 server=/wall.adgaterewards.com/
-
-# [adgear.com]
 server=/adgear.com/
-
-# [adgrx.com]
 server=/adgrx.com/
 server=/cdn.adgrx.com/
 server=/cdn-stv.adgrx.com/
 server=/cm.adgrx.com/
 server=/rtb.adgrx.com/
 server=/tvx.adgrx.com/
-
-# [adhaven.com]
 server=/adobe.adhaven.com/
 server=/beachfront.adhaven.com/
 server=/e.adhaven.com/
 server=/nxd.adhaven.com/
 server=/openx.adhaven.com/
 server=/telaria.adhaven.com/
-
-# [adhese.com]
 server=/ads-mediafin.adhese.com/
 server=/pool-mediafin.adhese.com/
 server=/pool-pebblemedia.adhese.com/
-
-# [adhigh.net]
 server=/px.adhigh.net/
-
-# [adhitzads.com]
 server=/adhitzads.com/
-
-# [adhood.com]
 server=/adhood.com/
-
-# [adikteev.com]
 server=/aksdk-images.adikteev.com/
-
-# [adincube.com]
 server=/tag.adincube.com/
-
-# [adingo.jp]
 server=/adingo.jp/
 server=/cc.adingo.jp/
 server=/hv.adingo.jp/
 server=/pdn.adingo.jp/
 server=/sh.adingo.jp/
-
-# [adition.com]
 server=/ad11p.adfarm1.adition.com/
 server=/ad13.adfarm1.adition.com/
 server=/adsdk.adfarm1.adition.com/
@@ -479,11 +290,7 @@ server=/cd.adition.com/
 server=/imagesrv.adition.com/
 server=/track.adition.com/
 server=/vt.adition.com/
-
-# [adizio.com]
 server=/pool.adizio.com/
-
-# [adj.st]
 server=/adj.st/
 server=/3p3x.adj.st/
 server=/4495.adj.st/
@@ -493,100 +300,60 @@ server=/bhpz.adj.st/
 server=/q4mn.adj.st/
 server=/r8qs.adj.st/
 server=/sxj8.adj.st/
-
-# [adjoe.zone]
 server=/fraud.adjoe.zone/
 server=/prod.fraud.adjoe.zone/
 server=/prod.adjoe.zone/
-
-# [adjust.com]
 server=/adjust.com/
 server=/app.adjust.com/
 server=/s2s.adjust.com/
 server=/ulink.adjust.com/
 server=/app.us.adjust.com/
 server=/view.adjust.com/
-
-# [adjust.net.in]
 server=/adjust.net.in/
 server=/app.adjust.net.in/
-
-# [adjust.world]
 server=/adjust.world/
 server=/app.adjust.world/
-
-# [adkernel.com]
 server=/dsp.adkernel.com/
 server=/static-rtb.adkernel.com/
 server=/sync.adkernel.com/
 server=/tag.adkernel.com/
-
-# [adkmob.com]
 server=/bp.adkmob.com/
 server=/cm.adkmob.com/
 server=/profile.adkmob.com/
 server=/ssdk.adkmob.com/
 server=/ufs.adkmob.com/
-
-# [adleadevent.com]
 server=/adtrack.adleadevent.com/
-
-# [adledge.com]
 server=/rs2.adledge.com/
-
-# [adligature.com]
 server=/cdn.adligature.com/
-
-# [adlightning.com]
 server=/tagan.adlightning.com/
-
-# [adlooxtracking.com]
 server=/am.adlooxtracking.com/
 server=/as.adlooxtracking.com/
 server=/datam16.adlooxtracking.com/
-
-# [admanmedia.com]
 server=/cs.admanmedia.com/
-
-# [admantx.com]
 server=/async01.admantx.com/
 server=/euasync01.admantx.com/
 server=/usasync01.admantx.com/
-
-# [admarketplace.net]
 server=/bridge.lga1.admarketplace.net/
 server=/pca.admarketplace.net/
 server=/bridge.sfo1.admarketplace.net/
 server=/tracking.admarketplace.net/
-
-# [admarvel.com]
 server=/admarvel.com/
 server=/ads.admarvel.com/
 server=/amp.admarvel.com/
 server=/base-cdn.admarvel.com/
 server=/omax.admarvel.com/
-
-# [admaster.com.cn]
 server=/admaster.com.cn/
 server=/cm.admaster.com.cn/
 server=/iclick.cm.admaster.com.cn/
 server=/smt.admaster.com.cn/
-
-# [admatic.com.tr]
 server=/cdn2.admatic.com.tr/
-
-# [admedia.com]
 server=/b.admedia.com/
 server=/click.admedia.com/
 server=/pixel.admedia.com/
-
-# [admedo.com]
 server=/admedo.com/
 server=/l.admedo.com/
 server=/pj.l.admedo.com/
 server=/ps.l.admedo.com/
-
-# [admicro.vn]
 server=/adi.admicro.vn/
 server=/admatic.admicro.vn/
 server=/adnetwork.admicro.vn/
@@ -598,53 +365,31 @@ server=/pson.logging.admicro.vn/
 server=/media1.admicro.vn/
 server=/min.admicro.vn/
 server=/sspapi.admicro.vn/
-
-# [admitad.com]
 server=/admitad.com/
 server=/ad.admitad.com/
 server=/fonts.ad.admitad.com/
 server=/cdn.admitad.com/
-
-# [admixer.co.kr]
 server=/admixer.co.kr/
 server=/adn.admixer.co.kr/
-
-# [admixer.net]
 server=/admixer.net/
 server=/inv-nets-eu.admixer.net/
-
-# [admob.com]
 server=/apps.admob.com/
 server=/media.admob.com/
-
-# [admost.com]
 server=/admost.com/
 server=/cdn-api.admost.com/
 server=/go.admost.com/
 server=/med-api.admost.com/
-
-# [admulti.com]
 server=/admulti.com/
 server=/gag.admulti.com/
-
-# [adnetmedia.lt]
 server=/banners.adnetmedia.lt/
-
-# [adnetwork.vn]
 server=/adnetwork.vn/
 server=/delivery.adnetwork.vn/
 server=/media.adnetwork.vn/
-
-# [adnium.com]
 server=/adnium.com/
 server=/a.adnium.com/
-
-# [adnxs-simple.com]
 server=/acdn.adnxs-simple.com/
 server=/ib.adnxs-simple.com/
 server=/nym1-ib.adnxs-simple.com/
-
-# [adnxs.com]
 server=/acdn.adnxs.com/
 server=/adscale-emea.adnxs.com/
 server=/ams1-ib.adnxs.com/
@@ -673,8 +418,6 @@ server=/secure.adnxs.com/
 server=/sharethrough.adnxs.com/
 server=/sin3-ib.adnxs.com/
 server=/vcdn.adnxs.com/
-
-# [adobe.com]
 server=/campaign.adobe.com/
 server=/mcd-mkt-prod31-lb.campaign.adobe.com/
 server=/pandoramedia-mkt-prod1-t.campaign.adobe.com/
@@ -682,41 +425,23 @@ server=/wdpro-mkt-prod2-lb.campaign.adobe.com/
 server=/geo.adobe.com/
 server=/adtag.primetime.adobe.com/
 server=/sstats.adobe.com/
-
-# [adop.cc]
 server=/adop.cc/
 server=/appinfo.adop.cc/
 server=/compass.adop.cc/
-
-# [adotmob.com]
 server=/adserver.adotmob.com/
 server=/dmp.adotmob.com/
 server=/dsp.adotmob.com/
 server=/sdk.adotmob.com/
 server=/sync.adotmob.com/
 server=/tracker.adotmob.com/
-
-# [adotube.com]
 server=/adotube.com/
-
-# [adperfect.com]
 server=/casmp.adperfect.com/
-
-# [adpia.vn]
 server=/click.adpia.vn/
-
-# [adpies.com]
 server=/adp.adpies.com/
-
-# [adplex.co.kr]
 server=/adplex.co.kr/
 server=/log.adplex.co.kr/
-
-# [adpopcorn.com]
 server=/sspi.adpopcorn.com/
 server=/ssptrk.adpopcorn.com/
-
-# [adpushup.com]
 server=/amp.adpushup.com/
 server=/public-webservice.apdc1n.adpushup.com/
 server=/apdc3n.adpushup.com/
@@ -725,19 +450,11 @@ server=/cdn.adpushup.com/
 server=/geo.adpushup.com/
 server=/public-webservice.geo.adpushup.com/
 server=/vastdump-staging.adpushup.com/
-
-# [adpxl.co]
 server=/adpxl.co/
 server=/adpxljs.adpxl.co/
 server=/fl.adpxl.co/
-
-# [adreactor.com]
 server=/adserver.adreactor.com/
-
-# [adrizer.com]
 server=/run.adrizer.com/
-
-# [adroll.com]
 server=/adroll.com/
 server=/adx-winners-ap-southeast-1-rtb.adroll.com/
 server=/adx-winners-eu-west-1-rtb.adroll.com/
@@ -766,8 +483,6 @@ server=/yax-winners-ap-southeast-1-rtb.adroll.com/
 server=/yax-winners-eu-west-1-rtb.adroll.com/
 server=/yax-winners-us-east-1-rtb.adroll.com/
 server=/yax-winners-us-west-2-rtb.adroll.com/
-
-# [adrta.com]
 server=/adrta.com/
 server=/cdn.adrta.com/
 server=/gateway.adrta.com/
@@ -778,37 +493,23 @@ server=/p.adrta.com/
 server=/pix.adrta.com/
 server=/q.adrta.com/
 server=/r.adrta.com/
-
-# [adrtx.net]
 server=/adstax-match.adrtx.net/
 server=/adstax-match-proxy.adrtx.net/
 server=/api.adrtx.net/
 server=/cdn.adrtx.net/
-
-# [ads-twitter.com]
 server=/ads-twitter.com/
 server=/static.ads-twitter.com/
-
-# [ads1-adnow.com]
 server=/ads1-adnow.com/
 server=/n.ads1-adnow.com/
 server=/st-n.ads1-adnow.com/
-
-# [ads2-adnow.com]
 server=/ads2-adnow.com/
 server=/n.ads2-adnow.com/
-
-# [ads3-adnow.com]
 server=/ads3-adnow.com/
 server=/n.ads3-adnow.com/
 server=/st-n.ads3-adnow.com/
-
-# [ads5-adnow.com]
 server=/ads5-adnow.com/
 server=/n.ads5-adnow.com/
 server=/st-n.ads5-adnow.com/
-
-# [adsafeprotected.com]
 server=/adsafeprotected.com/
 server=/cdn.adsafeprotected.com/
 server=/dt.adsafeprotected.com/
@@ -827,15 +528,9 @@ server=/vapixel.adsafeprotected.com/
 server=/vast.adsafeprotected.com/
 server=/video.adsafeprotected.com/
 server=/wrapper-vast.adsafeprotected.com/
-
-# [adsafety.net]
 server=/cm.adsafety.net/
 server=/tags.adsafety.net/
-
-# [adsame.com]
 server=/adsame.com/
-
-# [adsbynimbus.com]
 server=/adsbynimbus.com/
 server=/growlr.adsbynimbus.com/
 server=/mw-encyclopediabritannica.adsbynimbus.com/
@@ -843,72 +538,38 @@ server=/timehop.adsbynimbus.com/
 server=/turbo.adsbynimbus.com/
 server=/ua-myfitnesspal.adsbynimbus.com/
 server=/weatherbug.adsbynimbus.com/
-
-# [adscale.de]
 server=/cotads.adscale.de/
 server=/hb.adscale.de/
 server=/ih.adscale.de/
 server=/js.adscale.de/
-
-# [adserve.work]
 server=/adserve.work/
-
-# [adsimilate.com]
 server=/filteradkernel.adsimilate.com/
 server=/xml1.adsimilate.com/
-
-# [adskeeper.co.uk]
 server=/a.adskeeper.co.uk/
 server=/cm.adskeeper.co.uk/
 server=/jsc.adskeeper.co.uk/
 server=/s-img.adskeeper.co.uk/
-
-# [adsmogo.mobi]
 server=/adsmogo.mobi/
-
-# [adsmogo.net]
 server=/adsmogo.net/
-
-# [adsmogo.org]
 server=/adsmogo.org/
-
-# [adsmoloco.com]
 server=/adsmoloco.com/
 server=/bidfnt-asia.adsmoloco.com/
 server=/cdn-f.adsmoloco.com/
 server=/tr-asia.adsmoloco.com/
 server=/tr-eu.adsmoloco.com/
 server=/tr-us.adsmoloco.com/
-
-# [adsmovil.com]
 server=/atr.adsmovil.com/
-
-# [adsniper.ru]
 server=/adsniper.ru/
 server=/sync3.adsniper.ru/
-
-# [adsolutions.com]
 server=/tagmans3.adsolutions.com/
-
-# [adsorb.com]
 server=/collect.adsorb.com/
-
-# [adspirit.de]
 server=/cdn.adspirit.de/
-
-# [adsplay.in]
 server=/track.adsplay.in/
-
-# [adsplay.net]
 server=/adsplay.net/
 server=/d.adsplay.net/
 server=/log.adsplay.net/
-
-# [adspruce.com]
 server=/adspruce.com/
 server=/sdk.adspruce.com/
-
-# [adsrvr.org]
 server=/adsrvr.org/
 server=/a.adsrvr.org/
 server=/ad.adsrvr.org/
@@ -933,16 +594,10 @@ server=/uswdirect.adsrvr.org/
 server=/v.adsrvr.org/
 server=/va6-bid.adsrvr.org/
 server=/vae-bid.adsrvr.org/
-
-# [adstune.com]
 server=/adstune.com/
-
-# [adsunflower.com]
 server=/adsunflower.com/
 server=/folder.adsunflower.com/
 server=/rebootv5.adsunflower.com/
-
-# [adswizz.com]
 server=/cdn.adswizz.com/
 server=/deliveryengine.cox.adswizz.com/
 server=/delivery-cdn-cf.adswizz.com/
@@ -951,39 +606,25 @@ server=/streamguys.deliveryengine.adswizz.com/
 server=/synchroscript.deliveryengine.adswizz.com/
 server=/synchrobox.adswizz.com/
 server=/zc.adswizz.com/
-
-# [adsymptotic.com]
 server=/adsymptotic.com/
 server=/api.adsymptotic.com/
 server=/p.adsymptotic.com/
 server=/pinterest.adsymptotic.com/
-
-# [adtarget.com.tr]
 server=/adtarget.com.tr/
 server=/console.adtarget.com.tr/
 server=/sync.console.adtarget.com.tr/
-
-# [adtech.com]
 server=/adtech.com/
 server=/ums.adtech.com/
-
-# [adtech.de]
 server=/adserver.adtech.de/
 server=/aka-cdn.adtech.de/
 server=/aka-cdn-ns.adtech.de/
-
-# [adtechjp.com]
 server=/adserver.adtechjp.com/
 server=/adserver-toy.adtechjp.com/
 server=/prod.adtechjp.com/
-
-# [adtechus.com]
 server=/a.adtechus.com/
 server=/adserver.adtechus.com/
 server=/adserverwc.adtechus.com/
 server=/aka-cdn.adtechus.com/
-
-# [adtelligent.com]
 server=/dsp3.adtelligent.com/
 server=/ghb.adtelligent.com/
 server=/ghb1.adtelligent.com/
@@ -993,74 +634,44 @@ server=/player.adtelligent.com/
 server=/s.adtelligent.com/
 server=/static.adtelligent.com/
 server=/sync.adtelligent.com/
-
-# [adtheorent.com]
 server=/adtheorent.com/
 server=/ads.adtheorent.com/
 server=/cdn.adtheorent.com/
-
-# [adthor.com]
 server=/adthor.com/
 server=/logger.adthor.com/
-
-# [adthrive.com]
 server=/ads.adthrive.com/
 server=/logger.adthrive.com/
 server=/marmalade.adthrive.com/
 server=/track.adthrive.com/
-
-# [adtilt.com]
 server=/adc-ad-assets.adtilt.com/
-
-# [adtima.vn]
 server=/adtima.vn/
 server=/stc.adtima.vn/
-
-# [adtimaserver.vn]
 server=/adtimaserver.vn/
 server=/api.adtimaserver.vn/
 server=/log.adtimaserver.vn/
-
-# [adtiming.com]
 server=/img.adtiming.com/
 server=/m.adtiming.com/
 server=/ociasb.adtiming.com/
 server=/rt.adtiming.com/
 server=/sdk.adtiming.com/
-
-# [adtlgc.com]
 server=/admp-tc-sati.adtlgc.com/
 server=/code3.adtlgc.com/
-
-# [adtng.com]
 server=/adtng.com/
 server=/a.adtng.com/
 server=/hw-cdn2.adtng.com/
 server=/vz-cdn2.adtng.com/
-
-# [adtraction.com]
 server=/track.adtraction.com/
-
-# [adtrade.com]
 server=/api.adtrade.com/
-
-# [adtrue.com]
 server=/adtrue.com/
 server=/cdn.adtrue.com/
 server=/exchange.adtrue.com/
-
-# [adup-tech.com]
 server=/rtb.d.adup-tech.com/
 server=/s.d.adup-tech.com/
 server=/t.d.adup-tech.com/
-
-# [adups.cn]
 server=/fota4.adups.cn/
 server=/fota5.adups.cn/
 server=/fota5s.adups.cn/
 server=/fota5t.adups.cn/
-
-# [adups.com]
 server=/adups.com/
 server=/ap.adups.com/
 server=/clean.adups.com/
@@ -1074,27 +685,15 @@ server=/ht.adups.com/
 server=/iotapi.adups.com/
 server=/ph5t.adups.com/
 server=/push5.adups.com/
-
-# [advangelists.com]
 server=/nep.advangelists.com/
-
-# [advanseads.com]
 server=/cdn.advanseads.com/
 server=/count.advanseads.com/
 server=/delivery.advanseads.com/
-
-# [adventori.com]
 server=/cf-cdn.adventori.com/
 server=/eu.adventori.com/
 server=/f24.adventori.com/
-
-# [adversal.com]
 server=/adversal.com/
-
-# [advertica-cdn.com]
 server=/advertica-cdn.com/
-
-# [advertising.com]
 server=/advertising.com/
 server=/ace-tag.advertising.com/
 server=/ads.adaptv.advertising.com/
@@ -1120,8 +719,6 @@ server=/prod-m-node-1111.ssp.advertising.com/
 server=/prod-m-node-1211.ssp.advertising.com/
 server=/prod-m-node-2111.ssp.advertising.com/
 server=/prod-m-node-3111.ssp.advertising.com/
-
-# [advertnative.com]
 server=/advertnative.com/
 server=/click.advertnative.com/
 server=/worker1.advertnative.com/
@@ -1133,66 +730,36 @@ server=/worker23.advertnative.com/
 server=/worker24.advertnative.com/
 server=/worker3.advertnative.com/
 server=/worker4.advertnative.com/
-
-# [advertserve.com]
 server=/bidstream.advertserve.com/
 server=/cdn.advertserve.com/
 server=/imagazine.advertserve.com/
 server=/roimedia.advertserve.com/
-
-# [advertur.ru]
 server=/advertur.ru/
-
-# [adverty.com]
 server=/adserver.adverty.com/
-
-# [adview.cn]
 server=/bid.adview.cn/
 server=/open.adview.cn/
-
-# [adview.com]
 server=/bid.adview.com/
 server=/ghkbid.adview.com/
 server=/gusabid.adview.com/
 server=/webfile.adview.com/
-
-# [adview.pl]
 server=/adview.pl/
-
-# [advmob.cn]
 server=/advmob.cn/
 server=/folder.advmob.cn/
 server=/fota.advmob.cn/
-
-# [adx.io]
 server=/d.adx.io/
 server=/s.adx.io/
-
-# [adx1.com]
 server=/cdn.adx1.com/
 server=/rtb.adx1.com/
 server=/xml.adx1.com/
-
-# [adxcel-ec2.com]
 server=/cfg.adxcel-ec2.com/
 server=/data.adxcel-ec2.com/
-
-# [adxcel.com]
 server=/cf.adxcel.com/
-
-# [adxserve.com]
 server=/www.adxserve.com/
-
-# [adywind.com]
 server=/adywind.com/
 server=/app.adywind.com/
 server=/log.adywind.com/
 server=/scheme.adywind.com/
-
-# [adzcore.com]
 server=/setting.adzcore.com/
-
-# [adzerk.net]
 server=/adzerk.net/
 server=/e-10077.adzerk.net/
 server=/e-10220.adzerk.net/
@@ -1200,84 +767,44 @@ server=/e-10457.adzerk.net/
 server=/e-9660.adzerk.net/
 server=/engine.adzerk.net/
 server=/static.adzerk.net/
-
-# [adziff.com]
 server=/static.adziff.com/
-
-# [adzmedia.com]
 server=/adzmedia.com/
 server=/pixels.adzmedia.com/
-
-# [adztec.com]
 server=/adztec.com/
-
-# [aerserv.com]
 server=/aerserv.com/
 server=/ads.aerserv.com/
 server=/alpha-events.aerserv.com/
 server=/debug.aerserv.com/
 server=/events.aerserv.com/
 server=/prod-ads.aerserv.com/
-
-# [aetn.com]
 server=/metrics.aetn.com/
-
-# [aetnd.com]
 server=/insights.vip.aetnd.com/
-
-# [afcpatrk.com]
 server=/track.afcpatrk.com/
-
-# [affec.tv]
 server=/map.go.affec.tv/
-
-# [affilae.com]
 server=/lb.affilae.com/
 server=/static.affilae.com/
-
-# [affiliatefuture.com]
 server=/scripts.affiliatefuture.com/
 server=/tags.affiliatefuture.com/
-
-# [affiz.net]
 server=/affiz.net/
-
-# [affluent.io]
 server=/static.affluent.io/
-
-# [afftrack.com]
 server=/fizzylabs.afftrack.com/
-
-# [aflink.com]
 server=/app.aflink.com/
-
-# [agilone.com]
 server=/api6.agilone.com/
 server=/api8.agilone.com/
 server=/ca-as-1.agilone.com/
 server=/scripts.agilone.com/
-
-# [agkn.com]
 server=/agkn.com/
 server=/aa.agkn.com/
 server=/d.agkn.com/
 server=/data.agkn.com/
 server=/js.agkn.com/
 server=/static.agkn.com/
-
-# [agoop.net]
 server=/latency.agoop.net/
 server=/roundrobin-log.agoop.net/
-
-# [aimatch.com]
 server=/aimatch.com/
-
-# [airpush.com]
 server=/airpush.com/
 server=/api.airpush.com/
 server=/apportal.airpush.com/
-
-# [akadns.net]
 server=/innovid.com.akadns.net/
 server=/ag.innovid.com.akadns.net/
 server=/aws-oreg-cali-virg.ag.innovid.com.akadns.net/
@@ -1334,87 +861,45 @@ server=/rtb.adgrx.com.tech.akadns.net/
 server=/tvx.adgrx.com.tech.akadns.net/
 server=/vungle.akadns.net/
 server=/cdn-lb.vungle.akadns.net/
-
-# [akamai.net]
 server=/a1843.g.akamai.net/
 server=/a50.g2.akamai.net/
-
-# [akamaiedge.net]
 server=/e7876.dscg.akamaiedge.net/
-
-# [akamaihd.net]
 server=/ds-aksb-a.akamaihd.net/
 server=/inmobisdk-a.akamaihd.net/
 server=/middycdn-a.akamaihd.net/
 server=/ntvcld-a.akamaihd.net/
-
-# [akamaized.net]
 server=/113vod-adaptive.akamaized.net/
 server=/appsflyer.com.akamaized.net/
 server=/jioads.akamaized.net/
 server=/speee-ad.akamaized.net/
 server=/statics-marketingsites-eus-ms-com.akamaized.net/
 server=/statics-marketingsites-neu-ms-com.akamaized.net/
-
-# [akisinn.info]
 server=/co.akisinn.info/
 server=/int.akisinn.info/
-
-# [akisinn.site]
 server=/int.akisinn.site/
-
-# [akstat.io]
 server=/17de4c16.akstat.io/
 server=/17de4c17.akstat.io/
-
-# [alcmpn.com]
 server=/p.alcmpn.com/
-
-# [alexametrics.com]
 server=/alexametrics.com/
 server=/certify.alexametrics.com/
 server=/certify-amp.alexametrics.com/
 server=/certify-js.alexametrics.com/
-
-# [alibaba.com]
 server=/abtest.alibaba.com/
 server=/hydra.alibaba.com/
-
-# [alicdn.com]
 server=/gma.alicdn.com/
-
-# [aliexpress.com]
 server=/s.click.aliexpress.com/
-
-# [aliyun.com]
 server=/acjs.aliyun.com/
-
-# [aliyuncs.com]
 server=/beacon-api.aliyuncs.com/
 server=/fineboost-loghub.ap-southeast-1.log.aliyuncs.com/
-
-# [allaccess.com.ph]
 server=/ads.allaccess.com.ph/
-
-# [allstarcluster.com]
 server=/p102-clb.allstarcluster.com/
-
-# [alphonso.tv]
 server=/alphonso.tv/
 server=/prov-lg.alphonso.tv/
 server=/sync.alphonso.tv/
-
-# [altamob.com]
 server=/api.altamob.com/
-
-# [altitude-arena.com]
 server=/altitude-arena.com/
 server=/ads.altitude-arena.com/
-
-# [am15.net]
 server=/am15.net/
-
-# [amazon-adsystem.com]
 server=/amazon-adsystem.com/
 server=/aax.amazon-adsystem.com/
 server=/aax-eu-retail-direct.amazon-adsystem.com/
@@ -1434,158 +919,58 @@ server=/ws-eu.amazon-adsystem.com/
 server=/ws-na.amazon-adsystem.com/
 server=/z-eu.amazon-adsystem.com/
 server=/z-na.amazon-adsystem.com/
-
-# [amazon.com]
 server=/aan.amazon.com/
 server=/aax-us-east-retail-direct.amazon.com/
 server=/fls-na.amazon.com/
-
-# [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 server=/ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com/
-
-# [adserver-1277986481.ap-northeast-1.elb.amazonaws.com]
 server=/adserver-1277986481.ap-northeast-1.elb.amazonaws.com/
-
-# [ad-server-lb-294150285.ap-southeast-1.elb.amazonaws.com]
 server=/ad-server-lb-294150285.ap-southeast-1.elb.amazonaws.com/
-
-# [ads-816899299.ap-southeast-1.elb.amazonaws.com]
 server=/ads-816899299.ap-southeast-1.elb.amazonaws.com/
-
-# [rw-yieldmo-com-1673518954.ap-southeast-1.elb.amazonaws.com]
 server=/rw-yieldmo-com-1673518954.ap-southeast-1.elb.amazonaws.com/
-
-# [adservingvpc-1239633584.eu-west-1.elb.amazonaws.com]
 server=/adservingvpc-1239633584.eu-west-1.elb.amazonaws.com/
-
-# [beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com]
 server=/beaconserver-ce-vpc0-1537565064.eu-west-1.elb.amazonaws.com/
-
-# [prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com]
 server=/prod-dem-collector-elb-611025824.eu-west-1.elb.amazonaws.com/
-
-# [adktracking-1671721947.eu-west-3.elb.amazonaws.com]
 server=/adktracking-1671721947.eu-west-3.elb.amazonaws.com/
-
-# [adn-tktracking-virginia-621472495.us-east-1.elb.amazonaws.com]
 server=/adn-tktracking-virginia-621472495.us-east-1.elb.amazonaws.com/
-
-# [adserver-2084671375.us-east-1.elb.amazonaws.com]
 server=/adserver-2084671375.us-east-1.elb.amazonaws.com/
-
-# [adserver-vpc-alb-0-2072243822.us-east-1.elb.amazonaws.com]
 server=/adserver-vpc-alb-0-2072243822.us-east-1.elb.amazonaws.com/
-
-# [adserver-vpc-alb-1-2048135467.us-east-1.elb.amazonaws.com]
 server=/adserver-vpc-alb-1-2048135467.us-east-1.elb.amazonaws.com/
-
-# [adserver-vpc-alb-2-1898430250.us-east-1.elb.amazonaws.com]
 server=/adserver-vpc-alb-2-1898430250.us-east-1.elb.amazonaws.com/
-
-# [adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com]
 server=/adsk-pnxproxy-prd-1753980530.us-east-1.elb.amazonaws.com/
-
-# [audience-164723144.us-east-1.elb.amazonaws.com]
 server=/audience-164723144.us-east-1.elb.amazonaws.com/
-
-# [log-collectors-73517960.us-east-1.elb.amazonaws.com]
 server=/log-collectors-73517960.us-east-1.elb.amazonaws.com/
-
-# [lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com]
 server=/lynx-prod-beacon-alb-498367235.us-east-1.elb.amazonaws.com/
-
-# [nova-collector-1192479543.us-east-1.elb.amazonaws.com]
 server=/nova-collector-1192479543.us-east-1.elb.amazonaws.com/
-
-# [prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com]
 server=/prod-ash-beacon-1960876484.us-east-1.elb.amazonaws.com/
-
-# [rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com]
 server=/rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com/
-
-# [tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com]
 server=/tapjoy-com-lb-vpc-332546193.us-east-1.elb.amazonaws.com/
-
-# [tracking-1611167402.us-east-1.elb.amazonaws.com]
 server=/tracking-1611167402.us-east-1.elb.amazonaws.com/
-
-# [wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com]
 server=/wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com/
-
-# [ads-b-480313385.us-west-1.elb.amazonaws.com]
 server=/ads-b-480313385.us-west-1.elb.amazonaws.com/
-
-# [ads-c-1854119718.us-west-1.elb.amazonaws.com]
 server=/ads-c-1854119718.us-west-1.elb.amazonaws.com/
-
-# [adserver-vpc-alb-0-2075095491.us-west-2.elb.amazonaws.com]
 server=/adserver-vpc-alb-0-2075095491.us-west-2.elb.amazonaws.com/
-
-# [adserver-vpc-alb-1-725730730.us-west-2.elb.amazonaws.com]
 server=/adserver-vpc-alb-1-725730730.us-west-2.elb.amazonaws.com/
-
-# [adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com]
 server=/adserver-vpc-alb-2-553366957.us-west-2.elb.amazonaws.com/
-
-# [adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com]
 server=/adserver-vpc-alb-3-578630024.us-west-2.elb.amazonaws.com/
-
-# [beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com]
 server=/beaconserver-ce-vpc0-1909323404.us-west-2.elb.amazonaws.com/
-
-# [dco-jads-727222375.us-west-2.elb.amazonaws.com]
 server=/dco-jads-727222375.us-west-2.elb.amazonaws.com/
-
-# [prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com]
 server=/prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com/
-
-# [rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com]
 server=/rw-yieldmo-com-1857737650.us-west-2.elb.amazonaws.com/
-
-# [wildcard-ads-448740142.us-west-2.elb.amazonaws.com]
 server=/wildcard-ads-448740142.us-west-2.elb.amazonaws.com/
-
-# [elb.eu-west-1.amazonaws.com]
 server=/huq-query-loggers-europe-west1-32ef7f4bbf54ce27.elb.eu-west-1.amazonaws.com/
-
-# [admarvel.s3.amazonaws.com]
 server=/admarvel.s3.amazonaws.com/
-
-# [advancelocal-adapter-image-uploads.s3.amazonaws.com]
 server=/advancelocal-adapter-image-uploads.s3.amazonaws.com/
-
-# [ignifyecom.s3.amazonaws.com]
 server=/ignifyecom.s3.amazonaws.com/
-
-# [incoming-data-sense360.s3.amazonaws.com]
 server=/incoming-data-sense360.s3.amazonaws.com/
-
-# [nativead.s3.amazonaws.com]
 server=/nativead.s3.amazonaws.com/
-
-# [surveygizmobeacon.s3.amazonaws.com]
 server=/surveygizmobeacon.s3.amazonaws.com/
-
-# [s3-accelerate.amazonaws.com]
 server=/later-analytics-reports.s3-accelerate.amazonaws.com/
-
-# [execute-api.us-east-1.amazonaws.com]
 server=/bin5y4muil.execute-api.us-east-1.amazonaws.com/
-
-# [mobileanalytics.us-east-1.amazonaws.com]
 server=/mobileanalytics.us-east-1.amazonaws.com/
-
-# [us-west-1.amazonaws.com]
 server=/huq-query-loggers-california-3cec807da3e9dc0d.elb.us-west-1.amazonaws.com/
-
-# [amoad.com]
 server=/amoad.com/
 server=/m.amoad.com/
-
-# [amobee.com]
 server=/amobee.com/
-
-# [amplitude.com]
 server=/amplitude.com/
 server=/api.amplitude.com/
 server=/api2.amplitude.com/
@@ -1593,30 +978,16 @@ server=/cdn.amplitude.com/
 server=/info.amplitude.com/
 server=/regionconfig.amplitude.com/
 server=/static.amplitude.com/
-
-# [amung.us]
 server=/amung.us/
 server=/whos.amung.us/
 server=/widgets.amung.us/
-
-# [analysis.fi]
 server=/ecdn.analysis.fi/
-
-# [analysys.cn]
 server=/analysys.cn/
-
-# [analytics-egain.com]
 server=/analytics.analytics-egain.com/
 server=/cloud-emea.analytics-egain.com/
 server=/cloud-us.analytics-egain.com/
-
-# [analyticssystems.net]
 server=/analyticssystems.net/
-
-# [andomedia.com]
 server=/andomedia.com/
-
-# [aniview.com]
 server=/go1.aniview.com/
 server=/gov.aniview.com/
 server=/observe.aniview.com/
@@ -1631,45 +1002,25 @@ server=/track1.aniview.com/
 server=/vast.aniview.com/
 server=/wlplay.aniview.com/
 server=/wltrack.aniview.com/
-
-# [annoyingacoustics.com]
 server=/annoyingacoustics.com/
-
-# [anquan.org]
 server=/anquan.org/
-
-# [answerscloud.com]
 server=/gateway.answerscloud.com/
-
-# [anthill.vn]
 server=/anthill.vn/
 server=/e-vcdn.anthill.vn/
 server=/st-a.anthill.vn/
-
-# [ants.vn]
 server=/d.ants.vn/
 server=/dsp-d.ants.vn/
 server=/st-au.ants.vn/
 server=/t.ants.vn/
-
-# [anvato.net]
 server=/analytics.anvato.net/
 server=/rt.analytics.anvato.net/
-
-# [anzu.io]
 server=/caps-server.anzu.io/
 server=/l1-1.anzu.io/
-
-# [anzuinfra.com]
 server=/assets.anzuinfra.com/
 server=/emqx.anzuinfra.com/
 server=/events.anzuinfra.com/
 server=/logic.anzuinfra.com/
-
-# [aotter.net]
 server=/tkportal.aotter.net/
-
-# [apester.com]
 server=/display.apester.com/
 server=/events.apester.com/
 server=/images.apester.com/
@@ -1677,29 +1028,15 @@ server=/img.apester.com/
 server=/interaction.apester.com/
 server=/renderer.apester.com/
 server=/static.apester.com/
-
-# [apis.com.br]
 server=/apis.com.br/
-
-# [app-adforce.jp]
 server=/app-adforce.jp/
-
-# [appadhoc.com]
 server=/experiment.appadhoc.com/
 server=/sdk.appadhoc.com/
 server=/tracker.appadhoc.com/
-
-# [appads.com]
 server=/appads.com/
-
-# [appbaqend.com]
 server=/appbaqend.com/
 server=/a.appbaqend.com/
-
-# [appboy-images.com]
 server=/appboy-images.com/
-
-# [appboy.com]
 server=/appboy.com/
 server=/dev.appboy.com/
 server=/iad.appboy.com/
@@ -1718,31 +1055,15 @@ server=/lacerta.iad-03.appboy.com/
 server=/sdk.iad-03.appboy.com/
 server=/yildun.iad-03.appboy.com/
 server=/sdk-orion.appboy.com/
-
-# [appboycdn.com]
 server=/assets.appboycdn.com/
 server=/js.appboycdn.com/
-
-# [appbrain.com]
 server=/sdk.appbrain.com/
-
-# [appclick.co]
 server=/appclick.co/
-
-# [appdynamics.com]
 server=/cdn.appdynamics.com/
-
-# [apperol.com]
 server=/trk.apperol.com/
-
-# [appflood.com]
 server=/appflood.com/
 server=/atracking-auto.appflood.com/
-
-# [appia.com]
 server=/appia.com/
-
-# [appier.net]
 server=/ad.appier.net/
 server=/ad2.apx.appier.net/
 server=/ad3.apx.appier.net/
@@ -1764,11 +1085,7 @@ server=/tw.c.appier.net/
 server=/vst.c.appier.net/
 server=/jscdn.appier.net/
 server=/web0.track.appier.net/
-
-# [applanga.com]
 server=/sdkapicdn.applanga.com/
-
-# [apple.com]
 server=/iadsdk.apple.com/
 server=/ca.iadsdk.apple.com/
 server=/cf.iadsdk.apple.com/
@@ -1778,18 +1095,10 @@ server=/ut.iadsdk.apple.com/
 server=/notes-analytics-events.apple.com/
 server=/stocks-analytics-events.apple.com/
 server=/weather-analytics-events.apple.com/
-
-# [appleads-trk.com]
 server=/appleads-trk.com/
 server=/redirect.appleads-trk.com/
-
-# [applicaster.com]
 server=/assets-secure.applicaster.com/
-
-# [applifier.com]
 server=/impact.applifier.com/
-
-# [applovin.com]
 server=/applovin.com/
 server=/a.applovin.com/
 server=/a4.applovin.com/
@@ -1812,51 +1121,27 @@ server=/stage-img.applovin.com/
 server=/stage-ms.applovin.com/
 server=/stage-pdn.applovin.com/
 server=/ue.applovin.com/
-
-# [applvn.com]
 server=/applvn.com/
 server=/a.applvn.com/
 server=/d.applvn.com/
 server=/ms.applvn.com/
 server=/rt.applvn.com/
-
-# [appnext.com]
 server=/admin.appnext.com/
 server=/cdn.appnext.com/
 server=/global.appnext.com/
 server=/si.appnext.com/
-
-# [appnexus.com]
 server=/appnexus.com/
-
-# [appnexus.net]
 server=/appnexus.net/
-
-# [appodeal.com]
 server=/appodeal.com/
 server=/api.appodeal.com/
 server=/eu-central-1.appodeal.com/
-
-# [appodealx.com]
 server=/api.appodealx.com/
-
-# [apprissmobile.com]
 server=/mobile-ws.apprissmobile.com/
-
-# [apprope.com]
 server=/cdn.apprope.com/
-
-# [apps.fm]
 server=/ad.apps.fm/
-
-# [appsdt.com]
 server=/appsdt.com/
 server=/d.appsdt.com/
-
-# [appsee.com]
 server=/api.appsee.com/
-
-# [appsflyer.com]
 server=/appsflyer.com/
 server=/adrevenue.appsflyer.com/
 server=/api.appsflyer.com/
@@ -1886,121 +1171,61 @@ server=/track.appsflyer.com/
 server=/validate.appsflyer.com/
 server=/wa.appsflyer.com/
 server=/websdk.appsflyer.com/
-
-# [appsflyer.tk]
 server=/sdk.appsflyer.tk/
-
-# [appsflyersdk.com]
 server=/cdn-settings.appsflyersdk.com/
-
-# [appsgeyser.com]
 server=/ads.appsgeyser.com/
 server=/config.appsgeyser.com/
 server=/stat.appsgeyser.com/
-
-# [amp-error-reporting.appspot.com]
 server=/amp-error-reporting.appspot.com/
-
-# [ga-beacon.appspot.com]
 server=/ga-beacon.appspot.com/
-
-# [geoapi123.appspot.com]
 server=/geoapi123.appspot.com/
-
-# [ima3vpaid.appspot.com]
 server=/ima3vpaid.appspot.com/
-
-# [is-tracking-pixel-api-prod.appspot.com]
 server=/is-tracking-pixel-api-prod.appspot.com/
-
-# [musculahq.appspot.com]
 server=/musculahq.appspot.com/
-
-# [sc-analytics.appspot.com]
 server=/sc-analytics.appspot.com/
-
-# [snapabug.appspot.com]
 server=/snapabug.appspot.com/
-
-# [apptap.com]
 server=/api.apptap.com/
 server=/appdiscovery.apptap.com/
-
-# [apptentive.com]
 server=/api.apptentive.com/
 server=/app-icons.apptentive.com/
 server=/sdk.apptentive.com/
-
-# [apptimize.com]
 server=/brahe.apptimize.com/
 server=/md-a-c.apptimize.com/
-
-# [apptornado.com]
 server=/apptornado.com/
 server=/applift-a.apptornado.com/
 server=/applift-b.apptornado.com/
 server=/eu-srv.apptornado.com/
 server=/sdk-b.apptornado.com/
-
-# [apptrackerlink.com]
 server=/tracking.apptrackerlink.com/
-
-# [apsalar.com]
 server=/apsalar.com/
 server=/api.apsalar.com/
 server=/e.apsalar.com/
 server=/e-ssl.apsalar.com/
-
-# [apxlv.com]
 server=/tag.apxlv.com/
-
-# [aralego.com]
 server=/ads.aralego.com/
 server=/agent.aralego.com/
 server=/apac-sg-ad-track.aralego.com/
 server=/hb.aralego.com/
 server=/sync.aralego.com/
 server=/us-east-ad-track.aralego.com/
-
-# [aralego.net]
 server=/cdn.aralego.net/
-
-# [arcsoft.com]
 server=/intouch.arcsoft.com/
-
-# [areametrics.com]
 server=/api.areametrics.com/
-
-# [areyouahuman.com]
 server=/dptr.areyouahuman.com/
 server=/n-cdn.areyouahuman.com/
-
-# [areyouwatchingthis.com]
 server=/metabet.api.areyouwatchingthis.com/
 server=/metabet.static.api.areyouwatchingthis.com/
 server=/metabet.static.areyouwatchingthis.com/
-
-# [arity.com]
 server=/api.arity.com/
-
-# [asapp.com]
 server=/rcn.asapp.com/
 server=/sdk.asapp.com/
 server=/sprint.asapp.com/
 server=/sprint-srs-appopen.asapp.com/
-
-# [asnapieu.com]
 server=/combine.asnapieu.com/
 server=/device-api.asnapieu.com/
 server=/remote-data.asnapieu.com/
-
-# [aspireclicks.com]
 server=/images.aspireclicks.com/
-
-# [aswpsdkus.com]
 server=/aswpsdkus.com/
-
-# [atdmt.com]
 server=/ad.atdmt.com/
 server=/static.ad.atdmt.com/
 server=/aidps.atdmt.com/
@@ -2011,86 +1236,42 @@ server=/ec.atdmt.com/
 server=/jact.atdmt.com/
 server=/switch.atdmt.com/
 server=/view.atdmt.com/
-
-# [ateam-ad.jp]
 server=/api.ateam-ad.jp/
 server=/ad.api.ateam-ad.jp/
-
-# [atedra.com]
 server=/atedra.com/
-
-# [atemda.com]
 server=/atemda.com/
 server=/p287.atemda.com/
-
-# [atgsvcs.com]
 server=/static.atgsvcs.com/
-
-# [atom-data.io]
 server=/track.atom-data.io/
-
-# [atomex.net]
 server=/arg.atomex.net/
 server=/data.atomex.net/
 server=/trk.atomex.net/
-
-# [att.com]
 server=/smetrics.att.com/
-
-# [attentivemobile.com]
 server=/api.attentivemobile.com/
 server=/events.attentivemobile.com/
-
-# [attn.tv]
 server=/cdn.attn.tv/
-
-# [atwola.com]
 server=/at.atwola.com/
 server=/tacoda.at.atwola.com/
 server=/uc.atwola.com/
 server=/cdn.uc.atwola.com/
-
-# [auditude.com]
 server=/ad.auditude.com/
-
-# [augur.io]
 server=/augur.io/
-
-# [autoads.asia]
 server=/autoads.asia/
 server=/fcd.autoads.asia/
-
-# [autoimg.cn]
 server=/adm3.autoimg.cn/
 server=/img2.autoimg.cn/
-
-# [avantisvideo.com]
 server=/cdn.avantisvideo.com/
 server=/events.avantisvideo.com/
-
-# [avast.com]
 server=/analytics.ff.avast.com/
 server=/stats.avast.com/
-
-# [avazunativeads.com]
 server=/avazunativeads.com/
 server=/api.c.avazunativeads.com/
-
-# [avct.cloud]
 server=/ads.avct.cloud/
-
-# [avocarrot.com]
 server=/avocarrot.com/
 server=/ads.avocarrot.com/
 server=/sdklogs.avocarrot.com/
-
-# [axonix.com]
 server=/axonix.com/
-
-# [ay.delivery]
 server=/csxmhkahpy9y6cwwr.ay.delivery/
-
-# [ayads.co]
 server=/ads.ayads.co/
 server=/antenna.ayads.co/
 server=/antenna-apse.ayads.co/
@@ -2099,32 +1280,18 @@ server=/cdn.ayads.co/
 server=/geoworker.ayads.co/
 server=/optchk.ayads.co/
 server=/sac.ayads.co/
-
-# [azureedge.net]
 server=/masdpanalytics.azureedge.net/
-
-# [ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net]
 server=/ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net/
-
-# [b2c.com]
 server=/b2c.com/
 server=/api.b2c.com/
-
-# [banggood.com]
 server=/collect.banggood.com/
 server=/dc.banggood.com/
-
-# [bannersnack.com]
 server=/bannersnack.com/
 server=/cdn.bannersnack.com/
 server=/live-tag.bannersnack.com/
 server=/stats.bannersnack.com/
-
-# [batch.com]
 server=/via.batch.com/
 server=/ws.batch.com/
-
-# [batmobi.net]
 server=/adxcallback.batmobi.net/
 server=/an.batmobi.net/
 server=/api2.batmobi.net/
@@ -2134,54 +1301,26 @@ server=/ploy.batmobi.net/
 server=/sdk.batmobi.net/
 server=/update.sdk.batmobi.net/
 server=/sts.batmobi.net/
-
-# [batmobil.net]
 server=/batmobil.net/
 server=/dsp.batmobil.net/
-
-# [bazaarvoice.com]
 server=/network.bazaarvoice.com/
 server=/apps.nexus.bazaarvoice.com/
 server=/analytics-static.ugc.bazaarvoice.com/
-
-# [bbc.co.uk]
 server=/a1.api.bbc.co.uk/
-
-# [bbci.co.uk]
 server=/mybbc-analytics.files.bbci.co.uk/
-
-# [beaconsinspace.com]
 server=/api.beaconsinspace.com/
-
-# [beanstalkdata.com]
 server=/t.beanstalkdata.com/
-
-# [bebi.com]
 server=/st.bebi.com/
-
-# [bee7.com]
 server=/api.bee7.com/
 server=/api-proxy.bee7.com/
-
-# [beop.io]
 server=/s.beop.io/
 server=/widget.beop.io/
-
-# [bepolite.eu]
 server=/bepolite.eu/
-
-# [bestbuy.com]
 server=/analytics.bestbuy.com/
 server=/smetrics.bestbuy.com/
-
-# [betrad.com]
 server=/c.betrad.com/
-
-# [betweendigital.com]
 server=/ads.betweendigital.com/
 server=/ssp.ads.betweendigital.com/
-
-# [bfmio.com]
 server=/crid.bfmio.com/
 server=/display.bfmio.com/
 server=/evt.bfmio.com/
@@ -2192,20 +1331,14 @@ server=/reachms.bfmio.com/
 server=/sync.bfmio.com/
 server=/useast.bfmio.com/
 server=/uswest.bfmio.com/
-
-# [biddingx.com]
 server=/biddingx.com/
 server=/masky.biddingx.com/
-
-# [bidgear.com]
 server=/bidgear.com/
 server=/demand.bidgear.com/
 server=/imp-dsp.bidgear.com/
 server=/platform.bidgear.com/
 server=/source.bidgear.com/
 server=/vn-platform.bidgear.com/
-
-# [bidr.io]
 server=/bidr.io/
 server=/media.bidr.io/
 server=/prod.bidr.io/
@@ -2224,59 +1357,29 @@ server=/fanserv.us-east-1.stinger-ad.bidr.io/
 server=/us-west-2.stinger-ad.bidr.io/
 server=/blisspoint.us-west-2.stinger-ad.bidr.io/
 server=/fanserv.us-west-2.stinger-ad.bidr.io/
-
-# [bidstack.com]
 server=/server.bidstack.com/
-
-# [bidswitch.net]
 server=/gce-sc.bidswitch.net/
 server=/ghent-gce-sc.bidswitch.net/
 server=/grid.bidswitch.net/
 server=/us-east-sync.bidswitch.net/
 server=/x.bidswitch.net/
-
-# [bing.com]
 server=/bat.bing.com/
 server=/c.bing.com/
-
-# [bitmango.com]
 server=/api.bitmango.com/
-
-# [bitmedianetwork.com]
 server=/bitmedianetwork.com/
-
-# [bizible.com]
 server=/cdn.bizible.com/
 server=/sf.bizible.com/
-
-# [bizrate.com]
 server=/insights.bizrate.com/
-
-# [bkav.com]
 server=/analytics.bkav.com/
-
-# [bkrtx.com]
 server=/tags.bkrtx.com/
-
-# [blismedia.com]
 server=/tr.blismedia.com/
-
-# [blisspointmedia.com]
 server=/cdn.blisspointmedia.com/
-
-# [blogherads.com]
 server=/ads.blogherads.com/
-
-# [bloomberg.com]
 server=/personalization.bloomberg.com/
 server=/tracking.bloomberg.com/
-
-# [bluebillywig.com]
 server=/cdn.bluebillywig.com/
 server=/stats.bluebillywig.com/
 server=/vms.bluebillywig.com/
-
-# [bluecava.com]
 server=/bluecava.com/
 server=/ads.bluecava.com/
 server=/gcloud.bluecava.com/
@@ -2285,8 +1388,6 @@ server=/sync.graph.gcloud.bluecava.com/
 server=/sync.graph.geo.bluecava.com/
 server=/graph.bluecava.com/
 server=/sync.graph.bluecava.com/
-
-# [blueconic.net]
 server=/blueconic.net/
 server=/advancelocal.blueconic.net/
 server=/americanmedia.blueconic.net/
@@ -2301,85 +1402,47 @@ server=/nexstar.blueconic.net/
 server=/npgco.blueconic.net/
 server=/plugins.blueconic.net/
 server=/soundpublishing.blueconic.net/
-
-# [bluecore.com]
 server=/api.bluecore.com/
 server=/cdn.bluecore.com/
 server=/onsitestats.bluecore.com/
-
-# [bluedot.io]
 server=/globalconfig.bluedot.io/
 server=/us1-sdk.bluedot.io/
-
-# [bluekai.com]
 server=/bluekai.com/
 server=/analytics.bluekai.com/
 server=/stags.bluekai.com/
 server=/tags.bluekai.com/
-
-# [bluelithium.com]
 server=/bluelithium.com/
 server=/ads.bluelithium.com/
-
-# [blueoxtech.com]
 server=/blizzard.blueoxtech.com/
 server=/hobbes.blueoxtech.com/
-
-# [bm23.com]
 server=/hosting-source.bm23.com/
 server=/incoming.bm23.com/
-
-# [bnmla.com]
 server=/bnmla.com/
 server=/match.bnmla.com/
-
-# [boomtrain.com]
 server=/events.api.boomtrain.com/
 server=/onsiterecs.api.boomtrain.com/
 server=/people.api.boomtrain.com/
 server=/cdn.boomtrain.com/
-
-# [boston.com]
 server=/smetrics.boston.com/
-
-# [bounceexchange.com]
 server=/api.bounceexchange.com/
 server=/assets.bounceexchange.com/
 server=/cnn.bounceexchange.com/
 server=/pixel.bounceexchange.com/
 server=/tag.bounceexchange.com/
-
-# [bouncex.net]
 server=/dfp.bouncex.net/
 server=/events.bouncex.net/
-
-# [brafton.com]
 server=/atlantisjs.brafton.com/
-
-# [brainient.com]
 server=/brainient.com/
 server=/tag.brainient.com/
-
-# [braintreegateway.com]
 server=/client-analytics.braintreegateway.com/
-
-# [branch.io]
 server=/branch.io/
 server=/api.branch.io/
 server=/api2.branch.io/
 server=/cdn.branch.io/
 server=/vulcan.branch.io/
-
-# [brand-display.com]
 server=/dmp.brand-display.com/
-
-# [brandcdn.com]
 server=/adservices.brandcdn.com/
-
-# [brandmetrics.com]
 server=/cdn.brandmetrics.com/
-
-# [braze.com]
 server=/braze.com/
 server=/iad-01.braze.com/
 server=/andromeda.iad-01.braze.com/
@@ -2422,131 +1485,61 @@ server=/iad-06.braze.com/
 server=/sdk.iad-06.braze.com/
 server=/iad-08.braze.com/
 server=/sdk.iad-08.braze.com/
-
-# [braze.eu]
 server=/cdn.braze.eu/
 server=/fra-01.braze.eu/
 server=/blink.fra-01.braze.eu/
 server=/clusava.fra-01.braze.eu/
 server=/sdk.fra-01.braze.eu/
-
-# [brealtime.com]
 server=/brealtime.com/
 server=/biddr.brealtime.com/
 server=/cookie.brealtime.com/
-
-# [brid.tv]
 server=/cdn.brid.tv/
 server=/p.brid.tv/
 server=/services.brid.tv/
 server=/stats-dev.brid.tv/
-
-# [bridgebase.com]
 server=/ads.bridgebase.com/
 server=/adserver.bridgebase.com/
-
-# [bridgetrack.com]
 server=/sec-citi.bridgetrack.com/
-
-# [brightcove.com]
 server=/metrics.brightcove.com/
-
-# [brightline.tv]
 server=/events.brightline.tv/
 server=/services.brightline.tv/
-
-# [britepool.com]
 server=/api.britepool.com/
 server=/px.britepool.com/
-
-# [browsiprod.com]
 server=/events.browsiprod.com/
 server=/yield-manager.browsiprod.com/
-
-# [btloader.com]
 server=/btloader.com/
-
-# [btncdn.com]
 server=/web.btncdn.com/
-
-# [btrll.com]
 server=/btrll.com/
-
-# [btstatic.com]
 server=/s.btstatic.com/
-
-# [bttn.io]
 server=/bttn.io/
 server=/etsy.bttn.io/
 server=/uberm.bttn.io/
-
-# [bttrack.com]
 server=/bttrack.com/
 server=/api.bttrack.com/
 server=/video.bttrack.com/
-
-# [btttag.com]
 server=/lululemonspna.btttag.com/
-
-# [bugfender.com]
 server=/api.bugfender.com/
 server=/app.bugfender.com/
-
-# [bughd.com]
 server=/collector.bughd.com/
-
-# [bugreplay.com]
 server=/app.bugreplay.com/
-
-# [bugsee.com]
 server=/api.bugsee.com/
-
-# [bugsense.com]
 server=/bugsense.com/
 server=/ticks2.bugsense.com/
-
-# [bulldogcpi.com]
 server=/ads.bulldogcpi.com/
-
-# [burstnet.com]
 server=/burstnet.com/
-
-# [buysellads.com]
 server=/srv.buysellads.com/
 server=/stats.buysellads.com/
-
-# [buysellads.net]
 server=/cdn-s2s.buysellads.net/
 server=/cdn4.buysellads.net/
-
-# [buzzfeed.com]
 server=/pixiedust.buzzfeed.com/
-
-# [byteoversea.com]
 server=/mon-va.byteoversea.com/
-
-# [c1exchange.com]
 server=/c1exchange.com/
-
-# [c8.net.ua]
 server=/c8.net.ua/
-
-# [camera360.com]
 server=/applog.camera360.com/
-
-# [campaignmonitor.com]
 server=/commerce.campaignmonitor.com/
-
-# [capitalone.com]
 server=/m-metrics.capitalone.com/
-
-# [caprofitx.com]
 server=/cdn.caprofitx.com/
-
-# [capturly.com]
 server=/collector.capturly.com/
-
-# [carambo.la]
 server=/carambo.la/
 server=/analytics.carambo.la/
 server=/content.carambo.la/
@@ -2557,18 +1550,10 @@ server=/pixel.carambo.la/
 server=/psa.carambo.la/
 server=/route.carambo.la/
 server=/xtr.carambo.la/
-
-# [cardlytics.com]
 server=/epiv.cardlytics.com/
 server=/images.cardlytics.com/
-
-# [carnivalmobile.com]
 server=/devices.carnivalmobile.com/
-
-# [carthook.com]
 server=/gcheck.carthook.com/
-
-# [casalemedia.com]
 server=/a1000.casalemedia.com/
 server=/a1015.casalemedia.com/
 server=/a1020.casalemedia.com/
@@ -2709,81 +1694,45 @@ server=/htlb.casalemedia.com/
 server=/r.casalemedia.com/
 server=/ssum.casalemedia.com/
 server=/ssum-sec.casalemedia.com/
-
-# [cauly.co.kr]
 server=/ad.cauly.co.kr/
 server=/image.cauly.co.kr/
 server=/xconf.cauly.co.kr/
-
-# [cbsi.com]
 server=/production-cmp.isgprivacy.cbsi.com/
-
-# [cbsnews.com]
 server=/tealium.cbsnews.com/
-
-# [ccgateway.net]
 server=/ccgateway.net/
 server=/analytics.ccgateway.net/
-
-# [cdn-image.com]
 server=/cdn-image.com/
-
-# [cdn7.rocks]
 server=/cdn7.rocks/
-
-# [cdnads.com]
 server=/perf.cdnads.com/
-
-# [cdnstoremedia.com]
 server=/cdnstoremedia.com/
-
-# [cdnwidget.com]
 server=/cdnwidget.com/
 server=/ids.cdnwidget.com/
 server=/pixel.cdnwidget.com/
 server=/u.cdnwidget.com/
-
-# [cellrebel.com]
 server=/metricreceiver.cellrebel.com/
-
-# [celltick.com]
 server=/celltick.com/
 server=/contentapi.celltick.com/
-
-# [celtra.com]
 server=/celtra.com/
 server=/ads.celtra.com/
 server=/cache.celtra.com/
 server=/cache-ssl.celtra.com/
 server=/geo.celtra.com/
 server=/track.celtra.com/
-
-# [center.io]
 server=/js.center.io/
-
-# [centurygame.com]
 server=/logagent-wf.centurygame.com/
 server=/ta-collector.centurygame.com/
-
-# [chango.com]
 server=/chango.com/
 server=/as.chango.com/
-
-# [chartbeat.com]
 server=/api.chartbeat.com/
 server=/dashapi.chartbeat.com/
 server=/mab.chartbeat.com/
 server=/static.chartbeat.com/
 server=/static2.chartbeat.com/
-
-# [chartbeat.net]
 server=/mabping.chartbeat.net/
 server=/pespn.chartbeat.net/
 server=/ping.chartbeat.net/
 server=/pnytimes.chartbeat.net/
 server=/ptimeinc.chartbeat.net/
-
-# [chartboost.com]
 server=/a2.chartboost.com/
 server=/da.chartboost.com/
 server=/live.chartboost.com/
@@ -2793,151 +1742,77 @@ server=/t2.chartboost.com/
 server=/v-ak.chartboost.com/
 server=/v2.chartboost.com/
 server=/www.chartboost.com/
-
-# [chartboosts.com]
 server=/chartboosts.com/
-
-# [chase.com]
 server=/analytics.chase.com/
-
-# [chrysler.com]
 server=/smetrics.chrysler.com/
-
-# [cinarra.com]
 server=/jp.cinarra.com/
 server=/3ppa.jp.cinarra.com/
 server=/dps.jp.cinarra.com/
-
-# [cint.com]
 server=/collector.cint.com/
 server=/qps.cint.com/
-
-# [cintnetworks.com]
 server=/c.cintnetworks.com/
-
-# [cision.com]
 server=/app.cision.com/
 server=/prapi.cision.com/
-
-# [civicscience.com]
 server=/cdn.civicscience.com/
 server=/get.civicscience.com/
 server=/www.civicscience.com/
-
-# [clarity.ms]
 server=/www.clarity.ms/
-
-# [claspws.tv]
 server=/config.claspws.tv/
 server=/events.claspws.tv/
-
-# [clean.gg]
 server=/i.clean.gg/
-
-# [clearbit.com]
 server=/marketo.clearbit.com/
-
-# [clevernt.com]
 server=/sender.clevernt.com/
-
-# [cleverpush.com]
 server=/api.cleverpush.com/
 server=/static.cleverpush.com/
-
-# [clevertap.com]
 server=/static.clevertap.com/
-
-# [clickagy.com]
 server=/aorta.clickagy.com/
 server=/i.clickagy.com/
 server=/tags.clickagy.com/
-
-# [clickcease.com]
 server=/monitor.clickcease.com/
-
-# [clickdimensions.com]
 server=/analytics.clickdimensions.com/
 server=/analytics-au.clickdimensions.com/
 server=/analytics-eu.clickdimensions.com/
-
-# [clickfuse.com]
 server=/clickfuse.com/
-
-# [clickintext.net]
 server=/tags.clickintext.net/
-
-# [clickmeter.com]
 server=/cnvrsns.clickmeter.com/
 server=/conversions.clickmeter.com/
 server=/newre-conversions.clickmeter.com/
-
-# [clicktale.net]
 server=/c.clicktale.net/
 server=/cdna.clicktale.net/
 server=/cdnssl.clicktale.net/
 server=/conductor.clicktale.net/
 server=/ir-ing-district.clicktale.net/
 server=/sptc.clicktale.net/
-
-# [clicktracks.com]
 server=/stats.clicktracks.com/
-
-# [clinch.co]
 server=/cdn.clinch.co/
 server=/img-cdn.clinch.co/
 server=/realtime.clinch.co/
 server=/trk.clinch.co/
-
-# [clkdeals.com]
 server=/clkdeals.com/
-
-# [clmbtech.com]
 server=/ade.clmbtech.com/
 server=/ase.clmbtech.com/
 server=/cade.clmbtech.com/
 server=/case.clmbtech.com/
 server=/mxase.clmbtech.com/
 server=/tml.clmbtech.com/
-
-# [cloud-elements.com]
 server=/g2c.cloud-elements.com/
-
-# [clouddn.com]
 server=/bkt.clouddn.com/
-
-# [cloudflareinsights.com]
 server=/static.cloudflareinsights.com/
-
-# [us-central1-adaptive-growth.cloudfunctions.net]
 server=/us-central1-adaptive-growth.cloudfunctions.net/
-
-# [cloudmobi.net]
 server=/cloudmobi.net/
 server=/api.cloudmobi.net/
 server=/logger.cloudmobi.net/
-
-# [cludo.com]
 server=/customer.cludo.com/
-
-# [cluep.com]
 server=/cas.cluep.com/
 server=/dev-as.cluep.com/
-
-# [cmcm.com]
 server=/lcf.cmplay.cmcm.com/
 server=/magic.cmcm.com/
 server=/ms.cmcm.com/
 server=/tealand.cmcm.com/
 server=/tileswan.cmcm.com/
-
-# [cmcore.com]
 server=/cmcore.com/
-
-# [cmgdigital.com]
 server=/appconfig.cmgdigital.com/
 server=/cmgfeeds.cmgdigital.com/
-
-# [cnn.com]
 server=/agility.cnn.com/
 server=/collector.cdp.cnn.com/
 server=/z.cdp-dev.cnn.com/
@@ -2945,62 +1820,30 @@ server=/data.cnn.com/
 server=/lightning.cnn.com/
 server=/mms.cnn.com/
 server=/smetrics.cnn.com/
-
-# [cnt.my]
 server=/cnt.my/
-
-# [cobrowser.com]
 server=/app.cobrowser.com/
-
-# [cognitivlabs.com]
 server=/lynx.cognitivlabs.com/
 server=/beacon.lynx.cognitivlabs.com/
-
-# [coinzillatag.com]
 server=/coinzillatag.com/
-
-# [collabollc.com]
 server=/sdk.collabollc.com/
-
-# [colossusssp.com]
 server=/colossusssp.com/
-
-# [comcast.com]
 server=/collector.pabs.comcast.com/
-
-# [commander1.com]
 server=/engage.commander1.com/
 server=/privacy.commander1.com/
 server=/sync.commander1.com/
-
-# [company-target.com]
 server=/company-target.com/
 server=/api.company-target.com/
 server=/segments.company-target.com/
-
-# [comscore.com]
 server=/siterecruit.comscore.com/
-
-# [comscoreresearch.com]
 server=/comscoreresearch.com/
 server=/apple.comscoreresearch.com/
-
-# [concert.io]
 server=/concert.io/
 server=/bids.concert.io/
 server=/cdn.concert.io/
-
-# [conductrics.com]
 server=/cdn-cbc-v3.conductrics.com/
 server=/cdn-v3.conductrics.com/
-
-# [confsettings.com]
 server=/mobile.confsettings.com/
-
-# [congstar.de]
 server=/banner.congstar.de/
-
-# [connatix.com]
 server=/assets.connatix.com/
 server=/capi.connatix.com/
 server=/cd.connatix.com/
@@ -3012,32 +1855,18 @@ server=/core.connatix.com/
 server=/i.connatix.com/
 server=/img.connatix.com/
 server=/vid.connatix.com/
-
-# [connectad.io]
 server=/e.connectad.io/
 server=/i.connectad.io/
 server=/sync.connectad.io/
 server=/sync-eu.connectad.io/
-
-# [connecto.io]
 server=/api.connecto.io/
 server=/push.connecto.io/
 server=/server.connecto.io/
-
-# [connexity.net]
 server=/pxl.connexity.net/
-
-# [consoliads.com]
 server=/sdk.consoliads.com/
-
-# [content-square.net]
 server=/mobile-production.content-square.net/
-
-# [content.ad]
 server=/content.ad/
 server=/api.content.ad/
-
-# [contentabc.com]
 server=/contentabc.com/
 server=/ads.contentabc.com/
 server=/cdn11.contentabc.com/
@@ -3045,15 +1874,9 @@ server=/hw-cdn.contentabc.com/
 server=/hw-cdn2.contentabc.com/
 server=/vz-cdn.contentabc.com/
 server=/vz-cdn2.contentabc.com/
-
-# [contentsquare.net]
 server=/contentsquare.net/
 server=/t.contentsquare.net/
-
-# [contentstream.pl]
 server=/contentstream.pl/
-
-# [contextweb.com]
 server=/bh.contextweb.com/
 server=/bid.contextweb.com/
 server=/lga-bh.contextweb.com/
@@ -3065,14 +1888,8 @@ server=/sjc-bid.contextweb.com/
 server=/sjc-tr.contextweb.com/
 server=/sjc-tr-bgp.contextweb.com/
 server=/tag-st.contextweb.com/
-
-# [contineljs.com]
 server=/contineljs.com/
-
-# [convertexperiments.com]
 server=/cdn-3.convertexperiments.com/
-
-# [conviva.com]
 server=/conviva.com/
 server=/47e224be59415ec068b94bca857581bd7dde7fb6.cws.conviva.com/
 server=/87a6b28bc7823e67a5bb2a0a6728c702afcae78d.cws.conviva.com/
@@ -3085,75 +1902,39 @@ server=/cws-sjc2.conviva.com/
 server=/cws-us-east.conviva.com/
 server=/cws-usw2.conviva.com/
 server=/pings.conviva.com/
-
-# [cookiepro.com]
 server=/cookie-cdn.cookiepro.com/
-
-# [cookieyes.com]
 server=/geoip.cookieyes.com/
-
-# [cootlogix.com]
 server=/openrtb.cootlogix.com/
 server=/prebid.cootlogix.com/
-
-# [cordial.com]
 server=/events-stream-svc.usw2.cordial.com/
 server=/message-hub-svc.usw2.cordial.com/
-
-# [coremedia.cloud]
 server=/sitegenesis.production.deckers.coremedia.cloud/
-
-# [coremetrics.com]
 server=/coremetrics.com/
 server=/data.coremetrics.com/
 server=/libs.coremetrics.com/
-
-# [corevm.com]
 server=/locator1.corevm.com/
 server=/locatorpp.corevm.com/
-
-# [coronalabs.com]
 server=/monetize-api.coronalabs.com/
 server=/stats.coronalabs.com/
-
-# [count.ly]
 server=/count.ly/
-
-# [cox.com]
 server=/smetrics.cox.com/
-
-# [cpmstar.com]
 server=/cpmstar.com/
 server=/cdne.cpmstar.com/
 server=/ssl.cdne.cpmstar.com/
-
-# [cpx.to]
 server=/cpx.to/
 server=/s.cpx.to/
-
-# [crasheye.cn]
 server=/crasheye.cn/
 server=/rp.crasheye.cn/
-
-# [crazyegg.com]
 server=/sample-api-v2.crazyegg.com/
 server=/script.crazyegg.com/
 server=/tracking.crazyegg.com/
-
-# [creative-serving.com]
 server=/ads.creative-serving.com/
-
-# [creativecdn.com]
 server=/creativecdn.com/
-
-# [crispadvertising.com]
 server=/crispadvertising.com/
 server=/api.crispadvertising.com/
 server=/cdn2.crispadvertising.com/
 server=/cdn4.crispadvertising.com/
 server=/dts.crispadvertising.com/
-
-# [criteo.com]
 server=/criteo.com/
 server=/as.criteo.com/
 server=/ads.as.criteo.com/
@@ -3232,8 +2013,6 @@ server=/cat.va.us.criteo.com/
 server=/rtb.va.us.criteo.com/
 server=/widget.va.us.criteo.com/
 server=/widget.us.criteo.com/
-
-# [criteo.net]
 server=/criteo.net/
 server=/as.criteo.net/
 server=/csm.as.criteo.net/
@@ -3268,8 +2047,6 @@ server=/csm.da.us.criteo.net/
 server=/pix.us.criteo.net/
 server=/va.us.criteo.net/
 server=/csm.va.us.criteo.net/
-
-# [crittercism.com]
 server=/crittercism.com/
 server=/api.crittercism.com/
 server=/apm.crittercism.com/
@@ -3278,45 +2055,23 @@ server=/txn.ingest.crittercism.com/
 server=/userflows.ingest.crittercism.com/
 server=/5-7-3-ios.userflows.ingest.crittercism.com/
 server=/5-9-5-ios.userflows.ingest.crittercism.com/
-
-# [crossinstall.com]
 server=/rtb-east-wins.crossinstall.com/
-
-# [crossinstall.io]
 server=/impressions.crossinstall.io/
 server=/step-service.crossinstall.io/
-
-# [crowdtangle.com]
 server=/apps.crowdtangle.com/
-
-# [crowdtwist.com]
 server=/resources.crowdtwist.com/
-
-# [crownpeak.com]
 server=/snippet.omm.crownpeak.com/
-
-# [crsspxl.com]
 server=/tag.crsspxl.com/
-
-# [crwdcntrl.net]
 server=/ad.crwdcntrl.net/
 server=/bcp.crwdcntrl.net/
 server=/sync.crwdcntrl.net/
 server=/tags.crwdcntrl.net/
-
-# [cszz.ru]
 server=/cszz.ru/
-
-# [cuebiq.com]
 server=/cuebiq.com/
 server=/in.cuebiq.com/
-
-# [customer.io]
 server=/assets.customer.io/
 server=/edge-west.customer.io/
 server=/track.customer.io/
-
-# [cxense.com]
 server=/api.cxense.com/
 server=/cdn.cxense.com/
 server=/csyn.cxense.com/
@@ -3327,48 +2082,22 @@ server=/p1cluster.cxense.com/
 server=/scdn.cxense.com/
 server=/scomcluster.cxense.com/
 server=/sp1cluster.cxense.com/
-
-# [cxpublic.com]
 server=/content-thumbnail.cxpublic.com/
-
-# [cymera.com]
 server=/openapi.cymera.com/
-
-# [d2cmedia.ca]
 server=/d2cmedia.ca/
-
-# [dable.io]
 server=/dable.io/
 server=/ad-hub.dable.io/
 server=/static.dable.io/
-
-# [databerries.com]
 server=/databerries.com/
-
-# [databrain.com]
 server=/tracker.databrain.com/
-
-# [datadoghq.com]
 server=/logs.datadoghq.com/
 server=/browser-http-intake.logs.datadoghq.com/
-
-# [datadome.co]
 server=/api-sdk.datadome.co/
-
-# [datahc.com]
 server=/media.datahc.com/
-
-# [datawrapper.de]
 server=/stats.datawrapper.de/
-
-# [dataxu.com]
 server=/dataxu.com/
-
-# [datorama.com]
 server=/app.datorama.com/
 server=/oauth.datorama.com/
-
-# [daum.net]
 server=/ad.daum.net/
 server=/analytics.ad.daum.net/
 server=/bc.ad.daum.net/
@@ -3378,46 +2107,26 @@ server=/kyson.ad.daum.net/
 server=/wat.ad.daum.net/
 server=/webid.ad.daum.net/
 server=/track.tiara.daum.net/
-
-# [daumcdn.net]
 server=/adimg.daumcdn.net/
-
-# [dbankcloud.cn]
 server=/datacollector-dra.dt.dbankcloud.cn/
-
-# [research.de.com]
 server=/s79.research.de.com/
-
-# [de17a.com]
 server=/tb.de17a.com/
-
-# [decagames.com]
 server=/prod-dcs-eventlog.decagames.com/
-
-# [decibelinsight.net]
 server=/api.decibelinsight.net/
 server=/d806-us.api.decibelinsight.net/
 server=/cdn.decibelinsight.net/
 server=/collection.decibelinsight.net/
-
-# [deepintent.com]
 server=/apsoutheast-match.deepintent.com/
 server=/beacon.deepintent.com/
 server=/cdn.deepintent.com/
 server=/match.deepintent.com/
 server=/prebid.deepintent.com/
 server=/useast-beacon.deepintent.com/
-
-# [deliverimp.com]
 server=/compass-allbids.deliverimp.com/
 server=/compass-errors.deliverimp.com/
 server=/compass-events.deliverimp.com/
 server=/compass-v2.deliverimp.com/
-
-# [deloton.com]
 server=/deloton.com/
-
-# [deltadna.net]
 server=/balanced-collect.deltadna.net/
 server=/balanced-engage.deltadna.net/
 server=/collect10791rllrc.deltadna.net/
@@ -3435,19 +2144,13 @@ server=/engage13764wrdst.deltadna.net/
 server=/engage3515gvrnr.deltadna.net/
 server=/engage5081wrdch.deltadna.net/
 server=/engage8829thscr.deltadna.net/
-
-# [deltago.com]
 server=/deltago.com/
-
-# [demandbase.com]
 server=/api.demandbase.com/
 server=/autocomplete.demandbase.com/
 server=/dsp.demandbase.com/
 server=/dsp-creative.demandbase.com/
 server=/scripts.demandbase.com/
 server=/tag.demandbase.com/
-
-# [demdex.net]
 server=/demdex.net/
 server=/americanairlines.demdex.net/
 server=/audible.demdex.net/
@@ -3472,108 +2175,50 @@ server=/vanguard.demdex.net/
 server=/verizon.demdex.net/
 server=/vivaki.demdex.net/
 server=/webmd.demdex.net/
-
-# [deployads.com]
 server=/c.deployads.com/
 server=/e.deployads.com/
 server=/tags-cdn.deployads.com/
-
-# [destinilocators.com]
 server=/cdn.destinilocators.com/
-
-# [devtodev.com]
 server=/balancer.devtodev.com/
 server=/statgw.devtodev.com/
-
-# [dewrain.life]
 server=/co.dewrain.life/
 server=/int.dewrain.life/
-
-# [dewrain.site]
 server=/int.dewrain.site/
-
-# [dewrain.world]
 server=/int.dewrain.world/
-
-# [dice.com]
 server=/insights.dice.com/
-
-# [dickssportinggoods.com]
 server=/smetrics.dickssportinggoods.com/
 server=/tag.dickssportinggoods.com/
-
-# [dictionary.com]
 server=/track.dictionary.com/
-
-# [digital-metric.com]
 server=/tags.digital-metric.com/
-
-# [digitru.st]
 server=/digitru.st/
 server=/cdn.digitru.st/
 server=/prebid.digitru.st/
-
-# [dimml.io]
 server=/cdn.dimml.io/
-
-# [directadvert.ru]
 server=/directadvert.ru/
 server=/code.directadvert.ru/
-
-# [directservices.it]
 server=/multi-cluster.directservices.it/
 server=/tracking.directservices.it/
 server=/xpig-dev.directservices.it/
-
-# [disneyplus.com]
 server=/sanalytics.disneyplus.com/
-
-# [display.io]
 server=/appsrv.display.io/
-
-# [disq.us]
 server=/x.disq.us/
-
-# [disqus.com]
 server=/referrer.disqus.com/
 server=/glitter.services.disqus.com/
 server=/tempest.services.disqus.com/
-
-# [districtm.ca]
 server=/cdn.districtm.ca/
 server=/prebid.districtm.ca/
-
-# [districtm.io]
 server=/cdn.districtm.io/
 server=/dmx.districtm.io/
-
-# [dmpxs.com]
 server=/bob.dmpxs.com/
 server=/ciq.dmpxs.com/
-
-# [doesxyz.com]
 server=/ufz.doesxyz.com/
-
-# [dofunapps.com]
 server=/ads.dofunapps.com/
-
-# [domainforlite.com]
 server=/ti.domainforlite.com/
-
-# [domdex.com]
 server=/t.domdex.com/
 server=/magnetic.t.domdex.com/
-
-# [doordash.com]
 server=/collector.doordash.com/
-
-# [dotmetrics.net]
 server=/uk-script.dotmetrics.net/
-
-# [dotomi.com]
 server=/prebid-match.dotomi.com/
-
-# [doubleclick.net]
 server=/doubleclick.net/
 server=/accounts.doubleclick.net/
 server=/ad.doubleclick.net/
@@ -3597,8 +2242,6 @@ server=/dart.l.doubleclick.net/
 server=/m.doubleclick.net/
 server=/s0.doubleclick.net/
 server=/static.doubleclick.net/
-
-# [doubleverify.com]
 server=/doubleverify.com/
 server=/cdn.doubleverify.com/
 server=/cdn3.doubleverify.com/
@@ -3613,32 +2256,16 @@ server=/tps711.doubleverify.com/
 server=/vast.doubleverify.com/
 server=/vpaid.doubleverify.com/
 server=/vtrk.doubleverify.com/
-
-# [doumob.com]
 server=/api.doumob.com/
-
-# [douyucdn.cn]
 server=/bjfesdk.douyucdn.cn/
-
-# [dozuki.com]
 server=/ping.dozuki.com/
-
-# [dpmsrv.com]
 server=/dpmsrv.com/
 server=/a.dpmsrv.com/
 server=/s.dpmsrv.com/
-
-# [dspcdn.com]
 server=/banner.dspcdn.com/
-
-# [dtscdn.com]
 server=/t.dtscdn.com/
-
-# [duapp.com]
 server=/agentchannel.api.duapp.com/
 server=/channel.api.duapp.com/
-
-# [duapps.com]
 server=/duapps.com/
 server=/common.duapps.com/
 server=/pasta.da.duapps.com/
@@ -3656,26 +2283,16 @@ server=/ioslog.ssl2.duapps.com/
 server=/mblapi.ssl2.duapps.com/
 server=/nrcapi.ssl2.duapps.com/
 server=/rts.ssl2.duapps.com/
-
-# [duiba.com.cn]
 server=/duiba.com.cn/
-
-# [duokanbox.com]
 server=/controller.duokanbox.com/
 server=/mobile.controller.duokanbox.com/
 server=/fm.duokanbox.com/
-
-# [durationmedia.net]
 server=/be.durationmedia.net/
 server=/tag.durationmedia.net/
-
-# [dxsvr.com]
 server=/ak.dxsvr.com/
 server=/rc.dxsvr.com/
 server=/tls.dxsvr.com/
 server=/u.dxsvr.com/
-
-# [dynamicyield.com]
 server=/async-px.dynamicyield.com/
 server=/async-px-eu.dynamicyield.com/
 server=/cdn.dynamicyield.com/
@@ -3688,54 +2305,28 @@ server=/rest.dynamicyield.com/
 server=/st.dynamicyield.com/
 server=/st-eu.dynamicyield.com/
 server=/static.dynamicyield.com/
-
-# [dynatrace-managed.com]
 server=/dlt-beacon.dynatrace-managed.com/
-
-# [dynatrace.com]
 server=/bf20578xco.bf.dynatrace.com/
 server=/js-cdn.dynatrace.com/
-
-# [dynstc.com]
 server=/cdn.n.dynstc.com/
-
-# [dyntrk.com]
 server=/dyntrk.com/
 server=/gu.dyntrk.com/
-
-# [e-planning.net]
 server=/ads.us.e-planning.net/
-
-# [eacdn.com]
 server=/eacdn.com/
-
-# [eagllwin.com]
 server=/api.eagllwin.com/
 server=/creative.eagllwin.com/
-
-# [easebar.com]
 server=/applog.matrix.easebar.com/
 server=/mcount.easebar.com/
 server=/appdump.nie.easebar.com/
 server=/sigma-statistics-push.proxima.nie.easebar.com/
 server=/who.nie.easebar.com/
-
-# [easy-ads.com]
 server=/ads.easy-ads.com/
-
-# [ebz.io]
 server=/ebz.io/
-
-# [ecbsn.com]
 server=/apituner.ecbsn.com/
 server=/api.engager.ecbsn.com/
 server=/events.engager.ecbsn.com/
 server=/ffconf.ecbsn.com/
-
-# [ecorebates.com]
 server=/static.ecorebates.com/
-
-# [edgekey.net]
 server=/analytics.edgekey.net/
 server=/79423.analytics.edgekey.net/
 server=/ma1169-r.analytics.edgekey.net/
@@ -3839,163 +2430,85 @@ server=/criteo-sync.teads.tv.edgekey.net/
 server=/perf.teads.tv.edgekey.net/
 server=/sync.teads.tv.edgekey.net/
 server=/t.teads.tv.edgekey.net/
-
-# [effectivemeasure.net]
 server=/collector.effectivemeasure.net/
 server=/my-ssl.effectivemeasure.net/
 server=/s.effectivemeasure.net/
 server=/sg-ssl.effectivemeasure.net/
 server=/t.effectivemeasure.net/
-
-# [effiliation.com]
 server=/mastertag.effiliation.com/
 server=/track.effiliation.com/
-
-# [production-adkviewtrackingtagserver.ap-northeast-1.elasticbeanstalk.com]
 server=/production-adkviewtrackingtagserver.ap-northeast-1.elasticbeanstalk.com/
-
-# [tp-rtb-adserver-eu.eu-west-1.elasticbeanstalk.com]
 server=/tp-rtb-adserver-eu.eu-west-1.elasticbeanstalk.com/
-
-# [fusion-iad-dev-clogs-eqbrmmvphc.elasticbeanstalk.com]
 server=/fusion-iad-dev-clogs-eqbrmmvphc.elasticbeanstalk.com/
-
-# [mgd-adengine.elasticbeanstalk.com]
 server=/mgd-adengine.elasticbeanstalk.com/
-
-# [bnsqc3zmvt.us-east-1.elasticbeanstalk.com]
 server=/poole-collector-prod.bnsqc3zmvt.us-east-1.elasticbeanstalk.com/
-
-# [cbola-ads-1-t3.us-east-1.elasticbeanstalk.com]
 server=/cbola-ads-1-t3.us-east-1.elasticbeanstalk.com/
-
-# [cbola-analytics-c5-6.us-east-1.elasticbeanstalk.com]
 server=/cbola-analytics-c5-6.us-east-1.elasticbeanstalk.com/
-
-# [cbola-content-1-t3.us-east-1.elasticbeanstalk.com]
 server=/cbola-content-1-t3.us-east-1.elasticbeanstalk.com/
-
-# [cbola-logging-1-t3.us-east-1.elasticbeanstalk.com]
 server=/cbola-logging-1-t3.us-east-1.elasticbeanstalk.com/
-
-# [dhg-logging.us-east-1.elasticbeanstalk.com]
 server=/dhg-logging.us-east-1.elasticbeanstalk.com/
-
-# [ei-event-collector.us-east-1.elasticbeanstalk.com]
 server=/ei-event-collector.us-east-1.elasticbeanstalk.com/
-
-# [adlic.us-west-2.elasticbeanstalk.com]
 server=/adlic.us-west-2.elasticbeanstalk.com/
-
-# [api-gateway.us-west-2.elasticbeanstalk.com]
 server=/api-gateway.us-west-2.elasticbeanstalk.com/
-
-# [wpsconfig4svr.elasticbeanstalk.com]
 server=/wpsconfig4svr.elasticbeanstalk.com/
-
-# [emarsys.net]
 server=/assets.emarsys.net/
 server=/me-client.eservice.emarsys.net/
 server=/mobile-sdk-config.gservice.emarsys.net/
-
-# [emb-api.com]
 server=/config.emb-api.com/
 server=/data.emb-api.com/
-
-# [emxdgt.com]
 server=/emxdgt.com/
 server=/cs.emxdgt.com/
 server=/e1.emxdgt.com/
 server=/emxhb.emxdgt.com/
 server=/hb.emxdgt.com/
 server=/imp.emxdgt.com/
-
-# [en25.com]
 server=/img.en25.com/
-
-# [engageclick.com]
 server=/tracker.engageclick.com/
-
-# [engageya.com]
 server=/engageya.com/
 server=/images9.engageya.com/
 server=/recs.engageya.com/
 server=/widget.engageya.com/
-
-# [enhance.co]
 server=/app-config.enhance.co/
-
-# [ensighten.com]
 server=/ensighten.com/
 server=/activate.ensighten.com/
 server=/nexus.ensighten.com/
 server=/scarf.ensighten.com/
-
-# [epom.com]
 server=/epom.com/
-
-# [eqads.com]
 server=/ads2.eqads.com/
 server=/ads3.eqads.com/
 server=/um2.eqads.com/
 server=/um3.eqads.com/
-
-# [espn.com]
 server=/log.espn.com/
 server=/sw88.espn.com/
-
-# [estara.com]
 server=/as00.estara.com/
-
-# [etahub.com]
 server=/etahub.com/
 server=/atlas.etahub.com/
-
-# [eum-appdynamics.com]
 server=/col.eum-appdynamics.com/
 server=/fra-col.eum-appdynamics.com/
 server=/mobile.eum-appdynamics.com/
 server=/pdx-col.eum-appdynamics.com/
 server=/syd-col.eum-appdynamics.com/
-
-# [everestads.net]
 server=/everestads.net/
 server=/dco-assets.everestads.net/
-
-# [everesttech.net]
 server=/everesttech.net/
 server=/ads.everesttech.net/
 server=/cm.everesttech.net/
 server=/statsf-tm.everesttech.net/
 server=/sync-tm.everesttech.net/
-
-# [evidon.com]
 server=/evidon.com/
 server=/c.evidon.com/
 server=/iabmap.evidon.com/
 server=/info.evidon.com/
 server=/l.evidon.com/
 server=/l3.evidon.com/
-
-# [evolv.ai]
 server=/media.evolv.ai/
 server=/participants.evolv.ai/
-
-# [ex.co]
 server=/cdn-channels-pixel.ex.co/
 server=/prd-collector-anon.ex.co/
-
-# [exactag.com]
 server=/tp-emea.exactag.com/
-
-# [exacttargetapis.com]
 server=/exacttargetapis.com/
 server=/consumer.exacttargetapis.com/
-
-# [exdynsrv.com]
 server=/a.exdynsrv.com/
-
-# [exelator.com]
 server=/cdn.exelator.com/
 server=/load.exelator.com/
 server=/ap-central.load.exelator.com/
@@ -4014,98 +2527,46 @@ server=/ssl.exelator.com/
 server=/tm.ssl.exelator.com/
 server=/loadus.tm.ssl.exelator.com/
 server=/vdna.exelator.com/
-
-# [experian.com]
 server=/smetrics1.experian.com/
-
-# [extend.tv]
 server=/extend.tv/
 server=/adserver-east.extend.tv/
 server=/freewheeleventsbidder-east.extend.tv/
 server=/sync.extend.tv/
 server=/telariaeventsbidder-east.extend.tv/
-
-# [extole.io]
 server=/everlywell.extole.io/
-
-# [extreme-ip-lookup.com]
 server=/extreme-ip-lookup.com/
-
-# [extremereach.io]
 server=/extremereach.io/
 server=/beacons.extremereach.io/
 server=/cdn1.extremereach.io/
 server=/cdn2.extremereach.io/
 server=/vast.extremereach.io/
-
-# [eyeota.net]
 server=/ps.eyeota.net/
-
-# [eyeviewads.com]
 server=/track.eyeviewads.com/
-
-# [ezmob.com]
 server=/filter.ezmob.com/
 server=/xml.ezmob.com/
-
-# [ezoic.net]
 server=/go.ezoic.net/
-
-# [fabric.io]
 server=/fabric.io/
-
-# [facebook.com]
 server=/an.facebook.com/
 server=/pixel.facebook.com/
-
-# [fam-ad.com]
 server=/fam-ad.com/
-
-# [fastapi.net]
 server=/fastapi.net/
-
-# [mparticle.map.fastly.net]
 server=/mparticle.map.fastly.net/
-
-# [confiant-integrations.global.ssl.fastly.net]
 server=/confiant-integrations.global.ssl.fastly.net/
-
-# [fbcdn.net]
 server=/sonar-iad.xx.fbcdn.net/
-
-# [fedex.com]
 server=/metrics.fedex.com/
-
-# [feedmob.com]
 server=/tracking.feedmob.com/
-
-# [fidelity-media.com]
 server=/fidelity-media.com/
 server=/x.fidelity-media.com/
-
-# [fiksu.com]
 server=/fiksu.com/
 server=/a.fiksu.com/
 server=/sdk.fiksu.com/
-
-# [fingersoft.net]
 server=/ads3.fingersoft.net/
-
-# [firstimpression.io]
 server=/firstimpression.io/
 server=/cdn.firstimpression.io/
 server=/ecdn.firstimpression.io/
-
-# [fishsticksgames.com]
 server=/logging.fishsticksgames.com/
-
-# [fitanalytics.com]
 server=/widget.fitanalytics.com/
-
-# [fixel.ai]
 server=/script.fixel.ai/
-
-# [flashtalking.com]
 server=/flashtalking.com/
 server=/ad-events.flashtalking.com/
 server=/d9.flashtalking.com/
@@ -4116,15 +2577,9 @@ server=/imgcf.flashtalking.com/
 server=/s3cf.flashtalking.com/
 server=/servedby.flashtalking.com/
 server=/stat8.flashtalking.com/
-
-# [flipboard.com]
 server=/ad.flipboard.com/
 server=/ue.flipboard.com/
-
-# [flow.io]
 server=/beacon.flow.io/
-
-# [flurry.com]
 server=/flurry.com/
 server=/adlog.flurry.com/
 server=/ads.flurry.com/
@@ -4133,37 +2588,19 @@ server=/cfg.flurry.com/
 server=/data.flurry.com/
 server=/gw.flurry.com/
 server=/proton.flurry.com/
-
-# [flyermobi.com]
 server=/adbsc.flyermobi.com/
 server=/adbsdk.flyermobi.com/
 server=/adc.flyermobi.com/
-
-# [fmpub.net]
 server=/fmpub.net/
-
-# [fn-pz.com]
 server=/vision.fn-pz.com/
-
-# [follow-apps.com]
 server=/auth.follow-apps.com/
 server=/sdk.follow-apps.com/
 server=/sor-sdk.follow-apps.com/
-
-# [fomo.com]
 server=/load.fomo.com/
-
-# [footprint.net]
 server=/king-contenido-prod.secure2.footprint.net/
-
-# [footprintdns.com]
 server=/footprintdns.com/
-
-# [forbes.com]
 server=/fuse.forbes.com/
 server=/geolocation.forbes.com/
-
-# [foresee.com]
 server=/analytics.foresee.com/
 server=/bd-nplb01.foresee.com/
 server=/bd-nplb02.foresee.com/
@@ -4172,28 +2609,14 @@ server=/brain.foresee.com/
 server=/cx.foresee.com/
 server=/gateway.foresee.com/
 server=/static.foresee.com/
-
-# [foreseeresults.com]
 server=/events.foreseeresults.com/
-
-# [formisimo.com]
 server=/cdn-static.formisimo.com/
-
-# [forter.com]
 server=/9e97cf8b099a.cdn4.forter.com/
 server=/e44177b6b805.cdn4.forter.com/
 server=/fdfe4ed62699.cdn4.forter.com/
-
-# [fosrv.com]
 server=/analytics.fosrv.com/
-
-# [fotoable.com]
 server=/dl.fotoable.com/
-
-# [fotoable.net]
 server=/geoip.fotoable.net/
-
-# [fout.jp]
 server=/fout.jp/
 server=/cnt.fout.jp/
 server=/dmp.fout.jp/
@@ -4206,53 +2629,27 @@ server=/imp.rfp.fout.jp/
 server=/js.rfp.fout.jp/
 server=/sync.rfp.fout.jp/
 server=/sync.fout.jp/
-
-# [fox.com]
 server=/b.fox.com/
-
-# [foxitcloud.com]
 server=/adlog.foxitcloud.com/
 server=/logger.foxitcloud.com/
-
-# [foxnews.com]
 server=/smetrics.foxnews.com/
-
-# [foxpush.com]
 server=/pushaction.foxpush.com/
-
-# [foxsports.com]
 server=/analytics.nova.foxsports.com/
-
-# [fqtag.com]
 server=/aux.fqtag.com/
 server=/c.fqtag.com/
 server=/cdn.fqtag.com/
 server=/new.fqtag.com/
 server=/query.fqtag.com/
-
-# [ftstats.com]
 server=/c.ftstats.com/
-
-# [funheroic.com]
 server=/dat.funheroic.com/
-
-# [funshion.com]
 server=/pub.funshion.com/
-
-# [fuse-ad.com]
 server=/pokkt.fuse-ad.com/
-
-# [fusetracking.com]
 server=/leanmobi.fusetracking.com/
-
-# [fwmrm.net]
 server=/fwmrm.net/
 server=/adm.fwmrm.net/
 server=/v.fwmrm.net/
 server=/7f077.v.fwmrm.net/
 server=/dsp.v.fwmrm.net/
-
-# [fyber.com]
 server=/api.fyber.com/
 server=/api-rewarded-video.fyber.com/
 server=/dau.fyber.com/
@@ -4267,13 +2664,9 @@ server=/sdk-config.fyber.com/
 server=/service.fyber.com/
 server=/tracker.fyber.com/
 server=/video.fyber.com/
-
-# [g2afse.com]
 server=/appsclicks.g2afse.com/
 server=/aterru.g2afse.com/
 server=/tarsan.g2afse.com/
-
-# [g5e.com]
 server=/cdn.g5e.com/
 server=/ceg.g5e.com/
 server=/collecting-consent.g5e.com/
@@ -4282,146 +2675,76 @@ server=/pgpl.g5e.com/
 server=/pushwoosh.g5e.com/
 server=/specialdeals.g5e.com/
 server=/xpromo.g5e.com/
-
-# [game-insight.com]
 server=/tribez.game-insight.com/
-
-# [gameanalytics.com]
 server=/gameanalytics.com/
 server=/api.gameanalytics.com/
 server=/rubick.gameanalytics.com/
-
-# [gameloft.com]
 server=/igp06.gameloft.com/
 server=/ingameads.gameloft.com/
-
-# [gamemonetize.com]
 server=/html5.gamemonetize.com/
-
-# [gameofwhales.com]
 server=/api.gameofwhales.com/
-
-# [games-to-run123.com]
 server=/trk.games-to-run123.com/
-
-# [gammaplatform.com]
 server=/gammaplatform.com/
 server=/cm.gammaplatform.com/
 server=/hb.gammaplatform.com/
 server=/tag.gammaplatform.com/
-
-# [gamooga.com]
 server=/evbk.gamooga.com/
-
-# [gannettdigital.com]
 server=/traxex.gannettdigital.com/
-
-# [gdeslon.ru]
 server=/gdeslon.ru/
-
-# [gemius.pl]
 server=/gemius.pl/
 server=/gatr.hit.gemius.pl/
 server=/googlecm.hit.gemius.pl/
-
-# [genieessp.com]
 server=/genieessp.com/
 server=/gi-js.genieessp.com/
 server=/js.genieessp.com/
-
-# [geoadnxs.com]
 server=/sin1.geoadnxs.com/
 server=/ib.sin1.geoadnxs.com/
 server=/m.ib.sin1.geoadnxs.com/
 server=/mobile.ib.sin1.geoadnxs.com/
 server=/sin3-ib.sin1.geoadnxs.com/
-
-# [geoedge.be]
 server=/gw.geoedge.be/
 server=/protect.geoedge.be/
 server=/rumcdn.geoedge.be/
-
-# [geoplugin.net]
 server=/geoplugin.net/
 server=/www.geoplugin.net/
-
-# [gepush.com]
 server=/sdk.open.talk.gepush.com/
-
-# [getclicky.com]
 server=/in.getclicky.com/
 server=/static.getclicky.com/
-
-# [getdrip.com]
 server=/api.getdrip.com/
 server=/tag.getdrip.com/
-
-# [getgo.com]
 server=/api-telemetry.servers.getgo.com/
 server=/telemetry.servers.getgo.com/
-
-# [getshogun.com]
 server=/analytics.getshogun.com/
-
-# [getsocial.im]
 server=/hades.getsocial.im/
-
-# [getui.net]
 server=/sdk.open.talk.getui.net/
-
-# [getwoohoo.com]
 server=/app.getwoohoo.com/
-
-# [gimbal.com]
 server=/analytics-server.gimbal.com/
 server=/communicate.gimbal.com/
 server=/placebubble.gimbal.com/
 server=/registration.gimbal.com/
 server=/sdk-configuration.gimbal.com/
 server=/sdk-info.gimbal.com/
-
-# [gimbal.tech]
 server=/cdn.gimbal.tech/
-
-# [gioneemobile.net]
 server=/stats.gioneemobile.net/
-
-# [gismart.xyz]
 server=/analytics.gismart.xyz/
 server=/prod-defaulting-subscriptiontool.gismart.xyz/
-
-# [gladly.com]
 server=/cdn.gladly.com/
 server=/us-1.gladly.com/
-
-# [gleam.io]
 server=/js.gleam.io/
-
-# [glispa.com]
 server=/glispa.com/
-
-# [globalwebindex.net]
 server=/gwiq-v3.globalwebindex.net/
 server=/gwiqcdn.globalwebindex.net/
-
-# [glulive.com]
 server=/personalization.centech.glulive.com/
 server=/prd1.personalization.centech.glulive.com/
 server=/revid.centech.glulive.com/
 server=/prd1.revid.centech.glulive.com/
-
-# [gmossp-sp.jp]
 server=/gmossp-sp.jp/
 server=/cdn.gmossp-sp.jp/
 server=/adn-d.sp.gmossp-sp.jp/
 server=/adn-i.sp.gmossp-sp.jp/
 server=/adn-j.sp.gmossp-sp.jp/
-
-# [go-mpulse.net]
 server=/c.go-mpulse.net/
 server=/s.go-mpulse.net/
-
-# [go.com]
 server=/log.go.com/
 server=/sw88.go.com/
 server=/tredir.go.com/
@@ -4429,23 +2752,13 @@ server=/unid.go.com/
 server=/android.unid.go.com/
 server=/cdn.unid.go.com/
 server=/ios.unid.go.com/
-
-# [go2cloud.org]
 server=/tapjoy.go2cloud.org/
-
-# [go2speed.org]
 server=/media.go2speed.org/
-
-# [goadservices.com]
 server=/goadservices.com/
 server=/bo.goadservices.com/
-
-# [gocarrot.com]
 server=/gocarrot.com/
 server=/iroko.gocarrot.com/
 server=/parsnip.gocarrot.com/
-
-# [goforandroid.com]
 server=/adlockscreen.goforandroid.com/
 server=/adpush.goforandroid.com/
 server=/adpushsdk.goforandroid.com/
@@ -4453,51 +2766,27 @@ server=/adviap.goforandroid.com/
 server=/advshield.goforandroid.com/
 server=/geoip.goforandroid.com/
 server=/navigation.api.hk.goforandroid.com/
-
-# [goldspotmedia.com]
 server=/goldspotmedia.com/
 server=/gcmast-cdn.goldspotmedia.com/
-
-# [golfrival.net]
 server=/log1.golfrival.net/
-
-# [goo.ne.jp]
 server=/adcdn.goo.ne.jp/
 server=/owb101.goo.ne.jp/
-
-# [gooddata.com]
 server=/secure.gooddata.com/
-
-# [google-analytics.com]
 server=/google-analytics.com/
 server=/ssl.google-analytics.com/
 server=/www.google-analytics.com/
-
-# [google.com]
 server=/ads.google.com/
 server=/adservice.google.com/
-
-# [googleadservices.com]
 server=/googleadservices.com/
 server=/pagead2.googleadservices.com/
 server=/www.googleadservices.com/
-
-# [googleadsserving.cn]
 server=/static.googleadsserving.cn/
-
-# [googlesyndication.com]
 server=/googlesyndication.com/
 server=/ade.googlesyndication.com/
 server=/pagead2.googlesyndication.com/
 server=/tpc.googlesyndication.com/
-
-# [googleusercontent.com]
 server=/displayads-formats.googleusercontent.com/
-
-# [gotoip55.com]
 server=/gotoip55.com/
-
-# [gotrackier.com]
 server=/adapace.gotrackier.com/
 server=/adjar.gotrackier.com/
 server=/adsapp.gotrackier.com/
@@ -4520,53 +2809,29 @@ server=/playdigo.gotrackier.com/
 server=/quickadsmedia.gotrackier.com/
 server=/vihit.gotrackier.com/
 server=/vytomi.gotrackier.com/
-
-# [gotraffic.net]
 server=/cdn.gotraffic.net/
-
-# [gowadogo.com]
 server=/gowadogo.com/
 server=/click.gowadogo.com/
-
-# [grabify.link]
 server=/grabify.link/
-
-# [grapeshot.co.uk]
 server=/johnston.grapeshot.co.uk/
 server=/mediaforce.grapeshot.co.uk/
 server=/newscorp.grapeshot.co.uk/
 server=/telegraph.grapeshot.co.uk/
 server=/trinitymirror.grapeshot.co.uk/
-
-# [greystripe.com]
 server=/adsx.greystripe.com/
-
-# [gridsumdissector.com]
 server=/cm-udmp.gridsumdissector.com/
 server=/diag-wd.gridsumdissector.com/
 server=/i.gridsumdissector.com/
 server=/recv-bak-wd.gridsumdissector.com/
 server=/recv-wd.gridsumdissector.com/
 server=/static.gridsumdissector.com/
-
-# [growthbeat.com]
 server=/api.growthbeat.com/
-
-# [growthpush.com]
 server=/api.growthpush.com/
-
-# [gscontxt.net]
 server=/hearst.gscontxt.net/
-
-# [gu-web.net]
 server=/phar.gu-web.net/
-
-# [guardianapps.co.uk]
 server=/guardianapps.co.uk/
 server=/nextgen.guardianapps.co.uk/
 server=/api.nextgen.guardianapps.co.uk/
-
-# [gumgum.com]
 server=/gumgum.com/
 server=/aba.gumgum.com/
 server=/jp-g2.gumgum.com/
@@ -4580,104 +2845,50 @@ server=/va-lb.gumgum.com/
 server=/wo.gumgum.com/
 server=/update.wo.gumgum.com/
 server=/s.update.wo.gumgum.com/
-
-# [guoshipartners.com]
 server=/ad-specs.guoshipartners.com/
-
-# [gwallet.com]
 server=/gwallet.com/
 server=/rp.gwallet.com/
-
-# [h-cdn.com]
 server=/perr.h-cdn.com/
-
-# [h12-media.com]
 server=/h12-media.com/
 server=/tags.h12-media.com/
-
-# [hansel.io]
 server=/sdk.hansel.io/
 server=/ujm.hansel.io/
-
-# [hapyak.com]
 server=/analytics-production.hapyak.com/
-
-# [hasmobi.net]
 server=/hasmobi.net/
 server=/adx.hasmobi.net/
 server=/na.hasmobi.net/
 server=/stat.hasmobi.net/
 server=/stra.hasmobi.net/
-
-# [havasedge.com]
 server=/havasedge.com/
 server=/event.havasedge.com/
-
-# [hbi-ingest.net]
 server=/hbi-ingest.net/
-
-# [heapanalytics.com]
 server=/cdn.heapanalytics.com/
-
-# [herocraft.com]
 server=/adv.herocraft.com/
-
-# [evening-badlands-6215.herokuapp.com]
 server=/evening-badlands-6215.herokuapp.com/
-
-# [ilyonanalytics.herokuapp.com]
 server=/ilyonanalytics.herokuapp.com/
-
-# [powr-counter.herokuapp.com]
 server=/powr-counter.herokuapp.com/
-
-# [wootric-eligibility.herokuapp.com]
 server=/wootric-eligibility.herokuapp.com/
-
-# [herokudns.com]
 server=/api.wootric.com.herokudns.com/
 server=/production.wootric.com.herokudns.com/
 server=/analytics.yopify.com.herokudns.com/
-
-# [hexagon-analytics.com]
 server=/hexagon-analytics.com/
-
-# [heytapdl.com]
 server=/mdp-appconf-sg.heytapdl.com/
-
-# [heyzap.com]
 server=/ads.heyzap.com/
 server=/fyc.heyzap.com/
 server=/med.heyzap.com/
-
-# [hghit.com]
 server=/hghit.com/
-
-# [hiconversion.com]
 server=/h30-deploy.hiconversion.com/
-
-# [hiido.com]
 server=/config.hiido.com/
 server=/hlog.hiido.com/
 server=/klog.hiido.com/
 server=/mlog.hiido.com/
 server=/trans.hiido.com/
 server=/ylog.hiido.com/
-
-# [histats.com]
 server=/s10.histats.com/
 server=/s4i.histats.com/
-
-# [hitsteps.com]
 server=/log.hitsteps.com/
-
-# [holder.com.ua]
 server=/holder.com.ua/
-
-# [homify.com.mx]
 server=/homify.com.mx/
-
-# [hot-mob.com]
 server=/hot-mob.com/
 server=/ad.hot-mob.com/
 server=/cdn.hot-mob.com/
@@ -4685,91 +2896,43 @@ server=/code.hot-mob.com/
 server=/trk.hot-mob.com/
 server=/webapi.hot-mob.com/
 server=/wpr.hot-mob.com/
-
-# [hotjar.com]
 server=/script.hotjar.com/
 server=/static.hotjar.com/
 server=/vars.hotjar.com/
-
-# [hotjar.io]
 server=/vc.hotjar.io/
-
-# [howdoesin.net]
 server=/howdoesin.net/
 server=/click.howdoesin.net/
-
-# [hrzn-nxt.com]
 server=/hrzn-nxt.com/
 server=/c.hrzn-nxt.com/
 server=/hmi-hershey.hrzn-nxt.com/
 server=/l.hrzn-nxt.com/
-
-# [hs-analytics.net]
 server=/hs-analytics.net/
-
-# [htmedia.in]
 server=/analytics.htmedia.in/
-
-# [hulu.com]
 server=/t2.hulu.com/
-
-# [humann.com]
 server=/segment-api.humann.com/
-
-# [huq.io]
 server=/huq.io/
 server=/api.huq.io/
-
-# [huqindustries.co.uk]
 server=/api.huqindustries.co.uk/
-
-# [huuuge.net]
 server=/stats.huuuge.net/
-
-# [hyprmx.com]
 server=/live.hyprmx.com/
 server=/marketplace-android-b235.hyprmx.com/
 server=/static.hyprmx.com/
-
-# [i-mobile.co.jp]
 server=/i-mobile.co.jp/
-
-# [i2ad.jp]
 server=/i2ad.jp/
-
-# [i2i.jp]
 server=/i2i.jp/
-
-# [iappmobi.com]
 server=/data.iappmobi.com/
-
-# [iasds01.com]
 server=/ci.iasds01.com/
 server=/sc.iasds01.com/
-
-# [iaudienc.com]
 server=/iaudienc.com/
 server=/s.iaudienc.com/
-
-# [ibmcloud.com]
 server=/planning-analytics.ibmcloud.com/
 server=/tealeaf.ibmcloud.com/
 server=/collector.tealeaf.ibmcloud.com/
 server=/uscollector.tealeaf.ibmcloud.com/
-
-# [icloseli.com]
 server=/ads.icloseli.com/
-
-# [icloud.com]
 server=/metrics.icloud.com/
-
-# [id1.cn]
 server=/id1.cn/
-
-# [id5-sync.com]
 server=/id5-sync.com/
-
-# [idio.co]
 server=/a.idio.co/
 server=/api.idio.co/
 server=/i.idio.co/
@@ -4777,20 +2940,12 @@ server=/js.idio.co/
 server=/s.idio.co/
 server=/sales.idio.co/
 server=/ssl-s.idio.co/
-
-# [idreams.pl]
 server=/server.idreams.pl/
-
-# [ifood.tv]
 server=/adlog.ifood.tv/
 server=/log.ifood.tv/
-
-# [igetget.com]
 server=/entree.igetget.com/
 server=/piccdn.igetget.com/
 server=/seeder.igetget.com/
-
-# [igexin.com]
 server=/inc2.igexin.com/
 server=/open.inc2.igexin.com/
 server=/sdk.open.inc2.igexin.com/
@@ -4799,21 +2954,13 @@ server=/sdk.open.phone.igexin.com/
 server=/talk.igexin.com/
 server=/open.talk.igexin.com/
 server=/sdk.open.talk.igexin.com/
-
-# [igodigital.com]
 server=/collect.igodigital.com/
 server=/100016075.collect.igodigital.com/
 server=/10870841.collect.igodigital.com/
 server=/7227272.collect.igodigital.com/
-
-# [iheart.com]
 server=/us-events.api.iheart.com/
 server=/smy.iheart.com/
-
-# [ihsmarkit.com]
 server=/wass.ihsmarkit.com/
-
-# [ijinshan.com]
 server=/dcys.ijinshan.com/
 server=/zj.dcys.ijinshan.com/
 server=/cntj.zj.dcys.ijinshan.com/
@@ -4829,55 +2976,29 @@ server=/lb3d.tj.ijinshan.com/
 server=/lbdata.tj.ijinshan.com/
 server=/utag.ijinshan.com/
 server=/db.utag.ijinshan.com/
-
-# [ilyf4amifh.com]
 server=/ilyf4amifh.com/
-
-# [imaginationunwired.com]
 server=/sdkv2.imaginationunwired.com/
-
-# [imgix.net]
 server=/amplify-com-mktg.imgix.net/
 server=/marketingweek.imgix.net/
 server=/moengagewebsdk.imgix.net/
-
-# [imguol.com]
 server=/e.imguol.com/
-
-# [imhd.io]
 server=/cdn.imhd.io/
-
-# [imimobile.com]
 server=/imimobile.com/
-
-# [immobilienscout24.de]
 server=/tracking.immobilienscout24.de/
-
-# [immomo.com]
 server=/api.immomo.com/
 server=/live-api.immomo.com/
 server=/paas-push-api.immomo.com/
 server=/paas-push-api-log.immomo.com/
-
-# [imonomy.com]
 server=/b.imonomy.com/
 server=/srv.imonomy.com/
 server=/tag.imonomy.com/
-
-# [impactradius-event.com]
 server=/d.impactradius-event.com/
-
-# [impactradius.com]
 server=/ct.impactradius.com/
 server=/linkto-ext-hp-com.ct.impactradius.com/
 server=/customtraffic.impactradius.com/
 server=/goto-target-com.customtraffic.impactradius.com/
 server=/partners-hotwire-com.impactradius.com/
-
-# [impression.link]
 server=/impression.link/
-
-# [imrworldwide.com]
 server=/imrworldwide.com/
 server=/cdn-gl.imrworldwide.com/
 server=/cloudapi.imrworldwide.com/
@@ -4903,72 +3024,38 @@ server=/secure-sg.imrworldwide.com/
 server=/secure-uk.imrworldwide.com/
 server=/secure-us.imrworldwide.com/
 server=/uaid-linkage.imrworldwide.com/
-
-# [imtwjwoasak.com]
 server=/imtwjwoasak.com/
-
-# [imwx.com]
 server=/imwx.com/
-
-# [in25app.com]
 server=/trk.in25app.com/
-
-# [indeed.com]
 server=/ads.indeed.com/
 server=/t.indeed.com/
-
-# [indexww.com]
 server=/js-sec.indexww.com/
 server=/update.indexww.com/
 server=/s.update.indexww.com/
-
-# [indiatimes.com]
 server=/mobileads.indiatimes.com/
-
-# [indicative.com]
 server=/api.indicative.com/
 server=/cdn.indicative.com/
-
-# [infinario.com]
 server=/api.infinario.com/
 server=/skypicker-api.infinario.com/
 server=/sygic-api.infinario.com/
-
-# [influencemobile.com]
 server=/engage-network.influencemobile.com/
 server=/events.influencemobile.com/
 server=/messaging.influencemobile.com/
 server=/targeting.influencemobile.com/
-
-# [influenster.com]
 server=/image.influenster.com/
-
-# [informatm.com]
 server=/images.informatm.com/
-
-# [inhousedsp.com]
 server=/inhousedsp.com/
 server=/content.inhousedsp.com/
-
-# [inlcorp.com]
 server=/adapi.inlcorp.com/
-
-# [inlocomedia.com]
 server=/sdk.inlocomedia.com/
-
-# [inmarket.com]
 server=/cdn-engagement.inmarket.com/
 server=/engagement.inmarket.com/
 server=/m2m-api.inmarket.com/
-
-# [inmobi.cn]
 server=/inmobi.cn/
 server=/sdk.inmobi.cn/
 server=/telemetry.sdk.inmobi.cn/
 server=/w.inmobi.cn/
 server=/sdkm.w.inmobi.cn/
-
-# [inmobi.com]
 server=/ads.inmobi.com/
 server=/appgwv2.inmobi.com/
 server=/eastus-ssp.appgwv2.inmobi.com/
@@ -5015,15 +3102,11 @@ server=/i.w.inmobi.com/
 server=/sdkm.w.inmobi.com/
 server=/sdktm.w.inmobi.com/
 server=/vast.w.inmobi.com/
-
-# [inmobicdn.net]
 server=/inmobicdn.net/
 server=/l.inmobicdn.net/
 server=/i.l.inmobicdn.net/
 server=/i.l-dsp.inmobicdn.net/
 server=/supply.inmobicdn.net/
-
-# [inner-active.mobi]
 server=/inner-active.mobi/
 server=/cdn2.inner-active.mobi/
 server=/event.inner-active.mobi/
@@ -5033,12 +3116,8 @@ server=/sdk-events.inner-active.mobi/
 server=/vast-events.inner-active.mobi/
 server=/vast-events-staging.inner-active.mobi/
 server=/wv.inner-active.mobi/
-
-# [innertrends.com]
 server=/babel.innertrends.com/
 server=/io.innertrends.com/
-
-# [innity.com]
 server=/innity.com/
 server=/as.innity.com/
 server=/avd.innity.com/
@@ -5047,16 +3126,12 @@ server=/avp.innity.com/
 server=/cast.innity.com/
 server=/optimize.innity.com/
 server=/ps.innity.com/
-
-# [innity.net]
 server=/innity.net/
 server=/avd.innity.net/
 server=/cdn.innity.net/
 server=/media.innity.net/
 server=/vcdn.media.innity.net/
 server=/ssl-avd.innity.net/
-
-# [innovid.com]
 server=/innovid.com/
 server=/ag.innovid.com/
 server=/dts.innovid.com/
@@ -5069,111 +3144,61 @@ server=/s-static.innovid.com/
 server=/s-video.innovid.com/
 server=/service.innovid.com/
 server=/static.innovid.com/
-
-# [inshorts.com]
 server=/analytics-events.inshorts.com/
-
-# [insightexpressai.com]
 server=/insightexpressai.com/
 server=/secure.insightexpressai.com/
 server=/surveys.insightexpressai.com/
-
-# [insigit.com]
 server=/cdn.insigit.com/
-
-# [inskinad.com]
 server=/cdn.inskinad.com/
 server=/mfad.inskinad.com/
-
-# [inspectlet.com]
 server=/cdn.inspectlet.com/
 server=/hn.inspectlet.com/
 server=/ws.inspectlet.com/
-
-# [instana.io]
 server=/eum-orange-saas.instana.io/
-
-# [integromat.com]
 server=/hook.integromat.com/
-
-# [intellimize.co]
 server=/api.intellimize.co/
 server=/log.intellimize.co/
-
-# [intentarget.com]
 server=/static.intentarget.com/
-
-# [intentiq.com]
 server=/ads.intentiq.com/
 server=/api.intentiq.com/
 server=/pe.intentiq.com/
 server=/pe1.intentiq.com/
 server=/sync.intentiq.com/
 server=/sync1.intentiq.com/
-
-# [intergi.com]
 server=/cdn.intergi.com/
-
-# [intergient.com]
 server=/cdn.intergient.com/
-
-# [intermarkets.net]
 server=/intermarkets.net/
-
-# [intowow.com]
 server=/intowow.com/
 server=/adcfg.intowow.com/
 server=/geoinfo.intowow.com/
-
-# [intuit.com]
 server=/logging.api.intuit.com/
 server=/monitoring-sdk.experimentation.intuit.com/
-
-# [inven.co.kr]
 server=/ads.inven.co.kr/
-
-# [invoca.net]
 server=/invoca.net/
 server=/pnapi.invoca.net/
-
-# [invocacdn.com]
 server=/invocacdn.com/
 server=/solutions.invocacdn.com/
-
-# [iosappsworld.com]
 server=/ads.iosappsworld.com/
-
-# [iperceptions.com]
 server=/api.iperceptions.com/
 server=/collect.iperceptions.com/
 server=/ips-img.iperceptions.com/
 server=/post.iperceptions.com/
 server=/sd.iperceptions.com/
 server=/universal.iperceptions.com/
-
-# [ipinyou.com]
 server=/ipinyou.com/
 server=/cm.ipinyou.com/
 server=/fm.ipinyou.com/
 server=/fms.ipinyou.com/
 server=/stats.ipinyou.com/
 server=/vt.ipinyou.com/
-
-# [iponweb.net]
 server=/fastg8.pool.iponweb.net/
-
-# [ipredictive.com]
 server=/ad-us-west.ipredictive.com/
 server=/events-us-east-1.ipredictive.com/
 server=/events-us-west-2.ipredictive.com/
 server=/events2-us-east-1.ipredictive.com/
 server=/media-cdn.ipredictive.com/
 server=/sync.ipredictive.com/
-
-# [iprom.net]
 server=/adserver.iprom.net/
-
-# [ipromote.com]
 server=/i.ipromote.com/
 server=/iad1.ipromote.com/
 server=/iad2.ipromote.com/
@@ -5187,35 +3212,19 @@ server=/sfo3.ipromote.com/
 server=/sfo4.ipromote.com/
 server=/sin1.ipromote.com/
 server=/sin2.ipromote.com/
-
-# [ipstack.com]
 server=/api.ipstack.com/
-
-# [iqzone.com]
 server=/iqzone.com/
 server=/pssvc.iqzone.com/
-
-# [iris.tv]
 server=/iris.tv/
 server=/context.iris.tv/
 server=/ovp.iris.tv/
-
-# [ironsrc.mobi]
 server=/logs.ironsrc.mobi/
-
-# [irquest.com]
 server=/iam-agof-app.irquest.com/
-
-# [irr.ru]
 server=/irr.ru/
-
-# [irs01.com]
 server=/irs01.com/
 server=/m.irs01.com/
 server=/v.irs01.com/
 server=/z.irs01.com/
-
-# [isnssdk.com]
 server=/dm.isnssdk.com/
 server=/h5.isnssdk.com/
 server=/hotapi-va.isnssdk.com/
@@ -5229,64 +3238,36 @@ server=/open.isnssdk.com/
 server=/pangolin16.isnssdk.com/
 server=/tnc16-alisg.isnssdk.com/
 server=/tnc16-useast1a.isnssdk.com/
-
-# [ispot.tv]
 server=/ispot.tv/
 server=/pi.ispot.tv/
 server=/pt.ispot.tv/
-
-# [iterable.com]
 server=/api.iterable.com/
 server=/assets.iterable.com/
 server=/static.iterable.com/
-
-# [iteratehq.com]
 server=/iteratehq.com/
 server=/platform.iteratehq.com/
-
-# [itim.vn]
 server=/itim.vn/
 server=/spell.itim.vn/
-
-# [itmedia.co.jp]
 server=/fc.itmedia.co.jp/
-
-# [itracker360.com]
 server=/ip.itracker360.com/
-
-# [ivitrack.com]
 server=/itm.ivitrack.com/
 server=/matching.ivitrack.com/
-
-# [ivymobile.com]
 server=/api.ivymobile.com/
-
-# [izooto.com]
 server=/cdn.izooto.com/
 server=/cdnimg.izooto.com/
 server=/err.izooto.com/
-
-# [ja2n2u30a6rgyd.com]
 server=/ja2n2u30a6rgyd.com/
-
-# [jampp.com]
 server=/jampp.com/
 server=/cdn.jampp.com/
 server=/imgx.jampp.com/
 server=/imp-lb-us2.jampp.com/
 server=/static.jampp.com/
-
-# [jeeng.com]
 server=/api.jeeng.com/
 server=/users.api.jeeng.com/
 server=/sdk.jeeng.com/
 server=/telemetries.jeeng.com/
-
-# [jetpackdigital.com]
 server=/ads.jetpackdigital.com/
 server=/tracking.jetpackdigital.com/
-
-# [jiguang.cn]
 server=/ad.jiguang.cn/
 server=/im.jiguang.cn/
 server=/sdk.im.jiguang.cn/
@@ -5294,8 +3275,6 @@ server=/sdk.jiguang.cn/
 server=/update.sdk.jiguang.cn/
 server=/verification.jiguang.cn/
 server=/sdk.verification.jiguang.cn/
-
-# [jivox.com]
 server=/as.jivox.com/
 server=/as-ttd.jivox.com/
 server=/assetscdn.jivox.com/
@@ -5305,32 +3284,16 @@ server=/evs.jivox.com/
 server=/pxl.jivox.com/
 server=/sync.jivox.com/
 server=/traffick.jivox.com/
-
-# [jorte.com]
 server=/ad.jorte.com/
-
-# [jpush.cn]
 server=/im64.jpush.cn/
 server=/s.jpush.cn/
 server=/stats.jpush.cn/
-
-# [jpush.io]
 server=/sis.jpush.io/
-
-# [jsrdn.com]
 server=/c.jsrdn.com/
 server=/s.jsrdn.com/
-
-# [jst.ai]
 server=/cdn.jst.ai/
-
-# [juiceadv.com]
 server=/juiceadv.com/
-
-# [jumboprivacy.com]
 server=/analytics.jumboprivacy.com/
-
-# [justpremium.com]
 server=/ads.justpremium.com/
 server=/de.ads.justpremium.com/
 server=/es.ads.justpremium.com/
@@ -5345,27 +3308,13 @@ server=/cookiematch-ap-northeast-1.prod.justpremium.com/
 server=/cookiematch-us-east-1.prod.justpremium.com/
 server=/cookiematch-us-west-2.prod.justpremium.com/
 server=/tracking.justpremium.com/
-
-# [justservingfiles.net]
 server=/bmedia.justservingfiles.net/
-
-# [justuno.com]
 server=/cdn.justuno.com/
-
-# [justwatch.com]
 server=/sentry.justwatch.com/
-
-# [jwplayer.com]
 server=/entitlements.jwplayer.com/
-
-# [jwpltx.com]
 server=/ping-meta-prd.jwpltx.com/
 server=/prd.jwpltx.com/
-
-# [jwpsrv.com]
 server=/g.jwpsrv.com/
-
-# [kaffnet.com]
 server=/kaffnet.com/
 server=/adapter.kaffnet.com/
 server=/ad.adapter.kaffnet.com/
@@ -5373,11 +3322,7 @@ server=/api.kaffnet.com/
 server=/ad.api.kaffnet.com/
 server=/data.api.kaffnet.com/
 server=/sdk.api.kaffnet.com/
-
-# [kaltura.com]
 server=/analytics.kaltura.com/
-
-# [kampyle.com]
 server=/kampyle.com/
 server=/api-usent.kampyle.com/
 server=/assets.kampyle.com/
@@ -5387,8 +3332,6 @@ server=/cooladata.kampyle.com/
 server=/mobilesdk-us.kampyle.com/
 server=/nebula-cdn.kampyle.com/
 server=/udc-neb.kampyle.com/
-
-# [kargo.com]
 server=/ad-monitor.kargo.com/
 server=/storage.cloud.kargo.com/
 server=/cma.kargo.com/
@@ -5397,72 +3340,36 @@ server=/kds-pixel.kargo.com/
 server=/klkstrm.kargo.com/
 server=/krk.kargo.com/
 server=/socialcanvas-cdn.kargo.com/
-
-# [keen.io]
 server=/api.keen.io/
-
-# [kejet.net]
 server=/kejet.net/
-
-# [keywee.co]
 server=/cdn.keywee.co/
 server=/pixel.keywee.co/
-
-# [kidoz.net]
 server=/analytics.kidoz.net/
-
-# [kiip.me]
 server=/kiip.me/
 server=/api.kiip.me/
-
-# [kik.com]
 server=/clientmetrics.kik.com/
 server=/clientmetrics-augmentum.kik.com/
-
-# [king.com]
 server=/servicelayer.king.com/
-
-# [kingsoft-office-service.com]
 server=/abroad-ad.kingsoft-office-service.com/
 server=/cloudservice14.kingsoft-office-service.com/
 server=/cloudservice24.kingsoft-office-service.com/
-
-# [kingsoft.com]
 server=/counter.kingsoft.com/
-
-# [kiosked.com]
 server=/kiosked.com/
-
-# [kissmetrics.com]
 server=/trc.kissmetrics.com/
 server=/trk.kissmetrics.com/
-
-# [klaviyo.com]
 server=/a.klaviyo.com/
 server=/fast.a.klaviyo.com/
 server=/static.klaviyo.com/
 server=/telemetrics.klaviyo.com/
-
-# [klclick1.com]
 server=/trk.klclick1.com/
-
-# [kmpmedia.net]
 server=/gplayer.kmpmedia.net/
 server=/update.kmpmedia.net/
-
-# [kmsmep.com]
 server=/brand-sdk.kmsmep.com/
 server=/brands.kmsmep.com/
 server=/metrics.kmsmep.com/
-
-# [knlob.com]
 server=/track.knlob.com/
-
-# [knorex.com]
 server=/knorex.com/
 server=/partner.knorex.com/
-
-# [kochava.com]
 server=/kochava.com/
 server=/api.kochava.com/
 server=/kvinit-prod.api.kochava.com/
@@ -5473,23 +3380,13 @@ server=/imp.control.kochava.com/
 server=/web-sdk.control.kochava.com/
 server=/entitlements.kochava.com/
 server=/icm.kochava.com/
-
-# [koneomobiledsp.com]
 server=/koneomobiledsp.com/
 server=/inmobi.koneomobiledsp.com/
 server=/us.inmobi.koneomobiledsp.com/
 server=/js.koneomobiledsp.com/
-
-# [kongregate.io]
 server=/analytics.kongregate.io/
-
-# [kookong.com]
 server=/sdkapi.kookong.com/
-
-# [koowo.com]
 server=/g.koowo.com/
-
-# [krxd.net]
 server=/krxd.net/
 server=/apiservices.krxd.net/
 server=/beacon.krxd.net/
@@ -5501,151 +3398,75 @@ server=/jslog.krxd.net/
 server=/link.krxd.net/
 server=/usermatch.krxd.net/
 server=/wpp.krxd.net/
-
-# [kt.com]
 server=/freesam.kt.com/
 server=/ilb.pns.kt.com/
-
-# [ktplay.com]
 server=/dataapi.ktplay.com/
 server=/track.ktplay.com/
-
-# [kumulos.com]
 server=/events.kumulos.com/
 server=/stats.kumulos.com/
-
-# [kuwo.cn]
 server=/log.kuwo.cn/
 server=/wa.kuwo.cn/
-
-# [kuyun.com]
 server=/ask.log.kuyun.com/
-
-# [largosoft.co.kr]
 server=/largosoft.co.kr/
-
-# [lavanetwork.net]
 server=/lavanetwork.net/
 server=/delivery.lavanetwork.net/
 server=/libs.lavanetwork.net/
 server=/pub.lavanetwork.net/
-
-# [lbesec.com]
 server=/cc.lbesec.com/
-
-# [lbesecapi.com]
 server=/events.lbesecapi.com/
-
-# [ldmnq.com]
 server=/storeen.ldmnq.com/
-
-# [ldplayer.net]
 server=/advertise.ldplayer.net/
-
-# [leadbolt.net]
 server=/leadbolt.net/
 server=/ad.leadbolt.net/
-
-# [leadboltapps.net]
 server=/leadboltapps.net/
 server=/ad.leadboltapps.net/
-
-# [leadboxer.com]
 server=/kibana.leadboxer.com/
 server=/log.leadboxer.com/
 server=/script.leadboxer.com/
-
-# [leaddyno.com]
 server=/collector.leaddyno.com/
 server=/static.leaddyno.com/
-
-# [leadfeeder.com]
 server=/lftracker.leadfeeder.com/
-
-# [leadforensics.com]
 server=/ldynamicspublicapi.leadforensics.com/
-
-# [leadlander.com]
 server=/tracking.leadlander.com/
-
-# [leadpages.io]
 server=/api.leadpages.io/
-
-# [leadpages.net]
 server=/static.leadpages.net/
-
-# [leadplace.fr]
 server=/tag.leadplace.fr/
-
-# [leads.su]
 server=/leads.su/
-
-# [leady.com]
 server=/t.leady.com/
-
-# [leanlab.co]
 server=/track.leanlab.co/
-
-# [leanplum.com]
 server=/api.leanplum.com/
 server=/prod.leanplum.com/
 server=/assets.prod.leanplum.com/
 server=/www.leanplum.com/
-
-# [lemonpi.io]
 server=/log.lemonpi.io/
-
-# [lengow.com]
 server=/tracking.lengow.com/
-
-# [lentainform.com]
 server=/lentainform.com/
 server=/cm.lentainform.com/
 server=/s-img.lentainform.com/
 server=/servicer.lentainform.com/
-
-# [lenzmx.com]
 server=/next.lenzmx.com/
 server=/tracking.lenzmx.com/
-
-# [letv.com]
 server=/ark.letv.com/
 server=/g3.letv.com/
 server=/api.hdtv.letv.com/
 server=/api.itv.letv.com/
 server=/api.platform.letv.com/
-
-# [lfengmobile.com]
 server=/agnes.scloud.lfengmobile.com/
 server=/push.scloud.lfengmobile.com/
-
-# [lfstmedia.com]
 server=/ads.lfstmedia.com/
 server=/cdn.lfstmedia.com/
 server=/md-nj.lfstmedia.com/
 server=/scadxrtb.lfstmedia.com/
-
-# [lg.com]
 server=/tracking.lg.com/
-
-# [lgsmartad.com]
 server=/lgsmartad.com/
 server=/us.info.lgsmartad.com/
-
-# [lgtvcommon.com]
 server=/aic.cdpbeacon.lgtvcommon.com/
-
-# [liadm.com]
 server=/b-code.liadm.com/
 server=/i.liadm.com/
 server=/p.liadm.com/
 server=/rp.liadm.com/
 server=/rp4.liadm.com/
-
-# [licdn.com]
 server=/snap.licdn.com/
-
-# [liftoff.io]
 server=/adexp.liftoff.io/
 server=/build-cdn.liftoff.io/
 server=/cdn.liftoff.io/
@@ -5653,15 +3474,9 @@ server=/click.liftoff.io/
 server=/impression-asia.liftoff.io/
 server=/impression-east.liftoff.io/
 server=/impression-europe.liftoff.io/
-
-# [ligatus.com]
 server=/a.ligatus.com/
-
-# [lightboxcdn.com]
 server=/s3.lightboxcdn.com/
 server=/www.lightboxcdn.com/
-
-# [lijit.com]
 server=/ap.lijit.com/
 server=/pba.aws.lijit.com/
 server=/ce.lijit.com/
@@ -5684,15 +3499,9 @@ server=/vap4ord1.lijit.com/
 server=/vap4sfo1.lijit.com/
 server=/vap5ewr1.lijit.com/
 server=/vap6ewr1.lijit.com/
-
-# [linkedin.com]
 server=/ads.linkedin.com/
 server=/px.ads.linkedin.com/
-
-# [linkprice.com]
 server=/ad.linkprice.com/
-
-# [linksynergy.com]
 server=/ad.linksynergy.com/
 server=/banner.linksynergy.com/
 server=/mproxy.banner.linksynergy.com/
@@ -5700,51 +3509,31 @@ server=/cli.linksynergy.com/
 server=/ads.rd.linksynergy.com/
 server=/amp.rd.linksynergy.com/
 server=/track.linksynergy.com/
-
-# [lionmobi.com]
 server=/ad.lionmobi.com/
 server=/analysis.lionmobi.com/
 server=/battery.lionmobi.com/
 server=/param.lionmobi.com/
 server=/parameter.lionmobi.com/
 server=/updater.lionmobi.com/
-
-# [listhub.net]
 server=/tracking.listhub.net/
-
-# [live-video.net]
 server=/player.stats.live-video.net/
-
-# [liveperson.net]
 server=/server.iad.liveperson.net/
 server=/lptag.liveperson.net/
-
-# [livesegmentservice.com]
 server=/sds.livesegmentservice.com/
-
-# [lkqd.net]
 server=/ad.lkqd.net/
 server=/creative.lkqd.net/
 server=/cs.lkqd.net/
 server=/ssp.lkqd.net/
 server=/t.lkqd.net/
 server=/v.lkqd.net/
-
-# [llnwd.net]
 server=/appnext.hs.llnwd.net/
 server=/tealium.hs.llnwd.net/
-
-# [locallogic.co]
 server=/analytics.locallogic.co/
 server=/api.locallogic.co/
 server=/cdn.locallogic.co/
 server=/static.locallogic.co/
-
-# [localstars.com]
 server=/merciless.localstars.com/
 server=/adserver.merciless.localstars.com/
-
-# [localytics.com]
 ytics.com
 server=/53.localytics.com/
 server=/api.53.localytics.com/
@@ -5760,152 +3549,78 @@ server=/sdk-assets.localytics.com/
 server=/web.localytics.com/
 server=/webanalytics.localytics.com/
 server=/www.localytics.com/
-
-# [locately.com]
 server=/api.locately.com/
-
-# [locationlabs.com]
 server=/sparkle.locationlabs.com/
-
-# [locuslabs.com]
 server=/api.locuslabs.com/
 server=/assets.locuslabs.com/
 server=/rest.locuslabs.com/
-
-# [logentries.com]
 server=/api.logentries.com/
 server=/data.logentries.com/
 server=/js.logentries.com/
 server=/webhook.logentries.com/
-
-# [loggly.com]
 server=/logs-01.loggly.com/
-
-# [logly.co.jp]
 server=/b.logly.co.jp/
 server=/cdn.logly.co.jp/
 server=/dsp.logly.co.jp/
 server=/l.logly.co.jp/
 server=/sync.logly.co.jp/
-
-# [logrocket.com]
 server=/cdn.logrocket.com/
-
-# [logrocket.io]
 server=/cdn.logrocket.io/
-
-# [logsss.com]
 server=/analytics.logsss.com/
 server=/glsdk.logsss.com/
 server=/ma.logsss.com/
 server=/s.logsss.com/
 server=/slapi-bts.logsss.com/
-
-# [lomadee.com]
 server=/secure.lomadee.com/
 server=/validator.lomadee.com/
-
-# [lookbookhq.com]
 server=/app.cdn.lookbookhq.com/
-
-# [loopme.me]
 server=/loopme.me/
 server=/csync.loopme.me/
 server=/i.loopme.me/
 server=/m.loopme.me/
 server=/track.loopme.me/
-
-# [lovelydrum.com]
 server=/lovelydrum.com/
-
-# [loveota.net]
 server=/sdk.loveota.net/
-
-# [lp4.io]
 server=/lp4.io/
-
-# [lsosad.com]
 server=/adx.lsosad.com/
 server=/conf.lsosad.com/
 server=/dc.lsosad.com/
-
-# [lululemon.com]
 server=/smetrics.lululemon.com/
-
-# [luminati.io]
 server=/clientsdk.luminati.io/
-
-# [lytics.io]
 server=/api.lytics.io/
 server=/c.lytics.io/
-
-# [m2appmonitor.com]
 server=/ingest.m2appmonitor.com/
-
-# [macromill.com]
 server=/macromill.com/
 server=/img.macromill.com/
-
-# [madkudu.com]
 server=/api.madkudu.com/
 server=/cdn.madkudu.com/
-
-# [magmamobile.com]
 server=/api.magmamobile.com/
-
-# [mail.ru]
 server=/ad.mail.ru/
 server=/top-fwz1.mail.ru/
-
-# [mailmunch.co]
 server=/analytics.mailmunch.co/
-
-# [mainadv.com]
 server=/mainadv.com/
-
-# [malwarebytes.com]
 server=/telemetry.malwarebytes.com/
-
-# [mantisadnetwork.com]
 server=/assets.mantisadnetwork.com/
 server=/ecs.mantisadnetwork.com/
 server=/resizer.mantisadnetwork.com/
-
-# [manychat.com]
 server=/widget.manychat.com/
-
-# [marfeel.com]
 server=/marfeel.com/
 server=/bc.marfeel.com/
 server=/cosmos.marfeel.com/
-
-# [marfeelcdn.com]
 server=/alexandria.marfeelcdn.com/
-
-# [marfeelrev.com]
 server=/mbid.marfeelrev.com/
-
-# [marinsm.com]
 server=/marinsm.com/
 server=/pro.marinsm.com/
 server=/tag.marinsm.com/
 server=/tracker.marinsm.com/
-
-# [markandmini.com]
 server=/mm.markandmini.com/
-
-# [marketgid.com]
 server=/marketgid.com/
 server=/jsc.marketgid.com/
-
-# [marketingcloudapis.com]
 server=/device.marketingcloudapis.com/
 server=/mc-kzgvx04-jk8n38gyn7s08m1d8.device.marketingcloudapis.com/
 server=/mcf4wh-jdfmxrzzzttwqcrf-d3b4.device.marketingcloudapis.com/
 server=/mcvsb5ngty4dzxx8jp80yt3q5614.device.marketingcloudapis.com/
 server=/mcy8q-n2f8ttyv729bcg5v83dsp4.device.marketingcloudapis.com/
-
-# [marketo.com]
 server=/ab-mknodepub.marketo.com/
 server=/abrtp1.marketo.com/
 server=/abrtp1-cdn.marketo.com/
@@ -6025,32 +3740,18 @@ server=/sjrtp8.marketo.com/
 server=/sjrtp8-cdn.marketo.com/
 server=/snrtp-cdn.marketo.com/
 server=/snrtp1.marketo.com/
-
-# [marketo.net]
 server=/munchkin.marketo.net/
-
-# [maropost.com]
 server=/api.maropost.com/
 server=/cdn.maropost.com/
 server=/content.maropost.com/
 server=/img.maropost.com/
-
-# [masoffer.net]
 server=/static.masoffer.net/
-
-# [mastermind.com]
 server=/mastermind.com/
-
-# [mathads.com]
 server=/creative.mathads.com/
-
-# [matheranalytics.com]
 server=/matheranalytics.com/
 server=/app.matheranalytics.com/
 server=/i.matheranalytics.com/
 server=/js.matheranalytics.com/
-
-# [mathtag.com]
 server=/mathtag.com/
 server=/mathid.mathtag.com/
 server=/pixel.mathtag.com/
@@ -6062,42 +3763,18 @@ server=/u3s.mathtag.com/
 server=/vast.mathtag.com/
 server=/vast-pop-pao.mathtag.com/
 server=/video-assets.mathtag.com/
-
-# [matomy.com]
 server=/matomy.com/
-
-# [maxonclick.com]
 server=/maxonclick.com/
-
-# [maxymiser.net]
 server=/service.maxymiser.net/
-
-# [mczbf.com]
 server=/www.mczbf.com/
-
-# [mdhv.io]
 server=/jelly.mdhv.io/
-
-# [mdpcdn.com]
 server=/karma.mdpcdn.com/
-
-# [mdrctr.com]
 server=/track.mdrctr.com/
-
-# [measuread.com]
 server=/measuread.com/
 server=/b.measuread.com/
-
-# [measurelib.com]
 server=/mobile.measurelib.com/
-
-# [measurementapi.com]
 server=/measurementapi.com/
-
-# [media-412.com]
 server=/tarsan.media-412.com/
-
-# [media.net]
 server=/adservetx.media.net/
 server=/adservex.media.net/
 server=/amprtc.media.net/
@@ -6115,35 +3792,19 @@ server=/res.media.net/
 server=/static.media.net/
 server=/warp.media.net/
 server=/whitelabel.media.net/
-
-# [media6degrees.com]
 server=/idpix.media6degrees.com/
-
-# [mediaforge.com]
 server=/mediaforge.com/
 server=/consent.mediaforge.com/
 server=/jp-tags.mediaforge.com/
 server=/stats.mediaforge.com/
 server=/tags.mediaforge.com/
-
-# [mediaiqdigital.com]
 server=/mediaiqdigital.com/
 server=/pixel.mediaiqdigital.com/
-
-# [medialytics.com]
 server=/medialytics.com/
 server=/s-cdn-tag.medialytics.com/
-
-# [mediamelon.com]
 server=/beacons.mediamelon.com/
-
-# [mediasmart.es]
 server=/ads.mediasmart.es/
-
-# [mediatek.com]
 server=/lepodownload.mediatek.com/
-
-# [mediav.com]
 server=/mediav.com/
 server=/show.3.mediav.com/
 server=/360fenxi.mediav.com/
@@ -6170,69 +3831,33 @@ server=/show-m.mediav.com/
 server=/ssxd.mediav.com/
 server=/static-ssl.mediav.com/
 server=/xdssp.mediav.com/
-
-# [mediavine.com]
 server=/scripts.mediavine.com/
-
-# [mediawayss.com]
 server=/mediawayss.com/
-
-# [medietall.no]
 server=/log.medietall.no/
-
-# [medio.com]
 server=/medio.com/
-
-# [megacool.co]
 server=/api.megacool.co/
-
-# [mellowads.com]
 server=/banners.mellowads.com/
-
-# [meltwater.com]
 server=/app.meltwater.com/
-
-# [memob.com]
 server=/ads.memob.com/
-
-# [merchantadvantage.com]
 server=/chanalytics.merchantadvantage.com/
 server=/secure.merchantadvantage.com/
-
-# [metadsp.co.uk]
 server=/ipw.metadsp.co.uk/
-
-# [metalocator.com]
 server=/analytics.metalocator.com/
 server=/cdn.metalocator.com/
 server=/code.metalocator.com/
-
-# [metalyzer.com]
 server=/creative.metalyzer.com/
-
-# [metaps.com]
 server=/api-analytics.metaps.com/
 server=/api-analytics-bootstrap.metaps.com/
-
-# [metrilo.com]
 server=/metrilo.com/
 server=/p.metrilo.com/
 server=/shoparty.metrilo.com/
 server=/t.metrilo.com/
-
-# [metrix.ir]
 server=/analytics.metrix.ir/
-
-# [mfadsrvr.com]
 server=/rtb.mfadsrvr.com/
 server=/rtb-use.mfadsrvr.com/
 server=/rtb-usw.mfadsrvr.com/
-
-# [mgage.com]
 server=/mgage.com/
 server=/push.mgage.com/
-
-# [mgid.com]
 server=/a.mgid.com/
 server=/c.mgid.com/
 server=/cdn.mgid.com/
@@ -6245,11 +3870,7 @@ server=/s-img.mgid.com/
 server=/servicer.mgid.com/
 server=/video-native.mgid.com/
 server=/widgets.mgid.com/
-
-# [mgsn.it]
 server=/fi-analytics.mgsn.it/
-
-# [miaozhen.com]
 server=/miaozhen.com/
 server=/ads.cn.miaozhen.com/
 server=/pd.ads.cn.miaozhen.com/
@@ -6259,50 +3880,30 @@ server=/g.cn.miaozhen.com/
 server=/stm-cdn.cn.miaozhen.com/
 server=/stm-collect.cn.miaozhen.com/
 server=/xiaomi-mipdx.cn.miaozhen.com/
-
-# [micpn.com]
 server=/micpn.com/
 server=/assets.micpn.com/
-
-# [microad.jp]
 server=/microad.jp/
 server=/cdn.microad.jp/
 server=/s-rtb.send.microad.jp/
 server=/s-rtb-pb.send.microad.jp/
 server=/ssp.send.microad.jp/
 server=/universe.send.microad.jp/
-
-# [microad.net]
 server=/microad.net/
 server=/j.microad.net/
 server=/jgl.microad.net/
-
-# [microadinc.com]
 server=/send.microadinc.com/
 server=/cache.send.microadinc.com/
 server=/s-rtb.send.microadinc.com/
 server=/ssp.send.microadinc.com/
-
-# [microsoft.com]
 server=/bingads.microsoft.com/
 server=/advertise.bingads.microsoft.com/
-
-# [midosoo.com]
 server=/client.midosoo.com/
-
-# [mintegral.net]
 server=/analytics-tcp.mintegral.net/
 server=/pok.mintegral.net/
-
-# [minute.ly]
 server=/apv-launcher.minute.ly/
 server=/snippet.minute.ly/
-
-# [minutemediacdn.com]
 server=/assets.minutemediacdn.com/
 server=/images2.minutemediacdn.com/
-
-# [miui.com]
 server=/tracking.india.miui.com/
 server=/sa.api.intl.miui.com/
 server=/tracking.intl.miui.com/
@@ -6310,26 +3911,16 @@ server=/tracking.rus.miui.com/
 server=/logupdate.avlyun.sec.miui.com/
 server=/tracking.miui.com/
 server=/fcanr.tracking.miui.com/
-
-# [mixadvert.com]
 server=/mixadvert.com/
 server=/i.mixadvert.com/
 server=/m.mixadvert.com/
-
-# [mixpanel.com]
 server=/api.mixpanel.com/
 server=/api-js.mixpanel.com/
 server=/decide.mixpanel.com/
 server=/switchboard.mixpanel.com/
-
-# [ml314.com]
 server=/ml314.com/
 server=/cdn.ml314.com/
-
-# [mmaglobal.com]
 server=/mmaglobal.com/
-
-# [mmstat.com]
 server=/ac.mmstat.com/
 server=/cnzz.mmstat.com/
 server=/dz.mmstat.com/
@@ -6350,27 +3941,17 @@ server=/wgo.mmstat.com/
 server=/ws.mmstat.com/
 server=/yt.mmstat.com/
 server=/yt1.mmstat.com/
-
-# [mmtro.com]
 server=/cdn.mmtro.com/
 server=/seg.mmtro.com/
-
-# [mncmedia.co.kr]
 server=/ads.mncmedia.co.kr/
-
-# [mng-ads.com]
 server=/mng-ads.com/
 server=/creative.mng-ads.com/
 server=/dispatcher.mng-ads.com/
 server=/lb-adsdis.mng-ads.com/
 server=/lb-adsmob.mng-ads.com/
 server=/mobile.mng-ads.com/
-
-# [moat.com]
 server=/moat.com/
 server=/panel.moat.com/
-
-# [moatads.com]
 server=/moatads.com/
 server=/apx.moatads.com/
 server=/d3.moatads.com/
@@ -6392,8 +3973,6 @@ server=/sejs.moatads.com/
 server=/svastx.moatads.com/
 server=/video.moatads.com/
 server=/z.moatads.com/
-
-# [moatpixel.com]
 server=/s.moatpixel.com/
 server=/adtheorent107077183660.s.moatpixel.com/
 server=/bayercaftdisplay369718976092.s.moatpixel.com/
@@ -6439,8 +4018,6 @@ server=/voxcustomdfp152282307853.s.moatpixel.com/
 server=/voxvidint960547728228.s.moatpixel.com/
 server=/webmddfp936579382290.s.moatpixel.com/
 server=/yellowhammerflashint188671193078.s.moatpixel.com/
-
-# [mob.com]
 server=/applink.mob.com/
 server=/api.applink.mob.com/
 server=/d.mob.com/
@@ -6472,49 +4049,25 @@ server=/sms.mob.com/
 server=/init.sms.mob.com/
 server=/verify.mob.com/
 server=/api.verify.mob.com/
-
-# [mobadvent.com]
 server=/ads.mobadvent.com/
 server=/api.mobadvent.com/
 server=/ds.mobadvent.com/
 server=/et.mobadvent.com/
 server=/ssp-api.mobadvent.com/
-
-# [mobagent.com]
 server=/xmlserving.mobagent.com/
-
-# [mobclix.com]
 server=/mobclix.com/
-
-# [mobfox.com]
 server=/mobfox.com/
-
-# [mobidia.com]
 server=/narwhal.mobidia.com/
 server=/wifi-test.mobidia.com/
-
-# [mobify.com]
 server=/a.mobify.com/
 server=/cdn.mobify.com/
-
-# [mobify.net]
 server=/engagement-collector.mobify.net/
 server=/online.mobify.net/
-
-# [mobileadstrk.com]
 server=/avowtech.mobileadstrk.com/
-
-# [mobileadtrading.com]
 server=/publisher-east.mobileadtrading.com/
 server=/track-east.mobileadtrading.com/
-
-# [mobileanjian.com]
 server=/api.mobileanjian.com/
-
-# [mobileapphelper.com]
 server=/analytics.lb.mobileapphelper.com/
-
-# [mobileapptracking.com]
 server=/deeplink.mobileapptracking.com/
 server=/7336.deeplink.mobileapptracking.com/
 server=/engine.mobileapptracking.com/
@@ -6527,80 +4080,44 @@ server=/195724.engine.mobileapptracking.com/
 server=/20298.engine.mobileapptracking.com/
 server=/7336.engine.mobileapptracking.com/
 server=/943.engine.mobileapptracking.com/
-
-# [mobilebanner.ru]
 server=/mobilebanner.ru/
-
-# [mobilecore.com]
 server=/mobilecore.com/
-
-# [mobilefonex.com]
 server=/push.mobilefonex.com/
-
-# [mobilefuse.com]
 server=/mobilefuse.com/
 server=/mfx.mobilefuse.com/
-
-# [mobilegamestats.com]
 server=/config.mobilegamestats.com/
-
-# [mobilemonkey.com]
 server=/static.mobilemonkey.com/
-
-# [mobileposse.com]
 server=/mobileposse.com/
 server=/boost.mobileposse.com/
 server=/cricket.mobileposse.com/
 server=/metropcs.mobileposse.com/
 server=/mp5-wl.mobileposse.com/
 server=/neptune.mobileposse.com/
-
-# [mobilityware.com]
 server=/apps.mobilityware.com/
 server=/cross-promo.mwx.ext.mobilityware.com/
-
-# [mobimagic.com]
 server=/mobimagic.com/
 server=/a.mobimagic.com/
 server=/l.a.mobimagic.com/
 server=/pks.a.mobimagic.com/
 server=/ul.a.mobimagic.com/
-
-# [mobisla.com]
 server=/mobisla.com/
-
-# [mobitech-content.xyz]
 server=/api.mobitech-content.xyz/
-
-# [mobiuspace.net]
 server=/ad.mobiuspace.net/
 server=/creative-accelerate.ad.mobiuspace.net/
 server=/api-ad-callback.mobiuspace.net/
-
-# [mobivity.com]
 server=/mobivity.com/
-
-# [mobpowertech.com]
 server=/mobpowertech.com/
 server=/api.mobpowertech.com/
 server=/log.mobpowertech.com/
 server=/scheme.mobpowertech.com/
 server=/sg-tk.mobpowertech.com/
 server=/upload.mobpowertech.com/
-
-# [mobsocmedia.com]
 server=/cdn.mobsocmedia.com/
-
-# [mobtrks.com]
 server=/go.mobtrks.com/
-
-# [mobvista.com]
 server=/mobvista.com/
 server=/3s-smart-rtb.mobvista.com/
 server=/3s-smart-rtb-cdn.mobvista.com/
 server=/smart.mobvista.com/
-
-# [moengage.com]
 server=/apiv2.moengage.com/
 server=/cdn.moengage.com/
 server=/cfimage.moengage.com/
@@ -6608,11 +4125,7 @@ server=/ec.moengage.com/
 server=/image.moengage.com/
 server=/sdk-02.moengage.com/
 server=/websdk.moengage.com/
-
-# [monedata.io]
 server=/api.monedata.io/
-
-# [monetate.net]
 server=/ad.monetate.net/
 server=/af.monetate.net/
 server=/api.monetate.net/
@@ -6620,8 +4133,6 @@ server=/d.monetate.net/
 server=/engine.monetate.net/
 server=/sb.monetate.net/
 server=/se.monetate.net/
-
-# [mookie1.com]
 server=/ar-gmtdmp.mookie1.com/
 server=/au-gmtdmp.mookie1.com/
 server=/b3.mookie1.com/
@@ -6670,24 +4181,14 @@ server=/us-gmtdmp.mookie1.com/
 server=/vn-gmtdmp.mookie1.com/
 server=/x2.mookie1.com/
 server=/za-gmtdmp.mookie1.com/
-
-# [moonactive.net]
 server=/vik-analytics.moonactive.net/
 server=/vik-analytics-gke.moonactive.net/
-
-# [mopub.com]
 server=/mopub.com/
 server=/ads.mopub.com/
 server=/analytics.mopub.com/
-
-# [morgdm.ru]
 server=/morgdm.ru/
-
-# [moz.com]
 server=/analytics.moz.com/
 server=/mozbar.moz.com/
-
-# [mparticle.com]
 server=/config2.mparticle.com/
 server=/cookiesync.mparticle.com/
 server=/identity.mparticle.com/
@@ -6698,25 +4199,13 @@ server=/nativesdks.mparticle.com/
 server=/pixels.mparticle.com/
 server=/s2s.mparticle.com/
 server=/static.mparticle.com/
-
-# [mplxtms.com]
 server=/cj.mplxtms.com/
 server=/secure-cdn.mplxtms.com/
-
-# [mpnrs.com]
 server=/mpnrs.com/
-
-# [mradx.net]
 server=/r.mradx.net/
 server=/r0.mradx.net/
-
-# [mrtnsvr.com]
 server=/ad.mrtnsvr.com/
-
-# [msads.net]
 server=/msads.net/
-
-# [msn.com]
 server=/ads.msn.com/
 server=/a.ads1.msn.com/
 server=/b.ads1.msn.com/
@@ -6724,127 +4213,59 @@ server=/ads2.msn.com/
 server=/a.ads2.msn.com/
 server=/mobileads.msn.com/
 server=/srtb.msn.com/
-
-# [msstatic.com]
 server=/sdkconf.msstatic.com/
-
-# [mtrcss.com]
 server=/mtrcss.com/
-
-# [mtvnservices.com]
 server=/cdn-aka.ts.mtvnservices.com/
-
-# [mxmcdn.net]
 server=/adv.mxmcdn.net/
-
-# [mxpnl.com]
 server=/mxpnl.com/
 server=/cdn4.mxpnl.com/
-
-# [mxptint.net]
 server=/oxp.mxptint.net/
-
-# [my.com]
 server=/tracker-api.my.com/
-
-# [mybuys.com]
 server=/mybuys.com/
-
-# [mydas.mobi]
 server=/mydas.mobi/
 server=/cvt.mydas.mobi/
 server=/ads.mp.mydas.mobi/
 server=/androidsdk.ads.mp.mydas.mobi/
-
-# [myendpoint.io]
 server=/api.myendpoint.io/
-
-# [myinstashot.com]
 server=/ad.myinstashot.com/
-
-# [myvisualiq.net]
 server=/myvisualiq.net/
 server=/q.myvisualiq.net/
 server=/t.myvisualiq.net/
 server=/vt.myvisualiq.net/
-
-# [mzbcdn.net]
 server=/mzbcdn.net/
-
-# [naiadsystems.com]
 server=/naiadsystems.com/
 server=/hybridclient.naiadsystems.com/
 server=/manifest-server.naiadsystems.com/
 server=/nginxborder-server.naiadsystems.com/
 server=/sea1b-ls.naiadsystems.com/
-
-# [nanigans.com]
 server=/nanigans.com/
 server=/api.nanigans.com/
 server=/cdn.nanigans.com/
-
-# [nappyattack.com]
 server=/nappyattack.com/
-
-# [narrativ.com]
 server=/static.narrativ.com/
-
-# [narrative.io]
 server=/io.narrative.io/
-
-# [narvar.com]
 server=/assets.narvar.com/
-
-# [native.ai]
 server=/cdn.native.ai/
-
-# [natpal.com]
 server=/cdn.natpal.com/
 server=/offers.cdn.natpal.com/
-
-# [nbcnews.com]
 server=/aamt.nbcnews.com/
-
-# [nbcsports.com]
 server=/geo.nbcsports.com/
-
-# [nbcuas.com]
 server=/tracker.nbcuas.com/
-
-# [nbcuni.com]
 server=/video-ads-module.ad-tech.nbcuni.com/
 server=/osimg.nbcuni.com/
 server=/pix.nbcuni.com/
-
-# [ncaudienceexchange.com]
 server=/ncaudienceexchange.com/
 server=/log.ncaudienceexchange.com/
-
-# [nct.vn]
 server=/apinas.nct.vn/
-
-# [nearme.com.cn]
 server=/sdk.stat.foreign.nearme.com.cn/
-
-# [nend.net]
 server=/nend.net/
 server=/vdapp.nend.net/
-
-# [nervoussummer.com]
 server=/nervoussummer.com/
-
-# [netflix.com]
 server=/ichnaea-web.netflix.com/
 server=/nmtracking.netflix.com/
 server=/presentationtracking.netflix.com/
-
-# [netizen.co]
 server=/assets.netizen.co/
-
-# [netmera.com]
 server=/sdkapi.netmera.com/
-
-# [netmng.com]
 server=/netmng.com/
 server=/adb2waycm-atl.netmng.com/
 server=/com-fcagroup.netmng.com/
@@ -6854,135 +4275,65 @@ server=/krux2waycm.netmng.com/
 server=/liveramp2waycm-atl.netmng.com/
 server=/nan.netmng.com/
 server=/sinkhole.netmng.com/
-
-# [netsolads.com]
 server=/stats.netsolads.com/
-
-# [networkad.net]
 server=/app.networkad.net/
-
-# [networld.hk]
 server=/networld.hk/
-
-# [neustar.biz]
 server=/wpm.neustar.biz/
 server=/rum-collector.wpm.neustar.biz/
-
-# [newrelic.com]
 server=/insights-collector.newrelic.com/
 server=/js-agent.newrelic.com/
 server=/mobile-collector.newrelic.com/
-
-# [newsbreak.com]
 server=/www.newsbreak.com/
-
-# [newscgp.com]
 server=/v2.pixel.newscgp.com/
 server=/us.tags.newscgp.com/
-
-# [nex8.net]
 server=/nex8.net/
 server=/cs.nex8.net/
-
-# [nexac.com]
 server=/nexac.com/
 server=/gtm04.nexac.com/
-
-# [nexage.com]
 server=/ads.nexage.com/
 server=/hb.nexage.com/
-
-# [nexstardigital.net]
 server=/ccpa.psg.nexstardigital.net/
 server=/segment.psg.nexstardigital.net/
-
-# [nextclick.pl]
 server=/nextclick.pl/
-
-# [nextdoor.com]
 server=/us-tracking.nextdoor.com/
-
-# [nicovideo.jp]
 server=/ads.nicovideo.jp/
-
-# [nielsen.com]
 server=/apps.nielsen.com/
 server=/onsite-tag-logs.apps.nielsen.com/
-
-# [nike.com]
 server=/analytics.nike.com/
-
-# [nile.works]
 server=/targeting.washpost.nile.works/
-
-# [ning.com]
 server=/api.ning.com/
-
-# [ninthdecimal.com]
 server=/ninthdecimal.com/
 server=/lciapi.ninthdecimal.com/
 server=/rtb.ninthdecimal.com/
-
-# [nixcdn.com]
 server=/log4x.nixcdn.com/
 server=/stc-nas.nixcdn.com/
-
-# [nmcdn.us]
 server=/nmcdn.us/
-
-# [nodle.io]
 server=/dev.nodle.io/
-
-# [npttech.com]
 server=/www.npttech.com/
-
-# [nr-data.net]
 server=/nr-data.net/
 server=/bam.nr-data.net/
 server=/eu01.nr-data.net/
 server=/bam.eu01.nr-data.net/
-
-# [ns1p.net]
 server=/b.ns1p.net/
-
-# [ntv.io]
 server=/s.ntv.io/
-
-# [nuffnang.com.my]
 server=/nuffnang.com.my/
 server=/synad3.nuffnang.com.my/
-
-# [nytimes.com]
 server=/a-reporting.nytimes.com/
 server=/als-svc.nytimes.com/
 server=/dd.nytimes.com/
 server=/et.nytimes.com/
 server=/a.et.nytimes.com/
 server=/meter-svc.nytimes.com/
-
-# [o18.click]
 server=/twotreymedia10001697.o18.click/
-
-# [o333o.com]
 server=/cdn.o333o.com/
-
-# [oclaserver.com]
 server=/oclaserver.com/
-
-# [oclasrv.com]
 server=/go.oclasrv.com/
-
-# [offerstrack.net]
 server=/adcanopus.offerstrack.net/
 server=/dopemobi.offerstrack.net/
 server=/fuzeclick.offerstrack.net/
 server=/heatmobi.offerstrack.net/
 server=/midoweb.offerstrack.net/
-
-# [ogury.co]
 server=/sdk-monitoring.ogury.co/
-
-# [ogury.io]
 server=/cloud.ogury.io/
 server=/medias.cloud.ogury.io/
 server=/prod.cloud.ogury.io/
@@ -6993,23 +4344,13 @@ server=/ms-ads.prod.cloud.ogury.io/
 server=/wsback2b.prod.cloud.ogury.io/
 server=/consent-manager-events.ogury.io/
 server=/dsp-1.ogury.io/
-
-# [okanjo.com]
 server=/api2.okanjo.com/
 server=/cdn.okanjo.com/
-
-# [omguk.com]
 server=/track.omguk.com/
 server=/static.track.omguk.com/
-
-# [omnilocal.ai]
 server=/api.omnilocal.ai/
-
-# [omniture.com]
 server=/api.omniture.com/
 server=/appservice5.omniture.com/
-
-# [omtrdc.net]
 server=/omtrdc.net/
 server=/hb.omtrdc.net/
 server=/cbsinteractive.hb.omtrdc.net/
@@ -7049,43 +4390,21 @@ server=/mboxedge34.tt.omtrdc.net/
 server=/southwestairlines.tt.omtrdc.net/
 server=/subway2016.tt.omtrdc.net/
 server=/verizontelecom.tt.omtrdc.net/
-
-# [onaudience.com]
 server=/pixel.onaudience.com/
-
-# [onecount.net]
 server=/validate.onecount.net/
-
-# [onefeed.co.uk]
 server=/tracking.onefeed.co.uk/
-
-# [onelink.me]
 server=/snssdk1233.onelink.me/
-
-# [onelouder.com]
 server=/advrts.onelouder.com/
-
-# [onemt.co]
 server=/apicosdk.onemt.co/
 server=/apicssdk.onemt.co/
-
-# [onetag-sys.com]
 server=/onetag-sys.com/
-
-# [onetrust.com]
 server=/geolocation.onetrust.com/
-
-# [online-metrix.net]
 server=/online-metrix.net/
 server=/aa.online-metrix.net/
 server=/h.online-metrix.net/
-
-# [onscroll.com]
 server=/tag.onscroll.com/
 server=/tags.onscroll.com/
 server=/tags.us.onscroll.com/
-
-# [onthe.io]
 server=/onthe.io/
 server=/cdn.onthe.io/
 server=/v7.cdn.onthe.io/
@@ -7093,91 +4412,49 @@ server=/as.v7.cdn.onthe.io/
 server=/na.v7.cdn.onthe.io/
 server=/i.onthe.io/
 server=/tt.onthe.io/
-
-# [opecloud.com]
 server=/tagger.opecloud.com/
-
-# [opensharecount.com]
 server=/opensharecount.com/
-
-# [openstat.net]
 server=/openstat.net/
-
-# [opentracker.net]
 server=/log.opentracker.net/
-
-# [openx.net]
 server=/nytimes-d.openx.net/
 server=/rtb.openx.net/
 server=/samyonews-d.openx.net/
 server=/u.openx.net/
 server=/us-u.openx.net/
-
-# [opera.com]
 server=/api-a.op-mobile.opera.com/
-
-# [oppomobile.com]
 server=/adx.ads.oppomobile.com/
 server=/bdapi.ads.oppomobile.com/
 server=/data.ads.oppomobile.com/
 server=/data-id.ads.oppomobile.com/
 server=/adsfs.oppomobile.com/
-
-# [opstag.com]
 server=/cdn1.opstag.com/
-
-# [optad360.io]
 server=/optad360.io/
 server=/cmp.optad360.io/
-
-# [optaim.com]
 server=/optaim.com/
 server=/cm.optaim.com/
 server=/imp.optaim.com/
-
-# [optimix.asia]
 server=/optimix.asia/
 server=/bx.optimix.asia/
 server=/bx01.optimix.asia/
-
-# [optimizely.com]
 server=/api.optimizely.com/
 server=/app.optimizely.com/
 server=/cdn.optimizely.com/
 server=/cdn3.optimizely.com/
 server=/logx.optimizely.com/
 server=/events.mobile.optimizely.com/
-
-# [optimost.io]
 server=/origin.optimost.io/
-
-# [optimove.net]
 server=/sdk-cdn.optimove.net/
 server=/sdkuaservice.optimove.net/
-
-# [optinmonster.com]
 server=/a.optinmonster.com/
 server=/api.optinmonster.com/
 server=/app.optinmonster.com/
-
-# [optmnstr.com]
 server=/a.optmnstr.com/
 server=/api.optmnstr.com/
-
-# [optmstr.com]
 server=/a.optmstr.com/
 server=/api.optmstr.com/
-
-# [optnmnstr.com]
 server=/a.optnmnstr.com/
-
-# [optnmstr.com]
 server=/a.optnmstr.com/
-
-# [orangeclickmedia.com]
 server=/cdn.orangeclickmedia.com/
-
-# [otherlevels.com]
 server=/otherlevels.com/
 server=/api.otherlevels.com/
 server=/cdn.otherlevels.com/
@@ -7186,16 +4463,10 @@ server=/events-api.otherlevels.com/
 server=/native-set-tags.otherlevels.com/
 server=/rich.otherlevels.com/
 server=/ws.otherlevels.com/
-
-# [oto.com.vn]
 server=/log.oto.com.vn/
-
-# [oupeng.com]
 server=/cp.oupeng.com/
 server=/startup.oupeng.com/
 server=/turbo2sdk-push.oupeng.com/
-
-# [outbrain.com]
 server=/amplify.outbrain.com/
 server=/amplify-imp.outbrain.com/
 server=/amplifypixel.outbrain.com/
@@ -7222,124 +4493,64 @@ server=/vrt.outbrain.com/
 server=/widget-pixels.outbrain.com/
 server=/widgetmonitor.outbrain.com/
 server=/widgets.outbrain.com/
-
-# [outbrain.org]
 server=/alldcs.outbrain.org/
 server=/chidc2.outbrain.org/
 server=/log.outbrain.org/
 server=/nychi2.outbrain.org/
 server=/sadc1.outbrain.org/
-
-# [outbrainimg.com]
 server=/images.outbrainimg.com/
 server=/log.outbrainimg.com/
 server=/tcheck.outbrainimg.com/
 server=/zem.outbrainimg.com/
-
-# [outgrow.co]
 server=/api-h.outgrow.co/
 server=/api-live.outgrow.co/
 server=/api-n.outgrow.co/
-
-# [outlookmobile.com]
 server=/prod-collecticon.outlookmobile.com/
-
-# [owneriq.net]
 server=/px.owneriq.net/
-
-# [ownlocal.com]
 .ownlocal.com
 server=/secure.ownlocal.com/
 server=/origami.secure.ownlocal.com/
 server=/widget.secure.ownlocal.com/
 server=/snowplow.ownlocal.com/
-
-# [p-n.io]
 server=/cdn.p-n.io/
-
-# [padsdel.com]
 server=/padsdel.com/
-
-# [pagefair.com]
 server=/asset.pagefair.com/
-
-# [pagefair.net]
 server=/asset.pagefair.net/
-
-# [pages03.net]
 server=/sc.pages03.net/
 server=/www.sc.pages03.net/
-
-# [pandoiq.com]
 server=/tracking.pandoiq.com/
-
-# [pandora.com]
 server=/adserver.pandora.com/
-
-# [pangle.io]
 server=/pangle.io/
 server=/api16-access-gcp.pangle.io/
 server=/api16-access-sg.pangle.io/
-
-# [pardot.com]
 server=/pi.pardot.com/
-
-# [parrable.com]
 server=/parrable.com/
 server=/h.parrable.com/
-
-# [parse.com]
 server=/api.parse.com/
-
-# [parsely.com]
 server=/api.parsely.com/
 server=/cdn.parsely.com/
 server=/p1.parsely.com/
 server=/pixel.parsely.com/
 server=/srv.pixel.parsely.com/
 server=/static.parsely.com/
-
-# [particlenews.com]
 server=/log.particlenews.com/
-
-# [paypal.com]
 server=/b.stats.paypal.com/
 server=/slc.stats.paypal.com/
-
-# [pdbarea.com]
 server=/ads.pdbarea.com/
 server=/api.pdbarea.com/
-
-# [perf-serving.com]
 server=/images.perf-serving.com/
-
-# [perfectaudience.com]
 server=/ads.perfectaudience.com/
 server=/tag.perfectaudience.com/
-
-# [perfectcorp.com]
 server=/abtesting.perfectcorp.com/
 server=/appad-api-01.perfectcorp.com/
 server=/clad.perfectcorp.com/
-
-# [perfectionholic.com]
 server=/featured.perfectionholic.com/
 server=/newfeatureview.perfectionholic.com/
-
-# [performancehorizon.com]
 server=/performancehorizon.com/
-
-# [period-calendar.com]
 server=/ad.period-calendar.com/
-
-# [perk0mean.com]
 server=/secure.perk0mean.com/
-
-# [permutive.app]
 server=/cdn.permutive.app/
 server=/6093eccf-6734-4877-ac8b-83d6d0e27b46.edge.permutive.app/
-
-# [permutive.com]
 server=/permutive.com/
 server=/amp.permutive.com/
 server=/buzzfeed.amp.permutive.com/
@@ -7352,171 +4563,81 @@ server=/pmc.amp.permutive.com/
 server=/vox.amp.permutive.com/
 server=/api.permutive.com/
 server=/cdn.permutive.com/
-
-# [personizely.net]
 server=/tracker.personizely.net/
-
-# [personyze.com]
 server=/count.personyze.com/
-
-# [perzonalization.com]
 server=/api.perzonalization.com/
 server=/cdn.perzonalization.com/
-
-# [petametrics.com]
 server=/cdn.petametrics.com/
 server=/query.petametrics.com/
 server=/query-us-east1.petametrics.com/
 server=/query1.petametrics.com/
-
-# [phonalytics.com]
 server=/app.phonalytics.com/
-
-# [phonepe.com]
 server=/ads.phonepe.com/
 server=/ads-static.phonepe.com/
-
-# [phunware.com]
 server=/phunware.com/
-
-# [picooapps.com]
 server=/adsdk.picooapps.com/
-
-# [picsart.com]
 server=/analytics.picsart.com/
-
-# [pingdom.net]
 server=/rum-collector.pingdom.net/
 server=/rum-collector-2.pingdom.net/
 server=/rum-static.pingdom.net/
-
-# [pinger.com]
 server=/ads.pinger.com/
 server=/cf-ads.pinger.com/
-
-# [pinsightmedia.com]
 server=/v8.analytics.pinsightmedia.com/
 server=/fusion-files-cf.pinsightmedia.com/
 server=/intelligence-head.pinsightmedia.com/
 server=/topapps-func.pinsightmedia.com/
 server=/trackdat.pinsightmedia.com/
-
-# [pinterest.com]
 server=/ads.pinterest.com/
 server=/analytics.pinterest.com/
 server=/ct.pinterest.com/
 server=/log.pinterest.com/
 server=/trk.pinterest.com/
-
-# [pippio.com]
 server=/pippio.com/
-
-# [pixel.watch]
 server=/pixel.watch/
-
-# [pixels.ai]
 server=/pub.pixels.ai/
-
-# [placed.com]
 server=/placed.com/
 server=/api.placed.com/
 server=/p.placed.com/
-
-# [placeiq.com]
 server=/ads.placeiq.com/
 server=/partner.ads.placeiq.com/
-
-# [playrix.com]
 server=/stats.playrix.com/
-
-# [playtem.com]
 server=/sdk.playtem.com/
-
-# [pluto.tv]
 server=/service-ad-impression-proxy.clusters.pluto.tv/
-
-# [pmc.com]
 server=/iabusprivacy.pmc.com/
-
-# [po.st]
 server=/i.po.st/
 server=/p.po.st/
 server=/s.po.st/
-
-# [pocketmath.com]
 server=/pocketmath.com/
-
-# [pof.com]
 server=/ads.pof.com/
-
-# [pointmediatracker.com]
 server=/pixel.pointmediatracker.com/
-
-# [pokki.com]
 server=/analytics.pokki.com/
-
-# [polarcdn-pentos.com]
 server=/polarcdn-pentos.com/
-
-# [polarcdn-terrax.com]
 server=/polarcdn-terrax.com/
-
-# [polarcdn.com]
 server=/static.polarcdn.com/
-
-# [polarisoffice.com]
 server=/analysis.polarisoffice.com/
 server=/logconfig.polarisoffice.com/
-
-# [polarmobile.com]
 server=/meraxes-cdn.polarmobile.com/
-
-# [polyad.net]
 server=/polyad.net/
 server=/core.polyad.net/
 server=/ds.polyad.net/
-
-# [popads.net]
 server=/c1.popads.net/
 server=/serve.popads.net/
-
-# [popcap.com]
 server=/stats.popcap.com/
-
-# [popcash.net]
 server=/cdn.popcash.net/
-
-# [poperblocker.com]
 server=/api2.poperblocker.com/
-
-# [popin.cc]
 server=/a.popin.cc/
 server=/api.popin.cc/
 server=/discoveryplus.popin.cc/
 server=/r.popin.cc/
 server=/rlog.popin.cc/
-
-# [postitial.com]
 server=/postitial.com/
 server=/cdn-cf.postitial.com/
-
-# [postrelease.com]
 server=/jadserve.postrelease.com/
-
-# [postscript.io]
 server=/api.postscript.io/
 server=/sdk.postscript.io/
-
-# [powerad.ai]
 server=/powerad.ai/
-
-# [prebid.org]
 server=/currency.prebid.org/
-
-# [premiumads.com.br]
 server=/tags.premiumads.com.br/
-
-# [presage.io]
 server=/presage.io/
 server=/ah-v1.presage.io/
 server=/bip.presage.io/
@@ -7536,63 +4657,31 @@ server=/tr-v1.presage.io/
 server=/wsback-event.presage.io/
 server=/wsback-get-config.presage.io/
 server=/wsback-profile.presage.io/
-
-# [pressboard.ca]
 server=/adserver.pressboard.ca/
-
-# [prfct.cc]
 server=/cdn-assets.prfct.cc/
 server=/cdn-otf-cas.prfct.cc/
 server=/cdn-resources.prfct.cc/
-
-# [pricespider.com]
 server=/locate.pricespider.com/
 server=/track.pricespider.com/
-
-# [prinit.net]
 server=/schemea.prinit.net/
-
-# [privacytrck.com]
 server=/static.privacytrck.com/
-
-# [privy.com]
 server=/privy.com/
 server=/assets.privy.com/
 server=/events.privy.com/
-
-# [pro-market.net]
 server=/ads.pro-market.net/
-
-# [prooffactor.com]
 server=/prooffactor.com/
 server=/api.prooffactor.com/
-
-# [propellerads.com]
 server=/ad.propellerads.com/
-
-# [proper.io]
 server=/global.proper.io/
-
-# [provesrc.com]
 server=/cdn.provesrc.com/
-
-# [pub.network]
 server=/pub.network/
 server=/a.pub.network/
 server=/c.pub.network/
 server=/d.pub.network/
-
-# [pub2srv.com]
 server=/pub2srv.com/
 server=/go.pub2srv.com/
-
-# [publicidees.com]
 server=/tracking.publicidees.com/
-
-# [publitas.com]
 server=/analytics.publitas.com/
-
-# [pubmatic.com]
 server=/ads.pubmatic.com/
 server=/aktrack.pubmatic.com/
 server=/apps.pubmatic.com/
@@ -7612,45 +4701,23 @@ server=/showads.pubmatic.com/
 server=/simage2.pubmatic.com/
 server=/simage4.pubmatic.com/
 server=/sshowads.pubmatic.com/
-
-# [pubmine.com]
 server=/s.pubmine.com/
-
-# [pubnative.info]
 server=/pubnative.info/
-
-# [pubnative.net]
 server=/pubnative.net/
 server=/api.pubnative.net/
 server=/hbrc.pubnative.net/
-
-# [pulsatehq.com]
 server=/app.pulsatehq.com/
-
-# [purch.com]
 server=/assets.purch.com/
-
-# [push-ad.com]
 server=/app.push-ad.com/
-
-# [push-notifs.com]
 server=/ws.push-notifs.com/
-
-# [pushcrew.com]
 server=/cdn.pushcrew.com/
 server=/dacdn.pushcrew.com/
 server=/tracking.pushcrew.com/
-
-# [pushengage.com]
 server=/clientcdn.pushengage.com/
 server=/clients-api.pushengage.com/
-
-# [pushnami.com]
 server=/pushnami.com/
 server=/api.pushnami.com/
 server=/trc.pushnami.com/
-
-# [pushwoosh.com]
 server=/api.pushwoosh.com/
 server=/0ce3c-1fd43.api.pushwoosh.com/
 server=/cache-ha.pushwoosh.com/
@@ -7666,26 +4733,12 @@ server=/richmedia.pushwoosh.com/
 server=/sulake.pushwoosh.com/
 server=/uefa.pushwoosh.com/
 server=/wetter.pushwoosh.com/
-
-# [pv-cdn.net]
 server=/cf-us-popular.dash.pv-cdn.net/
-
-# [px-cloud.net]
 server=/collector-px8fcgygk4.px-cloud.net/
-
-# [qbk1.com]
 server=/c2.qbk1.com/
-
-# [qccoccocmedia.vn]
 server=/qccoccocmedia.vn/
-
-# [qgraph.io]
 server=/sdk.api.qgraph.io/
-
-# [qikify.com]
 server=/sdk.qikify.com/
-
-# [qq.com]
 server=/lcsdk.3g.qq.com/
 server=/masdk.3g.qq.com/
 server=/pmir.3g.qq.com/
@@ -7727,14 +4780,8 @@ server=/monitor.uu.qq.com/
 server=/wspeed.qq.com/
 server=/log.wtlogin.qq.com/
 server=/ysdk.qq.com/
-
-# [qualtrics.com]
 server=/siteintercept.qualtrics.com/
-
-# [quantcast.com]
 server=/cmp.quantcast.com/
-
-# [quantcount.com]
 server=/quantcount.com/
 server=/assets.quantcount.com/
 server=/content.quantcount.com/
@@ -7743,8 +4790,6 @@ server=/m.quantcount.com/
 server=/pixel.quantcount.com/
 server=/rules.quantcount.com/
 server=/static.quantcount.com/
-
-# [quantserve.com]
 server=/2kpixel.quantserve.com/
 server=/cms.quantserve.com/
 server=/edge.quantserve.com/
@@ -7756,45 +4801,23 @@ server=/qcx.quantserve.com/
 server=/secure.quantserve.com/
 server=/us-west-notify-rtb.quantserve.com/
 server=/vast.quantserve.com/
-
-# [quantumgraph.com]
 server=/api.quantumgraph.com/
 server=/config.quantumgraph.com/
 server=/users.quantumgraph.com/
-
-# [quantummetric.com]
 server=/cdn.quantummetric.com/
-
-# [qubit.com]
 server=/gong-eb.qubit.com/
 server=/lookup.qubit.com/
 server=/sse.qubit.com/
-
-# [qwapi.com]
 server=/iadctest.qwapi.com/
-
-# [r-ad.ne.jp]
 server=/r-ad.ne.jp/
 server=/bk.r-ad.ne.jp/
-
-# [radar.io]
 server=/api.radar.io/
-
-# [radiusnetworks.com]
 server=/proximitykit.radiusnetworks.com/
-
-# [rallydev.com]
 server=/beacon.rallydev.com/
-
-# [rave-api.com]
 server=/client.rave-api.com/
-
-# [ravm.tv]
 server=/ravm.tv/
 server=/display.ravm.tv/
 server=/hb-t5u9.raps.ravm.tv/
-
-# [rayjump.com]
 server=/rayjump.com/
 server=/adx-tk.rayjump.com/
 server=/analytics.rayjump.com/
@@ -7826,111 +4849,49 @@ server=/vg-aws-us-east-1a-hb.rayjump.com/
 server=/vg-aws-us-east-1b-hb.rayjump.com/
 server=/vg-new-hb.rayjump.com/
 server=/vg-setting.rayjump.com/
-
-# [rbl.ms]
 server=/assets.rbl.ms/
 server=/pages-stats.rbl.ms/
 server=/user-stats.rbl.ms/
-
-# [rbnt.org]
 server=/rbnt.org/
-
-# [rbthre.work]
 server=/rbthre.work/
-
-# [realclever.com]
 server=/realclever.com/
-
-# [realme.com]
 server=/iot-logser.realme.com/
-
-# [realvu.net]
 server=/ac.realvu.net/
-
-# [rebel.ai]
 server=/cdn.rebel.ai/
-
-# [recreativ.ru]
 server=/recreativ.ru/
 server=/track.recreativ.ru/
-
-# [redditmedia.com]
 server=/events.redditmedia.com/
-
-# [redfast.com]
 server=/redfast.com/
 server=/conduit.redfast.com/
-
-# [redintelligence.net]
 server=/redintelligence.net/
 server=/hal9000.redintelligence.net/
-
-# [redirectingat.com]
 server=/go.redirectingat.com/
-
-# [redretarget.com]
 server=/app.redretarget.com/
 server=/trackifyx.redretarget.com/
-
-# [reftagger.com]
 server=/api.reftagger.com/
-
-# [reklamstore.com]
 server=/adserver.reklamstore.com/
-
-# [rekmob.com]
 server=/adimg.rekmob.com/
 server=/ads.rekmob.com/
-
-# [relap.io]
 server=/relap.io/
-
-# [remarketingpixel.com]
 server=/remarketingpixel.com/
 server=/r.remarketingpixel.com/
-
-# [republer.com]
 server=/sync.republer.com/
-
-# [researchnow.com]
 server=/researchnow.com/
 server=/tag.researchnow.com/
-
-# [reson8.com]
 server=/ds.reson8.com/
 server=/idsync.reson8.com/
-
-# [resonate.com]
 server=/cdn.resonate.com/
-
-# [responsys.net]
 server=/static.cdn.responsys.net/
-
-# [restartad.com]
 server=/restartad.com/
 server=/api2.restartad.com/
 server=/gateway.restartad.com/
 server=/gateway-2.restartad.com/
-
-# [resu.io]
 server=/sdk.resu.io/
-
-# [retagro.com]
 server=/retagro.com/
-
-# [retargeter.com]
 server=/tag.retargeter.com/
-
-# [retargeting.biz]
 server=/tracking.retargeting.biz/
-
-# [retentionscience.com]
 server=/waves.retentionscience.com/
-
-# [returngo.ai]
 server=/static.returngo.ai/
-
-# [revcontent.com]
 server=/assets.revcontent.com/
 server=/cdn.revcontent.com/
 server=/html-img.revcontent.com/
@@ -7940,27 +4901,15 @@ server=/labs-cdn.revcontent.com/
 server=/media.revcontent.com/
 server=/publishers.revcontent.com/
 server=/trends.revcontent.com/
-
-# [revjet.com]
 server=/ads.revjet.com/
 server=/cdn.revjet.com/
 server=/pix.revjet.com/
 server=/pix-us.revjet.com/
-
-# [revmob.com]
 server=/revmob.com/
-
-# [revrtb.com]
 server=/revrtb.com/
 server=/xml.revrtb.com/
-
-# [reyrey.net]
 server=/analytics.reyrey.net/
-
-# [rezync.com]
 server=/live.rezync.com/
-
-# [rfihub.com]
 server=/rfihub.com/
 server=/20738914p.rfihub.com/
 server=/20766699p.rfihub.com/
@@ -7970,26 +4919,16 @@ server=/p.rfihub.com/
 server=/s.rfihub.com/
 server=/sjc-rtb1.rfihub.com/
 server=/sjc-249.sjc-rtb1.rfihub.com/
-
-# [richrelevance.com]
 server=/image.richrelevance.com/
 server=/integration.richrelevance.com/
 server=/media.richrelevance.com/
 server=/rm.recs.richrelevance.com/
-
-# [rightmoveanalytics.co.uk]
 server=/rightmoveanalytics.co.uk/
-
-# [riskified.com]
 server=/beacon.riskified.com/
 server=/c.riskified.com/
 server=/img.riskified.com/
-
-# [rkdms.com]
 server=/mid.rkdms.com/
 server=/id.sv.rkdms.com/
-
-# [rlcdn.com]
 server=/rlcdn.com/
 server=/api.rlcdn.com/
 server=/ats.rlcdn.com/
@@ -8002,31 +4941,17 @@ server=/rc-ext-geo.rlcdn.com/
 server=/so.rlcdn.com/
 server=/sr-weight.rlcdn.com/
 server=/tv.rlcdn.com/
-
-# [roblox.com]
 server=/ads.roblox.com/
 server=/metrics.roblox.com/
-
-# [roku.com]
 server=/p.ads.roku.com/
 server=/austin.logs.roku.com/
 server=/mobile.logs.roku.com/
 server=/scribe.logs.roku.com/
-
-# [rotaban.ru]
 server=/rotaban.ru/
-
-# [rovio.com]
 server=/ads-cloud.rovio.com/
 server=/videoads-cloud.rovio.com/
-
-# [roximity.com]
 server=/app.roximity.com/
-
-# [rpxnow.com]
 server=/widget-cdn.rpxnow.com/
-
-# [rqmob.com]
 server=/adconf.rqmob.com/
 server=/adcs.rqmob.com/
 server=/ap-adcs.rqmob.com/
@@ -8035,14 +4960,8 @@ server=/appclick.rqmob.com/
 server=/ascribe.rqmob.com/
 server=/msdk.rqmob.com/
 server=/static.rqmob.com/
-
-# [rtbsrv.com]
 server=/dmp.rtbsrv.com/
-
-# [rtmark.net]
 server=/my.rtmark.net/
-
-# [rubiconproject.com]
 server=/ads.rubiconproject.com/
 server=/aws.rubiconproject.com/
 server=/stats.aws.rubiconproject.com/
@@ -8082,25 +5001,13 @@ server=/update.rubiconproject.com/
 server=/s.update.rubiconproject.com/
 server=/video-ads.rubiconproject.com/
 server=/video-ads-apex.rubiconproject.com/
-
-# [rudderlabs.com]
 server=/api.rudderlabs.com/
-
-# [ruetracking.com]
 server=/prdwebcollector.ruetracking.com/
-
-# [run-syndicate.com]
 server=/run-syndicate.com/
 server=/cdn.run-syndicate.com/
-
-# [rundsp.com]
 server=/rundsp.com/
 server=/match.rundsp.com/
-
-# [rutarget.ru]
 server=/tag.rutarget.ru/
-
-# [s-onetag.com]
 server=/beacon.s-onetag.com/
 server=/connect-metrics-collector.s-onetag.com/
 server=/data-beacons.s-onetag.com/
@@ -8111,89 +5018,43 @@ server=/onetag-geo.s-onetag.com/
 server=/prebid.s-onetag.com/
 server=/signal-beacon.s-onetag.com/
 server=/signal-metrics-collector-beta.s-onetag.com/
-
-# [safedk.com]
 server=/api.safedk.com/
 server=/config.safedk.com/
 server=/edge.safedk.com/
-
-# [sail-horizon.com]
 server=/ak.sail-horizon.com/
-
-# [sail-personalize.com]
 server=/api.sail-personalize.com/
 server=/aws-api.sail-personalize.com/
-
-# [sailthru.com]
 server=/api.sailthru.com/
 server=/cb.sailthru.com/
 server=/horizon.sailthru.com/
-
-# [salesforce.com]
 server=/beacon.my.salesforce.com/
-
-# [salesforceliveagent.com]
 server=/d.la1-c2-iad.salesforceliveagent.com/
-
-# [salmonads.com]
 server=/api.salmonads.com/
 server=/net.salmonads.com/
-
-# [sam4m.com]
 server=/sam4m.com/
 server=/us-ma.sam4m.com/
-
-# [samba.tv]
 server=/samba.tv/
 server=/ads.samba.tv/
 server=/events.cid.samba.tv/
 server=/pixel.mtrcs.samba.tv/
 server=/tag.mtrcs.samba.tv/
-
-# [samplicio.us]
 server=/tracker.samplicio.us/
-
-# [samsung.com]
 server=/insights.samsung.com/
-
-# [samsungadhub.com]
 server=/ad.samsungadhub.com/
-
-# [samsungads.com]
 server=/samsungads.com/
 server=/ads.samsungads.com/
 server=/config.samsungads.com/
-
-# [sandai.net]
 server=/etl.xlmc.sandai.net/
-
-# [sas.com]
 server=/execution-use.ci360.sas.com/
-
-# [sascdn.com]
 server=/ak-ns.sascdn.com/
 server=/mobileconfig.sascdn.com/
-
-# [saygames.io]
 server=/track.saygames.io/
-
-# [saymedia.com]
 server=/saymedia.com/
-
-# [saypromo.net]
 server=/api.saypromo.net/
-
-# [sbbanner.com]
 server=/sbbanner.com/
-
-# [sc-static.net]
 server=/sc-static.net/
-
-# [scarabresearch.com]
 server=/cdn.scarabresearch.com/
 server=/recommender.scarabresearch.com/
-
-# [scopely.io]
 server=/aprod.scopely.io/
 server=/adsgard.aprod.scopely.io/
 server=/fenrir-resolver.aprod.scopely.io/
@@ -8207,8 +5068,6 @@ server=/4af7c20b-7646-4fb7-b64f-ae0a8c51c1f1.register.collector.scopely.io/
 server=/6b73d00a-d4a1-4350-825a-cd3f49afa460.register.collector.scopely.io/
 server=/sdk.scopely.io/
 server=/config.sdk.scopely.io/
-
-# [scorecardresearch.com]
 server=/scorecardresearch.com/
 server=/ads.scorecardresearch.com/
 server=/b.scorecardresearch.com/
@@ -8216,97 +5075,51 @@ server=/bs.scorecardresearch.com/
 server=/end.scorecardresearch.com/
 server=/sb.scorecardresearch.com/
 server=/udm.scorecardresearch.com/
-
-# [scroll.com]
 server=/block.scroll.com/
 server=/connect.scroll.com/
 server=/static.scroll.com/
-
-# [sdkbox.com]
 server=/metrics.sdkbox.com/
 server=/update.sdkbox.com/
-
-# [seadform.net]
 server=/asia.seadform.net/
 server=/server.seadform.net/
 server=/track.seadform.net/
-
-# [seattleclouds.com]
 server=/analytics.seattleclouds.com/
-
-# [secondstreetapp.com]
 server=/secondstreetapp.com/
 server=/api.secondstreetapp.com/
 server=/embed.secondstreetapp.com/
-
-# [securedtouch.com]
 server=/static.securedtouch.com/
 server=/wish.securedtouch.com/
-
-# [seewhy.com]
 server=/saas.seewhy.com/
 server=/abandonment6.saas.seewhy.com/
-
-# [segment.com]
 server=/app.segment.com/
 server=/cdn.segment.com/
 server=/cdn-settings.segment.com/
 server=/idsync.segment.com/
 server=/mobile-service.segment.com/
 server=/profiles.segment.com/
-
-# [segment.io]
 server=/api.segment.io/
 server=/cdn.segment.io/
-
-# [segmentapis.com]
 server=/segmentapis.com/
 server=/silver-fir.cd.segmentapis.com/
-
-# [segmentify.com]
 server=/cdn.segmentify.com/
-
-# [sekindo.com]
 server=/sekindo.com/
-
-# [selectablemedia.com]
 server=/cdn.selectablemedia.com/
-
-# [sembox.it]
 server=/tracking.sembox.it/
-
-# [sendo.vn]
 server=/track.sendo.vn/
-
-# [sendtonews.com]
 server=/embed.sendtonews.com/
-
-# [sense360eng.com]
 server=/android-quinoa-config-prod.sense360eng.com/
 server=/ios-quinoa-config-prod.sense360eng.com/
 server=/ios-quinoa-personal-identify-prod.sense360eng.com/
 server=/quinoa-personal-identify-prod.sense360eng.com/
-
-# [sentiance.com]
 server=/api.sentiance.com/
-
-# [sentry.io]
 server=/o861134.ingest.sentry.io/
-
-# [servebom.com]
 server=/servebom.com/
 server=/ads.servebom.com/
 server=/ads2.servebom.com/
 server=/pixel.servebom.com/
-
-# [servedby-buysellads.com]
 server=/m.servedby-buysellads.com/
-
-# [serverbid.com]
 server=/e.serverbid.com/
 server=/sync.serverbid.com/
-
-# [serving-sys.com]
 server=/serving-sys.com/
 server=/bs.serving-sys.com/
 server=/ds.serving-sys.com/
@@ -8315,17 +5128,9 @@ server=/lm.serving-sys.com/
 server=/msntest.serving-sys.com/
 server=/secure-ds.serving-sys.com/
 server=/services.serving-sys.com/
-
-# [sessioncam.com]
 server=/ws.sessioncam.com/
-
-# [sgdmobile.com]
 server=/track.sgdmobile.com/
-
-# [shalltry.com]
 server=/shalltry.com/
-
-# [shareaholic.com]
 server=/analytics.shareaholic.com/
 server=/apps.shareaholic.com/
 server=/go.shareaholic.com/
@@ -8333,14 +5138,8 @@ server=/grace.shareaholic.com/
 server=/partner.shareaholic.com/
 server=/pixel.shareaholic.com/
 server=/recs.shareaholic.com/
-
-# [shareasale.com]
 server=/static.shareasale.com/
-
-# [sharedid.org]
 server=/id.sharedid.org/
-
-# [sharethis.com]
 server=/buttons-config.sharethis.com/
 server=/count-server.sharethis.com/
 server=/edge.sharethis.com/
@@ -8356,8 +5155,6 @@ server=/t.sharethis.com/
 server=/w.sharethis.com/
 server=/wd-edge.sharethis.com/
 server=/ws.sharethis.com/
-
-# [sharethrough.com]
 server=/b.sharethrough.com/
 server=/btlr.sharethrough.com/
 server=/btlr-ecs-ap-southeast-1.sharethrough.com/
@@ -8370,36 +5167,18 @@ server=/native.sharethrough.com/
 server=/sdk.sharethrough.com/
 server=/sfp-adserver-cdn.sharethrough.com/
 server=/stx-assets.sharethrough.com/
-
-# [shazam.com]
 server=/beacon.shazam.com/
-
-# [sidearmsports.com]
 server=/statcollector.sidearmsports.com/
-
-# [sift.co]
 server=/prod.sift.co/
 server=/sgbid.prod.sift.co/
 server=/vabid.prod.sift.co/
 server=/sift-campaign-creatives.sift.co/
-
-# [siftscience.com]
 server=/api3.siftscience.com/
 server=/cdn.siftscience.com/
-
-# [signalr.net]
 server=/community.service.signalr.net/
-
-# [silvermob.com]
 server=/silvermob.com/
-
-# [simpleanalytics.io]
 server=/cdn.simpleanalytics.io/
-
-# [simplesharebuttons.com]
 server=/simplesharebuttons.com/
-
-# [simpli.fi]
 server=/ads.simpli.fi/
 server=/east.ads.simpli.fi/
 server=/west.ads.simpli.fi/
@@ -8412,40 +5191,24 @@ server=/feedimages.simpli.fi/
 server=/tag.simpli.fi/
 server=/um.simpli.fi/
 server=/westads.simpli.fi/
-
-# [simplycast.com]
 server=/simplycast.com/
-
-# [sina.cn]
 server=/log.sina.cn/
 server=/sdkapp.mobile.sina.cn/
 server=/wbapp.mobile.sina.cn/
 server=/sax.sina.cn/
-
-# [sina.com.cn]
 server=/adbox.sina.com.cn/
 server=/beacon.sina.com.cn/
 server=/emarketing.sina.com.cn/
 server=/sbeacon.sina.com.cn/
-
-# [sinajs.cn]
 server=/newspush.sinajs.cn/
-
-# [singular.net]
 server=/singular.net/
 server=/i.singular.net/
 server=/s2s.singular.net/
 server=/sdk-api-v1.singular.net/
 server=/t.singular.net/
-
-# [sitemaji.com]
 server=/sitemaji.com/
-
-# [sitescout.com]
 server=/pixel.sitescout.com/
 server=/pixel-sync.sitescout.com/
-
-# [skimresources.com]
 server=/assistjs.skimresources.com/
 server=/go.skimresources.com/
 server=/i.skimresources.com/
@@ -8457,14 +5220,8 @@ server=/r.skimresources.com/
 server=/s.skimresources.com/
 server=/t.skimresources.com/
 server=/x.skimresources.com/
-
-# [slicktext.com]
 server=/slicktext.com/
-
-# [smaato.com]
 server=/smaato.com/
-
-# [smaato.net]
 server=/smaato.net/
 server=/ad.smaato.net/
 server=/adtag.ad.smaato.net/
@@ -8485,24 +5242,16 @@ server=/ets-ap-southeast-1.track.smaato.net/
 server=/ets-eu-west-1.track.smaato.net/
 server=/ets-us-east-1.track.smaato.net/
 server=/vet-us-east-1.track.smaato.net/
-
-# [smadex.com]
 server=/smadex.com/
 server=/cm.smadex.com/
 server=/creatives.smadex.com/
 server=/geo-tracker.smadex.com/
 server=/static-content-1.smadex.com/
-
-# [smardroid.com]
 server=/ap.smardroid.com/
 server=/lg.smardroid.com/
 server=/sc.smardroid.com/
 server=/tkclick.smardroid.com/
-
-# [smart.link]
 server=/smart.link/
-
-# [smartadserver.com]
 server=/cdn1.smartadserver.com/
 server=/diff.smartadserver.com/
 server=/diff3.smartadserver.com/
@@ -8532,64 +5281,38 @@ server=/ww1772.smartadserver.com/
 server=/ww2951.smartadserver.com/
 server=/ww3050.smartadserver.com/
 server=/www9.smartadserver.com/
-
-# [smartclip.net]
 server=/smartclip.net/
 server=/stats.smartclip.net/
 server=/sxp.smartclip.net/
 server=/stats.sxp.smartclip.net/
 server=/sync.sxp.smartclip.net/
-
-# [smartechmetrics.com]
 server=/api.smartechmetrics.com/
-
-# [smarterhq.io]
 server=/global.smarterhq.io/
 server=/onsiteshq.smarterhq.io/
 server=/tr2.smarterhq.io/
-
-# [smartnews-ads.com]
 server=/cdn.smartnews-ads.com/
 server=/conf.smartnews-ads.com/
 server=/i.smartnews-ads.com/
 server=/thumbnail.smartnews-ads.com/
-
-# [smartstream.tv]
 server=/ads.smartstream.tv/
-
-# [smbeat.jp]
 server=/api.smbeat.jp/
-
-# [snackly.co]
 server=/counter.snackly.co/
-
-# [snapads.com]
 server=/snapads.com/
 server=/adserver.snapads.com/
 server=/usc.adserver.snapads.com/
 server=/adserver.shadow.snapads.com/
 server=/study.snapads.com/
-
-# [snapchat.com]
 server=/ads.snapchat.com/
 server=/adsapi.snapchat.com/
 server=/tr.snapchat.com/
 server=/tr6.snapchat.com/
-
-# [snapdeal.com]
 server=/log.snapdeal.com/
-
-# [snapmobile.asia]
 server=/snapmobile.asia/
 server=/snap.snapmobile.asia/
-
-# [snplow.net]
 server=/collector.snplow.net/
 server=/ca-lapresse-main.collector.snplow.net/
 server=/com-thebigwillow-prod1.collector.snplow.net/
 server=/com-upday-main.collector.snplow.net/
-
-# [socdm.com]
 server=/socdm.com/
 server=/adgen.socdm.com/
 server=/apc.socdm.com/
@@ -8599,42 +5322,22 @@ server=/tg.dr.socdm.com/
 server=/frtn.socdm.com/
 server=/gdn.socdm.com/
 server=/rubicon.socdm.com/
-
-# [socialannex.com]
 server=/c.socialannex.com/
 server=/cdn.socialannex.com/
-
-# [socialquantum.com]
 server=/mobile-stats.socialquantum.com/
-
-# [socialquantum.ru]
 server=/collector.stats.socialquantum.ru/
-
-# [sociaplus.com]
 server=/sociaplus.com/
 server=/api.sociaplus.com/
-
-# [sociomantic.com]
 server=/sociomantic.com/
-
-# [soclminer.com.br]
 server=/api.soclminer.com.br/
-
-# [sojern.com]
 server=/beacon.sojern.com/
 server=/pixel.sojern.com/
 server=/pixelglobal.sojern.com/
 server=/static.sojern.com/
-
-# [solocpm.com]
 server=/solocpm.com/
 server=/ck.solocpm.com/
 server=/clk.solocpm.com/
-
-# [sonataplatform.com]
 server=/ads.sonataplatform.com/
-
-# [sonobi.com]
 server=/creative.sonobi.com/
 server=/go.sonobi.com/
 server=/apex.go.sonobi.com/
@@ -8650,18 +5353,10 @@ server=/mtrx.go.sonobi.com/
 server=/purch-sync.go.sonobi.com/
 server=/sync.go.sonobi.com/
 server=/xcp.go.sonobi.com/
-
-# [soom.la]
 server=/assets.soom.la/
 server=/teleport.soom.la/
-
-# [southwest.com]
 server=/smetrics.southwest.com/
-
-# [speedcurve.com]
 server=/cdn.speedcurve.com/
-
-# [speedshiftmedia.com]
 server=/aan.speedshiftmedia.com/
 server=/adserving.aan.speedshiftmedia.com/
 server=/adserving.speedshiftmedia.com/
@@ -8671,50 +5366,32 @@ server=/aan.cdn.speedshiftmedia.com/
 server=/magnum.cdn.speedshiftmedia.com/
 server=/services.cdn.speedshiftmedia.com/
 server=/scripts.speedshiftmedia.com/
-
-# [splicky.com]
 server=/splicky.com/
-
-# [split.io]
 server=/auth.split.io/
 server=/cdn.split.io/
 server=/events.split.io/
 server=/sdk.split.io/
-
-# [splkmobile.com]
 server=/api.splkmobile.com/
 server=/3581a62b.api.splkmobile.com/
 server=/9ed5f5b4.api.splkmobile.com/
 server=/e1345286.api.splkmobile.com/
 server=/ff1c0cc5.api.splkmobile.com/
-
-# [sponsorpay.com]
 server=/sponsorpay.com/
 server=/api.sponsorpay.com/
 server=/engine.sponsorpay.com/
 server=/service.sponsorpay.com/
-
-# [spot.im]
 server=/api-2-0.spot.im/
 server=/direct-events-collector.spot.im/
 server=/events-collector.spot.im/
 server=/metrics-logger.spot.im/
 server=/pix.spot.im/
-
-# [spotify.com]
 server=/adeventtracker.spotify.com/
 server=/pixel.spotify.com/
 server=/pixel-static.spotify.com/
-
-# [spotscenered.info]
 server=/spotscenered.info/
 server=/engine.spotscenered.info/
-
-# [spotxcdn.com]
 server=/aka.spotxcdn.com/
 server=/cdn.spotxcdn.com/
-
-# [spotxchange.com]
 server=/spotxchange.com/
 server=/den01-event.spotxchange.com/
 server=/den01-search.spotxchange.com/
@@ -8731,8 +5408,6 @@ server=/iad02.sync.search.spotxchange.com/
 server=/sin01.sync.search.spotxchange.com/
 server=/sin01-event.spotxchange.com/
 server=/sin01-search.spotxchange.com/
-
-# [springserve.com]
 server=/springserve.com/
 server=/bc-ssb-iad.springserve.com/
 server=/cdn.springserve.com/
@@ -8747,17 +5422,9 @@ server=/vid-io.springserve.com/
 server=/vid-io-iad.springserve.com/
 server=/vid-io-sin.springserve.com/
 server=/vpaid.springserve.com/
-
-# [spylog.com]
 server=/spylog.com/
-
-# [srmdata-us.com]
 server=/www.srmdata-us.com/
-
-# [srmdata.com]
 server=/www.srmdata.com/
-
-# [ssacdn.com]
 server=/cf.ssacdn.com/
 server=/v.cf.ssacdn.com/
 server=/cx.ssacdn.com/
@@ -8766,8 +5433,6 @@ server=/networksdk.ssacdn.com/
 server=/platform.ssacdn.com/
 server=/static.ssacdn.com/
 server=/v.ssacdn.com/
-
-# [stackadapt.com]
 server=/cdn.stackadapt.com/
 server=/evm1.stackadapt.com/
 server=/uw.evm1.stackadapt.com/
@@ -8777,15 +5442,9 @@ server=/east.srv.stackadapt.com/
 server=/sync.srv.stackadapt.com/
 server=/tags.srv.stackadapt.com/
 server=/uw.srv.stackadapt.com/
-
-# [starbolt.io]
 server=/alkutbay.starbolt.io/
 server=/sdk.starbolt.io/
-
-# [startappexchange.com]
 server=/init.startappexchange.com/
-
-# [startappservice.com]
 server=/startappservice.com/
 server=/adimpression.startappservice.com/
 server=/adsmetadata.startappservice.com/
@@ -8802,85 +5461,41 @@ server=/static.startappservice.com/
 server=/info.static.startappservice.com/
 server=/trackdownload.startappservice.com/
 server=/video.startappservice.com/
-
-# [stat24.com]
 server=/hit.stat24.com/
 server=/ipla.hit.stat24.com/
-
-# [stathat.com]
 server=/api.stathat.com/
-
-# [steelhouse.com]
 server=/steelhouse.com/
-
-# [steelhousemedia.com]
 server=/steelhousemedia.com/
 server=/c.steelhousemedia.com/
 server=/cookie-sync-service-prod.steelhousemedia.com/
-
-# [steepto.com]
 server=/cdn.steepto.com/
 server=/cm.steepto.com/
 server=/s-img.steepto.com/
-
-# [stickyadstv.com]
 server=/stickyadstv.com/
 server=/ads.stickyadstv.com/
 server=/cdn.stickyadstv.com/
 server=/update.stickyadstv.com/
 server=/s.update.stickyadstv.com/
-
-# [stocard.de]
 server=/mb-cdn.stocard.de/
-
-# [storygize.net]
 server=/www.storygize.net/
-
-# [strava.com]
 server=/analytics.strava.com/
 server=/tracing-collector.strava.com/
-
-# [streamguys1.com]
 server=/ad-im-cmg.streamguys1.com/
-
-# [streamrail.com]
 server=/k.streamrail.com/
 server=/sdk.streamrail.com/
-
-# [streamrail.net]
 server=/events.streamrail.net/
 server=/ssp.streamrail.net/
-
-# [strikeiron.com]
 server=/strikeiron.com/
-
-# [subiz.com]
 server=/static.subiz.com/
-
-# [summerhamster.com]
 server=/www.summerhamster.com/
-
-# [sumo.com]
 server=/load.sumo.com/
-
-# [sumome.com]
 server=/sumome.com/
 server=/load.sumome.com/
-
-# [superad2.com.sg]
 server=/superad2.com.sg/
 server=/track.superad2.com.sg/
-
-# [superadbox.com]
 server=/u.superadbox.com/
-
-# [superads.cn]
 server=/trk.superads.cn/
-
-# [superawesome.tv]
 server=/ads.superawesome.tv/
-
-# [supersonicads.com]
 server=/supersonicads.com/
 server=/click-haproxy.supersonicads.com/
 server=/iab-imp-gateway.supersonicads.com/
@@ -8897,26 +5512,14 @@ server=/guc-api.sonic-us.supersonicads.com/
 server=/pixel-tracking.sonic-us.supersonicads.com/
 server=/tagmediation.supersonicads.com/
 server=/ua.supersonicads.com/
-
-# [supplyframe.com]
 server=/ads.supplyframe.com/
 server=/search.supplyframe.com/
-
-# [survata.com]
 server=/survata.com/
 server=/ir.surveywall-api.survata.com/
-
-# [survicate.com]
 server=/api.survicate.com/
 server=/survey.survicate.com/
-
-# [swiftkey.com]
 server=/telemetry.api.swiftkey.com/
-
-# [swiftype.com]
 server=/cc.swiftype.com/
-
-# [swrve.com]
 server=/swrve.com/
 server=/api.swrve.com/
 server=/1170.api.swrve.com/
@@ -8977,14 +5580,8 @@ server=/6384.eu-api.swrve.com/
 server=/eu-content.swrve.com/
 server=/6379.eu-content.swrve.com/
 server=/6384.eu-content.swrve.com/
-
-# [synergy-e.com]
 server=/banner.synergy-e.com/
-
-# [tabmo.io]
 server=/events.tabmo.io/
-
-# [taboola.com]
 server=/15.taboola.com/
 server=/am-match.taboola.com/
 server=/am-sync.taboola.com/
@@ -9045,150 +5642,80 @@ server=/vidstat.taboola.com/
 server=/vidstatb.taboola.com/
 server=/vidutils.taboola.com/
 server=/wf.taboola.com/
-
-# [taboolasyndication.com]
 server=/taboolasyndication.com/
-
-# [tacoda.net]
 server=/tacoda.net/
-
-# [tactilews.com]
 server=/adserver.tactilews.com/
 server=/analytics.tactilews.com/
 server=/analytics-eu.tactilews.com/
-
-# [tagcommander.com]
 server=/cdn.tagcommander.com/
 server=/serverside4285.tagcommander.com/
-
-# [tagdelivery.com]
 server=/ad-thd-east.tagdelivery.com/
-
-# [tagsrvcs.com]
 server=/s.tagsrvcs.com/
-
-# [tagular.com]
 server=/cdn.tagular.com/
-
-# [tailtarget.com]
 server=/t.tailtarget.com/
 server=/cm.t.tailtarget.com/
 server=/tags.t.tailtarget.com/
-
-# [talkable.com]
 server=/www.talkable.com/
-
-# [talkingdata.net]
 server=/tdcv3.talkingdata.net/
-
-# [tamedia.com.tw]
 server=/agent.tamedia.com.tw/
-
-# [tamgrt.com]
 server=/www.tamgrt.com/
-
-# [tango.me]
 server=/acme.tango.me/
-
-# [taobao.com]
 server=/audid-api.taobao.com/
 server=/adashx4ae.ut.taobao.com/
 server=/h-adashx.ut.taobao.com/
-
-# [tapad.com]
 server=/tapad.com/
 server=/assets.tapad.com/
 server=/pandg.tapad.com/
 server=/pixel.tapad.com/
 server=/tapestry.tapad.com/
-
-# [tapas.net]
 server=/tapas.net/
 server=/nrc.tapas.net/
-
-# [tapatalk.com]
 server=/log.tapatalk.com/
-
-# [tapdaq.com]
 server=/ads.tapdaq.com/
-
-# [tapfiliate.com]
 server=/script.tapfiliate.com/
 server=/static.tapfiliate.com/
-
-# [tapinfluence.com]
 server=/a.tapinfluence.com/
 server=/influencers.tapinfluence.com/
-
-# [tapjoy.com]
 server=/bid.tapjoy.com/
 server=/connect.tapjoy.com/
 server=/content.tapjoy.com/
 server=/placements.tapjoy.com/
 server=/rpc.tapjoy.com/
 server=/ws.tapjoy.com/
-
-# [tapjoyads.com]
 server=/tapjoyads.com/
 server=/ws.tapjoyads.com/
-
-# [taplytics.com]
 server=/6491480h9-capi.taplytics.com/
 server=/api.taplytics.com/
 server=/decision.taplytics.com/
 server=/js.taplytics.com/
 server=/ping.taplytics.com/
-
-# [tappx.com]
 server=/tappx.com/
 server=/api.tappx.com/
 server=/ssp.api.tappx.com/
 server=/track.tappx.com/
 server=/imp.track.tappx.com/
-
-# [tapresearch.com]
 server=/www.tapresearch.com/
-
-# [taps.io]
 server=/api.taps.io/
-
-# [tapsell.ir]
 server=/api.tapsell.ir/
 server=/plus.tapsell.ir/
-
-# [tapstream.com]
 server=/api.tapstream.com/
 server=/reporting.tapstream.com/
-
-# [taptapnetworks.com]
 server=/cdnsonata.taptapnetworks.com/
 server=/sonata-notifications.taptapnetworks.com/
 server=/sonata-notifications-us-east.taptapnetworks.com/
-
-# [taptica.com]
 server=/taptica.com/
 server=/balanced-clk.taptica.com/
 server=/clk.taptica.com/
-
-# [target2sell.com]
 server=/target2sell.com/
 server=/api.target2sell.com/
 server=/serv-api.target2sell.com/
 server=/static.target2sell.com/
-
-# [targetspot.com]
 server=/targetspot.com/
 server=/cdn.targetspot.com/
 server=/nodeny.targetspot.com/
-
-# [tbs.com]
 server=/sanalytics.tbs.com/
-
-# [tdameritrade.com]
 server=/analytics.tdameritrade.com/
 server=/appdeumext.tdameritrade.com/
-
-# [teads.tv]
 server=/a.teads.tv/
 server=/be-ms.teads.tv/
 server=/cdn.teads.tv/
@@ -9202,8 +5729,6 @@ server=/studio-t.teads.tv/
 server=/sundaysky-sync-us.teads.tv/
 server=/sync.teads.tv/
 server=/t.teads.tv/
-
-# [tealiumiq.com]
 server=/tealiumiq.com/
 server=/collect.tealiumiq.com/
 server=/collect-ap-northeast-1.tealiumiq.com/
@@ -9226,93 +5751,41 @@ server=/visitor-service-ap-southeast-2.tealiumiq.com/
 server=/visitor-service-eu-central-1.tealiumiq.com/
 server=/visitor-service-eu-west-1.tealiumiq.com/
 server=/visitor-service-us-east-1.tealiumiq.com/
-
-# [techcrunch.com]
 server=/ampmetrics.techcrunch.com/
-
-# [technoratimedia.com]
 server=/ad-cdn.technoratimedia.com/
 server=/prebid.technoratimedia.com/
 server=/sync.technoratimedia.com/
-
-# [ted.com]
 server=/error-collector.ted.com/
 server=/metrics.ted.com/
 server=/api.videometrics.ted.com/
-
-# [teenvogue.com]
 server=/sstats.teenvogue.com/
-
-# [telematicsdirect.com]
 server=/nav.telematicsdirect.com/
-
-# [tend.io]
 server=/tend.io/
 server=/track.tend.io/
-
-# [tenjin.com]
 server=/track.tenjin.com/
-
-# [tenjin.io]
 server=/track.tenjin.io/
-
-# [teragence.net]
 server=/control.teragence.net/
-
-# [theadex.com]
 server=/api.theadex.com/
-
-# [thebrighttag.com]
 server=/s.thebrighttag.com/
-
-# [theguardian.com]
 server=/ophan.theguardian.com/
-
-# [themoneytizer.com]
 server=/ads.themoneytizer.com/
-
-# [theoremreach.com]
 server=/theoremreach.com/
-
-# [thescore.com]
 server=/analytics-tracker.thescore.com/
-
-# [thetimmedia.site]
 server=/thetimmedia.site/
 server=/trinity-player.thetimmedia.site/
-
-# [thetrafficstat.net]
 server=/thetrafficstat.net/
-
-# [thinknearhub.com]
 server=/thinknear-hosted.thinknearhub.com/
-
-# [thrtle.com]
 server=/thrtle.com/
-
-# [tidaltv.com]
 server=/tidaltv.com/
 server=/trk.tidaltv.com/
-
-# [tiktok.com]
 server=/analytics.tiktok.com/
-
-# [tiktokv.com]
 server=/log-va.tiktokv.com/
 server=/mon.tiktokv.com/
 server=/mon-va.tiktokv.com/
-
-# [tiltingpoint.io]
 server=/registration.tiltingpoint.io/
 server=/utctime.tiltingpoint.io/
-
-# [timewarnercable.com]
 server=/metrics.timewarnercable.com/
-
-# [tingyun.com]
 server=/beacon.tingyun.com/
-
-# [tinypass.com]
 server=/api-v3.tinypass.com/
 server=/buy.tinypass.com/
 server=/cdn.tinypass.com/
@@ -9320,76 +5793,38 @@ server=/dashboard.tinypass.com/
 server=/experience.tinypass.com/
 server=/id.tinypass.com/
 server=/sandbox.tinypass.com/
-
-# [tiqcdn.com]
 server=/tags.tiqcdn.com/
 server=/tags-eu.tiqcdn.com/
-
-# [tnkfactory.com]
 server=/tnkfactory.com/
 server=/ap.tnkfactory.com/
-
-# [tns-counter.ru]
 server=/ar.tns-counter.ru/
 server=/kz.tns-counter.ru/
 server=/www.tns-counter.ru/
-
-# [tns-cs.net]
 server=/ssl-nrk.tns-cs.net/
-
-# [toast.com]
 server=/ad-exchange.toast.com/
 server=/adlc-exchange.toast.com/
 server=/adx-exchange.toast.com/
 server=/tagmanager.toast.com/
 server=/static.tagmanager.toast.com/
-
-# [today.com]
 server=/aamt.today.com/
-
-# [togothermany.cn]
 server=/adscfg.togothermany.cn/
 server=/adsup.togothermany.cn/
-
-# [tohsoft.com]
 server=/adservice.tohsoft.com/
-
-# [toolmatrix.plus]
 server=/apitm.toolmatrix.plus/
-
-# [topaz-analytics.com]
 server=/playtest-api.topaz-analytics.com/
 server=/push-api.topaz-analytics.com/
-
-# [torrenti.al]
 server=/m1.torrenti.al/
-
-# [tout.com]
 server=/analytics.tout.com/
-
-# [tpbid.com]
 server=/tpbid.com/
 server=/c.tpbid.com/
 server=/gota.tpbid.com/
 server=/gotu.tpbid.com/
-
-# [tpctrust.com]
 server=/s.tpctrust.com/
-
-# [tpdads.com]
 server=/cdn.tpdads.com/
-
-# [trackingio.com]
 server=/log.trackingio.com/
 server=/slog.trackingio.com/
-
-# [trackonomics.net]
 server=/cdn-magiclinks.trackonomics.net/
-
-# [traffichunt.com]
 server=/ads.traffichunt.com/
-
-# [trafficjunky.net]
 server=/ads.trafficjunky.net/
 server=/hw-cdn.trafficjunky.net/
 server=/hw-cdn-ap.trafficjunky.net/
@@ -9397,22 +5832,12 @@ server=/hw-cdn2.trafficjunky.net/
 server=/media.trafficjunky.net/
 server=/vz-cdn.trafficjunky.net/
 server=/vz-cdn2.trafficjunky.net/
-
-# [trafficmanager.net]
 server=/analytics-listener.trafficmanager.net/
 server=/collector-main.trafficmanager.net/
-
-# [trafmag.com]
 server=/t.trafmag.com/
-
-# [traktum.com]
 server=/traktum.com/
-
-# [treasuredata.com]
 server=/in.treasuredata.com/
 server=/cdp.in.treasuredata.com/
-
-# [tremorhub.com]
 server=/tremorhub.com/
 server=/adelphic-partners.tremorhub.com/
 server=/ads.tremorhub.com/
@@ -9467,69 +5892,33 @@ server=/qds0l.publishers.tremorhub.com/
 server=/scm.publishers.tremorhub.com/
 server=/sundaysky-partners.tremorhub.com/
 server=/taboola-supply-partners.tremorhub.com/
-
-# [tremormedia.com]
 server=/tremormedia.com/
-
-# [tresensa.com]
 server=/analytics.tresensa.com/
-
-# [trialpay.com]
 server=/trialpay.com/
-
-# [tribalfusion.com]
 server=/a.tribalfusion.com/
-
-# [trinitymedia.ai]
 server=/depart.trinitymedia.ai/
-
-# [trnox.com]
 server=/tracking-3-9f58.trnox.com/
-
-# [tru.am]
 server=/tru.am/
 server=/beacon.tru.am/
-
-# [truecaller.com]
 server=/ads-router-noneu.truecaller.com/
 server=/ads5-noneu.truecaller.com/
 server=/pushid-noneu.truecaller.com/
-
-# [trueleadid.com]
 server=/deviceid.trueleadid.com/
-
-# [truex.com]
 server=/truex.com/
 server=/ctv.truex.com/
-
-# [truoptik.com]
 server=/truoptik.com/
 server=/dmp.truoptik.com/
-
-# [trustarc.com]
 server=/choices.trustarc.com/
-
-# [truste.com]
 server=/choices.truste.com/
 server=/preferences.truste.com/
 server=/privacy-policy.truste.com/
-
-# [trustx.org]
 server=/sofia.trustx.org/
-
-# [tsyndicate.com]
 server=/cdn.tsyndicate.com/
 server=/lcdn.tsyndicate.com/
-
-# [ttpsdk.info]
 server=/gateway.ttpsdk.info/
 server=/promo-images.ttpsdk.info/
 server=/ttplugins.ttpsdk.info/
-
-# [tuanguwen.com]
 server=/ad-mediation.tuanguwen.com/
-
-# [tubemogul.com]
 server=/cmp-lb-ap-southeast.tubemogul.com/
 server=/conv.tubemogul.com/
 server=/displayf.tubemogul.com/
@@ -9544,18 +5933,10 @@ server=/statsf.tubemogul.com/
 server=/sync.tubemogul.com/
 server=/syncf.tubemogul.com/
 server=/ud.tubemogul.com/
-
-# [tubi.io]
 server=/analytics-ingestion.production-public.tubi.io/
-
-# [tumblr.com]
 server=/ls.srvcs.tumblr.com/
-
-# [tune.com]
 server=/ma.tune.com/
 server=/analytics.ma.tune.com/
-
-# [turn.com]
 server=/turn.com/
 server=/ad.turn.com/
 server=/cdns.turn.com/
@@ -9565,59 +5946,33 @@ server=/img.turn.com/
 server=/presentation-ams1.turn.com/
 server=/presentation-hkg1.turn.com/
 server=/r.turn.com/
-
-# [tusdk.com]
 server=/api.tusdk.com/
-
-# [tutoads.tv]
 server=/tutoads.tv/
 server=/cdn.tutoads.tv/
 server=/get.tutoads.tv/
 server=/tracy.tutoads.tv/
-
-# [tvadsync.com]
 server=/px.tvadsync.com/
-
-# [tvpixel.com]
 server=/tvpixel.com/
 server=/c.tvpixel.com/
 server=/p.tvpixel.com/
-
-# [tvsquared.com]
 server=/tvsquared.com/
 server=/collector-12255.tvsquared.com/
 server=/collector-6651.tvsquared.com/
 server=/collector-9306.us.tvsquared.com/
 server=/collectoru.us.tvsquared.com/
-
-# [twilio.com]
 server=/sdkgw.us1.twilio.com/
-
-# [twitter.com]
 server=/ads.twitter.com/
 server=/ads-api.twitter.com/
 server=/ads-bidder-api.twitter.com/
 server=/analytics.twitter.com/
-
-# [tynt.com]
 server=/de.tynt.com/
-
-# [ua.com]
 server=/lightstep-collector.api.ua.com/
-
-# [uberads.com]
 server=/uberads.com/
 server=/ads.uberads.com/
 server=/serve.uberads.com/
 server=/serve-prod1204.uberads.com/
-
-# [uberinternal.com]
 -analytics.uberinternal.com
-
-# [ubimo.com]
 server=/reports.ubimo.com/
-
-# [uc.cn]
 server=/applog.uc.cn/
 server=/gj.applog.uc.cn/
 server=/applogios.uc.cn/
@@ -9626,8 +5981,6 @@ server=/mparticle.uc.cn/
 server=/track.uc.cn/
 server=/gj.track.uc.cn/
 server=/woodpecker.uc.cn/
-
-# [ucweb.com]
 server=/adtrack.ucweb.com/
 server=/gjtrack.ucweb.com/
 server=/insight.ucweb.com/
@@ -9637,28 +5990,16 @@ server=/sdkupgrade.insight.ucweb.com/
 server=/puds.ucweb.com/
 server=/uc.ucweb.com/
 server=/click.union.ucweb.com/
-
-# [ugdturner.com]
 server=/www.ugdturner.com/
-
-# [uimserv.net]
 server=/uimserv.net/
-
-# [ulta.com]
 server=/sweb.ulta.com/
-
-# [umbel.com]
 server=/umbel.com/
 server=/api.umbel.com/
 server=/tags.api.umbel.com/
-
-# [umeng.co]
 server=/umeng.co/
 server=/alog.umeng.co/
 server=/au.umeng.co/
 server=/oc.umeng.co/
-
-# [umeng.com]
 server=/alog.umeng.com/
 server=/alog-default.umeng.com/
 server=/alogs.umeng.com/
@@ -9675,8 +6016,6 @@ server=/plbslog.umeng.com/
 server=/sec.umeng.com/
 server=/ulogs.umeng.com/
 server=/uop.umeng.com/
-
-# [umengcloud.com]
 server=/umengcloud.com/
 server=/alog.umengcloud.com/
 server=/alogs.umengcloud.com/
@@ -9684,38 +6023,22 @@ server=/msg.umengcloud.com/
 server=/ulogs.umengcloud.com/
 server=/upoll.umengcloud.com/
 server=/utop.umengcloud.com/
-
-# [umsns.com]
 server=/log.umsns.com/
 server=/stats.umsns.com/
-
-# [umtrack.com]
 server=/umtrack.com/
 server=/at.umtrack.com/
 server=/log.umtrack.com/
-
-# [under9.co]
 server=/rlog-api.under9.co/
-
-# [undertone.com]
 server=/ads.undertone.com/
 server=/creative-p.undertone.com/
 server=/evt.undertone.com/
 server=/hb.undertone.com/
 server=/ops-cdn.undertone.com/
 server=/usr.undertone.com/
-
-# [uniconsent.com]
 server=/cmp.uniconsent.com/
 server=/edge.uniconsent.com/
-
-# [unimhk.com]
 server=/unimhk.com/
-
-# [unionstatistics.com]
 server=/sa.unionstatistics.com/
-
-# [unity3d.com]
 server=/cdp.cloud.unity3d.com/
 server=/perf-events.cloud.unity3d.com/
 server=/config.uca.cloud.unity3d.com/
@@ -9740,8 +6063,6 @@ server=/publisher-config.unityads.unity3d.com/
 server=/publisher-event.unityads.unity3d.com/
 server=/thind.unityads.unity3d.com/
 server=/webview.unityads.unity3d.com/
-
-# [unrulymedia.com]
 server=/r53.unrulymedia.com/
 server=/stats3.r53.unrulymedia.com/
 server=/rx-stats3.unrulymedia.com/
@@ -9751,36 +6072,20 @@ server=/pre-usermatch.targeting.unrulymedia.com/
 server=/tag.targeting.unrulymedia.com/
 server=/usermatch.targeting.unrulymedia.com/
 server=/video.unrulymedia.com/
-
-# [uodoo.com]
 server=/event.allnews.uodoo.com/
-
-# [upalytics.com]
 server=/upalytics.com/
-
-# [upqzfile.com]
 server=/mobilelog.upqzfile.com/
 server=/v6.mobilelog.upqzfile.com/
 server=/other.upqzfile.com/
 server=/video.upqzfile.com/
-
-# [uprivaladserver.net]
 server=/api.uprivaladserver.net/
 server=/cdn.uprivaladserver.net/
-
-# [upsight-api.com]
 server=/upsight-api.com/
 server=/batch.upsight-api.com/
 server=/bootstrap.upsight-api.com/
 server=/marketing-ssl.upsight-api.com/
-
-# [upsnap.com]
 server=/upsnap.com/
-
-# [upush.co]
 server=/sdk.upush.co/
-
-# [urbanairship.com]
 server=/boxoffice.urbanairship.com/
 server=/c00162-dl.urbanairship.com/
 server=/combine.urbanairship.com/
@@ -9788,19 +6093,11 @@ server=/device-api.urbanairship.com/
 server=/remote-data.urbanairship.com/
 server=/sbux-dl.urbanairship.com/
 server=/web-sdk.urbanairship.com/
-
-# [usabilla.com]
 server=/api.usabilla.com/
 server=/w.usabilla.com/
-
-# [usatoday.com]
 server=/srepdata.usatoday.com/
-
-# [usbla.net]
 server=/out.usbla.net/
 server=/sdk.out.usbla.net/
-
-# [usebutton.com]
 server=/api.usebutton.com/
 server=/cdn.usebutton.com/
 server=/mobileapi.usebutton.com/
@@ -9810,183 +6107,93 @@ server=/app-5f80612999bcf5c9.mobileapi.usebutton.com/
 server=/app-67a1a4bb9dffba86.mobileapi.usebutton.com/
 server=/app-6b7903104cffc647.mobileapi.usebutton.com/
 server=/app-7101fcd60945d6ec.mobileapi.usebutton.com/
-
-# [usefathom.com]
 server=/cdn.usefathom.com/
-
-# [usefomo.com]
 server=/geocode.usefomo.com/
 server=/www.usefomo.com/
-
-# [useinsider.com]
 server=/segment.api.useinsider.com/
-
-# [userleap.com]
 server=/api.userleap.com/
-
-# [userzoom.com]
 server=/cdn4.userzoom.com/
 server=/cdn5.userzoom.com/
-
-# [utarget.ru]
 server=/utarget.ru/
-
-# [v-mate.mobi]
 server=/log.apk.v-mate.mobi/
-
-# [vads.net.vn]
 server=/vads.net.vn/
-
-# [vaicore.site]
 server=/co.vaicore.site/
 server=/int.vaicore.site/
-
-# [vaicore.store]
 server=/int.vaicore.store/
-
-# [vaicore.xyz]
 server=/vaicore.xyz/
 server=/co.vaicore.xyz/
 server=/int.vaicore.xyz/
-
-# [vamaker.com]
 server=/vamaker.com/
-
-# [vcmedia.vn]
 server=/admicro1.vcmedia.vn/
-
-# [vcnc.co.kr]
 server=/ads.vcnc.co.kr/
-
-# [vcommission.com]
 server=/tracking.vcommission.com/
-
-# [vdopia.com]
 server=/vdopia.com/
 server=/cs.vdopia.com/
-
-# [vendemore.com]
 server=/analytics.vendemore.com/
-
-# [vendimob.pl]
 server=/vendimob.pl/
-
-# [verizon.com]
 server=/sanalytics.verizon.com/
-
-# [verizonwireless.com]
 server=/sanalytics.verizonwireless.com/
-
-# [vertamedia.com]
 server=/a.vertamedia.com/
 server=/ads12.vertamedia.com/
 server=/ads24.vertamedia.com/
 server=/ads36.vertamedia.com/
 server=/s.vertamedia.com/
 server=/sync.vertamedia.com/
-
-# [verticalscope.com]
 server=/api.verticalscope.com/
 server=/static.verticalscope.com/
-
-# [vervemobile.com]
 server=/vervemobile.com/
-
-# [vi-serve.com]
 server=/vi-serve.com/
 server=/nv.vi-serve.com/
 server=/s.vi-serve.com/
 server=/t.vi-serve.com/
 server=/vis.vi-serve.com/
-
-# [viacom.tech]
 server=/events-collector-api.viacom.tech/
-
-# [viantsuite.com]
 server=/sdk.viantsuite.com/
-
-# [viber.com]
 server=/ads-d.viber.com/
-
-# [vice.com]
 server=/sourcepoint.vice.com/
-
-# [vidazoo.com]
 server=/bis.vidazoo.com/
 server=/bisdr.vidazoo.com/
 server=/inventory.vidazoo.com/
 server=/pl.vidazoo.com/
 server=/static.vidazoo.com/
 server=/wserver.vidazoo.com/
-
-# [videoadex.com]
 server=/ads.videoadex.com/
-
-# [videoamp.com]
 server=/videoamp.com/
 server=/b.videoamp.com/
-
-# [videohub.tv]
 server=/videohub.tv/
 server=/ads-secure.videohub.tv/
 server=/adserver.videohub.tv/
 server=/dt-secure.videohub.tv/
 server=/l0-secure.videohub.tv/
-
-# [videoplayerhub.com]
 server=/kinja-com.videoplayerhub.com/
 server=/pmc-com.videoplayerhub.com/
-
-# [videosecrets.com]
 server=/banners.videosecrets.com/
-
-# [vidible.tv]
 server=/cdn.vidible.tv/
 server=/ads.use1.prod.vidible.tv/
 server=/trk.vidible.tv/
-
-# [vidora.com]
 server=/vidora.com/
 server=/a.vidora.com/
 server=/api.vidora.com/
 server=/assets.vidora.com/
 server=/cortex.vidora.com/
-
-# [vidverto.io]
 server=/ad.vidverto.io/
-
-# [viewdeos.com]
 server=/cdn.viewdeos.com/
 server=/go1.viewdeos.com/
 server=/sync.viewdeos.com/
 server=/sync.sync.viewdeos.com/
 server=/tags.viewdeos.com/
 server=/track.viewdeos.com/
-
-# [viglink.com]
 server=/api.viglink.com/
 server=/cdn.viglink.com/
 server=/images.viglink.com/
-
-# [vigo.ru]
 server=/api.vigo.ru/
-
-# [vilynx.com]
 server=/static.vilynx.com/
-
-# [vindicosuite.com]
 server=/vindicosuite.com/
-
-# [visualrevenue.com]
 server=/visualrevenue.com/
-
-# [visualwebsiteoptimizer.com]
 server=/dev.visualwebsiteoptimizer.com/
 server=/r1.visualwebsiteoptimizer.com/
 server=/r2.visualwebsiteoptimizer.com/
 server=/r3.visualwebsiteoptimizer.com/
-
-# [vivo.com.cn]
 server=/adlog.vivo.com.cn/
 server=/adreq.vivo.com.cn/
 server=/ads-marketing-vivofs.vivo.com.cn/
@@ -10008,8 +6215,6 @@ server=/ort.stsdk.vivo.com.cn/
 server=/pnrt.stsdk.vivo.com.cn/
 server=/prt.stsdk.vivo.com.cn/
 server=/vcardsdkservice.vivo.com.cn/
-
-# [vivoglobal.com]
 server=/asia-analyzer-appstore.vivoglobal.com/
 server=/asia-comonrt-stsdk.vivoglobal.com/
 server=/asia-comort-stsdk.vivoglobal.com/
@@ -10027,77 +6232,39 @@ server=/onrt.stsdk.vivoglobal.com/
 server=/tr-romsp-unifyconfig.vivoglobal.com/
 server=/tr-st-sl.vivoglobal.com/
 server=/tr-vcode-od.vivoglobal.com/
-
-# [vm5apis.com]
 server=/vm5apis.com/
-
-# [vmweb.net]
 server=/vmweb.net/
 server=/lib.vmweb.net/
 server=/sync.vmweb.net/
-
-# [vnet.cn]
 server=/vnet.cn/
 server=/zzhc.vnet.cn/
-
-# [vntsm.com]
 server=/vntsm.com/
 server=/cdn1.vntsm.com/
 server=/hb.vntsm.com/
-
-# [vodafone.com]
 server=/mplusps.ims.vodafone.com/
 server=/mpluswf.ims.vodafone.com/
-
-# [vodafone.com.tr]
 server=/netperform-is.vodafone.com.tr/
-
-# [voiceads.cn]
 server=/api.voiceads.cn/
 server=/imp.voiceads.cn/
 server=/bj.imp.voiceads.cn/
-
-# [voicefive.com]
 server=/sb.voicefive.com/
-
-# [voodoo-ads.io]
 server=/addelivery-engine-api.voodoo-ads.io/
 server=/front-logs.voodoo-ads.io/
 server=/splash-screen.voodoo-ads.io/
-
-# [voodoo-analytics.io]
 server=/trackers.voodoo-analytics.io/
-
-# [voodoo-tech.io]
 server=/api-gdpr.voodoo-tech.io/
-
-# [voodoo.io]
 server=/crosspromo.voodoo.io/
-
-# [vox-cdn.com]
 server=/concertads-configs.vox-cdn.com/
-
-# [voxmedia.com]
 server=/phonograph2.voxmedia.com/
-
-# [vpadn.com]
 server=/dailymotion-cs.vpadn.com/
 server=/ids-dmp.vpadn.com/
 server=/m.vpadn.com/
 server=/tw-api.vpadn.com/
-
-# [vpon.com]
 server=/bts.vpon.com/
 server=/m.vpon.com/
 server=/tw-api.vpon.com/
-
-# [vrtcal.com]
 server=/adplatform.vrtcal.com/
-
-# [vrtzads.com]
 server=/cookie.vrtzads.com/
-
-# [vrvm.com]
 server=/ad.vrvm.com/
 server=/ads.vrvm.com/
 server=/adsdk.vrvm.com/
@@ -10107,8 +6274,6 @@ server=/go.vrvm.com/
 server=/images-static.vrvm.com/
 server=/sdkconfig.vrvm.com/
 server=/tags-prod.vrvm.com/
-
-# [vungle.com]
 server=/vungle.com/
 server=/api.vungle.com/
 server=/ads.api.vungle.com/
@@ -10118,65 +6283,31 @@ server=/eks-prod-1b.vungle.com/
 server=/kourier-tpat.eks-prod-1b.vungle.com/
 server=/eks-prod-1c.vungle.com/
 server=/kourier-tpat.eks-prod-1c.vungle.com/
-
-# [vzw.com]
 server=/engage.vzw.com/
-
-# [w55c.net]
 server=/ads.w55c.net/
 server=/i.w55c.net/
 server=/pm.w55c.net/
 server=/tags.w55c.net/
-
-# [wafour.com]
 server=/ads.wafour.com/
-
-# [walgreens.com]
 server=/smetrics.walgreens.com/
-
-# [walmart.com]
 server=/drfdisvc.walmart.com/
 server=/analytics.mobile.walmart.com/
-
-# [watchingthat.net]
 server=/cdn.watchingthat.net/
-
-# [wattpad.com]
 server=/track.wattpad.com/
-
-# [waust.at]
 server=/waust.at/
-
-# [wayfair.com]
 server=/t.wayfair.com/
-
-# [waze.com]
 server=/ads-resources.waze.com/
 server=/ads-resources-legacy.waze.com/
 server=/adsassets.waze.com/
-
-# [wdacashtrk.com]
 server=/trk.wdacashtrk.com/
-
-# [we-stats.com]
 server=/bcdn-god.we-stats.com/
 server=/cfr.us.v2.we-stats.com/
 server=/log-dbff2e04.us.v2.we-stats.com/
-
-# [weather.com]
 server=/airlytics.airlock.twcmobile.weather.com/
-
-# [weatherbug.net]
 server=/and-ads.pulse.weatherbug.net/
 server=/ios-ads.pulse.weatherbug.net/
-
-# [webads.eu]
 server=/analytics.webads.eu/
-
-# [webcontentassessor.com]
 server=/scripts.webcontentassessor.com/
-
-# [webengage.com]
 server=/afiles.webengage.com/
 server=/api.webengage.com/
 server=/c.webengage.com/
@@ -10184,95 +6315,45 @@ server=/msdk-files.webengage.com/
 server=/notification.webengage.com/
 server=/p.webengage.com/
 server=/wsdk-files.webengage.com/
-
-# [webleads-tracker.com]
 server=/stats.webleads-tracker.com/
-
-# [webtracker.jp]
 server=/webtracker.jp/
-
-# [webtrends.com]
 server=/c.webtrends.com/
 server=/dc.webtrends.com/
 server=/s.webtrends.com/
-
-# [wecloud.io]
 server=/goload.wecloud.io/
-
-# [weplayer.cc]
 server=/ad.weplayer.cc/
 server=/crosspromotion.weplayer.cc/
-
-# [wesdk.co]
 server=/track.wesdk.co/
-
-# [wfxtriggers.com]
 server=/triggers.wfxtriggers.com/
-
-# [wickedreports.com]
 server=/widget.wickedreports.com/
-
-# [widespace.com]
 server=/widespace.com/
 server=/engine.widespace.com/
-
-# [wigetmedia.com]
 server=/wigetmedia.com/
-
-# [wildtangent.com]
 server=/analytics.wildtangent.com/
 server=/mobile.analytics.wildtangent.com/
-
-# [winudf.com]
 server=/tracker.winudf.com/
-
-# [wirelessregistry.com]
 server=/pie.wirelessregistry.com/
-
-# [wknd.ai]
 server=/tag.wknd.ai/
-
-# [wmcdp.io]
 server=/identity.api.wmcdp.io/
 server=/logs.psm.wmcdp.io/
-
-# [wonderpush.com]
 server=/api.wonderpush.com/
-
-# [woopra.com]
 server=/static.woopra.com/
-
-# [wootric.com]
 server=/api.wootric.com/
 server=/app.wootric.com/
 server=/eligibility.wootric.com/
 server=/production.wootric.com/
 server=/survey.wootric.com/
-
-# [worldnow.com]
 server=/content.worldnow.com/
 server=/ftpcontent.worldnow.com/
 server=/kake.images.worldnow.com/
-
-# [wowanalytics.co.uk]
 server=/wowanalytics.co.uk/
 server=/lbal.wowanalytics.co.uk/
 server=/t.wowanalytics.co.uk/
-
-# [wp.com]
 server=/pixel.wp.com/
 server=/stats.wp.com/
-
-# [wpdigital.net]
 server=/usersegment.wpdigital.net/
-
-# [wrating.com]
 server=/wrating.com/
-
-# [wsod.com]
 server=/wsod.com/
-
-# [wzrkt.com]
 server=/wzrkt.com/
 server=/eu1.wzrkt.com/
 server=/eu1-spiky.wzrkt.com/
@@ -10284,21 +6365,13 @@ server=/sg1.wzrkt.com/
 server=/sg1-spiky.wzrkt.com/
 server=/us1.wzrkt.com/
 server=/us1-spiky.wzrkt.com/
-
-# [xad.com]
 server=/xad.com/
 server=/bidagent.xad.com/
 server=/us-notify.bidagent.xad.com/
 server=/cf.xad.com/
-
-# [xapads.com]
 server=/tracking.xapads.com/
-
-# [xcal.tv]
 server=/metricscollector.lp.xcal.tv/
 server=/api.player.xcal.tv/
-
-# [xdrig.com]
 server=/xdrig.com/
 server=/adt.xdrig.com/
 server=/av1.xdrig.com/
@@ -10309,16 +6382,10 @@ server=/gv1.xdrig.com/
 server=/me.xdrig.com/
 server=/pg.xdrig.com/
 server=/push.xdrig.com/
-
-# [xg4ken.com]
 server=/events.xg4ken.com/
 server=/resources.xg4ken.com/
 server=/services.xg4ken.com/
-
-# [xhamster.com]
 server=/collector.xhamster.com/
-
-# [xiaomi.com]
 server=/api.ad.xiaomi.com/
 server=/log.ad.xiaomi.com/
 server=/sdkconfig.ad.xiaomi.com/
@@ -10329,23 +6396,13 @@ server=/api.ad.intl.xiaomi.com/
 server=/diagnosis.ad.intl.xiaomi.com/
 server=/sdkconfig.ad.intl.xiaomi.com/
 server=/zeus.ad.intl.xiaomi.com/
-
-# [ximad.com]
 server=/ximad.com/
 server=/mjp-analytics.ximad.com/
 server=/opt.ximad.com/
-
-# [ximalaya.com]
 server=/xdcs-collector.ximalaya.com/
-
-# [xtify.com]
 server=/sdk6.ibm.xtify.com/
 server=/sdk8.ibm.xtify.com/
-
-# [yadro.ru]
 server=/counter.yadro.ru/
-
-# [yahoo.com]
 server=/3p-geo.yahoo.com/
 server=/3p-udc.yahoo.com/
 server=/ads.yahoo.com/
@@ -10382,29 +6439,15 @@ server=/ads.yap.yahoo.com/
 server=/m.yap.yahoo.com/
 server=/pr-bh.ybp.yahoo.com/
 server=/partnerads.ysm.yahoo.com/
-
-# [yandex.net]
 server=/report.appmetrica.yandex.net/
-
-# [yandexadexchange.net]
 server=/yandexadexchange.net/
 server=/mobile.yandexadexchange.net/
-
-# [yemonisoni.com]
 server=/yemonisoni.com/
-
-# [yeshen.com]
 server=/bi.yeshen.com/
-
-# [yicha.jp]
 server=/yicha.jp/
-
-# [yieldify-production.com]
 server=/assets-v2.yieldify-production.com/
 server=/gateway.yieldify-production.com/
 server=/nightswatch-go-collector-y2.yieldify-production.com/
-
-# [yieldify.com]
 server=/app.yieldify.com/
 server=/assets-v2.yieldify.com/
 server=/custom.yieldify.com/
@@ -10412,15 +6455,11 @@ server=/dc.yieldify.com/
 server=/v2.dc.yieldify.com/
 server=/edge.yieldify.com/
 server=/td.yieldify.com/
-
-# [yieldlove-ad-serving.net]
 server=/api.yieldlove-ad-serving.net/
 server=/tracking.yieldlove-ad-serving.net/
 server=/v2.yieldlove-ad-serving.net/
 server=/tracking.v2.yieldlove-ad-serving.net/
 server=/prod-ingestion.tracking.v2.yieldlove-ad-serving.net/
-
-# [yieldmo.com]
 server=/ads.yieldmo.com/
 server=/sync.ads.yieldmo.com/
 server=/sync-criteo.ads.yieldmo.com/
@@ -10439,104 +6478,56 @@ server=/update.tas.yieldmo.com/
 server=/s.update.tas.yieldmo.com/
 server=/tkr.yieldmo.com/
 server=/w.yieldmo.com/
-
-# [yieldoptimizer.com]
 server=/ag.yieldoptimizer.com/
 server=/cdnp1.yieldoptimizer.com/
 server=/cs.yieldoptimizer.com/
 server=/tag.yieldoptimizer.com/
-
-# [yimg.jp]
 server=/yads.c.yimg.jp/
-
-# [yinzcam.com]
 server=/analytics-chi-nfl.yinzcam.com/
 server=/analytics-phi-nfl.yinzcam.com/
 server=/analytics-pit-nfl.yinzcam.com/
-
-# [ymtracking.com]
 server=/ymtracking.com/
 server=/global.ymtracking.com/
-
-# [yodo1api.com]
 server=/olc.yodo1api.com/
 server=/payment.yodo1api.com/
 server=/rodeoconfig.yodo1api.com/
 server=/sensors.yodo1api.com/
 server=/uc-ap.yodo1api.com/
-
-# [yolacdn.net]
 server=/analytics.yolacdn.net/
-
-# [yolanda.hk]
 server=/sdk.yolanda.hk/
-
-# [yomedia.vn]
 server=/yomedia.vn/
 server=/analytics.yomedia.vn/
 server=/delivery.yomedia.vn/
 server=/ss.yomedia.vn/
 server=/tracking.yomedia.vn/
-
-# [youappi.com]
 server=/sdk.youappi.com/
-
-# [youborafds01.com]
 server=/youborafds01.com/
 server=/a-fds.youborafds01.com/
-
-# [youdao.com]
 server=/dsp.youdao.com/
-
-# [youmi.net]
 server=/youmi.net/
-
-# [youradexchange.com]
 server=/youradexchange.com/
-
-# [youtube.com]
 server=/ads.youtube.com/
-
-# [yyapi.net]
 server=/global.yyapi.net/
 server=/t.global.yyapi.net/
-
-# [zadn.vn]
 server=/adtima-static.zadn.vn/
 server=/sdk.zadn.vn/
 server=/api.sdk.zadn.vn/
 server=/log.sdk.zadn.vn/
-
-# [zaloapp.com]
 server=/log.api.zaloapp.com/
 server=/events.zaloapp.com/
-
-# [zapps.vn]
 server=/zplayer.trk.zapps.vn/
-
-# [zapr.in]
 server=/appmm.zapr.in/
 server=/sdk.zapr.in/
-
-# [zarget.com]
 server=/zarget.com/
 server=/cdn.zarget.com/
-
-# [zcoup.com]
 server=/zcoup.com/
 server=/api.zcoup.com/
-
-# [zdbb.net]
 server=/a.zdbb.net/
 server=/gurgle.zdbb.net/
 server=/jogger.zdbb.net/
 server=/ns.zdbb.net/
 server=/static.zdbb.net/
-
-# [zdn.vn]
 server=/zplayer-trk.zdn.vn/
-
-# [zemanta.com]
 server=/b1-chidc2.zemanta.com/
 server=/b1-nydc1.zemanta.com/
 server=/b1sync.zemanta.com/
@@ -10544,64 +6535,28 @@ server=/b1t-chidc2.zemanta.com/
 server=/b1t-nydc1.zemanta.com/
 server=/images2.zemanta.com/
 server=/widgets.zemanta.com/
-
-# [zendesk.com]
 server=/analytics.zendesk.com/
-
-# [zenmxapps.com]
 server=/mxvp-feature-toggle-prod-1.zenmxapps.com/
 server=/tracking-server-prod-1.zenmxapps.com/
-
-# [zeotap.com]
 server=/mwzeom.zeotap.com/
 server=/spl.zeotap.com/
-
-# [zeptolab.com]
 server=/bms.zeptolab.com/
-
-# [zergnet.com]
 server=/www.zergnet.com/
-
-# [zeronaught.com]
 server=/content.zeronaught.com/
 server=/us.dev.zeronaught.com/
-
-# [zeustechnology.com]
 server=/audience.zeustechnology.com/
-
-# [zg-api.com]
 server=/analytics.zg-api.com/
 server=/e.zg-api.com/
-
-# [zhugeio.com]
 server=/zgsdk.zhugeio.com/
-
-# [ziffdavis.com]
 server=/ziffdavis.com/
 server=/static.ziffdavis.com/
-
-# [ziftsolutions.com]
 server=/analytics.ziftsolutions.com/
 server=/static.ziftsolutions.com/
-
-# [zkcdn.net]
 server=/s.zkcdn.net/
-
-# [zmags.com]
 server=/stats.zmags.com/
-
-# [zotabox.com]
 server=/stats.zotabox.com/
-
-# [zqtk.net]
 server=/segment-data.zqtk.net/
 server=/segment-data-us-east.zqtk.net/
-
-# [ztgame.com]
 server=/beacon.ztgame.com/
-
-# [zucks.net]
 server=/zucks.net/
-
-# [zynga.com]
 server=/log-collector.svctr.zynga.com/

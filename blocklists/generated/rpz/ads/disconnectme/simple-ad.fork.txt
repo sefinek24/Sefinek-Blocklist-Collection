@@ -1,11 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716045866685 43200 3600 259200 300
   NS  localhost.
 ;
 ; Ad filter list by Disconnect
 ; License: GPLv3
 ; Contact: support [at] disconnect.me
-
 101com.com CNAME .
 *.101com.com CNAME .
 101order.com CNAME .

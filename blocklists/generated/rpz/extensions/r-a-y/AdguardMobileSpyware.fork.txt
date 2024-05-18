@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716045866685 43200 3600 259200 300
   NS  localhost.
 ;
 ; AdguardMobileSpyware
@@ -7,7 +7,6 @@ $TTL 300
 ; Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
 ; Last converted - Mon, 06 May 2024 16:50:26 +0100
 ;
-
 spotify.com CNAME .
 *.spotify.com CNAME .
 do-not-tracker.org CNAME .

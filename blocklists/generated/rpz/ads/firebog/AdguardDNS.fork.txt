@@ -1,16 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716045866685 43200 3600 259200 300
   NS  localhost.
 ;
 ; AdguardDNS, parsed and mirrored by https://firebog.net
 ; Updated 17MAY24 from https://filters.adtidy.org/extension/chromium/filters/15.txt
-
 ; This is sourced from an "adblock" style list which is flat-out NOT designed to work with DNS sinkholes
 ; There WILL be mistakes with how this is parsed, due to how domain names are extracted and exceptions handled
 ; Please bring any parsing issues up at https://github.com/WaLLy3K/wally3k.github.io/issues prior to raising a request upstream
-
 ; If your issue IS STILL PRESENT when using uBlock/ABP/etc, you should request a correction at https://github.com/AdguardTeam/AdGuardSDNSFilter/issues
-
 0008d6ba2e.com CNAME .
 *.0008d6ba2e.com CNAME .
 0024ad98dd.com CNAME .
@@ -29241,8 +29238,6 @@ worldoftanks.com CNAME .
 *.worldoftanks.com CNAME .
 cpng.lol CNAME .
 *.cpng.lol CNAME .
-lol. CNAME .
-*.lol. CNAME .
 cpobcsianm.com CNAME .
 *.cpobcsianm.com CNAME .
 official-coupons.com CNAME .

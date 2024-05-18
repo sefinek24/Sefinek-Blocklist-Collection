@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716045866685 43200 3600 259200 300
   NS  localhost.
 ;
 ; AdguardApps
@@ -7,7 +7,6 @@ $TTL 300
 ; Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/specific_app.txt
 ; Last converted - Thu, 27 Aug 2020 21:43:42 +0100
 ;
-
 viber.com CNAME .
 *.viber.com CNAME .
 viber.com CNAME .

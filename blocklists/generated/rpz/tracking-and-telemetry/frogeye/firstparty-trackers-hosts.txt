@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716045866685 43200 3600 259200 300
   NS  localhost.
 ;
 ; First-party trackers host list
@@ -15,7 +15,7 @@ $TTL 300
 ; License: https://git.frogeye.fr/geoffrey/eulaurarien/src/branch/master/LICENSE
 ; Acknowledgements: https://hostfiles.frogeye.fr/;acknowledgements
 ;
-; Generation software: eulaurarien 
+; Generation software: eulaurarien
 ; List generation date: 2024-05-18T00:03:44+02:00
 ; Oldest record: 2021-12-31T14:30:24+01:00
 ; Number of source websites: 873
@@ -27,7 +27,6 @@ $TTL 300
 ; … no dupplicates: asns: 6, hostnames: 11908, zones: 48
 ; Output rules: hostnames: 14169
 ;
-
 wt-eu02.net CNAME .
 *.wt-eu02.net CNAME .
 genieessp.com CNAME .
