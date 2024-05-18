@@ -123,7 +123,7 @@ const processDirectory = async dirPath => {
 							}
 						}
 
-						// 0.0.0.0domain.tld -> 0.0.0.0 domain.tld
+						// 0.0.0.0example.com -> 0.0.0.0 example.com
 						const match = line.match(/^0\.0\.0\.0([a-zA-Z0-9.-]+\.[a-zA-Z]{2,})(\s+.*)?$/);
 						if (match) {
 							modifiedLines++;
