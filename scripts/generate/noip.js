@@ -23,10 +23,8 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 				'',
 			)
 			.replaceAll('#=====', '# =====')
-			// grex "0.0.0.0 " "127.0.0.1 "
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /gmu, '')
-			// grex "#" "::"
-			.replaceAll(/::|#/gmu, '#')
+			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /gmu, '') // grex "0.0.0.0 " "127.0.0.1 "
+			.replaceAll(/::|#/gmu, '#') // grex "#" "::"
 			.replace(/<Release>/gim, 'No IP (only domains)')
 			.replace(/<Version>/gim, date.timestamp.toString())
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);

@@ -19,6 +19,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 		const fileContent = await fs.readFile(thisFileName, 'utf8');
 		const replacedFile = fileContent
 			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) (\S+)/gm, 'local-zone: "$1." always_nxdomain')
+			.replace(/〢 /g, '')
 			.replace(/<Release>/gim, 'Unbound')
 			.replace(/<Version>/gim, date.timestamp)
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);

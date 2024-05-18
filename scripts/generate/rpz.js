@@ -17,13 +17,20 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		// Content
 		const fileContent = await fs.readFile(thisFileName, 'utf8');
+
+		const seenDomains = new Set();
+		const [, domain] = fileContent.split(' ');
+		if (seenDomains.has(domain)) return;
+
 		const replacedFile = fileContent
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) (\S+)/gmu, (match, domain) => {
-				const rootDomain = domain.split('.').slice(-2).join('.');
+			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) (\S+)/gmu, (_, data) => {
+				const rootDomain = data.split('.').slice(-2).join('.');
+				seenDomains.add(rootDomain);
 				return `${rootDomain} CNAME .\n*.${rootDomain} CNAME .`;
 			})
 			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /gmu, '; ')
 			.replaceAll(/#/gmu, ';')
+			.replace(/〢 /g, '')
 			.replace(/<Release>/gim, 'RPZ')
 			.replace(/<Version>/gim, date.timestamp)
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);
