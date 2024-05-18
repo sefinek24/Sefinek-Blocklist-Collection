@@ -31,6 +31,8 @@
             <a href="https://www.youtube.com/watch?v=xfTX8GVw3B8" target="_blank" title="Collection of block lists for Pi-hole with +100 links and +6 million domains - YouTube"><img src="/images/flaticon/youtube.png" alt="YouTube logo (downloaded from flaticon.com)"></a>
             <a href="https://github.com/sefinek24/Sefinek-Blocklist-Collection" target="_blank" title="sefinek24/Sefinek-Blocklist-Collection"><img src="/images/flaticon/github.png" alt="GitHub logo (downloaded from flaticon.com)"></a>
         </div>
+
+        <p id="highlight">🌠 NEW! Added support for RPZ format and Unbound.</p>
     </div>
 </div>
 
@@ -221,6 +223,14 @@
             <div id="category-small">No IP</div>
             <div class="stats-content" id="stats-content-noip"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
         </div>
+        <div>
+            <div id="category-small">Unbound format</div>
+            <div class="stats-content" id="stats-content-unbound"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+        </div>
+        <div>
+            <div id="category-small">RPZ format</div>
+            <div class="stats-content" id="stats-content-rpz"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+        </div>
     </div>
 
     <div class="container-stats">
@@ -270,10 +280,7 @@
 </div>
 
 
-<script>
-    const WEBSOCKET = `<%= process.env.WS_FULL %>`;
-</script>
-
+<script>const WEBSOCKET=`<%= process.env.WS_FULL %>`;</script>
 <script src="/js/websocket.js"></script>
 
 <%- include('./includes/footer.ejs') %>

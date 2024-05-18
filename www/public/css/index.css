@@ -1,13 +1,13 @@
 #cover-header {
-    text-shadow: 0 0 21px #00000055
+    text-shadow: 0 0 8px #000
 }
 
 #pihole {
-    text-shadow: 0 0 16px #f70000;
+    text-shadow: 0 0 24px #f70000;
 }
 
 #adguard {
-    text-shadow: 0 0 16px #24d91b;
+    text-shadow: 0 0 24px #24d91b;
 }
 
 /* Content */
@@ -17,8 +17,8 @@
 
 /* Cover */
 #icons img {
-    margin: 5px;
-    height: 50px;
+    margin: 3px;
+    height: 45px;
     transition: .2s;
 }
 
@@ -28,6 +28,20 @@
 
 #icons img:active {
     opacity: 0.9;
+}
+
+#highlight {
+    backdrop-filter: blur(20px);
+    background-color: #ffffff0a;
+    border: 1px solid #000a184d;
+    border-radius: 16px;
+    box-shadow: 0 0 10px #00000024;
+    font-family: Caladea, sans-serif;
+    font-size: 18px;
+    margin-left: 156px;
+    margin-right: 156px;
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
 
 /* Card */
@@ -40,14 +54,14 @@
     overflow: hidden;
 }
 
-.card-text h3 {
-    font-size: 23px;
-    margin-bottom: 0;
-}
-
 .card-text {
     flex: 2;
     padding: 20px;
+}
+
+.card-text h3 {
+    font-size: 23px;
+    margin-bottom: 0;
 }
 
 .card-text p {
@@ -73,26 +87,25 @@
 /* Categories */
 #category-big {
     font-size: 29px;
-    font-weight: 700;
     padding-top: 7px;
     padding-bottom: 7px;
-    margin-bottom: 8px;
     background-color: #09090a;
+    border-radius: 8px 8px 0 0;
 }
 
 #category-small {
     font-size: 28px;
     padding-top: 2px;
     padding-bottom: 2px;
-    margin-bottom: 8px;
     background-color: #09090a;
+    border-radius: 8px 8px 0 0;
 }
 
 .stats-content {
     padding: 18px;
     background-color: #121215;
     border-radius: 0 0 8px 8px;
-    font-size: 33px;
+    font-size: 34px;
 }
 
 .stats-loading-gif {

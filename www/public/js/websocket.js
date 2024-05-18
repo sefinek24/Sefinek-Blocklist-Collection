@@ -16,6 +16,8 @@ socket.onmessage = event => {
 	updateStats('adguard', parsedData.stats.requests.adguard);
 	updateStats('dnsmasq', parsedData.stats.requests.dnsmasq);
 	updateStats('noip', parsedData.stats.requests.noip);
+	updateStats('unbound', parsedData.stats.requests.unbound);
+	updateStats('rpz', parsedData.stats.requests.rpz);
 
 	updateStats('404', parsedData.stats.responses['404']);
 	updateStats('429', parsedData.stats.responses['429']);
@@ -51,7 +53,7 @@ function updateStats(id, value) {
 		const oldValue = statsContentElement.textContent;
 
 		// Format the value, adding commas as thousands separator
-		const formattedValue = value.toLocaleString();
+		const formattedValue = value?.toLocaleString();
 		if (oldValue === formattedValue) return;
 
 		statsContentElement.textContent = formattedValue;

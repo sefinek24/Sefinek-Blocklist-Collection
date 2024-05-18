@@ -58,7 +58,7 @@ a:active {
     align-items: center;
 }
 
-.cover-text {
+.cover-text:not(#cover-header) {
     font-family: "Cascadia Mono", sans-serif;
     margin-left: 12px;
     margin-right: 12px;
