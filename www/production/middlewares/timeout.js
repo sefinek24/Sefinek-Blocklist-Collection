@@ -1,1 +1,0 @@
-const timeout=require("express-timeout-handler"),{onTimeout:onTimeout}=require("./other/errors.js");module.exports=()=>timeout.handler({timeout:2e3,onTimeout:onTimeout,disable:["write","setHeaders","send","json","end"]});

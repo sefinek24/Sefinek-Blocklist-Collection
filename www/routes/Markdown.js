@@ -3,7 +3,7 @@ const router = express.Router();
 const autoIndex = require('express-autoindex');
 const path = require('node:path');
 const fs = require('node:fs/promises');
-const { version } = require('../../../package.json');
+const { version } = require('../../package.json');
 
 const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'markdown.html'), dirAtTop: true };
 

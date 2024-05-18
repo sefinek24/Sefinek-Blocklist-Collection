@@ -1,1 +1,0 @@
-const menuToggle=document.querySelector(".menu-toggle"),navbar=document.querySelector(".navbar");menuToggle.addEventListener("click",(()=>{navbar.classList.toggle("active")})),window.innerWidth<1235?menuToggle.style.display="block":menuToggle.style.display="none";

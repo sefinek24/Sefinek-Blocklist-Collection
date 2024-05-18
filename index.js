@@ -20,7 +20,7 @@ if (!process.env.SEFINEK_API) {
 createDir(path.join(__dirname, 'www', 'public', 'logs'));
 
 if (process.env.NODE_ENV === 'development') {
-	require('./www/development/server.js');
+	require('./www/server.js');
 } else if (cluster.isMaster) {
 	console.log(`Primary ${process.pid} is running: http://127.0.0.1:${process.env.PORT}`);
 
@@ -33,6 +33,6 @@ if (process.env.NODE_ENV === 'development') {
 		console.log(`Worker ${worker.process.pid} died with code ${code} from signal ${signal}.`);
 	});
 } else {
-	require('./www/production/server.js');
+	require('./www/server.js');
 	console.log(`Worker ${process.pid} started`);
 }

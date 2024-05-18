@@ -4,8 +4,6 @@
   "description": "The best lists for your DNS server or ad blocker (Pi-hole, AdGuard, etc.). Your first and last reliable source, with no false positives and its own whitelist.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run minify && node .",
-    "minify": "uglifyjs-folder .\\www\\development\\ -eo .\\www\\production\\ -x .js",
     "test": "node scripts/test-urls.js",
     "up": "ncu -u && npm install && npm update && npm audit fix",
     "sync": "bash bash/pull.sh",
