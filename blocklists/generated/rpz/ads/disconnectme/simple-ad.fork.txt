@@ -1,10 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715599278412 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
   NS  localhost.
 ;
 ; Ad filter list by Disconnect
 ; License: GPLv3
 ; Contact: support [at] disconnect.me
+
 101com.com CNAME .
 *.101com.com CNAME .
 101order.com CNAME .
@@ -69,6 +70,10 @@ $TTL 300
 *.980media.com CNAME .
 99count.com CNAME .
 *.99count.com CNAME .
+starwave.com CNAME .
+*.starwave.com CNAME .
+starwave.com CNAME .
+*.starwave.com CNAME .
 a-ads.com CNAME .
 *.a-ads.com CNAME .
 kiev.ua CNAME .
@@ -1455,12 +1460,8 @@ ads8.com CNAME .
 *.ads8.com CNAME .
 starwave.com CNAME .
 *.starwave.com CNAME .
-starwave.com CNAME .
-*.starwave.com CNAME .
 go.com CNAME .
 *.go.com CNAME .
-starwave.com CNAME .
-*.starwave.com CNAME .
 starwave.com CNAME .
 *.starwave.com CNAME .
 bidtheatre.com CNAME .

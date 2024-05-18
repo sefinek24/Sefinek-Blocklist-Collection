@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715599278412 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
   NS  localhost.
 ;
 ;;; WindowsSpyBlocker - Hosts spy rules
@@ -7,6 +7,7 @@ $TTL 300
 ;;; Updated: 2022-05-16T13:25:00Z02:12
 ;;; Donate: https://github.com/sponsors/crazy-max ; https://www.paypal.me/crazyws
 ;;; More info: https://github.com/crazy-max/WindowsSpyBlocker
+
 windows.net CNAME .
 *.windows.net CNAME .
 windows.net CNAME .
@@ -661,10 +662,10 @@ microsoft.com CNAME .
 *.microsoft.com CNAME .
 microsoft.us CNAME .
 *.microsoft.us CNAME .
-akadns.net CNAME .
-*.akadns.net CNAME .
 microsoft.com CNAME .
 *.microsoft.com CNAME .
+akadns.net CNAME .
+*.akadns.net CNAME .
 microsoft.com CNAME .
 *.microsoft.com CNAME .
 atdmt.com CNAME .

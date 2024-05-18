@@ -2,6 +2,15 @@
 # Description: This list blocks known domains used in the VOIP application Discord by scammers. Adding this list to your Pi-Hole blocklist will prevent those domains from loading.
 # Last modified: Thu, 16 May 2024, 17:15 UTC+02
 # Origin: https://github.com/Dogino/Discord-Phishing-URLs
+0.0.0.0 cord.gifts
+0.0.0.0 discord.de
+0.0.0.0 discord.st
+0.0.0.0 discordapp.co
+0.0.0.0 discordcdn.co
+0.0.0.0 iscord.gift
+0.0.0.0 ord.gg
+0.0.0.0 steamcommunity.co
+0.0.0.0 witch.tv
 # Above domains are listed as false positive for Phades, they will be included in the Pi-Hole list.
 0.0.0.0 02ip.ru
 0.0.0.0 0p-1.com
@@ -2696,7 +2705,6 @@
 0.0.0.0 cord-gift.site
 0.0.0.0 cord-jobs.com
 0.0.0.0 cord-lookup.xyz
-0.0.0.0 cord.gifts
 0.0.0.0 corona-virus-map.com
 0.0.0.0 counter-2strike.com
 0.0.0.0 counter-stricke.ru
@@ -3728,6 +3736,8 @@
 0.0.0.0 d2rbbpzoi5ae11.cloudfront.net
 0.0.0.0 d4di19.cfd
 0.0.0.0 d96701kx.beget.tech
+0.0.0.0 discord-app.com
+0.0.0.0 discord.net
 0.0.0.0 dabaicai.com
 0.0.0.0 daddsda.xyz
 0.0.0.0 dadiscord.com
@@ -4900,7 +4910,6 @@
 0.0.0.0 discord-app.club
 0.0.0.0 discord-app.co
 0.0.0.0 discord-app.co.uk
-0.0.0.0 discord-app.com
 0.0.0.0 discord-app.ga
 0.0.0.0 discord-app.gift
 0.0.0.0 discord-app.gifts
@@ -6014,7 +6023,6 @@
 0.0.0.0 discord.data
 0.0.0.0 discord.dating
 0.0.0.0 discord.day
-0.0.0.0 discord.de
 0.0.0.0 discord.deals
 0.0.0.0 discord.directory
 0.0.0.0 discord.download
@@ -6074,7 +6082,6 @@
 0.0.0.0 discord.mom
 0.0.0.0 discord.moscow
 0.0.0.0 discord.my
-0.0.0.0 discord.net
 0.0.0.0 discord.online
 0.0.0.0 discord.org
 0.0.0.0 discord.org.ru
@@ -6100,7 +6107,6 @@
 0.0.0.0 discord.solutions
 0.0.0.0 discord.soy
 0.0.0.0 discord.space
-0.0.0.0 discord.st
 0.0.0.0 discord.study
 0.0.0.0 discord.swaychat.cn
 0.0.0.0 discord.taxi
@@ -6209,7 +6215,6 @@
 0.0.0.0 discordapp.chat
 0.0.0.0 discordapp.click
 0.0.0.0 discordapp.cloud
-0.0.0.0 discordapp.co
 0.0.0.0 discordapp.co.uk
 0.0.0.0 discordapp.code
 0.0.0.0 discordapp.codes
@@ -6360,7 +6365,6 @@
 0.0.0.0 discordcanary.com
 0.0.0.0 discordcaptchaverify.xyz
 0.0.0.0 discordcb.pl
-0.0.0.0 discordcdn.co
 0.0.0.0 discordcdn.ml
 0.0.0.0 discordcdn.sa.com
 0.0.0.0 discordcdn.xyz
@@ -12880,7 +12884,6 @@
 0.0.0.0 irsinvest.com
 0.0.0.0 isanofca.gq
 0.0.0.0 iscord.club
-0.0.0.0 iscord.gift
 0.0.0.0 iscord.xyz
 0.0.0.0 iscorddiscord.com
 0.0.0.0 iscordglft.org
@@ -16274,7 +16277,6 @@
 0.0.0.0 orbs-diamondhand.pages.dev
 0.0.0.0 orbs-paperhanded.pages.dev
 0.0.0.0 orcawall.com
-0.0.0.0 ord.gg
 0.0.0.0 order-40.com
 0.0.0.0 order-78.com
 0.0.0.0 order-87.com
@@ -22575,7 +22577,6 @@
 0.0.0.0 steamcommunity.cloud
 0.0.0.0 steamcommunity.cm
 0.0.0.0 steamcommunity.cn
-0.0.0.0 steamcommunity.co
 0.0.0.0 steamcommunity.co.ua
 0.0.0.0 steamcommunity.com-id-k4tushatwitchbabydota.ru
 0.0.0.0 steamcommunity.com.cn
@@ -33004,7 +33005,6 @@
 0.0.0.0 wintwitch.com
 0.0.0.0 wirtualna-ratownikwopr.pl
 0.0.0.0 wishuiuck.net
-0.0.0.0 witch.tv
 0.0.0.0 withereum.com
 0.0.0.0 witoxo.com
 0.0.0.0 wits-nft.com

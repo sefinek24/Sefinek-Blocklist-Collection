@@ -1,11 +1,29 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715876805742 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: AntiPhishingDiscordSteam
 ; Description: This list blocks known domains used in the VOIP application Discord by scammers. Adding this list to your Pi-Hole blocklist will prevent those domains from loading.
 ; Last modified: Thu, 16 May 2024, 17:15 UTC+02
 ; Origin: https://github.com/Dogino/Discord-Phishing-URLs
+cord.gifts CNAME .
+*.cord.gifts CNAME .
+discord.de CNAME .
+*.discord.de CNAME .
+discord.st CNAME .
+*.discord.st CNAME .
+discordapp.co CNAME .
+*.discordapp.co CNAME .
+discordcdn.co CNAME .
+*.discordcdn.co CNAME .
+iscord.gift CNAME .
+*.iscord.gift CNAME .
+ord.gg CNAME .
+*.ord.gg CNAME .
+steamcommunity.co CNAME .
+*.steamcommunity.co CNAME .
+witch.tv CNAME .
+*.witch.tv CNAME .
 ; Above domains are listed as false positive for Phades, they will be included in the Pi-Hole list.
 02ip.ru CNAME .
 *.02ip.ru CNAME .
@@ -5393,8 +5411,6 @@ cord-jobs.com CNAME .
 *.cord-jobs.com CNAME .
 cord-lookup.xyz CNAME .
 *.cord-lookup.xyz CNAME .
-cord.gifts CNAME .
-*.cord.gifts CNAME .
 corona-virus-map.com CNAME .
 *.corona-virus-map.com CNAME .
 counter-2strike.com CNAME .
@@ -7457,6 +7473,10 @@ d4di19.cfd CNAME .
 *.d4di19.cfd CNAME .
 beget.tech CNAME .
 *.beget.tech CNAME .
+discord-app.com CNAME .
+*.discord-app.com CNAME .
+discord.net CNAME .
+*.discord.net CNAME .
 dabaicai.com CNAME .
 *.dabaicai.com CNAME .
 daddsda.xyz CNAME .
@@ -9801,8 +9821,6 @@ discord-app.co CNAME .
 *.discord-app.co CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
-discord-app.com CNAME .
-*.discord-app.com CNAME .
 discord-app.ga CNAME .
 *.discord-app.ga CNAME .
 discord-app.gift CNAME .
@@ -12029,8 +12047,6 @@ discord.dating CNAME .
 *.discord.dating CNAME .
 discord.day CNAME .
 *.discord.day CNAME .
-discord.de CNAME .
-*.discord.de CNAME .
 discord.deals CNAME .
 *.discord.deals CNAME .
 discord.directory CNAME .
@@ -12149,8 +12165,6 @@ discord.moscow CNAME .
 *.discord.moscow CNAME .
 discord.my CNAME .
 *.discord.my CNAME .
-discord.net CNAME .
-*.discord.net CNAME .
 discord.online CNAME .
 *.discord.online CNAME .
 discord.org CNAME .
@@ -12201,8 +12215,6 @@ discord.soy CNAME .
 *.discord.soy CNAME .
 discord.space CNAME .
 *.discord.space CNAME .
-discord.st CNAME .
-*.discord.st CNAME .
 discord.study CNAME .
 *.discord.study CNAME .
 swaychat.cn CNAME .
@@ -12419,8 +12431,6 @@ discordapp.click CNAME .
 *.discordapp.click CNAME .
 discordapp.cloud CNAME .
 *.discordapp.cloud CNAME .
-discordapp.co CNAME .
-*.discordapp.co CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
 discordapp.code CNAME .
@@ -12721,8 +12731,6 @@ discordcaptchaverify.xyz CNAME .
 *.discordcaptchaverify.xyz CNAME .
 discordcb.pl CNAME .
 *.discordcb.pl CNAME .
-discordcdn.co CNAME .
-*.discordcdn.co CNAME .
 discordcdn.ml CNAME .
 *.discordcdn.ml CNAME .
 sa.com CNAME .
@@ -25761,8 +25769,6 @@ isanofca.gq CNAME .
 *.isanofca.gq CNAME .
 iscord.club CNAME .
 *.iscord.club CNAME .
-iscord.gift CNAME .
-*.iscord.gift CNAME .
 iscord.xyz CNAME .
 *.iscord.xyz CNAME .
 iscorddiscord.com CNAME .
@@ -32549,8 +32555,6 @@ pages.dev CNAME .
 *.pages.dev CNAME .
 orcawall.com CNAME .
 *.orcawall.com CNAME .
-ord.gg CNAME .
-*.ord.gg CNAME .
 order-40.com CNAME .
 *.order-40.com CNAME .
 order-78.com CNAME .
@@ -45151,8 +45155,6 @@ steamcommunity.cm CNAME .
 *.steamcommunity.cm CNAME .
 steamcommunity.cn CNAME .
 *.steamcommunity.cn CNAME .
-steamcommunity.co CNAME .
-*.steamcommunity.co CNAME .
 co.ua CNAME .
 *.co.ua CNAME .
 com-id-k4tushatwitchbabydota.ru CNAME .
@@ -66009,8 +66011,6 @@ wirtualna-ratownikwopr.pl CNAME .
 *.wirtualna-ratownikwopr.pl CNAME .
 wishuiuck.net CNAME .
 *.wishuiuck.net CNAME .
-witch.tv CNAME .
-*.witch.tv CNAME .
 withereum.com CNAME .
 *.withereum.com CNAME .
 witoxo.com CNAME .

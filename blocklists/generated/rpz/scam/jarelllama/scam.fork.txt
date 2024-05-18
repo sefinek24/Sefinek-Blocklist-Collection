@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716035743358 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: Jarelllama's Scam Blocklist
@@ -14,6 +14,9 @@ $TTL 300
 ;
 0-usps.com CNAME .
 *.0-usps.com CNAME .
+0.0.0.0en.cryptonight.net
+0.0.0.0marketing.cryptonight.net
+0.0.0.0ns10.cryptonight.net
 cryptonight.net CNAME .
 *.cryptonight.net CNAME .
 cryptonight.net CNAME .
@@ -162164,6 +162167,3 @@ blogspot.md CNAME .
 *.blogspot.md CNAME .
 weeblysite.com CNAME .
 *.weeblysite.com CNAME .
-0.0.0.0en.cryptonight.net
-0.0.0.0marketing.cryptonight.net
-0.0.0.0ns10.cryptonight.net

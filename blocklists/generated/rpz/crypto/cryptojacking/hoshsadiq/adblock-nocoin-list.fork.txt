@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1715599278412 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
   NS  localhost.
 ;
 ; NoCoin Filter List
@@ -12,6 +12,7 @@ $TTL 300
 ;
 ; Last modified: 12 April 2023
 ;
+
 1q2w3.fun CNAME .
 *.1q2w3.fun CNAME .
 pema.cl CNAME .
@@ -824,9 +825,9 @@ webassembly.stream CNAME .
 *.webassembly.stream CNAME .
 webmine.cz CNAME .
 *.webmine.cz CNAME .
-2miners.com CNAME .
-*.2miners.com CNAME .
 xmr.cool CNAME .
 *.xmr.cool CNAME .
+2miners.com CNAME .
+*.2miners.com CNAME .
 zymerget.win CNAME .
 *.zymerget.win CNAME .
