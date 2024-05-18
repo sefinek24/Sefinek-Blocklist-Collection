@@ -1,5 +1,4 @@
 const morgan = require('morgan');
-const format = process.env.NODE_ENV === 'production' ? '[:status :method :response-time ms] :url "HTTP/:http-version" :user-agent ":referrer" :body' : 'dev';
 
 const userAgentsToSkip = [
 	'Better Uptime Bot Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
@@ -53,6 +52,6 @@ const normalizeBody = ({ body }) => {
 morgan.token('body', normalizeBody);
 
 module.exports = {
-	use: morgan(format, { skip: skipUserAgent() }),
+	use: morgan('[:status :method :response-time ms] :url :user-agent ":referrer" :body', { skip: skipUserAgent() }),
 	userAgents,
 };
