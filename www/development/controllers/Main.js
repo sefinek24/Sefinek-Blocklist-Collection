@@ -1,5 +1,5 @@
 const parser = require('cron-parser');
-const { version } = require('../../package.json');
+const { version } = require('../../../package.json');
 const Marked = require('marked');
 const { readFile } = require('node:fs/promises');
 const path = require('node:path');

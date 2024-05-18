@@ -1,5 +1,5 @@
 const { cpu } = require('node-os-utils');
-const formatTime = require('../www/utils/formatTime.js');
+const formatTime = require('./utils/formatTime.js');
 const RequestStats = require('./database/models/RequestStats');
 
 module.exports = wss => {

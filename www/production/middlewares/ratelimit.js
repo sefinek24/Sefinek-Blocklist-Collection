@@ -1,0 +1,1 @@
+const rateLimit=require("express-rate-limit"),error=require("./other/errors.js"),limiter=rateLimit({windowMs:12e4,limit:150,standardHeaders:"draft-7",legacyHeaders:!1,skip:r=>"::ffff:127.0.0.1"===r.ip,handler:(r,e)=>error.rateLimit(r,e)});module.exports=limiter;

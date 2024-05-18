@@ -1,4 +1,4 @@
-const { userAgents } = require('../middlewares/morgan.js');
+const { userAgents } = require('./morgan.js');
 const parseCategoryFromLink = require('../utils/parseCategoryFromLink.js');
 const RequestStats = require('../database/models/RequestStats');
 

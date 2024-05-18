@@ -1,0 +1,1 @@
+module.exports=t=>{const[,,e]=t.split("/");return"0.0.0.0"===e?"00000":"127.0.0.1"===e?"127001":e};
