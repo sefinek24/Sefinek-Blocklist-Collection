@@ -64,8 +64,9 @@ async function processFile(file) {
 
 function createUpdatedContents(lines, domainCount) {
 	return lines.join('\n')
-		.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${domainCount || 'N/A'}`)
 		.replace('# Count       : N/A', `# Count       : ${domainCount || 'N/A'}`)
+		.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${domainCount || 'N/A'}`)
 		.replace(/^# Count: ?(\d*)$/gmu, `# Count: ${domainCount || 'N/A'}`)
-		.replace('! Count       : N/A', `! Count       : ${domainCount || 'N/A'}`);
+		.replace(/^# Number of entries: ?(\d*)$/gmu, `# Number of entries: ${domainCount || 'N/A'}`)
+		.replace(/^# Number of unique domains: ?(\d*)$/gmu, `# Number of unique domains: ${domainCount || 'N/A'}`);
 }
