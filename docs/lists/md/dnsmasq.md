@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: Dnsmasq - server=/[Domain]/</b><br>
-        📥 » <b>Last update: 23.04.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 18.05.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -61,6 +61,7 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/fraud/blocklistproject/hosts.
 https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/blocklistproject/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/MajkiIT/gambling-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/sefinek.hosts.txt
+https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/TrustPositif/gambling-indonesia.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/games/valorant.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/hate-and-junk/developerdan/extended.fork.txt

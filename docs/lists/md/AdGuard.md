@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection</h1>
     <p>
         📄 » <b>Format: AdGuard</b><br>
-        📥 » <b>Last update: 23.04.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 18.05.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -61,6 +61,7 @@ https://blocklist.sefinek.net/generated/v1/adguard/fraud/blocklistproject/hosts.
 https://blocklist.sefinek.net/generated/v1/adguard/gambling/blocklistproject/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/gambling/MajkiIT/gambling-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/gambling/sefinek.hosts.txt
+https://blocklist.sefinek.net/generated/v1/adguard/gambling/TrustPositif/gambling-indonesia.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/v1/adguard/games/valorant.txt
 https://blocklist.sefinek.net/generated/v1/adguard/hate-and-junk/developerdan/extended.fork.txt

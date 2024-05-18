@@ -52,6 +52,7 @@ urls=(
 
   ## Gambling
   "https://blocklistproject.github.io/Lists/gambling.txt gambling/blocklistproject/hosts.fork.txt"
+  "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia.txt gambling/TrustPositif/gambling-indonesia.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt gambling/MajkiIT/gambling-hosts.fork.txt"
 
   ## Hate and junk

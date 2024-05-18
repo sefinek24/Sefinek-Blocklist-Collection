@@ -1,15 +1,11 @@
 <div align="center">
-    <h1>📝 Default blocklist collection</h1>
+    <h1>📝 Test blocklist collection (ignore it)</h1>
     <p>
         📄 » <b>Format: 0.0.0.0 [Domain]</b><br>
-        📥 » <b>Last update: 23.04.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 18.05.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
-<h3 align="right">
-    <a href="https://sefinek.net/blocklist-generator/0.0.0.0">🌍 Try blocklist generator on my website (recommended) »</a>
-</h3>
-<br>
 
 ```dotenv
 http://192.168.2.150:8080/generated/v1/0.0.0.0/abuse/blocklistproject/hosts.fork.txt
@@ -61,6 +57,7 @@ http://192.168.2.150:8080/generated/v1/0.0.0.0/fraud/blocklistproject/hosts.fork
 http://192.168.2.150:8080/generated/v1/0.0.0.0/gambling/blocklistproject/hosts.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/gambling/MajkiIT/gambling-hosts.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/gambling/sefinek.hosts.txt
+http://192.168.2.150:8080/generated/v1/0.0.0.0/gambling/TrustPositif/gambling-indonesia.fork.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/games/league-of-legends.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/games/valorant.txt
 http://192.168.2.150:8080/generated/v1/0.0.0.0/hate-and-junk/developerdan/extended.fork.txt
