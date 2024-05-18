@@ -33,10 +33,10 @@ const processDirectory = async dirPath => {
 							return line;
 						}
 
+						const [ip, domain, ...comment] = line.split(/\s+/);
 
 						// Check if domain contains uppercase letters
 						if (line.match(/^(0\.0\.0\.0|127\.0\.0\.1)\s/) && (/[A-Z]/).test(line)) {
-							const [ip, domain, ...comment] = line.split(/\s+/);
 							const modifiedLine = `${ip.trim()} ${domain.toLowerCase().trim()} ${comment.join(' ').trim()}`;
 
 							if (modifiedLine !== line) {
@@ -67,12 +67,7 @@ const processDirectory = async dirPath => {
 							const words = line.split(' ');
 							if (words.length !== 1) return;
 
-							const domain = words[0]
-								.replace(/[|^]/gim, '')
-								.replace(/!/gim, '#')
-								.replace(/[\\[]/gim, '# [');
-
-							line = `0.0.0.0 ${domain}`;
+							line = `0.0.0.0 ${words[0].replace(/[|^]/gim, '').replace(/!/gim, '#').replace(/[\\[]/gim, '# [')}`;
 							modifiedLines++;
 						}
 
@@ -94,9 +89,7 @@ const processDirectory = async dirPath => {
 						if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#')) {
 							const words = line.split(' ');
 							if (words.length === 1 && words[0] !== '') {
-								const domain = words[0];
-
-								const modifiedLine = `0.0.0.0 ${domain.toLowerCase()}`;
+								const modifiedLine = `0.0.0.0 ${words[0].toLowerCase()}`;
 								if (modifiedLine !== line && modifiedLine.match(/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/)) {
 									modifiedLines++;
 									line = modifiedLine;
@@ -114,10 +107,10 @@ const processDirectory = async dirPath => {
 							if (words.length > 2) {
 								const ipAddress = words.shift();
 								const domains = words.join(' ').split(' ')
-									.filter((domain) => domain.length > 0);
+									.filter(d => d.length > 0);
 
 								const modifiedLine = domains
-									.map((domain) => `${ipAddress} ${domain.toLowerCase()}`)
+									.map(d => `${ipAddress} ${d.toLowerCase()}`)
 									.join('\n')
 									.trim();
 
