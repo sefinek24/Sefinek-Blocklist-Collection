@@ -12,6 +12,8 @@ const markdownFiles = [
 	'./docs/lists/md/dnsmasq.md',
 	'./docs/lists/md/noip.md',
 	'./docs/lists/md/Pi-hole.md',
+	'./docs/lists/md/RPZ.md',
+	'./docs/lists/md/Unbound.md',
 ];
 
 // Axios
@@ -24,7 +26,7 @@ const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
 
 // Variables
-const urlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
+const urlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|rpz|unbound|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
 let totalLinks = 0;
 let successfulLinks = 0;
 let failedLinks = 0;
@@ -36,7 +38,7 @@ const invalidLinks = [];
 function serveUrl(link) {
 	const linkRegex = /(http|https):\/\/[^ "]+/g;
 	const mainDomainRegex = /https:\/\/blocklist\.sefinek\.net/gi;
-	const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
+	const validUrlRegex = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(adguard|dnsmasq|noip|rpz|unbound|127\.0\.0\.1|0\.0\.0\.0)\/(?:[\w-]+\/)*[\w\\.-]+\.\w+/gim;
 
 	if (!linkRegex.test(link)) {
 		console.warn(kleur.yellow('Error:'), `Invalid link: ${link}`);
