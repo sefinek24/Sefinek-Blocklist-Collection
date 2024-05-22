@@ -19,9 +19,6 @@ mkdir -p "$logs_dir"
 # Write logs to the output file
 {
     echo "========================================== $(date +'%Y-%m-%d %H:%M:%S') =========================================="
-    echo "Repository path : $repo_path"
-    echo "Logs directory  : $logs_dir"
-    echo "Output file     : $output_file"
     echo
 
     # Check if the repository directory exists
