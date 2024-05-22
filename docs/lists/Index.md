@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>📥 Choose your blocker</h1>
+    <h1>🌍 Choose your blocker</h1>
 </div>
 
 ### [**Pi-hole:** 0.0.0.0 domain.tld](md/Pi-hole.md)
@@ -15,6 +15,7 @@
 ### [**Hosts (No IP):** domain.tld](md/noip.md)
 ### [**RPZ:** domain.tld CNAME .](md/RPZ.md)
 ### [**Unbound:** local-zone: "domain.tld." always_nxdomain](md/Unbound.md)
+
 
 <br><br>
 <div align="center">
