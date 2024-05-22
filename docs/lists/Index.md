@@ -2,19 +2,19 @@
     <h1>📥 Choose your blocker</h1>
 </div>
 
-### [Pi-hole [0.0.0.0]](md/Pi-hole.md)
-### [AdGuard](md/AdGuard.md)
+### [Pi-hole: 0.0.0.0 domain.tld](md/Pi-hole.md)
+### [AdGuard: ||domain.tld^](md/AdGuard.md)
 
 
 <div align="center">
     <h1>📝 Other lists</h1>
 </div>
 
-### [127.0.0.1](md/127.0.0.1.md)
-### [dnsmasq [server=/]](md/dnsmasq.md)
+### [127.0.0.1 domain.tld]](md/127.0.0.1.md)
+### [dnsmasq: server=/domain.tld/]](md/dnsmasq.md)
 ### [No IP [hosts]](md/noip.md)
-
-
+### [RPZ: domain.tld CNAME .](md/RPZ.md)
+### [Unbound: local-zone: "domain.tld." always_nxdomain](md/Unbound.md)
 
 
 <div align="center">
