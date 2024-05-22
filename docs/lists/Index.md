@@ -10,9 +10,9 @@
     <h1>📝 Other lists</h1>
 </div>
 
-### [127.0.0.1 domain.tld]](md/127.0.0.1.md)
-### [dnsmasq: server=/domain.tld/]](md/dnsmasq.md)
-### [No IP [hosts]](md/noip.md)
+### [127.0.0.1 domain.tld](md/127.0.0.1.md)
+### [dnsmasq: server=/domain.tld/](md/dnsmasq.md)
+### [Hosts (No IP): domain.tld](md/noip.md)
 ### [RPZ: domain.tld CNAME .](md/RPZ.md)
 ### [Unbound: local-zone: "domain.tld." always_nxdomain](md/Unbound.md)
 
