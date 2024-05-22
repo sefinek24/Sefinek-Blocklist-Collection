@@ -1,3 +1,10 @@
+## Update v0.15.1 - 22.05.2024
+1. Updated all dependencies.
+2. Updated Eslint to version 9.
+3. Performed code cleanup.
+4. Added Unbound and RPZ formats to the [lists/Index.md](lists/Index.md) file.
+5. Other improvements and fixes.
+
 ## Update v0.15.0 - 18.05.2024
 1. Added support for RPZ format and Unbound. [#25](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues/26)
 2. Added a new blocklist `gambling/TrustPositif/gambling-indonesia.fork.txt`. [#26](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues/25)
