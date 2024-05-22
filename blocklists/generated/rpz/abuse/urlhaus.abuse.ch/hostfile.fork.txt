@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716367822813 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716373552663 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-05-22 08:22:28 (UTC)                      ;
+; Last updated: 2024-05-22 10:11:43 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -12,10 +12,10 @@ $TTL 300
 ;
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
-1000uc.com CNAME .
-*.1000uc.com CNAME .
 miiyun.cn CNAME .
 *.miiyun.cn CNAME .
+qbgxl.com CNAME .
+*.qbgxl.com CNAME .
 abissnet.net CNAME .
 *.abissnet.net CNAME .
 advising-receipts.com CNAME .
@@ -28,6 +28,8 @@ aliam.ir CNAME .
 *.aliam.ir CNAME .
 aokdemc.com CNAME .
 *.aokdemc.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 cobainaja.id CNAME .
 *.cobainaja.id CNAME .
 52kkg.com CNAME .
@@ -40,6 +42,8 @@ avastcsw.com CNAME .
 *.avastcsw.com CNAME .
 bitkiselurunsiparis.com CNAME .
 *.bitkiselurunsiparis.com CNAME .
+blackhattoolz.com CNAME .
+*.blackhattoolz.com CNAME .
 bmcm.pw CNAME .
 *.bmcm.pw CNAME .
 british-shorthair.es CNAME .
@@ -54,8 +58,6 @@ diit.cl CNAME .
 *.diit.cl CNAME .
 cadenaderegalos.com CNAME .
 *.cadenaderegalos.com CNAME .
-cajgtus.com CNAME .
-*.cajgtus.com CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
@@ -64,8 +66,6 @@ chiptune.com CNAME .
 *.chiptune.com CNAME .
 nperm.net CNAME .
 *.nperm.net CNAME .
-coadymarine.com CNAME .
-*.coadymarine.com CNAME .
 covid19help.top CNAME .
 *.covid19help.top CNAME .
 udashi.com CNAME .
@@ -76,10 +76,10 @@ dancetechjournal.com CNAME .
 *.dancetechjournal.com CNAME .
 dax.estate CNAME .
 *.dax.estate CNAME .
-com.ar CNAME .
-*.com.ar CNAME .
 diclegrup.org CNAME .
 *.diclegrup.org CNAME .
+56a.com CNAME .
+*.56a.com CNAME .
 198424.com CNAME .
 *.198424.com CNAME .
 9xu.com CNAME .
@@ -112,12 +112,12 @@ exilum.com CNAME .
 *.exilum.com CNAME .
 alie3ksggg.com CNAME .
 *.alie3ksggg.com CNAME .
-factorylifes.net CNAME .
-*.factorylifes.net CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
 co.za CNAME .
 *.co.za CNAME .
+file-file-host6.com CNAME .
+*.file-file-host6.com CNAME .
 uludagbilisim.com CNAME .
 *.uludagbilisim.com CNAME .
 firstviewautoservice.com CNAME .
@@ -126,8 +126,6 @@ furnitureoptimal.com CNAME .
 *.furnitureoptimal.com CNAME .
 funletters.net CNAME .
 *.funletters.net CNAME .
-florenda.com CNAME .
-*.florenda.com CNAME .
 insane.wang CNAME .
 *.insane.wang CNAME .
 heko.ro CNAME .
@@ -150,20 +148,24 @@ hseda.com CNAME .
 *.hseda.com CNAME .
 ac.ug CNAME .
 *.ac.ug CNAME .
+hwthurmann.de CNAME .
+*.hwthurmann.de CNAME .
 ibllt.com CNAME .
 *.ibllt.com CNAME .
 immobilien-spektrum.de CNAME .
 *.immobilien-spektrum.de CNAME .
-imtoken8.cc CNAME .
-*.imtoken8.cc CNAME .
 imtokeon.com CNAME .
 *.imtokeon.com CNAME .
+indonesias.me CNAME .
+*.indonesias.me CNAME .
 com.br CNAME .
 *.com.br CNAME .
 jeffdahlke.com CNAME .
 *.jeffdahlke.com CNAME .
 jhayesconsulting.com CNAME .
 *.jhayesconsulting.com CNAME .
+jobcity.com CNAME .
+*.jobcity.com CNAME .
 jobs-servers.com CNAME .
 *.jobs-servers.com CNAME .
 joccupationalscience.org CNAME .
@@ -178,8 +180,6 @@ lastimaners.ug CNAME .
 *.lastimaners.ug CNAME .
 lestandardsarl.com CNAME .
 *.lestandardsarl.com CNAME .
-lflsoftware.com CNAME .
-*.lflsoftware.com CNAME .
 yjjxz.com CNAME .
 *.yjjxz.com CNAME .
 ac.in CNAME .
@@ -188,6 +188,8 @@ licocojambamarketplace.com CNAME .
 *.licocojambamarketplace.com CNAME .
 lindnerelektroanlagen.de CNAME .
 *.lindnerelektroanlagen.de CNAME .
+linktoxic34.com CNAME .
+*.linktoxic34.com CNAME .
 linkvilleplayers.org CNAME .
 *.linkvilleplayers.org CNAME .
 lipicaihotel.hu CNAME .
@@ -228,16 +230,14 @@ opsdjs.ug CNAME .
 *.opsdjs.ug CNAME .
 wedl3.com CNAME .
 *.wedl3.com CNAME .
-com.br CNAME .
-*.com.br CNAME .
 org.pk CNAME .
 *.org.pk CNAME .
 polatfamilyengine.com CNAME .
 *.polatfamilyengine.com CNAME .
-posmicrosystems.com CNAME .
-*.posmicrosystems.com CNAME .
 protechasia.com CNAME .
 *.protechasia.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 qqchun.top CNAME .
 *.qqchun.top CNAME .
 com.br CNAME .
@@ -260,10 +260,10 @@ servisaludocupacional.pe CNAME .
 *.servisaludocupacional.pe CNAME .
 silinast.ro CNAME .
 *.silinast.ro CNAME .
+sintraoficol.org CNAME .
+*.sintraoficol.org CNAME .
 smbeckwithlaw.com CNAME .
 *.smbeckwithlaw.com CNAME .
-110route.com CNAME .
-*.110route.com CNAME .
 vivi.sg CNAME .
 *.vivi.sg CNAME .
 co.za CNAME .
@@ -284,8 +284,6 @@ suakhoaketsattphcm.com CNAME .
 *.suakhoaketsattphcm.com CNAME .
 sup-docul.life CNAME .
 *.sup-docul.life CNAME .
-clz.kr CNAME .
-*.clz.kr CNAME .
 techniguitare.com CNAME .
 *.techniguitare.com CNAME .
 tecni-soft.com CNAME .
@@ -312,6 +310,8 @@ ty45dskohal1erz.com CNAME .
 *.ty45dskohal1erz.com CNAME .
 ummotosmexico.mx CNAME .
 *.ummotosmexico.mx CNAME .
+unicorpbrunei.com CNAME .
+*.unicorpbrunei.com CNAME .
 universalmovies.top CNAME .
 *.universalmovies.top CNAME .
 co.network CNAME .
@@ -338,6 +338,12 @@ eastconsults.com CNAME .
 *.eastconsults.com CNAME .
 globallaborsupply.com CNAME .
 *.globallaborsupply.com CNAME .
+hseda.com CNAME .
+*.hseda.com CNAME .
+ingonherbal.com CNAME .
+*.ingonherbal.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 maxmoney.com CNAME .
 *.maxmoney.com CNAME .
 merch-anim.fr CNAME .
@@ -368,16 +374,16 @@ valentinaconfecciones.com CNAME .
 *.valentinaconfecciones.com CNAME .
 vibrantbhutan.com CNAME .
 *.vibrantbhutan.com CNAME .
+ysbaojia.com CNAME .
+*.ysbaojia.com CNAME .
 xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
 xijinping.mov CNAME .
 *.xijinping.mov CNAME .
 xmindlern.com CNAME .
 *.xmindlern.com CNAME .
-hnggzyjy.cn CNAME .
-*.hnggzyjy.cn CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 oystergardening.net CNAME .
 *.oystergardening.net CNAME .
-; Number of entries: 185
+; Number of entries: 188
