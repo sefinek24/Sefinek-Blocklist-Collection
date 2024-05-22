@@ -2,17 +2,6 @@
   "name": "sefinek-blocklist-collection",
   "version": "0.15.0",
   "description": "The best lists for your DNS server or ad blocker (Pi-hole, AdGuard, etc.). Your first and last reliable source, with no false positives and its own whitelist.",
-  "main": "index.js",
-  "scripts": {
-    "test": "node scripts/test-urls.js",
-    "up": "ncu -u && npm install && npm update && npm audit fix",
-    "sync": "bash bash/pull.sh",
-    "mon": "nodemon index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sefinek24/Sefinek-Blocklist-Collection.git"
-  },
   "keywords": [
     "adguard",
     "adguard-blocklist",
@@ -33,14 +22,25 @@
     "privacy-protection",
     "ublock"
   ],
-  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
-  "license": "CC BY-NC 4.0",
+  "homepage": "https://github.com/sefinek24/Sefinek-Blocklist-Collection#readme",
   "bugs": {
     "url": "https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues"
   },
-  "homepage": "https://github.com/sefinek24/Sefinek-Blocklist-Collection#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/Sefinek-Blocklist-Collection.git"
+  },
+  "license": "CC BY-NC 4.0",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "scripts": {
+    "mon": "nodemon index.js",
+    "sync": "bash bash/pull.sh",
+    "test": "node scripts/test-urls.js",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
+  },
   "dependencies": {
-    "axios": "^1.7.1",
+    "axios": "^1.7.2",
     "cron-parser": "^4.9.0",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
@@ -59,6 +59,9 @@
     "ws": "^8.17.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0",
     "kleur": "^4.1.5",
     "uglifyjs-folder": "^3.3.0"
   }
