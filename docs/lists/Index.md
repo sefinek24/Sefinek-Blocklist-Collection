@@ -16,7 +16,7 @@
 ### [**RPZ:** domain.tld CNAME .](md/RPZ.md)
 ### [**Unbound:** local-zone: "domain.tld." always_nxdomain](md/Unbound.md)
 
-
+<br><br>
 <div align="center">
     <a href="https://sefinek.net/blocklist-generator" title="Personalized Blocklist Generator - Take Full Control of Your Network">
         <img src="../../images/generator.png" width="60%" alt="">
