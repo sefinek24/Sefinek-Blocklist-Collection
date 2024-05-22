@@ -9,7 +9,7 @@ const limiter = rateLimit({
 
 	skip: req => req.ip === '::ffff:127.0.0.1',
 
-	handler: (req, res) => error.rateLimit(req, res),
+	handler: (req, res) => error.rateLimit(req, res)
 });
 
 module.exports = limiter;

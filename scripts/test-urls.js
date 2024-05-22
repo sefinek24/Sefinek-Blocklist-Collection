@@ -13,12 +13,12 @@ const markdownFiles = [
 	'./docs/lists/md/noip.md',
 	'./docs/lists/md/Pi-hole.md',
 	'./docs/lists/md/RPZ.md',
-	'./docs/lists/md/Unbound.md',
+	'./docs/lists/md/Unbound.md'
 ];
 
 // Axios
 const headers = {
-	headers: { 'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklists/${version}; +https://blocklist.sefinek.net)` },
+	headers: { 'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklists/${version}; +https://blocklist.sefinek.net)` }
 };
 
 // Constants

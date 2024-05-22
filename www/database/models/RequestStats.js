@@ -10,17 +10,17 @@ const RequestStats = new Schema({
 		dnsmasq: { type: Number, default: 0 },
 		noip: { type: Number, default: 0 },
 		rpz: { type: Number, default: 0 },
-		unbound: { type: Number, default: 0 },
+		unbound: { type: Number, default: 0 }
 	},
 	responses: {
 		404: { type: Number, default: 0 },
 		429: { type: Number, default: 0 },
 		500: { type: Number, default: 0 },
-		503: { type: Number, default: 0 },
+		503: { type: Number, default: 0 }
 	},
 	stats: {
-		updateStatsFail: { type: Number, default: 0 },
-	},
+		updateStatsFail: { type: Number, default: 0 }
+	}
 }, { timestamps: true, versionKey: false });
 
 module.exports = model('requests-stats', RequestStats);

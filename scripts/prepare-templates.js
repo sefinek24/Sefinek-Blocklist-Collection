@@ -155,10 +155,10 @@ const processDirectory = async dirPath => {
 					console.log(
 						`📝 ${fileName}: ${modifiedLines} ${modifiedLines === 1 ? 'line' : 'lines'} modified${
 							convertedDomains > 0 ? ` and ${convertedDomains} ${convertedDomains === 1 ? 'domain' : 'domains'} converted to lowercase` : ''
-						}`,
+						}`
 					);
 				}
-			}),
+			})
 		);
 
 		const subDirectories = await readdir(dirPath, { withFileTypes: true });
@@ -166,7 +166,7 @@ const processDirectory = async dirPath => {
 		await Promise.all(
 			subDirectories
 				.filter((subDir) => subDir.isDirectory())
-				.map((subDir) => processDirectory(join(dirPath, subDir.name))),
+				.map((subDir) => processDirectory(join(dirPath, subDir.name)))
 		);
 	} catch (err) {
 		console.error(`❌ An error occurred while processing ${dirPath} directory.`, err);

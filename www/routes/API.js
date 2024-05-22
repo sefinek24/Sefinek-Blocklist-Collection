@@ -20,7 +20,7 @@ router.get('/api/v1/uptime', (req, res) => {
 		code: 200,
 		time: formatTime.time(process.uptime()),
 		full: formatTime.full(process.uptime()),
-		uptime: process.uptime(),
+		uptime: process.uptime()
 	});
 });
 

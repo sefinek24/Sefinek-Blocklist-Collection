@@ -41,7 +41,7 @@ const excludedFiles = [
 	'youtube-extended.txt',
 	'facebook.txt',
 	'instagram.txt',
-	'twitter.txt',
+	'twitter.txt'
 ];
 
 const getAllFiles = async folder => {
@@ -85,7 +85,7 @@ const worker = async () => {
 					}
 				});
 			}
-		}),
+		})
 	);
 
 	const allDomainsSize = domains.size;
@@ -111,14 +111,14 @@ const worker = async () => {
 			lines
 				.slice(existingHeaderIndex + 1)
 				.map(parseDomain)
-				.filter(domain => domain !== null),
+				.filter(domain => domain !== null)
 		);
 		const newDomains = sortedDomains.filter(
-			domain => !savedDomains.has(domain) && !domain.startsWith('#'),
+			domain => !savedDomains.has(domain) && !domain.startsWith('#')
 		);
 
 		const removedDomains = [...savedDomains].filter(
-			domain => !domains.has(domain) && !domain.startsWith('#'),
+			domain => !domains.has(domain) && !domain.startsWith('#')
 		);
 
 		if (newDomains.length > 0 || removedDomains.length > 0) {
@@ -127,7 +127,7 @@ const worker = async () => {
 			// Create or update everything.txt
 			await fs.writeFile(outputFile, `${newHeader}${outputString}`, 'utf8');
 			console.log(
-				`📝 Updated everything.txt with ${newDomains.length} new domains and removed ${removedDomains.length} domains (total: ${allDomainsSize.toLocaleString('en-US')}) in ${generatedFolder}\n`,
+				`📝 Updated everything.txt with ${newDomains.length} new domains and removed ${removedDomains.length} domains (total: ${allDomainsSize.toLocaleString('en-US')}) in ${generatedFolder}\n`
 			);
 		} else {
 			console.log(`✔️ everything.txt is up to date with ${allDomainsSize.toLocaleString('en-US')} domains\n`);
@@ -136,7 +136,7 @@ const worker = async () => {
 		console.warn(`⚠️ ${err.message}`);
 		await fs.writeFile(outputFile, `${newHeader}${newContent}`, 'utf8');
 		console.log(
-			`📝 Saved new file everything.txt with ${allDomainsSize.toLocaleString('en-US')} domains in ${generatedFolder}\n`,
+			`📝 Saved new file everything.txt with ${allDomainsSize.toLocaleString('en-US')} domains in ${generatedFolder}\n`
 		);
 	}
 };

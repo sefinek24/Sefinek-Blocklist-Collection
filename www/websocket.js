@@ -17,14 +17,14 @@ module.exports = wss => {
 			ws.send(JSON.stringify({
 				stats: {
 					requests: database.requests,
-					responses: database.responses,
+					responses: database.responses
 				},
 				uptime: formatTime.full(process.uptime()),
 				coll: {
 					createdAt: `${database.createdAt.toLocaleTimeString()}, ${database.createdAt.toLocaleDateString()}`,
-					updatedAt: `${database.updatedAt.toLocaleTimeString()}, ${database.updatedAt.toLocaleDateString()}`,
+					updatedAt: `${database.updatedAt.toLocaleTimeString()}, ${database.updatedAt.toLocaleDateString()}`
 				},
-				cpuUsage: `${cpuUsage}%`,
+				cpuUsage: `${cpuUsage}%`
 			}));
 		}, 2000);
 

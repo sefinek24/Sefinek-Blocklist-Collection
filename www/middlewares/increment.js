@@ -10,7 +10,7 @@ module.exports.requests = async (req, res, next) => {
 
 	try {
 		const updateQuery = {
-			$inc: { 'requests.all': 1 },
+			$inc: { 'requests.all': 1 }
 		};
 
 		if ((category && res.statusCode === 200) && url.endsWith('.txt') || url.endsWith('.conf')) {
@@ -33,7 +33,7 @@ module.exports.errors = async status => {
 	try {
 		if (status) {
 			update.$inc = {
-				[`responses.${status}`]: 1,
+				[`responses.${status}`]: 1
 			};
 		}
 

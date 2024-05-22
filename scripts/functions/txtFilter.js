@@ -13,6 +13,6 @@ module.exports = async (format, path, fs, relativePath, folderPath) => {
 		format,
 		allFiles,
 		txtFiles,
-		generatedPath,
+		generatedPath
 	};
 };

@@ -69,7 +69,7 @@ const pages = [
 	'Why_should_I_block_Valorant',
 
 	'How_to_install_Pi-hole',
-	'How_to_install_Unbound_for_Pi-hole',
+	'How_to_install_Unbound_for_Pi-hole'
 ];
 
 router.use('/viewer/:category', async (req, res) => {
@@ -98,7 +98,7 @@ router.use('/viewer/:category', async (req, res) => {
 			title: mdFile.match(TITLE_REGEX) ? mdFile.match(TITLE_REGEX)[1] : 'Unknown title',
 			desc: mdFile.match(DESC_REGEX) ? mdFile.match(DESC_REGEX)[1] : undefined,
 			tags: mdFile.match(TAGS_REGEX) ? mdFile.match(TAGS_REGEX)[1] : undefined,
-			canonical: mdFile.match(CANONICAL_REGEX) ? mdFile.match(CANONICAL_REGEX)[1].trim() : undefined,
+			canonical: mdFile.match(CANONICAL_REGEX) ? mdFile.match(CANONICAL_REGEX)[1].trim() : undefined
 		});
 	} catch (err) {
 		console.error(err);

@@ -8,7 +8,7 @@ const getDate = () => {
 		timestamp: now.ts,
 		now: now.toISO(),
 		full: now.toLocaleString(DateTime.DATETIME_FULL),
-		timezone,
+		timezone
 	};
 };
 
