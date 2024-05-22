@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>📝 Default blocklist collection</h1>
+    <h1>📝 Default blocklist collection for Unbound</h1>
     <p>
         📄 » <b>Format: local-zone: "domain.tld." always_nxdomain</b><br>
         📥 » <b>Last update: 18.05.2024 / DD.MM.YYYY</b><br>
