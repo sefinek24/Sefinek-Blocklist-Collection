@@ -1,7 +1,7 @@
 <div align="center">
     <h1>📝 Default blocklist collection</h1>
     <p>
-        📄 » <b>Format: Dnsmasq - server=/[Domain]/</b><br>
+        📄 » <b>Format: server=/domain.tld/</b><br>
         📥 » <b>Last update: 18.05.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
