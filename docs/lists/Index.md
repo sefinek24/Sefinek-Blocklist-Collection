@@ -13,7 +13,7 @@
 ### [**127.0.0.1** domain.tld](md/127.0.0.1.md)
 ### [**dnsmasq:** server=/domain.tld/](md/dnsmasq.md)
 ### [**Hosts (No IP):** domain.tld](md/noip.md)
-### [**RPZ:* domain.tld CNAME .](md/RPZ.md)
+### [**RPZ:** domain.tld CNAME .](md/RPZ.md)
 ### [**Unbound:** local-zone: "domain.tld." always_nxdomain](md/Unbound.md)
 
 
