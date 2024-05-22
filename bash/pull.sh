@@ -29,7 +29,7 @@ mkdir -p "$logs_dir"
         echo
 
         if git fetch && git pull; then
-            echo -e "\nSuccess! Date: $(date +'%Y-%m-%d %H:%M:%S')"
+            echo -e "\nSuccess! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
         else
             echo -e "\nError during Git operations!"
         fi
