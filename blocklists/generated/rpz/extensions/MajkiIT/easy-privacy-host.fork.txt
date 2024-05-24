@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716340931596 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716513732515 43200 3600 259200 300
   NS  localhost.
 ;
-;202405220303
+;202405240303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -68103,6 +68103,8 @@ averydennison.com CNAME .
 *.averydennison.com CNAME .
 avladies.de CNAME .
 *.avladies.de CNAME .
+b-cdn.net CNAME .
+*.b-cdn.net CNAME .
 bababam.com CNAME .
 *.bababam.com CNAME .
 badeladies.de CNAME .
@@ -68871,6 +68873,8 @@ precisely.com CNAME .
 *.precisely.com CNAME .
 wisc.edu CNAME .
 *.wisc.edu CNAME .
+prepr.io CNAME .
+*.prepr.io CNAME .
 engie.fr CNAME .
 *.engie.fr CNAME .
 prodesa.com CNAME .
@@ -71165,6 +71169,8 @@ actonservice.com CNAME .
 *.actonservice.com CNAME .
 entertainmentearth.com CNAME .
 *.entertainmentearth.com CNAME .
+startpage.com CNAME .
+*.startpage.com CNAME .
 vodafone.de CNAME .
 *.vodafone.de CNAME .
 vfghe.com CNAME .
@@ -71759,6 +71765,8 @@ stctv.com CNAME .
 *.stctv.com CNAME .
 vipa.me CNAME .
 *.vipa.me CNAME .
+graindata.com CNAME .
+*.graindata.com CNAME .
 tetrapak.com CNAME .
 *.tetrapak.com CNAME .
 viessmann.ca CNAME .
