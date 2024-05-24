@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716387744745 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716560578161 43200 3600 259200 300
   NS  localhost.
 ;
 ; Prigent-Ads, parsed and mirrored by https://firebog.net
-; Updated 22MAY24 from https://dsi.ut-capitole.fr/blacklists/download/publicite.tar.gz
+; Updated 24MAY24 from https://dsi.ut-capitole.fr/blacklists/download/publicite.tar.gz
 ; If your issue IS STILL PRESENT when using uBlock/ABP/etc, you should request a correction at https://dsi.ut-capitole.fr/cgi-bin/squidguard_modify.cgi
 0nlinemeds.com CNAME .
 *.0nlinemeds.com CNAME .
