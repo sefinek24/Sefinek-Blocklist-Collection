@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716554319151 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716762083869 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Sun, 05 May 2024 19:21:23 GMT
-; entries:        3725
+; last updated:   Sun, 26 May 2024 20:05:29 GMT
+; entries:        3727
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -2688,6 +2688,8 @@ blizzard.com CNAME .
 *.blizzard.com CNAME .
 bbc.com CNAME .
 *.bbc.com CNAME .
+lhh.com CNAME .
+*.lhh.com CNAME .
 microsoftemail.com CNAME .
 *.microsoftemail.com CNAME .
 sonos.com CNAME .
@@ -6506,6 +6508,8 @@ disneydestinations.com CNAME .
 *.disneydestinations.com CNAME .
 visitorqueue.com CNAME .
 *.visitorqueue.com CNAME .
+x.co CNAME .
+*.x.co CNAME .
 taboola.com CNAME .
 *.taboola.com CNAME .
 mention-me.com CNAME .
