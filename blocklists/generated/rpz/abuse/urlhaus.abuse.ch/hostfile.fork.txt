@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716697630270 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716704921560 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-05-26 04:13:24 (UTC)                      ;
+; Last updated: 2024-05-26 06:18:06 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+qbgxl.com CNAME .
+*.qbgxl.com CNAME .
 1000uc.com CNAME .
 *.1000uc.com CNAME .
 miiyun.cn CNAME .
@@ -40,6 +42,8 @@ discreetshare.com CNAME .
 *.discreetshare.com CNAME .
 ewfiles.su CNAME .
 *.ewfiles.su CNAME .
+co.il CNAME .
+*.co.il CNAME .
 avastcsw.com CNAME .
 *.avastcsw.com CNAME .
 bitkiselurunsiparis.com CNAME .
@@ -66,8 +70,6 @@ com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
-chiptune.com CNAME .
-*.chiptune.com CNAME .
 nperm.net CNAME .
 *.nperm.net CNAME .
 coadymarine.com CNAME .
@@ -78,10 +80,12 @@ udashi.com CNAME .
 *.udashi.com CNAME .
 dax.estate CNAME .
 *.dax.estate CNAME .
-fuettertdasnetz.de CNAME .
-*.fuettertdasnetz.de CNAME .
+com.ar CNAME .
+*.com.ar CNAME .
 diclegrup.org CNAME .
 *.diclegrup.org CNAME .
+56a.com CNAME .
+*.56a.com CNAME .
 198424.com CNAME .
 *.198424.com CNAME .
 9xu.com CNAME .
@@ -98,12 +102,8 @@ pcclear.com CNAME .
 *.pcclear.com CNAME .
 caihong.com CNAME .
 *.caihong.com CNAME .
-doumaibiji.cn CNAME .
-*.doumaibiji.cn CNAME .
 pdf00.cn CNAME .
 *.pdf00.cn CNAME .
-com.br CNAME .
-*.com.br CNAME .
 enelltd.top CNAME .
 *.enelltd.top CNAME .
 exilum.com CNAME .
@@ -116,8 +116,6 @@ co.za CNAME .
 *.co.za CNAME .
 uludagbilisim.com CNAME .
 *.uludagbilisim.com CNAME .
-firstviewautoservice.com CNAME .
-*.firstviewautoservice.com CNAME .
 funletters.net CNAME .
 *.funletters.net CNAME .
 florenda.com CNAME .
@@ -136,26 +134,26 @@ hitstation.nl CNAME .
 *.hitstation.nl CNAME .
 hksswbhjd.com CNAME .
 *.hksswbhjd.com CNAME .
+homebrew.cx CNAME .
+*.homebrew.cx CNAME .
 oystergardening.net CNAME .
 *.oystergardening.net CNAME .
 vrcom7.com CNAME .
 *.vrcom7.com CNAME .
-hseda.com CNAME .
-*.hseda.com CNAME .
 oystergardening.net CNAME .
 *.oystergardening.net CNAME .
 ac.ug CNAME .
 *.ac.ug CNAME .
 hwthurmann.de CNAME .
 *.hwthurmann.de CNAME .
+ibllt.com CNAME .
+*.ibllt.com CNAME .
 immobilien-spektrum.de CNAME .
 *.immobilien-spektrum.de CNAME .
 imtoken8.cc CNAME .
 *.imtoken8.cc CNAME .
 imtokeon.com CNAME .
 *.imtokeon.com CNAME .
-indonesias.me CNAME .
-*.indonesias.me CNAME .
 invoicetrycloudflare.com CNAME .
 *.invoicetrycloudflare.com CNAME .
 oystergardening.net CNAME .
@@ -164,6 +162,8 @@ jeffdahlke.com CNAME .
 *.jeffdahlke.com CNAME .
 jhayesconsulting.com CNAME .
 *.jhayesconsulting.com CNAME .
+jobcity.com CNAME .
+*.jobcity.com CNAME .
 jobs-servers.com CNAME .
 *.jobs-servers.com CNAME .
 joccupationalscience.org CNAME .
@@ -178,20 +178,20 @@ lastimaners.ug CNAME .
 *.lastimaners.ug CNAME .
 laurabingham.org CNAME .
 *.laurabingham.org CNAME .
-lestandardsarl.com CNAME .
-*.lestandardsarl.com CNAME .
-lflsoftware.com CNAME .
-*.lflsoftware.com CNAME .
 oystergardening.net CNAME .
 *.oystergardening.net CNAME .
 yjjxz.com CNAME .
 *.yjjxz.com CNAME .
+ac.in CNAME .
+*.ac.in CNAME .
 licocojambamarketplace.com CNAME .
 *.licocojambamarketplace.com CNAME .
 lindnerelektroanlagen.de CNAME .
 *.lindnerelektroanlagen.de CNAME .
 linkvilleplayers.org CNAME .
 *.linkvilleplayers.org CNAME .
+livetrack.in CNAME .
+*.livetrack.in CNAME .
 foxesjoy.com CNAME .
 *.foxesjoy.com CNAME .
 com.cn CNAME .
@@ -202,6 +202,8 @@ marksidfgs.ug CNAME .
 *.marksidfgs.ug CNAME .
 mediaclubspot.com CNAME .
 *.mediaclubspot.com CNAME .
+meeweb.com CNAME .
+*.meeweb.com CNAME .
 co.za CNAME .
 *.co.za CNAME .
 microsecurityupdate.com CNAME .
@@ -216,6 +218,8 @@ nanoshield.pro CNAME .
 *.nanoshield.pro CNAME .
 xevo-host.de CNAME .
 *.xevo-host.de CNAME .
+noithaticon.vn CNAME .
+*.noithaticon.vn CNAME .
 timecheck.ug CNAME .
 *.timecheck.ug CNAME .
 okkolus.com CNAME .
@@ -264,20 +268,16 @@ servisaludocupacional.pe CNAME .
 *.110route.com CNAME .
 vivi.sg CNAME .
 *.vivi.sg CNAME .
-com.sg CNAME .
-*.com.sg CNAME .
 sportvision.app CNAME .
 *.sportvision.app CNAME .
 cz01.cn CNAME .
 *.cz01.cn CNAME .
 station-jup.org CNAME .
 *.station-jup.org CNAME .
+dinju.com CNAME .
+*.dinju.com CNAME .
 suakhoaketsattphcm.com CNAME .
 *.suakhoaketsattphcm.com CNAME .
-clz.kr CNAME .
-*.clz.kr CNAME .
-techniguitare.com CNAME .
-*.techniguitare.com CNAME .
 tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
 telegram.ninja CNAME .
@@ -296,8 +296,12 @@ com.br CNAME .
 *.com.br CNAME .
 co.za CNAME .
 *.co.za CNAME .
+twizt.net CNAME .
+*.twizt.net CNAME .
 unicorpbrunei.com CNAME .
 *.unicorpbrunei.com CNAME .
+universalmovies.top CNAME .
+*.universalmovies.top CNAME .
 co.network CNAME .
 *.co.network CNAME .
 veloutinebydelite.ro CNAME .
@@ -318,28 +322,24 @@ globallaborsupply.com CNAME .
 *.globallaborsupply.com CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
-ingonherbal.com CNAME .
-*.ingonherbal.com CNAME .
-maxmoney.com CNAME .
-*.maxmoney.com CNAME .
 merch-anim.fr CNAME .
 *.merch-anim.fr CNAME .
-moninediy.com CNAME .
-*.moninediy.com CNAME .
 pe.kr CNAME .
 *.pe.kr CNAME .
+opolis.io CNAME .
+*.opolis.io CNAME .
 reifenquick.de CNAME .
 *.reifenquick.de CNAME .
 rockcreekdds.com CNAME .
 *.rockcreekdds.com CNAME .
+galacticleads.com CNAME .
+*.galacticleads.com CNAME .
 saf-oil.ru CNAME .
 *.saf-oil.ru CNAME .
 sessosesso.it CNAME .
 *.sessosesso.it CNAME .
 starcountry.net CNAME .
 *.starcountry.net CNAME .
-sunglassesninja.com CNAME .
-*.sunglassesninja.com CNAME .
 synergyinnovationsgroup.com CNAME .
 *.synergyinnovationsgroup.com CNAME .
 tradeinsights.net CNAME .
@@ -350,14 +350,10 @@ ysbaojia.com CNAME .
 *.ysbaojia.com CNAME .
 xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
-shavsl.com CNAME .
-*.shavsl.com CNAME .
-hnggzyjy.cn CNAME .
-*.hnggzyjy.cn CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
 oystergardening.net CNAME .
 *.oystergardening.net CNAME .
-; Number of entries: 175
+; Number of entries: 173
