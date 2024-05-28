@@ -48,9 +48,11 @@ urls=(
   "https://blocklistproject.github.io/Lists/drugs.txt drugs/blocklistproject/drugs.fork.txt"
 
   ## Fake news
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-only/hosts fakenews/StevenBlack/hosts.fork.txt"
   "https://raw.githubusercontent.com/marktron/fakenews/master/fakenews fakenews/marktron/hosts.fork.txt"
 
   ## Gambling
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts gambling/StevenBlack/hosts.fork.txt"
   "https://blocklistproject.github.io/Lists/gambling.txt gambling/blocklistproject/hosts.fork.txt"
   "https://raw.githubusercontent.com/alsyundawy/TrustPositif/main/gambling_indonesia.txt gambling/TrustPositif/gambling-indonesia.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/gambling-hosts.txt gambling/MajkiIT/gambling-hosts.fork.txt"
@@ -80,6 +82,7 @@ urls=(
   "https://blocklistproject.github.io/Lists/piracy.txt piracy/blocklistproject/piracy.fork.txt"
 
   ## Porn
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts porn/StevenBlack/porn.fork.txt"
   "https://blocklistproject.github.io/Lists/porn.txt porn/blocklistproject/porn.fork.txt"
   "https://nsfw.oisd.nl porn/oisd/nsfw.fork.txt"
   "https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt porn/4skinSkywalker/hosts.fork.txt"
