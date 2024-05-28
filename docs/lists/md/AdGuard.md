@@ -29,7 +29,6 @@ https://blocklist.sefinek.net/generated/v1/adguard/ads/firebog/Admiral.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/firebog/Easylist.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/firebog/Prigent-Ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/jerryn70/GoodbyeAds.fork.txt
-https://blocklist.sefinek.net/generated/v1/adguard/ads/kboghdady/youtubelist.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/MajkiIT/SmartTV-ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/r-a-y/AdguardMobileAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/ads/sefinek.hosts.txt

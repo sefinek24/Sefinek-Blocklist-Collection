@@ -17,7 +17,6 @@ While ads can be a source of revenue for content creators and app developers, th
 
 Here are some URLs associated with these domains that you can block using Pi-hole:
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/blocklistproject/youtube.fork.txt
-- https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/kboghdady/youtubelist.fork.txt
 
 
 <hr>
