@@ -1,3 +1,12 @@
+## Update v0.16.0 - 28.05.2024
+1. Removed `ads/kboghdady/youtubelist.fork.txt` from the lists.
+2. Added:
+    - `fakenews/StevenBlack/hosts.fork.txt`
+    - `gambling/StevenBlack/hosts.fork.txt`
+    - `porn/StevenBlack/porn.fork.txt`
+3. Pixiv will now be `checked` by default in the blocklist generator.
+4. Other improvements.
+
 ## Update v0.15.1 - 22.05.2024
 1. Updated all dependencies.
 2. Updated Eslint to version 9.
