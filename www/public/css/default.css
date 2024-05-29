@@ -2,27 +2,30 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Calibri, sans-serif;
+    font-family: 'Calibri', sans-serif;
     background-color: #070606;
 }
 
-/* h */
-h1 {
+/* Header styling */
+h1, h2 {
     margin: 0;
+}
+
+h1 {
     padding-bottom: 12px;
 }
 
 h2 {
-    margin: 0 0 4px;
+    margin-bottom: 5px!important;
     font-size: 30px;
     text-align: center;
 }
 
-/* a */
+/* Link styling */
 a {
     color: #00a8fc;
     text-decoration: none;
-    transition:.1s;
+    transition: 0.1s;
 }
 
 a:hover {
@@ -35,19 +38,16 @@ a:active {
     text-decoration: none;
 }
 
-/* Fonts */
+/* Custom fonts */
 @font-face {
     font-family: "Cascadia Mono";
-    src: url("/fonts/CascadiaCode-2111.01/woff2/CascadiaMono.woff2") format("woff"),
-    url("/fonts/CascadiaCode-2111.01/static/CascadiaMono-Regular.otf") format("opentype");
+    src: url('/fonts/CascadiaCode-2111.01/woff2/CascadiaMono.woff2') format('woff2'),
+    url('/fonts/CascadiaCode-2111.01/static/CascadiaMono-Regular.otf') format('opentype');
 }
-
 
 /* Cover section styling */
 .cover {
-    background-image: url('/images/bg.jpg');
-    background-size: cover;
-    background-position: center;
+    background: url('/images/bg.jpg') center/cover no-repeat;
     min-height: 100vh;
     text-align: center;
     color: #fff;
@@ -58,10 +58,8 @@ a:active {
     align-items: center;
 }
 
-.cover-text:not(#cover-header) {
+.cover-text {
     font-family: "Cascadia Mono", sans-serif;
-    margin-left: 12px;
-    margin-right: 12px;
     text-align: center;
     text-shadow: 0 0 4px #000;
 }
@@ -71,7 +69,7 @@ a:active {
 }
 
 .cover-text div {
-    margin: 0 0 24px;
+    margin-bottom: 24px;
 }
 
 button {
@@ -85,24 +83,20 @@ button {
     transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 0 4px rgba(0, 10, 24, 0.66);
     backdrop-filter: blur(2px);
-    margin: 6px
+    margin: 6px;
 }
 
 button:hover {
     background: linear-gradient(90deg, rgba(0, 10, 24, 0.45), rgba(0, 10, 24, 0.7));
     transform: scale(1.05);
     box-shadow: 0 0 7px rgba(0, 10, 24, 0.66);
-    backdrop-filter: blur(6px);
-    border-radius: 10px;
 }
 
 button:active {
     background: rgba(0, 10, 24, 0.2);
     transform: scale(0.98);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(2px);
 }
-
 
 /* Navigation menu styling */
 .navbar {
@@ -110,10 +104,8 @@ button:active {
     position: fixed;
     top: 0;
     left: 0;
-    transform: none;
     width: 100%;
     z-index: 9999;
-    border-radius: 0;
     backdrop-filter: blur(5px);
 }
 
@@ -136,7 +128,6 @@ button:active {
     padding: 10px 20px;
     text-shadow: none;
     border-radius: 20px;
-    transition: background-color 0.3s, box-shadow 0.2s;
 }
 
 .navbar a:hover {
@@ -154,14 +145,13 @@ button:active {
     backdrop-filter: blur(6px);
 }
 
-
 /* Menu toggle button */
 .menu-toggle {
     display: none;
     position: fixed;
     top: 25px;
     right: 1px;
-    background: linear-gradient(180deg, rgba(11, 121, 191, 0.1), rgba(11, 121, 191, 0.14));;
+    background: linear-gradient(180deg, rgba(11, 121, 191, 0.1), rgba(11, 121, 191, 0.14));
     color: #fff;
     border: none;
     border-radius: 12px;
@@ -170,18 +160,15 @@ button:active {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 /* Content section styling */
 .content {
     color: #fff;
     padding: 20px;
 }
 
-
 /* Container styling */
 .container-stats {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-end;
@@ -189,18 +176,16 @@ button:active {
 
 .container-stats > div {
     flex: 1 0 250px;
-    margin-right: 7px;
-    margin-bottom: 7px;
+    margin: 7px;
     text-align: center;
 }
-
 
 .container-box {
     max-width: 900px;
     padding: 20px;
     border: 3px solid rgb(30, 31, 34);
     border-radius: 10px;
-    background-color: #121215;
+    background-color: #101011;
     text-align: center;
     box-shadow: 0 0 10px rgba(30, 31, 34, 0.86);
     margin: 0 auto 40px;
@@ -210,17 +195,14 @@ button:active {
     font-size: 17px;
 }
 
-
 /* Headers */
 .header-text {
     text-align: center;
-    padding-bottom: 32px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-bottom: 28px;
+    margin: 0 10px;
     font-size: 17px;
-    color: #fff
+    color: #fff;
 }
-
 
 /* Responsive styles for phones */
 @media (max-width: 1235px) {
@@ -231,7 +213,6 @@ button:active {
         background-color: rgba(0, 0, 0, 0.76);
         width: 100%;
         z-index: 1;
-        padding: 0;
         height: 0;
         overflow: hidden;
     }
@@ -247,8 +228,6 @@ button:active {
     }
 
     .navbar ul a {
-        text-decoration: none;
-        color: #fff;
         font-size: 1.1rem;
         padding: 10px 17px;
         border-radius: 18px;
@@ -258,8 +237,13 @@ button:active {
         flex: 0!important;
     }
 
-    #category-big {font-size: 23px!important}
-    #category-small {font-size: 22px!important}
+    #category-big {
+        font-size: 23px!important;
+    }
+
+    #category-small {
+        font-size: 22px!important;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -273,7 +257,7 @@ button:active {
 
     button {
         font-size: 1rem;
-        margin: 5px
+        margin: 5px;
     }
 
     .header-text {
@@ -291,7 +275,7 @@ button:active {
     }
 
     button {
-        margin: 3px
+        margin: 3px;
     }
 
     .container-text {
@@ -306,7 +290,6 @@ button:active {
 @media (max-width: 425px) {
     .cover-text {
         font-size: 14px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 0 5px;
     }
 }
