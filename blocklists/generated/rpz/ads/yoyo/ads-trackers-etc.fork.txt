@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716762083869 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717021349687 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Sun, 26 May 2024 20:05:29 GMT
-; entries:        3727
+; last updated:   Wed, 29 May 2024 22:00:25 GMT
+; entries:        3729
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -4314,6 +4314,8 @@ leadboltads.net CNAME .
 *.leadboltads.net CNAME .
 leadclick.com CNAME .
 *.leadclick.com CNAME .
+leadinfo.net CNAME .
+*.leadinfo.net CNAME .
 leadingedgecash.com CNAME .
 *.leadingedgecash.com CNAME .
 leadplace.fr CNAME .
@@ -6524,6 +6526,8 @@ opecloud.com CNAME .
 *.opecloud.com CNAME .
 tiqcdn.com CNAME .
 *.tiqcdn.com CNAME .
+tagtoo.com CNAME .
+*.tagtoo.com CNAME .
 tagular.com CNAME .
 *.tagular.com CNAME .
 tailsweep.com CNAME .
