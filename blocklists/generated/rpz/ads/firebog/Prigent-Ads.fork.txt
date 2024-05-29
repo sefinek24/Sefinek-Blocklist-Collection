@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716819721344 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1716992502131 43200 3600 259200 300
   NS  localhost.
 ;
 ; Prigent-Ads, parsed and mirrored by https://firebog.net
-; Updated 27MAY24 from https://dsi.ut-capitole.fr/blacklists/download/publicite.tar.gz
+; Updated 29MAY24 from https://dsi.ut-capitole.fr/blacklists/download/publicite.tar.gz
 ; If your issue IS STILL PRESENT when using uBlock/ABP/etc, you should request a correction at https://dsi.ut-capitole.fr/cgi-bin/squidguard_modify.cgi
 0nlinemeds.com CNAME .
 *.0nlinemeds.com CNAME .
@@ -1639,6 +1639,8 @@ scifi.com CNAME .
 *.scifi.com CNAME .
 servebom.com CNAME .
 *.servebom.com CNAME .
+servenobid.com CNAME .
+*.servenobid.com CNAME .
 sexinyourcity.com CNAME .
 *.sexinyourcity.com CNAME .
 shizmoo.com CNAME .
@@ -7469,5 +7471,3 @@ zxxds.net CNAME .
 *.zxxds.net CNAME .
 zy16eoat1w.com CNAME .
 *.zy16eoat1w.com CNAME .
-servenobid.com CNAME .
-*.servenobid.com CNAME .
