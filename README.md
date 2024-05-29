@@ -27,7 +27,7 @@ Unfortunately, **my home internet connection doesn't allow me to host a blocklis
 > https://paypal.me/sefinek (email for PayPal: contact@sefinek.net)
 
 
-## 📝 Information
+## 📝 More information
 Visit the official website of the project [blocklist.sefinek.net](https://blocklist.sefinek.net) to get more details.
 
 
@@ -38,7 +38,7 @@ You have two options for acquiring the blocklist.
 This may be suitable for those who prefer a quick and straightforward solution without the need for customization.
 
 
-## ❌ How to Report a False Positive?
+## ❌ How to Report a False Positives?
 You can report a false positive by creating a new [Issue](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues), sending me a message on [Discord](https://sefinek.net), or through [email](https://sefinek.net).
 Within 48 hours, I will add the domain or subdomain to the [whitelist](whitelists/main.txt).
 Shortly thereafter, the false positive will be automatically removed from the blocklist via [GitHub Actions](.github/workflows/generate-blocklists.yml).
