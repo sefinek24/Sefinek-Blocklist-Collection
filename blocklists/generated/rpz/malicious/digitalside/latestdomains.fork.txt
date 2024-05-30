@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717050508182 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717057691741 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -11,7 +11,7 @@ $TTL 300
 ; PGP fingerprint: 0B4C F801 E8FF E9A3 A602  D2C7 9C36 93B2 30B3 1BDA ;
 ; Every link reported should be considered harmefull and should       ;
 ; result in an unwanted malware download. Use this file carefully    ;
-; Generated at: 2024-05-30 08:13:31                                   ;
+; Generated at: 2024-05-30 09:08:26                                   ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 dyndns.org CNAME .
 *.dyndns.org CNAME .
@@ -37,8 +37,6 @@ dweb.link CNAME .
 *.dweb.link CNAME .
 dweb.link CNAME .
 *.dweb.link CNAME .
-cf-ipfs.com CNAME .
-*.cf-ipfs.com CNAME .
 dweb.link CNAME .
 *.dweb.link CNAME .
 pty.su CNAME .
