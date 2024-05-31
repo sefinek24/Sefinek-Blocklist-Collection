@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716945860106 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717118557769 43200 3600 259200 300
   NS  localhost.
 ;
-;202405290303
+;202405310303
 ; Adguard Mobile Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -399,8 +399,6 @@ waze.com CNAME .
 *.waze.com CNAME .
 advombat.ru CNAME .
 *.advombat.ru CNAME .
-adwods.com CNAME .
-*.adwods.com CNAME .
 hicloud.com CNAME .
 *.hicloud.com CNAME .
 youku.com CNAME .
