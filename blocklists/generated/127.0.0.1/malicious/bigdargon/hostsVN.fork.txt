@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 22 May 2024 15:02 UTC+7
-# Version: 2405221502
-# Blocked: 20,144 domains
+# Last modified: 01 Jun 2024 23:15 UTC+7
+# Version: 2406012315
+# Blocked: 20,164 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11,7 +11,6 @@
 # =====================================================
 # --- Group block ---
 #[apple]
-127.0.0.1 advertising.apple.com
 127.0.0.1 api-adservices.apple.com
 127.0.0.1 books-analytics-events.apple.com
 127.0.0.1 metrics.icloud.com
@@ -319,12 +318,7 @@
 127.0.0.1 c.bing.com
 #[amazon.com]
 127.0.0.1 aan.amazon.com
-127.0.0.1 aax-us-east-retail-direct.amazon.com
-127.0.0.1 advertising-api-eu.amazon.com
-127.0.0.1 fls-na.amazon.com
-127.0.0.1 rcm-images.amazon.com
-127.0.0.1 rcm.amazon.com
-127.0.0.1 uedata.amazon.com
+127.0.0.1 mads.amazon.com
 #[device-metrics-*.amazon.com]
 127.0.0.1 device-metrics-us-2.amazon.com
 127.0.0.1 device-metrics-us.amazon.com
@@ -510,11 +504,6 @@
 127.0.0.1 na.ads.yahoo.com
 127.0.0.1 tearsheet-stg.ads.yahoo.com
 127.0.0.1 tp.ads.yahoo.com
-#[advertising.yahoo.com]
-127.0.0.1 advertising.yahoo.com
-127.0.0.1 in.advertising.yahoo.com
-127.0.0.1 sea.advertising.yahoo.com
-127.0.0.1 uk.advertising.yahoo.com
 #[fc.yahoo.com]
 127.0.0.1 all.fc.yahoo.com
 127.0.0.1 fc.yahoo.com
@@ -2970,7 +2959,6 @@
 #[yandex.ru]
 127.0.0.1 adfstat.yandex.ru
 127.0.0.1 adsdk.yandex.ru
-127.0.0.1 advertising.yandex.ru
 127.0.0.1 amc.yandex.ru
 127.0.0.1 an.yandex.ru
 127.0.0.1 awaps.yandex.ru
@@ -4920,8 +4908,10 @@
 127.0.0.1 ad.gt
 127.0.0.1 ads.ad.gt
 127.0.0.1 cdn.ad.gt
+127.0.0.1 cdn.hadron.ad.gt
 127.0.0.1 ds.ad.gt
 127.0.0.1 f2.ad.gt
+127.0.0.1 id.hadron.ad.gt
 127.0.0.1 p.ad.gt
 127.0.0.1 p2.ad.gt
 127.0.0.1 pixels.ad.gt
@@ -11271,6 +11261,7 @@
 127.0.0.1 ads.livetv765.me
 127.0.0.1 ads.livetv782.me
 127.0.0.1 ads.livetv785.me
+127.0.0.1 ads.livetv787.me
 #[company-target.com]
 127.0.0.1 company-target.com
 127.0.0.1 api-staging.company-target.com
@@ -13664,6 +13655,7 @@
 127.0.0.1 stats.bizweb.vn
 127.0.0.1 stats.dongphim.net
 127.0.0.1 stats.hstatic.net
+127.0.0.1 stats.osd.vn
 127.0.0.1 stats.petrotimes.vn
 127.0.0.1 stats.tamdiem247.com
 127.0.0.1 stats.vietnammoi.vn
@@ -13770,6 +13762,8 @@
 127.0.0.1 1phads.com
 127.0.0.1 207.net
 127.0.0.1 228tuchuang.com
+127.0.0.1 2449march2024.com
+127.0.0.1 2475april2024.com
 127.0.0.1 247media.com
 127.0.0.1 24log.com
 127.0.0.1 24log.de
@@ -13842,6 +13836,7 @@
 127.0.0.1 abqguldudbi.com
 127.0.0.1 abqhafpada.com
 127.0.0.1 abqlultasvf.com
+127.0.0.1 abqnupogcwhi.com
 127.0.0.1 abroad-ad.kingsoft-office-service.com
 127.0.0.1 abruptroad.com
 127.0.0.1 absentstream.com
@@ -14842,6 +14837,7 @@
 127.0.0.1 anymedia.lv
 127.0.0.1 anymoresentencevirgin.com
 127.0.0.1 anywaybreeches.com
+127.0.0.1 ap2h9d2g3.com
 127.0.0.1 aparvibices.com
 127.0.0.1 apathetictheory.com
 127.0.0.1 apcawxgpon.com
@@ -15317,6 +15313,7 @@
 127.0.0.1 blueswordksh.com
 127.0.0.1 bluewhaleweb.com
 127.0.0.1 bluntlywrinkly.com
+127.0.0.1 blurbreimbursetrombone.com
 127.0.0.1 blushingbeast.com
 127.0.0.1 blushingboundary.com
 127.0.0.1 blushpreface.com
@@ -15437,6 +15434,7 @@
 127.0.0.1 bukash2jf8jfpw09.com
 127.0.0.1 bulbbait.com
 127.0.0.1 buleor.com
+127.0.0.1 bullionglidingscuttle.com
 127.0.0.1 bullionyield.com
 127.0.0.1 bullseye.backbeatmedia.com
 127.0.0.1 bulrev.com
@@ -15566,6 +15564,7 @@
 127.0.0.1 cdn.concert.io
 127.0.0.1 cdn.easyads28.mobi
 127.0.0.1 cdn.exmarketplace.com
+127.0.0.1 cdn.hadronid.net
 127.0.0.1 cdn.house
 127.0.0.1 cdn.itskiddoan.club
 127.0.0.1 cdn.lumupu.xyz
@@ -15650,6 +15649,7 @@
 127.0.0.1 ciksolre.net
 127.0.0.1 cilsammwcblcv.com
 127.0.0.1 cineolesloth.com
+127.0.0.1 citadelpathstatue.com
 127.0.0.1 citronsstealed.website
 127.0.0.1 cityads.telus.net
 127.0.0.1 citygrid.com
@@ -15733,6 +15733,7 @@
 127.0.0.1 clkofafcbk.com
 127.0.0.1 clkrev.com
 127.0.0.1 clmcom.com
+127.0.0.1 clobberprocurertightwad.com
 127.0.0.1 clodderpickmaw.com
 127.0.0.1 cloisonprecool.uno
 127.0.0.1 cloisteredhydrant.com
@@ -16393,6 +16394,7 @@
 127.0.0.1 endshiptigrina.com
 127.0.0.1 enduingdama.space
 127.0.0.1 endurableshop.com
+127.0.0.1 enduresopens.com
 127.0.0.1 engagebdr.com
 127.0.0.1 engine.espace.netavenir.com
 127.0.0.1 enginenetwork.com
@@ -17068,6 +17070,7 @@
 127.0.0.1 hoanoola.net
 127.0.0.1 hockeyhavoc.com
 127.0.0.1 hoddlegamey.com
+127.0.0.1 holahupa.com
 127.0.0.1 hollekeamboina.com
 127.0.0.1 holshistoricbulky.com
 127.0.0.1 home2up.com
@@ -17819,6 +17822,7 @@
 127.0.0.1 matomy.com
 127.0.0.1 matqqagvkaaftr.com
 127.0.0.1 matrimonyfeudboss.com
+127.0.0.1 mattockpackall.com
 127.0.0.1 matzohshoey.com
 127.0.0.1 maulupoa.com
 127.0.0.1 maw5r7y9s9helley.com
@@ -18355,6 +18359,7 @@
 127.0.0.1 ojjbuxohmk.com
 127.0.0.1 ojjzpitr.com
 127.0.0.1 ojlkmijwemf.com
+127.0.0.1 ojlmkywcenhu.com
 127.0.0.1 ojooo.com
 127.0.0.1 ojqbnqdwycws.com
 127.0.0.1 ojtarsdukk.com
@@ -18594,6 +18599,7 @@
 127.0.0.1 parisjeroleinpg.com
 127.0.0.1 parkedcheerful.com
 127.0.0.1 parking.godaddy.com
+127.0.0.1 parrallforums.top
 127.0.0.1 parriedcubelet.top
 127.0.0.1 parsimoniouspolice.com
 127.0.0.1 partage-facile.com
@@ -18624,6 +18630,7 @@
 127.0.0.1 pbterra.com
 127.0.0.1 pc2ads.com
 127.0.0.1 pcash.imlive.com
+127.0.0.1 pcispotzera.com
 127.0.0.1 pcmclk.com
 127.0.0.1 pcoqraodmq.com
 127.0.0.1 pcsh-cpm.site
@@ -19150,6 +19157,7 @@
 127.0.0.1 reflushneuma.com
 127.0.0.1 refnippod.com
 127.0.0.1 refoldbyrlaw.com
+127.0.0.1 refpa4293501.top
 127.0.0.1 refraintsarcoma.com
 127.0.0.1 refraintupaiid.com
 127.0.0.1 reglowgleyde.com
@@ -19382,6 +19390,7 @@
 127.0.0.1 scarofnght.com
 127.0.0.1 scashwl.com
 127.0.0.1 scatteredheat.com
+127.0.0.1 scenescrockery.com
 127.0.0.1 schoolboyfingernail.com
 127.0.0.1 schoonnonform.com
 127.0.0.1 scientiamobile.com
@@ -19458,6 +19467,7 @@
 127.0.0.1 sexystat.com
 127.0.0.1 sezwho.com
 127.0.0.1 sfiannzilgi.com
+127.0.0.1 sg-open-set-api.shenshiads.com
 127.0.0.1 sghehllds.com
 127.0.0.1 shakesuggestion.com
 127.0.0.1 shakyseat.com
@@ -19472,6 +19482,7 @@
 127.0.0.1 sharpsharkteeth.com
 127.0.0.1 shauptab.net
 127.0.0.1 shelfoka.com
+127.0.0.1 sheltermilligrammillions.com
 127.0.0.1 shelvesparticipate.com
 127.0.0.1 shestour.net
 127.0.0.1 shhxgqpaxvdjn.com
@@ -19908,6 +19919,7 @@
 127.0.0.1 tawdryson.com
 127.0.0.1 tawkinmotmot.digital
 127.0.0.1 taxedborley.com
+127.0.0.1 taxismaned.top
 127.0.0.1 tb.baimgfroggd.site
 127.0.0.1 tcads.net
 127.0.0.1 tcaochocskid.com
@@ -19971,6 +19983,7 @@
 127.0.0.1 thebugs.ws
 127.0.0.1 thecounter.com
 127.0.0.1 thedevband.com
+127.0.0.1 theekedgleamed.com
 127.0.0.1 theelrou.net
 127.0.0.1 theftcontractorphysique.com
 127.0.0.1 thelemontreeinn.com
@@ -20029,6 +20042,7 @@
 127.0.0.1 toateeli.net
 127.0.0.1 toawaups.net
 127.0.0.1 todacell.com
+127.0.0.1 todopick.com
 127.0.0.1 toeapesob.com
 127.0.0.1 toecircle.com
 127.0.0.1 tolyafbnjt9dedjj10.com
@@ -20149,6 +20163,7 @@
 127.0.0.1 trk4ppl.com
 127.0.0.1 trmit.com
 127.0.0.1 trotolhonor.com
+127.0.0.1 troubledcontradiction.com
 127.0.0.1 trtjigpsscmv9epe10.com
 127.0.0.1 truckstomatoes.com
 127.0.0.1 truculentrate.com
@@ -20324,6 +20339,7 @@
 127.0.0.1 v2s7q3m2o.com
 127.0.0.1 v6rxv5coo5.com
 127.0.0.1 vacationlodgingnetwork.com
+127.0.0.1 vacationmonday.com
 127.0.0.1 vaguiosfurors.top
 127.0.0.1 validclick.com
 127.0.0.1 valiumabaris.live
@@ -20396,6 +20412,7 @@
 127.0.0.1 viewlnk.com
 127.0.0.1 viewpoint.com
 127.0.0.1 viewwonder.com
+127.0.0.1 viewyentreat.guru
 127.0.0.1 vignerez.net
 127.0.0.1 vigorous-hurt.pro
 127.0.0.1 viiadr.com
@@ -20612,6 +20629,7 @@
 127.0.0.1 wondoads.de
 127.0.0.1 wontonssinuses.digital
 127.0.0.1 woovoree.net
+127.0.0.1 woozilyfifed.top
 127.0.0.1 wopsedoaltuwp.com
 127.0.0.1 wordsunbrief.tech
 127.0.0.1 woredi.com
@@ -21528,6 +21546,7 @@
 127.0.0.1 stat.microvirt.com
 127.0.0.1 stat2.openinstall.io
 127.0.0.1 stathat.com
+127.0.0.1 static-pixel.gliavideo.com
 127.0.0.1 static.intentarget.com
 127.0.0.1 static.leaddyno.com
 127.0.0.1 static.site24x7rum.com
