@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717118557769 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717291605545 43200 3600 259200 300
   NS  localhost.
 ;
-;202405310303
+;202406020303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -57155,6 +57155,8 @@ bankofamerica.com CNAME .
 *.bankofamerica.com CNAME .
 bdstatic.com CNAME .
 *.bdstatic.com CNAME .
+terabox.app CNAME .
+*.terabox.app CNAME .
 sheego.de CNAME .
 *.sheego.de CNAME .
 car2828.jp CNAME .
@@ -71547,6 +71549,10 @@ vtrtl.de CNAME .
 *.vtrtl.de CNAME .
 co.jp CNAME .
 *.co.jp CNAME .
+com.br CNAME .
+*.com.br CNAME .
+vturb.net CNAME .
+*.vturb.net CNAME .
 ikks.com CNAME .
 *.ikks.com CNAME .
 enuygun.com CNAME .
@@ -74289,6 +74295,8 @@ thomas-muenz.ru CNAME .
 *.thomas-muenz.ru CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
+xanalytics.vip CNAME .
+*.xanalytics.vip CNAME .
 toscane-boutique.fr CNAME .
 *.toscane-boutique.fr CNAME .
 daimaru-matsuzakaya.jp CNAME .
