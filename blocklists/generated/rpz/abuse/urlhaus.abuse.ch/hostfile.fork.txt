@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717440152669 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717446221084 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-06-03 18:24:24 (UTC)                      ;
+; Last updated: 2024-06-03 20:12:20 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -258,6 +258,8 @@ tengfeidn.com CNAME .
 *.tengfeidn.com CNAME .
 typoten.com CNAME .
 *.typoten.com CNAME .
+testdomain123123.shop CNAME .
+*.testdomain123123.shop CNAME .
 florenda.com CNAME .
 *.florenda.com CNAME .
 coachesinspain.com CNAME .
@@ -330,4 +332,4 @@ hnggzyjy.cn CNAME .
 *.hnggzyjy.cn CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
-; Number of entries: 160
+; Number of entries: 161
