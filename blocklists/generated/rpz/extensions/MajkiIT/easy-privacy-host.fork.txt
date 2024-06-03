@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717291605545 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717377811565 43200 3600 259200 300
   NS  localhost.
 ;
-;202406020303
+;202406030303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -21823,6 +21823,8 @@ indiatimes.com CNAME .
 *.indiatimes.com CNAME .
 ec-store.net CNAME .
 *.ec-store.net CNAME .
+eu-1-id5-sync.com CNAME .
+*.eu-1-id5-sync.com CNAME .
 microsoft.com CNAME .
 *.microsoft.com CNAME .
 samsung.com CNAME .
