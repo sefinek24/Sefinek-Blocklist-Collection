@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717576013787 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717583046080 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-06-05 08:19:26 (UTC)                      ;
+; Last updated: 2024-06-05 10:14:10 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -110,6 +110,8 @@ com.ar CNAME .
 *.com.ar CNAME .
 co.za CNAME .
 *.co.za CNAME .
+uludagbilisim.com CNAME .
+*.uludagbilisim.com CNAME .
 firstviewautoservice.com CNAME .
 *.firstviewautoservice.com CNAME .
 funletters.net CNAME .
@@ -198,8 +200,6 @@ opsdjs.ug CNAME .
 *.opsdjs.ug CNAME .
 com.br CNAME .
 *.com.br CNAME .
-org.pk CNAME .
-*.org.pk CNAME .
 polatfamilyengine.com CNAME .
 *.polatfamilyengine.com CNAME .
 posmicrosystems.com CNAME .
@@ -244,6 +244,8 @@ dinju.com CNAME .
 *.dinju.com CNAME .
 suakhoaketsattphcm.com CNAME .
 *.suakhoaketsattphcm.com CNAME .
+clz.kr CNAME .
+*.clz.kr CNAME .
 techniguitare.com CNAME .
 *.techniguitare.com CNAME .
 tecni-soft.com CNAME .
@@ -340,4 +342,4 @@ yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
-; Number of entries: 165
+; Number of entries: 166
