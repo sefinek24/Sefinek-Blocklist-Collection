@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717597424452 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717612075572 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,310
-; Updated: 6/5/2024  09:00 (9:00 AM CST)
+; Domains: 18,311
+; Updated: 6/5/2024  11:25 (11:25 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -11645,6 +11645,8 @@ adxnexus.com CNAME .
 *.adxnexus.com CNAME .
 adxoo.com CNAME .
 *.adxoo.com CNAME .
+opera.com CNAME .
+*.opera.com CNAME .
 xopom.com CNAME .
 *.xopom.com CNAME .
 adxpand.com CNAME .
