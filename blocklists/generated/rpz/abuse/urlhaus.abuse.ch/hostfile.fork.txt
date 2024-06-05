@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717591118612 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717597424452 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-06-05 12:34:09 (UTC)                      ;
+; Last updated: 2024-06-05 14:09:11 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -78,6 +78,8 @@ com.ar CNAME .
 *.com.ar CNAME .
 56a.com CNAME .
 *.56a.com CNAME .
+198424.com CNAME .
+*.198424.com CNAME .
 9xu.com CNAME .
 *.9xu.com CNAME .
 aginjector.com CNAME .
@@ -88,8 +90,6 @@ dnvk1.info CNAME .
 *.dnvk1.info CNAME .
 doggie-services.com CNAME .
 *.doggie-services.com CNAME .
-pcclear.com CNAME .
-*.pcclear.com CNAME .
 caihong.com CNAME .
 *.caihong.com CNAME .
 doumaibiji.cn CNAME .
@@ -104,8 +104,6 @@ com.cn CNAME .
 *.com.cn CNAME .
 exilum.com CNAME .
 *.exilum.com CNAME .
-alie3ksggg.com CNAME .
-*.alie3ksggg.com CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
 co.za CNAME .
@@ -154,8 +152,6 @@ joccupationalscience.org CNAME .
 *.joccupationalscience.org CNAME .
 jointings.org CNAME .
 *.jointings.org CNAME .
-karer.by CNAME .
-*.karer.by CNAME .
 karoonpc.com CNAME .
 *.karoonpc.com CNAME .
 lastimaners.ug CNAME .
@@ -338,6 +334,4 @@ international-med.com CNAME .
 *.international-med.com CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
-shavsl.com CNAME .
-*.shavsl.com CNAME .
-; Number of entries: 165
+; Number of entries: 162
