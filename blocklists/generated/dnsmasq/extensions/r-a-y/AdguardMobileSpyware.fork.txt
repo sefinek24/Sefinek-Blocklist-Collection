@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 06 May 2024 16:50:26 +0100
+# Last converted - Fri, 07 Jun 2024 05:19:11 +0100
 #
 server=/adeventtracker.spotify.com/
 server=/do-not-tracker.org/
@@ -120,6 +120,9 @@ server=/int.vaicore.xyz/
 server=/int.vlancaa.site/
 server=/int.vlancaa.fun/
 server=/tok.vaicore.xyz/
+server=/push-api.topaz-analytics.com/
+server=/analytics.wildlifestudios.com/
+server=/opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io/
 server=/log-verify.mob.com/
 server=/app-analytics-services.com/
 server=/sg.log.ulivetv.net/

@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716045866685 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717734400086 43200 3600 259200 300
   NS  localhost.
 ;
 ; AdguardMobileSpyware
 ;
 ; Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-; Last converted - Mon, 06 May 2024 16:50:26 +0100
+; Last converted - Fri, 07 Jun 2024 05:19:11 +0100
 ;
 spotify.com CNAME .
 *.spotify.com CNAME .
@@ -241,6 +241,12 @@ vlancaa.fun CNAME .
 *.vlancaa.fun CNAME .
 vaicore.xyz CNAME .
 *.vaicore.xyz CNAME .
+topaz-analytics.com CNAME .
+*.topaz-analytics.com CNAME .
+wildlifestudios.com CNAME .
+*.wildlifestudios.com CNAME .
+wildlife.io CNAME .
+*.wildlife.io CNAME .
 mob.com CNAME .
 *.mob.com CNAME .
 app-analytics-services.com CNAME .
