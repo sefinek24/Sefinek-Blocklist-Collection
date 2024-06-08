@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717798913298 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717885269721 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,9 +8,9 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 07 Jun 2024
+; Updated: 08 Jun 2024
 ; LatestVersion 24.01
-; Domain Count: 16103
+; Domain Count: 16105
 ;===============================================================
 0i0i0i0.com CNAME .
 *.0i0i0i0.com CNAME .
@@ -56,8 +56,6 @@ $TTL 300
 *.2iiyrxk0.com CNAME .
 2mdn.net CNAME .
 *.2mdn.net CNAME .
-2mdnsys.com CNAME .
-*.2mdnsys.com CNAME .
 2o7.net CNAME .
 *.2o7.net CNAME .
 33across.com CNAME .
@@ -552,8 +550,6 @@ com.mt CNAME .
 *.com.mt CNAME .
 nordcurrent.com CNAME .
 *.nordcurrent.com CNAME .
-papertreedigital.com CNAME .
-*.papertreedigital.com CNAME .
 pinger.com CNAME .
 *.pinger.com CNAME .
 zalo.me CNAME .
@@ -680,8 +676,6 @@ adsninja.ca CNAME .
 *.adsninja.ca CNAME .
 adsonar.com CNAME .
 *.adsonar.com CNAME .
-adsoptimal.com CNAME .
-*.adsoptimal.com CNAME .
 haberturk.com CNAME .
 *.haberturk.com CNAME .
 adsparc.com CNAME .
@@ -1388,8 +1382,6 @@ easebar.com CNAME .
 *.easebar.com CNAME .
 appdynamics.com CNAME .
 *.appdynamics.com CNAME .
-appendixwarmingauthors.com CNAME .
-*.appendixwarmingauthors.com CNAME .
 apphud.com CNAME .
 *.apphud.com CNAME .
 appier.net CNAME .
@@ -2226,8 +2218,6 @@ clkfeed.com CNAME .
 *.clkfeed.com CNAME .
 clkmon.com CNAME .
 *.clkmon.com CNAME .
-clkpback3.com CNAME .
-*.clkpback3.com CNAME .
 clksite.com CNAME .
 *.clksite.com CNAME .
 geniex.com CNAME .
@@ -8642,6 +8632,8 @@ mkt11811.com CNAME .
 *.mkt11811.com CNAME .
 mkt11812.com CNAME .
 *.mkt11812.com CNAME .
+mkt11813.com CNAME .
+*.mkt11813.com CNAME .
 mkt11814.com CNAME .
 *.mkt11814.com CNAME .
 mkt11815.com CNAME .
@@ -8962,6 +8954,8 @@ mkt11973.com CNAME .
 *.mkt11973.com CNAME .
 mkt11975.com CNAME .
 *.mkt11975.com CNAME .
+mkt11976.com CNAME .
+*.mkt11976.com CNAME .
 mkt11978.com CNAME .
 *.mkt11978.com CNAME .
 mkt11979.com CNAME .
@@ -9012,6 +9006,8 @@ mkt12013.com CNAME .
 *.mkt12013.com CNAME .
 mkt12014.com CNAME .
 *.mkt12014.com CNAME .
+mkt12018.com CNAME .
+*.mkt12018.com CNAME .
 mkt1202.com CNAME .
 *.mkt1202.com CNAME .
 mkt12022.com CNAME .
@@ -9048,14 +9044,28 @@ mkt12047.com CNAME .
 *.mkt12047.com CNAME .
 mkt1205.com CNAME .
 *.mkt1205.com CNAME .
+mkt12052.com CNAME .
+*.mkt12052.com CNAME .
+mkt12053.com CNAME .
+*.mkt12053.com CNAME .
 mkt12056.com CNAME .
 *.mkt12056.com CNAME .
+mkt12058.com CNAME .
+*.mkt12058.com CNAME .
 mkt1206.com CNAME .
 *.mkt1206.com CNAME .
+mkt12060.com CNAME .
+*.mkt12060.com CNAME .
 mkt12062.com CNAME .
 *.mkt12062.com CNAME .
+mkt12064.com CNAME .
+*.mkt12064.com CNAME .
+mkt12066.com CNAME .
+*.mkt12066.com CNAME .
 mkt1207.com CNAME .
 *.mkt1207.com CNAME .
+mkt12076.com CNAME .
+*.mkt12076.com CNAME .
 mkt1208.com CNAME .
 *.mkt1208.com CNAME .
 mkt1209.com CNAME .
@@ -29576,8 +29586,6 @@ heathrow.com CNAME .
 *.heathrow.com CNAME .
 heathrowexpress.com CNAME .
 *.heathrowexpress.com CNAME .
-hebprepaid.com CNAME .
-*.hebprepaid.com CNAME .
 hemapedia.jp CNAME .
 *.hemapedia.jp CNAME .
 herbalife.com CNAME .
@@ -29726,8 +29734,6 @@ lifetime.life CNAME .
 *.lifetime.life CNAME .
 lizearle.com CNAME .
 *.lizearle.com CNAME .
-loblaws.ca CNAME .
-*.loblaws.ca CNAME .
 loewshotels.com CNAME .
 *.loewshotels.com CNAME .
 lordabbett.com CNAME .
@@ -29824,8 +29830,6 @@ moving.com CNAME .
 *.moving.com CNAME .
 mphasis.com CNAME .
 *.mphasis.com CNAME .
-mrrooter.com CNAME .
-*.mrrooter.com CNAME .
 msg.com CNAME .
 *.msg.com CNAME .
 mtu-solutions.com CNAME .
