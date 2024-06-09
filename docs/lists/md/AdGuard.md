@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for AdGuard</h1>
     <p>
         📄 » <b>Format: ||domain.tld^</b><br>
-        📥 » <b>Last update: 18.05.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 09.06.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -43,7 +43,6 @@ https://blocklist.sefinek.net/generated/v1/adguard/crypto/cryptojacking/zerodot1
 https://blocklist.sefinek.net/generated/v1/adguard/dating-services/developerdan/extended.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt
-https://blocklist.sefinek.net/generated/v1/adguard/extensions/cbuijs/adult-domains-24733.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/deathbybandaid/CountryCodesLists-France.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/deathbybandaid/ParsedBlacklists-EasyList-Liste-FR.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/deathbybandaid/ParsedBlacklists-EasyList.fork.txt

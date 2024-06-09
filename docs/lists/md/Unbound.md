@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for Unbound</h1>
     <p>
         📄 » <b>Format: local-zone: "domain.tld." always_nxdomain</b><br>
-        📥 » <b>Last update: 18.05.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 09.06.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -43,7 +43,6 @@ https://blocklist.sefinek.net/generated/v1/unbound/crypto/cryptojacking/zerodot1
 https://blocklist.sefinek.net/generated/v1/unbound/dating-services/developerdan/extended.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/dead-domains/jarelllama/dead-domains.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/drugs/blocklistproject/drugs.fork.conf
-https://blocklist.sefinek.net/generated/v1/unbound/extensions/cbuijs/adult-domains-24733.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/extensions/deathbybandaid/CountryCodesLists-France.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/extensions/deathbybandaid/ParsedBlacklists-EasyList-Liste-FR.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/extensions/deathbybandaid/ParsedBlacklists-EasyList.fork.conf
