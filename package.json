@@ -1,7 +1,7 @@
 {
   "name": "sefinek-blocklist-collection",
   "version": "0.16.0",
-  "description": "The best lists for your DNS server or ad blocker (Pi-hole, AdGuard, etc.). Your first and last reliable source, with no false positives and its own whitelist.",
+  "description": "The best lists for your DNS server or any other blocker. Your first and last reliable list with minimal false alarms.",
   "keywords": [
     "adguard",
     "adguard-blocklist",
@@ -48,7 +48,7 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "express-autoindex": "^1.4.2",
-    "express-rate-limit": "^7.3.0",
+    "express-rate-limit": "^7.3.1",
     "express-timeout-handler": "^2.2.2",
     "helmet": "^7.1.0",
     "ip": "^2.0.1",
