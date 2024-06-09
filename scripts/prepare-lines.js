@@ -34,7 +34,7 @@ const isPrivateIP = ip => {
 	}
 };
 
-const processFile = async (filePath) => {
+const processFile = async filePath => {
 	try {
 		let fileContents = await readFile(filePath, 'utf8');
 
@@ -120,8 +120,8 @@ const run = async () => {
 	try {
 		console.log('🔍 Preparing lines in the blocklists/templates directory...');
 		await processDirectory(join(__dirname, '..', 'blocklists', 'templates'));
-	} catch (error) {
-		console.error(error);
+	} catch (err) {
+		console.error(err);
 	}
 };
 
