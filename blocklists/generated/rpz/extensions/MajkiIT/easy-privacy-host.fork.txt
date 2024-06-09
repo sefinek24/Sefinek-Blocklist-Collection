@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717723535187 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1717900859688 43200 3600 259200 300
   NS  localhost.
 ;
-;202406070303
+;202406090303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -14809,6 +14809,8 @@ vodafone.com CNAME .
 *.vodafone.com CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
+xenforo.com CNAME .
+*.xenforo.com CNAME .
 cloudwp.io CNAME .
 *.cloudwp.io CNAME .
 infor.com CNAME .
@@ -69511,6 +69513,8 @@ bdi-services.de CNAME .
 *.bdi-services.de CNAME .
 watlow.com CNAME .
 *.watlow.com CNAME .
+coomeet.com CNAME .
+*.coomeet.com CNAME .
 copeland.com CNAME .
 *.copeland.com CNAME .
 atradius.com CNAME .
@@ -69599,6 +69603,8 @@ tecs1.com CNAME .
 *.tecs1.com CNAME .
 newsmaxwidget.com CNAME .
 *.newsmaxwidget.com CNAME .
+privacywall.org CNAME .
+*.privacywall.org CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
 actonservice.com CNAME .
