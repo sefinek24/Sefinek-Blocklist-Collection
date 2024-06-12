@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717764044637 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718195948802 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Wed, 29 May 2024 22:00:25 GMT
-; entries:        3555
+; last updated:   Wed, 12 Jun 2024 11:50:55 GMT
+; entries:        3556
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -5730,6 +5730,8 @@ serv0.com CNAME .
 *.serv0.com CNAME .
 servads.net CNAME .
 *.servads.net CNAME .
+servclick1move.com CNAME .
+*.servclick1move.com CNAME .
 tercept.com CNAME .
 *.tercept.com CNAME .
 servedby-buysellads.com CNAME .
