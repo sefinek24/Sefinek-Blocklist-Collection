@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718241807789 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718310196871 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,341
-; Updated: 6/12/2024  17:44 (5:44 PM CST)
+; Domains: 18,342
+; Updated: 6/13/2024  14:08 (2:08 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -26655,6 +26655,8 @@ parkingcrew.net CNAME .
 *.parkingcrew.net CNAME .
 godaddy.com CNAME .
 *.godaddy.com CNAME .
+namecheap.com CNAME .
+*.namecheap.com CNAME .
 parklogic.com CNAME .
 *.parklogic.com CNAME .
 parkourstudio.com CNAME .
