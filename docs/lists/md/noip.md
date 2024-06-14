@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (hosts)</h1>
     <p>
         📄 » <b>Format: domain.tld</b><br>
-        📥 » <b>Last update: 09.06.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 14.06.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -11,7 +11,7 @@
 </h3>
 <br>
 
-```dotenv
+```
 https://blocklist.sefinek.net/generated/v1/noip/abuse/blocklistproject/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/abuse/urlhaus.abuse.ch/hostfile.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/ads/0Zinc/easylist.fork.txt
@@ -100,6 +100,7 @@ https://blocklist.sefinek.net/generated/v1/noip/scam/blocklistproject/scam.fork.
 https://blocklist.sefinek.net/generated/v1/noip/scam/Dogino/Discord-Phishing-URLs-scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/scam/durablenapkin/scamblocklist.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/scam/jarelllama/scam.fork.txt
+https://blocklist.sefinek.net/generated/v1/noip/scam/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/noip/sites/gamebanana.txt
 https://blocklist.sefinek.net/generated/v1/noip/sites/omegle.txt
 https://blocklist.sefinek.net/generated/v1/noip/sites/patreon.txt

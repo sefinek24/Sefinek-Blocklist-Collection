@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for Unbound</h1>
     <p>
         📄 » <b>Format: local-zone: "domain.tld." always_nxdomain</b><br>
-        📥 » <b>Last update: 09.06.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 14.06.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -11,7 +11,7 @@
 </h3>
 <br>
 
-```dotenv
+```
 https://blocklist.sefinek.net/generated/v1/unbound/abuse/blocklistproject/hosts.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/abuse/urlhaus.abuse.ch/hostfile.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/ads/0Zinc/easylist.fork.conf
@@ -100,6 +100,7 @@ https://blocklist.sefinek.net/generated/v1/unbound/scam/blocklistproject/scam.fo
 https://blocklist.sefinek.net/generated/v1/unbound/scam/Dogino/Discord-Phishing-URLs-scam.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/scam/durablenapkin/scamblocklist.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/scam/jarelllama/scam.fork.conf
+https://blocklist.sefinek.net/generated/v1/unbound/scam/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/gamebanana.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/omegle.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/patreon.conf
