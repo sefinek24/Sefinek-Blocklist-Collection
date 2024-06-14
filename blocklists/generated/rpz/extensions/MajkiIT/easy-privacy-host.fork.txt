@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718155464071 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718328215515 43200 3600 259200 300
   NS  localhost.
 ;
-;202406120303
+;202406140303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -33225,6 +33225,8 @@ naukri.com CNAME .
 *.naukri.com CNAME .
 netflix.com CNAME .
 *.netflix.com CNAME .
+openbank.com CNAME .
+*.openbank.com CNAME .
 spilgames.com CNAME .
 *.spilgames.com CNAME .
 thebloggernetwork.com CNAME .
@@ -60391,6 +60393,8 @@ fishersci.it CNAME .
 *.fishersci.it CNAME .
 flightsphere.com CNAME .
 *.flightsphere.com CNAME .
+flixhq.live CNAME .
+*.flixhq.live CNAME .
 florianfritz.net CNAME .
 *.florianfritz.net CNAME .
 flowphantom.com CNAME .
