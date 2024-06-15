@@ -1,8 +1,8 @@
 const { parseExpression } = require('cron-parser');
-const { version } = require('../../package.json');
 const Marked = require('marked');
 const { readFile } = require('node:fs/promises');
 const path = require('node:path');
+const { version } = require('../../package.json');
 Marked.use({ pedantic: false, gfm: true });
 const changelog = path.join(__dirname, '..', '..', 'docs', 'changelog.md');
 const tz = { tz: 'Europe/Warsaw' };
