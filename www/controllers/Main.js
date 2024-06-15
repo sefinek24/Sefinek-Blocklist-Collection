@@ -1,4 +1,4 @@
-const parser = require('cron-parser');
+const { parseExpression } = require('cron-parser');
 const { version } = require('../../package.json');
 const Marked = require('marked');
 const { readFile } = require('node:fs/promises');
@@ -23,8 +23,8 @@ exports.api = (req, res) => {
 };
 
 exports.updateFrequency = (req, res) => {
-	const github = parser.parseExpression('0 */2 * * *', tz);
-	const remote = parser.parseExpression('0 1,6 * * *', tz);
+	const github = parseExpression('0 */2 * * *', tz);
+	const remote = parseExpression('0 1,6 * * *', tz);
 
 	res.render('update-frequency.ejs', { cron: { github: github.next().toISOString(), remote: remote.next().toISOString() }, version });
 };
