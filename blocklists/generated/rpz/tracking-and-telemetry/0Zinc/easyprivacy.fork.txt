@@ -1,9 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718414609502 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718501352566 43200 3600 259200 300
   NS  localhost.
 ;
 00px.net CNAME .
 *.00px.net CNAME .
+1bliq.io CNAME .
+*.1bliq.io CNAME .
 1cros.net CNAME .
 *.1cros.net CNAME .
 2cnt.net CNAME .
@@ -888,6 +890,8 @@ com.com CNAME .
 *.com.com CNAME .
 vidible.tv CNAME .
 *.vidible.tv CNAME .
+videograph.ai CNAME .
+*.videograph.ai CNAME .
 raptive.com CNAME .
 *.raptive.com CNAME .
 minglematch.com CNAME .
@@ -74388,6 +74392,8 @@ letudiant.fr CNAME .
 *.letudiant.fr CNAME .
 radio-canada.ca CNAME .
 *.radio-canada.ca CNAME .
+tf1.fr CNAME .
+*.tf1.fr CNAME .
 dealabs.com CNAME .
 *.dealabs.com CNAME .
 pagesjaunes.fr CNAME .

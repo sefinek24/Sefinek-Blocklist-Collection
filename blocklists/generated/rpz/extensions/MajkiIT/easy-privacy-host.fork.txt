@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718328215515 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718501352566 43200 3600 259200 300
   NS  localhost.
 ;
-;202406140303
+;202406160303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -95,6 +95,8 @@ bloxdhop.io CNAME .
 *.bloxdhop.io CNAME .
 keevowallet.com CNAME .
 *.keevowallet.com CNAME .
+1bliq.io CNAME .
+*.1bliq.io CNAME .
 pettoonies.com CNAME .
 *.pettoonies.com CNAME .
 woodbrass.com CNAME .
@@ -7851,6 +7853,8 @@ loracle.jp CNAME .
 *.loracle.jp CNAME .
 adultium.com CNAME .
 *.adultium.com CNAME .
+videograph.ai CNAME .
+*.videograph.ai CNAME .
 focus.cn CNAME .
 *.focus.cn CNAME .
 drtuber.com CNAME .
@@ -17879,6 +17883,8 @@ patreon.com CNAME .
 *.patreon.com CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
+orange.fr CNAME .
+*.orange.fr CNAME .
 prisasd.com CNAME .
 *.prisasd.com CNAME .
 dataofpages.com CNAME .
@@ -38047,6 +38053,8 @@ com.br CNAME .
 *.com.br CNAME .
 librato.com CNAME .
 *.librato.com CNAME .
+tf1.fr CNAME .
+*.tf1.fr CNAME .
 hicloud.com CNAME .
 *.hicloud.com CNAME .
 experian.com CNAME .
