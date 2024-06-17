@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718468808079 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718598486651 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 15 Jun 2024 21:16 UTC+7
-; Version: 2406152116
-; Blocked: 20,263 domains
+; Last modified: 17 Jun 2024 11:19 UTC+7
+; Version: 2406171119
+; Blocked: 20,271 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -22015,6 +22015,22 @@ adsbetnet.com CNAME .
 *.adsbetnet.com CNAME .
 adsbetnet.com CNAME .
 *.adsbetnet.com CNAME .
+;[beesads.com]
+beesads.com CNAME .
+*.beesads.com CNAME .
+beesads.com CNAME .
+*.beesads.com CNAME .
+beesads.com CNAME .
+*.beesads.com CNAME .
+beesads.com CNAME .
+*.beesads.com CNAME .
+;[mnaspm.com]
+mnaspm.com CNAME .
+*.mnaspm.com CNAME .
+mnaspm.com CNAME .
+*.mnaspm.com CNAME .
+mnaspm.com CNAME .
+*.mnaspm.com CNAME .
 ; --- GroupVN block ---
 ;[adtimaserver]
 adtimaserver.vn CNAME .
@@ -22125,6 +22141,8 @@ eclick.vn CNAME .
 eclick.vn CNAME .
 *.eclick.vn CNAME .
 ;[admicro.vn]
+admicro.vn CNAME .
+*.admicro.vn CNAME .
 admicro.vn CNAME .
 *.admicro.vn CNAME .
 admicro.vn CNAME .
@@ -25876,6 +25894,8 @@ vietnhan.co CNAME .
 *.123c.vn CNAME .
 123c.vn CNAME .
 *.123c.vn CNAME .
+net-solutions.vn CNAME .
+*.net-solutions.vn CNAME .
 shopee.vn CNAME .
 *.shopee.vn CNAME .
 vieon.vn CNAME .
@@ -30332,8 +30352,6 @@ creative-serving.com CNAME .
 *.creative-serving.com CNAME .
 leojmp.com CNAME .
 *.leojmp.com CNAME .
-mnaspm.com CNAME .
-*.mnaspm.com CNAME .
 myavlive.com CNAME .
 *.myavlive.com CNAME .
 creativeformatsnetwork.com CNAME .
