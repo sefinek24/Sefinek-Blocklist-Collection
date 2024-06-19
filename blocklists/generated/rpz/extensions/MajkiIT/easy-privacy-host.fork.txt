@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718587619226 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718760277180 43200 3600 259200 300
   NS  localhost.
 ;
-;202406170303
+;202406190303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -22277,6 +22277,8 @@ houzz.com CNAME .
 *.houzz.com CNAME .
 olehenriksen.com CNAME .
 *.olehenriksen.com CNAME .
+ew3.io CNAME .
+*.ew3.io CNAME .
 kappa.com CNAME .
 *.kappa.com CNAME .
 stockmann.ru CNAME .
@@ -44835,6 +44837,8 @@ safing.io CNAME .
 *.safing.io CNAME .
 sbw.org CNAME .
 *.sbw.org CNAME .
+hakai.app CNAME .
+*.hakai.app CNAME .
 shadygrovepca.org CNAME .
 *.shadygrovepca.org CNAME .
 simplelogin.io CNAME .
