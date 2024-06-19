@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718742194879 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718764768782 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,369
-; Updated: 6/18/2024  15:02 (3:02 PM CST)
+; Domains: 18,370
+; Updated: 6/18/2024  20:33 (8:33 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -35439,6 +35439,8 @@ freshworks.com CNAME .
 *.freshworks.com CNAME .
 gleamjs.io CNAME .
 *.gleamjs.io CNAME .
+harnessapp.com CNAME .
+*.harnessapp.com CNAME .
 hippochat.io CNAME .
 *.hippochat.io CNAME .
 widgetic.com CNAME .
