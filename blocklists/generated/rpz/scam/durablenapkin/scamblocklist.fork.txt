@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718778556905 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718864959393 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4772
+; Domains: 4773
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -67,8 +67,6 @@ ahenana.com CNAME .
 *.ahenana.com CNAME .
 ahenana.com CNAME .
 *.ahenana.com CNAME .
-aircgd.shop CNAME .
-*.aircgd.shop CNAME .
 airmaxskobillige.com CNAME .
 *.airmaxskobillige.com CNAME .
 airmaxskobillige.com CNAME .
@@ -113,8 +111,6 @@ amcclothes.com CNAME .
 *.amcclothes.com CNAME .
 an1.is CNAME .
 *.an1.is CNAME .
-anclice.com CNAME .
-*.anclice.com CNAME .
 andamente.pt CNAME .
 *.andamente.pt CNAME .
 andamente.pt CNAME .
@@ -343,6 +339,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -505,6 +503,12 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -1183,8 +1187,6 @@ bncentertainment.com CNAME .
 *.bncentertainment.com CNAME .
 bncentertainment.com CNAME .
 *.bncentertainment.com CNAME .
-bncentertainment.com CNAME .
-*.bncentertainment.com CNAME .
 bnidigital.com CNAME .
 *.bnidigital.com CNAME .
 bnidigital.com CNAME .
@@ -1599,6 +1601,10 @@ dailygiftstore.com CNAME .
 *.dailygiftstore.com CNAME .
 dailygiftstore.com CNAME .
 *.dailygiftstore.com CNAME .
+danainstan.xyz CNAME .
+*.danainstan.xyz CNAME .
+danainstan.xyz CNAME .
+*.danainstan.xyz CNAME .
 danapintar.club CNAME .
 *.danapintar.club CNAME .
 danapintar.club CNAME .
@@ -2217,6 +2223,8 @@ goldtimeinvest.com CNAME .
 *.goldtimeinvest.com CNAME .
 goldtimeinvest.com CNAME .
 *.goldtimeinvest.com CNAME .
+goldtimeinvest.com CNAME .
+*.goldtimeinvest.com CNAME .
 gossvibe.com CNAME .
 *.gossvibe.com CNAME .
 gossvibe.com CNAME .
@@ -2433,8 +2441,6 @@ jonausa.com CNAME .
 *.jonausa.com CNAME .
 jonausa.com CNAME .
 *.jonausa.com CNAME .
-kaemingkchristmas.com CNAME .
-*.kaemingkchristmas.com CNAME .
 keenfootwearsale.com CNAME .
 *.keenfootwearsale.com CNAME .
 keenfootwearsale.com CNAME .
@@ -2497,8 +2503,6 @@ kredit-rupiah.com CNAME .
 *.kredit-rupiah.com CNAME .
 kredit-rupiah.com CNAME .
 *.kredit-rupiah.com CNAME .
-krediteksklusif.com CNAME .
-*.krediteksklusif.com CNAME .
 krediteksklusif.com CNAME .
 *.krediteksklusif.com CNAME .
 krediteksklusif.com CNAME .
@@ -2585,8 +2589,6 @@ livecato.com CNAME .
 *.livecato.com CNAME .
 livecato.com CNAME .
 *.livecato.com CNAME .
-365analytics.xyz CNAME .
-*.365analytics.xyz CNAME .
 com.br CNAME .
 *.com.br CNAME .
 com.br CNAME .
@@ -2763,8 +2765,6 @@ museuw.com CNAME .
 *.museuw.com CNAME .
 museuw.com CNAME .
 *.museuw.com CNAME .
-musk-event.xyz CNAME .
-*.musk-event.xyz CNAME .
 musk-project.com CNAME .
 *.musk-project.com CNAME .
 muthaafoundation.org CNAME .
@@ -2849,8 +2849,6 @@ navi12.com CNAME .
 *.navi12.com CNAME .
 navi12.com CNAME .
 *.navi12.com CNAME .
-navi17.ru CNAME .
-*.navi17.ru CNAME .
 navi18.com CNAME .
 *.navi18.com CNAME .
 navi18.com CNAME .
@@ -2907,8 +2905,8 @@ navi30.ru CNAME .
 *.navi30.ru CNAME .
 navi30.ru CNAME .
 *.navi30.ru CNAME .
-navi31.ru CNAME .
-*.navi31.ru CNAME .
+navi32.com CNAME .
+*.navi32.com CNAME .
 navi32.com CNAME .
 *.navi32.com CNAME .
 navi32.com CNAME .
@@ -2943,6 +2941,10 @@ navi40.com CNAME .
 *.navi40.com CNAME .
 navi40.com CNAME .
 *.navi40.com CNAME .
+navi42.ru CNAME .
+*.navi42.ru CNAME .
+navi42.ru CNAME .
+*.navi42.ru CNAME .
 navi45.ru CNAME .
 *.navi45.ru CNAME .
 navi45.ru CNAME .
@@ -2981,8 +2983,8 @@ navi6.com CNAME .
 *.navi6.com CNAME .
 navi6.com CNAME .
 *.navi6.com CNAME .
-navi62.ru CNAME .
-*.navi62.ru CNAME .
+navi63.ru CNAME .
+*.navi63.ru CNAME .
 navi65.com CNAME .
 *.navi65.com CNAME .
 navi65.com CNAME .
@@ -3161,6 +3163,8 @@ nip12.com CNAME .
 *.nip12.com CNAME .
 nip12.com CNAME .
 *.nip12.com CNAME .
+nip15.com CNAME .
+*.nip15.com CNAME .
 nip2.com CNAME .
 *.nip2.com CNAME .
 nip23.com CNAME .
@@ -4723,10 +4727,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -4931,8 +4931,6 @@ com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
-id19845672.info CNAME .
-*.id19845672.info CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -5035,8 +5033,6 @@ pinjamanplus.com CNAME .
 *.pinjamanplus.com CNAME .
 pinjamanplus.com CNAME .
 *.pinjamanplus.com CNAME .
-pinjamanrupiah.xyz CNAME .
-*.pinjamanrupiah.xyz CNAME .
 my.id CNAME .
 *.my.id CNAME .
 pinjamteman.top CNAME .
@@ -5151,6 +5147,8 @@ quitasueno.com CNAME .
 *.quitasueno.com CNAME .
 quitasueno.com CNAME .
 *.quitasueno.com CNAME .
+qxowtod.cn CNAME .
+*.qxowtod.cn CNAME .
 radiatorcrate.com CNAME .
 *.radiatorcrate.com CNAME .
 radiatorcrate.com CNAME .
@@ -7301,6 +7299,8 @@ com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
+com-id329712.com CNAME .
+*.com-id329712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -7515,6 +7515,8 @@ sellfox.com CNAME .
 *.sellfox.com CNAME .
 sellfox.com CNAME .
 *.sellfox.com CNAME .
+sentees.com CNAME .
+*.sentees.com CNAME .
 serengetidiscount.com CNAME .
 *.serengetidiscount.com CNAME .
 serengetidiscount.com CNAME .
