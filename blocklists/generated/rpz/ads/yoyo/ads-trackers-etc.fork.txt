@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718368747771 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1718973491678 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Wed, 12 Jun 2024 11:50:55 GMT
-; entries:        3552
+; entries:        3550
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -1154,8 +1154,6 @@ seniorfriendfinder.com CNAME .
 *.seniorfriendfinder.com CNAME .
 servebom.com CNAME .
 *.servebom.com CNAME .
-sexgratuit.tv CNAME .
-*.sexgratuit.tv CNAME .
 shizmoo.com CNAME .
 *.shizmoo.com CNAME .
 shopstyle.com CNAME .
@@ -3380,8 +3378,6 @@ farethief.com CNAME .
 *.farethief.com CNAME .
 farmergoldfish.com CNAME .
 *.farmergoldfish.com CNAME .
-fast-redirecting.com CNAME .
-*.fast-redirecting.com CNAME .
 fastclick.com CNAME .
 *.fastclick.com CNAME .
 edgesuite.net CNAME .
