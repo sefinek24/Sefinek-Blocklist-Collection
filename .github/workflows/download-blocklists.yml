@@ -91,7 +91,7 @@ jobs:
           if [ -n "$(git status -s)" ]; then
             git status
             MODIFIED_FILES=$(git diff --name-only HEAD)
-            git commit -m "Bi-hourly update of blocklists - $(date -u '+%Y-%m-%d %H:%M:%S UTC') - Modified files: $(echo "$MODIFIED_FILES" | wc -l)"
+            git commit -m "Bi-hourly update of blocklists [$(echo "$MODIFIED_FILES" | wc -l)] - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push origin main
           else
             echo "Canceled. No changes to commit."
