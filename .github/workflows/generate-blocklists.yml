@@ -1,5 +1,3 @@
----
-
 name: Generate new committed blocklists
 
 on:
@@ -95,7 +93,8 @@ jobs:
           git config --global user.email "sefinek.actions@gmail.com"
           if [ -n "$(git status -s)" ]; then
             git status
-            git commit -m "Update committed blocklist files"
+            commit_hash=$(git rev-parse HEAD)
+            git commit -m "Update previously committed blocklists [$commit_hash]"
             git push origin main
           else
             echo "Canceled. No changes to commit."

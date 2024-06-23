@@ -92,7 +92,7 @@ jobs:
           git config --global user.email "sefinek.actions@gmail.com"
           if [ -n "$(git status -s)" ]; then
             git status
-            git commit -m "Download blocklists and update files"
+            git commit -m "Bi-hourly update of blocklists - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push origin main
           else
             echo "Canceled. No changes to commit."
