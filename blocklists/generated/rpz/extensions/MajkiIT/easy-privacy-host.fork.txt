@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718932968105 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719106089201 43200 3600 259200 300
   NS  localhost.
 ;
-;202406210303
+;202406230303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -57,6 +57,8 @@ actonservice.com CNAME .
 *.actonservice.com CNAME .
 sparkloop.app CNAME .
 *.sparkloop.app CNAME .
+recolution.de CNAME .
+*.recolution.de CNAME .
 cdn77.org CNAME .
 *.cdn77.org CNAME .
 artcollection.io CNAME .
@@ -19497,6 +19499,8 @@ baidustatic.com CNAME .
 *.baidustatic.com CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
+durchsichtig.xyz CNAME .
+*.durchsichtig.xyz CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
 cloudfront.net CNAME .

@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718932968105 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719106089201 43200 3600 259200 300
   NS  localhost.
 ;
-;202406210303
+;202406230303
 ; Adguard Mobile Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -1301,6 +1301,8 @@ ruuaqkw.com CNAME .
 *.ruuaqkw.com CNAME .
 opera.com CNAME .
 *.opera.com CNAME .
+oleads.com CNAME .
+*.oleads.com CNAME .
 opera.com CNAME .
 *.opera.com CNAME .
 hisp.in CNAME .
