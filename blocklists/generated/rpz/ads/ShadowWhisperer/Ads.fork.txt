@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719365003667 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719419240078 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,384
-; Updated: 6/25/2024  17:27 (5:27 PM CST)
+; Domains: 18,386
+; Updated: 6/26/2024  11:23 (11:23 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -1193,6 +1193,8 @@ acrosspf.com CNAME .
 *.acrosspf.com CNAME .
 com.my CNAME .
 *.com.my CNAME .
+acscdn.com CNAME .
+*.acscdn.com CNAME .
 acshare.net CNAME .
 *.acshare.net CNAME .
 acsmediakit.org CNAME .
@@ -35527,6 +35529,8 @@ guppy.live CNAME .
 *.guppy.live CNAME .
 itcentralstation.com CNAME .
 *.itcentralstation.com CNAME .
+kinopoisk.ru CNAME .
+*.kinopoisk.ru CNAME .
 legalmonster.com CNAME .
 *.legalmonster.com CNAME .
 s-msft.com CNAME .
