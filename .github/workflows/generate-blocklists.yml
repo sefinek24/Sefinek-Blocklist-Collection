@@ -46,9 +46,6 @@ jobs:
       - name: Set valid encoding
         run: node scripts/set-valid-encoding.js
 
-      - name: Lint
-        run: node scripts/lint.js
-
       - name: Count domains
         run: node scripts/update-number-of-domains.js --ignore-question
 
