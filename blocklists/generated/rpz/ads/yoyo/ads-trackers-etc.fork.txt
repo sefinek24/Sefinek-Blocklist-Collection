@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1718973491678 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719365003667 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Wed, 12 Jun 2024 11:50:55 GMT
-; entries:        3550
+; last updated:   Tue, 25 Jun 2024 22:47:11 GMT
+; entries:        3551
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -2578,6 +2578,8 @@ cjbmanagement.com CNAME .
 *.cjbmanagement.com CNAME .
 cjlog.com CNAME .
 *.cjlog.com CNAME .
+turkishairlines.com CNAME .
+*.turkishairlines.com CNAME .
 cl0udh0st1ng.com CNAME .
 *.cl0udh0st1ng.com CNAME .
 claria.com CNAME .
