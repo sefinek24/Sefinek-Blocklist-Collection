@@ -92,7 +92,8 @@ jobs:
             git status
             COMMIT_HASH=$(git rev-parse HEAD)
             MODIFIED_FILES=$(git diff --name-only HEAD)
-            git commit -m "Update previously committed blocklists in $COMMIT_HASH (modified files: $MODIFIED_FILES)"
+            COMMIT_MESSAGE=$'Update previously committed blocklists in '"$COMMIT_HASH"$'\nFiles changed: '"$(echo "$MODIFIED_FILES" | wc -l)"$'\n'"$MODIFIED_FILES"
+            git commit -m "$COMMIT_MESSAGE"
             git push origin main
           else
             echo "Canceled. No changes to commit."
