@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719365003667 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719578505345 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Tue, 25 Jun 2024 22:47:11 GMT
-; entries:        3551
+; entries:        3543
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -144,8 +144,6 @@ rnm.ca CNAME .
 *.rnm.ca CNAME .
 acemlnb.com CNAME .
 *.acemlnb.com CNAME .
-acid-adserver.click CNAME .
-*.acid-adserver.click CNAME .
 acridtwist.com CNAME .
 *.acridtwist.com CNAME .
 actionsplash.com CNAME .
@@ -360,8 +358,6 @@ adalliance.io CNAME .
 *.adalliance.io CNAME .
 adanging.blog CNAME .
 *.adanging.blog CNAME .
-adap.tv CNAME .
-*.adap.tv CNAME .
 adapt.tv CNAME .
 *.adapt.tv CNAME .
 adaranth.com CNAME .
@@ -782,8 +778,6 @@ boylesports.com CNAME .
 *.boylesports.com CNAME .
 brabys.com CNAME .
 *.brabys.com CNAME .
-brazzers.com CNAME .
-*.brazzers.com CNAME .
 bumq.com CNAME .
 *.bumq.com CNAME .
 canalblog.com CNAME .
@@ -1722,8 +1716,6 @@ adxpansion.com CNAME .
 *.adxpansion.com CNAME .
 adxpose.com CNAME .
 *.adxpose.com CNAME .
-adyea.com CNAME .
-*.adyea.com CNAME .
 adyoulike.com CNAME .
 *.adyoulike.com CNAME .
 rashflash.com CNAME .
@@ -3380,6 +3372,8 @@ farethief.com CNAME .
 *.farethief.com CNAME .
 farmergoldfish.com CNAME .
 *.farmergoldfish.com CNAME .
+fast-redirecting.com CNAME .
+*.fast-redirecting.com CNAME .
 fastclick.com CNAME .
 *.fastclick.com CNAME .
 edgesuite.net CNAME .
@@ -3408,8 +3402,6 @@ findcommerce.com CNAME .
 *.findcommerce.com CNAME .
 findyourcasino.com CNAME .
 *.findyourcasino.com CNAME .
-fineoffer.net CNAME .
-*.fineoffer.net CNAME .
 fingahvf.top CNAME .
 *.fingahvf.top CNAME .
 fireworkadservices.com CNAME .
@@ -4650,12 +4642,8 @@ mypagerank.ru CNAME .
 *.mypagerank.ru CNAME .
 mypowermall.com CNAME .
 *.mypowermall.com CNAME .
-mystat-in.net CNAME .
-*.mystat-in.net CNAME .
 mystat.pl CNAME .
 *.mystat.pl CNAME .
-mytop-in.net CNAME .
-*.mytop-in.net CNAME .
 mouseflow.com CNAME .
 *.mouseflow.com CNAME .
 n69.com CNAME .
@@ -5410,8 +5398,6 @@ reactx.com CNAME .
 *.reactx.com CNAME .
 readingguilt.com CNAME .
 *.readingguilt.com CNAME .
-readserver.net CNAME .
-*.readserver.net CNAME .
 readymoon.com CNAME .
 *.readymoon.com CNAME .
 realcastmedia.com CNAME .
@@ -5742,8 +5728,6 @@ sessioncam.com CNAME .
 *.sessioncam.com CNAME .
 sexcounter.com CNAME .
 *.sexcounter.com CNAME .
-sexinyourcity.com CNAME .
-*.sexinyourcity.com CNAME .
 sexlist.com CNAME .
 *.sexlist.com CNAME .
 sextracker.com CNAME .
