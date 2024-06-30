@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719743064885 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719764944007 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 30 Jun 2024 17:02 UTC+7
-; Version: 2406301702
-; Blocked: 20,308 domains
+; Last modified: 30 Jun 2024 22:20 UTC+7
+; Version: 2406302220
+; Blocked: 20,310 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -16169,6 +16169,8 @@ advividnetwork.com CNAME .
 *.advividnetwork.com CNAME .
 advividnetwork.com CNAME .
 *.advividnetwork.com CNAME .
+advividnetwork.com CNAME .
+*.advividnetwork.com CNAME .
 ;[uniconsent.com]
 uniconsent.com CNAME .
 *.uniconsent.com CNAME .
@@ -25799,6 +25801,8 @@ tenten.vn CNAME .
 *.tenten.vn CNAME .
 headlines.pw CNAME .
 *.headlines.pw CNAME .
+isvn.space CNAME .
+*.isvn.space CNAME .
 toprework.vn CNAME .
 *.toprework.vn CNAME .
 run.app CNAME .
