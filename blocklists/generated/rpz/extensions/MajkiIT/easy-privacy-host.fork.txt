@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719537999419 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719711177790 43200 3600 259200 300
   NS  localhost.
 ;
-;202406280303
+;202406300303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -46237,6 +46237,8 @@ com.au CNAME .
 *.com.au CNAME .
 edu.cn CNAME .
 *.edu.cn CNAME .
+conde.digital CNAME .
+*.conde.digital CNAME .
 shareaholic.com CNAME .
 *.shareaholic.com CNAME .
 co.jp CNAME .
@@ -50199,6 +50201,8 @@ smaker.pl CNAME .
 *.smaker.pl CNAME .
 officesupply.com CNAME .
 *.officesupply.com CNAME .
+sf-insights.io CNAME .
+*.sf-insights.io CNAME .
 groc.press CNAME .
 *.groc.press CNAME .
 groc.press CNAME .
