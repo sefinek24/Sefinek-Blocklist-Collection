@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719542553823 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719815654105 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,387
-; Updated: 6/27/2024  20:58 (8:58 PM CST)
+; Domains: 18,388
+; Updated: 7/1/2024  00:06 (12:06 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -23705,6 +23705,8 @@ matchboxindia.com CNAME .
 *.matchboxindia.com CNAME .
 matchcraft.com CNAME .
 *.matchcraft.com CNAME .
+adsbynimbus.com CNAME .
+*.adsbynimbus.com CNAME .
 mateadvertising.bg CNAME .
 *.mateadvertising.bg CNAME .
 mathads.com CNAME .
