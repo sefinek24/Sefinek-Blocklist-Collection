@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719843765599 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719851346486 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,389
-; Updated: 7/1/2024  09:14 (9:14 AM CST)
+; Domains: 18,390
+; Updated: 7/1/2024  09:57 (9:57 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -27141,6 +27141,8 @@ pixability.com CNAME .
 *.pixability.com CNAME .
 pixalate.com CNAME .
 *.pixalate.com CNAME .
+pixel.ad CNAME .
+*.pixel.ad CNAME .
 pixeladss.com CNAME .
 *.pixeladss.com CNAME .
 pixelbucks.com CNAME .
