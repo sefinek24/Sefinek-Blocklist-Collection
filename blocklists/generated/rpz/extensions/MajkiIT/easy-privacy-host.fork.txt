@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719711177790 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719798085619 43200 3600 259200 300
   NS  localhost.
 ;
-;202406300303
+;202407010303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -44615,6 +44615,8 @@ bestsecret.com CNAME .
 *.bestsecret.com CNAME .
 my-store.ch CNAME .
 *.my-store.ch CNAME .
+raenonx.cc CNAME .
+*.raenonx.cc CNAME .
 flighthub.com CNAME .
 *.flighthub.com CNAME .
 membershop.lv CNAME .
@@ -58671,6 +58673,8 @@ easybank.at CNAME .
 *.easybank.at CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
+ssevt.com CNAME .
+*.ssevt.com CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
 ray-ban.com CNAME .
@@ -65031,6 +65035,8 @@ ngenix.net CNAME .
 *.ngenix.net CNAME .
 53.com CNAME .
 *.53.com CNAME .
+danzz.ch CNAME .
+*.danzz.ch CNAME .
 wi-fi.ru CNAME .
 *.wi-fi.ru CNAME .
 eharmony.ca CNAME .
@@ -75065,8 +75071,6 @@ actonservice.com CNAME .
 *.actonservice.com CNAME .
 belambra.fr CNAME .
 *.belambra.fr CNAME .
-zfctrack.net CNAME .
-*.zfctrack.net CNAME .
 hoiku-job.net CNAME .
 *.hoiku-job.net CNAME .
 unisportstore.no CNAME .
@@ -75083,8 +75087,6 @@ autoscout24.ro CNAME .
 *.autoscout24.ro CNAME .
 siemensplmevents.com CNAME .
 *.siemensplmevents.com CNAME .
-zhctrack.net CNAME .
-*.zhctrack.net CNAME .
 qvc.com CNAME .
 *.qvc.com CNAME .
 rizap.jp CNAME .
