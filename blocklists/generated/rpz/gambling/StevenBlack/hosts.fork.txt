@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719462680178 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719894451072 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: StevenBlack/hosts extension gambling
@@ -7,10 +7,10 @@ $TTL 300
 ; This hosts file is a merged collection of hosts from reputable sources,
 ; with a dash of crowd sourcing via GitHub
 ;
-; Date: 27 June 2024 02:45:44 (UTC)
+; Date: 02 July 2024 03:24:33 (UTC)
 ; The unified hosts file was not used while generating this file.
 ; Extensions used to generate this file: gambling
-; Number of unique domains: 8,264
+; Number of unique domains: 8,266
 ;
 ; Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts
 ; Project home page: https://github.com/StevenBlack/hosts
@@ -20,9 +20,9 @@ $TTL 300
 ; Custom host records are listed here.
 ; End of custom host records.
 ; Title: hostsVN Gambling
-; Last modified: 23 Jun 2024 23:42 UTC+7
-; Version: 2406232342
-; Blocked: 5,639 domains
+; Last modified: 01 Jul 2024 10:32 UTC+7
+; Version: 2407011032
+; Blocked: 5,641 domains
 ; Only include gambling domains (Vietnamese language)
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -1468,6 +1468,8 @@ b52k.club CNAME .
 *.b52k.club CNAME .
 b52m.club CNAME .
 *.b52m.club CNAME .
+b52vn.info CNAME .
+*.b52vn.info CNAME .
 b52vn.org CNAME .
 *.b52vn.org CNAME .
 b69.cafe CNAME .
@@ -6494,6 +6496,8 @@ loto66.com CNAME .
 *.loto66.com CNAME .
 loto678.com CNAME .
 *.loto678.com CNAME .
+b52vn.info CNAME .
+*.b52vn.info CNAME .
 choiriikvip.today CNAME .
 *.choiriikvip.today CNAME .
 choitet.vip CNAME .
