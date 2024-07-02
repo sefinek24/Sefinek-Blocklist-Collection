@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719930071000 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719937696949 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-07-02 14:09:06 (UTC)                      ;
+; Last updated: 2024-07-02 16:21:10 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -32,6 +32,8 @@ fermentechgsv.com CNAME .
 *.fermentechgsv.com CNAME .
 co.za CNAME .
 *.co.za CNAME .
+cobainaja.id CNAME .
+*.cobainaja.id CNAME .
 52kkg.com CNAME .
 *.52kkg.com CNAME .
 article.se CNAME .
@@ -52,8 +54,6 @@ avastsgp.com CNAME .
 *.avastsgp.com CNAME .
 avastsp.com CNAME .
 *.avastsp.com CNAME .
-9-9-8.com CNAME .
-*.9-9-8.com CNAME .
 bitforje.com CNAME .
 *.bitforje.com CNAME .
 bitkiselurunsiparis.com CNAME .
@@ -66,8 +66,6 @@ bruta.pl CNAME .
 *.bruta.pl CNAME .
 diit.cl CNAME .
 *.diit.cl CNAME .
-cajgtus.com CNAME .
-*.cajgtus.com CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
@@ -100,8 +98,6 @@ packetstormsecurity.net CNAME .
 *.packetstormsecurity.net CNAME .
 dnvk1.info CNAME .
 *.dnvk1.info CNAME .
-pcclear.com CNAME .
-*.pcclear.com CNAME .
 caihong.com CNAME .
 *.caihong.com CNAME .
 doumaibiji.cn CNAME .
@@ -146,6 +142,8 @@ hitstation.nl CNAME .
 *.hitstation.nl CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
+vrcom7.com CNAME .
+*.vrcom7.com CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
 duniareligi.com CNAME .
@@ -164,8 +162,6 @@ jobcity.com CNAME .
 *.jobcity.com CNAME .
 joccupationalscience.org CNAME .
 *.joccupationalscience.org CNAME .
-joeltrip.com CNAME .
-*.joeltrip.com CNAME .
 jointings.org CNAME .
 *.jointings.org CNAME .
 co.uk CNAME .
@@ -178,8 +174,6 @@ kipaak.com CNAME .
 *.kipaak.com CNAME .
 kothariqhyto.com CNAME .
 *.kothariqhyto.com CNAME .
-lajollaautorepairs.com CNAME .
-*.lajollaautorepairs.com CNAME .
 lflsoftware.com CNAME .
 *.lflsoftware.com CNAME .
 yjjxz.com CNAME .
@@ -204,8 +198,6 @@ kipaak.com CNAME .
 *.kipaak.com CNAME .
 meeweb.com CNAME .
 *.meeweb.com CNAME .
-microsecurityupdate.com CNAME .
-*.microsecurityupdate.com CNAME .
 moreapp4you.online CNAME .
 *.moreapp4you.online CNAME .
 namthaibinh.net CNAME .
@@ -216,18 +208,12 @@ ninadroid.ir CNAME .
 *.ninadroid.ir CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
-com.br CNAME .
-*.com.br CNAME .
 shouhucj.com CNAME .
 *.shouhucj.com CNAME .
-org.pk CNAME .
-*.org.pk CNAME .
 polatfamilyengine.com CNAME .
 *.polatfamilyengine.com CNAME .
 posmicrosystems.com CNAME .
 *.posmicrosystems.com CNAME .
-protechasia.com CNAME .
-*.protechasia.com CNAME .
 co.za CNAME .
 *.co.za CNAME .
 com.br CNAME .
@@ -252,8 +238,6 @@ silinast.ro CNAME .
 *.silinast.ro CNAME .
 sinopecllc.top CNAME .
 *.sinopecllc.top CNAME .
-110route.com CNAME .
-*.110route.com CNAME .
 softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
 oaksfoxes.ltd CNAME .
@@ -262,14 +246,14 @@ vivi.sg CNAME .
 *.vivi.sg CNAME .
 co.za CNAME .
 *.co.za CNAME .
-sportvision.app CNAME .
-*.sportvision.app CNAME .
 cz01.cn CNAME .
 *.cz01.cn CNAME .
 dinju.com CNAME .
 *.dinju.com CNAME .
 clz.kr CNAME .
 *.clz.kr CNAME .
+sylhetvoice.com CNAME .
+*.sylhetvoice.com CNAME .
 techniguitare.com CNAME .
 *.techniguitare.com CNAME .
 tecni-soft.com CNAME .
@@ -294,8 +278,6 @@ twizt.net CNAME .
 *.twizt.net CNAME .
 unicorpbrunei.com CNAME .
 *.unicorpbrunei.com CNAME .
-cg100iii.com CNAME .
-*.cg100iii.com CNAME .
 co.network CNAME .
 *.co.network CNAME .
 article.se CNAME .
@@ -308,8 +290,6 @@ com.br CNAME .
 *.com.br CNAME .
 avastsp.com CNAME .
 *.avastsp.com CNAME .
-bitforje.com CNAME .
-*.bitforje.com CNAME .
 blackhattoolz.com CNAME .
 *.blackhattoolz.com CNAME .
 botnet123.cc CNAME .
@@ -356,12 +336,10 @@ xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
-hnggzyjy.cn CNAME .
-*.hnggzyjy.cn CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
 co.za CNAME .
 *.co.za CNAME .
-; Number of entries: 177
+; Number of entries: 166
