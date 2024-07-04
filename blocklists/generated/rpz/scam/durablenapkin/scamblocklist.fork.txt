@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719901862534 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1719988262182 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4858
+; Domains: 4871
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -29,6 +29,8 @@ $TTL 300
 *.5wzgtq8dpk.com CNAME .
 65spy7rgcu.com CNAME .
 *.65spy7rgcu.com CNAME .
+shopsharm.ru CNAME .
+*.shopsharm.ru CNAME .
 93mobiles.com CNAME .
 *.93mobiles.com CNAME .
 93mobiles.com CNAME .
@@ -103,8 +105,6 @@ amcclothes.com CNAME .
 *.amcclothes.com CNAME .
 amcclothes.com CNAME .
 *.amcclothes.com CNAME .
-an1.is CNAME .
-*.an1.is CNAME .
 andamente.pt CNAME .
 *.andamente.pt CNAME .
 andamente.pt CNAME .
@@ -803,8 +803,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -1063,8 +1061,6 @@ baroconcept.com CNAME .
 *.baroconcept.com CNAME .
 bcb.game CNAME .
 *.bcb.game CNAME .
-apsehick.date CNAME .
-*.apsehick.date CNAME .
 apsehick.date CNAME .
 *.apsehick.date CNAME .
 apsehick.date CNAME .
@@ -1367,6 +1363,12 @@ cebesale.com CNAME .
 *.cebesale.com CNAME .
 cebesale.com CNAME .
 *.cebesale.com CNAME .
+chandeco.com CNAME .
+*.chandeco.com CNAME .
+chandeco.com CNAME .
+*.chandeco.com CNAME .
+chandeco.com CNAME .
+*.chandeco.com CNAME .
 charmsection.com CNAME .
 *.charmsection.com CNAME .
 charmsection.com CNAME .
@@ -1399,6 +1401,8 @@ co.uk CNAME .
 *.co.uk CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
+chikepod.com CNAME .
+*.chikepod.com CNAME .
 chikepod.com CNAME .
 *.chikepod.com CNAME .
 chikepod.com CNAME .
@@ -1807,6 +1811,8 @@ elitestrustonline.com CNAME .
 *.elitestrustonline.com CNAME .
 ellezz.com CNAME .
 *.ellezz.com CNAME .
+elongives.net CNAME .
+*.elongives.net CNAME .
 elonweb.org CNAME .
 *.elonweb.org CNAME .
 emberio.com CNAME .
@@ -1845,12 +1851,6 @@ ercnnier.com CNAME .
 *.ercnnier.com CNAME .
 ercnnier.com CNAME .
 *.ercnnier.com CNAME .
-eshaalfawson.shop CNAME .
-*.eshaalfawson.shop CNAME .
-eshaalfawson.shop CNAME .
-*.eshaalfawson.shop CNAME .
-eshaalfawson.shop CNAME .
-*.eshaalfawson.shop CNAME .
 esl-gaming.com CNAME .
 *.esl-gaming.com CNAME .
 esl-gaming.com CNAME .
@@ -2107,6 +2107,8 @@ freedom-ca-5g.com CNAME .
 *.freedom-ca-5g.com CNAME .
 freedom-ca-5g.com CNAME .
 *.freedom-ca-5g.com CNAME .
+freedomgift50.com CNAME .
+*.freedomgift50.com CNAME .
 freegiftscards.shop CNAME .
 *.freegiftscards.shop CNAME .
 freegiftscards.shop CNAME .
@@ -2503,6 +2505,8 @@ keltysale.com CNAME .
 *.keltysale.com CNAME .
 keltysale.com CNAME .
 *.keltysale.com CNAME .
+kewal.shop CNAME .
+*.kewal.shop CNAME .
 kidsmama.online CNAME .
 *.kidsmama.online CNAME .
 kidsmama.online CNAME .
@@ -2529,6 +2533,8 @@ kleankanteenbottle.com CNAME .
 *.kleankanteenbottle.com CNAME .
 kleankanteenbottle.com CNAME .
 *.kleankanteenbottle.com CNAME .
+kmarttee.com CNAME .
+*.kmarttee.com CNAME .
 kms-full.com CNAME .
 *.kms-full.com CNAME .
 kms-full.com CNAME .
@@ -2629,8 +2635,6 @@ lericettedifrancy74.com CNAME .
 *.lericettedifrancy74.com CNAME .
 lericettedifrancy74.com CNAME .
 *.lericettedifrancy74.com CNAME .
-letrantrunghieu.com CNAME .
-*.letrantrunghieu.com CNAME .
 letteringift.com CNAME .
 *.letteringift.com CNAME .
 letteringift.com CNAME .
@@ -3003,6 +3007,8 @@ navi24.ru CNAME .
 *.navi24.ru CNAME .
 navi24.ru CNAME .
 *.navi24.ru CNAME .
+navi26.ru CNAME .
+*.navi26.ru CNAME .
 navi3.com CNAME .
 *.navi3.com CNAME .
 navi3.com CNAME .
@@ -3085,6 +3091,8 @@ navi6.com CNAME .
 *.navi6.com CNAME .
 navi6.com CNAME .
 *.navi6.com CNAME .
+navi60.com CNAME .
+*.navi60.com CNAME .
 navi65.com CNAME .
 *.navi65.com CNAME .
 navi65.com CNAME .
@@ -3099,6 +3107,8 @@ navi66.ru CNAME .
 *.navi66.ru CNAME .
 navi66.ru CNAME .
 *.navi66.ru CNAME .
+navi67.com CNAME .
+*.navi67.com CNAME .
 navi67.com CNAME .
 *.navi67.com CNAME .
 navi67.com CNAME .
@@ -3205,8 +3215,8 @@ navi97.com CNAME .
 *.navi97.com CNAME .
 navi97.com CNAME .
 *.navi97.com CNAME .
-navi98.com CNAME .
-*.navi98.com CNAME .
+navi97.ru CNAME .
+*.navi97.ru CNAME .
 navi99.com CNAME .
 *.navi99.com CNAME .
 navi99.com CNAME .
@@ -3923,6 +3933,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -3935,6 +3947,10 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -4079,6 +4095,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id809712.com CNAME .
 *.com-id809712.com CNAME .
 com-id90123.info CNAME .
@@ -4249,6 +4267,10 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id02349.info CNAME .
 *.com-id02349.info CNAME .
 com-id02349.info CNAME .
@@ -4501,6 +4523,8 @@ com-id23901.info CNAME .
 *.com-id23901.info CNAME .
 com-id23901.info CNAME .
 *.com-id23901.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
@@ -6881,8 +6905,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -6907,10 +6929,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -8133,6 +8151,8 @@ tiranaaquapark-eg.com CNAME .
 *.tiranaaquapark-eg.com CNAME .
 tiranaaquapark-eg.com CNAME .
 *.tiranaaquapark-eg.com CNAME .
+tlstoreonline.com CNAME .
+*.tlstoreonline.com CNAME .
 tlstoreonline.com CNAME .
 *.tlstoreonline.com CNAME .
 tlstoreonline.com CNAME .
@@ -9405,6 +9425,10 @@ com-id409712.com CNAME .
 *.com-id409712.com CNAME .
 com-id409712.com CNAME .
 *.com-id409712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -9723,3 +9747,5 @@ zooger.space CNAME .
 *.zooger.space CNAME .
 zooger.space CNAME .
 *.zooger.space CNAME .
+zupdone.com CNAME .
+*.zupdone.com CNAME .
