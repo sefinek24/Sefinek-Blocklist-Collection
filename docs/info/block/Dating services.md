@@ -21,6 +21,7 @@ Please note that the list of URLs available for blocking in Pi-hole is not compr
 
 Here are some sample URLs with a list of domains:
 - https://blocklist.sefinek.net/generated/v1/0.0.0.0/dating-services/developerdan/extended.fork.txt
+- https://blocklist.sefinek.net/generated/v1/0.0.0.0/dating-services/sefinek.hosts.txt
 
 When using Pi-hole or any other blocking software, it is important to also consider other measures to enhance online safety, such as using antivirus software and regularly updating your devices.
 

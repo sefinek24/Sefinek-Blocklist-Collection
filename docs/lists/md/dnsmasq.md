@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (Dnsmasq)</h1>
     <p>
         📄 » <b>Format: server=/domain.tld/</b><br>
-        📥 » <b>Last update: 14.06.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 04.07.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -41,6 +41,7 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/crypto/cryptojacking/hoshsadi
 https://blocklist.sefinek.net/generated/v1/dnsmasq/crypto/cryptojacking/Snota418/Crypto-streams.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/dating-services/developerdan/extended.fork.txt
+https://blocklist.sefinek.net/generated/v1/dnsmasq/dating-services/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/dead-domains/jarelllama/dead-domains.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/drugs/blocklistproject/drugs.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/extensions/deathbybandaid/CountryCodesLists-France.fork.txt

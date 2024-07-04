@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (RPZ)</h1>
     <p>
         📄 » <b>Format: domain.tld CNAME .</b><br>
-        📥 » <b>Last update: 14.06.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 04.07.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -41,6 +41,7 @@ https://blocklist.sefinek.net/generated/v1/rpz/crypto/cryptojacking/hoshsadiq/ad
 https://blocklist.sefinek.net/generated/v1/rpz/crypto/cryptojacking/Snota418/Crypto-streams.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/dating-services/developerdan/extended.fork.txt
+https://blocklist.sefinek.net/generated/v1/rpz/dating-services/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/rpz/dead-domains/jarelllama/dead-domains.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/drugs/blocklistproject/drugs.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/extensions/deathbybandaid/CountryCodesLists-France.fork.txt

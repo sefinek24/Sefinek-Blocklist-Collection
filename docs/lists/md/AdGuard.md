@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for AdGuard</h1>
     <p>
         📄 » <b>Format: ||domain.tld^</b><br>
-        📥 » <b>Last update: 14.06.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 04.07.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -41,6 +41,7 @@ https://blocklist.sefinek.net/generated/v1/adguard/crypto/cryptojacking/hoshsadi
 https://blocklist.sefinek.net/generated/v1/adguard/crypto/cryptojacking/Snota418/Crypto-streams.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/dating-services/developerdan/extended.fork.txt
+https://blocklist.sefinek.net/generated/v1/adguard/dating-services/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/adguard/dead-domains/jarelllama/dead-domains.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/drugs/blocklistproject/drugs.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/deathbybandaid/CountryCodesLists-France.fork.txt
