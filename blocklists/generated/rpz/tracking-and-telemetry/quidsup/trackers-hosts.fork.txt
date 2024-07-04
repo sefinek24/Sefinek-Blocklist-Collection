@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720045314339 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720131720025 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,9 +8,9 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 03 Jul 2024
+; Updated: 04 Jul 2024
 ; LatestVersion 24.01
-; Domain Count: 15963
+; Domain Count: 15976
 ;===============================================================
 0i0i0i0.com CNAME .
 *.0i0i0i0.com CNAME .
@@ -644,6 +644,8 @@ google.pt CNAME .
 *.google.pt CNAME .
 google.ru CNAME .
 *.google.ru CNAME .
+adservings.ru CNAME .
+*.adservings.ru CNAME .
 adsessionserv.com CNAME .
 *.adsessionserv.com CNAME .
 adsfac.eu CNAME .
@@ -1286,6 +1288,8 @@ aniview.com CNAME .
 *.aniview.com CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
+tonkeeper.com CNAME .
+*.tonkeeper.com CNAME .
 anrdoezrs.net CNAME .
 *.anrdoezrs.net CNAME .
 answerscloud.com CNAME .
@@ -1642,6 +1646,8 @@ searchspring.io CNAME .
 *.searchspring.io CNAME .
 walmart.com CNAME .
 *.walmart.com CNAME .
+wikia-services.com CNAME .
+*.wikia-services.com CNAME .
 netflix.net CNAME .
 *.netflix.net CNAME .
 gvt2.com CNAME .
@@ -2016,6 +2022,8 @@ cedexis-test.com CNAME .
 *.cedexis-test.com CNAME .
 cedexis.com CNAME .
 *.cedexis.com CNAME .
+cellrebel.com CNAME .
+*.cellrebel.com CNAME .
 celtra.com CNAME .
 *.celtra.com CNAME .
 censusabattoir.com CNAME .
@@ -2208,6 +2216,8 @@ cn-rtb.com CNAME .
 *.cn-rtb.com CNAME .
 cnzz.com CNAME .
 *.cnzz.com CNAME .
+co-buying.com CNAME .
+*.co-buying.com CNAME .
 coastlineahead.com CNAME .
 *.coastlineahead.com CNAME .
 cobwebcomprehension.com CNAME .
@@ -4462,6 +4472,8 @@ bizrate.com CNAME .
 *.bizrate.com CNAME .
 medi-8.net CNAME .
 *.medi-8.net CNAME .
+yandex.ru CNAME .
+*.yandex.ru CNAME .
 complex.com CNAME .
 *.complex.com CNAME .
 media.net CNAME .
@@ -27762,6 +27774,22 @@ live.com CNAME .
 *.live.com CNAME .
 live.com CNAME .
 *.live.com CNAME .
+live.com CNAME .
+*.live.com CNAME .
+live.com CNAME .
+*.live.com CNAME .
+live.com CNAME .
+*.live.com CNAME .
+live.com CNAME .
+*.live.com CNAME .
+live.com CNAME .
+*.live.com CNAME .
+live.com CNAME .
+*.live.com CNAME .
+live.com CNAME .
+*.live.com CNAME .
+live.com CNAME .
+*.live.com CNAME .
 phluant.com CNAME .
 *.phluant.com CNAME .
 igexin.com CNAME .
@@ -30654,8 +30682,6 @@ sub2tech.com CNAME .
 *.sub2tech.com CNAME .
 successfulpatience.com CNAME .
 *.successfulpatience.com CNAME .
-co.uk CNAME .
-*.co.uk CNAME .
 successionflimsy.com CNAME .
 *.successionflimsy.com CNAME .
 sugarcrm.com CNAME .
@@ -30708,8 +30734,6 @@ survio.com CNAME .
 *.survio.com CNAME .
 onezapp.com CNAME .
 *.onezapp.com CNAME .
-sw-rail-7.com CNAME .
-*.sw-rail-7.com CNAME .
 vodafone.pt CNAME .
 *.vodafone.pt CNAME .
 swaptrap.live CNAME .
@@ -30940,8 +30964,6 @@ tl813.com CNAME .
 *.tl813.com CNAME .
 tm-awx.com CNAME .
 *.tm-awx.com CNAME .
-tm1-001.com CNAME .
-*.tm1-001.com CNAME .
 clmbtech.com CNAME .
 *.clmbtech.com CNAME .
 shalltry.com CNAME .
@@ -31092,6 +31114,8 @@ epicgames.com CNAME .
 *.epicgames.com CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
+game8.co CNAME .
+*.game8.co CNAME .
 hawksearch.com CNAME .
 *.hawksearch.com CNAME .
 miui.com CNAME .
@@ -31596,6 +31620,8 @@ visualwebsiteoptimizer.com CNAME .
 *.visualwebsiteoptimizer.com CNAME .
 vizu.com CNAME .
 *.vizu.com CNAME .
+vk-analytics.ru CNAME .
+*.vk-analytics.ru CNAME .
 vlitag.com CNAME .
 *.vlitag.com CNAME .
 vlogerads.com CNAME .
