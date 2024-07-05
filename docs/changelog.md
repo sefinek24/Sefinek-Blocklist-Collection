@@ -1,3 +1,15 @@
+## Update v0.17.0 - 05.07.2024
+1. Added:
+   - `dating-services/ShadowWhisperer/dating.fork.txt`
+   - `malicious/ShadowWhisperer/malware.fork.txt`
+   - `porn/ShadowWhisperer/adult.fork.txt`
+   - `scam/ShadowWhisperer/scam.fork.txt`
+   - `tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt`
+   - `dating-services/sefinek.hosts.txt`
+2. The code responsible for gathering statistics has been optimized. From now on, the statistics will not impact the file serving time, etc.
+3. Code cleanup and other improvements.
+4. Updated dependencies to the latest versions.
+
 ## Update v0.16.0 - 28.05.2024
 1. Removed `ads/kboghdady/youtubelist.fork.txt` from the lists.
 2. Added:
