@@ -3,13 +3,16 @@ const Marked = require('marked');
 const { readFile } = require('node:fs/promises');
 const path = require('node:path');
 const { version } = require('../../package.json');
+const formatTime = require('../utils/formatTime.js');
+const RequestStats = require('../database/models/RequestStats');
 
 Marked.use({ pedantic: false, gfm: true });
 const changelog = path.join(__dirname, '..', '..', 'docs', 'changelog.md');
 const tz = { tz: 'Europe/Warsaw' };
 
-exports.index = (req, res) => {
-	res.render('index.ejs', { version });
+exports.index = async (req, res) => {
+	const db = await RequestStats.findOne({});
+	res.render('index.ejs', { version, requests: db.requests, responses: db.responses, date: { created: db.createdAt, updated: db.updatedAt }, formatTime });
 };
 
 exports.changelog = async (req, res) => {

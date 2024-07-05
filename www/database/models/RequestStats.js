@@ -4,7 +4,8 @@ const RequestStats = new Schema({
 	requests: {
 		all: { type: Number, default: 0 },
 		blocklist: { type: Number, default: 0 },
-		'00000': { type: Number, default: 0 },
+		filenames: { type: Map, of: Number, default: {} },
+		'0000': { type: Number, default: 0 },
 		'127001': { type: Number, default: 0 },
 		adguard: { type: Number, default: 0 },
 		dnsmasq: { type: Number, default: 0 },
@@ -13,10 +14,9 @@ const RequestStats = new Schema({
 		unbound: { type: Number, default: 0 }
 	},
 	responses: {
-		404: { type: Number, default: 0 },
-		429: { type: Number, default: 0 },
-		500: { type: Number, default: 0 },
-		503: { type: Number, default: 0 }
+		type: Map,
+		of: Number,
+		default: {}
 	},
 	stats: {
 		updateStatsFail: { type: Number, default: 0 }

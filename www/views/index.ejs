@@ -185,61 +185,61 @@
     <div class="container-stats">
         <div class="card-stats">
             <div id="category-big">All requests</div>
-            <div class="stats-content" id="stats-content-all-requests"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-all-requests"><%= requests.all %></div>
         </div>
         <div class="card-stats">
             <div id="category-big">Blocklist requests</div>
-            <div class="stats-content" id="stats-content-blocklist-requests"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-blocklist-requests"><%= requests.blocklist %></div>
         </div>
     </div>
 
     <div class="container-stats">
         <div>
             <div id="category-small">127.0.0.1</div>
-            <div class="stats-content" id="stats-content-127001"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-127001"><%= requests['127001'] %></div>
         </div>
         <div>
             <div id="category-small">0.0.0.0</div>
-            <div class="stats-content" id="stats-content-00000"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-0000"><%= requests['0000'] %></div>
         </div>
         <div>
             <div id="category-small">AdGuard</div>
-            <div class="stats-content" id="stats-content-adguard"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-adguard"><%= requests.adguard %></div>
         </div>
         <div>
             <div id="category-small">Dnsmasq</div>
-            <div class="stats-content" id="stats-content-dnsmasq"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-dnsmasq"><%= requests.dnsmasq %></div>
         </div>
         <div>
             <div id="category-small">No IP</div>
-            <div class="stats-content" id="stats-content-noip"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-noip"><%= requests.noip %></div>
         </div>
         <div>
             <div id="category-small">Unbound format</div>
-            <div class="stats-content" id="stats-content-unbound"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-unbound"><%= requests.unbound %></div>
         </div>
         <div>
             <div id="category-small">RPZ format</div>
-            <div class="stats-content" id="stats-content-rpz"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-rpz"><%= requests.rpz %></div>
         </div>
     </div>
 
     <div class="container-stats">
         <div>
             <div id="category-small">Responses 404</div>
-            <div class="stats-content" id="stats-content-404"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-404"><%= responses.get('404') || 0  %></div>
         </div>
         <div>
             <div id="category-small">Responses 429</div>
-            <div class="stats-content" id="stats-content-429"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-429"><%= responses.get('429') || 0 %></div>
         </div>
         <div>
             <div id="category-small">Responses 500</div>
-            <div class="stats-content" id="stats-content-500"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-500"><%= responses.get('500') || 0 %></div>
         </div>
         <div>
             <div id="category-small">Responses 503</div>
-            <div class="stats-content" id="stats-content-503"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></div>
+            <div class="stats-content" id="stats-content-503"><%= responses.get('503') || 0 %></div>
         </div>
     </div>
 
@@ -252,24 +252,20 @@
     <div class="container-stats">
         <div>
             <div>Uptime:</div>
-            <code id="stats-content-uptime"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></code>
-        </div>
-        <div>
-            <div>CPU usage:</div>
-            <code id="stats-content-cpu-load"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></code>
+            <code id="stats-content-uptime"><%= formatTime.full(process.uptime()) %></code>
         </div>
         <div>
             <div>Collection date:</div>
-            <code id="stats-content-coll-cAt"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></code>
+            <code id="stats-content-coll-cAt"><%= date.created %></code>
         </div>
         <div>
             <div>Last collection update:</div>
-            <code id="stats-content-coll-uAt"><img src="/images/loading.gif" class="stats-loading-gif" alt="Loading"></code>
+            <code id="stats-content-coll-uAt"><%= date.updated %></code>
         </div>
     </div>
 </div>
 
-
+<script src="/js/date.js"></script>
 <script>const WEBSOCKET=`<%= process.env.WS_FULL %>`;</script>
 <script src="/js/websocket.js"></script>
 

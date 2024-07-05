@@ -1,4 +1,3 @@
-const { cpu } = require('node-os-utils');
 const formatTime = require('./utils/formatTime.js');
 const RequestStats = require('./database/models/RequestStats');
 
@@ -10,21 +9,19 @@ module.exports = wss => {
 
 		// Set up an interval to periodically send data to the connected client
 		const interval = setInterval(async () => {
-			const database = await RequestStats.findOne({});
-			const cpuUsage = await cpu.usage();
+			const db = await RequestStats.findOne({});
 
 			// Prepare and send JSON data to the client
 			ws.send(JSON.stringify({
 				stats: {
-					requests: database.requests,
-					responses: database.responses
+					requests: db.requests,
+					responses: db.responses
 				},
 				uptime: formatTime.full(process.uptime()),
 				coll: {
-					createdAt: `${database.createdAt.toLocaleTimeString()}, ${database.createdAt.toLocaleDateString()}`,
-					updatedAt: `${database.updatedAt.toLocaleTimeString()}, ${database.updatedAt.toLocaleDateString()}`
-				},
-				cpuUsage: `${cpuUsage}%`
+					createdAt: db.createdAt,
+					updatedAt: db.updatedAt
+				}
 			}));
 		}, 2000);
 

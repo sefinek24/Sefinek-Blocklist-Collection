@@ -7,20 +7,24 @@ const updateStats = async (req, res) => {
 	if (userAgents.includes(ua)) return;
 
 	try {
-		const { url, category } = parseCategoryFromLink(req.url);
-
+		const { url, category } = parseCategoryFromLink(req.originalUrl || req.url);
 		const updateQuery = {
 			$inc: { 'requests.all': 1 }
 		};
 
+		console.log(url);
+		console.log(category);
+
 		if (res.statusCode >= 200 && res.statusCode < 300) {
-			if ((category && res.statusCode === 200) && (url.endsWith('.txt') || url.endsWith('.conf'))) {
+			if (category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
+				const filename = category.replace(/\.(?:conf|txt)/, '').replace(/[.]/, '-');
+				updateQuery.$inc[`requests.filenames.${filename}`] = 1;
 				updateQuery.$inc[`requests.${category}`] = 1;
 				updateQuery.$inc['requests.blocklist'] = 1;
 			}
-		} else {
-			updateQuery.$inc = { [`responses.${res.statusCode}`]: 1 };
 		}
+
+		updateQuery.$inc[`responses.${res.statusCode || 'unknown'}`] = 1;
 
 		await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true, new: true });
 	} catch (err) {
