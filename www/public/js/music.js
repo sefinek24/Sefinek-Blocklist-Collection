@@ -2,7 +2,7 @@ const audioElement = new Audio('/sound/404.mp3');
 const playButtonElement = document.getElementById('play-button');
 let isAudioPlaying = false;
 
-function toggleAudioPlayback() {
+const toggleAudioPlayback = () => {
 	if (isAudioPlaying) {
 		audioElement.pause();
 		isAudioPlaying = false;
@@ -11,19 +11,19 @@ function toggleAudioPlayback() {
 		audioElement.play().then(() => {
 			playButtonElement.textContent = '🔇 Pause Music';
 			isAudioPlaying = true;
-		}).catch((error) => {
-			if (error.name === 'NotAllowedError') {
+		}).catch(err => {
+			if (err.name === 'NotAllowedError') {
 				playButtonElement.textContent = '🎵 Play Music';
 				isAudioPlaying = false;
 			}
 		});
 	}
-}
+};
 
 playButtonElement.addEventListener('click', () => toggleAudioPlayback());
 
 
-function autoStartAudio() {
+const autoStartAudio = () => {
 	audioElement.play().then(() => {
 		playButtonElement.textContent = '🔇 Pause Music';
 		isAudioPlaying = true;
@@ -33,6 +33,6 @@ function autoStartAudio() {
 			isAudioPlaying = false;
 		}
 	});
-}
+};
 
 autoStartAudio();

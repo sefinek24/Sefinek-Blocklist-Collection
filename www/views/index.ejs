@@ -13,7 +13,7 @@
 }) %>
 
 <div class="cover">
-    <div class="cover-text">
+    <header class="cover-text">
         <h1 id="cover-header">Sefinek Blocklists - v<%= version %></h1>
         <div>
             The best lists for your DNS server or any other blocker. Your first and last reliable list with minimal false alarms. <br>
@@ -33,11 +33,11 @@
         </div>
 
         <!-- <p id="highlight">🌠 NEW! Added support for RPZ format and Unbound.</p> -->
-    </div>
+    </header>
 </div>
 
 
-<div class="content">
+<main>
     <div class="container-box" id="more-info">
         <h2>📝 Information</h2>
         <div class="container-text">
@@ -48,7 +48,7 @@
     </div>
 
     <h2>Okay, but why should I choose Sefinek Blocklists? 🤔</h2>
-    <div class="card">
+    <section class="card">
         <div class="card-text">
             <h3>Commitment to Privacy and Quality</h3>
             <p>
@@ -60,9 +60,9 @@
         <div class="card-img">
             <img src="/images/flaticon/hand.png" alt="Hand icon from flaticon.com">
         </div>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
         <div class="card-img">
             <img src="/images/flaticon/application-control.png" alt="Application control icon from flaticon.com">
         </div>
@@ -74,9 +74,9 @@
                 This process guarantees that essential websites remain accessible. As a result, we have an easy way to eliminate false positives from specified blocklists.
             </p>
         </div>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
         <div class="card-text">
             <h3>Blocklist Generator</h3>
             <p>
@@ -88,9 +88,9 @@
         <div class="card-img">
             <img src="/images/flaticon/checkbox.png" alt="Checkbox icon from flaticon.com">
         </div>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
         <div class="card-img">
             <img src="/images/flaticon/various.png" alt="Various icon from flaticon.com">
         </div>
@@ -101,9 +101,9 @@
                 0.0.0.0, 127.0.0.1, No IP, AdGuard, Dnsmasq, Unbound, RPZ.
             </p>
         </div>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
         <div class="card-text">
             <h3>Synchronization and Security Maintenance</h3>
             <p>
@@ -117,9 +117,9 @@
         <div class="card-img">
             <img src="/images/flaticon/loop.png" alt="Loop icon from flaticon.com">
         </div>
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
         <div class="card-img">
             <img src="/images/flaticon/loading-bar.png" alt="Loading bar icon from flaticon.com">
         </div>
@@ -133,9 +133,9 @@
             </p>
         </div>
 
-    </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
         <div class="card-text">
             <h3>Secure and Fast Server, Enhanced by Cloudflare</h3>
             <p>
@@ -147,9 +147,9 @@
         <div class="card-img">
             <img src="/images/flaticon/privacy.png" alt="Privacy icon from flaticon.com">
         </div>
-    </div>
+    </section>
 
-    <div class="card" style="margin-bottom:58px">
+    <section class="card" style="margin-bottom:58px">
         <div class="card-img">
             <img src="/images/flaticon/coding.png" alt="Coding icon from flaticon.com">
         </div>
@@ -161,109 +161,118 @@
                 Join us to shape a future where technology and privacy coexist in harmony.
             </p>
         </div>
-    </div>
+    </section>
 
 
-    <h2 id="pihole">What is Pi-hole? 🍒</h2>
-    <div class="header-text">
-        Pi-hole is not only an effective ad-blocking tool but also an intelligent privacy guardian, ensuring the security of your data.
-        It operates at the DNS level, which allows it to not only eliminate annoying ads but also protect against activity tracking and potential sources of malware.
-        Its ability to intercept unwanted content before it reaches your devices increases both the speed and security of internet usage.
-        Additionally, Pi-hole allows for customization of filters and activity monitoring, giving users greater control over what is blocked.
-        Using Pi-hole not only enhances the comfort of browsing the internet by eliminating ads but, more importantly, significantly raises the level of privacy and data security.
-    </div>
-    <h2 id="adguard">What is AdGuard? ✅</h2>
-    <div class="header-text">
-        AdGuard takes a comprehensive approach to blocking unwanted content in web browsers and mobile applications, ensuring a seamless user experience.
-        It offers easy-to-use products such as browser extensions and mobile apps, available in both free and premium versions.
-        In addition to blocking content, AdGuard provides built-in lists and is well-suited for parental control purposes.
-        Choosing between Pi-hole and AdGuard depends on your specific needs.
-    </div>
+    <article>
+        <h2 id="pihole">What is Pi-hole? 🍒</h2>
+        <div class="header-text">
+            Pi-hole is not only an effective ad-blocking tool but also an intelligent privacy guardian, ensuring the security of your data.
+            It operates at the DNS level, which allows it to not only eliminate annoying ads but also protect against activity tracking and potential sources of malware.
+            Its ability to intercept unwanted content before it reaches your devices increases both the speed and security of internet usage.
+            Additionally, Pi-hole allows for customization of filters and activity monitoring, giving users greater control over what is blocked.
+            Using Pi-hole not only enhances the comfort of browsing the internet by eliminating ads but, more importantly, significantly raises the level of privacy and data security.
+        </div>
+    </article>
+
+    <article>
+        <h2 id="adguard">What is AdGuard? ✅</h2>
+        <div class="header-text">
+            AdGuard takes a comprehensive approach to blocking unwanted content in web browsers and mobile applications, ensuring a seamless user experience.
+            It offers easy-to-use products such as browser extensions and mobile apps, available in both free and premium versions.
+            In addition to blocking content, AdGuard provides built-in lists and is well-suited for parental control purposes.
+            Choosing between Pi-hole and AdGuard depends on your specific needs.
+        </div>
+    </article>
 
 
-    <h2 style="margin-top:20px" id="stats">Are you ready for stats? 📝</h2>
-    <div class="container-stats">
-        <div class="card-stats">
-            <div id="category-big">All requests</div>
-            <div class="stats-content" id="stats-content-all-requests"><%= requests.all?.toLocaleString() %></div>
+    <section>
+        <h2 style="margin-top:20px" id="stats">Are you ready for stats? 📝</h2>
+        <div class="container-stats">
+            <div class="card-stats">
+                <div class="category-big">All requests</div>
+                <div class="stats-content" id="stats-content-all-requests"><%= requests.all?.toLocaleString() %></div>
+            </div>
+            <div class="card-stats">
+                <div class="category-big">Blocklist requests</div>
+                <div class="stats-content" id="stats-content-blocklist-requests"><%= requests.blocklist?.toLocaleString() %></div>
+            </div>
         </div>
-        <div class="card-stats">
-            <div id="category-big">Blocklist requests</div>
-            <div class="stats-content" id="stats-content-blocklist-requests"><%= requests.blocklist?.toLocaleString() %></div>
-        </div>
-    </div>
 
-    <div class="container-stats">
-        <div>
-            <div id="category-small">127.0.0.1</div>
-            <div class="stats-content" id="stats-content-127001"><%= requests['127001']?.toLocaleString() %></div>
+        <div class="container-stats">
+            <div>
+                <div class="category-small">127.0.0.1</div>
+                <div class="stats-content" id="stats-content-127001"><%= requests['127001']?.toLocaleString() %></div>
+            </div>
+            <div>
+                <div class="category-small">0.0.0.0</div>
+                <div class="stats-content" id="stats-content-0000"><%= requests['0000']?.toLocaleString() %></div>
+            </div>
+            <div>
+                <div class="category-small">AdGuard</div>
+                <div class="stats-content" id="stats-content-adguard"><%= requests.adguard?.toLocaleString() %></div>
+            </div>
+            <div>
+                <div class="category-small">Dnsmasq</div>
+                <div class="stats-content" id="stats-content-dnsmasq"><%= requests.dnsmasq?.toLocaleString() %></div>
+            </div>
+            <div>
+                <div class="category-small">No IP</div>
+                <div class="stats-content" id="stats-content-noip"><%= requests.noip?.toLocaleString() %></div>
+            </div>
+            <div>
+                <div class="category-small">Unbound format</div>
+                <div class="stats-content" id="stats-content-unbound"><%= requests.unbound?.toLocaleString() %></div>
+            </div>
+            <div>
+                <div class="category-small">RPZ format</div>
+                <div class="stats-content" id="stats-content-rpz"><%= requests.rpz?.toLocaleString() %></div>
+            </div>
         </div>
-        <div>
-            <div id="category-small">0.0.0.0</div>
-            <div class="stats-content" id="stats-content-0000"><%= requests['0000']?.toLocaleString() %></div>
-        </div>
-        <div>
-            <div id="category-small">AdGuard</div>
-            <div class="stats-content" id="stats-content-adguard"><%= requests.adguard?.toLocaleString() %></div>
-        </div>
-        <div>
-            <div id="category-small">Dnsmasq</div>
-            <div class="stats-content" id="stats-content-dnsmasq"><%= requests.dnsmasq?.toLocaleString() %></div>
-        </div>
-        <div>
-            <div id="category-small">No IP</div>
-            <div class="stats-content" id="stats-content-noip"><%= requests.noip?.toLocaleString() %></div>
-        </div>
-        <div>
-            <div id="category-small">Unbound format</div>
-            <div class="stats-content" id="stats-content-unbound"><%= requests.unbound?.toLocaleString() %></div>
-        </div>
-        <div>
-            <div id="category-small">RPZ format</div>
-            <div class="stats-content" id="stats-content-rpz"><%= requests.rpz?.toLocaleString() %></div>
-        </div>
-    </div>
 
-    <div class="container-stats">
-        <div>
-            <div id="category-small">Responses 404</div>
-            <div class="stats-content" id="stats-content-404"><%= responses.get('404')?.toLocaleString() || 0  %></div>
+        <div class="container-stats">
+            <div>
+                <div class="category-small">Responses 404</div>
+                <div class="stats-content" id="stats-content-404"><%= responses.get('404')?.toLocaleString() || 0  %></div>
+            </div>
+            <div>
+                <div class="category-small">Responses 429</div>
+                <div class="stats-content" id="stats-content-429"><%= responses.get('429')?.toLocaleString() || 0 %></div>
+            </div>
+            <div>
+                <div class="category-small">Responses 500</div>
+                <div class="stats-content" id="stats-content-500"><%= responses.get('500')?.toLocaleString() || 0 %></div>
+            </div>
+            <div>
+                <div class="category-small">Responses 503</div>
+                <div class="stats-content" id="stats-content-503"><%= responses.get('503')?.toLocaleString() || 0 %></div>
+            </div>
         </div>
-        <div>
-            <div id="category-small">Responses 429</div>
-            <div class="stats-content" id="stats-content-429"><%= responses.get('429')?.toLocaleString() || 0 %></div>
-        </div>
-        <div>
-            <div id="category-small">Responses 500</div>
-            <div class="stats-content" id="stats-content-500"><%= responses.get('500')?.toLocaleString() || 0 %></div>
-        </div>
-        <div>
-            <div id="category-small">Responses 503</div>
-            <div class="stats-content" id="stats-content-503"><%= responses.get('503')?.toLocaleString() || 0 %></div>
-        </div>
-    </div>
 
-    <div id="stats-footer">
-        <code>Statistics are effective from: 03.05.2024, 13:00 [Europe/Warsaw]</code>
-    </div>
+        <div id="stats-footer">
+            <code>Statistics are effective from: 03.05.2024, 13:00 [Europe/Warsaw]</code>
+        </div>
+    </section>
 
 
-    <h2 style="margin-top:40px">Our Server 🌍</h2>
-    <div class="container-stats">
-        <div>
-            <div>Uptime:</div>
-            <code id="stats-content-uptime"><%= formatTime.full(process.uptime()) %></code>
+    <section>
+        <h2 style="margin-top:40px">Our Server 🌍</h2>
+        <div class="container-stats">
+            <div>
+                <div>Uptime:</div>
+                <code id="stats-content-uptime"><%= formatTime.full(process.uptime()) %></code>
+            </div>
+            <div>
+                <div>Collection date:</div>
+                <code id="stats-content-coll-cAt"><%= date.created %></code>
+            </div>
+            <div>
+                <div>Last collection update:</div>
+                <code id="stats-content-coll-uAt"><%= date.updated %></code>
+            </div>
         </div>
-        <div>
-            <div>Collection date:</div>
-            <code id="stats-content-coll-cAt"><%= date.created %></code>
-        </div>
-        <div>
-            <div>Last collection update:</div>
-            <code id="stats-content-coll-uAt"><%= date.updated %></code>
-        </div>
-    </div>
-</div>
+    </section>
+</main>
 
 <script src="/js/date.js"></script>
 <script>const WEBSOCKET=`<%= process.env.WS_FULL %>`;</script>

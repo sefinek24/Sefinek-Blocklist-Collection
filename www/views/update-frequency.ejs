@@ -13,12 +13,12 @@
 }) %>
 
 <div class="cover">
-    <div class="cover-text">
+    <header class="cover-text">
         <h1>Update frequency ⏰</h1>
-    </div>
+    </header>
 </div>
 
-<div class="content">
+<main>
     <div class="container-box">
         <div class="container-text">
             <div style="padding-bottom: 15px">
@@ -31,17 +31,17 @@
             </div>
         </div>
     </div>
-</div>
 
-<div class="header-text">
-    <code>
-        This subpage displays the update time of repositories containing the list of blocklists for your time zone.<br>
-        You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.
-    </code>
-</div>
+    <div class="header-text">
+        <code>
+            This subpage displays the update time of repositories containing the list of blocklists for your time zone.<br>
+            You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.
+        </code>
+    </div>
+</main>
 
 <script>
-    function showCronInfo() {
+    const showCronInfo = () => {
         const userTimezone = luxon.DateTime.local().zoneName;
         document.getElementById('user-timezone').innerHTML = userTimezone;
 
@@ -52,7 +52,7 @@
         document.getElementById('remote').innerHTML = remote.toLocaleString(luxon.DateTime.DATETIME_MED);
     }
 
-    window.onload = showCronInfo;
+   document.addEventListener('DOMContentLoaded', showCronInfo);
 </script>
 
 <%- include('./includes/footer.ejs') %>

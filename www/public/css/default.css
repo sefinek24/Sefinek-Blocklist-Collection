@@ -99,7 +99,7 @@ button:active {
 }
 
 /* Navigation menu styling */
-.navbar {
+nav {
     background-color: rgba(0, 0, 0, 0.32);
     position: fixed;
     top: 0;
@@ -109,7 +109,7 @@ button:active {
     backdrop-filter: blur(5px);
 }
 
-.navbar ul {
+nav ul {
     list-style: none;
     padding: 0;
     display: flex;
@@ -117,30 +117,30 @@ button:active {
     align-items: center;
 }
 
-.navbar li {
+nav li {
     margin: 9px;
 }
 
-.navbar a {
-    text-decoration: none;
+nav a {
+    text-decoration: none!important;
     color: #fff;
     font-size: 1.2rem;
     padding: 10px 20px;
-    text-shadow: none;
+    text-shadow: none!important;
     border-radius: 20px;
 }
 
-.navbar a:hover {
+nav a:hover {
     background: linear-gradient(180deg, rgba(11, 121, 191, 0.6), rgba(11, 121, 191, 0.7));
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-.navbar a:active {
+nav a:active {
     background: linear-gradient(180deg, rgba(11, 121, 191), rgba(11, 121, 191));
     box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
 }
 
-.navbar #selected {
+nav #selected {
     background: linear-gradient(180deg, rgba(11, 121, 191, 0.75), rgba(11, 121, 191, 0.51));
     backdrop-filter: blur(6px);
 }
@@ -161,7 +161,7 @@ button:active {
 }
 
 /* Content section styling */
-.content {
+main {
     color: #fff;
     padding: 20px;
 }
@@ -206,7 +206,7 @@ button:active {
 
 /* Responsive styles for phones */
 @media (max-width: 1235px) {
-    .navbar ul {
+    nav ul {
         flex-direction: column;
         position: absolute;
         top: 60px;
@@ -217,17 +217,17 @@ button:active {
         overflow: hidden;
     }
 
-    .navbar.active ul {
+    nav.active ul {
         height: auto;
         transition: height 0.3s;
     }
 
-    .navbar ul li {
+    nav ul li {
         margin: 14px 0;
         text-align: center;
     }
 
-    .navbar ul a {
+    nav ul a {
         font-size: 1.1rem;
         padding: 10px 17px;
         border-radius: 18px;
@@ -237,11 +237,11 @@ button:active {
         flex: 0!important;
     }
 
-    #category-big {
+    .category-big {
         font-size: 23px!important;
     }
 
-    #category-small {
+    .category-small {
         font-size: 22px!important;
     }
 }

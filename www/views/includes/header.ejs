@@ -23,7 +23,7 @@
     <% if (libs === 'luxon') { %><script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script><% } %>
 </head>
 <body>
-    <div class="navbar">
+    <nav>
         <ul>
             <li><a href="/" <%- subpage === 'home' ? 'id="selected"' : '' %>>🏠 Home page</a></li>
             <li><a href="/generated/v1" <%- subpage === 'blocklist' ? 'id="selected"' : '' %>>📝 Blocklists</a></li>
@@ -35,4 +35,5 @@
         </ul>
 
         <button class="menu-toggle">☰</button>
-    </div>
+    </nav>
+
