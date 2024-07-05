@@ -42,6 +42,7 @@ urls=(
   "https://zerodot1.gitlab.io/CoinBlockerLists/hosts crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt"
 
   ## Dating services
+  "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating dating-services/ShadowWhisperer/dating.fork.txt"
   "https://www.github.developerdan.com/hosts/lists/dating-services-extended.txt dating-services/developerdan/extended.fork.txt"
 
   ## Drugs
@@ -69,6 +70,7 @@ urls=(
   "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts malicious/bigdargon/hostsVN.fork.txt"
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt malicious/DandelionSprout-AntiMalwareHosts.fork.txt"
   "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware malicious/RPiList/Malware.fork.txt"
+  "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware malicious/ShadowWhisperer/malware.fork.txt"
   "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt malicious/Spam404/main-blacklist.fork.txt"
   "https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt malicious/disconnectme/simple-malvertising.fork.txt"
 
@@ -81,13 +83,14 @@ urls=(
   ## Piracy
   "https://blocklistproject.github.io/Lists/piracy.txt piracy/blocklistproject/piracy.fork.txt"
 
-  ## Porn
-  "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts porn/StevenBlack/porn.fork.txt"
+  ## Porn & Adult
   "https://blocklistproject.github.io/Lists/porn.txt porn/blocklistproject/porn.fork.txt"
   "https://nsfw.oisd.nl porn/oisd/nsfw.fork.txt"
   "https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt porn/4skinSkywalker/hosts.fork.txt"
   "https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list porn/chadmayfield/pi-blocklist-porn-all.fork.txt"
+  "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Adult porn/ShadowWhisperer/adult.fork.txt"
   "https://raw.githubusercontent.com/Sinfonietta/hostfiles/master/pornography-hosts porn/Sinfonietta/pornography-hosts.fork.txt"
+  "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts porn/StevenBlack/porn.fork.txt"
 
   ## Ransomware
   "https://blocklistproject.github.io/Lists/ransomware.txt ransomware/blocklistproject/ransomware.fork.txt"
@@ -100,6 +103,7 @@ urls=(
   "https://raw.githubusercontent.com/Dogino/Discord-Phishing-URLs/main/scam-urls.txt scam/Dogino/Discord-Phishing-URLs-scam.fork.txt"
   "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt scam/durablenapkin/scamblocklist.fork.txt"
   "https://raw.githubusercontent.com/jarelllama/Scam-Blocklist/main/lists/wildcard_domains/scams.txt scam/jarelllama/scam.fork.txt"
+  "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam scam/ShadowWhisperer/scam.fork.txt"
 
   ## Polish filters
   "https://hole.cert.pl/domains/domains_hosts.txt other/polish-blocklists/cert.pl/domains-hosts.fork.txt"
@@ -113,12 +117,13 @@ urls=(
 
   ## Tracking and telemetry
   "https://ente.dev/api/blocklist/tv tracking-and-telemetry/ente-dev/tv.fork.txt"
+  "https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts tracking-and-telemetry/quidsup/trackers-hosts.fork.txt"
   "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt"
   "https://raw.githubusercontent.com/0Zinc/easylists-for-pihole/master/easyprivacy.txt tracking-and-telemetry/0Zinc/easyprivacy.fork.txt"
   "https://raw.githubusercontent.com/MajkiIT/polish-ads-filter/master/polish-pihole-filters/adguard_mobile_host.txt tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt"
   "https://raw.githubusercontent.com/mitchellkrogza/Stop.Google.Analytics.Ghost.Spam.HOWTO/master/output/domains/INACTIVE/list tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt"
   "https://raw.githubusercontent.com/neodevpro/neodevhost/master/host tracking-and-telemetry/neodevpro/host.fork.txt"
-  "https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.hosts tracking-and-telemetry/quidsup/trackers-hosts.fork.txt"
+  "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking tracking-and-telemetry/ShadowWhisperer/tracking.fork.txt"
 
   ## Suspicious
   "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts suspicious/FadeMind/add-Risk.fork.txt"
