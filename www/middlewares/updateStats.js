@@ -12,16 +12,11 @@ const updateStats = async (req, res) => {
 			$inc: { 'requests.all': 1 }
 		};
 
-		console.log(url);
-		console.log(category);
-
-		if (res.statusCode >= 200 && res.statusCode < 300) {
-			if (category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
-				const filename = category.replace(/\.(?:conf|txt)/, '').replace(/[.]/, '-');
-				updateQuery.$inc[`requests.filenames.${filename}`] = 1;
-				updateQuery.$inc[`requests.${category}`] = 1;
-				updateQuery.$inc['requests.blocklist'] = 1;
-			}
+		if (res.statusCode >= 200 && res.statusCode < 300 && category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
+			const filename = category.replace(/\.(?:conf|txt)/, '').replace(/[.]/, '-');
+			updateQuery.$inc[`requests.filenames.${filename}`] = 1;
+			updateQuery.$inc[`requests.${category}`] = 1;
+			updateQuery.$inc['requests.blocklist'] = 1;
 		}
 
 		updateQuery.$inc[`responses.${res.statusCode || 'unknown'}`] = 1;
