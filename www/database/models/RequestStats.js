@@ -4,6 +4,7 @@ const RequestStats = new Schema({
 	requests: {
 		all: { type: Number, default: 0 },
 		blocklist: { type: Number, default: 0 },
+		categories: { type: Map, of: Number, default: {} },
 		filenames: { type: Map, of: Number, default: {} },
 		'0000': { type: Number, default: 0 },
 		'127001': { type: Number, default: 0 },
