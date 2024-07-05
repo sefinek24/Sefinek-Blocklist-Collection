@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719578505345 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720183143086 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Tue, 25 Jun 2024 22:47:11 GMT
-; entries:        3543
+; entries:        3542
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -136,6 +136,8 @@ abruptroad.com CNAME .
 *.abruptroad.com CNAME .
 absorbingband.com CNAME .
 *.absorbingband.com CNAME .
+absorbingcorn.com CNAME .
+*.absorbingcorn.com CNAME .
 abstractedauthority.com CNAME .
 *.abstractedauthority.com CNAME .
 abtasty.com CNAME .
@@ -852,8 +854,6 @@ easy-forex.com CNAME .
 *.easy-forex.com CNAME .
 economist.com CNAME .
 *.economist.com CNAME .
-edbindex.dk CNAME .
-*.edbindex.dk CNAME .
 elcarado.com CNAME .
 *.elcarado.com CNAME .
 electrocelt.com CNAME .
@@ -878,8 +878,6 @@ fastcomgroup.it CNAME .
 *.fastcomgroup.it CNAME .
 fasttrack-ignite.com CNAME .
 *.fasttrack-ignite.com CNAME .
-faxo.com CNAME .
-*.faxo.com CNAME .
 femmefab.nl CNAME .
 *.femmefab.nl CNAME .
 ferianc.com CNAME .
@@ -1436,8 +1434,6 @@ lecool.com CNAME .
 *.lecool.com CNAME .
 adserver.mobi CNAME .
 *.adserver.mobi CNAME .
-msmb.biz CNAME .
-*.msmb.biz CNAME .
 com.au CNAME .
 *.com.au CNAME .
 nydailynews.com CNAME .
@@ -2690,8 +2686,6 @@ equantum.com CNAME .
 *.equantum.com CNAME .
 eventbrite.com CNAME .
 *.eventbrite.com CNAME .
-mods.de CNAME .
-*.mods.de CNAME .
 monzo.com CNAME .
 *.monzo.com CNAME .
 cc-dt.com CNAME .
@@ -3402,6 +3396,8 @@ findcommerce.com CNAME .
 *.findcommerce.com CNAME .
 findyourcasino.com CNAME .
 *.findyourcasino.com CNAME .
+fineoffer.net CNAME .
+*.fineoffer.net CNAME .
 fingahvf.top CNAME .
 *.fingahvf.top CNAME .
 fireworkadservices.com CNAME .
@@ -3756,6 +3752,8 @@ homelycrown.com CNAME .
 *.homelycrown.com CNAME .
 homepageking.de CNAME .
 *.homepageking.de CNAME .
+honorablehall.com CNAME .
+*.honorablehall.com CNAME .
 honorableland.com CNAME .
 *.honorableland.com CNAME .
 realitykings.com CNAME .
