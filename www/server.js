@@ -7,7 +7,7 @@ const WebSocket = require('ws');
 const timeout = require('./middlewares/timeout.js');
 const morgan = require('./middlewares/morgan.js');
 const limiter = require('./middlewares/ratelimit.js');
-const increment = require('./middlewares/increment.js');
+const updateStats = require('./middlewares/updateStats.js');
 const { notFound, internalError } = require('./middlewares/other/errors.js');
 
 // MongoDB
@@ -36,28 +36,22 @@ app.use(morgan.use);
 app.use(limiter);
 app.use(timeout());
 
-// Static (docs)
-app.use('/docs', express.static(path.join(__dirname, '..', 'docs')));
-
-
 
 // Stats
-app.get('*', increment.requests);
+app.get('*', updateStats);
 
 // Endpoints
 app.use(require('./routes/Main.js'));
 
 // Blocklists
-app.use(require('./routes/Blocklists/Deprecated.js'));
 app.use(require('./routes/Blocklists/Main.js'));
+app.use(require('./routes/Blocklists/Deprecated.js'));
 
 // Markdown
 app.use(require('./routes/Markdown.js'));
 
 // API
 app.use(require('./routes/API.js'));
-
-
 
 
 // Errors
