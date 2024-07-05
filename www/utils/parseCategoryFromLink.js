@@ -18,5 +18,5 @@ module.exports = url => {
 	let isValidFile = fileName.endsWith('.txt') || fileName.endsWith('.conf');
 	if (!isValidFile) isValidFile = false;
 
-	return { url, array: segments, category, fileName: isValidFile ? fileName.replace(/[.]/, ':') : null };
+	return { url, array: segments, category, fileName: isValidFile ? fileName.replace(/[.]/, '-') : null };
 };
