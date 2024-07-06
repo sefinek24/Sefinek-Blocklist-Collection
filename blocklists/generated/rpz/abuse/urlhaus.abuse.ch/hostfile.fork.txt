@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720290415450 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720297359447 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-07-06 18:19:19 (UTC)                      ;
+; Last updated: 2024-07-06 20:14:20 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+kukulaa.cn CNAME .
+*.kukulaa.cn CNAME .
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
 1000uc.com CNAME .
@@ -84,8 +86,12 @@ bratiop.ru CNAME .
 *.bratiop.ru CNAME .
 bruiserbodies.com CNAME .
 *.bruiserbodies.com CNAME .
+bruta.pl CNAME .
+*.bruta.pl CNAME .
 diit.cl CNAME .
 *.diit.cl CNAME .
+haory.cn CNAME .
+*.haory.cn CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
 cajgtus.com CNAME .
@@ -136,6 +142,8 @@ udashi.com CNAME .
 *.udashi.com CNAME .
 discuz.mobi CNAME .
 *.discuz.mobi CNAME .
+defgyma.com CNAME .
+*.defgyma.com CNAME .
 dgkhj.ru CNAME .
 *.dgkhj.ru CNAME .
 com.ar CNAME .
@@ -144,8 +152,6 @@ diclegrup.org CNAME .
 *.diclegrup.org CNAME .
 directshipplants.com CNAME .
 *.directshipplants.com CNAME .
-56a.com CNAME .
-*.56a.com CNAME .
 198424.com CNAME .
 *.198424.com CNAME .
 aginjector.com CNAME .
@@ -166,6 +172,8 @@ caihong.com CNAME .
 *.caihong.com CNAME .
 doumaibiji.cn CNAME .
 *.doumaibiji.cn CNAME .
+pdf00.cn CNAME .
+*.pdf00.cn CNAME .
 downloadfile123.xyz CNAME .
 *.downloadfile123.xyz CNAME .
 downloadloaderst.com CNAME .
@@ -238,16 +246,12 @@ helpcenter.cyou CNAME .
 *.helpcenter.cyou CNAME .
 hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
-hitstation.nl CNAME .
-*.hitstation.nl CNAME .
 vrcom7.com CNAME .
 *.vrcom7.com CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
 ac.ug CNAME .
 *.ac.ug CNAME .
-duniareligi.com CNAME .
-*.duniareligi.com CNAME .
 hwthurmann.de CNAME .
 *.hwthurmann.de CNAME .
 hyundaidiamante.com CNAME .
@@ -276,8 +280,6 @@ jobcity.com CNAME .
 *.jobcity.com CNAME .
 joccupationalscience.org CNAME .
 *.joccupationalscience.org CNAME .
-joeltrip.com CNAME .
-*.joeltrip.com CNAME .
 jointings.org CNAME .
 *.jointings.org CNAME .
 jonmesserartwork.com CNAME .
@@ -294,8 +296,6 @@ kdnewsindia.com CNAME .
 *.kdnewsindia.com CNAME .
 kfdhsa.ru CNAME .
 *.kfdhsa.ru CNAME .
-kipaak.com CNAME .
-*.kipaak.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
 kuodafamilytravel.com CNAME .
@@ -498,8 +498,6 @@ ourcalendarupdate.cfd CNAME .
 *.ourcalendarupdate.cfd CNAME .
 paipaisdvzxc.ru CNAME .
 *.paipaisdvzxc.ru CNAME .
-com.br CNAME .
-*.com.br CNAME .
 partaususd.ru CNAME .
 *.partaususd.ru CNAME .
 pastrasasca.ug CNAME .
@@ -532,8 +530,6 @@ protechasia.com CNAME .
 *.protechasia.com CNAME .
 pufether.com CNAME .
 *.pufether.com CNAME .
-co.za CNAME .
-*.co.za CNAME .
 qd34gf23ewrfsd1233.ru CNAME .
 *.qd34gf23ewrfsd1233.ru CNAME .
 qwertasd.ru CNAME .
@@ -592,24 +588,20 @@ sylhetvoice.com CNAME .
 *.sylhetvoice.com CNAME .
 syncallinfo.site CNAME .
 *.syncallinfo.site CNAME .
-taxinhanhlongan.com CNAME .
-*.taxinhanhlongan.com CNAME .
-techniguitare.com CNAME .
-*.techniguitare.com CNAME .
 techseasoning.com CNAME .
 *.techseasoning.com CNAME .
 tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
 telegram.ninja CNAME .
 *.telegram.ninja CNAME .
+tengfeidn.com CNAME .
+*.tengfeidn.com CNAME .
 typoten.com CNAME .
 *.typoten.com CNAME .
 meuly.online CNAME .
 *.meuly.online CNAME .
 thewavesoftech.com CNAME .
 *.thewavesoftech.com CNAME .
-thuexeditinh365.click CNAME .
-*.thuexeditinh365.click CNAME .
 florenda.com CNAME .
 *.florenda.com CNAME .
 timebound.ug CNAME .
@@ -636,10 +628,10 @@ tuskslacx.ug CNAME .
 *.tuskslacx.ug CNAME .
 twizt.net CNAME .
 *.twizt.net CNAME .
-unicorpbrunei.com CNAME .
-*.unicorpbrunei.com CNAME .
 cg100iii.com CNAME .
 *.cg100iii.com CNAME .
+co.network CNAME .
+*.co.network CNAME .
 upstatesunflowerfestival.com CNAME .
 *.upstatesunflowerfestival.com CNAME .
 article.se CNAME .
@@ -654,8 +646,6 @@ swpushroller.eu CNAME .
 *.swpushroller.eu CNAME .
 venuewishlist.com CNAME .
 *.venuewishlist.com CNAME .
-dsservice.co CNAME .
-*.dsservice.co CNAME .
 wasday.online CNAME .
 *.wasday.online CNAME .
 wcuuxhjlak.com CNAME .
@@ -688,12 +678,12 @@ almrwad.com CNAME .
 *.almrwad.com CNAME .
 asdsadasrdc.ug CNAME .
 *.asdsadasrdc.ug CNAME .
+com.br CNAME .
+*.com.br CNAME .
 attackzm.ru CNAME .
 *.attackzm.ru CNAME .
 bestt-shirts.com CNAME .
 *.bestt-shirts.com CNAME .
-bitforje.com CNAME .
-*.bitforje.com CNAME .
 blackhattoolz.com CNAME .
 *.blackhattoolz.com CNAME .
 botnet123.cc CNAME .
@@ -804,8 +794,6 @@ pe.kr CNAME .
 *.pe.kr CNAME .
 opesjk.ug CNAME .
 *.opesjk.ug CNAME .
-opolis.io CNAME .
-*.opolis.io CNAME .
 opsdjs.ug CNAME .
 *.opsdjs.ug CNAME .
 paipaisdvzxc.ru CNAME .
@@ -828,6 +816,8 @@ qwerty12346.ru CNAME .
 *.qwerty12346.ru CNAME .
 reifenquick.de CNAME .
 *.reifenquick.de CNAME .
+rockcreekdds.com CNAME .
+*.rockcreekdds.com CNAME .
 galacticleads.com CNAME .
 *.galacticleads.com CNAME .
 rytualz.com CNAME .
@@ -836,8 +826,6 @@ saf-oil.ru CNAME .
 *.saf-oil.ru CNAME .
 santapubcrawlchattanooga.com CNAME .
 *.santapubcrawlchattanooga.com CNAME .
-sessosesso.it CNAME .
-*.sessosesso.it CNAME .
 starcountry.net CNAME .
 *.starcountry.net CNAME .
 streelibas.com CNAME .
@@ -850,8 +838,6 @@ techseasoning.com CNAME .
 *.techseasoning.com CNAME .
 thewavesoftech.com CNAME .
 *.thewavesoftech.com CNAME .
-thuexeditinh365.click CNAME .
-*.thuexeditinh365.click CNAME .
 timebound.ug CNAME .
 *.timebound.ug CNAME .
 timecheck.ug CNAME .
@@ -878,8 +864,6 @@ wcuuxhjlak.com CNAME .
 *.wcuuxhjlak.com CNAME .
 wellplayed.ug CNAME .
 *.wellplayed.ug CNAME .
-xelientinhmiennam.com CNAME .
-*.xelientinhmiennam.com CNAME .
 ysbaojia.com CNAME .
 *.ysbaojia.com CNAME .
 zandarbriston.com CNAME .
@@ -888,8 +872,6 @@ zuhauseliving.com CNAME .
 *.zuhauseliving.com CNAME .
 zxvbcrt.ug CNAME .
 *.zxvbcrt.ug CNAME .
-xelientinhmiennam.com CNAME .
-*.xelientinhmiennam.com CNAME .
 xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
 shavsl.com CNAME .
@@ -912,4 +894,4 @@ zuhauseliving.com CNAME .
 *.zuhauseliving.com CNAME .
 zxvbcrt.ug CNAME .
 *.zxvbcrt.ug CNAME .
-; Number of entries: 451
+; Number of entries: 442
