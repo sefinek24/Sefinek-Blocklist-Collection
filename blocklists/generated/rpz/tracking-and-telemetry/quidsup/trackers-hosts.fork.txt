@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720218143451 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720304487406 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,9 +8,9 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 05 Jul 2024
+; Updated: 06 Jul 2024
 ; LatestVersion 24.01
-; Domain Count: 15974
+; Domain Count: 15975
 ;===============================================================
 0i0i0i0.com CNAME .
 *.0i0i0i0.com CNAME .
@@ -8900,6 +8900,8 @@ mkt1202.com CNAME .
 *.mkt1202.com CNAME .
 mkt12022.com CNAME .
 *.mkt12022.com CNAME .
+mkt12023.com CNAME .
+*.mkt12023.com CNAME .
 mkt12024.com CNAME .
 *.mkt12024.com CNAME .
 mkt12025.com CNAME .
