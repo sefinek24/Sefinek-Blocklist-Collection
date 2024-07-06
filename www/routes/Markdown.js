@@ -26,6 +26,11 @@ const convertUrls = link => {
 const isValidName = name => (/^[a-zA-Z0-9_-]+$/).test(name);
 const isPathSecure = file => !file.includes('..') && !file.includes('//') && !file.includes('\\');
 
+const extractMatch = (regex, text) => {
+	const match = text.match(regex);
+	return match && match[1].trim() && match[1].trim() !== 'N/A' ? match[1].trim() : null;
+};
+
 // Routes
 router.get('/markdown', (req, res) => res.render('markdown.ejs', { version }));
 router.use('/markdown/lists', autoIndex(path.join(__dirname, '..', '..', 'docs', 'lists'), options));
@@ -44,6 +49,7 @@ const pages = [
 	'Fake_news',
 	'Gambling',
 	'Hate_and_junk',
+	'LGBTQ_Plus',
 	'Malicious',
 	'Phishing',
 	'Piracy',
@@ -55,7 +61,6 @@ const pages = [
 	'Spyware',
 	'Telemetry_and_Tracking',
 	'Useless_websites',
-	'YouTube_and_mobile_ads_etc.',
 
 	'Norton.txt',
 	'What_is_Pi-hole',
@@ -95,10 +100,10 @@ router.use('/viewer/:category', async (req, res) => {
 		const mdFile = await fs.readFile(fullPath, 'utf8');
 		res.render('markdown-viewer.ejs', {
 			html: Marked.parse(convertUrls(mdFile)),
-			title: mdFile.match(TITLE_REGEX) ? mdFile.match(TITLE_REGEX)[1] : 'Unknown title',
-			desc: mdFile.match(DESC_REGEX) ? mdFile.match(DESC_REGEX)[1] : undefined,
-			tags: mdFile.match(TAGS_REGEX) ? mdFile.match(TAGS_REGEX)[1] : undefined,
-			canonical: mdFile.match(CANONICAL_REGEX) ? mdFile.match(CANONICAL_REGEX)[1].trim() : undefined
+			title: extractMatch(TITLE_REGEX, mdFile),
+			desc: extractMatch(DESC_REGEX, mdFile),
+			tags: extractMatch(TAGS_REGEX, mdFile),
+			canonical: extractMatch(CANONICAL_REGEX, mdFile)
 		});
 	} catch (err) {
 		console.error(err);
