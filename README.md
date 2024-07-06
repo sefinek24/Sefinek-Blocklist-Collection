@@ -64,16 +64,16 @@ Synchronization occurs daily at `01:00` and `06:00`. 24-hour clock; Poland time 
 
 
 ## ✨ Default blocklist
-- [**AMP Hosts:**](https://blocklist.sefinek.net/viewer/info/block/AMP_Hosts) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**Abuse:**](https://blocklist.sefinek.net/viewer/info/block/Abuse) Blocks known domains involved in online abuse or harassment.
 - [**Advertising:**](https://blocklist.sefinek.net/viewer/info/block/Advertising) Blocks domains that serve advertisements to visitors.
-- [**Websites & Games:**](https://blocklist.sefinek.net/viewer/info/block/Block_websites_and_games) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
+- [**AMP Hosts:**](https://blocklist.sefinek.net/viewer/info/block/AMP_Hosts) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
 - [**CryptoJacking:**](https://blocklist.sefinek.net/viewer/info/block/CryptoJacking) Blocks domains that hijack your device to mine cryptocurrency.
 - [**Dating Services:**](https://blocklist.sefinek.net/viewer/info/block/Dating_services) Blocks domains of dating websites and apps.
 - [**Drugs:**](https://blocklist.sefinek.net/viewer/info/block/Drugs) Blocks domains that sell or promote drugs.
 - [**Fake News:**](https://blocklist.sefinek.net/viewer/info/block/Fake_news) Blocks domains that are known to publish fake or misleading news.
 - [**Gambling:**](https://blocklist.sefinek.net/viewer/info/block/Gambling) Blocks domains of online gambling websites.
 - [**Hate & Junk:**](https://blocklist.sefinek.net/viewer/info/block/Hate_and_junk) Blocks domains promoting hate speech or spreading false information.
+- [**LGBTQ+ content:**](https://blocklist.sefinek.net/viewer/info/block/LGBTQ_Plus) Blocks domains that are related to LGBTQ+ content.
 - [**Malicious:**](https://blocklist.sefinek.net/viewer/info/block/Malicious) Blocks domains that are considered dangerous or malicious.
 - [**Phishing:**](https://blocklist.sefinek.net/viewer/info/block/Phishing) Blocks domains involved in phishing attempts.
 - [**Piracy:**](https://blocklist.sefinek.net/viewer/info/block/Piracy) Blocks domains that distribute pirated software or media.
@@ -85,7 +85,7 @@ Synchronization occurs daily at `01:00` and `06:00`. 24-hour clock; Poland time 
 - [**Spyware:**](https://blocklist.sefinek.net/viewer/info/block/Spyware) Blocks domains that distribute spyware or adware.
 - [**Telemetry & Tracking:**](https://blocklist.sefinek.net/viewer/info/block/Telemetry_and_Tracking) Blocks domains that track user activity for analytics purposes.
 - [**Useless websites:**](https://blocklist.sefinek.net/viewer/info/block/Useless_websites) Blocks domains that offer little or no value to users.
-- [**YouTube Ads:**](https://blocklist.sefinek.net/viewer/info/block/YouTube_and_mobile_ads_etc.) Blocks ads on YouTube. Unfortunately, this will not be effective.
+- [**Websites & Games:**](https://blocklist.sefinek.net/viewer/info/block/Block_websites_and_games) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
 
 <h3 align="right">
     📃 <a href="docs/lists/Index.md">Choose your adblocker and copy URL addresses »</a>
