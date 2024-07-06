@@ -1,4 +1,4 @@
-<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+<!-- SEO DATA FOR BLOCKLIST.SEFINEK.NET
 * Title       : What is Pi-hole (domain blocker) and what are its advantages?
 * Description : Pi-hole: DNS-Level blocking for faster browsing and enhanced privacy in your network. Install on Linux or Raspberry Pi. Say goodbye to annoying content! 
 * Tags        : pi-hole, adblocker, privacy tool, dns-level blocking, faster browsing, enhanced privacy, linux, docker, raspberry pi, annoying content, online security, malware protection, web filtering, internet speed, network-wide blocking, custom blocklists, parental control, safe browsing, open source, tracking protection

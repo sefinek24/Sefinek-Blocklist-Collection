@@ -1,4 +1,4 @@
-<!-- SEO DATA FOR BLOCKLIST.SEIFNEK.NET
+<!-- SEO DATA FOR BLOCKLIST.SEFINEK.NET
 * Title       : Malicious Domains
 * Description : 
 * Tags        :
