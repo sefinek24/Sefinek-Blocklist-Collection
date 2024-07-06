@@ -8,6 +8,7 @@ const RequestStats = new Schema({
 			type: Map,
 			of: new Schema({
 				total: { type: Number, default: 0 },
+				last: Date,
 				perYear: { type: Map, of: Number, default: {} },
 				perMonth: { type: Map, of: Number, default: {} },
 				perDay: { type: Map, of: Number, default: {} },
@@ -20,6 +21,7 @@ const RequestStats = new Schema({
 			type: Map,
 			of: new Schema({
 				total: { type: Number, default: 0 },
+				last: Date,
 				perYear: { type: Map, of: Number, default: {} },
 				perMonth: { type: Map, of: Number, default: {} },
 				perDay: { type: Map, of: Number, default: {} },

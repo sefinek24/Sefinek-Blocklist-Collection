@@ -12,22 +12,8 @@ const updateStats = async (req, res) => {
 		const { dateKey, yearKey, monthKey, hourKey, minuteKey } = time.dateKey();
 
 		const updateQuery = {
-			$inc: {
-				'requests.all': 1,
-				[`requests.categories.${category}.total`]: 1,
-				[`requests.categories.${category}.perYear.${yearKey}`]: 1,
-				[`requests.categories.${category}.perMonth.${monthKey}-${yearKey}`]: 1,
-				[`requests.categories.${category}.perDay.${dateKey}`]: 1,
-				[`requests.categories.${category}.perHour.${dateKey}:${hourKey}`]: 1,
-				[`requests.categories.${category}.perMinute.${dateKey}:${hourKey}:${minuteKey}`]: 1,
-
-				[`requests.urls.${listUrl}.total`]: 1,
-				[`requests.urls.${listUrl}.perYear.${yearKey}`]: 1,
-				[`requests.urls.${listUrl}.perMonth.${monthKey}-${yearKey}`]: 1,
-				[`requests.urls.${listUrl}.perDay.${dateKey}`]: 1,
-				[`requests.urls.${listUrl}.perHour.${dateKey}:${hourKey}`]: 1,
-				[`requests.urls.${listUrl}.perMinute.${dateKey}:${hourKey}:${minuteKey}`]: 1
-			}
+			$inc: { 'requests.all': 1 },
+			$set: {}
 		};
 
 		if (res.statusCode >= 200 && res.statusCode < 300 && category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
@@ -36,6 +22,7 @@ const updateStats = async (req, res) => {
 
 			if (category) {
 				updateQuery.$inc[`requests.categories.${category}.total`] = 1;
+				updateQuery.$set[`requests.categories.${category}.last`] = new Date();
 				updateQuery.$inc[`requests.categories.${category}.perYear.${yearKey}`] = 1;
 				updateQuery.$inc[`requests.categories.${category}.perMonth.${monthKey}-${yearKey}`] = 1;
 				updateQuery.$inc[`requests.categories.${category}.perDay.${dateKey}`] = 1;
@@ -45,6 +32,7 @@ const updateStats = async (req, res) => {
 
 			if (listUrl) {
 				updateQuery.$inc[`requests.urls.${listUrl}.total`] = 1;
+				updateQuery.$set[`requests.urls.${listUrl}.last`] = new Date();
 				updateQuery.$inc[`requests.urls.${listUrl}.perYear.${yearKey}`] = 1;
 				updateQuery.$inc[`requests.urls.${listUrl}.perMonth.${monthKey}-${yearKey}`] = 1;
 				updateQuery.$inc[`requests.urls.${listUrl}.perDay.${dateKey}`] = 1;
