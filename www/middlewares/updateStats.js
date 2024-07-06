@@ -20,16 +20,6 @@ const updateStats = async (req, res) => {
 			updateQuery.$inc[`requests.${type}`] = 1;
 			updateQuery.$inc['requests.blocklist'] = 1;
 
-			if (category) {
-				updateQuery.$inc[`requests.categories.${category}.total`] = 1;
-				updateQuery.$set[`requests.categories.${category}.last`] = new Date();
-				updateQuery.$inc[`requests.categories.${category}.perYear.${yearKey}`] = 1;
-				updateQuery.$inc[`requests.categories.${category}.perMonth.${monthKey}-${yearKey}`] = 1;
-				updateQuery.$inc[`requests.categories.${category}.perDay.${dateKey}`] = 1;
-				updateQuery.$inc[`requests.categories.${category}.perHour.${dateKey}:${hourKey}`] = 1;
-				updateQuery.$inc[`requests.categories.${category}.perMinute.${dateKey}:${hourKey}:${minuteKey}`] = 1;
-			}
-
 			if (listUrl) {
 				updateQuery.$inc[`requests.urls.${listUrl}.total`] = 1;
 				updateQuery.$set[`requests.urls.${listUrl}.last`] = new Date();

@@ -4,19 +4,6 @@ const RequestStats = new Schema({
 	requests: {
 		all: { type: Number, default: 0 },
 		blocklist: { type: Number, default: 0 },
-		categories: {
-			type: Map,
-			of: new Schema({
-				total: { type: Number, default: 0 },
-				last: Date,
-				perYear: { type: Map, of: Number, default: {} },
-				perMonth: { type: Map, of: Number, default: {} },
-				perDay: { type: Map, of: Number, default: {} },
-				perHour: { type: Map, of: Number, default: {} },
-				perMinute: { type: Map, of: Number, default: {} }
-			}, { _id: false }),
-			default: {}
-		},
 		urls: {
 			type: Map,
 			of: new Schema({
