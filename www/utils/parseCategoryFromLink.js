@@ -20,7 +20,7 @@ module.exports = url => {
 		url,
 		array: segments,
 		listUrl: prepare(fullSecond),
-		type: types[type],
+		type: types[type] || type,
 		category: prepare(fourthSegment),
 		fileName: isValidFile ? prepare(fileName) : null
 	};
