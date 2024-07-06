@@ -41,7 +41,7 @@ https://blocklist.sefinek.net/generated/v1/unbound/crypto/cryptojacking/hoshsadi
 https://blocklist.sefinek.net/generated/v1/unbound/crypto/cryptojacking/Snota418/Crypto-streams.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/dating-services/developerdan/extended.fork.conf
-https://blocklist.sefinek.net/generated/v1/unbound/dating-services/sefinek.hosts.txt
+https://blocklist.sefinek.net/generated/v1/unbound/dating-services/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/dead-domains/jarelllama/dead-domains.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/drugs/blocklistproject/drugs.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/extensions/deathbybandaid/CountryCodesLists-France.fork.conf
@@ -103,6 +103,7 @@ https://blocklist.sefinek.net/generated/v1/unbound/scam/durablenapkin/scamblockl
 https://blocklist.sefinek.net/generated/v1/unbound/scam/jarelllama/scam.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/scam/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/gamebanana.conf
+https://blocklist.sefinek.net/generated/v1/unbound/sites/lgbtqia-domains.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/omegle.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/patreon.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/riotgames.conf

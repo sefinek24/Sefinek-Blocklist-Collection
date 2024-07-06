@@ -103,6 +103,7 @@ https://blocklist.sefinek.net/generated/v1/rpz/scam/durablenapkin/scamblocklist.
 https://blocklist.sefinek.net/generated/v1/rpz/scam/jarelllama/scam.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/scam/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/gamebanana.txt
+https://blocklist.sefinek.net/generated/v1/rpz/sites/lgbtqia-domains.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/omegle.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/patreon.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/riotgames.txt
