@@ -1,5 +1,6 @@
 const { userAgents } = require('./morgan.js');
 const parseCategoryFromLink = require('../utils/parseCategoryFromLink.js');
+const time = require('../utils/time.js');
 const RequestStats = require('../database/models/RequestStats');
 
 const updateStats = async (req, res) => {
@@ -7,16 +8,49 @@ const updateStats = async (req, res) => {
 	if (userAgents.includes(ua)) return;
 
 	try {
-		const { url, category, fileName } = parseCategoryFromLink(req.originalUrl || req.url);
+		const { url, listUrl, type, category } = parseCategoryFromLink(req.originalUrl || req.url);
+		const { dateKey, yearKey, monthKey, hourKey, minuteKey } = time.dateKey();
+
 		const updateQuery = {
-			$inc: { 'requests.all': 1 }
+			$inc: {
+				'requests.all': 1,
+				[`requests.categories.${category}.total`]: 1,
+				[`requests.categories.${category}.perYear.${yearKey}`]: 1,
+				[`requests.categories.${category}.perMonth.${monthKey}-${yearKey}`]: 1,
+				[`requests.categories.${category}.perDay.${dateKey}`]: 1,
+				[`requests.categories.${category}.perHour.${dateKey}:${hourKey}`]: 1,
+				[`requests.categories.${category}.perMinute.${dateKey}:${hourKey}:${minuteKey}`]: 1,
+
+				[`requests.urls.${listUrl}.total`]: 1,
+				[`requests.urls.${listUrl}.perYear.${yearKey}`]: 1,
+				[`requests.urls.${listUrl}.perMonth.${monthKey}-${yearKey}`]: 1,
+				[`requests.urls.${listUrl}.perDay.${dateKey}`]: 1,
+				[`requests.urls.${listUrl}.perHour.${dateKey}:${hourKey}`]: 1,
+				[`requests.urls.${listUrl}.perMinute.${dateKey}:${hourKey}:${minuteKey}`]: 1
+			}
 		};
 
 		if (res.statusCode >= 200 && res.statusCode < 300 && category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
-			updateQuery.$inc[`requests.categories.${category}`] = 1;
-			if (fileName) updateQuery.$inc[`requests.filenames.${fileName}`] = 1;
-			updateQuery.$inc[`requests.${category}`] = 1;
+			updateQuery.$inc[`requests.${type}`] = 1;
 			updateQuery.$inc['requests.blocklist'] = 1;
+
+			if (category) {
+				updateQuery.$inc[`requests.categories.${category}.total`] = 1;
+				updateQuery.$inc[`requests.categories.${category}.perYear.${yearKey}`] = 1;
+				updateQuery.$inc[`requests.categories.${category}.perMonth.${monthKey}-${yearKey}`] = 1;
+				updateQuery.$inc[`requests.categories.${category}.perDay.${dateKey}`] = 1;
+				updateQuery.$inc[`requests.categories.${category}.perHour.${dateKey}:${hourKey}`] = 1;
+				updateQuery.$inc[`requests.categories.${category}.perMinute.${dateKey}:${hourKey}:${minuteKey}`] = 1;
+			}
+
+			if (listUrl) {
+				updateQuery.$inc[`requests.urls.${listUrl}.total`] = 1;
+				updateQuery.$inc[`requests.urls.${listUrl}.perYear.${yearKey}`] = 1;
+				updateQuery.$inc[`requests.urls.${listUrl}.perMonth.${monthKey}-${yearKey}`] = 1;
+				updateQuery.$inc[`requests.urls.${listUrl}.perDay.${dateKey}`] = 1;
+				updateQuery.$inc[`requests.urls.${listUrl}.perHour.${dateKey}:${hourKey}`] = 1;
+				updateQuery.$inc[`requests.urls.${listUrl}.perMinute.${dateKey}:${hourKey}:${minuteKey}`] = 1;
+			}
 		}
 
 		updateQuery.$inc[`responses.${res.statusCode || 'unknown'}`] = 1;
@@ -24,7 +58,7 @@ const updateStats = async (req, res) => {
 		await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true, new: true });
 	} catch (err) {
 		console.error('Error updating request stats:', err);
-		await RequestStats.findOneAndUpdate({}, { $inc: { 'stats.updateStatsFail': 1 } }, { upsert: true, new: true });
+		await RequestStats.findOneAndUpdate({}, { $inc: { updateStatsFail: 1 } }, { upsert: true, new: true });
 	}
 };
 

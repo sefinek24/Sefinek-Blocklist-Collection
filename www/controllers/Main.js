@@ -3,7 +3,7 @@ const Marked = require('marked');
 const { readFile } = require('node:fs/promises');
 const path = require('node:path');
 const { version } = require('../../package.json');
-const formatTime = require('../utils/formatTime.js');
+const formatTime = require('../utils/time.js');
 const RequestStats = require('../database/models/RequestStats');
 
 Marked.use({ pedantic: false, gfm: true });

@@ -1,4 +1,4 @@
-const formatTime = require('./utils/formatTime.js');
+const formatTime = require('./utils/time.js');
 const RequestStats = require('./database/models/RequestStats');
 
 module.exports = wss => {

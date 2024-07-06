@@ -1,6 +1,6 @@
 const pad = y => (y < 10 ? '0' : '') + y;
 
-module.exports.time = x => {
+exports.time = x => {
 	const hh = Math.floor(x / (60 * 60));
 	const mm = Math.floor((x % (60 * 60)) / 60);
 	const ss = Math.floor(x % 60);
@@ -8,7 +8,7 @@ module.exports.time = x => {
 	return `${pad(hh)}:${pad(mm)}:${pad(ss)}`;
 };
 
-module.exports.full = seconds => {
+exports.full = seconds => {
 	const days = Math.floor(seconds / (3600 * 24));
 	const hours = Math.floor((seconds % (3600 * 24)) / 3600);
 	const minutes = Math.floor((seconds % 3600) / 60);
@@ -32,4 +32,16 @@ module.exports.full = seconds => {
 	formattedTime = formattedTime.replace(/,\s*$/, '');
 
 	return formattedTime;
+};
+
+exports.dateKey = () => {
+	const now = new Date();
+	const dateKey = `${now.getDate().toString().padStart(2, '0')}-${(now.getMonth() + 1).toString().padStart(2, '0')}-${now.getFullYear()}`;
+
+	const yearKey = now.getFullYear().toString();
+	const monthKey = (now.getMonth() + 1).toString().padStart(2, '0');
+	const hourKey = now.getHours().toString().padStart(2, '0');
+	const minuteKey = now.getMinutes().toString().padStart(2, '0');
+
+	return { dateKey, yearKey, monthKey, hourKey, minuteKey };
 };
