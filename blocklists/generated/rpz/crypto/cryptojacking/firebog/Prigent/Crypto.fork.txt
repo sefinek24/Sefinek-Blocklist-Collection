@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720189301115 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720448577357 43200 3600 259200 300
   NS  localhost.
 ;
 ; Prigent-Crypto, parsed and mirrored by https://firebog.net
-; Updated 05JUL24 from https://dsi.ut-capitole.fr/blacklists/download/cryptojacking.tar.gz
+; Updated 08JUL24 from https://dsi.ut-capitole.fr/blacklists/download/cryptojacking.tar.gz
 ; If your issue IS STILL PRESENT when using uBlock/ABP/etc, you should request a correction at https://dsi.ut-capitole.fr/cgi-bin/squidguard_modify.cgi
 adminer.com CNAME .
 *.adminer.com CNAME .
