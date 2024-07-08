@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720315844207 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720402012024 43200 3600 259200 300
   NS  localhost.
 ;
-;202407070303
+;202407080303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -9907,6 +9907,8 @@ tv5unis.ca CNAME .
 *.tv5unis.ca CNAME .
 anwalt.de CNAME .
 *.anwalt.de CNAME .
+doubledouble.top CNAME .
+*.doubledouble.top CNAME .
 sataniskwijt.be CNAME .
 *.sataniskwijt.be CNAME .
 webrpp.com CNAME .
