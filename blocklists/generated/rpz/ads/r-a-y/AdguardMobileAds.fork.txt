@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1719267735017 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720470265838 43200 3600 259200 300
   NS  localhost.
 ;
 ; AdguardMobileAds
 ;
 ; Converted from - https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
-; Last converted - Mon, 24 Jun 2024 22:43:32 +0100
+; Last converted - Mon, 08 Jul 2024 20:13:25 +0100
 ;
 youku.com CNAME .
 *.youku.com CNAME .
@@ -263,8 +263,6 @@ yximgs.com CNAME .
 *.yximgs.com CNAME .
 yximgs.com CNAME .
 *.yximgs.com CNAME .
-kskwai.com CNAME .
-*.kskwai.com CNAME .
 adkwai.com CNAME .
 *.adkwai.com CNAME .
 mangacopy.com CNAME .
