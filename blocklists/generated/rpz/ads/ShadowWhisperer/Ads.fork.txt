@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720204127309 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720477295433 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,398
-; Updated: 7/5/2024  12:05 (12:05 PM CST)
+; Domains: 18,400
+; Updated: 7/8/2024  15:39 (3:39 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -321,6 +321,8 @@ amazonaws.com CNAME .
 *.2xclick.ru CNAME .
 302br.net CNAME .
 *.302br.net CNAME .
+304a65933acfa9b058df4a7478bdd237.com CNAME .
+*.304a65933acfa9b058df4a7478bdd237.com CNAME .
 306842.com CNAME .
 *.306842.com CNAME .
 309groups.com CNAME .
@@ -33307,6 +33309,8 @@ timecrom.com CNAME .
 *.timecrom.com CNAME .
 timeforsocial.com CNAME .
 *.timeforsocial.com CNAME .
+tinyswans.com CNAME .
+*.tinyswans.com CNAME .
 tip-ads.de CNAME .
 *.tip-ads.de CNAME .
 tiramisu-advertising.com CNAME .
