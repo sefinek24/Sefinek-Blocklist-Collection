@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720477295433 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720488325890 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 76,722
-; Updated: 7/8/2024  15:39 (3:39 PM CST)
+; Domains: 76,724
+; Updated: 7/8/2024  20:03 (8:03 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -20111,10 +20111,14 @@ pta-igw.de CNAME .
 *.pta-igw.de CNAME .
 pt-dlr.de CNAME .
 *.pt-dlr.de CNAME .
+marq.com CNAME .
+*.marq.com CNAME .
 cart.com CNAME .
 *.cart.com CNAME .
 public-health-services.ch CNAME .
 *.public-health-services.ch CNAME .
+marq.com CNAME .
+*.marq.com CNAME .
 pubnative.io CNAME .
 *.pubnative.io CNAME .
 pubninja.com CNAME .
