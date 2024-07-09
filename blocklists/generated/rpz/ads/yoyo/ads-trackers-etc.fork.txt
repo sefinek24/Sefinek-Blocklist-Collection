@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720542484283 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720549724057 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Tue, 09 Jul 2024 15:39:21 GMT
-; entries:        3544
+; last updated:   Tue, 09 Jul 2024 16:38:54 GMT
+; entries:        3549
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -1922,6 +1922,8 @@ anxiousapples.com CNAME .
 *.anxiousapples.com CNAME .
 amplitude.com CNAME .
 *.amplitude.com CNAME .
+yandex.ru CNAME .
+*.yandex.ru CNAME .
 amplitude.com CNAME .
 *.amplitude.com CNAME .
 intensifier.de CNAME .
@@ -1950,8 +1952,6 @@ salesmanago.pl CNAME .
 *.salesmanago.pl CNAME .
 appboycdn.com CNAME .
 *.appboycdn.com CNAME .
-yandex.ru CNAME .
-*.yandex.ru CNAME .
 appsflyer.com CNAME .
 *.appsflyer.com CNAME .
 hearstnp.com CNAME .
@@ -5466,6 +5466,16 @@ rememberdiscussion.com CNAME .
 *.rememberdiscussion.com CNAME .
 remox.com CNAME .
 *.remox.com CNAME .
+webvisor.com CNAME .
+*.webvisor.com CNAME .
+webvisor.com CNAME .
+*.webvisor.com CNAME .
+yandex.net CNAME .
+*.yandex.net CNAME .
+yandex-net.ru CNAME .
+*.yandex-net.ru CNAME .
+yandex.net CNAME .
+*.yandex.net CNAME .
 onet.pl CNAME .
 *.onet.pl CNAME .
 resalag.com CNAME .

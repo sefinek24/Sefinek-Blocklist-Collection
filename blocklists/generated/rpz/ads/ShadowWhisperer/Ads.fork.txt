@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720542484283 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720549724057 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,403
-; Updated: 7/9/2024  09:18 (9:18 AM CST)
+; Domains: 18,407
+; Updated: 7/9/2024  12:37 (12:37 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -9315,6 +9315,8 @@ javrank.com CNAME .
 *.javrank.com CNAME .
 qiita.com CNAME .
 *.qiita.com CNAME .
+amazon.dev CNAME .
+*.amazon.dev CNAME .
 adsquad.co CNAME .
 *.adsquad.co CNAME .
 ads-quantum.com CNAME .
@@ -19635,6 +19637,8 @@ fsharp.co CNAME .
 *.fsharp.co CNAME .
 co.id CNAME .
 *.co.id CNAME .
+fstsrv11.com CNAME .
+*.fstsrv11.com CNAME .
 fstsrv2.com CNAME .
 *.fstsrv2.com CNAME .
 fstsrv4.com CNAME .
@@ -19653,6 +19657,8 @@ ftd.agency CNAME .
 *.ftd.agency CNAME .
 ftjcfx.com CNAME .
 *.ftjcfx.com CNAME .
+ftstatic.com CNAME .
+*.ftstatic.com CNAME .
 ftt2.com CNAME .
 *.ftt2.com CNAME .
 ftylpm.com CNAME .
@@ -28037,6 +28043,8 @@ foxnews.com CNAME .
 *.foxnews.com CNAME .
 doubleclick.net CNAME .
 *.doubleclick.net CNAME .
+pubadx.one CNAME .
+*.pubadx.one CNAME .
 pubdirecte.com CNAME .
 *.pubdirecte.com CNAME .
 cloudflare.net CNAME .
