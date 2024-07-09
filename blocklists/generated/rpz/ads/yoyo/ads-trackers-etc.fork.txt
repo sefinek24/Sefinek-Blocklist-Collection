@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720183143086 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720542484283 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Tue, 25 Jun 2024 22:47:11 GMT
-; entries:        3542
+; last updated:   Tue, 09 Jul 2024 15:39:21 GMT
+; entries:        3544
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -4056,6 +4056,8 @@ klsdee.com CNAME .
 *.klsdee.com CNAME .
 com.mt CNAME .
 *.com.mt CNAME .
+knitstamp.com CNAME .
+*.knitstamp.com CNAME .
 knorex.com CNAME .
 *.knorex.com CNAME .
 knottyswing.com CNAME .
@@ -5160,6 +5162,8 @@ prf.hn CNAME .
 *.prf.hn CNAME .
 priceypies.com CNAME .
 *.priceypies.com CNAME .
+pricklydebt.com CNAME .
+*.pricklydebt.com CNAME .
 priefy.com CNAME .
 *.priefy.com CNAME .
 primetime.net CNAME .
