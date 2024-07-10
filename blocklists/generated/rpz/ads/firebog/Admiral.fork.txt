@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720621356674 43200 3600 259200 300
   NS  localhost.
 ;
 ; Admiral, parsed and mirrored by https://firebog.net
-; Updated 01APR24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
+; Updated 10JUL24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
 ; This is sourced from an "adblock" style list which is flat-out NOT designed to work with DNS sinkholes
 ; There WILL be mistakes with how this is parsed, due to how domain names are extracted and exceptions handled
 ; Please bring any parsing issues up at https://github.com/WaLLy3K/wally3k.github.io/issues prior to raising a request upstream
@@ -1666,6 +1666,8 @@ plotrabbit.com CNAME .
 *.plotrabbit.com CNAME .
 pluckypocket.com CNAME .
 *.pluckypocket.com CNAME .
+pluckyzone.com CNAME .
+*.pluckyzone.com CNAME .
 pocketsonic.com CNAME .
 *.pocketsonic.com CNAME .
 podiumpresto.com CNAME .
@@ -2442,6 +2444,8 @@ swimslope.com CNAME .
 *.swimslope.com CNAME .
 swordgoose.com CNAME .
 *.swordgoose.com CNAME .
+syllablesight.com CNAME .
+*.syllablesight.com CNAME .
 symbolizebeast.com CNAME .
 *.symbolizebeast.com CNAME .
 synonymousrule.com CNAME .
