@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720506597488 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720592994924 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4852
+; Domains: 4856
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -67,6 +67,8 @@ ahenana.com CNAME .
 *.ahenana.com CNAME .
 ahenana.com CNAME .
 *.ahenana.com CNAME .
+aichatgptforpc.com CNAME .
+*.aichatgptforpc.com CNAME .
 akebicycle.com CNAME .
 *.akebicycle.com CNAME .
 akebicycle.com CNAME .
@@ -133,10 +135,10 @@ anywherepastry.top CNAME .
 *.anywherepastry.top CNAME .
 jameswoof.com CNAME .
 *.jameswoof.com CNAME .
-eu.org CNAME .
-*.eu.org CNAME .
-eu.org CNAME .
-*.eu.org CNAME .
+apsehick.date CNAME .
+*.apsehick.date CNAME .
+apsehick.date CNAME .
+*.apsehick.date CNAME .
 onshopbase.com CNAME .
 *.onshopbase.com CNAME .
 onshopbase.com CNAME .
@@ -1561,6 +1563,8 @@ crypto022.online CNAME .
 *.crypto022.online CNAME .
 crypto022.online CNAME .
 *.crypto022.online CNAME .
+crypto026.online CNAME .
+*.crypto026.online CNAME .
 crypto030.online CNAME .
 *.crypto030.online CNAME .
 crypto030.online CNAME .
@@ -2035,6 +2039,10 @@ femalecozy.com CNAME .
 *.femalecozy.com CNAME .
 femalecozy.com CNAME .
 *.femalecozy.com CNAME .
+fensh.online CNAME .
+*.fensh.online CNAME .
+festmusikk.com CNAME .
+*.festmusikk.com CNAME .
 filedenzu.com CNAME .
 *.filedenzu.com CNAME .
 filedenzu.com CNAME .
@@ -2139,6 +2147,8 @@ fulfillgift.com CNAME .
 *.fulfillgift.com CNAME .
 fulfillgift.com CNAME .
 *.fulfillgift.com CNAME .
+fundanemt.org CNAME .
+*.fundanemt.org CNAME .
 fundanemt.org CNAME .
 *.fundanemt.org CNAME .
 fundanemt.org CNAME .
@@ -2437,10 +2447,6 @@ innomediacreate.com CNAME .
 *.innomediacreate.com CNAME .
 innomediacreate.com CNAME .
 *.innomediacreate.com CNAME .
-inpostcloud.buzz CNAME .
-*.inpostcloud.buzz CNAME .
-inpostcloud.buzz CNAME .
-*.inpostcloud.buzz CNAME .
 github.io CNAME .
 *.github.io CNAME .
 github.io CNAME .
@@ -2649,8 +2655,6 @@ librilibs.com CNAME .
 *.librilibs.com CNAME .
 librilibs.com CNAME .
 *.librilibs.com CNAME .
-lido-pass.org CNAME .
-*.lido-pass.org CNAME .
 co.za CNAME .
 *.co.za CNAME .
 co.za CNAME .
@@ -3081,8 +3085,6 @@ navi56.com CNAME .
 *.navi56.com CNAME .
 navi56.com CNAME .
 *.navi56.com CNAME .
-navi57.com CNAME .
-*.navi57.com CNAME .
 navi58.com CNAME .
 *.navi58.com CNAME .
 navi58.com CNAME .
@@ -3375,6 +3377,8 @@ norgeshoes.com CNAME .
 *.norgeshoes.com CNAME .
 norgeshoes.com CNAME .
 *.norgeshoes.com CNAME .
+nosdaarte.com CNAME .
+*.nosdaarte.com CNAME .
 nosdaarte.com CNAME .
 *.nosdaarte.com CNAME .
 novabeds.ca CNAME .
@@ -3831,10 +3835,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -5303,6 +5303,12 @@ reforest-iita.org CNAME .
 *.reforest-iita.org CNAME .
 reforest-iita.org CNAME .
 *.reforest-iita.org CNAME .
+resources4gaming.com CNAME .
+*.resources4gaming.com CNAME .
+resources4gaming.com CNAME .
+*.resources4gaming.com CNAME .
+resources4gaming.com CNAME .
+*.resources4gaming.com CNAME .
 reviewshirts.com CNAME .
 *.reviewshirts.com CNAME .
 reviewshirts.com CNAME .
@@ -5471,12 +5477,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -7433,6 +7433,8 @@ com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
+id90152861.com CNAME .
+*.id90152861.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -7835,6 +7837,8 @@ storagestory.com CNAME .
 *.storagestory.com CNAME .
 storagestory.com CNAME .
 *.storagestory.com CNAME .
+store-aleteia.org CNAME .
+*.store-aleteia.org CNAME .
 store-aleteia.org CNAME .
 *.store-aleteia.org CNAME .
 store-aleteia.org CNAME .
@@ -8351,6 +8355,10 @@ walkinshoe.com CNAME .
 *.walkinshoe.com CNAME .
 walkinshoe.com CNAME .
 *.walkinshoe.com CNAME .
+watchmark.shop CNAME .
+*.watchmark.shop CNAME .
+watchmark.shop CNAME .
+*.watchmark.shop CNAME .
 wavetshirt.com CNAME .
 *.wavetshirt.com CNAME .
 wavetshirt.com CNAME .
