@@ -37,9 +37,8 @@ Protecting children from LGBTQ+ content can support the preservation and promoti
 Blocking such sites can help maintain the consistency of family and community values.
 
 8. **LGBTQ+ Online Stores**
-Some LGBTQ+ online stores offer products that may not be suitable for younger users, such as clothing, gadgets, rainbow-themed accessories, or jockstraps.
-Children should develop in line with their peers, without exposure to content that may be controversial or difficult to understand at their stage of development.
-Too early exposure to LGBTQ+ topics can lead to misunderstandings and difficulties in relationships with peers.
+A person's gender identity should be solely a private matter, not a public one.
+Most LGBT online stores offer products that are simply unnecessary, such as rainbow-themed clothing, gadgets, and accessories.
 
 <hr>
 <h3 align="center">✨ Thank you for reading</h3>
