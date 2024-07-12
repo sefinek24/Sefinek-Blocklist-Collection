@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720636226980 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720747487442 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 76,756
-; Updated: 7/10/2024  11:28 (11:28 AM CST)
+; Domains: 76,760
+; Updated: 7/11/2024  17:53 (5:53 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -38367,6 +38367,10 @@ dcmn.com CNAME .
 *.dcmn.com CNAME .
 dcmn.io CNAME .
 *.dcmn.io CNAME .
+jennifersoft.com CNAME .
+*.jennifersoft.com CNAME .
+jennifersoft.com CNAME .
+*.jennifersoft.com CNAME .
 dcp-analytics.com CNAME .
 *.dcp-analytics.com CNAME .
 plussizetech.com CNAME .
@@ -42221,6 +42225,8 @@ baesystems.com CNAME .
 *.baesystems.com CNAME .
 benchevents.com CNAME .
 *.benchevents.com CNAME .
+berkeley.edu CNAME .
+*.berkeley.edu CNAME .
 betterhelp.com CNAME .
 *.betterhelp.com CNAME .
 betterwild.com CNAME .
@@ -136343,6 +136349,8 @@ chrobinson.com CNAME .
 *.chrobinson.com CNAME .
 halowaypoint.com CNAME .
 *.halowaypoint.com CNAME .
+api.aws CNAME .
+*.api.aws CNAME .
 mozilla.com CNAME .
 *.mozilla.com CNAME .
 telemetrydeck.com CNAME .
