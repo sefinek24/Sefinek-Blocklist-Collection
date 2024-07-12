@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720636226980 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720788163448 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Wed, 10 Jul 2024 18:09:34 GMT
-; entries:        3550
+; entries:        3544
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -1110,8 +1110,6 @@ pof.com CNAME .
 *.pof.com CNAME .
 powweb.com CNAME .
 *.powweb.com CNAME .
-ppvmedien.de CNAME .
-*.ppvmedien.de CNAME .
 printscr.com CNAME .
 *.printscr.com CNAME .
 prisacom.com CNAME .
@@ -1856,8 +1854,6 @@ jst.ai CNAME .
 *.jst.ai CNAME .
 justuno.com CNAME .
 *.justuno.com CNAME .
-live.com CNAME .
-*.live.com CNAME .
 lucid.app CNAME .
 *.lucid.app CNAME .
 mailmunch.co CNAME .
@@ -3462,8 +3458,6 @@ freelogs.com CNAME .
 *.freelogs.com CNAME .
 freepay.com CNAME .
 *.freepay.com CNAME .
-freeskreen.com CNAME .
-*.freeskreen.com CNAME .
 freestats.com CNAME .
 *.freestats.com CNAME .
 freestats.tv CNAME .
@@ -3854,8 +3848,6 @@ imagecash.net CNAME .
 *.imagecash.net CNAME .
 secureserver.net CNAME .
 *.secureserver.net CNAME .
-imarketservices.com CNAME .
-*.imarketservices.com CNAME .
 prohardver.hu CNAME .
 *.prohardver.hu CNAME .
 easyrencontre.com CNAME .
@@ -6484,8 +6476,6 @@ co.uk CNAME .
 *.co.uk CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
-co.uk CNAME .
-*.co.uk CNAME .
 epicgames.com CNAME .
 *.epicgames.com CNAME .
 hyros.com CNAME .
@@ -6886,8 +6876,6 @@ webstat.com CNAME .
 *.webstat.com CNAME .
 webstat.net CNAME .
 *.webstat.net CNAME .
-webtracker.jp CNAME .
-*.webtracker.jp CNAME .
 webtrackerplus.com CNAME .
 *.webtrackerplus.com CNAME .
 webtracky.com CNAME .
