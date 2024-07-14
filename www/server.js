@@ -56,7 +56,7 @@ app.listen(process.env.PORT, () => {
 		try {
 			process.send('ready');
 		} catch (err) {
-			// . . .
+			console.warn('Error sending ready signal to parent process.', err.message);
 		}
 	} else {
 		console.log(`Website https://blocklist.sefinek.net is running on http://127.0.0.1:${process.env.PORT}`);
