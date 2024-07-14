@@ -30,6 +30,8 @@ const flushBuffer = async () => {
 		$set: statsBuffer.set
 	};
 
+	console.log(updateQuery);
+
 	try {
 		await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true });
 		statsBuffer = { inc: {}, set: {} };
