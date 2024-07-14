@@ -12,7 +12,7 @@ const updateStats = async (req, res) => {
 		const { dateKey, yearKey, monthKey, hourKey, minuteKey } = time.dateKey();
 
 		const updateQuery = {
-			$inc: { 'requests.all': 1 },
+			$inc: { 'requests.all': 1, [`responses.${res.statusCode || 'unknown'}`]: 1 },
 			$set: {}
 		};
 
@@ -30,8 +30,6 @@ const updateStats = async (req, res) => {
 				updateQuery.$inc[`requests.urls.${listUrl}.perMinute.${dateKey}:${hourKey}:${minuteKey}`] = 1;
 			}
 		}
-
-		updateQuery.$inc[`responses.${res.statusCode || 'unknown'}`] = 1;
 
 		await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true, new: true });
 	} catch (err) {
