@@ -22,9 +22,7 @@ exports.changelog = async (req, res) => {
 	res.render('changelog.ejs', { version, html });
 };
 
-exports.api = (req, res) => {
-	res.render('api.ejs', { version });
-};
+exports.api = (req, res) => res.render('api.ejs', { version });
 
 exports.updateFrequency = (req, res) => {
 	const github = parseExpression('0 */2 * * *', tz);
