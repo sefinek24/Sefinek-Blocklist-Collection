@@ -30,32 +30,18 @@ createDir(path.join(__dirname, 'www', 'public', 'logs'));
 		// Connect to MongoDB
 		await connectToDatabase();
 
-		// Fork workers
-		const numberCPUs = availableParallelism();
-		for (let i = 0; i < numberCPUs; i++) {
-			cluster.fork();
-		}
-
 		// WebSocket
 		const ws = new WebSocket.Server({ port: process.env.WS_PORT });
 		require('./www/websocket.js')(ws);
 
 		// Global stats buffer
-		let globalStatsBuffer = {
-			inc: {},
-			set: {}
-		};
+		let globalStatsBuffer = { inc: {}, set: {} };
 
 		const flushBuffer = async () => {
 			if (Object.keys(globalStatsBuffer.inc).length === 0 && Object.keys(globalStatsBuffer.set).length === 0) return;
 
-			const updateQuery = {
-				$inc: globalStatsBuffer.inc,
-				$set: globalStatsBuffer.set
-			};
-
 			try {
-				await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true });
+				await RequestStats.findOneAndUpdate({}, { $inc: globalStatsBuffer.inc, $set: globalStatsBuffer.set }, { upsert: true });
 				globalStatsBuffer = { inc: {}, set: {} };
 			} catch (err) {
 				console.error('Error updating request stats:', err);
@@ -63,6 +49,12 @@ createDir(path.join(__dirname, 'www', 'public', 'logs'));
 		};
 
 		setInterval(flushBuffer, 6000);
+
+		// Fork workers
+		const numberCPUs = availableParallelism();
+		for (let i = 0; i < numberCPUs; i++) {
+			cluster.fork();
+		}
 
 		// Merge updates
 		cluster.on('message', (worker, message) => {
