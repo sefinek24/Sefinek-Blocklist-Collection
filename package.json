@@ -32,7 +32,7 @@
   },
   "license": "CC BY-NC 4.0",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
-  "main": "www/server.js",
+  "main": "index.js",
   "scripts": {
     "mon": "nodemon index.js",
     "sync": "bash bash/pull.sh",
