@@ -1,7 +1,6 @@
 const express = require('express');
 const helmet = require('helmet');
 const path = require('node:path');
-const WebSocket = require('ws');
 
 // Middleware imports
 const timeout = require('./middlewares/timeout.js');
@@ -10,15 +9,8 @@ const limiter = require('./middlewares/ratelimit.js');
 const updateStats = require('./middlewares/updateStats.js');
 const { notFound, internalError } = require('./middlewares/other/errors.js');
 
-// MongoDB
-require('./database/mongoose.js');
-
 // Express instance
 const app = express();
-
-// Websocket
-const ws = new WebSocket.Server({ port: process.env.WS_PORT });
-require('./websocket.js')(ws);
 
 // Set
 app.set('trust proxy', 1);
