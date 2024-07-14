@@ -38,7 +38,7 @@ const flushBuffer = async () => {
 	}
 };
 
-setInterval(flushBuffer, 5000);
+// setInterval(flushBuffer, 5000);
 
 const updateStats = (req, res) => {
 	const ua = req.headers['user-agent'];
