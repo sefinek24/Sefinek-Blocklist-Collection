@@ -23,7 +23,7 @@ module.exports = wss => {
 					updatedAt: db.updatedAt
 				}
 			}));
-		}, 2000);
+		}, 4000);
 
 		// Handle client's connection closure
 		ws.on('close', () => {
