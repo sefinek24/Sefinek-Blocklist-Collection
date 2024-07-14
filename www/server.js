@@ -38,7 +38,7 @@ app.use(timeout());
 
 
 // Stats
-// app.get('*', updateStats);
+app.get('*', updateStats);
 
 // Endpoints
 app.use(require('./routes/Main.js'));
