@@ -31,7 +31,7 @@ const flushBuffer = async () => {
 	};
 
 	try {
-		await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true, new: true });
+		await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true });
 		statsBuffer = { inc: {}, set: {} };
 	} catch (err) {
 		console.error('Error updating request stats:', err);
