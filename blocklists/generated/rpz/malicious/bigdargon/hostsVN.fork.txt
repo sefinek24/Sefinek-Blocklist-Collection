@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720376817514 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720952661590 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 07 Jul 2024 23:35 UTC+7
-; Version: 2407072335
-; Blocked: 20,352 domains
+; Last modified: 14 Jul 2024 16:54 UTC+7
+; Version: 2407141654
+; Blocked: 20,367 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -2413,6 +2413,8 @@ qq.com CNAME .
 qq.com CNAME .
 *.qq.com CNAME .
 ;[beacon.qq.com]
+qq.com CNAME .
+*.qq.com CNAME .
 qq.com CNAME .
 *.qq.com CNAME .
 qq.com CNAME .
@@ -21231,6 +21233,8 @@ livetv790.me CNAME .
 *.livetv790.me CNAME .
 livetv791.me CNAME .
 *.livetv791.me CNAME .
+livetv794.me CNAME .
+*.livetv794.me CNAME .
 ;[company-target.com]
 company-target.com CNAME .
 *.company-target.com CNAME .
@@ -22412,7 +22416,9 @@ itim.vn CNAME .
 *.itim.vn CNAME .
 itim.vn CNAME .
 *.itim.vn CNAME .
-;[lavanetwork]
+;[lavanetwork.net]
+lavanetwork.net CNAME .
+*.lavanetwork.net CNAME .
 lavanetwork.net CNAME .
 *.lavanetwork.net CNAME .
 lavanetwork.net CNAME .
@@ -27845,6 +27851,8 @@ adviva.com CNAME .
 *.adviva.com CNAME .
 adviva.net CNAME .
 *.adviva.net CNAME .
+advlion.com CNAME .
+*.advlion.com CNAME .
 techfun.pl CNAME .
 *.techfun.pl CNAME .
 advnt.com CNAME .
@@ -30489,6 +30497,8 @@ cstwpush.com CNAME .
 *.cstwpush.com CNAME .
 cswloxhjge.com CNAME .
 *.cswloxhjge.com CNAME .
+ctengine.io CNAME .
+*.ctengine.io CNAME .
 ctiotjobkfu.com CNAME .
 *.ctiotjobkfu.com CNAME .
 ctoosqtuxgaq.com CNAME .
@@ -32193,6 +32203,8 @@ getalltraffic.com CNAME .
 *.getalltraffic.com CNAME .
 getoptad360.com CNAME .
 *.getoptad360.com CNAME .
+getsthis.com CNAME .
+*.getsthis.com CNAME .
 getwisdom.io CNAME .
 *.getwisdom.io CNAME .
 tapas.net CNAME .
@@ -34753,6 +34765,8 @@ moradu.com CNAME .
 *.moradu.com CNAME .
 morguebattle.com CNAME .
 *.morguebattle.com CNAME .
+morningamidamaruhal.com CNAME .
+*.morningamidamaruhal.com CNAME .
 morrowfreezer.com CNAME .
 *.morrowfreezer.com CNAME .
 motionshants.uno CNAME .
@@ -35653,6 +35667,8 @@ origanfumier.digital CNAME .
 *.origanfumier.digital CNAME .
 orige-duo.com CNAME .
 *.orige-duo.com CNAME .
+origunix.com CNAME .
+*.origunix.com CNAME .
 oriori.com CNAME .
 *.oriori.com CNAME .
 orlotalers.com CNAME .
@@ -36385,6 +36401,8 @@ predictiondexchange.com CNAME .
 *.predictiondexchange.com CNAME .
 preferunhair.com CNAME .
 *.preferunhair.com CNAME .
+prefleks.com CNAME .
+*.prefleks.com CNAME .
 premium-offers.com CNAME .
 *.premium-offers.com CNAME .
 premiumvertising.com CNAME .
@@ -36555,6 +36573,8 @@ ptawehex.net CNAME .
 *.ptawehex.net CNAME .
 ptigjkkds.com CNAME .
 *.ptigjkkds.com CNAME .
+ptipsixo.com CNAME .
+*.ptipsixo.com CNAME .
 ptoushoa.com CNAME .
 *.ptoushoa.com CNAME .
 ptuglupyli.com CNAME .
@@ -36633,6 +36653,8 @@ punyplant.com CNAME .
 *.punyplant.com CNAME .
 puppyderisiverear.com CNAME .
 *.puppyderisiverear.com CNAME .
+pupspu.com CNAME .
+*.pupspu.com CNAME .
 puqszoxagogc.com CNAME .
 *.puqszoxagogc.com CNAME .
 purmogak.com CNAME .
@@ -39659,6 +39681,8 @@ vmmpxl.com CNAME .
 *.vmmpxl.com CNAME .
 vmojwaajjv.com CNAME .
 *.vmojwaajjv.com CNAME .
+vmuid.com CNAME .
+*.vmuid.com CNAME .
 vmweb.net CNAME .
 *.vmweb.net CNAME .
 voicedstart.com CNAME .
@@ -40792,6 +40816,8 @@ zygomasbeaches.guru CNAME .
 zzelicawwofl.com CNAME .
 *.zzelicawwofl.com CNAME .
 ; --- Block other trackingVN ---
+2xclick.ru CNAME .
+*.2xclick.ru CNAME .
 3gl.net CNAME .
 *.3gl.net CNAME .
 apkpure.com CNAME .
@@ -41082,6 +41108,8 @@ onesignal.com CNAME .
 *.onesignal.com CNAME .
 promotionengine.com CNAME .
 *.promotionengine.com CNAME .
+pubnub.com CNAME .
+*.pubnub.com CNAME .
 retailads.net CNAME .
 *.retailads.net CNAME .
 shoplytics.com CNAME .
@@ -41612,6 +41640,8 @@ hsforms.com CNAME .
 *.hsforms.com CNAME .
 h-cdn.com CNAME .
 *.h-cdn.com CNAME .
+hungama.com CNAME .
+*.hungama.com CNAME .
 kitidi.com CNAME .
 *.kitidi.com CNAME .
 issuu.com CNAME .
