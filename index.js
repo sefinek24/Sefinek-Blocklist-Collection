@@ -62,7 +62,7 @@ createDir(path.join(__dirname, 'www', 'public', 'logs'));
 			}
 		};
 
-		setInterval(flushBuffer, 5000);
+		setInterval(flushBuffer, 6000);
 
 		// Merge updates
 		cluster.on('message', (worker, message) => {
