@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720852181764 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1720938667966 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4941
+; Domains: 4898
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -53,10 +53,6 @@ account-cfe.mx CNAME .
 *.account-cfe.mx CNAME .
 account-cfe.mx CNAME .
 *.account-cfe.mx CNAME .
-acquatee.com CNAME .
-*.acquatee.com CNAME .
-acquatee.com CNAME .
-*.acquatee.com CNAME .
 godaddysites.com CNAME .
 *.godaddysites.com CNAME .
 godaddysites.com CNAME .
@@ -341,8 +337,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -517,8 +511,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -543,10 +535,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -601,10 +589,6 @@ com-id23901.info CNAME .
 *.com-id23901.info CNAME .
 com-id23901.info CNAME .
 *.com-id23901.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -635,8 +619,6 @@ com-id334112.com CNAME .
 *.com-id334112.com CNAME .
 com-id334112.com CNAME .
 *.com-id334112.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -883,10 +865,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
@@ -2107,6 +2085,8 @@ fdrc-gov.org CNAME .
 *.fdrc-gov.org CNAME .
 fdrc-gov.org CNAME .
 *.fdrc-gov.org CNAME .
+feddiy.com CNAME .
+*.feddiy.com CNAME .
 com.do CNAME .
 *.com.do CNAME .
 com.do CNAME .
@@ -2183,8 +2163,6 @@ freedom-ca-5g.com CNAME .
 *.freedom-ca-5g.com CNAME .
 freedom-ca-5g.com CNAME .
 *.freedom-ca-5g.com CNAME .
-freedomgift50.com CNAME .
-*.freedomgift50.com CNAME .
 freegiftscards.shop CNAME .
 *.freegiftscards.shop CNAME .
 freegiftscards.shop CNAME .
@@ -3101,12 +3079,16 @@ navi25.ru CNAME .
 *.navi25.ru CNAME .
 navi25.ru CNAME .
 *.navi25.ru CNAME .
+navi28.ru CNAME .
+*.navi28.ru CNAME .
 navi3.com CNAME .
 *.navi3.com CNAME .
 navi3.com CNAME .
 *.navi3.com CNAME .
 navi3.com CNAME .
 *.navi3.com CNAME .
+navi3.ru CNAME .
+*.navi3.ru CNAME .
 navi30.ru CNAME .
 *.navi30.ru CNAME .
 navi30.ru CNAME .
@@ -3387,8 +3369,6 @@ nip3.com CNAME .
 *.nip3.com CNAME .
 nip3.com CNAME .
 *.nip3.com CNAME .
-nip33.com CNAME .
-*.nip33.com CNAME .
 nip4.com CNAME .
 *.nip4.com CNAME .
 nip4.com CNAME .
@@ -4179,8 +4159,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -4403,10 +4381,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -4875,8 +4849,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
@@ -4979,8 +4951,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -5005,8 +4975,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -5175,8 +5143,6 @@ com-id23901.info CNAME .
 *.com-id23901.info CNAME .
 com-id23901.info CNAME .
 *.com-id23901.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
@@ -5613,8 +5579,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -5939,8 +5903,6 @@ com-id02349.info CNAME .
 *.com-id02349.info CNAME .
 com-id02349.info CNAME .
 *.com-id02349.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -6049,8 +6011,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
@@ -6165,8 +6125,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
@@ -6641,10 +6599,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -6675,8 +6629,6 @@ com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -6797,10 +6749,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
@@ -6843,8 +6791,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -7043,8 +6989,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -7477,8 +7421,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -8069,6 +8011,12 @@ supercutestuff.com CNAME .
 *.supercutestuff.com CNAME .
 supercutestuff.com CNAME .
 *.supercutestuff.com CNAME .
+superofferte.shop CNAME .
+*.superofferte.shop CNAME .
+superofferte.shop CNAME .
+*.superofferte.shop CNAME .
+superofferte.shop CNAME .
+*.superofferte.shop CNAME .
 company.site CNAME .
 *.company.site CNAME .
 company.site CNAME .
@@ -8271,6 +8219,10 @@ toddlershood.shop CNAME .
 *.toddlershood.shop CNAME .
 toddlershood.shop CNAME .
 *.toddlershood.shop CNAME .
+toko999.net CNAME .
+*.toko999.net CNAME .
+toko999.net CNAME .
+*.toko999.net CNAME .
 toko999.shop CNAME .
 *.toko999.shop CNAME .
 toko999.shop CNAME .
@@ -8641,10 +8593,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
@@ -8867,12 +8815,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -8903,12 +8845,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -9125,12 +9061,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -9179,12 +9109,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -9305,8 +9229,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
@@ -9343,8 +9265,6 @@ com-id334112.com CNAME .
 *.com-id334112.com CNAME .
 com-id334112.com CNAME .
 *.com-id334112.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -9537,8 +9457,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
@@ -9635,8 +9553,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -9809,8 +9725,6 @@ ygtube.xyz CNAME .
 *.ygtube.xyz CNAME .
 ygtube.xyz CNAME .
 *.ygtube.xyz CNAME .
-yikesgroto.com CNAME .
-*.yikesgroto.com CNAME .
 yofi-yofi.com CNAME .
 *.yofi-yofi.com CNAME .
 yofi-yofi.com CNAME .
