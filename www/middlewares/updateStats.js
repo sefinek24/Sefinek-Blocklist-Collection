@@ -31,7 +31,7 @@ const updateStats = async (req, res) => {
 			}
 		}
 
-		await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true, new: true });
+		// await RequestStats.findOneAndUpdate({}, updateQuery, { upsert: true, new: true });
 	} catch (err) {
 		console.error('Error updating request stats:', err);
 		await RequestStats.findOneAndUpdate({}, { $inc: { updateStatsFail: 1 } }, { upsert: true, new: true });
