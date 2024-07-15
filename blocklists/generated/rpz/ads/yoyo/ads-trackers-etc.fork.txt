@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721053216422 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721071589658 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -3178,8 +3178,6 @@ co.uk CNAME .
 *.co.uk CNAME .
 adtidy.net CNAME .
 *.adtidy.net CNAME .
-adtidy.org CNAME .
-*.adtidy.org CNAME .
 crowdfireapp.com CNAME .
 *.crowdfireapp.com CNAME .
 adtidy.net CNAME .
