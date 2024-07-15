@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720938667966 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721025169688 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4898
+; Domains: 4915
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -33,6 +33,8 @@ $TTL 300
 *.93mobiles.com CNAME .
 93mobiles.com CNAME .
 *.93mobiles.com CNAME .
+papilliondairyqueen.com CNAME .
+*.papilliondairyqueen.com CNAME .
 lvditoys.com CNAME .
 *.lvditoys.com CNAME .
 98kk89.com CNAME .
@@ -625,6 +627,10 @@ com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id02349.info CNAME .
 *.com-id02349.info CNAME .
 com-id02349.info CNAME .
@@ -703,6 +709,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -805,6 +813,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -865,6 +875,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
@@ -2085,8 +2097,6 @@ fdrc-gov.org CNAME .
 *.fdrc-gov.org CNAME .
 fdrc-gov.org CNAME .
 *.fdrc-gov.org CNAME .
-feddiy.com CNAME .
-*.feddiy.com CNAME .
 com.do CNAME .
 *.com.do CNAME .
 com.do CNAME .
@@ -3079,16 +3089,12 @@ navi25.ru CNAME .
 *.navi25.ru CNAME .
 navi25.ru CNAME .
 *.navi25.ru CNAME .
-navi28.ru CNAME .
-*.navi28.ru CNAME .
 navi3.com CNAME .
 *.navi3.com CNAME .
 navi3.com CNAME .
 *.navi3.com CNAME .
 navi3.com CNAME .
 *.navi3.com CNAME .
-navi3.ru CNAME .
-*.navi3.ru CNAME .
 navi30.ru CNAME .
 *.navi30.ru CNAME .
 navi30.ru CNAME .
@@ -3979,6 +3985,10 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -4213,6 +4223,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -4381,6 +4393,10 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -4519,6 +4535,8 @@ com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
+com-id8439141.info CNAME .
+*.com-id8439141.info CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
@@ -4975,6 +4993,10 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -5415,6 +5437,10 @@ rjgriffith.com CNAME .
 *.rjgriffith.com CNAME .
 rjgriffith.com CNAME .
 *.rjgriffith.com CNAME .
+workers.dev CNAME .
+*.workers.dev CNAME .
+workers.dev CNAME .
+*.workers.dev CNAME .
 robinmooreband.com CNAME .
 *.robinmooreband.com CNAME .
 robinmooreband.com CNAME .
@@ -8261,6 +8287,8 @@ treasurefan.com CNAME .
 *.treasurefan.com CNAME .
 treasurefan.com CNAME .
 *.treasurefan.com CNAME .
+trendingpicker.com CNAME .
+*.trendingpicker.com CNAME .
 trendsharks.com CNAME .
 *.trendsharks.com CNAME .
 trendsharks.com CNAME .
@@ -8293,6 +8321,12 @@ twinsbio.com CNAME .
 *.twinsbio.com CNAME .
 twinsbio.com CNAME .
 *.twinsbio.com CNAME .
+workers.dev CNAME .
+*.workers.dev CNAME .
+workers.dev CNAME .
+*.workers.dev CNAME .
+workers.dev CNAME .
+*.workers.dev CNAME .
 twitterr.com CNAME .
 *.twitterr.com CNAME .
 twitterr.com CNAME .
