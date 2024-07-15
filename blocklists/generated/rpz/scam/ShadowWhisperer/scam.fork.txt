@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720822852069 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721068170793 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,063
-; Updated: 7/12/2024  15:55 (3:55 PM CST)
+; Domains: 13,064
+; Updated: 7/15/2024  12:53 (12:53 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -7713,6 +7713,8 @@ elatedstart.com CNAME .
 *.elatedstart.com CNAME .
 elbacom.com CNAME .
 *.elbacom.com CNAME .
+eldeeb.info CNAME .
+*.eldeeb.info CNAME .
 electcolonelcraigwilcox.com CNAME .
 *.electcolonelcraigwilcox.com CNAME .
 electro420vapes.com CNAME .
