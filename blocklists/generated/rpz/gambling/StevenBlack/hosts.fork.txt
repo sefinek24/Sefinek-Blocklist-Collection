@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1720729395539 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721006849977 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: StevenBlack/hosts extension gambling
@@ -7,10 +7,10 @@ $TTL 300
 ; This hosts file is a merged collection of hosts from reputable sources,
 ; with a dash of crowd sourcing via GitHub
 ;
-; Date: 11 July 2024 19:19:44 (UTC)
+; Date: 14 July 2024 23:26:42 (UTC)
 ; The unified hosts file was not used while generating this file.
 ; Extensions used to generate this file: gambling
-; Number of unique domains: 8,288
+; Number of unique domains: 8,311
 ;
 ; Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling-only/hosts
 ; Project home page: https://github.com/StevenBlack/hosts
@@ -20,9 +20,9 @@ $TTL 300
 ; Custom host records are listed here.
 ; End of custom host records.
 ; Title: hostsVN Gambling
-; Last modified: 09 Jul 2024 14:16 UTC+7
-; Version: 2407091416
-; Blocked: 5,651 domains
+; Last modified: 14 Jul 2024 16:55 UTC+7
+; Version: 2407141655
+; Blocked: 5,674 domains
 ; Only include gambling domains (Vietnamese language)
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -140,6 +140,8 @@ $TTL 300
 *.11bet.com CNAME .
 11bet.fun CNAME .
 *.11bet.fun CNAME .
+11bet.gg CNAME .
+*.11bet.gg CNAME .
 11bet.in CNAME .
 *.11bet.in CNAME .
 11bet.life CNAME .
@@ -420,8 +422,6 @@ $TTL 300
 *.5566688.net CNAME .
 558kbet.com CNAME .
 *.558kbet.com CNAME .
-55qh88.com CNAME .
-*.55qh88.com CNAME .
 570manx.com CNAME .
 *.570manx.com CNAME .
 58cc.live CNAME .
@@ -752,6 +752,8 @@ xkiosx.xyz CNAME .
 *.88viet.com CNAME .
 88vin.zone CNAME .
 *.88vin.zone CNAME .
+88vn.com CNAME .
+*.88vn.com CNAME .
 88vnd.com CNAME .
 *.88vnd.com CNAME .
 88vwin.com CNAME .
@@ -1756,6 +1758,8 @@ bongdaeuro188.com CNAME .
 *.bongdaeuro188.com CNAME .
 bongvip.com CNAME .
 *.bongvip.com CNAME .
+bongvip.onl CNAME .
+*.bongvip.onl CNAME .
 bons.com CNAME .
 *.bons.com CNAME .
 boom66.com CNAME .
@@ -2148,6 +2152,8 @@ d9bet68.com CNAME .
 *.d9bet68.com CNAME .
 d9bet88.com CNAME .
 *.d9bet88.com CNAME .
+da88.pro CNAME .
+*.da88.pro CNAME .
 thethaofb88.com CNAME .
 *.thethaofb88.com CNAME .
 dabet.cc CNAME .
@@ -2278,6 +2284,8 @@ dbthethao.run CNAME .
 *.dbthethao.run CNAME .
 dd7bet.me CNAME .
 *.dd7bet.me CNAME .
+debet.bet CNAME .
+*.debet.bet CNAME .
 debet.club CNAME .
 *.debet.club CNAME .
 debet.com CNAME .
@@ -4012,6 +4020,8 @@ k88018.com CNAME .
 *.k88018.com CNAME .
 k88019.com CNAME .
 *.k88019.com CNAME .
+k89bet.com CNAME .
+*.k89bet.com CNAME .
 k8a08.com CNAME .
 *.k8a08.com CNAME .
 k8a09.com CNAME .
@@ -6482,6 +6492,8 @@ lode88.online CNAME .
 *.lode88.online CNAME .
 lode88.vip CNAME .
 *.lode88.vip CNAME .
+lodegoc.net CNAME .
+*.lodegoc.net CNAME .
 lodevip.us CNAME .
 *.lodevip.us CNAME .
 lodevn789.net CNAME .
@@ -6586,6 +6598,8 @@ lucky88.com CNAME .
 *.lucky88.com CNAME .
 lucky88.fun CNAME .
 *.lucky88.fun CNAME .
+lucky88.in CNAME .
+*.lucky88.in CNAME .
 lucky88.live CNAME .
 *.lucky88.live CNAME .
 lucky88.net CNAME .
@@ -7154,6 +7168,8 @@ nbet.top CNAME .
 *.nbet.top CNAME .
 nbet.tv CNAME .
 *.nbet.tv CNAME .
+nbet.uk CNAME .
+*.nbet.uk CNAME .
 nbet.vin CNAME .
 *.nbet.vin CNAME .
 nbet.vip CNAME .
@@ -7278,6 +7294,14 @@ okcado.com CNAME .
 *.okcado.com CNAME .
 okcado.org CNAME .
 *.okcado.org CNAME .
+okvip.life CNAME .
+*.okvip.life CNAME .
+okvip.pro CNAME .
+*.okvip.pro CNAME .
+okvip.today CNAME .
+*.okvip.today CNAME .
+okvip.win CNAME .
+*.okvip.win CNAME .
 ole12.com CNAME .
 *.ole12.com CNAME .
 ole777vietnam.com CNAME .
@@ -7678,6 +7702,8 @@ vic.win CNAME .
 *.vic.win CNAME .
 x8.club CNAME .
 *.x8.club CNAME .
+x8.games CNAME .
+*.x8.games CNAME .
 x8vn.top CNAME .
 *.x8vn.top CNAME .
 zo88.org CNAME .
@@ -7700,8 +7726,6 @@ qh232.com CNAME .
 *.qh232.com CNAME .
 qh235.com CNAME .
 *.qh235.com CNAME .
-qh236.com CNAME .
-*.qh236.com CNAME .
 qh238.com CNAME .
 *.qh238.com CNAME .
 qh250.com CNAME .
@@ -7966,6 +7990,8 @@ sin88.cc CNAME .
 *.sin88.cc CNAME .
 sin88.club CNAME .
 *.sin88.club CNAME .
+sin88.mn CNAME .
+*.sin88.mn CNAME .
 sin88.mobi CNAME .
 *.sin88.mobi CNAME .
 sin88.mx CNAME .
@@ -8314,6 +8340,8 @@ t8bet999.com CNAME .
 *.t8bet999.com CNAME .
 t8betvip.com CNAME .
 *.t8betvip.com CNAME .
+ta88.club CNAME .
+*.ta88.club CNAME .
 ta88.com CNAME .
 *.ta88.com CNAME .
 ta88.me CNAME .
@@ -8790,6 +8818,8 @@ top88.uk CNAME .
 *.top88.uk CNAME .
 top88.us CNAME .
 *.top88.us CNAME .
+top88.vip CNAME .
+*.top88.vip CNAME .
 top88.vn CNAME .
 *.top88.vn CNAME .
 top88vn.club CNAME .
@@ -8880,6 +8910,8 @@ udw886.com CNAME .
 *.udw886.com CNAME .
 uer5.com CNAME .
 *.uer5.com CNAME .
+uk88.club CNAME .
+*.uk88.club CNAME .
 uk88.com CNAME .
 *.uk88.com CNAME .
 uk88.top CNAME .
@@ -9102,6 +9134,8 @@ vipclub.makeup CNAME .
 *.vipclub.makeup CNAME .
 vipclub.so CNAME .
 *.vipclub.so CNAME .
+vipgame.cloud CNAME .
+*.vipgame.cloud CNAME .
 viprik.click CNAME .
 *.viprik.click CNAME .
 viprik.pro CNAME .
@@ -9296,6 +9330,16 @@ vnq8.win CNAME .
 *.vnq8.win CNAME .
 vnrg5269.com CNAME .
 *.vnrg5269.com CNAME .
+vnsodo.fun CNAME .
+*.vnsodo.fun CNAME .
+vnsodo.live CNAME .
+*.vnsodo.live CNAME .
+vnsodo.me CNAME .
+*.vnsodo.me CNAME .
+vnsodo.mobi CNAME .
+*.vnsodo.mobi CNAME .
+vnsodo.us CNAME .
+*.vnsodo.us CNAME .
 vntop88.com CNAME .
 *.vntop88.com CNAME .
 vnvwbet.com CNAME .
@@ -9634,6 +9678,8 @@ wellviet.net CNAME .
 *.wellviet.net CNAME .
 wewinvwin.com CNAME .
 *.wewinvwin.com CNAME .
+wi88.win CNAME .
+*.wi88.win CNAME .
 188thethao.com CNAME .
 *.188thethao.com CNAME .
 v9bet88.net CNAME .
@@ -9878,8 +9924,6 @@ www-sodo.com CNAME .
 *.5533789.com CNAME .
 558kbet.com CNAME .
 *.558kbet.com CNAME .
-55qh88.com CNAME .
-*.55qh88.com CNAME .
 58cc.live CNAME .
 *.58cc.live CNAME .
 5shbet.com CNAME .
@@ -10676,8 +10720,6 @@ qh232.com CNAME .
 *.qh232.com CNAME .
 qh235.com CNAME .
 *.qh235.com CNAME .
-qh236.com CNAME .
-*.qh236.com CNAME .
 qh238.com CNAME .
 *.qh238.com CNAME .
 qh250.com CNAME .
@@ -11134,6 +11176,8 @@ xo88.win CNAME .
 *.xo88.win CNAME .
 x8.club CNAME .
 *.x8.club CNAME .
+x8.games CNAME .
+*.x8.games CNAME .
 x8.vin CNAME .
 *.x8.vin CNAME .
 x8vn.com CNAME .
@@ -11302,6 +11346,8 @@ zbet.fun CNAME .
 *.zbet.fun CNAME .
 zbet.me CNAME .
 *.zbet.me CNAME .
+zbet.tv CNAME .
+*.zbet.tv CNAME .
 zbet.vn CNAME .
 *.zbet.vn CNAME .
 zbet.win CNAME .
