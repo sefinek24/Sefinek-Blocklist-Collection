@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721161376641 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721168577504 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-07-16 20:19:06 (UTC)                      ;
+; Last updated: 2024-07-16 22:14:10 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+kukulaa.cn CNAME .
+*.kukulaa.cn CNAME .
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
 1000uc.com CNAME .
@@ -44,8 +46,8 @@ cobainaja.id CNAME .
 *.cobainaja.id CNAME .
 52kkg.com CNAME .
 *.52kkg.com CNAME .
-co.il CNAME .
-*.co.il CNAME .
+atsegypt.com CNAME .
+*.atsegypt.com CNAME .
 avast-antivirus.com CNAME .
 *.avast-antivirus.com CNAME .
 avast-antivirusdownload.com CNAME .
@@ -68,8 +70,6 @@ bruiserbodies.com CNAME .
 *.bruiserbodies.com CNAME .
 diit.cl CNAME .
 *.diit.cl CNAME .
-haory.cn CNAME .
-*.haory.cn CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
 cajgtus.com CNAME .
@@ -78,8 +78,6 @@ com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
-chiptune.com CNAME .
-*.chiptune.com CNAME .
 coadymarine.com CNAME .
 *.coadymarine.com CNAME .
 commingleenterprises.com CNAME .
@@ -102,8 +100,6 @@ defgyma.com CNAME .
 *.defgyma.com CNAME .
 dfwreds.com CNAME .
 *.dfwreds.com CNAME .
-com.ar CNAME .
-*.com.ar CNAME .
 chuathuongxot.org CNAME .
 *.chuathuongxot.org CNAME .
 diclegrup.org CNAME .
@@ -118,16 +114,12 @@ dnvk1.info CNAME .
 *.dnvk1.info CNAME .
 domainsenses.com CNAME .
 *.domainsenses.com CNAME .
-pcclear.com CNAME .
-*.pcclear.com CNAME .
 caihong.com CNAME .
 *.caihong.com CNAME .
 doumaibiji.cn CNAME .
 *.doumaibiji.cn CNAME .
 pdf00.cn CNAME .
 *.pdf00.cn CNAME .
-savirland.com CNAME .
-*.savirland.com CNAME .
 eastsuninteriors.com CNAME .
 *.eastsuninteriors.com CNAME .
 econstramedia.com CNAME .
@@ -164,6 +156,10 @@ florenda.com CNAME .
 *.florenda.com CNAME .
 t1linux.com CNAME .
 *.t1linux.com CNAME .
+hitman-pro.ru CNAME .
+*.hitman-pro.ru CNAME .
+hitstation.nl CNAME .
+*.hitstation.nl CNAME .
 vrcom7.com CNAME .
 *.vrcom7.com CNAME .
 hseda.com CNAME .
@@ -226,6 +222,8 @@ love-odyssey.com CNAME .
 *.love-odyssey.com CNAME .
 lurenjiapd.cloud CNAME .
 *.lurenjiapd.cloud CNAME .
+wealthconsultantmanager.com CNAME .
+*.wealthconsultantmanager.com CNAME .
 mbsngradnja.com CNAME .
 *.mbsngradnja.com CNAME .
 meerahustle.com CNAME .
@@ -276,6 +274,8 @@ chuathuongxot.org CNAME .
 *.chuathuongxot.org CNAME .
 rytualz.com CNAME .
 *.rytualz.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 scratchedcards.com CNAME .
 *.scratchedcards.com CNAME .
 in.th CNAME .
@@ -302,6 +302,8 @@ sportvision.app CNAME .
 *.sportvision.app CNAME .
 cz01.cn CNAME .
 *.cz01.cn CNAME .
+dinju.com CNAME .
+*.dinju.com CNAME .
 clz.kr CNAME .
 *.clz.kr CNAME .
 vuheritagefoundation.org CNAME .
@@ -336,6 +338,8 @@ tspanel.net CNAME .
 *.tspanel.net CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
+tvspress.com CNAME .
+*.tvspress.com CNAME .
 twizt.net CNAME .
 *.twizt.net CNAME .
 unicorpbrunei.com CNAME .
@@ -346,10 +350,10 @@ co.network CNAME .
 *.co.network CNAME .
 vnm-sro.com CNAME .
 *.vnm-sro.com CNAME .
-voucher-01-static.com CNAME .
-*.voucher-01-static.com CNAME .
 chuathuongxot.org CNAME .
 *.chuathuongxot.org CNAME .
+wealthconsultantmanager.com CNAME .
+*.wealthconsultantmanager.com CNAME .
 carsmartag.com CNAME .
 *.carsmartag.com CNAME .
 wondershare-filmora.top CNAME .
@@ -380,8 +384,6 @@ hseda.com CNAME .
 *.hseda.com CNAME .
 identificatie-login.com CNAME .
 *.identificatie-login.com CNAME .
-ingonherbal.com CNAME .
-*.ingonherbal.com CNAME .
 innovativebuildingsolutions.in CNAME .
 *.innovativebuildingsolutions.in CNAME .
 kdnewsindia.com CNAME .
@@ -410,6 +412,10 @@ saf-oil.ru CNAME .
 *.saf-oil.ru CNAME .
 starcountry.net CNAME .
 *.starcountry.net CNAME .
+wealthconsultantmanager.com CNAME .
+*.wealthconsultantmanager.com CNAME .
+ysbaojia.com CNAME .
+*.ysbaojia.com CNAME .
 xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
 shavsl.com CNAME .
@@ -418,10 +424,12 @@ chuathuongxot.org CNAME .
 *.chuathuongxot.org CNAME .
 vuheritagefoundation.org CNAME .
 *.vuheritagefoundation.org CNAME .
+hnggzyjy.cn CNAME .
+*.hnggzyjy.cn CNAME .
 ysdjsrf.com CNAME .
 *.ysdjsrf.com CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
-; Number of entries: 207
+; Number of entries: 211
