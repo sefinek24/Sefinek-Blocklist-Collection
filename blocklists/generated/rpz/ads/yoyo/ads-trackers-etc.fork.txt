@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721071589658 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721161376641 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Mon, 15 Jul 2024 12:50:47 GMT
-; entries:        3545
+; last updated:   Tue, 16 Jul 2024 19:22:38 GMT
+; entries:        3546
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -3424,6 +3424,8 @@ flimsythought.com CNAME .
 *.flimsythought.com CNAME .
 floodprincipal.com CNAME .
 *.floodprincipal.com CNAME .
+flourishinginnovation.com CNAME .
+*.flourishinginnovation.com CNAME .
 floweryflavor.com CNAME .
 *.floweryflavor.com CNAME .
 flowgo.com CNAME .
