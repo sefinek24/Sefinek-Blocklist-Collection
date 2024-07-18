@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721270360461 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721320043504 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 76,785
-; Updated: 7/17/2024  20:58 (8:58 PM CST)
+; Domains: 76,787
+; Updated: 7/18/2024  11:05 (11:05 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -33029,6 +33029,10 @@ confiant-integrations.net CNAME .
 *.confiant-integrations.net CNAME .
 claspws.tv CNAME .
 *.claspws.tv CNAME .
+skype.com CNAME .
+*.skype.com CNAME .
+trafficmanager.net CNAME .
+*.trafficmanager.net CNAME .
 config-security.com CNAME .
 *.config-security.com CNAME .
 unity3d.com CNAME .
