@@ -44,7 +44,7 @@ createDir(path.join(__dirname, 'www', 'public', 'logs'));
 				await RequestStats.findOneAndUpdate({}, { $inc: globalStatsBuffer.inc, $set: globalStatsBuffer.set }, { upsert: true });
 				globalStatsBuffer = { inc: {}, set: {} };
 			} catch (err) {
-				console.error('Error updating request stats:', err);
+				console.error('[Index]: Error updating request stats.', err);
 			}
 		};
 

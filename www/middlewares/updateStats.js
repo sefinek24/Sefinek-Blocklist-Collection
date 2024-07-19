@@ -32,7 +32,7 @@ const updateStats = (req, res) => {
 
 		process.send({ type: 'updateStats', data: updateQuery });
 	} catch (err) {
-		console.error('Error updating request stats:', err);
+		console.error('[UpdateStats]: Error updating request stats.', err);
 		process.send({ type: 'updateStats', data: { inc: { updateStatsFail: 1 } } });
 	}
 };
