@@ -48,7 +48,7 @@ createDir(path.join(__dirname, 'www', 'public', 'logs'));
 			}
 		};
 
-		setInterval(flushBuffer, 6000);
+		setInterval(flushBuffer, 4000);
 
 		// Fork workers
 		const numberCPUs = availableParallelism();

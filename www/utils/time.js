@@ -41,7 +41,6 @@ exports.dateKey = () => {
 	const yearKey = now.getFullYear().toString();
 	const monthKey = (now.getMonth() + 1).toString().padStart(2, '0');
 	const hourKey = now.getHours().toString().padStart(2, '0');
-	const minuteKey = now.getMinutes().toString().padStart(2, '0');
 
-	return { dateKey, yearKey, monthKey, hourKey, minuteKey };
+	return { dateKey, yearKey, monthKey, hourKey };
 };

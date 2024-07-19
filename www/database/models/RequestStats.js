@@ -12,8 +12,7 @@ const RequestStats = new Schema({
 				perYear: { type: Map, of: Number, default: {} },
 				perMonth: { type: Map, of: Number, default: {} },
 				perDay: { type: Map, of: Number, default: {} },
-				perHour: { type: Map, of: Number, default: {} },
-				perMinute: { type: Map, of: Number, default: {} }
+				perHour: { type: Map, of: Number, default: {} }
 			}, { _id: false }),
 			default: {}
 		},
