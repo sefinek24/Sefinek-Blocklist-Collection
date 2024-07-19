@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721179567153 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721352349313 43200 3600 259200 300
   NS  localhost.
 ;
-;202407170303
+;202407190303
 ; Adguard Mobile Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -417,6 +417,8 @@ adzmobi.com CNAME .
 *.adzmobi.com CNAME .
 com.tw CNAME .
 *.com.tw CNAME .
+b-cdn.net CNAME .
+*.b-cdn.net CNAME .
 jio.com CNAME .
 *.jio.com CNAME .
 yximgs.com CNAME .
