@@ -1,15 +1,19 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721384607150 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721392760783 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-07-19 10:13:21 (UTC)                      ;
+; Last updated: 2024-07-19 12:29:06 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+kukulaa.cn CNAME .
+*.kukulaa.cn CNAME .
+qbgxl.com CNAME .
+*.qbgxl.com CNAME .
 miiyun.cn CNAME .
 *.miiyun.cn CNAME .
 qbgxl.com CNAME .
@@ -38,6 +42,8 @@ cobainaja.id CNAME .
 *.52kkg.com CNAME .
 atsegypt.com CNAME .
 *.atsegypt.com CNAME .
+avast-antivirus.com CNAME .
+*.avast-antivirus.com CNAME .
 avast-antivirusdownload.com CNAME .
 *.avast-antivirusdownload.com CNAME .
 avastcsw.com CNAME .
@@ -62,8 +68,12 @@ bruiserbodies.com CNAME .
 *.bruiserbodies.com CNAME .
 diit.cl CNAME .
 *.diit.cl CNAME .
+haory.cn CNAME .
+*.haory.cn CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
+cajgtus.com CNAME .
+*.cajgtus.com CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
@@ -106,8 +116,6 @@ domainsenses.com CNAME .
 *.domainsenses.com CNAME .
 pcclear.com CNAME .
 *.pcclear.com CNAME .
-caihong.com CNAME .
-*.caihong.com CNAME .
 doumaibiji.cn CNAME .
 *.doumaibiji.cn CNAME .
 pdf00.cn CNAME .
@@ -176,8 +184,6 @@ imtoken8.cc CNAME .
 *.imtoken8.cc CNAME .
 sitefind.top CNAME .
 *.sitefind.top CNAME .
-inspirepk.org CNAME .
-*.inspirepk.org CNAME .
 ironturner.shop CNAME .
 *.ironturner.shop CNAME .
 jeffdahlke.com CNAME .
@@ -270,8 +276,6 @@ org.pk CNAME .
 *.org.pk CNAME .
 protechasia.com CNAME .
 *.protechasia.com CNAME .
-co.za CNAME .
-*.co.za CNAME .
 com.br CNAME .
 *.com.br CNAME .
 rddissisifigifidi.net CNAME .
@@ -322,14 +326,14 @@ clz.kr CNAME .
 *.clz.kr CNAME .
 taxinhanhlongan.com CNAME .
 *.taxinhanhlongan.com CNAME .
+techniguitare.com CNAME .
+*.techniguitare.com CNAME .
 tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
 tejarat-gram.com CNAME .
 *.tejarat-gram.com CNAME .
 telegram.ninja CNAME .
 *.telegram.ninja CNAME .
-tengfeidn.com CNAME .
-*.tengfeidn.com CNAME .
 typoten.com CNAME .
 *.typoten.com CNAME .
 thaus.top CNAME .
@@ -352,8 +356,6 @@ tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 twizt.net CNAME .
 *.twizt.net CNAME .
-unicorpbrunei.com CNAME .
-*.unicorpbrunei.com CNAME .
 cg100iii.com CNAME .
 *.cg100iii.com CNAME .
 co.network CNAME .
@@ -388,6 +390,8 @@ ekhushab.com CNAME .
 *.ekhushab.com CNAME .
 globallaborsupply.com CNAME .
 *.globallaborsupply.com CNAME .
+hseda.com CNAME .
+*.hseda.com CNAME .
 ingonherbal.com CNAME .
 *.ingonherbal.com CNAME .
 innovativebuildingsolutions.in CNAME .
@@ -436,4 +440,4 @@ yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
-; Number of entries: 213
+; Number of entries: 215

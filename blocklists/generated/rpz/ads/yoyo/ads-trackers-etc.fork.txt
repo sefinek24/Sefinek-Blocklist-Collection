@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721161376641 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721392760783 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -360,6 +360,8 @@ adalliance.io CNAME .
 *.adalliance.io CNAME .
 adanging.blog CNAME .
 *.adanging.blog CNAME .
+adap.tv CNAME .
+*.adap.tv CNAME .
 adapt.tv CNAME .
 *.adapt.tv CNAME .
 adaranth.com CNAME .
@@ -5540,8 +5542,6 @@ msn.com CNAME .
 *.msn.com CNAME .
 boston.com CNAME .
 *.boston.com CNAME .
-rmgserving.com CNAME .
-*.rmgserving.com CNAME .
 roar.com CNAME .
 *.roar.com CNAME .
 robotreplay.com CNAME .
