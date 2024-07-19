@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721392760783 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721406480820 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Tue, 16 Jul 2024 19:22:38 GMT
-; entries:        3546
+; last updated:   Fri, 19 Jul 2024 15:20:14 GMT
+; entries:        3547
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -5070,6 +5070,8 @@ placeframe.com CNAME .
 *.placeframe.com CNAME .
 placidactivity.com CNAME .
 *.placidactivity.com CNAME .
+avris.it CNAME .
+*.avris.it CNAME .
 workers.dev CNAME .
 *.workers.dev CNAME .
 play4traffic.com CNAME .
