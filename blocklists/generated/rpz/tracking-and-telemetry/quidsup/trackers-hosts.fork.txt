@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721427784380 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721514109877 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,10 +8,12 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 19 Jul 2024
+; Updated: 20 Jul 2024
 ; LatestVersion 24.01
-; Domain Count: 15948
+; Domain Count: 15951
 ;===============================================================
+01mspmd5yalky8.com CNAME .
+*.01mspmd5yalky8.com CNAME .
 0i0i0i0.com CNAME .
 *.0i0i0i0.com CNAME .
 0sntp7dnrr.com CNAME .
@@ -8874,6 +8876,8 @@ mkt12019.com CNAME .
 *.mkt12019.com CNAME .
 mkt1202.com CNAME .
 *.mkt1202.com CNAME .
+mkt12020.com CNAME .
+*.mkt12020.com CNAME .
 mkt12022.com CNAME .
 *.mkt12022.com CNAME .
 mkt12023.com CNAME .
@@ -8972,6 +8976,8 @@ mkt12073.com CNAME .
 *.mkt12073.com CNAME .
 mkt12074.com CNAME .
 *.mkt12074.com CNAME .
+mkt12075.com CNAME .
+*.mkt12075.com CNAME .
 mkt12076.com CNAME .
 *.mkt12076.com CNAME .
 mkt12077.com CNAME .
@@ -9022,8 +9028,12 @@ mkt1210.com CNAME .
 *.mkt1210.com CNAME .
 mkt12100.com CNAME .
 *.mkt12100.com CNAME .
+mkt12101.com CNAME .
+*.mkt12101.com CNAME .
 mkt12103.com CNAME .
 *.mkt12103.com CNAME .
+mkt12105.com CNAME .
+*.mkt12105.com CNAME .
 mkt12106.com CNAME .
 *.mkt12106.com CNAME .
 mkt1211.com CNAME .
@@ -9032,6 +9042,8 @@ mkt12110.com CNAME .
 *.mkt12110.com CNAME .
 mkt12115.com CNAME .
 *.mkt12115.com CNAME .
+mkt12119.com CNAME .
+*.mkt12119.com CNAME .
 mkt1212.com CNAME .
 *.mkt1212.com CNAME .
 mkt1213.com CNAME .
@@ -28416,8 +28428,6 @@ popin.cc CNAME .
 *.popin.cc CNAME .
 rm0001.net CNAME .
 *.rm0001.net CNAME .
-rm0003.net CNAME .
-*.rm0003.net CNAME .
 rm0004.net CNAME .
 *.rm0004.net CNAME .
 rm0005.net CNAME .
@@ -28428,8 +28438,6 @@ rm04.net CNAME .
 *.rm04.net CNAME .
 vivoglobal.com CNAME .
 *.vivoglobal.com CNAME .
-roadmappenal.com CNAME .
-*.roadmappenal.com CNAME .
 rockabox.co CNAME .
 *.rockabox.co CNAME .
 roia.biz CNAME .
@@ -28618,8 +28626,6 @@ sekindo.com CNAME .
 *.sekindo.com CNAME .
 sele.co CNAME .
 *.sele.co CNAME .
-selfadvertiser.com CNAME .
-*.selfadvertiser.com CNAME .
 sellathon.com CNAME .
 *.sellathon.com CNAME .
 semasio.net CNAME .
