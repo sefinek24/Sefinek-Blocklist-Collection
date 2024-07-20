@@ -8,17 +8,17 @@
 #                                             The best collection of blocklists for your DNS server
 #                                                       https://blocklist.sefinek.net
 #
-# Title: Blocks degenerate dating services (widely recommended for people living in Poland)
-# Description: Blocks degenerate dating services or those that only pretend to be dating services, but in reality have other intentions. The domains on this list primarily originate from bot accounts on Facebook.
+# Title: Suspicious websites, mainly those that redirect to other malicious or dangerous sites (widely recommended for people living in Poland)
+# Description: The list includes a number of suspicious sites that often redirect users to other malicious or dangerous websites. These sites may pose a threat to the security of your system, privacy, and data.
 # Expires: 1 day
-# Count: 8
+# Count: 4
 # Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
 # Modified by: Nobody
 # Source: N/A
 # License: Unknown
-# Release: 127.0.0.1 before each domain
-# Version: 1721486545592
-# Last update: July 20, 2024 at 2:42 PM UTC | 2024-07-20T14:42:25.592+00:00 | UTC
+# Release: Dnsmasq
+# Version: 1721486546873
+# Last update: July 20, 2024 at 2:42 PM UTC | 2024-07-20T14:42:26.873+00:00 | UTC
 #
 # 〢 About:
 # This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
@@ -28,11 +28,7 @@
 # By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
 #
 # -------------------------------------------------------------------------------------------------------------------------------------------------------
-127.0.0.1 only-flirt24.pl
-127.0.0.1 only-flirts.com
-127.0.0.1 poznampana.com
-127.0.0.1 szukamrandki.pl
-127.0.0.1 www.only-flirt24.pl
-127.0.0.1 www.only-flirts.com
-127.0.0.1 www.poznampana.com
-127.0.0.1 www.szukamrandki.pl
+server=/click-1.pl/
+server=/lowest-price.eu/
+server=/www.click-1.pl/
+server=/www.lowest-price.eu/
