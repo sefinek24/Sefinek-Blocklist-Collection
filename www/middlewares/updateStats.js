@@ -37,6 +37,6 @@ const updateStats = (req, res) => {
 };
 
 module.exports = (req, res, next) => {
-	res.on('finish', () => updateStats(req, res));
+	if (process.env.NODE_ENV === 'production') res.on('finish', () => updateStats(req, res));
 	next();
 };
