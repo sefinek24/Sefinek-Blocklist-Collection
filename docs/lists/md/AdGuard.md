@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for AdGuard</h1>
     <p>
         📄 » <b>Format: ||domain.tld^</b><br>
-        📥 » <b>Last update: 04.07.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 21.07.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
