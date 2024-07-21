@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721525870990 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721529679998 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-07-21 01:29:05 (UTC)                      ;
+; Last updated: 2024-07-21 02:34:20 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+kukulaa.cn CNAME .
+*.kukulaa.cn CNAME .
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
 miiyun.cn CNAME .
@@ -32,8 +34,6 @@ airhobi.com CNAME .
 *.airhobi.com CNAME .
 almrwad.com CNAME .
 *.almrwad.com CNAME .
-anchornorth.com CNAME .
-*.anchornorth.com CNAME .
 co.za CNAME .
 *.co.za CNAME .
 cobainaja.id CNAME .
@@ -50,20 +50,16 @@ avastsf.com CNAME .
 *.avastsf.com CNAME .
 9-9-8.com CNAME .
 *.9-9-8.com CNAME .
-co.tz CNAME .
-*.co.tz CNAME .
 bestt-shirts.com CNAME .
 *.bestt-shirts.com CNAME .
 biancolevrin.com CNAME .
 *.biancolevrin.com CNAME .
-bitkiselurunsiparis.com CNAME .
-*.bitkiselurunsiparis.com CNAME .
 4gnekoland.top CNAME .
 *.4gnekoland.top CNAME .
-bruiserbodies.com CNAME .
-*.bruiserbodies.com CNAME .
 diit.cl CNAME .
 *.diit.cl CNAME .
+haory.cn CNAME .
+*.haory.cn CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
 com.vn CNAME .
@@ -92,16 +88,12 @@ discuz.mobi CNAME .
 *.discuz.mobi CNAME .
 deauduafzgezzfgm.top CNAME .
 *.deauduafzgezzfgm.top CNAME .
-defgyma.com CNAME .
-*.defgyma.com CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
 diclegrup.org CNAME .
 *.diclegrup.org CNAME .
 56a.com CNAME .
 *.56a.com CNAME .
-aginjector.com CNAME .
-*.aginjector.com CNAME .
 packetstormsecurity.net CNAME .
 *.packetstormsecurity.net CNAME .
 dnvk1.info CNAME .
@@ -152,6 +144,8 @@ microcloud360.com CNAME .
 *.microcloud360.com CNAME .
 go9niapp.buzz CNAME .
 *.go9niapp.buzz CNAME .
+t1linux.com CNAME .
+*.t1linux.com CNAME .
 hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
 hitstation.nl CNAME .
@@ -186,8 +180,6 @@ kdnewsindia.com CNAME .
 *.kdnewsindia.com CNAME .
 lajollaautorepairs.com CNAME .
 *.lajollaautorepairs.com CNAME .
-lflsoftware.com CNAME .
-*.lflsoftware.com CNAME .
 ac.in CNAME .
 *.ac.in CNAME .
 licocojambamarketplace.com CNAME .
@@ -206,6 +198,8 @@ com.cn CNAME .
 *.com.cn CNAME .
 mailservicess.com CNAME .
 *.mailservicess.com CNAME .
+mamallan.life CNAME .
+*.mamallan.life CNAME .
 mbsngradnja.com CNAME .
 *.mbsngradnja.com CNAME .
 meerahustle.com CNAME .
@@ -248,8 +242,6 @@ nebulaquestcorporation.cc CNAME .
 *.nebulaquestcorporation.cc CNAME .
 org.sa CNAME .
 *.org.sa CNAME .
-noithaticon.vn CNAME .
-*.noithaticon.vn CNAME .
 com.br CNAME .
 *.com.br CNAME .
 officialphoenix.com CNAME .
@@ -274,6 +266,8 @@ resourceedge.org CNAME .
 *.resourceedge.org CNAME .
 reusable-flex.com CNAME .
 *.reusable-flex.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 scratchedcards.com CNAME .
 *.scratchedcards.com CNAME .
 in.th CNAME .
@@ -294,14 +288,12 @@ softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
 vivi.sg CNAME .
 *.vivi.sg CNAME .
-co.za CNAME .
-*.co.za CNAME .
 sportvision.app CNAME .
 *.sportvision.app CNAME .
 cz01.cn CNAME .
 *.cz01.cn CNAME .
-dinju.com CNAME .
-*.dinju.com CNAME .
+clz.kr CNAME .
+*.clz.kr CNAME .
 taxinhanhlongan.com CNAME .
 *.taxinhanhlongan.com CNAME .
 techniguitare.com CNAME .
@@ -370,8 +362,6 @@ globallaborsupply.com CNAME .
 *.globallaborsupply.com CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
-ingonherbal.com CNAME .
-*.ingonherbal.com CNAME .
 innovativebuildingsolutions.in CNAME .
 *.innovativebuildingsolutions.in CNAME .
 kdnewsindia.com CNAME .
@@ -386,6 +376,8 @@ pe.kr CNAME .
 *.pe.kr CNAME .
 onlinesupportforroad.com CNAME .
 *.onlinesupportforroad.com CNAME .
+opolis.io CNAME .
+*.opolis.io CNAME .
 reifenquick.de CNAME .
 *.reifenquick.de CNAME .
 rockcreekdds.com CNAME .
@@ -398,16 +390,16 @@ taxinhanhlongan.com CNAME .
 *.taxinhanhlongan.com CNAME .
 xelientinhmiennam.com CNAME .
 *.xelientinhmiennam.com CNAME .
+ysbaojia.com CNAME .
+*.ysbaojia.com CNAME .
 xelientinhmiennam.com CNAME .
 *.xelientinhmiennam.com CNAME .
 xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
-hnggzyjy.cn CNAME .
-*.hnggzyjy.cn CNAME .
-ysdjsrf.com CNAME .
-*.ysdjsrf.com CNAME .
+yzkzixun.com CNAME .
+*.yzkzixun.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
-; Number of entries: 200
+; Number of entries: 196
