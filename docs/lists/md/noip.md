@@ -114,6 +114,7 @@ https://blocklist.sefinek.net/generated/v1/noip/spam/RPiList/spam-mails.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/spam/stopforumspam/toxic-domains-whole.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/suspicious/FadeMind/add-Risk.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/suspicious/firebog/w3kbl.fork.txt
+https://blocklist.sefinek.net/generated/v1/noip/suspicious/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/noip/test.txt
 https://blocklist.sefinek.net/generated/v1/noip/tracking-and-telemetry/0Zinc/easyprivacy.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/tracking-and-telemetry/ente-dev/tv.fork.txt
