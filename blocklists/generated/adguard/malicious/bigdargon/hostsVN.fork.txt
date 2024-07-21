@@ -1,7 +1,7 @@
 ! Title: hostsVN
-! Last modified: 20 Jul 2024 23:07 UTC+7
-! Version: 2407202307
-! Blocked: 20,416 domains
+! Last modified: 21 Jul 2024 22:12 UTC+7
+! Version: 2407212212
+! Blocked: 20,404 domains
 ! Please report any ads or problems on GitHub
 ! Homepage: https://bigdargon.github.io/hostsVN/
 ! GitHub: https://github.com/bigdargon/hostsVN
@@ -565,7 +565,6 @@
 ||rat.rakuten.co.jp^
 ||secure.rat.rakuten.co.jp^
 ![facebook]
-||ads.facebook.com^
 ||an.facebook.com^
 ||pixel.facebook.com^
 ![update.fbsbx.com]
@@ -582,7 +581,6 @@
 ||ads-api.twitter.com^
 ||ads-bidder-api.twitter.com^
 ||ads.twitter.com^
-||analytics.twitter.com^
 ![ads-twitter.com]
 ||ads-twitter.com^
 ||static.ads-twitter.com^
@@ -3452,11 +3450,9 @@
 ||reklamstore.com^
 ||pixel.reklamstore.com^
 ||img.reklamstore.com^
-![addtoany]
-||addtoany.com^
+![addtoany.com]
 ||static.addtoany.com^
 ||stats.addtoany.com^
-||www.addtoany.com^
 ![staticstuff]
 ||cdn.staticstuff.net^
 ||hello.staticstuff.net^
@@ -6502,16 +6498,6 @@
 ||hadsipz.com^
 ||hadskiz.com^
 ||hadsokz.com^
-![adjust.com]
-||adjust.com^
-||app.adjust.com^
-||atom.adjust.com^
-||events.adjust.com^
-||s2s.adjust.com^
-||view.adjust.com^
-![adjust.io]
-||adjust.io^
-||app.adjust.io^
 ![aaxads.com]
 ||aas-nv-a.aaxads.com^
 ||aaxads.com^
@@ -10397,11 +10383,6 @@
 ![samsungrs.com]
 ||adconsent.samsungrs.com^
 ||sspapi-prd.samsungrs.com^
-![nc0.co]
-||edge-geo.nc0.co^
-||nc0.co^
-||pixel.nc0.co^
-||t.nc0.co^
 ![reactful.com]
 ||reactful.com^
 ||tracking.reactful.com^
@@ -18535,6 +18516,7 @@
 ||ofhappinyer.com^
 ||ofleafeona.com^
 ||ofnumeltor.com^
+||ofplredpogw.com^
 ||ofqaqsazxli.com^
 ||ofqopmnpia.com^
 ||ofsyuxaveckulgf.com^
@@ -21357,6 +21339,8 @@
 ||api2.poperblocker.com^
 ||apolloprogram.io^
 ||app-analytics-services.com^
+||app.adjust.com^
+||app.adjust.io^
 ||app.adjust.net.in^
 ||app.adjust.world^
 ||app.posthog.com^
@@ -21688,6 +21672,7 @@
 ||pixel.gliacloud.com^
 ||pixel.homeapp.team^
 ||pixel.ipinfo.io^
+||pixel.nc0.co^
 ||pixel.pointmediatracker.com^
 ||pixel.s3xified.com^
 ||pixel.wp.com^

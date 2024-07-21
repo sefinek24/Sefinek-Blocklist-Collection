@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 20 Jul 2024 23:07 UTC+7
-# Version: 2407202307
-# Blocked: 20,416 domains
+# Last modified: 21 Jul 2024 22:12 UTC+7
+# Version: 2407212212
+# Blocked: 20,404 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -565,7 +565,6 @@ server=/xml.affiliate.rakuten.co.jp/
 server=/rat.rakuten.co.jp/
 server=/secure.rat.rakuten.co.jp/
 #[facebook]
-server=/ads.facebook.com/
 server=/an.facebook.com/
 server=/pixel.facebook.com/
 #[update.fbsbx.com]
@@ -582,7 +581,6 @@ server=/privatestats.whatsapp.net/
 server=/ads-api.twitter.com/
 server=/ads-bidder-api.twitter.com/
 server=/ads.twitter.com/
-server=/analytics.twitter.com/
 #[ads-twitter.com]
 server=/ads-twitter.com/
 server=/static.ads-twitter.com/
@@ -3452,11 +3450,9 @@ server=/adserver2.reklamstore.com/
 server=/reklamstore.com/
 server=/pixel.reklamstore.com/
 server=/img.reklamstore.com/
-#[addtoany]
-server=/addtoany.com/
+#[addtoany.com]
 server=/static.addtoany.com/
 server=/stats.addtoany.com/
-server=/www.addtoany.com/
 #[staticstuff]
 server=/cdn.staticstuff.net/
 server=/hello.staticstuff.net/
@@ -6502,16 +6498,6 @@ server=/hadsimz.com/
 server=/hadsipz.com/
 server=/hadskiz.com/
 server=/hadsokz.com/
-#[adjust.com]
-server=/adjust.com/
-server=/app.adjust.com/
-server=/atom.adjust.com/
-server=/events.adjust.com/
-server=/s2s.adjust.com/
-server=/view.adjust.com/
-#[adjust.io]
-server=/adjust.io/
-server=/app.adjust.io/
 #[aaxads.com]
 server=/aas-nv-a.aaxads.com/
 server=/aaxads.com/
@@ -10397,11 +10383,6 @@ server=/analytics.bigdata.samsung.com/
 #[samsungrs.com]
 server=/adconsent.samsungrs.com/
 server=/sspapi-prd.samsungrs.com/
-#[nc0.co]
-server=/edge-geo.nc0.co/
-server=/nc0.co/
-server=/pixel.nc0.co/
-server=/t.nc0.co/
 #[reactful.com]
 server=/reactful.com/
 server=/tracking.reactful.com/
@@ -18535,6 +18516,7 @@ server=/offwurqzia.com/
 server=/ofhappinyer.com/
 server=/ofleafeona.com/
 server=/ofnumeltor.com/
+server=/ofplredpogw.com/
 server=/ofqaqsazxli.com/
 server=/ofqopmnpia.com/
 server=/ofsyuxaveckulgf.com/
@@ -21357,6 +21339,8 @@ server=/api.wipmania.com/
 server=/api2.poperblocker.com/
 server=/apolloprogram.io/
 server=/app-analytics-services.com/
+server=/app.adjust.com/
+server=/app.adjust.io/
 server=/app.adjust.net.in/
 server=/app.adjust.world/
 server=/app.posthog.com/
@@ -21688,6 +21672,7 @@ server=/pixel.chaty.app/
 server=/pixel.gliacloud.com/
 server=/pixel.homeapp.team/
 server=/pixel.ipinfo.io/
+server=/pixel.nc0.co/
 server=/pixel.pointmediatracker.com/
 server=/pixel.s3xified.com/
 server=/pixel.wp.com/

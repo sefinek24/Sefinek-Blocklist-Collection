@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 20 Jul 2024 23:07 UTC+7
-# Version: 2407202307
-# Blocked: 20,416 domains
+# Last modified: 21 Jul 2024 22:12 UTC+7
+# Version: 2407212212
+# Blocked: 20,404 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -565,7 +565,6 @@
 0.0.0.0 rat.rakuten.co.jp
 0.0.0.0 secure.rat.rakuten.co.jp
 #[facebook]
-0.0.0.0 ads.facebook.com
 0.0.0.0 an.facebook.com
 0.0.0.0 pixel.facebook.com
 #[update.fbsbx.com]
@@ -582,7 +581,6 @@
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-bidder-api.twitter.com
 0.0.0.0 ads.twitter.com
-0.0.0.0 analytics.twitter.com
 #[ads-twitter.com]
 0.0.0.0 ads-twitter.com
 0.0.0.0 static.ads-twitter.com
@@ -3452,11 +3450,9 @@
 0.0.0.0 reklamstore.com
 0.0.0.0 pixel.reklamstore.com
 0.0.0.0 img.reklamstore.com
-#[addtoany]
-0.0.0.0 addtoany.com
+#[addtoany.com]
 0.0.0.0 static.addtoany.com
 0.0.0.0 stats.addtoany.com
-0.0.0.0 www.addtoany.com
 #[staticstuff]
 0.0.0.0 cdn.staticstuff.net
 0.0.0.0 hello.staticstuff.net
@@ -6502,16 +6498,6 @@
 0.0.0.0 hadsipz.com
 0.0.0.0 hadskiz.com
 0.0.0.0 hadsokz.com
-#[adjust.com]
-0.0.0.0 adjust.com
-0.0.0.0 app.adjust.com
-0.0.0.0 atom.adjust.com
-0.0.0.0 events.adjust.com
-0.0.0.0 s2s.adjust.com
-0.0.0.0 view.adjust.com
-#[adjust.io]
-0.0.0.0 adjust.io
-0.0.0.0 app.adjust.io
 #[aaxads.com]
 0.0.0.0 aas-nv-a.aaxads.com
 0.0.0.0 aaxads.com
@@ -10397,11 +10383,6 @@
 #[samsungrs.com]
 0.0.0.0 adconsent.samsungrs.com
 0.0.0.0 sspapi-prd.samsungrs.com
-#[nc0.co]
-0.0.0.0 edge-geo.nc0.co
-0.0.0.0 nc0.co
-0.0.0.0 pixel.nc0.co
-0.0.0.0 t.nc0.co
 #[reactful.com]
 0.0.0.0 reactful.com
 0.0.0.0 tracking.reactful.com
@@ -18535,6 +18516,7 @@
 0.0.0.0 ofhappinyer.com
 0.0.0.0 ofleafeona.com
 0.0.0.0 ofnumeltor.com
+0.0.0.0 ofplredpogw.com
 0.0.0.0 ofqaqsazxli.com
 0.0.0.0 ofqopmnpia.com
 0.0.0.0 ofsyuxaveckulgf.com
@@ -21357,6 +21339,8 @@
 0.0.0.0 api2.poperblocker.com
 0.0.0.0 apolloprogram.io
 0.0.0.0 app-analytics-services.com
+0.0.0.0 app.adjust.com
+0.0.0.0 app.adjust.io
 0.0.0.0 app.adjust.net.in
 0.0.0.0 app.adjust.world
 0.0.0.0 app.posthog.com
@@ -21688,6 +21672,7 @@
 0.0.0.0 pixel.gliacloud.com
 0.0.0.0 pixel.homeapp.team
 0.0.0.0 pixel.ipinfo.io
+0.0.0.0 pixel.nc0.co
 0.0.0.0 pixel.pointmediatracker.com
 0.0.0.0 pixel.s3xified.com
 0.0.0.0 pixel.wp.com

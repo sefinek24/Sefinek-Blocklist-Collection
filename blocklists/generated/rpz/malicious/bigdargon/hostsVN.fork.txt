@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721492819064 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721579276236 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 20 Jul 2024 23:07 UTC+7
-; Version: 2407202307
-; Blocked: 20,416 domains
+; Last modified: 21 Jul 2024 22:12 UTC+7
+; Version: 2407212212
+; Blocked: 20,404 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -1059,8 +1059,6 @@ facebook.com CNAME .
 *.facebook.com CNAME .
 facebook.com CNAME .
 *.facebook.com CNAME .
-facebook.com CNAME .
-*.facebook.com CNAME .
 ;[update.fbsbx.com]
 fbsbx.com CNAME .
 *.fbsbx.com CNAME .
@@ -1080,8 +1078,6 @@ whatsapp.net CNAME .
 whatsapp.net CNAME .
 *.whatsapp.net CNAME .
 ;[twitter.com]
-twitter.com CNAME .
-*.twitter.com CNAME .
 twitter.com CNAME .
 *.twitter.com CNAME .
 twitter.com CNAME .
@@ -6589,11 +6585,7 @@ reklamstore.com CNAME .
 *.reklamstore.com CNAME .
 reklamstore.com CNAME .
 *.reklamstore.com CNAME .
-;[addtoany]
-addtoany.com CNAME .
-*.addtoany.com CNAME .
-addtoany.com CNAME .
-*.addtoany.com CNAME .
+;[addtoany.com]
 addtoany.com CNAME .
 *.addtoany.com CNAME .
 addtoany.com CNAME .
@@ -12450,24 +12442,6 @@ hadskiz.com CNAME .
 *.hadskiz.com CNAME .
 hadsokz.com CNAME .
 *.hadsokz.com CNAME .
-;[adjust.com]
-adjust.com CNAME .
-*.adjust.com CNAME .
-adjust.com CNAME .
-*.adjust.com CNAME .
-adjust.com CNAME .
-*.adjust.com CNAME .
-adjust.com CNAME .
-*.adjust.com CNAME .
-adjust.com CNAME .
-*.adjust.com CNAME .
-adjust.com CNAME .
-*.adjust.com CNAME .
-;[adjust.io]
-adjust.io CNAME .
-*.adjust.io CNAME .
-adjust.io CNAME .
-*.adjust.io CNAME .
 ;[aaxads.com]
 aaxads.com CNAME .
 *.aaxads.com CNAME .
@@ -19678,15 +19652,6 @@ samsungrs.com CNAME .
 *.samsungrs.com CNAME .
 samsungrs.com CNAME .
 *.samsungrs.com CNAME .
-;[nc0.co]
-nc0.co CNAME .
-*.nc0.co CNAME .
-nc0.co CNAME .
-*.nc0.co CNAME .
-nc0.co CNAME .
-*.nc0.co CNAME .
-nc0.co CNAME .
-*.nc0.co CNAME .
 ;[reactful.com]
 reactful.com CNAME .
 *.reactful.com CNAME .
@@ -35471,6 +35436,8 @@ ofleafeona.com CNAME .
 *.ofleafeona.com CNAME .
 ofnumeltor.com CNAME .
 *.ofnumeltor.com CNAME .
+ofplredpogw.com CNAME .
+*.ofplredpogw.com CNAME .
 ofqaqsazxli.com CNAME .
 *.ofqaqsazxli.com CNAME .
 ofqopmnpia.com CNAME .
@@ -41114,6 +41081,10 @@ apolloprogram.io CNAME .
 *.apolloprogram.io CNAME .
 app-analytics-services.com CNAME .
 *.app-analytics-services.com CNAME .
+adjust.com CNAME .
+*.adjust.com CNAME .
+adjust.io CNAME .
+*.adjust.io CNAME .
 net.in CNAME .
 *.net.in CNAME .
 adjust.world CNAME .
@@ -41776,6 +41747,8 @@ homeapp.team CNAME .
 *.homeapp.team CNAME .
 ipinfo.io CNAME .
 *.ipinfo.io CNAME .
+nc0.co CNAME .
+*.nc0.co CNAME .
 pointmediatracker.com CNAME .
 *.pointmediatracker.com CNAME .
 s3xified.com CNAME .

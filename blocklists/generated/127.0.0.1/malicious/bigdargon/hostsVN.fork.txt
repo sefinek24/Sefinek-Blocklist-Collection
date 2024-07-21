@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 20 Jul 2024 23:07 UTC+7
-# Version: 2407202307
-# Blocked: 20,416 domains
+# Last modified: 21 Jul 2024 22:12 UTC+7
+# Version: 2407212212
+# Blocked: 20,404 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -565,7 +565,6 @@
 127.0.0.1 rat.rakuten.co.jp
 127.0.0.1 secure.rat.rakuten.co.jp
 #[facebook]
-127.0.0.1 ads.facebook.com
 127.0.0.1 an.facebook.com
 127.0.0.1 pixel.facebook.com
 #[update.fbsbx.com]
@@ -582,7 +581,6 @@
 127.0.0.1 ads-api.twitter.com
 127.0.0.1 ads-bidder-api.twitter.com
 127.0.0.1 ads.twitter.com
-127.0.0.1 analytics.twitter.com
 #[ads-twitter.com]
 127.0.0.1 ads-twitter.com
 127.0.0.1 static.ads-twitter.com
@@ -3452,11 +3450,9 @@
 127.0.0.1 reklamstore.com
 127.0.0.1 pixel.reklamstore.com
 127.0.0.1 img.reklamstore.com
-#[addtoany]
-127.0.0.1 addtoany.com
+#[addtoany.com]
 127.0.0.1 static.addtoany.com
 127.0.0.1 stats.addtoany.com
-127.0.0.1 www.addtoany.com
 #[staticstuff]
 127.0.0.1 cdn.staticstuff.net
 127.0.0.1 hello.staticstuff.net
@@ -6502,16 +6498,6 @@
 127.0.0.1 hadsipz.com
 127.0.0.1 hadskiz.com
 127.0.0.1 hadsokz.com
-#[adjust.com]
-127.0.0.1 adjust.com
-127.0.0.1 app.adjust.com
-127.0.0.1 atom.adjust.com
-127.0.0.1 events.adjust.com
-127.0.0.1 s2s.adjust.com
-127.0.0.1 view.adjust.com
-#[adjust.io]
-127.0.0.1 adjust.io
-127.0.0.1 app.adjust.io
 #[aaxads.com]
 127.0.0.1 aas-nv-a.aaxads.com
 127.0.0.1 aaxads.com
@@ -10397,11 +10383,6 @@
 #[samsungrs.com]
 127.0.0.1 adconsent.samsungrs.com
 127.0.0.1 sspapi-prd.samsungrs.com
-#[nc0.co]
-127.0.0.1 edge-geo.nc0.co
-127.0.0.1 nc0.co
-127.0.0.1 pixel.nc0.co
-127.0.0.1 t.nc0.co
 #[reactful.com]
 127.0.0.1 reactful.com
 127.0.0.1 tracking.reactful.com
@@ -18535,6 +18516,7 @@
 127.0.0.1 ofhappinyer.com
 127.0.0.1 ofleafeona.com
 127.0.0.1 ofnumeltor.com
+127.0.0.1 ofplredpogw.com
 127.0.0.1 ofqaqsazxli.com
 127.0.0.1 ofqopmnpia.com
 127.0.0.1 ofsyuxaveckulgf.com
@@ -21357,6 +21339,8 @@
 127.0.0.1 api2.poperblocker.com
 127.0.0.1 apolloprogram.io
 127.0.0.1 app-analytics-services.com
+127.0.0.1 app.adjust.com
+127.0.0.1 app.adjust.io
 127.0.0.1 app.adjust.net.in
 127.0.0.1 app.adjust.world
 127.0.0.1 app.posthog.com
@@ -21688,6 +21672,7 @@
 127.0.0.1 pixel.gliacloud.com
 127.0.0.1 pixel.homeapp.team
 127.0.0.1 pixel.ipinfo.io
+127.0.0.1 pixel.nc0.co
 127.0.0.1 pixel.pointmediatracker.com
 127.0.0.1 pixel.s3xified.com
 127.0.0.1 pixel.wp.com
