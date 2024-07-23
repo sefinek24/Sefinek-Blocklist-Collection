@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721738519338 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721766253536 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Tue, 23 Jul 2024 10:30:26 GMT
-; entries:        3549
+; last updated:   Tue, 23 Jul 2024 18:23:40 GMT
+; entries:        3550
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -3480,6 +3480,8 @@ freshrelevance.com CNAME .
 *.freshrelevance.com CNAME .
 frightenedpotato.com CNAME .
 *.frightenedpotato.com CNAME .
+frogator.com CNAME .
+*.frogator.com CNAME .
 fronttoad.com CNAME .
 *.fronttoad.com CNAME .
 frtyj.com CNAME .
