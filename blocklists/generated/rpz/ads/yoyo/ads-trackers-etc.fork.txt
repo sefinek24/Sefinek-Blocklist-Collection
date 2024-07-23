@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721406480820 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721698012521 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Fri, 19 Jul 2024 15:20:14 GMT
-; entries:        3547
+; last updated:   Mon, 22 Jul 2024 22:13:01 GMT
+; entries:        3548
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -3680,6 +3680,8 @@ heap.com CNAME .
 *.heap.com CNAME .
 hearinglizards.com CNAME .
 *.hearinglizards.com CNAME .
+heimi-lwx.com CNAME .
+*.heimi-lwx.com CNAME .
 hellobar.com CNAME .
 *.hellobar.com CNAME .
 helpcollar.com CNAME .
