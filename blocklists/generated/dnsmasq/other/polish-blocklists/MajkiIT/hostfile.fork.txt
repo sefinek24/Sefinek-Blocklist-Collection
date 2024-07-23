@@ -1,4 +1,4 @@
-#202307280303
+#202407220001
 # Polish filters for Pi hole
 # Collaborators: xxcriticxx, MajkiIT
 # Homepage: https://www.certyficate.it/
@@ -187,7 +187,7 @@ server=/zukxd6fkxqn.com/
 server=/render.geozo.com/
 server=/mustreadfeed.com/
 server=/newssomesun.com/
-server=/userload.co/maroc.js$script/
+# 0.0.0.0 userload.co/maroc.js$script
 server=/allepharm.com/
 server=/trichomist.store/
 server=/mostnewsfeed.com/
@@ -209,6 +209,7 @@ server=/back.marketing/
 server=/behavioralengine.com/
 server=/caringcast.com/
 server=/cassini.efigence.com/
+# 0.0.0.0 cdn.cookielaw.org
 server=/clickcounters.com/
 server=/clickmatic.pl/
 server=/clickmeter.com/
@@ -269,6 +270,7 @@ server=/stats.aptelink.pl/
 server=/stats.asp24.pl/
 server=/stats.goldenline.pl/
 server=/stats.landingi.com/
+# 0.0.0.0 stg.wp.pl$script
 server=/sylaba.net/
 server=/tealium.hs.llnwd.net/
 server=/track.buybox.click/

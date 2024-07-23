@@ -1,4 +1,4 @@
-!202307280303
+!202407220001
 ! Polish filters for Pi hole
 ! Collaborators: xxcriticxx, MajkiIT
 ! Homepage: https://www.certyficate.it/
@@ -187,7 +187,7 @@
 ||render.geozo.com^
 ||mustreadfeed.com^
 ||newssomesun.com^
-||userload.co/maroc.js$script^
+! ||userload.co/maroc.js$script^
 ||allepharm.com^
 ||trichomist.store^
 ||mostnewsfeed.com^
@@ -209,6 +209,7 @@
 ||behavioralengine.com^
 ||caringcast.com^
 ||cassini.efigence.com^
+! ||cdn.cookielaw.org^
 ||clickcounters.com^
 ||clickmatic.pl^
 ||clickmeter.com^
@@ -269,6 +270,7 @@
 ||stats.asp24.pl^
 ||stats.goldenline.pl^
 ||stats.landingi.com^
+! ||stg.wp.pl$script^
 ||sylaba.net^
 ||tealium.hs.llnwd.net^
 ||track.buybox.click^
