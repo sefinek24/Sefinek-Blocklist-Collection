@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721629885097 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721716244373 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4930
+; Domains: 4947
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -125,12 +125,6 @@ andamente.pt CNAME .
 *.andamente.pt CNAME .
 andamente.pt CNAME .
 *.andamente.pt CNAME .
-animeshoppers.com CNAME .
-*.animeshoppers.com CNAME .
-animeshoppers.com CNAME .
-*.animeshoppers.com CNAME .
-animeshoppers.com CNAME .
-*.animeshoppers.com CNAME .
 anydebrid.com CNAME .
 *.anydebrid.com CNAME .
 anydebrid.com CNAME .
@@ -149,6 +143,10 @@ uniwspapp.com CNAME .
 *.uniwspapp.com CNAME .
 uniwspapp.com CNAME .
 *.uniwspapp.com CNAME .
+apsehick.date CNAME .
+*.apsehick.date CNAME .
+apsehick.date CNAME .
+*.apsehick.date CNAME .
 eu.org CNAME .
 *.eu.org CNAME .
 eu.org CNAME .
@@ -357,6 +355,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -519,6 +519,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -555,6 +557,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -609,6 +613,8 @@ com-id23901.info CNAME .
 *.com-id23901.info CNAME .
 com-id23901.info CNAME .
 *.com-id23901.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -639,12 +645,16 @@ com-id334112.com CNAME .
 *.com-id334112.com CNAME .
 com-id334112.com CNAME .
 *.com-id334112.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id02349.info CNAME .
 *.com-id02349.info CNAME .
 com-id02349.info CNAME .
@@ -1247,10 +1257,6 @@ company.site CNAME .
 *.company.site CNAME .
 blingyy.com CNAME .
 *.blingyy.com CNAME .
-blingyy.com CNAME .
-*.blingyy.com CNAME .
-blingyy.com CNAME .
-*.blingyy.com CNAME .
 bloomingvibe.com CNAME .
 *.bloomingvibe.com CNAME .
 bloomingvibe.com CNAME .
@@ -1365,12 +1371,6 @@ burgershirt.com CNAME .
 *.burgershirt.com CNAME .
 burgershirt.com CNAME .
 *.burgershirt.com CNAME .
-buydubuy.com CNAME .
-*.buydubuy.com CNAME .
-buydubuy.com CNAME .
-*.buydubuy.com CNAME .
-buydubuy.com CNAME .
-*.buydubuy.com CNAME .
 company.com CNAME .
 *.company.com CNAME .
 buylikes.se CNAME .
@@ -1451,6 +1451,8 @@ charmsection.com CNAME .
 *.charmsection.com CNAME .
 charmsection.com CNAME .
 *.charmsection.com CNAME .
+charpente-ramel.com CNAME .
+*.charpente-ramel.com CNAME .
 chat-o-live.com CNAME .
 *.chat-o-live.com CNAME .
 cheat-on.com CNAME .
@@ -1551,6 +1553,12 @@ coinaps.com CNAME .
 *.coinaps.com CNAME .
 coinaps.com CNAME .
 *.coinaps.com CNAME .
+coinreq.com CNAME .
+*.coinreq.com CNAME .
+coinreq.com CNAME .
+*.coinreq.com CNAME .
+coinreq.com CNAME .
+*.coinreq.com CNAME .
 colorandcotton.com CNAME .
 *.colorandcotton.com CNAME .
 colorandcotton.com CNAME .
@@ -2229,6 +2237,14 @@ fundcash.id CNAME .
 *.fundcash.id CNAME .
 fundcash.id CNAME .
 *.fundcash.id CNAME .
+gamgoing.com CNAME .
+*.gamgoing.com CNAME .
+gamgoing.com CNAME .
+*.gamgoing.com CNAME .
+gamgoing.com CNAME .
+*.gamgoing.com CNAME .
+gamingbuffs.com CNAME .
+*.gamingbuffs.com CNAME .
 gamingbuffs.com CNAME .
 *.gamingbuffs.com CNAME .
 gamingbuffs.com CNAME .
@@ -2831,6 +2847,12 @@ lucidtiger.com CNAME .
 *.lucidtiger.com CNAME .
 lucidtiger.com CNAME .
 *.lucidtiger.com CNAME .
+lumustore.top CNAME .
+*.lumustore.top CNAME .
+lumustore.top CNAME .
+*.lumustore.top CNAME .
+lumustore.top CNAME .
+*.lumustore.top CNAME .
 lunapresent.com CNAME .
 *.lunapresent.com CNAME .
 lunapresent.com CNAME .
@@ -2859,6 +2881,12 @@ mamapapaclothing.com CNAME .
 *.mamapapaclothing.com CNAME .
 mamapapaclothing.com CNAME .
 *.mamapapaclothing.com CNAME .
+markethops.com CNAME .
+*.markethops.com CNAME .
+markethops.com CNAME .
+*.markethops.com CNAME .
+markethops.com CNAME .
+*.markethops.com CNAME .
 maxdebrid.com CNAME .
 *.maxdebrid.com CNAME .
 maxdebrid.com CNAME .
@@ -2973,8 +3001,6 @@ museuw.com CNAME .
 *.museuw.com CNAME .
 musk-project.com CNAME .
 *.musk-project.com CNAME .
-muskusa.com CNAME .
-*.muskusa.com CNAME .
 muthaafoundation.org CNAME .
 *.muthaafoundation.org CNAME .
 muthaafoundation.org CNAME .
@@ -5475,6 +5501,8 @@ ruecksendungen-gratis.com CNAME .
 *.ruecksendungen-gratis.com CNAME .
 ruecksendungen-gratis.com CNAME .
 *.ruecksendungen-gratis.com CNAME .
+rupiahpetiroiuy.xyz CNAME .
+*.rupiahpetiroiuy.xyz CNAME .
 rupiahsaku.com CNAME .
 *.rupiahsaku.com CNAME .
 rupiahsaku.com CNAME .
@@ -7161,6 +7189,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id879712.com CNAME .
+*.com-id879712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -8119,6 +8149,8 @@ myshopify.com CNAME .
 *.myshopify.com CNAME .
 tbao684tryo.com CNAME .
 *.tbao684tryo.com CNAME .
+tbg-lmtd.xyz CNAME .
+*.tbg-lmtd.xyz CNAME .
 tdsintegrations11.online CNAME .
 *.tdsintegrations11.online CNAME .
 tdsintegrations11.online CNAME .
@@ -8277,10 +8309,6 @@ toddlershood.shop CNAME .
 *.toddlershood.shop CNAME .
 toddlershood.shop CNAME .
 *.toddlershood.shop CNAME .
-toko999.net CNAME .
-*.toko999.net CNAME .
-toko999.net CNAME .
-*.toko999.net CNAME .
 toko999.shop CNAME .
 *.toko999.shop CNAME .
 toko999.shop CNAME .
@@ -8339,6 +8367,8 @@ tromselementbygg.no CNAME .
 *.tromselementbygg.no CNAME .
 tunaicair.com CNAME .
 *.tunaicair.com CNAME .
+tunairupiah.xyz CNAME .
+*.tunairupiah.xyz CNAME .
 twiiiter.com CNAME .
 *.twiiiter.com CNAME .
 twiiiter.com CNAME .
@@ -8513,8 +8543,6 @@ wavetshirt.com CNAME .
 *.wavetshirt.com CNAME .
 wavetshirt.com CNAME .
 *.wavetshirt.com CNAME .
-mobile-id1.com CNAME .
-*.mobile-id1.com CNAME .
 werfew.com CNAME .
 *.werfew.com CNAME .
 werfew.com CNAME .
@@ -9791,6 +9819,12 @@ ygtube.xyz CNAME .
 *.ygtube.xyz CNAME .
 ygtube.xyz CNAME .
 *.ygtube.xyz CNAME .
+yhdshop.com CNAME .
+*.yhdshop.com CNAME .
+yhdshop.com CNAME .
+*.yhdshop.com CNAME .
+yhdshop.com CNAME .
+*.yhdshop.com CNAME .
 yofi-yofi.com CNAME .
 *.yofi-yofi.com CNAME .
 yofi-yofi.com CNAME .
