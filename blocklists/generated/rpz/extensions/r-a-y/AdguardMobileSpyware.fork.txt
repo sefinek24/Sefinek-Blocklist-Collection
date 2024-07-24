@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721074999027 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721859748950 43200 3600 259200 300
   NS  localhost.
 ;
 ; AdguardMobileSpyware
 ;
 ; Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-; Last converted - Mon, 15 Jul 2024 20:21:49 +0100
+; Last converted - Wed, 24 Jul 2024 22:18:40 +0100
 ;
 spotify.com CNAME .
 *.spotify.com CNAME .
@@ -1139,8 +1139,6 @@ any.do CNAME .
 *.any.do CNAME .
 vpadn.com CNAME .
 *.vpadn.com CNAME .
-instabug.com CNAME .
-*.instabug.com CNAME .
 batmobi.net CNAME .
 *.batmobi.net CNAME .
 opera.com CNAME .

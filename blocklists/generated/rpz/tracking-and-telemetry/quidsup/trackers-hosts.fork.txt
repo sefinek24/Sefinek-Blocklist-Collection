@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721686920254 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721859748950 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,9 +8,9 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 22 Jul 2024
+; Updated: 24 Jul 2024
 ; LatestVersion 24.01
-; Domain Count: 15953
+; Domain Count: 15952
 ;===============================================================
 01mspmd5yalky8.com CNAME .
 *.01mspmd5yalky8.com CNAME .
@@ -2828,8 +2828,6 @@ effectivedisplayformats.com CNAME .
 *.effectivedisplayformats.com CNAME .
 effectivegatetocontent.com CNAME .
 *.effectivegatetocontent.com CNAME .
-effectivemeasure.com CNAME .
-*.effectivemeasure.com CNAME .
 effectivemeasure.net CNAME .
 *.effectivemeasure.net CNAME .
 effectiveperformanceformat.com CNAME .
@@ -3322,8 +3320,6 @@ geoedge.be CNAME .
 *.geoedge.be CNAME .
 geoedge.com CNAME .
 *.geoedge.com CNAME .
-wikimedia.org CNAME .
-*.wikimedia.org CNAME .
 com.tr CNAME .
 *.com.tr CNAME .
 georiot.com CNAME .
@@ -9044,6 +9040,8 @@ mkt1211.com CNAME .
 *.mkt1211.com CNAME .
 mkt12110.com CNAME .
 *.mkt12110.com CNAME .
+mkt12112.com CNAME .
+*.mkt12112.com CNAME .
 mkt12115.com CNAME .
 *.mkt12115.com CNAME .
 mkt12119.com CNAME .

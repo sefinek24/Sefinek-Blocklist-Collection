@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721074999027 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721859748950 43200 3600 259200 300
   NS  localhost.
 ;
 ; AdguardMobileAds
 ;
 ; Converted from - https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt
-; Last converted - Mon, 15 Jul 2024 20:21:48 +0100
+; Last converted - Wed, 24 Jul 2024 22:18:40 +0100
 ;
 youku.com CNAME .
 *.youku.com CNAME .
@@ -171,6 +171,8 @@ webvisor.com CNAME .
 *.webvisor.com CNAME .
 yandex-net.ru CNAME .
 *.yandex-net.ru CNAME .
+b-cdn.net CNAME .
+*.b-cdn.net CNAME .
 iwhop.cn CNAME .
 *.iwhop.cn CNAME .
 oleads.com CNAME .
