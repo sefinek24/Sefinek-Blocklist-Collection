@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721924874405 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721938996189 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,495
-; Updated: 7/25/2024  10:26 (10:26 AM CST)
+; Domains: 18,497
+; Updated: 7/25/2024  14:46 (2:46 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -26131,6 +26131,8 @@ ofseedotom.com CNAME .
 *.ofseedotom.com CNAME .
 google.com CNAME .
 *.google.com CNAME .
+googleapis.com CNAME .
+*.googleapis.com CNAME .
 ogercron.com CNAME .
 *.ogercron.com CNAME .
 medium.al CNAME .
@@ -33583,6 +33585,8 @@ toodlepork.com CNAME .
 *.toodlepork.com CNAME .
 complex.com CNAME .
 *.complex.com CNAME .
+toolcapital.com CNAME .
+*.toolcapital.com CNAME .
 elle.pl CNAME .
 *.elle.pl CNAME .
 glamour.pl CNAME .
