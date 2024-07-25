@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721889085211 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721896159397 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-07-25 06:24:27 (UTC)                      ;
+; Last updated: 2024-07-25 08:23:05 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+kukulaa.cn CNAME .
+*.kukulaa.cn CNAME .
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
 miiyun.cn CNAME .
@@ -76,6 +78,8 @@ com.vn CNAME .
 *.com.vn CNAME .
 com.do CNAME .
 *.com.do CNAME .
+cpanel-adminhost.com CNAME .
+*.cpanel-adminhost.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
 udashi.com CNAME .
@@ -86,6 +90,8 @@ discuz.mobi CNAME .
 *.discuz.mobi CNAME .
 deauduafzgezzfgm.top CNAME .
 *.deauduafzgezzfgm.top CNAME .
+defgyma.com CNAME .
+*.defgyma.com CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
 diclegrup.org CNAME .
@@ -98,6 +104,8 @@ packetstormsecurity.net CNAME .
 *.packetstormsecurity.net CNAME .
 dnvk1.info CNAME .
 *.dnvk1.info CNAME .
+pcclear.com CNAME .
+*.pcclear.com CNAME .
 caihong.com CNAME .
 *.caihong.com CNAME .
 doumaibiji.cn CNAME .
@@ -140,14 +148,20 @@ t1linux.com CNAME .
 *.t1linux.com CNAME .
 hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
+hitstation.nl CNAME .
+*.hitstation.nl CNAME .
 hienphucuanhanloai.org CNAME .
 *.hienphucuanhanloai.org CNAME .
+vrcom7.com CNAME .
+*.vrcom7.com CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
 hwthurmann.de CNAME .
 *.hwthurmann.de CNAME .
 hydewood.com CNAME .
 *.hydewood.com CNAME .
+iankian.shop CNAME .
+*.iankian.shop CNAME .
 imtoken8.cc CNAME .
 *.imtoken8.cc CNAME .
 inspirepk.org CNAME .
@@ -202,6 +216,8 @@ milanaces.com CNAME .
 *.milanaces.com CNAME .
 mussangroup.com CNAME .
 *.mussangroup.com CNAME .
+namthaibinh.net CNAME .
+*.namthaibinh.net CNAME .
 nebulaquestcorporation.cc CNAME .
 *.nebulaquestcorporation.cc CNAME .
 org.sa CNAME .
@@ -216,8 +232,6 @@ bsafesafety.com CNAME .
 *.bsafesafety.com CNAME .
 net.in CNAME .
 *.net.in CNAME .
-com.br CNAME .
-*.com.br CNAME .
 pastecode.dev CNAME .
 *.pastecode.dev CNAME .
 shouhucj.com CNAME .
@@ -246,16 +260,12 @@ in.th CNAME .
 *.in.th CNAME .
 servisaludocupacional.pe CNAME .
 *.servisaludocupacional.pe CNAME .
-dimitrimedia.com CNAME .
-*.dimitrimedia.com CNAME .
 shipminttracking.net CNAME .
 *.shipminttracking.net CNAME .
 silinast.ro CNAME .
 *.silinast.ro CNAME .
 skbm.ba CNAME .
 *.skbm.ba CNAME .
-110route.com CNAME .
-*.110route.com CNAME .
 softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
 vivi.sg CNAME .
@@ -282,20 +292,18 @@ telegram.ninja CNAME .
 *.telegram.ninja CNAME .
 tengfeidn.com CNAME .
 *.tengfeidn.com CNAME .
-ddosvps.cc CNAME .
-*.ddosvps.cc CNAME .
 typoten.com CNAME .
 *.typoten.com CNAME .
 thaus.top CNAME .
 *.thaus.top CNAME .
 tmars.net CNAME .
 *.tmars.net CNAME .
+sitefind.top CNAME .
+*.sitefind.top CNAME .
 totalhorsehealth.com CNAME .
 *.totalhorsehealth.com CNAME .
 co.za CNAME .
 *.co.za CNAME .
-tspanel.net CNAME .
-*.tspanel.net CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 twizt.net CNAME .
@@ -332,8 +340,6 @@ innovativebuildingsolutions.in CNAME .
 *.innovativebuildingsolutions.in CNAME .
 maxmoney.com CNAME .
 *.maxmoney.com CNAME .
-moninediy.com CNAME .
-*.moninediy.com CNAME .
 pe.kr CNAME .
 *.pe.kr CNAME .
 onlinesupportforroad.com CNAME .
@@ -344,6 +350,8 @@ reifenquick.de CNAME .
 *.reifenquick.de CNAME .
 rockcreekdds.com CNAME .
 *.rockcreekdds.com CNAME .
+saf-oil.ru CNAME .
+*.saf-oil.ru CNAME .
 seasidebeautyco.com CNAME .
 *.seasidebeautyco.com CNAME .
 starcountry.net CNAME .
@@ -358,8 +366,10 @@ microcloud360.com CNAME .
 *.microcloud360.com CNAME .
 hnggzyjy.cn CNAME .
 *.hnggzyjy.cn CNAME .
+ysdjsrf.com CNAME .
+*.ysdjsrf.com CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
-; Number of entries: 176
+; Number of entries: 181
