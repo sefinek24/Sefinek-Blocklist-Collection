@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721924874405 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1721957118830 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,073
-; Updated: 7/25/2024  10:26 (10:26 AM CST)
+; Domains: 13,075
+; Updated: 7/25/2024  19:02 (7:02 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -691,6 +691,8 @@ adultere-messenger.com CNAME .
 *.adultere-messenger.com CNAME .
 adultererencontre.com CNAME .
 *.adultererencontre.com CNAME .
+adultere-rencontre.fr CNAME .
+*.adultere-rencontre.fr CNAME .
 adulteres.org CNAME .
 *.adulteres.org CNAME .
 adultery.ch CNAME .
@@ -9249,6 +9251,8 @@ forcefulliber.com CNAME .
 *.forcefulliber.com CNAME .
 force-gay.com CNAME .
 *.force-gay.com CNAME .
+forcegay.com CNAME .
+*.forcegay.com CNAME .
 forcegay.es CNAME .
 *.forcegay.es CNAME .
 fordlincolnofhuntington.com CNAME .
