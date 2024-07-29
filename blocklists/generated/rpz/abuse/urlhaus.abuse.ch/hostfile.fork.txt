@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722256890087 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722262939861 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-07-29 12:34:08 (UTC)                      ;
+; Last updated: 2024-07-29 14:14:05 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -14,6 +14,8 @@ $TTL 300
 *.01print.ma CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
+kukulaa.cn CNAME .
+*.kukulaa.cn CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 qbgxl.com CNAME .
@@ -62,16 +64,12 @@ tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
 *.aefiabeuodbauobfafoebbf.net CNAME .
-qbgxl.com CNAME .
-*.qbgxl.com CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
 *.aefiabeuodbauobfafoebbf.net CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
-abissnet.net CNAME .
-*.abissnet.net CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
@@ -96,12 +94,12 @@ aoruuoooshfrohle.su CNAME .
 *.aoruuoooshfrohle.su CNAME .
 co.za CNAME .
 *.co.za CNAME .
-cobainaja.id CNAME .
-*.cobainaja.id CNAME .
 52kkg.com CNAME .
 *.52kkg.com CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
 *.aefiabeuodbauobfafoebbf.net CNAME .
+astronomicspace.com CNAME .
+*.astronomicspace.com CNAME .
 atlpvt.com CNAME .
 *.atlpvt.com CNAME .
 atsegypt.com CNAME .
@@ -120,8 +118,6 @@ tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
-co.tz CNAME .
-*.co.tz CNAME .
 bahrabeauty.com CNAME .
 *.bahrabeauty.com CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
@@ -140,10 +136,10 @@ bsafesafety.com CNAME .
 *.bsafesafety.com CNAME .
 diit.cl CNAME .
 *.diit.cl CNAME .
-haory.cn CNAME .
-*.haory.cn CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
 *.aefiabeuodbauobfafoebbf.net CNAME .
+c08d.top CNAME .
+*.c08d.top CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
 *.aefiabeuodbauobfafoebbf.net CNAME .
 fihsifuiiusuiuduf.com CNAME .
@@ -190,10 +186,6 @@ com.br CNAME .
 *.com.br CNAME .
 cryptolabstudio.com CNAME .
 *.cryptolabstudio.com CNAME .
-cryptomac.dev CNAME .
-*.cryptomac.dev CNAME .
-udashi.com CNAME .
-*.udashi.com CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
@@ -300,16 +292,18 @@ helheid.shop CNAME .
 *.helheid.shop CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
+hertrud.shop CNAME .
+*.hertrud.shop CNAME .
 hexcrippler.shop CNAME .
 *.hexcrippler.shop CNAME .
-t1linux.com CNAME .
-*.t1linux.com CNAME .
 hiltrunde.shop CNAME .
 *.hiltrunde.shop CNAME .
 hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
 hitstation.nl CNAME .
 *.hitstation.nl CNAME .
+horus-protector.pro CNAME .
+*.horus-protector.pro CNAME .
 xiongxun.vip CNAME .
 *.xiongxun.vip CNAME .
 vrcom7.com CNAME .
@@ -362,6 +356,8 @@ lajollaautorepairs.com CNAME .
 *.lajollaautorepairs.com CNAME .
 leopolfa.shop CNAME .
 *.leopolfa.shop CNAME .
+lflsoftware.com CNAME .
+*.lflsoftware.com CNAME .
 yjjxz.com CNAME .
 *.yjjxz.com CNAME .
 ac.in CNAME .
@@ -388,6 +384,8 @@ bixiancha.cn CNAME .
 *.bixiancha.cn CNAME .
 bsafesafety.com CNAME .
 *.bsafesafety.com CNAME .
+commodityprocess.top CNAME .
+*.commodityprocess.top CNAME .
 fihsifuiiusuiuduf.com CNAME .
 *.fihsifuiiusuiuduf.com CNAME .
 sitefind.top CNAME .
@@ -438,6 +436,8 @@ aefiabeuodbauobfafoebbf.net CNAME .
 *.aefiabeuodbauobfafoebbf.net CNAME .
 protechasia.com CNAME .
 *.protechasia.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 rachmatmusa.com CNAME .
 *.rachmatmusa.com CNAME .
 com.br CNAME .
@@ -466,12 +466,12 @@ selfmicrosofrtenabletrue.top CNAME .
 *.selfmicrosofrtenabletrue.top CNAME .
 servisaludocupacional.pe CNAME .
 *.servisaludocupacional.pe CNAME .
-dimitrimedia.com CNAME .
-*.dimitrimedia.com CNAME .
 silinast.ro CNAME .
 *.silinast.ro CNAME .
 intensegroupgt.com CNAME .
 *.intensegroupgt.com CNAME .
+sitefind.top CNAME .
+*.sitefind.top CNAME .
 skbm.ba CNAME .
 *.skbm.ba CNAME .
 fihsifuiiusuiuduf.com CNAME .
@@ -512,8 +512,6 @@ tejarat-gram.com CNAME .
 *.tejarat-gram.com CNAME .
 telegram.ninja CNAME .
 *.telegram.ninja CNAME .
-tengfeidn.com CNAME .
-*.tengfeidn.com CNAME .
 letiankj.cn CNAME .
 *.letiankj.cn CNAME .
 typoten.com CNAME .
@@ -540,8 +538,6 @@ hienphucuanhanloai.org CNAME .
 *.hienphucuanhanloai.org CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
-unicorpbrunei.com CNAME .
-*.unicorpbrunei.com CNAME .
 cg100iii.com CNAME .
 *.cg100iii.com CNAME .
 co.network CNAME .
@@ -584,8 +580,6 @@ gzqhr.com CNAME .
 *.gzqhr.com CNAME .
 haiguirencai.net CNAME .
 *.haiguirencai.net CNAME .
-hseda.com CNAME .
-*.hseda.com CNAME .
 hsolar.com CNAME .
 *.hsolar.com CNAME .
 imtoken-bw.com CNAME .
@@ -644,6 +638,8 @@ xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
 shavsl.com CNAME .
 *.shavsl.com CNAME .
+hnggzyjy.cn CNAME .
+*.hnggzyjy.cn CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
 *.aefiabeuodbauobfafoebbf.net CNAME .
 ysdjsrf.com CNAME .
@@ -652,8 +648,8 @@ imshike.com CNAME .
 *.imshike.com CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
-shavsl.com CNAME .
-*.shavsl.com CNAME .
+yzkzixun.com CNAME .
+*.yzkzixun.com CNAME .
 qjbdsoft.com CNAME .
 *.qjbdsoft.com CNAME .
-; Number of entries: 323
+; Number of entries: 321
