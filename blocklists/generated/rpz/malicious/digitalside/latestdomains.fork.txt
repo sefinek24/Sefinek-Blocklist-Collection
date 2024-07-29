@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722148141941 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722234708051 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -11,12 +11,14 @@ $TTL 300
 ; PGP fingerprint: 0B4C F801 E8FF E9A3 A602  D2C7 9C36 93B2 30B3 1BDA ;
 ; Every link reported should be considered harmefull and should       ;
 ; result in an unwanted malware download. Use this file carefully    ;
-; Generated at: 2024-07-28 08:03:44                                   ;
+; Generated at: 2024-07-29 08:04:09                                   ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
+aliyuncs.com CNAME .
+*.aliyuncs.com CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 aefiabeuodbauobfafoebbf.net CNAME .
@@ -75,6 +77,8 @@ tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 windows.net CNAME .
 *.windows.net CNAME .
+cryptolabstudio.com CNAME .
+*.cryptolabstudio.com CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 tsrv1.ws CNAME .
@@ -155,16 +159,24 @@ respekt5568.com CNAME .
 *.respekt5568.com CNAME .
 ronaldlitt.top CNAME .
 *.ronaldlitt.top CNAME .
+jishousc.shop CNAME .
+*.jishousc.shop CNAME .
+line.pm CNAME .
+*.line.pm CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 sssfheyuyu.bond CNAME .
 *.sssfheyuyu.bond CNAME .
 your-server.de CNAME .
 *.your-server.de CNAME .
+yvosm.cn CNAME .
+*.yvosm.cn CNAME .
 tsrv1.ws CNAME .
 *.tsrv1.ws CNAME .
 gofile.io CNAME .
 *.gofile.io CNAME .
+duckdns.org CNAME .
+*.duckdns.org CNAME .
 sunorox.cloud CNAME .
 *.sunorox.cloud CNAME .
 tsrv1.ws CNAME .
@@ -191,6 +203,8 @@ windows.net CNAME .
 *.windows.net CNAME .
 plesk.page CNAME .
 *.plesk.page CNAME .
+duckdns.org CNAME .
+*.duckdns.org CNAME .
 buyn.xyz CNAME .
 *.buyn.xyz CNAME .
 plesk.page CNAME .
