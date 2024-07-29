@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1721859748950 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722291899010 43200 3600 259200 300
   NS  localhost.
 ;
 ; AdguardMobileSpyware
 ;
 ; Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-; Last converted - Wed, 24 Jul 2024 22:18:40 +0100
+; Last converted - Mon, 29 Jul 2024 21:46:10 +0100
 ;
 spotify.com CNAME .
 *.spotify.com CNAME .
@@ -255,8 +255,6 @@ app-analytics-services.com CNAME .
 *.app-analytics-services.com CNAME .
 ulivetv.net CNAME .
 *.ulivetv.net CNAME .
-navercorp.com CNAME .
-*.navercorp.com CNAME .
 funnelish.com CNAME .
 *.funnelish.com CNAME .
 funnelish.com CNAME .
