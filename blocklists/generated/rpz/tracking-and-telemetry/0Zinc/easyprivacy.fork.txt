@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722302824994 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722388381093 43200 3600 259200 300
   NS  localhost.
 ;
 00px.net CNAME .
@@ -2090,6 +2090,8 @@ onap.io CNAME .
 *.onap.io CNAME .
 amazonaws.com CNAME .
 *.amazonaws.com CNAME .
+yahoo.com CNAME .
+*.yahoo.com CNAME .
 narvar.com CNAME .
 *.narvar.com CNAME .
 yahoo.com CNAME .
@@ -3706,6 +3708,8 @@ hicloud.com CNAME .
 *.hicloud.com CNAME .
 suning.cn CNAME .
 *.suning.cn CNAME .
+xfyun.cn CNAME .
+*.xfyun.cn CNAME .
 baidustatic.com CNAME .
 *.baidustatic.com CNAME .
 baidu.com CNAME .
