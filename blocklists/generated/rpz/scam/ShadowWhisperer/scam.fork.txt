@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722486390343 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722543869996 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,161
-; Updated: 7/31/2024  17:13 (5:13 PM CST)
+; Domains: 13,162
+; Updated: 8/1/2024  14:18 (2:18 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -2649,6 +2649,8 @@ bestbeaut.com CNAME .
 *.bestbeaut.com CNAME .
 best-boots.store CNAME .
 *.best-boots.store CNAME .
+bestboy.vip CNAME .
+*.bestboy.vip CNAME .
 bestbrazilchickenbrands.com CNAME .
 *.bestbrazilchickenbrands.com CNAME .
 bestbreedersspot.com CNAME .
