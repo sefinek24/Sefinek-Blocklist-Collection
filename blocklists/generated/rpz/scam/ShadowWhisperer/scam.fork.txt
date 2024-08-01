@@ -1,18 +1,20 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722435692739 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722486390343 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,149
-; Updated: 7/31/2024  08:49 (8:49 AM CST)
+; Domains: 13,161
+; Updated: 7/31/2024  17:13 (5:13 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
 ;
 007-dvd.com CNAME .
 *.007-dvd.com CNAME .
+00mcxtips.com CNAME .
+*.00mcxtips.com CNAME .
 0-google.com CNAME .
 *.0-google.com CNAME .
 0xf.org CNAME .
@@ -27,8 +29,6 @@ $TTL 300
 *.100dayloans.com CNAME .
 100fran.com CNAME .
 *.100fran.com CNAME .
-100mcxtips.com CNAME .
-*.100mcxtips.com CNAME .
 101fitness.shop CNAME .
 *.101fitness.shop CNAME .
 101luadalmatians.com CNAME .
@@ -115,6 +115,8 @@ $TTL 300
 *.18y.net CNAME .
 1a-gewinner.de CNAME .
 *.1a-gewinner.de CNAME .
+1amazingchihuahuaworld.com CNAME .
+*.1amazingchihuahuaworld.com CNAME .
 1callassistant.com CNAME .
 *.1callassistant.com CNAME .
 1clicknpick.com CNAME .
@@ -1259,6 +1261,8 @@ amaturecommunity.de CNAME .
 *.amaturecommunity.de CNAME .
 amazingbernedoodle.shop CNAME .
 *.amazingbernedoodle.shop CNAME .
+amazingchihuahuaworld.com CNAME .
+*.amazingchihuahuaworld.com CNAME .
 amazingcockerspanielkennel.com CNAME .
 *.amazingcockerspanielkennel.com CNAME .
 amazingdachshundfamily.com CNAME .
@@ -18891,6 +18895,10 @@ proglass.club CNAME .
 *.proglass.club CNAME .
 programfair.space CNAME .
 *.programfair.space CNAME .
+progreat.club CNAME .
+*.progreat.club CNAME .
+progreen.club CNAME .
+*.progreen.club CNAME .
 progressivedachshunds.com CNAME .
 *.progressivedachshunds.com CNAME .
 progressivey.com CNAME .
@@ -18899,8 +18907,24 @@ proguide.vn CNAME .
 *.proguide.vn CNAME .
 progundealer.com CNAME .
 *.progundealer.com CNAME .
+prokeep.club CNAME .
+*.prokeep.club CNAME .
 co.za CNAME .
 *.co.za CNAME .
+prokey.club CNAME .
+*.prokey.club CNAME .
+prokind.club CNAME .
+*.prokind.club CNAME .
+proking.club CNAME .
+*.proking.club CNAME .
+prokingdom.club CNAME .
+*.prokingdom.club CNAME .
+prokitchen.club CNAME .
+*.prokitchen.club CNAME .
+prokit.club CNAME .
+*.prokit.club CNAME .
+proleast.club CNAME .
+*.proleast.club CNAME .
 prolink.my CNAME .
 *.prolink.my CNAME .
 promenadecut.com CNAME .
