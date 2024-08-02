@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722388381093 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722561977571 43200 3600 259200 300
   NS  localhost.
 ;
-;202407310303
+;202408020303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -9993,6 +9993,8 @@ bradyid.com CNAME .
 *.bradyid.com CNAME .
 wehaa.net CNAME .
 *.wehaa.net CNAME .
+amazonaws.com CNAME .
+*.amazonaws.com CNAME .
 inmobi.com CNAME .
 *.inmobi.com CNAME .
 hapyak.com CNAME .
@@ -18261,6 +18263,8 @@ secureserver.net CNAME .
 *.secureserver.net CNAME .
 yandex.net CNAME .
 *.yandex.net CNAME .
+kwai-pro.com CNAME .
+*.kwai-pro.com CNAME .
 gruppal.com CNAME .
 *.gruppal.com CNAME .
 onet.pl CNAME .
@@ -18853,6 +18857,8 @@ cloudfront.net CNAME .
 *.cloudfront.net CNAME .
 ourmidland.com CNAME .
 *.ourmidland.com CNAME .
+cloudfront.net CNAME .
+*.cloudfront.net CNAME .
 cloudfront.net CNAME .
 *.cloudfront.net CNAME .
 cloudfront.net CNAME .
@@ -24331,6 +24337,8 @@ or.jp CNAME .
 *.or.jp CNAME .
 ortec.com CNAME .
 *.ortec.com CNAME .
+com.au CNAME .
+*.com.au CNAME .
 tunein.com CNAME .
 *.tunein.com CNAME .
 raise3d.cn CNAME .
@@ -24547,6 +24555,8 @@ edu.au CNAME .
 *.edu.au CNAME .
 trapptechnology.com CNAME .
 *.trapptechnology.com CNAME .
+tryamped.com CNAME .
+*.tryamped.com CNAME .
 tubecup.org CNAME .
 *.tubecup.org CNAME .
 turbosquid.com CNAME .
@@ -24981,6 +24991,8 @@ clickbus.net CNAME .
 *.clickbus.net CNAME .
 bradyid.com CNAME .
 *.bradyid.com CNAME .
+featuregates.org CNAME .
+*.featuregates.org CNAME .
 joshi-spa.jp CNAME .
 *.joshi-spa.jp CNAME .
 redskins.com CNAME .
@@ -25043,6 +25055,8 @@ ruggable.com CNAME .
 *.ruggable.com CNAME .
 u-canshop.jp CNAME .
 *.u-canshop.jp CNAME .
+serverable.com CNAME .
+*.serverable.com CNAME .
 unhcr.it CNAME .
 *.unhcr.it CNAME .
 co.uk CNAME .
@@ -30235,6 +30249,8 @@ experian.com CNAME .
 *.experian.com CNAME .
 vodafone.com CNAME .
 *.vodafone.com CNAME .
+brilliant.org CNAME .
+*.brilliant.org CNAME .
 invitd.us CNAME .
 *.invitd.us CNAME .
 skf.com CNAME .
@@ -31893,6 +31909,8 @@ velocify.com CNAME .
 *.velocify.com CNAME .
 wittkieffer.com CNAME .
 *.wittkieffer.com CNAME .
+coursecareers.com CNAME .
+*.coursecareers.com CNAME .
 53.com CNAME .
 *.53.com CNAME .
 academy.com CNAME .
@@ -32047,6 +32065,8 @@ truvenhealth.com CNAME .
 *.truvenhealth.com CNAME .
 odoo.com CNAME .
 *.odoo.com CNAME .
+posthog.com CNAME .
+*.posthog.com CNAME .
 hcltech.com CNAME .
 *.hcltech.com CNAME .
 dbschenker.com CNAME .
@@ -36139,6 +36159,8 @@ viavideo.digital CNAME .
 *.viavideo.digital CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
+kwai-pro.com CNAME .
+*.kwai-pro.com CNAME .
 hicloud.com CNAME .
 *.hicloud.com CNAME .
 hicloud.com CNAME .
@@ -43719,8 +43741,6 @@ co.kr CNAME .
 *.co.kr CNAME .
 wittchen.com CNAME .
 *.wittchen.com CNAME .
-mgln.ai CNAME .
-*.mgln.ai CNAME .
 xn--olsz5f0ufw02b.net CNAME .
 *.xn--olsz5f0ufw02b.net CNAME .
 finson.com CNAME .
@@ -47927,6 +47947,8 @@ pmu.fr CNAME .
 *.pmu.fr CNAME .
 legalzoom.com CNAME .
 *.legalzoom.com CNAME .
+flowplayer.com CNAME .
+*.flowplayer.com CNAME .
 haekplanter-heijnen.dk CNAME .
 *.haekplanter-heijnen.dk CNAME .
 akamaihd.net CNAME .
@@ -53313,6 +53335,10 @@ eclerx.com CNAME .
 *.eclerx.com CNAME .
 edc.ca CNAME .
 *.edc.ca CNAME .
+co.il CNAME .
+*.co.il CNAME .
+haaretz.com CNAME .
+*.haaretz.com CNAME .
 org.uk CNAME .
 *.org.uk CNAME .
 releasepoint.com CNAME .
@@ -60989,6 +61015,8 @@ epoolers.com CNAME .
 *.epoolers.com CNAME .
 aon.com CNAME .
 *.aon.com CNAME .
+sprtnd.com CNAME .
+*.sprtnd.com CNAME .
 co.jp CNAME .
 *.co.jp CNAME .
 org.eg CNAME .
@@ -73823,6 +73851,8 @@ esprit.fr CNAME .
 *.esprit.fr CNAME .
 contentstudio.io CNAME .
 *.contentstudio.io CNAME .
+aigenerations.net CNAME .
+*.aigenerations.net CNAME .
 wakarimasen.moe CNAME .
 *.wakarimasen.moe CNAME .
 healthgrades.com CNAME .

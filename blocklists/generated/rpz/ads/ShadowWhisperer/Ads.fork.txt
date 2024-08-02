@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722522316018 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722561977571 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,534
-; Updated: 8/1/2024  09:04 (9:04 AM CST)
+; Domains: 18,535
+; Updated: 8/1/2024  17:24 (5:24 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -14719,6 +14719,8 @@ bnlif.com CNAME .
 *.bnlif.com CNAME .
 bnmla.com CNAME .
 *.bnmla.com CNAME .
+bnmmnb.online CNAME .
+*.bnmmnb.online CNAME .
 bnrdom.com CNAME .
 *.bnrdom.com CNAME .
 ilm.ee CNAME .
