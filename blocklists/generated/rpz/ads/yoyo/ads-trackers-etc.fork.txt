@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722011375231 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722602422003 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Fri, 26 Jul 2024 14:50:13 GMT
-; entries:        3548
+; entries:        3547
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -2112,8 +2112,6 @@ internet.gr CNAME .
 *.internet.gr CNAME .
 bannerimage.com CNAME .
 *.bannerimage.com CNAME .
-com.ar CNAME .
-*.com.ar CNAME .
 bannermall.com CNAME .
 *.bannermall.com CNAME .
 bnr.bg CNAME .
@@ -4638,8 +4636,12 @@ mypagerank.ru CNAME .
 *.mypagerank.ru CNAME .
 mypowermall.com CNAME .
 *.mypowermall.com CNAME .
+mystat-in.net CNAME .
+*.mystat-in.net CNAME .
 mystat.pl CNAME .
 *.mystat.pl CNAME .
+mytop-in.net CNAME .
+*.mytop-in.net CNAME .
 mouseflow.com CNAME .
 *.mouseflow.com CNAME .
 n69.com CNAME .
@@ -4936,8 +4938,6 @@ p-n.io CNAME .
 *.p-n.io CNAME .
 nag.ru CNAME .
 *.nag.ru CNAME .
-padsbrown.com CNAME .
-*.padsbrown.com CNAME .
 google.com CNAME .
 *.google.com CNAME .
 pagefair.com CNAME .
@@ -6828,8 +6828,6 @@ co.uk CNAME .
 *.co.uk CNAME .
 waardex.com CNAME .
 *.waardex.com CNAME .
-walkets.click CNAME .
-*.walkets.click CNAME .
 warlog.ru CNAME .
 *.warlog.ru CNAME .
 warmafterthought.com CNAME .
