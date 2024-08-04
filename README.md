@@ -116,9 +116,10 @@ Your efforts and insights will be greatly valued and will contribute to making t
 Thank you in advance for your valuable contribution!
 
 
-## ✔️ Todo
-1. Fix [create-everything-list.js](scripts/create-everything-list.js).
-2. Improve all [scripts](scripts).
+## 📥 How to clone the repository?
+```bash
+git clone --branch main --single-branch https://github.com/sefinek24/Sefinek-Blocklist-Collection
+```
 
 
 ## 🌠 My other ~~useless~~ repositories
