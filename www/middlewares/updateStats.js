@@ -8,7 +8,7 @@ const updateStats = (req, res) => {
 
 	try {
 		const { url, listUrl, type, category } = parseCategoryFromLink(req.originalUrl || req.url);
-		const { dateKey, yearKey, monthKey, hourKey } = time.dateKey();
+		const { dateKey, yearKey, monthKey } = time.dateKey();
 
 		const updateQuery = {
 			inc: { 'requests.all': 1, [`responses.${res.statusCode || 'unknown'}`]: 1 },
@@ -25,7 +25,7 @@ const updateStats = (req, res) => {
 				updateQuery.inc[`requests.urls.${listUrl}.perYear.${yearKey}`] = 1;
 				updateQuery.inc[`requests.urls.${listUrl}.perMonth.${monthKey}-${yearKey}`] = 1;
 				updateQuery.inc[`requests.urls.${listUrl}.perDay.${dateKey}`] = 1;
-				updateQuery.inc[`requests.urls.${listUrl}.perHour.${dateKey}:${hourKey}`] = 1;
+				// updateQuery.inc[`requests.urls.${listUrl}.perHour.${dateKey}:${hourKey}`] = 1;
 			}
 		}
 
