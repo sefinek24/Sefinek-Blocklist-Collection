@@ -1,0 +1,154 @@
+$TTL 300
+@ SOA localhost. root.localhost. 1716041043211 43200 3600 259200 300
+  NS  localhost.
+;
+;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
+;      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
+;     | (___   | |__    | |__      | |   |  \| | | |__    | ' /        | |_) | | |      | |  | | | |      | ' /  | |        | |   | (___      | |
+;      \___ \  |  __|   |  __|     | |   | . ` | |  __|   |  <         |  _ <  | |      | |  | | | |      |  <   | |        | |    \___ \     | |
+;      ____) | | |____  | |       _| |_  | |\  | | |____  | . \        | |_) | | |____  | |__| | | |____  | . \  | |____   _| |_   ____) |    | |
+;     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
+;
+;                                             The best collection of blocklists for your DNS server
+;                                                       https://blocklist.sefinek.net
+;
+; Title: Block gambling websites
+; Description: This blocklist is specifically designed to block access to gambling websites, which can be addictive and harmful. The domains on the list mostly originate from posts on Facebook.
+; Expires: 1 day
+; Count: 58
+; Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
+; Modified by: Nobody
+; Source: N/A
+; License: Unknown
+; Release: RPZ
+; Version: 1716041043211
+; Last update: May 18, 2024 at 2:04 PM UTC | 2024-05-18T14:04:03.211+00:00 | UTC
+;
+; 〢 Read more:
+; POL: Ta lista jest szeroko zalecana dla osób mieszkających w Polsce.
+; ENG: This list is widely recommended for users residing in Poland.
+;
+; 〢 Warning:
+; By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
+;
+; 〢 About:
+; This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
+; If you come across any false positives, please create a new Issue or Pull request on GitHub. Thank you!
+;
+; -------------------------------------------------------------------------------------------------------------------------------------------------------
+swertegaming.info CNAME .
+*.swertegaming.info CNAME .
+bet1000.com CNAME .
+*.bet1000.com CNAME .
+bonus-bet1000.com CNAME .
+*.bonus-bet1000.com CNAME .
+casino-totek.com CNAME .
+*.casino-totek.com CNAME .
+casinostotal.com CNAME .
+*.casinostotal.com CNAME .
+casinototek.pl CNAME .
+*.casinototek.pl CNAME .
+crazyball.cc CNAME .
+*.crazyball.cc CNAME .
+q9play.com CNAME .
+*.q9play.com CNAME .
+iottekkasyno.eu CNAME .
+*.iottekkasyno.eu CNAME .
+kasyno-totek.pl CNAME .
+*.kasyno-totek.pl CNAME .
+kasyno001.pl CNAME .
+*.kasyno001.pl CNAME .
+kasyno002.pl CNAME .
+*.kasyno002.pl CNAME .
+kasyno003.pl CNAME .
+*.kasyno003.pl CNAME .
+kasyno004.pl CNAME .
+*.kasyno004.pl CNAME .
+kasyno005.pl CNAME .
+*.kasyno005.pl CNAME .
+kasyno006.pl CNAME .
+*.kasyno006.pl CNAME .
+kasyno007.pl CNAME .
+*.kasyno007.pl CNAME .
+kasyno008.pl CNAME .
+*.kasyno008.pl CNAME .
+kasyno009.pl CNAME .
+*.kasyno009.pl CNAME .
+kasyno010.pl CNAME .
+*.kasyno010.pl CNAME .
+kjhjghj.com CNAME .
+*.kjhjghj.com CNAME .
+luck9game.com CNAME .
+*.luck9game.com CNAME .
+oyalcircleclub.com CNAME .
+*.oyalcircleclub.com CNAME .
+paramanalo.com CNAME .
+*.paramanalo.com CNAME .
+q9play.com CNAME .
+*.q9play.com CNAME .
+crazyball.cc CNAME .
+*.crazyball.cc CNAME .
+royalcc.vip CNAME .
+*.royalcc.vip CNAME .
+swertegaming.info CNAME .
+*.swertegaming.info CNAME .
+totek-casino.com CNAME .
+*.totek-casino.com CNAME .
+wintomato.com CNAME .
+*.wintomato.com CNAME .
+swertegaming.info CNAME .
+*.swertegaming.info CNAME .
+bet1000.com CNAME .
+*.bet1000.com CNAME .
+bonus-bet1000.com CNAME .
+*.bonus-bet1000.com CNAME .
+casino-totek.com CNAME .
+*.casino-totek.com CNAME .
+casinostotal.com CNAME .
+*.casinostotal.com CNAME .
+casinototek.pl CNAME .
+*.casinototek.pl CNAME .
+crazyball.cc CNAME .
+*.crazyball.cc CNAME .
+iottekkasyno.eu CNAME .
+*.iottekkasyno.eu CNAME .
+kasyno-totek.pl CNAME .
+*.kasyno-totek.pl CNAME .
+kasyno001.pl CNAME .
+*.kasyno001.pl CNAME .
+kasyno002.pl CNAME .
+*.kasyno002.pl CNAME .
+kasyno003.pl CNAME .
+*.kasyno003.pl CNAME .
+kasyno004.pl CNAME .
+*.kasyno004.pl CNAME .
+kasyno005.pl CNAME .
+*.kasyno005.pl CNAME .
+kasyno006.pl CNAME .
+*.kasyno006.pl CNAME .
+kasyno007.pl CNAME .
+*.kasyno007.pl CNAME .
+kasyno008.pl CNAME .
+*.kasyno008.pl CNAME .
+kasyno009.pl CNAME .
+*.kasyno009.pl CNAME .
+kasyno010.pl CNAME .
+*.kasyno010.pl CNAME .
+luck9game.com CNAME .
+*.luck9game.com CNAME .
+oyalcircleclub.com CNAME .
+*.oyalcircleclub.com CNAME .
+paramanalo.com CNAME .
+*.paramanalo.com CNAME .
+q9play.com CNAME .
+*.q9play.com CNAME .
+royalcc.vip CNAME .
+*.royalcc.vip CNAME .
+swertegaming.info CNAME .
+*.swertegaming.info CNAME .
+totek-casino.com CNAME .
+*.totek-casino.com CNAME .
+wintomato.com CNAME .
+*.wintomato.com CNAME .
+paramanalo.com CNAME .
+*.paramanalo.com CNAME .

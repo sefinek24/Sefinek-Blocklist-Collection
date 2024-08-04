@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <meta name="description" content="Explore static directory of blocklists.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="theme-color" content="#000003">
+    <meta property="og:siteName" content="Made by Sefinek♥">
+    <meta property="og:url" content="https://blocklist.sefinek.net">
+
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/auto-index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">🏠 Home page</a></li>
+            <li><a href="/generated/v1" id="selected">📝 Blocklists</a></li>
+            <li><a href="/markdown">📁 File explorer</a></li>
+            <li><a href="/changelog">📥 Changelog</a></li>
+            <li><a href="/update-frequency">⏳ Update frequency</a></li>
+            <li><a href="/api">💻‍ API for devs</a></li>
+            <li><a href="/logs/v1">📘 Git pull logs</a></li>
+        </ul>
+
+        <button class="menu-toggle">☰</button>
+    </nav>
+
+    <div class="cover">
+        <header class="cover-text">
+            <h1>{{title}}</h1>
+            <button id="toggleWidthButton">Toggle table width</button>
+            <button id="toggleCompactModeButton">Compact mode</button>
+            <button id="reloadPage">🔃 Reload page</button>
+        </header>
+    </div>
+
+
+    <main>
+        <div class="container-box">
+            <table id="table">
+                {{content}}
+            </table>
+        </div>
+    </main>
+
+    <script src="/js/autoindex/default.js"></script>
+    <script src="/js/mobile.js"></script>
+</body>
+</html>

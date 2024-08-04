@@ -1,0 +1,101 @@
+/* Body */
+body {
+    background: url(/images/bg2.png) fixed center;
+}
+
+/* Content */
+main {
+    padding-top: 100px;
+}
+
+/* Container Box */
+.container-box {
+    max-width: 1600px;
+    background-color: rgba(13, 12, 12, 0.998) !important;
+    border: 3px solid rgb(13, 8, 8);
+    box-shadow: 0 0 10px rgba(13, 12, 12, 0.5);
+}
+
+/* Text Elements */
+.container-box ol, .container-box p, .container-box li, .container-box pre {
+    text-align: left !important;
+}
+
+.container-box h1, .container-box h2 {
+    padding: 0 !important;
+}
+
+.container-box h2:not(:first-child) {
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.container-box h3 {
+    font-size: 19px;
+}
+
+.container-box h2, .container-box h3 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.container-box p {
+    margin-top: 6px !important;
+    margin-bottom: 0 !important;
+}
+
+.container-box ol, .container-box ul {
+    margin-top: 6px;
+    padding-left: 33px;
+}
+
+.container-box summary {
+    padding-top: 6px;
+    font-family: "Calibri Light", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    color: #8c8cff;
+    user-select: none;
+}
+
+.container-box summary:hover {
+    text-decoration: underline;
+}
+
+/* Code and Syntax Highlighting */
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #fd116d;
+}
+
+.language-bash {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 1px 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.language-yaml {
+    font-family: Consolas, Courier, monospace;
+    font-size: 13px;
+    color: #fff;
+}
+
+.container-box code.language-ini {
+    color: #939393;
+}
+
+/* Styling blockquote */
+.container-box blockquote {
+    padding: 0.8em;
+    background-color: #1f2a3899;
+    border-left: 4px solid #0f7dc299;
+    margin: 12px 0 12px;
+}
+
+.container-box blockquote p {
+    margin: 0!important;
+}

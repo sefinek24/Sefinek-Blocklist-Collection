@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!-- Copyright 2024 © by Sefinek. All Rights Reserved. -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&display=swap" rel="stylesheet">
+    <style>
+        @media screen and (max-width: 500px) {
+            #header{font-size:23px}
+            #text{font-size:12px;margin-left:8px;margin-right:8px}
+        }
+        @media screen and (max-width: 400px) {
+            p{font-size:12px}
+        }
+        @media screen and (max-width: 375px) {
+            h1{font-size:22px}
+            p{font-size:12px}
+        }
+        @media screen and (max-width: 350px) {
+            #header{font-size:19px;margin-left:5px;margin-right:5px}
+            #text{font-size:10px}
+        }
+        body{color:#fff;font-family:"Noto Sans Mono",monospace;text-align:center}
+        a{text-decoration:none;color:#00bfff}
+        a:hover{color:rgba(0,191,255,.62);transition:.2s}
+        a:active{text-decoration:underline}
+        video,audio{min-height:100%;min-width:100%;position:fixed;left:0;top:0}
+        video{z-index:-1}
+        main{position:absolute;left:0;right:0;top:41%;text-shadow:0 0 7px #000}
+        #header{margin:0;padding-bottom:8px}
+        #text{padding-bottom:20px}
+        #footer{position:absolute;bottom:0;right:0;margin-bottom:4px;margin-right:8px}
+    </style>
+</head>
+<body>

@@ -1,0 +1,58 @@
+<%- include('./includes/header.ejs', {
+    title: 'Update frequency - Sefinek Blocklists',
+    meta: {
+        desc: 'This subpage displays the update time of repositories containing the list of blocklists for your time zone. You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.',
+        tags: 'update, frequency, pi-hole, cron, time, timezone, date, sefinek, blocklist, collection',
+        siteName: 'Made by Sefinek♥',
+        color: '#000103'
+    },
+    canonical: '/update-frequency',
+    subpage: 'update-frequency',
+    libs: 'luxon',
+    style: 'update-frequency'
+}) %>
+
+<div class="cover">
+    <header class="cover-text">
+        <h1>Update frequency ⏰</h1>
+    </header>
+</div>
+
+<main>
+    <div class="container-box">
+        <div class="container-text">
+            <div style="padding-bottom: 15px">
+                <b>Your timezone:</b> <span id="user-timezone"></span>
+            </div>
+
+            <div>
+                <b>Remote (GitHub):</b> <span id="github"></span><br>
+                <b>Local (blocklist.sefinek.net):</b> <span id="remote"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-text">
+        <code>
+            This subpage displays the update time of repositories containing the list of blocklists for your time zone.<br>
+            You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.
+        </code>
+    </div>
+</main>
+
+<script>
+    const showCronInfo = () => {
+        const userTimezone = luxon.DateTime.local().zoneName;
+        document.getElementById('user-timezone').innerHTML = userTimezone;
+
+        const github = luxon.DateTime.fromISO('<%= cron.github %>').setZone(userTimezone);
+        const remote = luxon.DateTime.fromISO('<%= cron.remote %>').setZone(userTimezone);
+
+        document.getElementById('github').innerHTML = github.toLocaleString(luxon.DateTime.DATETIME_MED);
+        document.getElementById('remote').innerHTML = remote.toLocaleString(luxon.DateTime.DATETIME_MED);
+    }
+
+   document.addEventListener('DOMContentLoaded', showCronInfo);
+</script>
+
+<%- include('./includes/footer.ejs') %>

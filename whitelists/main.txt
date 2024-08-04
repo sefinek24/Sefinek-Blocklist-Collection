@@ -1,0 +1,202 @@
+#     _____   ______   ______   _____   _   _   ______   _  __      __          __  _    _   _____   _______   ______   _        _____    _____   _______
+#    / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /      \ \        / / | |  | | |_   _| |__   __| |  ____| | |      |_   _|  / ____| |__   __|
+#   | (___   | |__    | |__      | |   |  \| | | |__    | ' /        \ \  /\  / /  | |__| |   | |      | |    | |__    | |        | |   | (___      | |
+#    \___ \  |  __|   |  __|     | |   | . ` | |  __|   |  <          \ \/  \/ /   |  __  |   | |      | |    |  __|   | |        | |    \___ \     | |
+#    ____) | | |____  | |       _| |_  | |\  | | |____  | . \          \  /\  /    | |  | |  _| |_     | |    | |____  | |____   _| |_   ____) |    | |
+#   |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\          \/  \/     |_|  |_| |_____|    |_|    |______| |______| |_____| |_____/     |_|
+#
+#                   This file belongs to Sefinek's Blocklist Collection, which is curated and maintained by: github.com/sefinek24
+#
+#  In case of encountering false positives, we encourage adding such exceptions to the whitelist.
+#  To ensure a smooth and efficient process, adherence to the required format when submitting a Pull Request is mandatory.
+#  The format necessitates including the domain name followed by the path to the file where the false positive was detected.
+#
+# - Example:
+#   # Spotify (music streaming)
+#   open.spotify.com apps/discord.txt
+#
+# - In certain instances, you can also explain why you chose to add the domain/subdomain here:
+#   # TheAnnoyingSite (this page is actually a meme and is entirely safe)
+#   theannoyingsite.com other/StevenBlack/fakenews-gambling-porn.fork.txt
+#
+# Last update       : 23.06.2024 [DD.MM.YYYY]
+# Author            : Sefinek (https://sefinek.net) <contact@sefinek.net>
+# License           : GNU General Public License v3.0
+# GitHub repository : https://github.com/sefinek24/Sefinek-Blocklist-Collection
+# Issues            : https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues
+# Pull requests     : https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls
+#
+# -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Discord (chat)
+click.discord.com ads/jerryn70/GoodbyeAds.fork.txt
+click.discord.com ads/yoyo/ads-trackers-etc.fork.txt
+click.discord.com other/StevenBlack/fakenews-gambling-porn.fork.txt
+click.discord.com other/StevenBlack/hosts.fork.txt
+
+# FaceIT (gaming platform)
+email.faceit.com ads/jerryn70/GoodbyeAds.fork.txt
+
+# Google
+manifest.googlevideo.com ads/kboghdady/youtubelist.fork.txt
+
+# Stripe (payment gateway)
+m.stripe.com ads/firebog/AdguardDNS.fork.txt
+m.stripe.com extensions/MajkiIT/adguard-host.fork.txt
+
+# DeviantArt (art community)
+deviantart.com porn/4skinSkywalker/hosts.fork.txt
+www.deviantart.com porn/4skinSkywalker/hosts.fork.txt
+
+# Booth (art community)
+booth.pm other/StevenBlack/fakenews-gambling-porn.fork.txt
+booth.pm porn/Sinfonietta/pornography-hosts.fork.txt
+booth.pm porn/StevenBlack/porn.fork.txt
+
+# TheAnnoyingSite (this page is actually a meme and is entirely safe)
+theannoyingsite.com ads/blocklistproject/hosts.fork.txt
+theannoyingsite.com other/StevenBlack/fakenews-gambling-porn.fork.txt
+theannoyingsite.com porn/4skinSkywalker/hosts.fork.txt
+theannoyingsite.com tracking-and-telemetry/neodevpro/host.fork.txt
+
+# KuCoin (crypto)
+kucoin.com crypto/cryptojacking/firebog/Prigent/Crypto.fork.txt
+kucoin.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+
+# Binance (crypto)
+accounts.binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+launchpad.binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+p2p.binance.com cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+stream.binance.com cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+www.binance.com crypto/cryptojacking/zerodot1/CoinBlockerLists-hosts.fork.txt
+
+# Trustpilot (widget)
+widget.trustpilot.com ads/blocklistproject/hosts.fork.txt
+widget.trustpilot.com ads/ShadowWhisperer/Ads.fork.txt
+
+# Userlike (chat)
+userlike-cdn-widgets.s3-eu-west-1.amazonaws.com ads/ShadowWhisperer/Ads.fork.txt
+userlike-cdn-widgets.s3-eu-west-1.amazonaws.com extensions/hagezi/pro.fork.txt
+
+# Komputer Świat (Polish magazine)
+download.komputerswiat.pl abuse/blocklistproject/hosts.fork.txt
+download.komputerswiat.pl malicious/blocklistproject/malware.fork.txt
+komputerswiat.pl abuse/blocklistproject/hosts.fork.txt
+komputerswiat.pl malicious/blocklistproject/malware.fork.txt
+www.komputerswiat.pl abuse/blocklistproject/hosts.fork.txt
+www.komputerswiat.pl malicious/blocklistproject/malware.fork.txt
+
+# Forum PCLab.pl (Polish forum)
+forum.pclab.pl abuse/blocklistproject/hosts.fork.txt
+forum.pclab.pl malicious/blocklistproject/malware.fork.txt
+
+# G2A (Game marketplace)
+g2a.com fraud/blocklistproject/hosts.fork.txt
+www.g2a.com fraud/blocklistproject/hosts.fork.txt
+
+# Microsoft
+arc.msn.com ads/blocklistproject/hosts.fork.txt
+arc.msn.com ads/ShadowWhisperer/Ads.fork.txt
+
+# Windows
+client.wns.windows.com ads/ShadowWhisperer/Ads.fork.txt
+
+# mail.ru (Russian mail service; I don't believe this subdomain poses any danger)
+trk.mail.ru extensions/hagezi/pro.fork.txt
+
+# WP.pl (Polish mail service)
+onelogin.wpcdn.pl ads/ShadowWhisperer/Ads.fork.txt
+
+# Nvidia (graphics cards)
+events.gfe.nvidia.com tracking-and-telemetry/quidsup/trackers-hosts.fork.txt
+
+# reg.ru (Russian Internet Service Provider that offers web hosting, domain registration, and email services, including RoundCube Reg.ru Webmail)
+ns2.parking.reg.ru extensions/hagezi/pro.fork.txt
+parking.reg.ru ads/blocklistproject/hosts.fork.txt
+parking.reg.ru extensions/hagezi/pro.fork.txt
+parking.reg.ru StevenBlack/fakenews-gambling-porn.fork.txt
+parking.reg.ru tracking-and-telemetry/neodevpro/host.fork.txt
+www.reg.ru ads/blocklistproject/hosts.fork.txt
+
+# Outbyte (software company)
+email.mg.outbyte.com malicious/RPiList/Malware.fork.txt
+outbyte.com malicious/DandelionSprout-AntiMalwareHosts.fork.txt
+outbyte.com malicious/RPiList/Malware.fork.txt
+
+# Chomikuj.pl (Polish file hosting service)
+chomikuj.pl other/StevenBlack/fakenews-gambling-porn.fork.txt
+chomikuj.pl porn/4skinSkywalker/hosts.fork.txt
+chomikuj.pl porn/Sinfonietta/pornography-hosts.fork.txt
+chomikuj.pl porn/StevenBlack/porn.fork.txt
+s6704.chomikuj.pl abuse/blocklistproject/hosts.fork.txt
+s6704.chomikuj.pl malicious/blocklistproject/malware.fork.txt
+s72.chomikuj.pl abuse/blocklistproject/hosts.fork.txt
+s72.chomikuj.pl malicious/blocklistproject/malware.fork.txt
+s8802.chomikuj.pl abuse/blocklistproject/hosts.fork.txt
+s8802.chomikuj.pl malicious/blocklistproject/malware.fork.txt
+
+# Pixalate
+pixalate.com ads/ShadowWhisperer/Ads.fork.txt
+
+# 2IP (Russian IP address lookup service)
+2ip.io malicious/RPiList/Malware.fork.txt
+
+# Cedexis (content delivery network)
+cedexis.net ads/ShadowWhisperer/Ads.fork.txt
+
+# Zapier (automation tool)
+email.mail.zapier.com ads/jerryn70/GoodbyeAds.fork.txt
+email.mail.zapier.com malicious/RPiList/Malware.fork.txt
+
+# Wordpress (blogging platform) & Gravatar (avatar service)
+s0.wp.com porn/4skinSkywalker/hosts.fork.txt
+
+# Mailgun (email service)
+mailgun.org malicious/RPiList/Malware.fork.txt
+
+# Sirus (Private server of World of Warcraft)
+sirus.su abuse/blocklistproject/hosts.fork.txt
+sirus.su malicious/blocklistproject/malware.fork.txt
+www.sirus.su abuse/blocklistproject/hosts.fork.txt
+www.sirus.su malicious/blocklistproject/malware.fork.txt
+
+# PostIMG (image hosting)
+postimg.cc gambling/TrustPositif/gambling-indonesia.fork.txt
+
+# ImgBB (image hosting)
+i.ibb.co gambling/TrustPositif/gambling-indonesia.fork.txt
+
+# Customer.io (email service)
+e.customeriomail.com ads/jerryn70/GoodbyeAds.fork.txt
+e.customeriomail.com malicious/RPiList/Malware.fork.txt
+
+# MyWOT (Web of Trust)
+mywot.com other/StevenBlack/fakenews-gambling-porn.fork.txt
+mywot.com porn/4skinSkywalker/hosts.fork.txt
+www.mywot.com other/StevenBlack/fakenews-gambling-porn.fork.txt
+www.mywot.com porn/4skinSkywalker/hosts.fork.txt
+
+# IPQualityScore (IP address lookup service)
+ipqualityscore.com ads/blocklistproject/hosts.fork.txt
+www.ipqualityscore.com ads/blocklistproject/hosts.fork.txt
+
+# IPify (IP address lookup service)
+api.ipify.org ads/blocklistproject/hosts.fork.txt
+ipify.org ads/blocklistproject/hosts.fork.txt
+www.ipify.org ads/blocklistproject/hosts.fork.txt
+
+# HH.ru (Russian job search engine)
+api.hh.ru ads/blocklistproject/hosts.fork.txt
+
+# Fossa (open-source license compliance software)
+go.fossa.com malicious/RPiList/Malware.fork.txt
+
+# AdTidy (email service)
+email-link.adtidy.org ads/yoyo/ads-trackers-etc.fork.txt
+
+# Webparanoid tool protects against online scams and phishing
+webparanoid.com gambling/TrustPositif/gambling-indonesia.fork.txt
+
+# Cookie law (cookie consent solution)
+cdn.cookielaw.org other/polish-blocklists/MajkiIT/hostfile.fork.txt

@@ -1,0 +1,101 @@
+name: Generate new committed blocklists
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.txt'
+
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          # lfs: true
+
+      # - name: Set up Git LFS
+      #   run: git lfs install
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prepare templates
+        run: node scripts/prepare-templates.js
+
+      - name: Remove duplicates
+        run: node scripts/prepare-lines.js
+
+      - name: Remove domains that are on the whitelist
+        run: node scripts/whitelist.js
+
+      # - name: Sort templates
+      #   run: node scripts/sort-templates.js
+
+      - name: Set valid encoding
+        run: node scripts/set-valid-encoding.js
+
+      - name: Count domains
+        run: node scripts/update-number-of-domains.js --ignore-question
+
+      # - name: Create everything list
+      #   run: node scripts/create-everything-list.js
+
+      - name: Generate No IP list
+        run: node scripts/generate/noip.js
+
+      - name: Generate 0.0.0.0 list
+        run: node scripts/generate/0.0.0.0.js
+
+      - name: Generate 127.0.0.1 list
+        run: node scripts/generate/127.0.0.1.js
+
+      - name: Generate AdGuard list
+        run: node scripts/generate/adguard.js
+
+      - name: Generate Dnsmasq list
+        run: node scripts/generate/dnsmasq.js
+
+      - name: Generate RPZ list
+        run: node scripts/generate/rpz.js
+
+      - name: Generate list for Unbound
+        run: node scripts/generate/unbound.js
+
+      # - name: Track large files
+      #   run: |
+      #     find . -type f -name '*.txt' -size +50M | xargs -I {} git lfs track "{}"
+      #     git add .gitattributes
+
+      - name: Run git pull
+        run: git pull
+
+      - name: Add files to staging
+        run: git add .
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Sefinek Actions"
+          git config --global user.email "sefinek.actions@gmail.com"
+          if [ -n "$(git status -s)" ]; then
+            git status
+            COMMIT_HASH=$(git rev-parse HEAD)
+            MODIFIED_FILES=$(git diff --name-only HEAD)
+            git commit -m "Update previously committed blocklists in $COMMIT_HASH [$(echo "$MODIFIED_FILES" | wc -l)]" -m "$MODIFIED_FILES"
+            git push origin main
+          else
+            echo "Canceled. No changes to commit."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.SEFINEK_ACTIONS_PAT }}

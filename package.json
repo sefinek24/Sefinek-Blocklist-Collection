@@ -1,0 +1,66 @@
+{
+  "name": "sefinek-blocklist-collection",
+  "version": "0.17.0",
+  "description": "The best lists for your DNS server or any other blocker. Your first and last reliable list with minimal false alarms.",
+  "keywords": [
+    "adguard",
+    "adguard-blocklist",
+    "adguard-list",
+    "blacklist",
+    "blocklist",
+    "domains",
+    "origin",
+    "phishing-sites",
+    "pi-hole-lists",
+    "pihole",
+    "pihole-adblocker-list",
+    "pihole-ads-list",
+    "pihole-blacklist",
+    "pihole-youtube-ads",
+    "piholeblocklist",
+    "privacy",
+    "privacy-protection",
+    "ublock"
+  ],
+  "homepage": "https://blocklist.sefinek.net",
+  "bugs": {
+    "url": "https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/Sefinek-Blocklist-Collection.git"
+  },
+  "license": "CC BY-NC-ND 4.0",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "scripts": {
+    "mon": "nodemon index.js",
+    "sync": "bash bash/pull.sh",
+    "test": "node scripts/test-urls.js",
+    "up": "ncu -u && npm i && npm update && npm audit fix"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cron-parser": "^4.9.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-autoindex": "^1.4.2",
+    "express-rate-limit": "^7.4.0",
+    "express-timeout-handler": "^2.2.2",
+    "helmet": "^7.1.0",
+    "marked": "^13.0.3",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "globals": "^15.8.0",
+    "ip-address": "^9.0.5",
+    "kleur": "^4.1.5",
+    "luxon": "^3.4.4",
+    "uglifyjs-folder": "^3.3.0",
+    "validator": "^13.12.0"
+  }
+}

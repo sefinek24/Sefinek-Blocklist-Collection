@@ -1,0 +1,21 @@
+<%- include('./includes/header.ejs', {
+    title: `${title} - Sefinek Blocklists`,
+    meta: {
+        desc,
+        tags,
+        siteName: 'Made by Sefinek♥',
+        color: '#000003'
+    },
+    canonical,
+    subpage: 'markdown',
+    libs: null,
+    style: 'viewer'
+}) %>
+
+<main>
+    <div class="container-box">
+        <%- html %>
+    </div>
+</main>
+
+<%- include('./includes/footer.ejs') %>

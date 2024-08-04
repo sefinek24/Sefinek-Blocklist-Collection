@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!-- Copyright 2024 © by Sefinek. All Rights Reserved. -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <% if (title) { %><title><%= title %></title><% } %>
+    <% if (meta.desc) { %><meta name="description" content="<%= meta.desc %>"><% } %>
+    <% if (meta.tags) { %><meta name="keywords" content="<%= meta.tags %>"><% } %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <% if (process.env.NODE_ENV === 'production') { %>
+        <!-- Meta tags -->
+        <% if (meta.siteName) { %><meta property="og:siteName" content="<%= meta.siteName %>"><% } %>
+        <% if (meta.color) { %><meta name="theme-color" content="<%= meta.color %>"><% } %>
+        <meta property="og:url" content="<%= process.env.DOMAIN %>">
+    <% } %>
+
+    <% if (canonical || canonical === '') { %>
+        <link rel="canonical" href="<%= process.env.NODE_ENV === 'production' ? `${process.env.DOMAIN}${canonical}` : `${process.env.DOMAIN}:${process.env.PORT}${canonical}` %>">
+    <% } %>
+
+    <link rel="stylesheet" href="/css/default.css">
+    <% if (style) { %><link rel="stylesheet" href="/css/<%= style %>.css"> <% } %>
+    <% if (libs === 'luxon') { %><script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script><% } %>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/" <%- subpage === 'home' ? 'id="selected"' : '' %>>🏠 Home page</a></li>
+            <li><a href="/generated/v1" <%- subpage === 'blocklist' ? 'id="selected"' : '' %>>📝 Blocklists</a></li>
+            <li><a href="/markdown" <%- subpage === 'markdown' ? 'id="selected"' : '' %>>📁 File explorer</a></li>
+            <li><a href="/changelog" <%- subpage === 'changelog' ? 'id="selected"' : '' %>>📥 Changelog</a></li>
+            <li><a href="/update-frequency" <%- subpage === 'update-frequency' ? 'id="selected"' : '' %>>⏳ Update frequency</a></li>
+            <li><a href="/api" <%- subpage === 'api' ? 'id="selected"' : '' %>>💻‍ API for devs</a></li>
+            <li><a href="/logs/v1">📘 Git pull logs</a></li>
+        </ul>
+
+        <button class="menu-toggle">☰</button>
+    </nav>
+
