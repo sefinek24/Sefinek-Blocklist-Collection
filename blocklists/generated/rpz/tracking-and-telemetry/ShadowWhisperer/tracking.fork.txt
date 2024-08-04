@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722637350014 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722788721034 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 76,940
-; Updated: 8/2/2024  15:42 (3:42 PM CST)
+; Domains: 76,942
+; Updated: 8/4/2024  11:12 (11:12 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -26067,6 +26067,8 @@ datasteam.io CNAME .
 *.datasteam.io CNAME .
 sitefinity.com CNAME .
 *.sitefinity.com CNAME .
+samsungdm.com CNAME .
+*.samsungdm.com CNAME .
 diffchecker.com CNAME .
 *.diffchecker.com CNAME .
 pixelmotiondemo.com CNAME .
@@ -27097,6 +27099,8 @@ atlasdsr.com CNAME .
 *.atlasdsr.com CNAME .
 ngtv.io CNAME .
 *.ngtv.io CNAME .
+samsung.com CNAME .
+*.samsung.com CNAME .
 atlassbx.com CNAME .
 *.atlassbx.com CNAME .
 maxblue.de CNAME .
