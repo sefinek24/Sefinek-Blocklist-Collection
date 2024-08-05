@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722637350014 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722821303086 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,516
-; Updated: 8/2/2024  15:42 (3:42 PM CST)
+; Domains: 13,520
+; Updated: 8/4/2024  19:31 (7:31 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -21467,6 +21467,8 @@ scvanews.com CNAME .
 *.scvanews.com CNAME .
 scwisconsinnews.com CNAME .
 *.scwisconsinnews.com CNAME .
+sdasclimited.com CNAME .
+*.sdasclimited.com CNAME .
 sdbusinessdaily.com CNAME .
 *.sdbusinessdaily.com CNAME .
 sdcfar.com CNAME .
@@ -24839,8 +24841,14 @@ trendershair.com CNAME .
 *.trendershair.com CNAME .
 trendhoop.com CNAME .
 *.trendhoop.com CNAME .
+trendibizz.com CNAME .
+*.trendibizz.com CNAME .
+trendiicosmetics.com CNAME .
+*.trendiicosmetics.com CNAME .
 trendingcustom.com CNAME .
 *.trendingcustom.com CNAME .
+trendipet.shop CNAME .
+*.trendipet.shop CNAME .
 trend-news.com CNAME .
 *.trend-news.com CNAME .
 trendybag.shop CNAME .

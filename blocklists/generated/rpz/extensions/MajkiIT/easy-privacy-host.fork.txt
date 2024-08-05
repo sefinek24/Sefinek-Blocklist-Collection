@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722735530599 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722821303086 43200 3600 259200 300
   NS  localhost.
 ;
-;202408040303
+;202408050303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -68741,6 +68741,8 @@ espmp-pofr.net CNAME .
 *.espmp-pofr.net CNAME .
 datatrics.com CNAME .
 *.datatrics.com CNAME .
+decsuite.com CNAME .
+*.decsuite.com CNAME .
 np6.com CNAME .
 *.np6.com CNAME .
 designoutlet-contact.fr CNAME .
