@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722948041087 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722982952697 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Tue, 06 Aug 2024 11:39:59 GMT
-; entries:        3549
+; last updated:   Tue, 06 Aug 2024 21:48:18 GMT
+; entries:        3558
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -3168,6 +3168,8 @@ elitetoplist.com CNAME .
 *.elitetoplist.com CNAME .
 co.uk CNAME .
 *.co.uk CNAME .
+adtidy.info CNAME .
+*.adtidy.info CNAME .
 adtidy.net CNAME .
 *.adtidy.net CNAME .
 crowdfireapp.com CNAME .
@@ -4284,6 +4286,8 @@ luckyorange.com CNAME .
 *.luckyorange.com CNAME .
 ludicrousarch.com CNAME .
 *.ludicrousarch.com CNAME .
+lyricshook.com CNAME .
+*.lyricshook.com CNAME .
 lytics.io CNAME .
 *.lytics.io CNAME .
 lzjl.com CNAME .
@@ -4434,6 +4438,8 @@ angloinfo.com CNAME .
 *.angloinfo.com CNAME .
 angloinfo.com CNAME .
 *.angloinfo.com CNAME .
+mediumshort.com CNAME .
+*.mediumshort.com CNAME .
 medleyads.com CNAME .
 *.medleyads.com CNAME .
 medyanetads.com CNAME .
@@ -4918,6 +4924,8 @@ outbrain.com CNAME .
 *.outbrain.com CNAME .
 overconfidentfood.com CNAME .
 *.overconfidentfood.com CNAME .
+overkick.com CNAME .
+*.overkick.com CNAME .
 overture.com CNAME .
 *.overture.com CNAME .
 pubmatic.com CNAME .
@@ -5464,6 +5472,8 @@ reklamdsp.com CNAME .
 *.reklamdsp.com CNAME .
 relmaxtop.com CNAME .
 *.relmaxtop.com CNAME .
+reloadphoto.com CNAME .
+*.reloadphoto.com CNAME .
 rememberdiscussion.com CNAME .
 *.rememberdiscussion.com CNAME .
 remox.com CNAME .
@@ -5878,6 +5888,8 @@ soggysponge.com CNAME .
 *.soggysponge.com CNAME .
 soggyzoo.com CNAME .
 *.soggyzoo.com CNAME .
+soicos.com CNAME .
+*.soicos.com CNAME .
 sombersea.com CNAME .
 *.sombersea.com CNAME .
 sombersquirrel.com CNAME .
@@ -5984,6 +5996,8 @@ stalesummer.com CNAME .
 *.stalesummer.com CNAME .
 starffa.com CNAME .
 *.starffa.com CNAME .
+starkscale.com CNAME .
+*.starkscale.com CNAME .
 startapp.com CNAME .
 *.startapp.com CNAME .
 stat-track.com CNAME .
@@ -6116,6 +6130,8 @@ sumome.com CNAME .
 *.sumome.com CNAME .
 superawesome.tv CNAME .
 *.superawesome.tv CNAME .
+superchichair.com CNAME .
+*.superchichair.com CNAME .
 superclix.de CNAME .
 *.superclix.de CNAME .
 superficialsquare.com CNAME .
@@ -7098,6 +7114,8 @@ zm232.com CNAME .
 *.zm232.com CNAME .
 zmedia.com CNAME .
 *.zmedia.com CNAME .
+zonewedgeshaft.com CNAME .
+*.zonewedgeshaft.com CNAME .
 samsungelectronics.com CNAME .
 *.samsungelectronics.com CNAME .
 zqtk.net CNAME .

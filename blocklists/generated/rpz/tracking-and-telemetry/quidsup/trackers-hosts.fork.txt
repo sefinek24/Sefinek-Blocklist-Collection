@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722896553203 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722982952697 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,9 +8,9 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 05 Aug 2024
+; Updated: 06 Aug 2024
 ; LatestVersion 24.01
-; Domain Count: 15934
+; Domain Count: 15936
 ;===============================================================
 01mspmd5yalky8.com CNAME .
 *.01mspmd5yalky8.com CNAME .
@@ -1490,8 +1490,6 @@ audienceinsights.net CNAME .
 *.audienceinsights.net CNAME .
 audiencemanager.de CNAME .
 *.audiencemanager.de CNAME .
-audioeye.com CNAME .
-*.audioeye.com CNAME .
 auditioningborder.com CNAME .
 *.auditioningborder.com CNAME .
 auditude.com CNAME .
@@ -3670,6 +3668,8 @@ illuminatelocks.com CNAME .
 *.illuminatelocks.com CNAME .
 ilo134ulih.com CNAME .
 *.ilo134ulih.com CNAME .
+sportmaster.ru CNAME .
+*.sportmaster.ru CNAME .
 ccb.com CNAME .
 *.ccb.com CNAME .
 imedia.cz CNAME .
@@ -28632,6 +28632,10 @@ sentkey.com CNAME .
 *.sentkey.com CNAME .
 sberdevices.ru CNAME .
 *.sberdevices.ru CNAME .
+x5.ru CNAME .
+*.x5.ru CNAME .
+megamarket.tech CNAME .
+*.megamarket.tech CNAME .
 archive.org CNAME .
 *.archive.org CNAME .
 ozon.ru CNAME .
