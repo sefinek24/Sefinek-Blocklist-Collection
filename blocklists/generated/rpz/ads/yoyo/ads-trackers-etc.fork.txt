@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722602422003 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722948041087 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Fri, 26 Jul 2024 14:50:13 GMT
-; entries:        3547
+; last updated:   Tue, 06 Aug 2024 11:39:59 GMT
+; entries:        3549
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -4458,6 +4458,8 @@ co.uk CNAME .
 *.co.uk CNAME .
 metaffiliation.com CNAME .
 *.metaffiliation.com CNAME .
+metajaws.com CNAME .
+*.metajaws.com CNAME .
 metanetwork.com CNAME .
 *.metanetwork.com CNAME .
 methodcash.com CNAME .
@@ -5092,6 +5094,8 @@ plugrush.com CNAME .
 *.plugrush.com CNAME .
 pocketfaucet.com CNAME .
 *.pocketfaucet.com CNAME .
+poemprompt.com CNAME .
+*.poemprompt.com CNAME .
 pointlesshour.com CNAME .
 *.pointlesshour.com CNAME .
 pointlessprofit.com CNAME .
