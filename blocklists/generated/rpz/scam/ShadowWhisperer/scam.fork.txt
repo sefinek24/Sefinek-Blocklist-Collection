@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723048097329 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723062243146 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,625
-; Updated: 8/7/2024  10:56 (10:56 AM CST)
+; Domains: 13,626
+; Updated: 8/7/2024  14:21 (2:21 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -21983,6 +21983,8 @@ sg-giftcards-57.com CNAME .
 *.sg-giftcards-57.com CNAME .
 sgvstandard.com CNAME .
 *.sgvstandard.com CNAME .
+shacman.su CNAME .
+*.shacman.su CNAME .
 shadowcharm.online CNAME .
 *.shadowcharm.online CNAME .
 shah-gold.ru CNAME .
