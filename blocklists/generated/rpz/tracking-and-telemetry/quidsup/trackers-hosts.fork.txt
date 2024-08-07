@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722982952697 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723069324306 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,7 +8,7 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 06 Aug 2024
+; Updated: 07 Aug 2024
 ; LatestVersion 24.01
 ; Domain Count: 15936
 ;===============================================================
@@ -8834,6 +8834,8 @@ mkt12013.com CNAME .
 *.mkt12013.com CNAME .
 mkt12014.com CNAME .
 *.mkt12014.com CNAME .
+mkt12015.com CNAME .
+*.mkt12015.com CNAME .
 mkt12017.com CNAME .
 *.mkt12017.com CNAME .
 mkt12018.com CNAME .
@@ -9036,6 +9038,8 @@ mkt12125.com CNAME .
 *.mkt12125.com CNAME .
 mkt1213.com CNAME .
 *.mkt1213.com CNAME .
+mkt12130.com CNAME .
+*.mkt12130.com CNAME .
 mkt1214.com CNAME .
 *.mkt1214.com CNAME .
 mkt1215.com CNAME .
@@ -30560,8 +30564,6 @@ statsy.net CNAME .
 *.statsy.net CNAME .
 statuscake.com CNAME .
 *.statuscake.com CNAME .
-steakeffort.com CNAME .
-*.steakeffort.com CNAME .
 steelhousemedia.com CNAME .
 *.steelhousemedia.com CNAME .
 steepto.com CNAME .
@@ -30614,8 +30616,6 @@ stylitics.com CNAME .
 *.stylitics.com CNAME .
 sub2tech.com CNAME .
 *.sub2tech.com CNAME .
-successfulpatience.com CNAME .
-*.successfulpatience.com CNAME .
 successionflimsy.com CNAME .
 *.successionflimsy.com CNAME .
 sugarcrm.com CNAME .
