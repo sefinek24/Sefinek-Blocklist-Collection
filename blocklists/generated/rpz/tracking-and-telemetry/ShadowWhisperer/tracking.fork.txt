@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723004880734 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723048097329 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 76,981
-; Updated: 8/6/2024  21:49 (9:49 PM CST)
+; Domains: 76,987
+; Updated: 8/7/2024  10:56 (10:56 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -26247,6 +26247,8 @@ net.in CNAME .
 *.net.in CNAME .
 banggood.com CNAME .
 *.banggood.com CNAME .
+carbonhealth.com CNAME .
+*.carbonhealth.com CNAME .
 huami.com CNAME .
 *.huami.com CNAME .
 embarcadero.com CNAME .
@@ -28597,6 +28599,8 @@ bg4wwtrk.com CNAME .
 *.bg4wwtrk.com CNAME .
 bgcounter.com CNAME .
 *.bgcounter.com CNAME .
+bgroupasia.click CNAME .
+*.bgroupasia.click CNAME .
 mox.tv CNAME .
 *.mox.tv CNAME .
 bh2clk.com CNAME .
@@ -47299,8 +47303,12 @@ com.my CNAME .
 *.com.my CNAME .
 hexogram.com CNAME .
 *.hexogram.com CNAME .
+heyadadapted.com CNAME .
+*.heyadadapted.com CNAME .
 artica.com CNAME .
 *.artica.com CNAME .
+heycustomerlabs.com CNAME .
+*.heycustomerlabs.com CNAME .
 heyhalda.com CNAME .
 *.heyhalda.com CNAME .
 heyhelga.net CNAME .
@@ -56751,6 +56759,8 @@ cloverhealth.com CNAME .
 *.cloverhealth.com CNAME .
 columbiaassociation.org CNAME .
 *.columbiaassociation.org CNAME .
+joincustomerlabs.com CNAME .
+*.joincustomerlabs.com CNAME .
 uw.edu CNAME .
 *.uw.edu CNAME .
 joinfuturestack.com CNAME .
@@ -59095,6 +59105,8 @@ renrenche.com CNAME .
 *.renrenche.com CNAME .
 reyun.com CNAME .
 *.reyun.com CNAME .
+logr-ingest.com CNAME .
+*.logr-ingest.com CNAME .
 logrocket.com CNAME .
 *.logrocket.com CNAME .
 logrocket.io CNAME .
