@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1722821303086 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1722994059555 43200 3600 259200 300
   NS  localhost.
 ;
-;202408050303
+;202408070303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -46405,6 +46405,8 @@ actonservice.com CNAME .
 *.actonservice.com CNAME .
 stratfor.com CNAME .
 *.stratfor.com CNAME .
+orhdev.com CNAME .
+*.orhdev.com CNAME .
 go365.com CNAME .
 *.go365.com CNAME .
 humana.com CNAME .
