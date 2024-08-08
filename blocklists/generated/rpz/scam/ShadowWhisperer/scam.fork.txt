@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723080457813 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723141823664 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,627
-; Updated: 8/7/2024  20:23 (8:23 PM CST)
+; Domains: 13,628
+; Updated: 8/8/2024  12:11 (12:11 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -113,6 +113,8 @@ $TTL 300
 *.18toys.com CNAME .
 18y.net CNAME .
 *.18y.net CNAME .
+1911buildkit.com CNAME .
+*.1911buildkit.com CNAME .
 1a-gewinner.de CNAME .
 *.1a-gewinner.de CNAME .
 1amazingchihuahuaworld.com CNAME .
