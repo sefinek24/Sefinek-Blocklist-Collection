@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723141823664 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723176690227 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,586
-; Updated: 8/8/2024  12:11 (12:11 PM CST)
+; Domains: 18,588
+; Updated: 8/8/2024  22:44 (10:44 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -21299,6 +21299,8 @@ apple.com CNAME .
 *.apple.com CNAME .
 apple.com CNAME .
 *.apple.com CNAME .
+iadda.online CNAME .
+*.iadda.online CNAME .
 apple.com CNAME .
 *.apple.com CNAME .
 unity3d.com CNAME .
@@ -33749,6 +33751,8 @@ viva.pl CNAME .
 *.viva.pl CNAME .
 vpscash.nl CNAME .
 *.vpscash.nl CNAME .
+toomanyalts.com CNAME .
+*.toomanyalts.com CNAME .
 toonlead.com CNAME .
 *.toonlead.com CNAME .
 somee.com CNAME .
