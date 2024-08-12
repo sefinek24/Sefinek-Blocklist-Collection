@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723356728712 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723429529146 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 77,760
-; Updated: 8/11/2024  00:18 (12:18 AM CST)
+; Domains: 77,761
+; Updated: 8/11/2024  20:36 (8:36 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -9361,6 +9361,8 @@ brokerwebsite.ch CNAME .
 *.brokerwebsite.ch CNAME .
 brokks.nl CNAME .
 *.brokks.nl CNAME .
+brookbushinstitute.com CNAME .
+*.brookbushinstitute.com CNAME .
 brototyp.de CNAME .
 *.brototyp.de CNAME .
 broukej.cz CNAME .
