@@ -1,14 +1,23 @@
-const { createReadStream, createWriteStream } = require('node:fs');
+const { createReadStream, createWriteStream, statSync } = require('node:fs');
 const { mkdir } = require('node:fs/promises');
 const { join } = require('node:path');
 const readline = require('readline');
-const { CATEGORIES } = require('./scripts/data.js');
+const cluster = require('cluster');
+const os = require('os');
+const { CATEGORIES, WHITELIST } = require('./scripts/data.js');
 
-const processLineByLine = async () => {
+const processChunk = async (start, end, chunkId) => {
 	const tmpDir = join(__dirname, '..', '..', '..', 'tmp');
-	const fileStream = createReadStream(join(tmpDir, 'global.txt'));
+	const inputFilePath = join(tmpDir, 'global.txt');
 
-	const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
+	console.time(`Execution Time for chunk ${chunkId}`);
+	console.log(`Worker ${process.pid} processing chunk ${chunkId}: ${start} - ${end}`);
+
+	const rl = readline.createInterface({
+		input: createReadStream(inputFilePath, { start, end }),
+		crlfDelay: Infinity
+	});
+
 	for (const { file } of CATEGORIES) {
 		const dir = join(__dirname, 'output', file.split('/')[0]);
 		await mkdir(dir, { recursive: true });
@@ -20,12 +29,12 @@ const processLineByLine = async () => {
 	}, {});
 
 	const writeStreams = CATEGORIES.reduce((acc, { file }) => {
-		acc[file] = createWriteStream(join(__dirname, `../../../blocklists/templates/${file}`), { flags: 'a' });
+		const outputPath = join(__dirname, `../../../blocklists/templates/${file}`);
+		acc[file] = createWriteStream(outputPath, { flags: 'a' });
 		return acc;
 	}, {});
 
-	console.log('Starting to process lines from global.txt...');
-	rl.on('line', line => {
+	rl.on('line', (line) => {
 		for (const { regex, file } of CATEGORIES) {
 			if (regex.test(line)) {
 				writeStreams[file].write(line + '\n');
@@ -35,24 +44,47 @@ const processLineByLine = async () => {
 	});
 
 	rl.on('close', () => {
-		console.log('Finished processing global.txt');
+		console.log(`Worker ${process.pid} finished processing chunk ${chunkId}`);
 		for (const [file, count] of Object.entries(domainCounters)) {
-			console.log(`Category: ${file} - Collected domains: ${count}`);
+			console.log(`Worker ${process.pid} - Category: ${file} - Collected domains: ${count}`);
 		}
 		for (const stream of Object.values(writeStreams)) {
 			stream.end();
 		}
+		console.timeEnd(`Execution Time for chunk ${chunkId}`);
+		cluster.worker.kill();
 	});
 
 	rl.on('error', err => {
-		console.error(`Error reading global.txt: ${err.message}`);
+		console.error(`Worker ${process.pid} error during line processing: ${err.message}`);
 	});
 
 	for (const stream of Object.values(writeStreams)) {
 		stream.on('error', err => {
-			console.error(`Error writing to file: ${err.message}`);
+			console.error(`Worker ${process.pid} error writing to file: ${err.message}`);
 		});
 	}
 };
 
-processLineByLine().catch(console.error);
+if (cluster.isPrimary) {
+	const numCPUs = os.cpus().length;
+	const inputFilePath = join(__dirname, '..', '..', '..', 'tmp', 'global.txt');
+	const fileSize = statSync(inputFilePath).size;
+	const chunkSize = Math.ceil(fileSize / numCPUs);
+
+	for (let i = 0; i < numCPUs; i++) {
+		const start = i * chunkSize;
+		const end = (i === numCPUs - 1) ? fileSize - 1 : (start + chunkSize - 1);
+		cluster.fork({ start, end, chunkId: i });
+	}
+
+	cluster.on('exit', (worker, code, signal) => {
+		if (code !== 0) {
+			console.error(`Worker ${worker.process.pid} terminated unexpectedly with code ${code} and signal ${signal}`);
+		}
+	});
+} else {
+	const { start, end, chunkId } = process.env;
+	processChunk(Number(start), Number(end), Number(chunkId)).catch(console.error);
+
+}
