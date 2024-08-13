@@ -1,4 +1,4 @@
-const { readFile, writeFile, mkdir, readdir } = require('node:fs/promises');
+const { readFile, writeFile, mkdir, readdir, rm } = require('node:fs/promises');
 const { join, basename, extname } = require('node:path');
 const { createWriteStream, createReadStream } = require('node:fs');
 const axios = require('axios');
@@ -9,14 +9,16 @@ const REGEX = /interseksualny|a(?:lloromantic|seksualn[ay])|genderfluid|(?:gende
 
 const downloadFile = async (url, outputPath) => {
 	console.log('GET', url);
+
 	try {
 		const res = await axios.get(url, { responseType: 'stream' });
+		const writer = createWriteStream(outputPath);
 		await new Promise((resolve, reject) => {
-			const writer = createWriteStream(outputPath);
 			res.data.pipe(writer);
 			writer.on('finish', resolve);
 			writer.on('error', reject);
 		});
+		writer.close();
 	} catch (err) {
 		console.error(`Failed to download ${url}.`, err.message);
 		throw err;
@@ -51,48 +53,38 @@ const extractXzFile = (xzFilePath, extractToDir) => {
 
 		inputStream.pipe(decompressor).pipe(outputStream);
 
-		outputStream.on('finish', () => resolve(decompressedPath));
+		outputStream.on('finish', () => {
+			inputStream.close();
+			outputStream.close();
+			resolve(decompressedPath);
+		});
 		outputStream.on('error', reject);
 	});
 };
 
-const processZipFile = async (zipFilePath, extractToDir) => {
-	await extractZipFile(zipFilePath, extractToDir);
-	const files = await readdir(extractToDir);
+const processCompressedFile = async (filePath, extractToDir) => {
+	await mkdir(extractToDir, { recursive: true });
+	const ext = extname(filePath);
 	const sites = new Set();
 
+	if (ext === '.zip') {
+		await extractZipFile(filePath, extractToDir);
+	} else if (ext === '.xz') {
+		const decompressedPath = await extractXzFile(filePath, extractToDir);
+		const fileSites = await processFile(decompressedPath);
+		fileSites.forEach(site => sites.add(site));
+	}
+
+	const files = await readdir(extractToDir);
 	await Promise.all(files.map(async (file) => {
 		const filePath = join(extractToDir, file);
-		if ((await readdir(extractToDir)).length > 0) {
-			const fileSites = await processFile(filePath);
-			fileSites.forEach(site => sites.add(site));
-		}
+		const fileSites = await processFile(filePath);
+		fileSites.forEach(site => sites.add(site));
 	}));
 
 	return sites;
 };
 
-const processCompressedFile = async (filePath, extractToDir) => {
-	const ext = extname(filePath);
-	if (ext === '.zip') {
-		return await processZipFile(filePath, extractToDir);
-	} else if (ext === '.xz') {
-		await mkdir(extractToDir, { recursive: true });
-		const decompressedPath = await extractXzFile(filePath, extractToDir);
-		const sites = new Set();
-		const files = await readdir(extractToDir);
-
-		await Promise.all(files.map(async (file) => {
-			const filePath2 = join(extractToDir, file);
-			if ((await readdir(extractToDir)).length > 0) {
-				const fileSites = await processFile(filePath2);
-				fileSites.forEach(site => sites.add(site));
-			}
-		}));
-
-		return sites;
-	}
-};
 const main = async () => {
 	const tmpDir = join(__dirname, '..', 'tmp');
 	const outputFilePath = join(__dirname, '../blocklists/templates/sites/lgbtqplus2.txt');
@@ -100,64 +92,61 @@ const main = async () => {
 	await mkdir(tmpDir, { recursive: true });
 
 	const fileUrls = [
-		{
-			url: 'https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part1.txt',
-			name: 'xRuffKez_nrd-30day-part1.txt'
-		},
-		{
-			url: 'https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part2.txt',
-			name: 'xRuffKez_nrd-30day-part2.txt'
-		},
-		{
-			url: 'https://raw.githubusercontent.com/shreshta-labs/newly-registered-domains/main/nrd-1w.csv',
-			name: 'shreshta-labs_nrd-1w.txt'
-		},
-		{
-			url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMi56aXA=/nrd',
-			name: 'whoisds1.zip'
-		},
-		{
-			url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMS56aXA=/nrd',
-			name: 'whoisds2.zip'
-		},
-		{
-			url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMC56aXA=/nrd',
-			name: 'whoisds3.zip'
-		},
-		{
-			url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0wOS56aXA=/nrd',
-			name: 'whoisds4.zip'
-		},
-		{
-			url: 'https://github.com/spaze/domains/raw/main/tld-cz.txt',
-			name: 'spaze_tld-cz.txt'
-		},
-		{
-			url: 'https://github.com/tb0hdan/domains/raw/master/data/generic_lgbt/domain2multi-lgbt00.txt.xz',
-			name: 'tb0hdan_generic_lgbt.xz'
-		}
+		// Random
+		{ url: 'https://raw.githubusercontent.com/shreshta-labs/newly-registered-domains/main/nrd-1w.csv', name: 'shreshta-labs_nrd-1w.txt' },
+		{ url: 'https://github.com/spaze/domains/raw/main/tld-cz.txt', name: 'spaze_tld-cz.txt' },
+
+		// xRuffKez
+		{ url: 'https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part1.txt', name: 'xRuffKez_nrd-30day-part1.txt' },
+		{ url: 'https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part2.txt', name: 'xRuffKez_nrd-30day-part2.txt' },
+
+		// whoisds
+		{ url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMi56aXA=/nrd', name: 'whoisds1.zip' },
+		{ url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMS56aXA=/nrd', name: 'whoisds2.zip' },
+		{ url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMC56aXA=/nrd', name: 'whoisds3.zip' },
+		{ url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0wOS56aXA=/nrd', name: 'whoisds4.zip' },
+
+		// tb0hdan
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/generic_lgbt/domain2multi-lgbt00.txt.xz', name: 'tb0hdan_generic-lgbt.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/generic_gay/domain2multi-gay00.txt.xz', name: 'tb0hdan_generic-gay.xz' },
+
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de00.txt.xz', name: 'tb0hdan_domain2multi-de00.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de01.txt.xz', name: 'tb0hdan_domain2multi-de01.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de02.txt.xz', name: 'tb0hdan_domain2multi-de02.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de03.txt.xz', name: 'tb0hdan_domain2multi-de03.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de04.txt.xz', name: 'tb0hdan_domain2multi-de04.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de05.txt.xz', name: 'tb0hdan_domain2multi-de05.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de06.txt.xz', name: 'tb0hdan_domain2multi-de06.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de07.txt.xz', name: 'tb0hdan_domain2multi-de07.xz' },
+
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl00.txt.xz', name: 'tb0hdan_domain2multi-pl00.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl01.txt.xz', name: 'tb0hdan_domain2multi-pl01.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl02.txt.xz', name: 'tb0hdan_domain2multi-pl02.xz' },
+
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/united_states/domain2multi-us00.txt.xz', name: 'tb0hdan_domain2multi-us00.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk00.txt.xz', name: 'tb0hdan_domain2multi-uk00.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk01.txt.xz', name: 'tb0hdan_domain2multi-uk01.xz' },
+		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk02.txt.xz', name: 'tb0hdan_domain2multi-uk02.xz' }
 	];
 
 	const sites = new Set();
 
-	await Promise.all(fileUrls.map(async ({ url, name }) => {
+	for (const { url, name } of fileUrls) {
 		const fileName = name || basename(url);
 		const filePath = join(tmpDir, fileName);
 		try {
 			await downloadFile(url, filePath);
 
-			if (['.zip', '.xz'].includes(extname(filePath))) {
-				const extractToDir = join(tmpDir, `extracted_${fileName}`);
-				const zipSites = await processCompressedFile(filePath, extractToDir);
-				zipSites.forEach(site => sites.add(site));
-			} else {
-				const fileSites = await processFile(filePath);
-				fileSites.forEach(site => sites.add(site));
-			}
+			const extractToDir = join(tmpDir, `extracted_${fileName}`);
+			const fileSites = ['.zip', '.xz'].includes(extname(filePath))
+				? await processCompressedFile(filePath, extractToDir)
+				: await processFile(filePath);
+
+			fileSites.forEach(site => sites.add(site));
 		} catch (err) {
 			console.error(`Error processing file ${fileName}: ${err.message}`);
 		}
-	}));
+	}
 
 	if (sites.size > 0) {
 		const sortedSites = Array.from(sites).sort((a, b) => a.localeCompare(b));
@@ -195,6 +184,7 @@ const main = async () => {
 ${sortedSites.join('\n')}`, { flag: 'w' });
 	}
 
+	await rm(tmpDir, { recursive: true, force: true });
 	console.log('Processing complete! Check the file at:', outputFilePath);
 };
 
