@@ -145,7 +145,7 @@ const generateHeader = (title, category, siteCount) => {
 
 const main = async () => {
 	const tmpDir = join(__dirname, '..', 'tmp');
-
+	await rm(tmpDir, { recursive: true, force: true });
 	await mkdir(tmpDir, { recursive: true });
 
 	const fileUrls = [
