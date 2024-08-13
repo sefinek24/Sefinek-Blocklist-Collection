@@ -1,10 +1,10 @@
+const readline = require('readline');
+const axios = require('axios');
+const unzipper = require('unzipper');
+const lzma = require('lzma-native');
 const { mkdir, rm, readdir } = require('node:fs/promises');
 const { join, basename, extname } = require('node:path');
 const { createWriteStream, createReadStream } = require('node:fs');
-const axios = require('axios');
-const AdmZip = require('adm-zip');
-const lzma = require('lzma-native');
-const readline = require('readline');
 const { fileUrls } = require('./scripts/data.js');
 
 const downloadFile = async (url, outputPath) => {
@@ -25,31 +25,89 @@ const downloadFile = async (url, outputPath) => {
 };
 
 const extractZipFile = async (zipFilePath, extractToDir) => {
-	console.log(`Extracting ZIP archive: ${zipFilePath}`);
-	const zip = new AdmZip(zipFilePath);
-	await mkdir(extractToDir, { recursive: true });
-	zip.extractAllTo(extractToDir, true);
+	console.log('Extracting ZIP archive:', zipFilePath);
+
+	try {
+		await mkdir(extractToDir, { recursive: true });
+		return new Promise((resolve, reject) => {
+			const readStream = createReadStream(zipFilePath);
+			const extractStream = unzipper.Extract({ path: extractToDir });
+
+			readStream
+				.pipe(extractStream)
+				.on('close', () => {
+					readStream.close();
+					resolve();
+				})
+				.on('error', err => {
+					readStream.close();
+					reject(err);
+				});
+		});
+	} catch (err) {
+		console.error(`Failed to extract ZIP archive: ${err.message}`);
+		throw err;
+	}
 };
 
 const extractXzFile = (xzFilePath, extractToDir) => new Promise((resolve, reject) => {
 	const decompressedPath = join(extractToDir, basename(xzFilePath, '.xz'));
-	createReadStream(xzFilePath)
-		.pipe(lzma.createDecompressor())
-		.pipe(createWriteStream(decompressedPath))
-		.on('finish', () => resolve(decompressedPath))
-		.on('error', reject);
+	const decompressor = lzma.createDecompressor();
+	const readStream = createReadStream(xzFilePath);
+	const writeStream = createWriteStream(decompressedPath);
+
+	const cleanup = () => {
+		readStream.close();
+		writeStream.close();
+		decompressor.end();
+	};
+
+	readStream.pipe(decompressor).pipe(writeStream);
+
+	writeStream.on('finish', () => {
+		cleanup();
+		resolve(decompressedPath);
+	});
+
+	writeStream.on('error', err => {
+		cleanup();
+		reject(err);
+	});
+
+	readStream.on('error', err => {
+		cleanup();
+		reject(err);
+	});
+
+	decompressor.on('error', err => {
+		cleanup();
+		reject(err);
+	});
 });
 
 const collectDomains = (filePath, writeStream) => new Promise((resolve, reject) => {
 	const rl = readline.createInterface({ input: createReadStream(filePath), crlfDelay: Infinity });
-
 	rl.on('line', line => {
 		const domain = extname(filePath) === '.csv' ? line.split(',')[0].trim() : line.trim();
-		if (domain) writeStream.write(domain + '\n');
+		if (domain && !writeStream.write(domain + '\n')) rl.pause();
 	});
 
-	rl.on('close', resolve);
-	rl.on('error', reject);
+	writeStream.on('drain', () => rl.resume());
+
+	rl.on('close', () => {
+		writeStream.end();
+		resolve();
+	});
+
+	rl.on('error', err => {
+		writeStream.end();
+		reject(err);
+	});
+
+	writeStream.on('error', err => {
+		rl.close();
+		reject(err);
+	});
 });
 
 const processFilesRecursively = async (directory, writeStream) => {
@@ -59,7 +117,7 @@ const processFilesRecursively = async (directory, writeStream) => {
 		const fullPath = join(directory, file.name);
 		if (file.isDirectory()) {
 			await processFilesRecursively(fullPath, writeStream);
-		} else if (['.txt', '.csv'].includes(extname(fullPath)) || extname(fullPath) === '') {
+		} else {
 			await collectDomains(fullPath, writeStream);
 		}
 	}
@@ -75,6 +133,7 @@ const processCompressedFile = async (filePath, extractToDir, writeStream) => {
 	}
 
 	await processFilesRecursively(extractToDir, writeStream);
+	if (global.gc) global.gc();
 };
 
 const main = async () => {
@@ -83,29 +142,32 @@ const main = async () => {
 	await mkdir(tmpDir, { recursive: true });
 
 	const globalFilePath = join(tmpDir, 'global.txt');
-	const writeStream = createWriteStream(globalFilePath);
-
 	for (const { url, name } of fileUrls) {
 		const fileName = name || basename(url);
 		const filePath = join(tmpDir, fileName);
 		const extractToDir = join(tmpDir, `${fileName}_extracted`);
 
+		let writeStream = createWriteStream(globalFilePath, { flags: 'a' });
 		try {
 			await downloadFile(url, filePath);
 
 			if (['.zip', '.xz'].includes(extname(filePath))) {
 				await processCompressedFile(filePath, extractToDir, writeStream);
-			} else if (['.txt', '.csv'].includes(extname(filePath)) || extname(filePath) === '') {
+			} else {
 				await collectDomains(filePath, writeStream);
 			}
 
 			console.log(`Finished processing ${fileName}`);
 		} catch (err) {
 			console.error(`Error processing file ${fileName}: ${err.message}`);
+		} finally {
+			writeStream.end();
+			writeStream = null;
 		}
+
+		if (global.gc) global.gc();
 	}
 
-	writeStream.end();
 	console.log(`Global domain list saved to ${globalFilePath}`);
 };
 
