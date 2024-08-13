@@ -101,16 +101,16 @@ const logProgress = message => {
 	}
 };
 
-const processFile = async (filePath, category) => {
+const processFile = async (lines, category) => {
 	logProgress(`Processing ${category.category}...`);
 
 	const matchedSites = new Set();
-	const rl = createInterface({ input: createReadStream(filePath, 'utf-8'), crlfDelay: Infinity });
-	for await (const line of rl) {
+	for (const line of lines) {
 		const domain = line.trim().split(/\s+/)[0];
-		if (domain && !isWhitelisted(domain) && category.regex.test(line)) matchedSites.add(`0.0.0.0 ${domain}`);
+		if (domain && !isWhitelisted(domain) && category.regex.test(line)) {
+			matchedSites.add(`0.0.0.0 ${domain}`);
+		}
 	}
-	rl.close();
 
 	logProgress(`Processing ${category.category.toUpperCase()}... ${matchedSites.size} sites\n`);
 
@@ -133,13 +133,29 @@ const extractXzFile = (xzFilePath, extractToDir) => {
 		const outputStream = createWriteStream(decompressedPath);
 		const decompressor = lzma.createDecompressor();
 
-		inputStream.pipe(decompressor).pipe(outputStream);
-		outputStream.on('finish', () => {
-			outputStream.close();
-			resolve(decompressedPath);
+		inputStream
+			.pipe(decompressor)
+			.pipe(outputStream)
+			.on('finish', () => {
+				resolve(decompressedPath);
+				inputStream.destroy();
+				outputStream.destroy();
+				if (global.gc) global.gc();
+			})
+			.on('error', err => {
+				inputStream.destroy();
+				outputStream.destroy();
+				reject(err);
+			});
+
+		inputStream.on('error', err => {
+			outputStream.destroy();
+			reject(err);
 		});
-		outputStream.on('error', err => {
-			outputStream.close();
+
+		decompressor.on('error', err => {
+			inputStream.destroy();
+			outputStream.destroy();
 			reject(err);
 		});
 	});
@@ -159,13 +175,23 @@ const processCompressedFile = async (filePath, extractToDir) => {
 	}
 
 	for (const file of filesToProcess) {
+		const loc = join(extractToDir, file);
+		let lines = [];
+
+		const rl = createInterface({ input: createReadStream(loc, 'utf-8'), crlfDelay: Infinity });
+		for await (const line of rl) {
+			lines.push(line);
+		}
+
 		for (const category of CATEGORIES) {
-			const fileSites = await processFile(join(extractToDir, file), category);
+			const fileSites = await processFile(lines, category);
 			if (!sites[category.file]) sites[category.file] = new Set();
 			fileSites.forEach(site => sites[category.file].add(site));
 			fileSites.clear();
 		}
 
+		lines = null;
+		rl.close();
 		if (global.gc) global.gc();
 	}
 
@@ -306,12 +332,22 @@ const main = async () => {
 			if (['.zip', '.xz'].includes(extname(filePath))) {
 				fileSites = await processCompressedFile(filePath, extractToDir);
 			} else {
+				let lines = [];
+				const rl = createInterface({ input: createReadStream(filePath, 'utf-8'), crlfDelay: Infinity });
+
+				for await (const line of rl) {
+					lines.push(line);
+				}
+
 				for (const category of CATEGORIES) {
-					const categorySites = await processFile(filePath, category);
+					const categorySites = await processFile(lines, category);
 					if (!fileSites[category.file]) fileSites[category.file] = new Set();
 					categorySites.forEach(site => fileSites[category.file].add(site));
 					categorySites.clear();
 				}
+
+				lines = null;
+				rl.close();
 			}
 
 			for (const [categoryFile, sites] of Object.entries(fileSites)) {
