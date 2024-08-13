@@ -25,16 +25,24 @@ const WHITELIST = [
 ];
 
 const downloadFile = async (url, outputPath) => {
-	console.log(`Downloading file from ${url}...`);
+	console.log(`Downloading file from ${url} to ${outputPath}...`);
+
 	try {
 		const res = await axios.get(url, { responseType: 'stream' });
 		await new Promise((resolve, reject) => {
 			const writer = createWriteStream(outputPath);
 			res.data.pipe(writer);
-			writer.on('finish', () => resolve());
-			writer.on('error', reject);
+
+			writer.on('finish', () => {
+				writer.close();
+				resolve();
+			});
+
+			writer.on('error', err => {
+				writer.close();
+				reject(err);
+			});
 		});
-		console.log(`Download complete: ${outputPath}`);
 	} catch (err) {
 		console.error(`Failed to download ${url}. Error: ${err.message}`);
 		throw err;
@@ -76,8 +84,7 @@ const extractZipFile = async (zipFilePath, extractToDir) => {
 const extractXzFile = (xzFilePath, extractToDir) => {
 	console.log('Extracting XZ file...');
 	return new Promise((resolve, reject) => {
-		const decompressedFileName = basename(xzFilePath, '.xz');
-		const decompressedPath = join(extractToDir, decompressedFileName);
+		const decompressedPath = join(extractToDir, basename(xzFilePath, '.xz'));
 		const inputStream = createReadStream(xzFilePath);
 		const outputStream = createWriteStream(decompressedPath);
 		const decompressor = lzma.createDecompressor();
@@ -99,7 +106,7 @@ const processCompressedFile = async (filePath, extractToDir) => {
 		filesToProcess = await readdir(extractToDir);
 	} else if (extname(filePath) === '.xz') {
 		const decompressedPath = await extractXzFile(filePath, extractToDir);
-		filesToProcess = [basename(decompressedPath)]; // Only the decompressed file
+		filesToProcess = [basename(decompressedPath)];
 	}
 
 	// Process only the files in `filesToProcess`
@@ -107,9 +114,7 @@ const processCompressedFile = async (filePath, extractToDir) => {
 		const fullPath = join(extractToDir, file);
 		for (const category of CATEGORIES) {
 			const fileSites = await processFile(fullPath, category);
-			if (!sites[category.file]) {
-				sites[category.file] = new Set();
-			}
+			if (!sites[category.file]) sites[category.file] = new Set();
 			fileSites.forEach(site => sites[category.file].add(site));
 		}
 	}
@@ -205,8 +210,6 @@ const main = async () => {
 			await downloadFile(url, filePath);
 
 			let fileSites = {};
-
-			// Sprawdzenie, czy plik jest skompresowany
 			if (['.zip', '.xz'].includes(extname(filePath))) {
 				fileSites = await processCompressedFile(filePath, extractToDir);
 			} else {
@@ -220,9 +223,7 @@ const main = async () => {
 			}
 
 			for (const [categoryFile, sites] of Object.entries(fileSites)) {
-				if (!results[categoryFile]) {
-					results[categoryFile] = new Set();
-				}
+				if (!results[categoryFile]) results[categoryFile] = new Set();
 				sites.forEach(site => results[categoryFile].add(site));
 			}
 
@@ -233,11 +234,10 @@ const main = async () => {
 
 	for (const [fileName, sites] of Object.entries(results)) {
 		const sortedSites = Array.from(sites).sort();
-		const outputFilePath = join(__dirname, `../blocklists/templates/${fileName}`);
 		const category = CATEGORIES.find(cat => cat.file === fileName);
 		const header = generateHeader(category.title, category.category, sortedSites.length);
 
-		await writeFile(outputFilePath, header + sortedSites.join('\n'), { flag: 'w' });
+		await writeFile(join(__dirname, `../blocklists/templates/${fileName}`), header + sortedSites.join('\n'), { flag: 'w' });
 
 		const zeroCount = sortedSites.filter(site => site.startsWith('0.0.0.0')).length;
 		console.log(`Number of lines starting with "0.0.0.0" in ${fileName}: ${zeroCount}`);
