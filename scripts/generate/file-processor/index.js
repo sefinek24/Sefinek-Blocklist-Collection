@@ -147,7 +147,7 @@ const main = async () => {
 		const filePath = join(tmpDir, fileName);
 		const extractToDir = join(tmpDir, `${fileName}_extracted`);
 
-		let writeStream = createWriteStream(globalFilePath, { flags: 'a' });
+		const writeStream = createWriteStream(globalFilePath, { flags: 'a' });
 		try {
 			await downloadFile(url, filePath);
 
@@ -162,7 +162,6 @@ const main = async () => {
 			console.error(`Error processing file ${fileName}: ${err.message}`);
 		} finally {
 			writeStream.end();
-			writeStream = null;
 		}
 
 		if (global.gc) global.gc();
