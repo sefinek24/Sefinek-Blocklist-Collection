@@ -5,20 +5,20 @@ const axios = require('axios');
 const AdmZip = require('adm-zip');
 const lzma = require('lzma-native');
 
-const CATEGORIES = {
-	0: {
+const CATEGORIES = [
+	{
 		title: 'Blocks anime websites solely based on their addresses',
 		category: 'Anime',
 		regex: /anime/gi,
 		file: 'anime/main.txt'
 	},
-	1: {
+	{
 		title: 'Blocks LGBT websites solely based on their addresses',
 		category: 'LGBTQ+',
 		regex: /interseksualny|a(?:lloromantic|seksualn[ay])|genderfluid|(?:gender)?queer|t(?:rans(?:gender|sexual|exual)|wo\\-spirit)|(?:(?:(?:(?:poly|allo)|bi)|pan)|demi)sexual|(?:polyamor|nonbinar|ga)y|l(?:esbi(?:jka|an)|gbtq(?:ia|\+))|(?:bi|a)gender|lgbtq?|pride/gim,
 		file: 'sites/lgbtqplus2.txt'
 	}
-};
+];
 
 const WHITELIST = [
 	'*.stoplgbt.pl'
@@ -88,22 +88,30 @@ const extractXzFile = (xzFilePath, extractToDir) => {
 	});
 };
 
-const processCompressedFile = async (filePath, extractToDir, category) => {
+const processCompressedFile = async (filePath, extractToDir) => {
 	await mkdir(extractToDir, { recursive: true });
-	const sites = new Set();
+	const sites = {};
+
+	let filesToProcess = [];
 
 	if (extname(filePath) === '.zip') {
 		await extractZipFile(filePath, extractToDir);
+		filesToProcess = await readdir(extractToDir);
 	} else if (extname(filePath) === '.xz') {
 		const decompressedPath = await extractXzFile(filePath, extractToDir);
-		const fileSites = await processFile(decompressedPath, category);
-		fileSites.forEach(site => sites.add(site));
+		filesToProcess = [basename(decompressedPath)]; // Only the decompressed file
 	}
 
-	const files = await readdir(extractToDir);
-	for (const file of files) {
-		const fileSites = await processFile(join(extractToDir, file), category);
-		fileSites.forEach(site => sites.add(site));
+	// Process only the files in `filesToProcess`
+	for (const file of filesToProcess) {
+		const fullPath = join(extractToDir, file);
+		for (const category of CATEGORIES) {
+			const fileSites = await processFile(fullPath, category);
+			if (!sites[category.file]) {
+				sites[category.file] = new Set();
+			}
+			fileSites.forEach(site => sites[category.file].add(site));
+		}
 	}
 
 	return sites;
@@ -191,21 +199,33 @@ const main = async () => {
 	for (const { url, name } of fileUrls) {
 		const fileName = name || basename(url);
 		const filePath = join(tmpDir, fileName);
+		const extractToDir = join(tmpDir, `${fileName}_extracted_`);
+
 		try {
 			await downloadFile(url, filePath);
 
-			for (const category of Object.values(CATEGORIES)) {
-				const extractToDir = join(tmpDir, `${fileName}_extracted_`);
-				const fileSites = ['.zip', '.xz'].includes(extname(filePath))
-					? await processCompressedFile(filePath, extractToDir, category)
-					: await processFile(filePath, category);
+			let fileSites = {};
 
-				if (!results[category.file]) {
-					results[category.file] = new Set();
+			// Sprawdzenie, czy plik jest skompresowany
+			if (['.zip', '.xz'].includes(extname(filePath))) {
+				fileSites = await processCompressedFile(filePath, extractToDir);
+			} else {
+				for (const category of CATEGORIES) {
+					const categorySites = await processFile(filePath, category);
+					if (!fileSites[category.file]) {
+						fileSites[category.file] = new Set();
+					}
+					categorySites.forEach(site => fileSites[category.file].add(site));
 				}
-
-				fileSites.forEach(site => results[category.file].add(site));
 			}
+
+			for (const [categoryFile, sites] of Object.entries(fileSites)) {
+				if (!results[categoryFile]) {
+					results[categoryFile] = new Set();
+				}
+				sites.forEach(site => results[categoryFile].add(site));
+			}
+
 		} catch (err) {
 			console.error(`Error processing file ${fileName}: ${err.message}`);
 		}
@@ -214,7 +234,7 @@ const main = async () => {
 	for (const [fileName, sites] of Object.entries(results)) {
 		const sortedSites = Array.from(sites).sort();
 		const outputFilePath = join(__dirname, `../blocklists/templates/${fileName}`);
-		const category = Object.values(CATEGORIES).find(cat => cat.file === fileName);
+		const category = CATEGORIES.find(cat => cat.file === fileName);
 		const header = generateHeader(category.title, category.category, sortedSites.length);
 
 		await writeFile(outputFilePath, header + sortedSites.join('\n'), { flag: 'w' });
