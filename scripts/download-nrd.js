@@ -97,6 +97,7 @@ const processFile = async (filePath, category) => {
 		const domain = line.trim().split(/\s+/)[0];
 		if (domain && !isWhitelisted(domain) && category.regex.test(line)) matchedSites.add(`0.0.0.0 ${domain}`);
 	}
+	rl.close();
 
 	process.stdout.clearLine(0);
 	process.stdout.cursorTo(0);
@@ -111,6 +112,7 @@ const extractZipFile = async (zipFilePath, extractToDir) => {
 	const zip = new AdmZip(zipFilePath);
 	await mkdir(extractToDir, { recursive: true });
 	zip.extractAllTo(extractToDir, true);
+	global.gc && global.gc();
 };
 
 const extractXzFile = (xzFilePath, extractToDir) => {
@@ -153,6 +155,7 @@ const processCompressedFile = async (filePath, extractToDir) => {
 			const fileSites = await processFile(fullPath, category);
 			if (!sites[category.file]) sites[category.file] = new Set();
 			fileSites.forEach(site => sites[category.file].add(site));
+			fileSites.clear();
 		}
 
 		global.gc && global.gc();
