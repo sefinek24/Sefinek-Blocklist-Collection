@@ -160,9 +160,8 @@ const processCompressedFile = async (filePath, extractToDir) => {
 	}
 
 	for (const file of filesToProcess) {
-		const fullPath = join(extractToDir, file);
 		for (const category of CATEGORIES) {
-			const fileSites = await processFile(fullPath, category);
+			const fileSites = await processFile(join(extractToDir, file), category);
 			if (!sites[category.file]) sites[category.file] = new Set();
 			fileSites.forEach(site => sites[category.file].add(site));
 			fileSites.clear();
