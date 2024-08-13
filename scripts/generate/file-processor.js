@@ -88,10 +88,21 @@ const isWhitelisted = domain => {
 	});
 };
 
+const isCI = process.env.CI === 'true';
+const isTTY = process.stdout.isTTY;
+
+const logProgress = message => {
+	if (!isCI && isTTY) {
+		process.stdout.clearLine(0);
+		process.stdout.cursorTo(0);
+		process.stdout.write(message);
+	} else {
+		console.log(message);
+	}
+};
+
 const processFile = async (filePath, category) => {
-	const isCI = process.env.CI === 'true';
-	const isTTY = process.stdout.isTTY;
-	if (!isCI && isTTY) process.stdout.write(`Processing ${category.category}...`);
+	if (!isCI && isTTY) logProgress(`Processing ${category.category}...`);
 
 	const matchedSites = new Set();
 	const rl = createInterface({ input: createReadStream(filePath, 'utf-8'), crlfDelay: Infinity });
@@ -101,13 +112,7 @@ const processFile = async (filePath, category) => {
 	}
 	rl.close();
 
-	if (!isCI && isTTY && typeof process.stdout.clearLine === 'function') {
-		process.stdout.clearLine(0);
-		process.stdout.cursorTo(0);
-		process.stdout.write(`Processing ${category.category.toUpperCase()}... ${matchedSites.size} sites\n`);
-	} else {
-		console.log(`Processing ${category.category.toUpperCase()}... ${matchedSites.size} sites`);
-	}
+	logProgress(`Processing ${category.category.toUpperCase()}... ${matchedSites.size} sites\n`);
 
 	if (global.gc) global.gc();
 	return matchedSites;
