@@ -102,7 +102,7 @@ const logProgress = message => {
 };
 
 const processFile = async (filePath, category) => {
-	if (!isCI && isTTY) logProgress(`Processing ${category.category}...`);
+	logProgress(`Processing ${category.category}...`);
 
 	const matchedSites = new Set();
 	const rl = createInterface({ input: createReadStream(filePath, 'utf-8'), crlfDelay: Infinity });
