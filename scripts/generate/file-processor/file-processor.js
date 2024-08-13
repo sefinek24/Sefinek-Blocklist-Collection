@@ -9,6 +9,7 @@ const { fileUrls } = require('./scripts/data.js');
 
 const downloadFile = async (url, outputPath) => {
 	console.log(`Downloading file from ${url} to ${outputPath}...`);
+
 	try {
 		const res = await axios.get(url, { responseType: 'stream' });
 		await new Promise((resolve, reject) => {
@@ -18,7 +19,7 @@ const downloadFile = async (url, outputPath) => {
 			writer.on('error', reject);
 		});
 	} catch (err) {
-		console.error(`Failed to download ${url}: ${err.message}`);
+		console.error(err.stack);
 		throw err;
 	}
 };
@@ -40,10 +41,9 @@ const extractXzFile = (xzFilePath, extractToDir) => new Promise((resolve, reject
 });
 
 const collectDomains = (filePath, writeStream) => new Promise((resolve, reject) => {
-	const fileStream = createReadStream(filePath);
-	const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
+	const rl = readline.createInterface({ input: createReadStream(filePath), crlfDelay: Infinity });
 
-	rl.on('line', (line) => {
+	rl.on('line', line => {
 		const domain = extname(filePath) === '.csv' ? line.split(',')[0].trim() : line.trim();
 		if (domain) writeStream.write(domain + '\n');
 	});
@@ -59,7 +59,7 @@ const processFilesRecursively = async (directory, writeStream) => {
 		const fullPath = join(directory, file.name);
 		if (file.isDirectory()) {
 			await processFilesRecursively(fullPath, writeStream);
-		} else if (extname(fullPath) === '' || ['.txt', '.csv'].includes(extname(fullPath))) {
+		} else if (['.txt', '.csv'].includes(extname(fullPath)) || extname(fullPath) === '') {
 			await collectDomains(fullPath, writeStream);
 		}
 	}
@@ -95,7 +95,7 @@ const main = async () => {
 
 			if (['.zip', '.xz'].includes(extname(filePath))) {
 				await processCompressedFile(filePath, extractToDir, writeStream);
-			} else if (extname(filePath) === '' || ['.txt', '.csv'].includes(extname(filePath))) {
+			} else if (['.txt', '.csv'].includes(extname(filePath)) || extname(filePath) === '') {
 				await collectDomains(filePath, writeStream);
 			}
 
