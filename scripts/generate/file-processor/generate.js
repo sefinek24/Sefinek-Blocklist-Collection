@@ -1,9 +1,9 @@
 const { createReadStream, createWriteStream, statSync, promises: fsPromises, constants } = require('node:fs');
 const { mkdir } = require('node:fs/promises');
 const { join } = require('node:path');
-const readline = require('readline');
-const cluster = require('cluster');
-const os = require('os');
+const readline = require('node:readline');
+const cluster = require('node:cluster');
+const numCPUs = require('node:os').availableParallelism();
 const { CATEGORIES, WHITELIST } = require('./scripts/data.js');
 
 const matchesPattern = (pattern, domain) => {
@@ -49,10 +49,7 @@ const processChunk = async (start, end, chunkId) => {
 	}, {});
 
 	rl.on('line', line => {
-		if (isDomainWhitelisted(line)) {
-			console.log(`Line "${line}" is whitelisted and will be ignored`);
-			return;
-		}
+		if (isDomainWhitelisted(line)) return console.log(`Line "${line}" is whitelisted and will be ignored`);
 
 		for (const { regex, file } of CATEGORIES) {
 			if (!regex.test(line)) continue;
@@ -93,9 +90,7 @@ if (cluster.isPrimary) {
 		}
 	})();
 
-	const numCPUs = os.cpus().length;
-	const inputFilePath = join(__dirname, '..', '..', '..', 'tmp', 'global.txt');
-	const fileSize = statSync(inputFilePath).size;
+	const fileSize = statSync(join(__dirname, '..', '..', '..', 'tmp', 'global.txt')).size;
 	const chunkSize = Math.ceil(fileSize / numCPUs);
 
 	for (let i = 0; i < numCPUs; i++) {
