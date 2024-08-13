@@ -6,6 +6,13 @@ const cluster = require('cluster');
 const os = require('os');
 const { CATEGORIES, WHITELIST } = require('./scripts/data.js');
 
+const matchesPattern = (pattern, domain) => {
+	const regexPattern = new RegExp('^' + pattern.replace(/\./g, '\\.').replace(/\*/g, '.*') + '$');
+	return regexPattern.test(domain);
+};
+
+const isDomainWhitelisted = domain => WHITELIST.some(pattern => matchesPattern(pattern, domain));
+
 const processChunk = async (start, end, chunkId) => {
 	const tmpDir = join(__dirname, '..', '..', '..', 'tmp');
 	const inputFilePath = join(tmpDir, 'global.txt');
@@ -13,10 +20,7 @@ const processChunk = async (start, end, chunkId) => {
 	console.time(`Execution Time for chunk ${chunkId}`);
 	console.log(`Worker ${process.pid} processing chunk ${chunkId}: ${start} - ${end}`);
 
-	const rl = readline.createInterface({
-		input: createReadStream(inputFilePath, { start, end }),
-		crlfDelay: Infinity
-	});
+	const rl = readline.createInterface({ input: createReadStream(inputFilePath, { start, end }), crlfDelay: Infinity });
 
 	for (const { file } of CATEGORIES) {
 		const dir = join(__dirname, 'output', file.split('/')[0]);
@@ -34,12 +38,13 @@ const processChunk = async (start, end, chunkId) => {
 		return acc;
 	}, {});
 
-	rl.on('line', (line) => {
+	rl.on('line', line => {
+		if (isDomainWhitelisted(line)) return console.log(`Line "${line}" is whitelisted and will be ignored`);
+
 		for (const { regex, file } of CATEGORIES) {
-			if (regex.test(line)) {
-				writeStreams[file].write(line + '\n');
-				domainCounters[file]++;
-			}
+			if (!regex.test(line)) return;
+			writeStreams[file].write(line + '\n');
+			domainCounters[file]++;
 		}
 	});
 
@@ -86,5 +91,4 @@ if (cluster.isPrimary) {
 } else {
 	const { start, end, chunkId } = process.env;
 	processChunk(Number(start), Number(end), Number(chunkId)).catch(console.error);
-
 }
