@@ -150,7 +150,6 @@ const processCompressedFile = async (filePath, extractToDir) => {
 	const sites = {};
 
 	let filesToProcess = [];
-
 	if (extname(filePath) === '.zip') {
 		await extractZipFile(filePath, extractToDir);
 		filesToProcess = await readdir(extractToDir);
