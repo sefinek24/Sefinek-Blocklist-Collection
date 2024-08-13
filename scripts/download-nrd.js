@@ -1,6 +1,7 @@
 const { writeFile, mkdir, readdir, rm } = require('node:fs/promises');
 const { join, basename, extname } = require('node:path');
 const { createWriteStream, createReadStream } = require('node:fs');
+const { createInterface } = require('node:readline');
 const axios = require('axios');
 const AdmZip = require('adm-zip');
 const lzma = require('lzma-native');
@@ -56,18 +57,15 @@ const WHITELIST = [
 
 const downloadFile = async (url, outputPath) => {
 	console.log(`Downloading file from ${url} to ${outputPath}...`);
-
 	try {
 		const res = await axios.get(url, { responseType: 'stream' });
 		await new Promise((resolve, reject) => {
 			const writer = createWriteStream(outputPath);
 			res.data.pipe(writer);
-
 			writer.on('finish', () => {
 				writer.close();
 				resolve();
 			});
-
 			writer.on('error', err => {
 				writer.close();
 				reject(err);
@@ -91,21 +89,20 @@ const isWhitelisted = domain => {
 };
 
 const processFile = async (filePath, category) => {
-	console.log('Processing data...');
-	const matchedSites = new Set();
+	process.stdout.write(`Processing ${category.category}...`);
 
-	const fileStream = createReadStream(filePath, 'utf-8');
-	const readline = require('readline');
-	const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
+	const matchedSites = new Set();
+	const rl = createInterface({ input: createReadStream(filePath, 'utf-8'), crlfDelay: Infinity });
 	for await (const line of rl) {
 		const domain = line.trim().split(/\s+/)[0];
-		if (domain && !isWhitelisted(domain) && category.regex.test(line)) {
-			matchedSites.add(`0.0.0.0 ${domain}`);
-		}
+		if (domain && !isWhitelisted(domain) && category.regex.test(line)) matchedSites.add(`0.0.0.0 ${domain}`);
 	}
 
-	console.log(`Found ${matchedSites.size} matching sites for the category: ${category.category}`);
-	global.gc && global.gc();
+	process.stdout.clearLine(0);
+	process.stdout.cursorTo(0);
+	process.stdout.write(`Processing ${category.category.toUpperCase()}... ${matchedSites.size} sites\n`);
+
+	if (global.gc) global.gc();
 	return matchedSites;
 };
 
