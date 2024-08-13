@@ -55,10 +55,9 @@ const processChunk = async (start, end, chunkId) => {
 		}
 
 		for (const { regex, file } of CATEGORIES) {
-			if (regex.test(line)) {
-				writeStreams[file].write(line + '\n');
-				domainCounters[file]++;
-			}
+			if (!regex.test(line)) continue;
+			writeStreams[file].write(line + '\n');
+			domainCounters[file]++;
 		}
 	});
 
