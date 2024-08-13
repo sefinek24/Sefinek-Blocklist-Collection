@@ -5,6 +5,7 @@ const lzma = require('lzma-native');
 const { mkdir, rm, readdir } = require('node:fs/promises');
 const { join, basename, extname } = require('node:path');
 const { createWriteStream, createReadStream } = require('node:fs');
+const { pipeline } = require('node:stream/promises');
 const { fileUrls } = require('./scripts/data.js');
 
 const downloadFile = async (url, outputPath) => {
@@ -12,14 +13,9 @@ const downloadFile = async (url, outputPath) => {
 
 	try {
 		const res = await axios.get(url, { responseType: 'stream' });
-		await new Promise((resolve, reject) => {
-			const writer = createWriteStream(outputPath);
-			res.data.pipe(writer);
-			writer.on('finish', resolve);
-			writer.on('error', reject);
-		});
+		await pipeline(res.data, createWriteStream(outputPath));
 	} catch (err) {
-		console.error(err.stack);
+		console.error(`Download failed: ${err.message}`);
 		throw err;
 	}
 };
@@ -29,67 +25,39 @@ const extractZipFile = async (zipFilePath, extractToDir) => {
 
 	try {
 		await mkdir(extractToDir, { recursive: true });
-		return new Promise((resolve, reject) => {
-			const readStream = createReadStream(zipFilePath);
-			const extractStream = unzipper.Extract({ path: extractToDir });
-
-			readStream
-				.pipe(extractStream)
-				.on('close', () => {
-					readStream.close();
-					resolve();
-				})
-				.on('error', err => {
-					readStream.close();
-					reject(err);
-				});
-		});
+		await pipeline(
+			createReadStream(zipFilePath),
+			unzipper.Extract({ path: extractToDir })
+		);
 	} catch (err) {
 		console.error(`Failed to extract ZIP archive: ${err.message}`);
 		throw err;
 	}
 };
 
-const extractXzFile = (xzFilePath, extractToDir) => new Promise((resolve, reject) => {
+const extractXzFile = async (xzFilePath, extractToDir) => {
 	const decompressedPath = join(extractToDir, basename(xzFilePath, '.xz'));
-	const decompressor = lzma.createDecompressor();
-	const readStream = createReadStream(xzFilePath);
-	const writeStream = createWriteStream(decompressedPath);
+	console.log('Extracting XZ archive:', xzFilePath);
 
-	const cleanup = () => {
-		readStream.close();
-		writeStream.close();
-		decompressor.end();
-	};
-
-	readStream.pipe(decompressor).pipe(writeStream);
-
-	writeStream.on('finish', () => {
-		cleanup();
-		resolve(decompressedPath);
-	});
-
-	writeStream.on('error', err => {
-		cleanup();
-		reject(err);
-	});
-
-	readStream.on('error', err => {
-		cleanup();
-		reject(err);
-	});
-
-	decompressor.on('error', err => {
-		cleanup();
-		reject(err);
-	});
-});
+	try {
+		await mkdir(extractToDir, { recursive: true });
+		await pipeline(
+			createReadStream(xzFilePath),
+			lzma.createDecompressor(),
+			createWriteStream(decompressedPath)
+		);
+		return decompressedPath;
+	} catch (err) {
+		console.error(`Failed to extract XZ archive: ${err.message}`);
+		throw err;
+	}
+};
 
 const collectDomains = (filePath, writeStream) => new Promise((resolve, reject) => {
 	const rl = readline.createInterface({ input: createReadStream(filePath), crlfDelay: Infinity });
 	rl.on('line', line => {
 		const domain = extname(filePath) === '.csv' ? line.split(',')[0].trim() : line.trim();
-		if (domain && !writeStream.write(domain + '\n')) rl.pause();
+		if (domain && !writeStream.write(`${domain}\n`)) rl.pause();
 	});
 
 	writeStream.on('drain', () => rl.resume());
