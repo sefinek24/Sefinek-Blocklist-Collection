@@ -89,7 +89,9 @@ const isWhitelisted = domain => {
 };
 
 const processFile = async (filePath, category) => {
-	process.stdout.write(`Processing ${category.category}...`);
+	const isCI = process.env.CI === 'true';
+	const isTTY = process.stdout.isTTY;
+	if (!isCI && isTTY) process.stdout.write(`Processing ${category.category}...`);
 
 	const matchedSites = new Set();
 	const rl = createInterface({ input: createReadStream(filePath, 'utf-8'), crlfDelay: Infinity });
@@ -99,9 +101,13 @@ const processFile = async (filePath, category) => {
 	}
 	rl.close();
 
-	process.stdout.clearLine(0);
-	process.stdout.cursorTo(0);
-	process.stdout.write(`Processing ${category.category.toUpperCase()}... ${matchedSites.size} sites\n`);
+	if (!isCI && isTTY && typeof process.stdout.clearLine === 'function') {
+		process.stdout.clearLine(0);
+		process.stdout.cursorTo(0);
+		process.stdout.write(`Processing ${category.category.toUpperCase()}... ${matchedSites.size} sites\n`);
+	} else {
+		console.log(`Processing ${category.category.toUpperCase()}... ${matchedSites.size} sites`);
+	}
 
 	if (global.gc) global.gc();
 	return matchedSites;
