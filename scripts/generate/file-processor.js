@@ -312,12 +312,14 @@ const main = async () => {
 					const categorySites = await processFile(filePath, category);
 					if (!fileSites[category.file]) fileSites[category.file] = new Set();
 					categorySites.forEach(site => fileSites[category.file].add(site));
+					categorySites.clear();
 				}
 			}
 
 			for (const [categoryFile, sites] of Object.entries(fileSites)) {
 				if (!results[categoryFile]) results[categoryFile] = new Set();
 				sites.forEach(site => results[categoryFile].add(site));
+				sites.clear();
 			}
 
 			fileSites = null;
