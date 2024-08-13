@@ -1,5 +1,5 @@
-const { createReadStream, createWriteStream, statSync, promises: fsPromises, constants } = require('node:fs');
-const { mkdir } = require('node:fs/promises');
+const { createReadStream, createWriteStream, statSync, constants } = require('node:fs');
+const { mkdir, access, writeFile } = require('node:fs/promises');
 const { join } = require('node:path');
 const readline = require('node:readline');
 const cluster = require('node:cluster');
@@ -15,15 +15,13 @@ const isDomainWhitelisted = domain => WHITELIST.some(pattern => matchesPattern(p
 
 const clearOldFiles = async file => {
 	try {
-		await fsPromises.access(file, constants.F_OK);
-		await fsPromises.writeFile(file, '');
+		await access(file, constants.F_OK);
+		await writeFile(file, '');
 	} catch (err) {
 		if (err.code === 'ENOENT') {
 			console.log(`File ${file} does not exist.`);
-		} else if (err.code === 'EPERM') {
-			console.log(`Permission error for file ${file}: ${err.message}`);
 		} else {
-			console.error(`Error clearing file ${file}: ${err.message}`);
+			console.error(err);
 		}
 	}
 };
