@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  download:
+  process-files:
     runs-on: ubuntu-latest
 
     steps:
