@@ -1,4 +1,4 @@
-const { createReadStream, createWriteStream, statSync, promises: fsPromises } = require('node:fs');
+const { createReadStream, createWriteStream, statSync, promises: fsPromises, constants } = require('node:fs');
 const { mkdir } = require('node:fs/promises');
 const { join } = require('node:path');
 const readline = require('readline');
@@ -15,9 +15,16 @@ const isDomainWhitelisted = domain => WHITELIST.some(pattern => matchesPattern(p
 
 const clearOldFiles = async file => {
 	try {
-		await fsPromises.unlink(file);
+		await fsPromises.access(file, constants.F_OK);
+		await fsPromises.writeFile(file, '');
 	} catch (err) {
-		console.error(err);
+		if (err.code === 'ENOENT') {
+			console.log(`File ${file} does not exist.`);
+		} else if (err.code === 'EPERM') {
+			console.log(`Permission error for file ${file}: ${err.message}`);
+		} else {
+			console.error(`Error clearing file ${file}: ${err.message}`);
+		}
 	}
 };
 
@@ -29,12 +36,6 @@ const processChunk = async (start, end, chunkId) => {
 	console.log(`Worker ${process.pid} processing chunk ${chunkId}: ${start} - ${end}`);
 
 	const rl = readline.createInterface({ input: createReadStream(inputFilePath, { start, end }), crlfDelay: Infinity });
-
-	for (const { file } of CATEGORIES) {
-		const dir = join(__dirname, 'output', file.split('/')[0]);
-		await mkdir(dir, { recursive: true });
-		await clearOldFiles(join(__dirname, `../../../blocklists/templates/${file.split('/')[0]}`));
-	}
 
 	const domainCounters = CATEGORIES.reduce((acc, { file }) => {
 		acc[file] = 0;
@@ -48,12 +49,16 @@ const processChunk = async (start, end, chunkId) => {
 	}, {});
 
 	rl.on('line', line => {
-		if (isDomainWhitelisted(line)) return console.log(`Line "${line}" is whitelisted and will be ignored`);
+		if (isDomainWhitelisted(line)) {
+			console.log(`Line "${line}" is whitelisted and will be ignored`);
+			return;
+		}
 
 		for (const { regex, file } of CATEGORIES) {
-			if (!regex.test(line)) return;
-			writeStreams[file].write(line + '\n');
-			domainCounters[file]++;
+			if (regex.test(line)) {
+				writeStreams[file].write(line + '\n');
+				domainCounters[file]++;
+			}
 		}
 	});
 
@@ -81,6 +86,14 @@ const processChunk = async (start, end, chunkId) => {
 };
 
 if (cluster.isPrimary) {
+	(async () => {
+		for (const { file } of CATEGORIES) {
+			const dir = join(__dirname, 'output', file.split('/')[0]);
+			await mkdir(dir, { recursive: true });
+			await clearOldFiles(join(__dirname, `../../../blocklists/templates/${file}`));
+		}
+	})();
+
 	const numCPUs = os.cpus().length;
 	const inputFilePath = join(__dirname, '..', '..', '..', 'tmp', 'global.txt');
 	const fileSize = statSync(inputFilePath).size;
