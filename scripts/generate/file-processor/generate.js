@@ -13,11 +13,11 @@ const matchesPattern = (pattern, domain) => {
 
 const isDomainWhitelisted = domain => WHITELIST.some(pattern => matchesPattern(pattern, domain));
 
-const clearOldFiles = async (directory) => {
+const clearOldFiles = async file => {
 	try {
-		await fsPromises.unlink(directory);
+		await fsPromises.unlink(file);
 	} catch (err) {
-		console.error(`Error clearing old files in ${directory}: ${err.message}`);
+		console.error(err);
 	}
 };
 
