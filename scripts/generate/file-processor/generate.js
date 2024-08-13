@@ -1,4 +1,4 @@
-const { createReadStream, createWriteStream, statSync } = require('node:fs');
+const { createReadStream, createWriteStream, statSync, promises: fsPromises } = require('node:fs');
 const { mkdir } = require('node:fs/promises');
 const { join } = require('node:path');
 const readline = require('readline');
@@ -13,6 +13,14 @@ const matchesPattern = (pattern, domain) => {
 
 const isDomainWhitelisted = domain => WHITELIST.some(pattern => matchesPattern(pattern, domain));
 
+const clearOldFiles = async (directory) => {
+	try {
+		await fsPromises.unlink(directory);
+	} catch (err) {
+		console.error(`Error clearing old files in ${directory}: ${err.message}`);
+	}
+};
+
 const processChunk = async (start, end, chunkId) => {
 	const tmpDir = join(__dirname, '..', '..', '..', 'tmp');
 	const inputFilePath = join(tmpDir, 'global.txt');
@@ -25,6 +33,7 @@ const processChunk = async (start, end, chunkId) => {
 	for (const { file } of CATEGORIES) {
 		const dir = join(__dirname, 'output', file.split('/')[0]);
 		await mkdir(dir, { recursive: true });
+		await clearOldFiles(join(__dirname, `../../../blocklists/templates/${file.split('/')[0]}`));
 	}
 
 	const domainCounters = CATEGORIES.reduce((acc, { file }) => {
