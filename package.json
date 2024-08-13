@@ -40,8 +40,7 @@
     "up": "ncu -u && npm i && npm update && npm audit fix"
   },
   "dependencies": {
-    "adm-zip": "^0.5.15",
-    "axios": "^1.7.3",
+    "axios": "^1.7.4",
     "cron-parser": "^4.9.0",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
@@ -52,7 +51,7 @@
     "helmet": "^7.1.0",
     "lzma-native": "^8.0.6",
     "marked": "^14.0.0",
-    "mongoose": "^8.5.2",
+    "mongoose": "^8.5.3",
     "morgan": "^1.10.0",
     "ws": "^8.18.0"
   },
@@ -63,6 +62,7 @@
     "kleur": "^4.1.5",
     "luxon": "^3.5.0",
     "uglifyjs-folder": "^3.3.0",
+    "unzipper": "^0.12.3",
     "validator": "^13.12.0"
   }
 }
