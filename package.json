@@ -40,6 +40,7 @@
     "up": "ncu -u && npm i && npm update && npm audit fix"
   },
   "dependencies": {
+    "adm-zip": "^0.5.15",
     "axios": "^1.7.3",
     "cron-parser": "^4.9.0",
     "dotenv": "^16.4.5",
@@ -49,6 +50,7 @@
     "express-rate-limit": "^7.4.0",
     "express-timeout-handler": "^2.2.2",
     "helmet": "^7.1.0",
+    "lzma-native": "^8.0.6",
     "marked": "^14.0.0",
     "mongoose": "^8.5.2",
     "morgan": "^1.10.0",
