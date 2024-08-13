@@ -61,16 +61,21 @@ const isWhitelisted = domain => {
 };
 
 const processFile = async (filePath, category) => {
-	console.log('Processing file...');
-	const data = await readFile(filePath, 'utf-8');
+	console.log('Processing files...');
 	const matchedSites = new Set();
 
-	for (const line of data.split('\n')) {
+	const fileStream = createReadStream(filePath, 'utf-8');
+	const readline = require('readline');
+	const rl = readline.createInterface({ input: fileStream, crlfDelay: Infinity });
+	for await (const line of rl) {
 		const domain = line.trim().split(/\s+/)[0];
-		if (domain && !isWhitelisted(domain) && category.regex.test(line)) matchedSites.add(`0.0.0.0 ${domain}`);
+		if (domain && !isWhitelisted(domain) && category.regex.test(line)) {
+			matchedSites.add(`0.0.0.0 ${domain}`);
+		}
 	}
 
 	console.log(`Found ${matchedSites.size} matching sites for the category: ${category.category}`);
+	global.gc && global.gc();
 	return matchedSites;
 };
 
@@ -109,7 +114,6 @@ const processCompressedFile = async (filePath, extractToDir) => {
 		filesToProcess = [basename(decompressedPath)];
 	}
 
-	// Process only the files in `filesToProcess`
 	for (const file of filesToProcess) {
 		const fullPath = join(extractToDir, file);
 		for (const category of CATEGORIES) {
@@ -117,12 +121,14 @@ const processCompressedFile = async (filePath, extractToDir) => {
 			if (!sites[category.file]) sites[category.file] = new Set();
 			fileSites.forEach(site => sites[category.file].add(site));
 		}
+
+		global.gc && global.gc();
 	}
 
 	return sites;
 };
 
-const generateHeader = (title, category, siteCount) => {
+const generateHeader = (title, category, count) => {
 	return `#       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 #      / ____| |  ____| |  ____| |_   _| | \\ | | |  ____| | |/ /       |  _ \\  | |       / __ \\   / ____| | |/ / | |      |_   _|  / ____| |__   __|
 #     | (___   | |__    | |__      | |   |  \\| | | |__    | ' /        | |_) | | |      | |  | | | |      | ' /  | |        | |   | (___      | |
@@ -137,7 +143,7 @@ const generateHeader = (title, category, siteCount) => {
 # Category: ${category || 'Unknown'}
 # Description: N/A
 # Expires: 1 day
-# Count: ${siteCount || 'Unknown'}
+# Count: ${count || 'Unknown'}
 # Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
 # Modified by: Nobody
 # Source: N/A
@@ -200,7 +206,6 @@ const main = async () => {
 	];
 
 	const results = {};
-
 	for (const { url, name } of fileUrls) {
 		const fileName = name || basename(url);
 		const filePath = join(tmpDir, fileName);
@@ -215,9 +220,7 @@ const main = async () => {
 			} else {
 				for (const category of CATEGORIES) {
 					const categorySites = await processFile(filePath, category);
-					if (!fileSites[category.file]) {
-						fileSites[category.file] = new Set();
-					}
+					if (!fileSites[category.file]) fileSites[category.file] = new Set();
 					categorySites.forEach(site => fileSites[category.file].add(site));
 				}
 			}
@@ -227,6 +230,8 @@ const main = async () => {
 				sites.forEach(site => results[categoryFile].add(site));
 			}
 
+			fileSites = null;
+			global.gc && global.gc();
 		} catch (err) {
 			console.error(`Error processing file ${fileName}: ${err.message}`);
 		}
