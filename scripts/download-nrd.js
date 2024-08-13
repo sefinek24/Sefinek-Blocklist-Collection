@@ -5,10 +5,20 @@ const axios = require('axios');
 const AdmZip = require('adm-zip');
 const lzma = require('lzma-native');
 
-const REGEX =
-	/interseksualny|a(?:lloromantic|seksualn[ay])|genderfluid|(?:gender)?queer|t(?:rans(?:gender|sexual|exual)|wo\\-spirit)|(?:(?:(?:(?:poly|allo)|bi)|pan)|demi)sexual|(?:polyamor|nonbinar|ga)y|l(?:esbi(?:jka|an)|gbtq(?:ia|\+))|(?:bi|a)gender|lgbtq?|pride/gim;
-
-// grex "pansexual" "demisexual" "aseksualny" "aseksualna" "interseksualny" "genderfluid" "genderqueer" "nonbinary" "polysexual" "polyamory" "agender" "bigender" "two-spirit" "allosexual" "alloromantic" "pride" "lgbt" "lgbtq" "lgbtq+" "lgbtqia" "lesbijka" "queer" "gay" "lesbian" "bisexual" "transexual" "transsexual" "transgender"
+const categories = {
+	0: {
+		title: 'Blocks anime websites solely based on their addresses',
+		category: 'anime',
+		regex: /anime/gi,
+		file: 'anime/main.txt'
+	},
+	1: {
+		title: 'Blocks LGBT websites solely based on their addresses',
+		category: 'lgbtq',
+		regex: /interseksualny|a(?:lloromantic|seksualn[ay])|genderfluid|(?:gender)?queer|t(?:rans(?:gender|sexual|exual)|wo\\-spirit)|(?:(?:(?:(?:poly|allo)|bi)|pan)|demi)sexual|(?:polyamor|nonbinar|ga)y|l(?:esbi(?:jka|an)|gbtq(?:ia|\+))|(?:bi|a)gender|lgbtq?|pride/gim,
+		file: 'sites/lgbtqplus2.txt'
+	}
+};
 
 const WHITELIST = [
 	'*.stoplgbt.pl'
@@ -50,16 +60,16 @@ const isWhitelisted = (domain) => {
 	});
 };
 
-const processFile = async (filePath) => {
+const processFile = async (filePath, category) => {
 	console.log(`Processing file: ${filePath}`);
 	const data = await readFile(filePath, 'utf-8');
 	const matchedSites = data.split('\n').reduce((acc, line) => {
 		const domain = line.trim().split(/\s+/)[0];
-		if (domain && !isWhitelisted(domain) && REGEX.test(line)) acc.add(`0.0.0.0 ${domain}`);
+		if (domain && !isWhitelisted(domain) && category.regex.test(line)) acc.add(`0.0.0.0 ${domain}`);
 		return acc;
 	}, new Set());
 
-	console.log(`Found ${matchedSites.size} matching sites`);
+	console.log(`Found ${matchedSites.size} matching sites for category: ${category.type}`);
 	return matchedSites;
 };
 
@@ -96,7 +106,7 @@ const extractXzFile = (xzFilePath, extractToDir) => {
 	});
 };
 
-const processCompressedFile = async (filePath, extractToDir) => {
+const processCompressedFile = async (filePath, extractToDir, category) => {
 	await mkdir(extractToDir, { recursive: true });
 	const ext = extname(filePath);
 	const sites = new Set();
@@ -105,13 +115,13 @@ const processCompressedFile = async (filePath, extractToDir) => {
 		await extractZipFile(filePath, extractToDir);
 	} else if (ext === '.xz') {
 		const decompressedPath = await extractXzFile(filePath, extractToDir);
-		const fileSites = await processFile(decompressedPath);
+		const fileSites = await processFile(decompressedPath, category);
 		fileSites.forEach(site => sites.add(site));
 	}
 
 	const files = await readdir(extractToDir);
 	for (const file of files) {
-		const fileSites = await processFile(join(extractToDir, file));
+		const fileSites = await processFile(join(extractToDir, file), category);
 		fileSites.forEach(site => sites.add(site));
 	}
 
@@ -120,49 +130,48 @@ const processCompressedFile = async (filePath, extractToDir) => {
 
 const main = async () => {
 	const tmpDir = join(__dirname, '..', 'tmp');
-	const outputFilePath = join(__dirname, '../blocklists/templates/sites/lgbtqplus2.txt');
 
 	await mkdir(tmpDir, { recursive: true });
 
 	const fileUrls = [
 		// Random
 		{ url: 'https://raw.githubusercontent.com/shreshta-labs/newly-registered-domains/main/nrd-1w.csv', name: 'shreshta-labs_nrd-1w.txt' },
-		{ url: 'https://github.com/spaze/domains/raw/main/tld-cz.txt', name: 'spaze_tld-cz.txt' },
+		{ url: 'https://github.com/spaze/domains/raw/main/tld-cz.txt', name: 'spaze_tld-cz.txt' }
 
-		// xRuffKez
-		{ url: 'https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part1.txt', name: 'xRuffKez_nrd-30day-part1.txt' },
-		{ url: 'https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part2.txt', name: 'xRuffKez_nrd-30day-part2.txt' },
-
-		// whoisds
-		{ url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMi56aXA=/nrd', name: 'whoisds1.zip' },
-		{ url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMS56aXA=/nrd', name: 'whoisds2.zip' },
-		{ url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0xMC56aXA=/nrd', name: 'whoisds3.zip' },
-		{ url: 'https://whoisds.com//whois-database/newly-registered-domains/MjAyNC0wOC0wOS56aXA=/nrd', name: 'whoisds4.zip' },
-
-		// tb0hdan
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/generic_lgbt/domain2multi-lgbt00.txt.xz', name: 'tb0hdan_generic-lgbt.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/generic_gay/domain2multi-gay00.txt.xz', name: 'tb0hdan_generic-gay.xz' },
-
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de00.txt.xz', name: 'tb0hdan_domain2multi-de00.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de01.txt.xz', name: 'tb0hdan_domain2multi-de01.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de02.txt.xz', name: 'tb0hdan_domain2multi-de02.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de03.txt.xz', name: 'tb0hdan_domain2multi-de03.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de04.txt.xz', name: 'tb0hdan_domain2multi-de04.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de05.txt.xz', name: 'tb0hdan_domain2multi-de05.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de06.txt.xz', name: 'tb0hdan_domain2multi-de06.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de07.txt.xz', name: 'tb0hdan_domain2multi-de07.xz' },
-
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl00.txt.xz', name: 'tb0hdan_domain2multi-pl00.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl01.txt.xz', name: 'tb0hdan_domain2multi-pl01.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl02.txt.xz', name: 'tb0hdan_domain2multi-pl02.xz' },
-
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/united_states/domain2multi-us00.txt.xz', name: 'tb0hdan_domain2multi-us00.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk00.txt.xz', name: 'tb0hdan_domain2multi-uk00.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk01.txt.xz', name: 'tb0hdan_domain2multi-uk01.xz' },
-		{ url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk02.txt.xz', name: 'tb0hdan_domain2multi-uk02.xz' }
+		// // xRuffKez
+		// { url: 'https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part1.txt', name: 'xRuffKez_nrd-30day-part1.txt' },
+		// { url: 'https://raw.githubusercontent.com/xRuffKez/NRD/main/nrd-30day_part2.txt', name: 'xRuffKez_nrd-30day-part2.txt' },
+		//
+		// // whoisds
+		// { url: 'https://whoisds.com/whois-database/newly-registered-domains/MjAyNC0wOC0xMi56aXA=/nrd', name: 'whoisds1.zip' },
+		// { url: 'https://whoisds.com/whois-database/newly-registered-domains/MjAyNC0wOC0xMS56aXA=/nrd', name: 'whoisds2.zip' },
+		// { url: 'https://whoisds.com/whois-database/newly-registered-domains/MjAyNC0wOC0xMC56aXA=/nrd', name: 'whoisds3.zip' },
+		// { url: 'https://whoisds.com/whois-database/newly-registered-domains/MjAyNC0wOC0wOS56aXA=/nrd', name: 'whoisds4.zip' },
+		//
+		// // tb0hdan
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/generic_lgbt/domain2multi-lgbt00.txt.xz', name: 'tb0hdan_generic-lgbt.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/generic_gay/domain2multi-gay00.txt.xz', name: 'tb0hdan_generic-gay.xz' },
+		//
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de00.txt.xz', name: 'tb0hdan_domain2multi-de00.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de01.txt.xz', name: 'tb0hdan_domain2multi-de01.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de02.txt.xz', name: 'tb0hdan_domain2multi-de02.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de03.txt.xz', name: 'tb0hdan_domain2multi-de03.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de04.txt.xz', name: 'tb0hdan_domain2multi-de04.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de05.txt.xz', name: 'tb0hdan_domain2multi-de05.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de06.txt.xz', name: 'tb0hdan_domain2multi-de06.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/germany/domain2multi-de07.txt.xz', name: 'tb0hdan_domain2multi-de07.xz' },
+		//
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl00.txt.xz', name: 'tb0hdan_domain2multi-pl00.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl01.txt.xz', name: 'tb0hdan_domain2multi-pl01.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/poland/domain2multi-pl02.txt.xz', name: 'tb0hdan_domain2multi-pl02.xz' },
+		//
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/united_states/domain2multi-us00.txt.xz', name: 'tb0hdan_domain2multi-us00.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk00.txt.xz', name: 'tb0hdan_domain2multi-uk00.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk01.txt.xz', name: 'tb0hdan_domain2multi-uk01.xz' },
+		// { url: 'https://github.com/tb0hdan/domains/raw/master/data/united_kingdom/domain2multi-uk02.txt.xz', name: 'tb0hdan_domain2multi-uk02.xz' }
 	];
 
-	const sites = new Set();
+	const results = {};
 
 	for (const { url, name } of fileUrls) {
 		const fileName = name || basename(url);
@@ -170,19 +179,26 @@ const main = async () => {
 		try {
 			await downloadFile(url, filePath);
 
-			const extractToDir = join(tmpDir, `${fileName}_extracted_`);
-			const fileSites = ['.zip', '.xz'].includes(extname(filePath))
-				? await processCompressedFile(filePath, extractToDir)
-				: await processFile(filePath);
+			for (const category of Object.values(categories)) {
+				const extractToDir = join(tmpDir, `${fileName}_extracted_`);
+				const fileSites = ['.zip', '.xz'].includes(extname(filePath))
+					? await processCompressedFile(filePath, extractToDir, category)
+					: await processFile(filePath, category);
 
-			fileSites.forEach(site => sites.add(site));
+				if (!results[category.file]) {
+					results[category.file] = new Set();
+				}
+
+				fileSites.forEach(site => results[category.file].add(site));
+			}
 		} catch (err) {
 			console.error(`Error processing file ${fileName}: ${err.message}`);
 		}
 	}
 
-	if (sites.size > 0) {
+	for (const [fileName, sites] of Object.entries(results)) {
 		const sortedSites = Array.from(sites).sort((a, b) => a.localeCompare(b));
+		const outputFilePath = join(__dirname, `../blocklists/templates/${fileName}`);
 
 		await writeFile(outputFilePath, `#       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 #      / ____| |  ____| |  ____| |_   _| | \\ | | |  ____| | |/ /       |  _ \\  | |       / __ \\   / ____| | |/ / | |      |_   _|  / ____| |__   __|
@@ -217,11 +233,11 @@ const main = async () => {
 ${sortedSites.join('\n')}`, { flag: 'w' });
 
 		const zeroCount = sortedSites.filter(site => site.startsWith('0.0.0.0')).length;
-		console.log(`Number of lines starting with "0.0.0.0": ${zeroCount}`);
+		console.log(`Number of lines starting with "0.0.0.0" in ${fileName}: ${zeroCount}`);
 	}
 
 	await rm(tmpDir, { recursive: true, force: true });
-	console.log('Processing complete! Check the file at:', outputFilePath);
+	console.log('Processing complete!');
 };
 
 main().catch(console.error);
