@@ -112,7 +112,6 @@ const extractZipFile = async (zipFilePath, extractToDir) => {
 	const zip = new AdmZip(zipFilePath);
 	await mkdir(extractToDir, { recursive: true });
 	zip.extractAllTo(extractToDir, true);
-	global.gc && global.gc();
 };
 
 const extractXzFile = (xzFilePath, extractToDir) => {
@@ -158,7 +157,7 @@ const processCompressedFile = async (filePath, extractToDir) => {
 			fileSites.clear();
 		}
 
-		global.gc && global.gc();
+		if (global.gc) global.gc();
 	}
 
 	return sites;
@@ -305,13 +304,19 @@ const main = async () => {
 				}
 			}
 
-			for (const [categoryFile, sites] of Object.entries(fileSites)) {
-				if (!results[categoryFile]) results[categoryFile] = new Set();
-				sites.forEach(site => results[categoryFile].add(site));
+			for (const [categoryFile, sites] of Object.entries(results)) {
+				if (sites.size < 0) return;
+
+				const sortedSites = [...sites].sort();
+				const category = CATEGORIES.find(cat => cat.file === categoryFile);
+				const header = generateHeader(category.title, category.category, sortedSites.length);
+
+				await writeFile(join(__dirname, `../blocklists/templates/${categoryFile}`), header + sortedSites.join('\n'), { flag: 'w' });
+				sites.clear();
 			}
 
 			fileSites = null;
-			global.gc && global.gc();
+			if (global.gc) global.gc();
 		} catch (err) {
 			console.error(`Error processing file ${fileName}: ${err.message}`);
 		}
