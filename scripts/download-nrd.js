@@ -5,44 +5,73 @@ const axios = require('axios');
 const AdmZip = require('adm-zip');
 const lzma = require('lzma-native');
 
-const REGEX = /interseksualny|a(?:lloromantic|seksualn[ay])|genderfluid|(?:gender)?queer|t(?:rans(?:gender|sexual|exual)|wo\\-spirit)|(?:p(?:oly|an)s|allos|bis)exual|(?:polyamor|nonbinar|ga)y|l(?:esbi(?:jka|an)|gbtq(?:ia|\+))|(?:bi|a)gender|lgbtq?|pride|demi/gim;
+const REGEX =
+	/interseksualny|a(?:lloromantic|seksualn[ay])|genderfluid|(?:gender)?queer|t(?:rans(?:gender|sexual|exual)|wo\\-spirit)|(?:(?:(?:(?:poly|allo)|bi)|pan)|demi)sexual|(?:polyamor|nonbinar|ga)y|l(?:esbi(?:jka|an)|gbtq(?:ia|\+))|(?:bi|a)gender|lgbtq?|pride/gim;
+
+// grex "pansexual" "demisexual" "aseksualny" "aseksualna" "interseksualny" "genderfluid" "genderqueer" "nonbinary" "polysexual" "polyamory" "agender" "bigender" "two-spirit" "allosexual" "alloromantic" "pride" "lgbt" "lgbtq" "lgbtq+" "lgbtqia" "lesbijka" "queer" "gay" "lesbian" "bisexual" "transexual" "transsexual" "transgender"
+
+const WHITELIST = [
+	'*.stoplgbt.pl'
+];
 
 const downloadFile = async (url, outputPath) => {
-	console.log('GET', url);
+	console.log(`Downloading file from ${url}...`);
 
 	try {
 		const res = await axios.get(url, { responseType: 'stream' });
-		const writer = createWriteStream(outputPath);
 		await new Promise((resolve, reject) => {
+			const writer = createWriteStream(outputPath);
 			res.data.pipe(writer);
-			writer.on('finish', resolve);
-			writer.on('error', reject);
+
+			writer.on('finish', () => {
+				writer.close();
+				console.log(`Download complete: ${outputPath}`);
+				resolve();
+			});
+			writer.on('error', (err) => {
+				writer.close();
+				reject(err);
+			});
 		});
-		writer.close();
 	} catch (err) {
-		console.error(`Failed to download ${url}.`, err.message);
+		console.error(`Failed to download ${url}. Error: ${err.message}`);
 		throw err;
 	}
 };
 
-const processFile = async (filePath) => {
-	const data = await readFile(filePath, 'utf-8');
-	return data.split('\n').reduce((acc, line) => {
-		if (REGEX.test(line)) {
-			const domain = line.trim().split(/\s+/)[0];
-			if (domain) acc.add(`0.0.0.0 ${domain}`);
+const isWhitelisted = (domain) => {
+	return WHITELIST.some(whitelistItem => {
+		if (whitelistItem.startsWith('*.')) {
+			const baseDomain = whitelistItem.slice(2);
+			return domain === baseDomain || domain.endsWith(`.${baseDomain}`);
+		} else {
+			return domain === whitelistItem;
 		}
+	});
+};
+
+const processFile = async (filePath) => {
+	console.log(`Processing file: ${filePath}`);
+	const data = await readFile(filePath, 'utf-8');
+	const matchedSites = data.split('\n').reduce((acc, line) => {
+		const domain = line.trim().split(/\s+/)[0];
+		if (domain && !isWhitelisted(domain) && REGEX.test(line)) acc.add(`0.0.0.0 ${domain}`);
 		return acc;
 	}, new Set());
+
+	console.log(`Found ${matchedSites.size} matching sites`);
+	return matchedSites;
 };
 
 const extractZipFile = async (zipFilePath, extractToDir) => {
+	console.log('Extracting ZIP file...');
 	const zip = new AdmZip(zipFilePath);
 	await mkdir(extractToDir, { recursive: true });
 	zip.extractAllTo(extractToDir, true);
 };
 
 const extractXzFile = (xzFilePath, extractToDir) => {
+	console.log('Extracting XZ file...');
 	return new Promise((resolve, reject) => {
 		const decompressedFileName = basename(xzFilePath, '.xz');
 		const decompressedPath = join(extractToDir, decompressedFileName);
@@ -58,7 +87,12 @@ const extractXzFile = (xzFilePath, extractToDir) => {
 			outputStream.close();
 			resolve(decompressedPath);
 		});
-		outputStream.on('error', reject);
+
+		outputStream.on('error', err => {
+			inputStream.close();
+			outputStream.close();
+			reject(err);
+		});
 	});
 };
 
@@ -76,11 +110,10 @@ const processCompressedFile = async (filePath, extractToDir) => {
 	}
 
 	const files = await readdir(extractToDir);
-	await Promise.all(files.map(async (file) => {
-		const filePath = join(extractToDir, file);
-		const fileSites = await processFile(filePath);
+	for (const file of files) {
+		const fileSites = await processFile(join(extractToDir, file));
 		fileSites.forEach(site => sites.add(site));
-	}));
+	}
 
 	return sites;
 };
@@ -137,7 +170,7 @@ const main = async () => {
 		try {
 			await downloadFile(url, filePath);
 
-			const extractToDir = join(tmpDir, `extracted_${fileName}`);
+			const extractToDir = join(tmpDir, `${fileName}_extracted_`);
 			const fileSites = ['.zip', '.xz'].includes(extname(filePath))
 				? await processCompressedFile(filePath, extractToDir)
 				: await processFile(filePath);
@@ -182,6 +215,9 @@ const main = async () => {
 #
 # -------------------------------------------------------------------------------------------------------------------------------------------------------
 ${sortedSites.join('\n')}`, { flag: 'w' });
+
+		const zeroCount = sortedSites.filter(site => site.startsWith('0.0.0.0')).length;
+		console.log(`Number of lines starting with "0.0.0.0": ${zeroCount}`);
 	}
 
 	await rm(tmpDir, { recursive: true, force: true });
