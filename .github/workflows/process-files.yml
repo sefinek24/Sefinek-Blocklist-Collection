@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 1
           ref: main
 
       - name: Use Node.js
@@ -56,12 +57,12 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "Sefinek Actions"
-          git config --global user.email "sefinek.actions@gmail.com"
+          git config user.name "Sefinek Actions"
+          git config user.email "sefinek.actions@gmail.com"
           if [ -n "$(git status -s)" ]; then
-            git status
+            FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
             MODIFIED_FILES=$(git diff --name-only HEAD)
-            git commit -m "Update lists [$(echo "$MODIFIED_FILES" | wc -l)] - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" -m "$MODIFIED_FILES"
+            git commit -am "Update lists [$FILE_COUNT files]" -m "$MODIFIED_FILES"
             git push origin main
           else
             echo "Canceled. No changes to commit."

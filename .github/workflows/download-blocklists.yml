@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          fetch-depth: 1
           ref: main
 
       - name: Download blocklists
@@ -66,11 +67,6 @@ jobs:
       - name: Generate list for Unbound
         run: node scripts/generate/unbound.js
 
-      # - name: Track large files
-      #   run: |
-      #     find . -type f \( -name "*.txt" -o -name "*.conf" \) -size +50M | xargs -I {} git lfs track "{}"
-      #     git add .gitattributes
-
       - name: Run git pull
         run: git pull
 
@@ -79,12 +75,12 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "Sefinek Actions"
-          git config --global user.email "sefinek.actions@gmail.com"
+          git config user.name "Sefinek Actions"
+          git config user.email "sefinek.actions@gmail.com"
           if [ -n "$(git status -s)" ]; then
-            git status
+            FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
             MODIFIED_FILES=$(git diff --name-only HEAD)
-            git commit -m "Bi-hourly update of blocklists [$(echo "$MODIFIED_FILES" | wc -l)] - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" -m "$MODIFIED_FILES"
+            git commit -am "Bi-hourly update of blocklists [$FILE_COUNT files] - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" -m "$MODIFIED_FILES"
             git push origin main
           else
             echo "Canceled. No changes to commit."
