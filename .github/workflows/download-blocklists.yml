@@ -68,7 +68,7 @@ jobs:
         run: node scripts/generate/unbound.js
 
       - name: Run git pull
-        run: git pull
+        run: git pull origin main
 
       - name: Add files to staging
         run: git add .

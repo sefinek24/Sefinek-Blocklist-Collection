@@ -50,7 +50,7 @@ jobs:
         run: node scripts/update-number-of-domains.js --ignore-question
 
       - name: Run git pull
-        run: git pull
+        run: git pull origin main
 
       - name: Add files to staging
         run: git add .
