@@ -40,17 +40,11 @@ jobs:
       - name: Remove domains that are on the whitelist
         run: node scripts/whitelist.js
 
-      # - name: Sort templates
-      #   run: node scripts/sort-templates.js
-
       - name: Set valid encoding
         run: node scripts/set-valid-encoding.js
 
       - name: Count domains
         run: node scripts/update-number-of-domains.js --ignore-question
-
-      # - name: Create everything list
-      #   run: node scripts/create-everything-list.js
 
       - name: Generate No IP list
         run: node scripts/generate/noip.js
