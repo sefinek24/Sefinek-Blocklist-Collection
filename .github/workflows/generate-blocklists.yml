@@ -17,10 +17,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-          # lfs: true
-
-      # - name: Set up Git LFS
-      #   run: git lfs install
 
       - name: Use Node.js
         uses: actions/setup-node@v4
@@ -66,11 +62,6 @@ jobs:
 
       - name: Generate list for Unbound
         run: node scripts/generate/unbound.js
-
-      # - name: Track large files
-      #   run: |
-      #     find . -type f -name '*.txt' -size +50M | xargs -I {} git lfs track "{}"
-      #     git add .gitattributes
 
       - name: Run git pull
         run: git pull
