@@ -84,8 +84,8 @@ exports.CATEGORIES = [
 	{
 		title: 'Blocks websites dedicated to anime, manga, cosplay, hentai, and other NSFW degeneracy',
 		category: 'Anime',
-		regex: /l(?:ightnovel|olicon)|(?:bishoun|s(?:ho|ei)n)en|(?:doujins|ecc)hi|fudanshi|tsundere|cosplay|bishojo|(?:yan|kuu)dere|doujin|seiyuu|w(?:otak|aif)u|(?:shou?j|meid)o|(?:henta|iseka|kawai|chib|genk|y(?:ao|ur))i|harem|m(?:ang|ech)a|otaku|anime/gi,
-		// grex "anime" "manga" "hentai" "cosplay" "otaku" "shonen" "shoujo" "yuri" "yaoi" "ecchi" "isekai" "kawaii" "tsundere" "yandere" "mecha" "waifu" "seinen" "doujinshi" "bishounen" "shojo" "chibi" "bishojo" "doujin" "seiyuu" "harem" "meido" "lolicon" "fudanshi" "kuudere" "genki" "lightnovel" "wotaku"
+		regex: /l(?:ightnovel|olicon)|(?:bishoun|s(?:ho|ei)n)en|(?:doujins|ecc)hi|fudanshi|tsundere|cosplay|bishojo|(?:yan|kuu)dere|doujin|seiyuu|w(?:otak|aif)u|(?:shou?j|meid)o|(?:henta|iseka|kawai|chib|genk|y(?:ao|ur))i|harem|manga|otaku|anime/gi,
+		// grex "anime" "manga" "hentai" "cosplay" "otaku" "shonen" "shoujo" "yuri" "yaoi" "ecchi" "isekai" "kawaii" "tsundere" "yandere" "waifu" "seinen" "doujinshi" "bishounen" "shojo" "chibi" "bishojo" "doujin" "seiyuu" "harem" "meido" "lolicon" "fudanshi" "kuudere" "genki" "lightnovel" "wotaku"
 		file: 'anime/main.txt'
 	},
 	{
