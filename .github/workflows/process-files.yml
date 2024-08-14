@@ -29,10 +29,13 @@ jobs:
         run: npm ci
 
       - name: Download lists
-        run: node scripts/generate/file-processor/index.js --expose-gc
+        run: node scripts/generate/file-processor/download.js --expose-gc
 
       - name: Generate lists
         run: node scripts/generate/file-processor/generate.js
+
+      - name: Generate header
+        run: node scripts/generate/file-processor/header.js
 
       - name: Prepare templates
         run: node scripts/prepare-templates.js

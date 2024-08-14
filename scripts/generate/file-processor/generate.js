@@ -1,5 +1,5 @@
 const { createReadStream, createWriteStream, statSync, constants } = require('node:fs');
-const { mkdir, access, writeFile } = require('node:fs/promises');
+const { mkdir, access, writeFile, rm } = require('node:fs/promises');
 const { join } = require('node:path');
 const readline = require('node:readline');
 const cluster = require('node:cluster');
@@ -26,14 +26,12 @@ const clearOldFiles = async file => {
 	}
 };
 
-const processChunk = async (start, end, chunkId) => {
-	const tmpDir = join(__dirname, '..', '..', '..', 'tmp');
-	const inputFilePath = join(tmpDir, 'global.txt');
+const tmpDir = join(__dirname, '..', '..', '..', 'tmp');
+const inputFilePath = join(tmpDir, 'global.txt');
 
+const processChunk = async (start, end, chunkId) => {
 	console.time(`Execution Time for chunk ${chunkId}`);
 	console.log(`Worker ${process.pid} processing chunk ${chunkId}: ${start} - ${end}`);
-
-	const rl = readline.createInterface({ input: createReadStream(inputFilePath, { start, end }), crlfDelay: Infinity });
 
 	const domainCounters = CATEGORIES.reduce((acc, { file }) => {
 		acc[file] = 0;
@@ -46,6 +44,7 @@ const processChunk = async (start, end, chunkId) => {
 		return acc;
 	}, {});
 
+	const rl = readline.createInterface({ input: createReadStream(inputFilePath, { start, end }), crlfDelay: Infinity });
 	rl.on('line', line => {
 		if (isDomainWhitelisted(line)) return console.log(`Line "${line}" is whitelisted and will be ignored`);
 
@@ -73,9 +72,7 @@ const processChunk = async (start, end, chunkId) => {
 	});
 
 	for (const stream of Object.values(writeStreams)) {
-		stream.on('error', err => {
-			console.error(`Worker ${process.pid} error writing to file: ${err.message}`);
-		});
+		stream.on('error', err => console.error(`Worker ${process.pid} error writing to file: ${err.message}`));
 	}
 };
 
@@ -97,9 +94,15 @@ if (cluster.isPrimary) {
 		cluster.fork({ start, end, chunkId: i });
 	}
 
+	let workersExited = 0;
 	cluster.on('exit', (worker, code, signal) => {
-		if (code !== 0) {
-			console.error(`Worker ${worker.process.pid} terminated unexpectedly with code ${code} and signal ${signal}`);
+		workersExited++;
+		if (code !== 0) console.error(`Worker ${worker.process.pid} terminated unexpectedly with code ${code} and signal ${signal}`);
+
+		if (workersExited === numCPUs) {
+			rm(tmpDir, { recursive: true, force: true })
+				.then(() => console.log(`Deleted ${tmpDir}`))
+				.catch(err => console.error(`Failed to delete ${tmpDir}:`, err));
 		}
 	});
 } else {

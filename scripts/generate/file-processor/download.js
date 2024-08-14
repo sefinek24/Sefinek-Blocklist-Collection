@@ -41,11 +41,7 @@ const extractXzFile = async (xzFilePath, extractToDir) => {
 
 	try {
 		await mkdir(extractToDir, { recursive: true });
-		await pipeline(
-			createReadStream(xzFilePath),
-			lzma.createDecompressor(),
-			createWriteStream(decompressedPath)
-		);
+		await pipeline(createReadStream(xzFilePath), lzma.createDecompressor(), createWriteStream(decompressedPath));
 		return decompressedPath;
 	} catch (err) {
 		console.error(`Failed to extract XZ archive: ${err.message}`);
@@ -101,6 +97,9 @@ const processCompressedFile = async (filePath, extractToDir, writeStream) => {
 	}
 
 	await processFilesRecursively(extractToDir, writeStream);
+
+	await rm(filePath, { force: true });
+	await rm(extractToDir, { recursive: true, force: true });
 	if (global.gc) global.gc();
 };
 
@@ -123,6 +122,7 @@ const main = async () => {
 				await processCompressedFile(filePath, extractToDir, writeStream);
 			} else {
 				await collectDomains(filePath, writeStream);
+				await rm(filePath, { force: true });
 			}
 
 			console.log(`Finished processing ${fileName}`);
