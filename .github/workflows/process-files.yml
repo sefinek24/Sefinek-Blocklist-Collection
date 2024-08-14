@@ -52,6 +52,9 @@ jobs:
       - name: Count domains
         run: node scripts/update-number-of-domains.js --ignore-question
 
+      - name: Run git pull
+        run: git pull
+
       - name: Add files to staging
         run: git add .
 

@@ -75,6 +75,9 @@ jobs:
       #     find . -type f \( -name "*.txt" -o -name "*.conf" \) -size +50M | xargs -I {} git lfs track "{}"
       #     git add .gitattributes
 
+      - name: Run git pull
+        run: git pull
+
       - name: Add files to staging
         run: git add .
 
