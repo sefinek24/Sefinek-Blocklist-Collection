@@ -123,8 +123,8 @@ git clone --branch main --single-branch https://github.com/sefinek24/Sefinek-Blo
 
 
 ## 🌠 My other ~~useless~~ repositories
-1. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
-2. [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
+1. [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
+2. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
 
 
 ## 🐈 Source of used images
