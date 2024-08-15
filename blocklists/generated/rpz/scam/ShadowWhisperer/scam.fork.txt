@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723673399750 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723681570965 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,681
-; Updated: 8/14/2024  10:32 (10:32 AM CST)
+; Domains: 13,682
+; Updated: 8/14/2024  18:41 (6:41 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -12091,6 +12091,8 @@ homeofteacupfrenchies.com CNAME .
 *.homeofteacupfrenchies.com CNAME .
 homeprinters.org CNAME .
 *.homeprinters.org CNAME .
+homeproducttesting.org CNAME .
+*.homeproducttesting.org CNAME .
 homeprosnearby.net CNAME .
 *.homeprosnearby.net CNAME .
 homepros.zone CNAME .
