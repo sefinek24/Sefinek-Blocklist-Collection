@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723702302550 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723745502501 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 18,928
-; Updated: 8/14/2024  23:27 (11:27 PM CST)
+; Domains: 18,929
+; Updated: 8/15/2024  11:34 (11:34 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -4521,6 +4521,8 @@ adpepper.us CNAME .
 *.adpepper.us CNAME .
 adperfect.com CNAME .
 *.adperfect.com CNAME .
+co.uk CNAME .
+*.co.uk CNAME .
 adperiencemedia.com CNAME .
 *.adperiencemedia.com CNAME .
 adperio.com CNAME .
