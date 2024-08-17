@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723759769820 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723882256555 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,683
-; Updated: 8/15/2024  16:31 (4:31 PM CST)
+; Domains: 13,685
+; Updated: 8/17/2024  02:19 (2:19 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -19567,6 +19567,10 @@ procommon.club CNAME .
 *.procommon.club CNAME .
 procommunity.club CNAME .
 *.procommunity.club CNAME .
+procontract.club CNAME .
+*.procontract.club CNAME .
+procontrol.club CNAME .
+*.procontrol.club CNAME .
 procorporation.club CNAME .
 *.procorporation.club CNAME .
 procost.club CNAME .
