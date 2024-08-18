@@ -20,8 +20,8 @@
 
 ## 💸 Support me
 Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me. Thank you! 😹😻
-> https://sefinek.net/support-me  (Patreon, Ko-fi, GitHub Sponsors, Stripe)  
-> https://paypal.me/sefinek (email for PayPal: contact@sefinek.net)
+> https://sefinek.net/support-me  (Ko-fi, GitHub Sponsors, Stripe, Patreon)  
+> https://paypal.me/sefinek (PayPal: contact@sefinek.net)
 
 
 ## 📝 More information
@@ -64,28 +64,28 @@ Synchronization occurs daily at `01:00` and `06:00`. 24-hour clock; Poland time 
 
 
 ## ✨ Default blocklist
-- [**Abuse:**](https://blocklist.sefinek.net/viewer/info/block/Abuse) Blocks known domains involved in online abuse or harassment.
-- [**Advertising:**](https://blocklist.sefinek.net/viewer/info/block/Advertising) Blocks domains that serve advertisements to visitors.
-- [**AMP Hosts:**](https://blocklist.sefinek.net/viewer/info/block/AMP_Hosts) Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
-- [**CryptoJacking:**](https://blocklist.sefinek.net/viewer/info/block/CryptoJacking) Blocks domains that hijack your device to mine cryptocurrency.
-- [**Dating Services:**](https://blocklist.sefinek.net/viewer/info/block/Dating_services) Blocks domains of dating websites and apps.
-- [**Drugs:**](https://blocklist.sefinek.net/viewer/info/block/Drugs) Blocks domains that sell or promote drugs.
-- [**Fake News:**](https://blocklist.sefinek.net/viewer/info/block/Fake_news) Blocks domains that are known to publish fake or misleading news.
-- [**Gambling:**](https://blocklist.sefinek.net/viewer/info/block/Gambling) Blocks domains of online gambling websites.
-- [**Hate & Junk:**](https://blocklist.sefinek.net/viewer/info/block/Hate_and_junk) Blocks domains promoting hate speech or spreading false information.
-- [**LGBTQ+ content:**](https://blocklist.sefinek.net/viewer/info/block/LGBTQ_Plus) Blocks domains that are related to LGBTQ+ content.
-- [**Malicious:**](https://blocklist.sefinek.net/viewer/info/block/Malicious) Blocks domains that are considered dangerous or malicious.
-- [**Phishing:**](https://blocklist.sefinek.net/viewer/info/block/Phishing) Blocks domains involved in phishing attempts.
-- [**Piracy:**](https://blocklist.sefinek.net/viewer/info/block/Piracy) Blocks domains that distribute pirated software or media.
-- [**Porn:**](https://blocklist.sefinek.net/viewer/info/block/Porn) Blocks domains of adult websites.
-- [**Ransomware:**](https://blocklist.sefinek.net/viewer/info/block/Ransomware) Blocks domains involved in ransomware attacks.
-- [**Redirect:**](https://blocklist.sefinek.net/viewer/info/block/Redirect) Blocks domains that redirect users to unintended websites.
-- [**Scam:**](https://blocklist.sefinek.net/viewer/info/block/Scam) Blocks domains that are known to promote scams or fraudulent activity.
-- [**Spam mails:**](https://blocklist.sefinek.net/viewer/info/block/Spam_mails) Blocks domains that send unsolicited email.
-- [**Spyware:**](https://blocklist.sefinek.net/viewer/info/block/Spyware) Blocks domains that distribute spyware or adware.
-- [**Telemetry & Tracking:**](https://blocklist.sefinek.net/viewer/info/block/Telemetry_and_Tracking) Blocks domains that track user activity for analytics purposes.
-- [**Useless websites:**](https://blocklist.sefinek.net/viewer/info/block/Useless_websites) Blocks domains that offer little or no value to users.
-- [**Websites & Games:**](https://blocklist.sefinek.net/viewer/info/block/Block_websites_and_games) TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
+- **Abuse:** Blocks known domains involved in online abuse or harassment.
+- **Advertising:** Blocks domains that serve advertisements to visitors.
+- **AMP Hosts:** Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
+- **CryptoJacking:** Blocks domains that hijack your device to mine cryptocurrency.
+- **Dating Services:** Blocks domains of dating websites and apps.
+- **Drugs:** Blocks domains that sell or promote drugs.
+- **Fake News:** Blocks domains that are known to publish fake or misleading news.
+- **Gambling:** Blocks domains of online gambling websites.
+- **Hate & Junk:** Blocks domains promoting hate speech or spreading false information.
+- **LGBTQ+ content:** Blocks domains that are related to LGBTQ+ content.
+- **Malicious:** Blocks domains that are considered dangerous or malicious.
+- **Phishing:** Blocks domains involved in phishing attempts.
+- **Piracy:** Blocks domains that distribute pirated software or media.
+- **Porn:** Blocks domains of adult websites.
+- **Ransomware:** Blocks domains involved in ransomware attacks.
+- **Redirect:** Blocks domains that redirect users to unintended websites.
+- **Scam:** Blocks domains that are known to promote scams or fraudulent activity.
+- **Spam mails:** Blocks domains that send unsolicited email.
+- **Spyware:** Blocks domains that distribute spyware or adware.
+- **Telemetry & Tracking:** Blocks domains that track user activity for analytics purposes.
+- **Useless websites:** Blocks domains that offer little or no value to users.
+- **Websites & Games:** TikTok, Snapchat, Omegle, Riot Games, Valorant and League of Legends.
 
 <h3 align="right">
     📃 <a href="docs/lists/Index.md">Choose your adblocker and copy URL addresses »</a>
@@ -122,9 +122,9 @@ git clone --branch main --single-branch https://github.com/sefinek24/Sefinek-Blo
 ```
 
 
-## 🌠 My other ~~useless~~ repositories
-1. [sefinek24/cloudflare-waf-expressions](https://github.com/sefinek24/cloudflare-waf-expressions)
-2. [sefinek24/pihole-ping-domains-util](https://github.com/sefinek24/pihole-ping-domains-util)
+## 🌠 My other repositories
+1. [Cloudflare-WAF-Expressions](https://github.com/sefinek24/Cloudflare-WAF-Expressions)
+2. [Node-Cloudflare-WAF-AbuseIPDB](https://github.com/sefinek24/Node-Cloudflare-WAF-AbuseIPDB)
 
 
 ## 🐈 Source of used images
