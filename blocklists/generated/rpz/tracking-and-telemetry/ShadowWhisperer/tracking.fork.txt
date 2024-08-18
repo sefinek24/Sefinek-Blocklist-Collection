@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723788691349 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1723954286905 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 77,945
-; Updated: 8/16/2024  00:31 (12:31 AM CST)
+; Domains: 77,946
+; Updated: 8/17/2024  22:51 (10:51 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -140835,6 +140835,8 @@ lightbridgeacademy.com CNAME .
 *.lightbridgeacademy.com CNAME .
 listhub.net CNAME .
 *.listhub.net CNAME .
+oe24.at CNAME .
+*.oe24.at CNAME .
 ljusdalsposten.se CNAME .
 *.ljusdalsposten.se CNAME .
 ljusnan.se CNAME .
