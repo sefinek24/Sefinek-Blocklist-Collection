@@ -77,7 +77,7 @@ jobs:
           if [ -n "$(git status -s)" ]; then
             FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
             MODIFIED_FILES=$(git diff --name-only HEAD)
-            git commit -am "Update previously committed blocklists in $COMMIT_HASH [$FILE_COUNT files]" -m "$MODIFIED_FILES"
+            git commit -am "Update previously committed blocklists in $GITHUB_SHA [$FILE_COUNT files]" -m "$MODIFIED_FILES"
             git push origin main
           else
             echo "Canceled. No changes to commit."
