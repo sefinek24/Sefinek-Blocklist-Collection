@@ -8,13 +8,12 @@ const processCategory = async ({ title, category, file }) => {
 
 	try {
 		await fs.access(filePath);
-	} catch {
-		console.warn(`[WARNING] File not found: ${filePath}`);
-		return;
+	} catch (err) {
+		return console.error(filePath, err);
 	}
 
 	let fileContent = await fs.readFile(filePath, 'utf8');
-	fileContent = fileContent.replace(/^#.*\n/gm, '').trim();
+	fileContent = fileContent.replace(/#.*/gm, '').trim();
 
 	const count = fileContent.split('\n').filter(line => line.startsWith('0.0.0.0')).length;
 	const headerContent = generateHeader(title || 'Unknown', category || 'Unknown', count);

@@ -1,5 +1,5 @@
-const { createReadStream, createWriteStream, statSync, constants } = require('node:fs');
-const { mkdir, access, writeFile, rm } = require('node:fs/promises');
+const { mkdir, rm } = require('node:fs/promises');
+const { createReadStream, createWriteStream, statSync } = require('node:fs');
 const { join } = require('node:path');
 const readline = require('node:readline');
 const cluster = require('node:cluster');
@@ -12,19 +12,6 @@ const matchesPattern = (pattern, domain) => {
 };
 
 const isDomainWhitelisted = domain => WHITELIST.some(pattern => matchesPattern(pattern, domain));
-
-const clearOldFiles = async file => {
-	try {
-		await access(file, constants.F_OK);
-		await writeFile(file, '');
-	} catch (err) {
-		if (err.code === 'ENOENT') {
-			console.log(`File ${file} does not exist.`);
-		} else {
-			console.error(err);
-		}
-	}
-};
 
 const tmpDir = join(__dirname, '..', '..', '..', 'tmp');
 const inputFilePath = join(tmpDir, 'global.txt');
@@ -81,7 +68,6 @@ if (cluster.isPrimary) {
 		for (const { file } of CATEGORIES) {
 			const dir = join(__dirname, 'output', file.split('/')[0]);
 			await mkdir(dir, { recursive: true });
-			await clearOldFiles(join(__dirname, `../../../blocklists/templates/${file}`));
 		}
 	})();
 
