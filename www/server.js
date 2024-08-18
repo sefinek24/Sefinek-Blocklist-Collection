@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Morgan & ratelimits & timeout
 app.use(morgan.use);
-// app.use(limiter);
+app.use(limiter);
 app.use(timeout());
 
 
