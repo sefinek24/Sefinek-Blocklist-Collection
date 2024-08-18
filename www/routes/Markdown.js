@@ -86,16 +86,16 @@ router.use('/viewer/:category', async (req, res) => {
 		.replace(/%20/g, ' ');
 
 	const fileName = req.url.split('/').pop();
-	if (!isValidName(fileName) || !pages.includes(fileName)) return res.sendStatus(404);
-	if (!isPathSecure(file)) return res.sendStatus(404);
+	if (!isValidName(fileName) || !pages.includes(fileName)) return res.status(404).end();
+	if (!isPathSecure(file)) return res.status(404).end();
 	if (file.endsWith('.txt')) return res.redirect(`/docs/${category}/${file}`);
 
 	try {
 		const fullPath = path.join(__dirname, '..', '..', 'docs', category, `${file}.md`);
-		if (!fullPath.startsWith(path.join(__dirname, '..', '..', 'docs', category))) return res.sendStatus(403);
+		if (!fullPath.startsWith(path.join(__dirname, '..', '..', 'docs', category))) return res.status(403).end();
 
 		const stat = await fs.lstat(fullPath);
-		if (!stat.isFile()) return res.sendStatus(404);
+		if (!stat.isFile()) return res.status(404).end();
 
 		const mdFile = await fs.readFile(fullPath, 'utf8');
 		res.render('markdown-viewer.ejs', {
@@ -107,7 +107,7 @@ router.use('/viewer/:category', async (req, res) => {
 		});
 	} catch (err) {
 		console.error(err);
-		res.sendStatus(500);
+		res.status(500).end();
 	}
 });
 
