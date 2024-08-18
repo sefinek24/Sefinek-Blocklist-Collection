@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724024875437 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724025252789 43200 3600 259200 300
   NS  localhost.
 ;
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
@@ -15,14 +15,14 @@ $TTL 300
 ; Title: Block phishing websites
 ; Description: N/A
 ; Expires: 1 day
-; Count: 12
+; Count: 16
 ; Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
 ; Modified by: Nobody
 ; Source: N/A
 ; License: Unknown
 ; Release: RPZ
-; Version: 1724024875437
-; Last update: August 18, 2024 at 11:47 PM UTC | 2024-08-18T23:47:55.437+00:00 | UTC
+; Version: 1724025252789
+; Last update: August 18, 2024 at 11:54 PM UTC | 2024-08-18T23:54:12.789+00:00 | UTC
 ;
 ; About:
 ; This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
@@ -38,6 +38,10 @@ gppbet.com CNAME .
 *.gppbet.com CNAME .
 ggcasino.site CNAME .
 *.ggcasino.site CNAME .
+hardbin.com CNAME .
+*.hardbin.com CNAME .
+ipfs.io CNAME .
+*.ipfs.io CNAME .
 bison.partners CNAME .
 *.bison.partners CNAME .
 okebet168.com CNAME .
@@ -50,6 +54,10 @@ gppbet.com CNAME .
 *.gppbet.com CNAME .
 ggcasino.site CNAME .
 *.ggcasino.site CNAME .
+hardbin.com CNAME .
+*.hardbin.com CNAME .
+ipfs.io CNAME .
+*.ipfs.io CNAME .
 bison.partners CNAME .
 *.bison.partners CNAME .
 okebet168.com CNAME .
