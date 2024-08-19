@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723947902368 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724034289950 43200 3600 259200 300
   NS  localhost.
 ;
-;202408180303
+;202408190303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -11,6 +11,8 @@ $TTL 300
 ; License: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ; Copyright (C) 2020 Certyficate IT
 ;
+myikas.com CNAME .
+*.myikas.com CNAME .
 easyjet.com CNAME .
 *.easyjet.com CNAME .
 omtrdc.net CNAME .
@@ -44211,6 +44213,8 @@ informaengage.com CNAME .
 *.informaengage.com CNAME .
 topschooljobs.org CNAME .
 *.topschooljobs.org CNAME .
+vk.com CNAME .
+*.vk.com CNAME .
 morganstanley.com CNAME .
 *.morganstanley.com CNAME .
 partnermcafee.com CNAME .
