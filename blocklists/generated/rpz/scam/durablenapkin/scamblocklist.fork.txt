@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1723961442767 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724047969013 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 5151
+; Domains: 5148
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -875,8 +875,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -1557,6 +1555,12 @@ chipteeamz.com CNAME .
 *.chipteeamz.com CNAME .
 chipteeamz.com CNAME .
 *.chipteeamz.com CNAME .
+chromeweb-authenticators.com CNAME .
+*.chromeweb-authenticators.com CNAME .
+chromeweb-authenticators.com CNAME .
+*.chromeweb-authenticators.com CNAME .
+chromeweb-authenticators.com CNAME .
+*.chromeweb-authenticators.com CNAME .
 cipustar.com CNAME .
 *.cipustar.com CNAME .
 cipustar.com CNAME .
@@ -2171,6 +2175,8 @@ faze60.com CNAME .
 *.faze60.com CNAME .
 faze60.com CNAME .
 *.faze60.com CNAME .
+faze60.com CNAME .
+*.faze60.com CNAME .
 faze66.com CNAME .
 *.faze66.com CNAME .
 faze66.com CNAME .
@@ -2707,10 +2713,6 @@ jellystores.com CNAME .
 *.jellystores.com CNAME .
 jellystores.com CNAME .
 *.jellystores.com CNAME .
-jessluxi.com CNAME .
-*.jessluxi.com CNAME .
-jessluxi.com CNAME .
-*.jessluxi.com CNAME .
 jfremovals.com CNAME .
 *.jfremovals.com CNAME .
 jfremovals.com CNAME .
@@ -2739,6 +2741,8 @@ keltysale.com CNAME .
 *.keltysale.com CNAME .
 keltysale.com CNAME .
 *.keltysale.com CNAME .
+kewal.shop CNAME .
+*.kewal.shop CNAME .
 kidsmama.online CNAME .
 *.kidsmama.online CNAME .
 kidsmama.online CNAME .
@@ -2887,14 +2891,10 @@ co.za CNAME .
 *.co.za CNAME .
 lifewonderland.com CNAME .
 *.lifewonderland.com CNAME .
-lifewonderland.com CNAME .
-*.lifewonderland.com CNAME .
 likenu.se CNAME .
 *.likenu.se CNAME .
 likenu.se CNAME .
 *.likenu.se CNAME .
-limcologisticsusa.com CNAME .
-*.limcologisticsusa.com CNAME .
 limitalfresco.com CNAME .
 *.limitalfresco.com CNAME .
 limitalfresco.com CNAME .
@@ -3253,8 +3253,6 @@ navi3.com CNAME .
 *.navi3.com CNAME .
 navi3.com CNAME .
 *.navi3.com CNAME .
-navi3.ru CNAME .
-*.navi3.ru CNAME .
 navi30.ru CNAME .
 *.navi30.ru CNAME .
 navi30.ru CNAME .
@@ -3299,6 +3297,8 @@ navi40.com CNAME .
 *.navi40.com CNAME .
 navi40.com CNAME .
 *.navi40.com CNAME .
+navi42.ru CNAME .
+*.navi42.ru CNAME .
 navi43.ru CNAME .
 *.navi43.ru CNAME .
 navi43.ru CNAME .
@@ -3349,12 +3349,6 @@ navi61.com CNAME .
 *.navi61.com CNAME .
 navi61.com CNAME .
 *.navi61.com CNAME .
-navi66.com CNAME .
-*.navi66.com CNAME .
-navi66.com CNAME .
-*.navi66.com CNAME .
-navi66.com CNAME .
-*.navi66.com CNAME .
 navi66.ru CNAME .
 *.navi66.ru CNAME .
 navi66.ru CNAME .
@@ -3555,6 +3549,10 @@ nip84.com CNAME .
 *.nip84.com CNAME .
 nip84.com CNAME .
 *.nip84.com CNAME .
+nip89.com CNAME .
+*.nip89.com CNAME .
+nip89.com CNAME .
+*.nip89.com CNAME .
 nip89.com CNAME .
 *.nip89.com CNAME .
 nip9.com CNAME .
@@ -6419,6 +6417,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
@@ -6785,6 +6785,8 @@ com-id3212341.info CNAME .
 *.com-id3212341.info CNAME .
 com-id3212341.info CNAME .
 *.com-id3212341.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -6911,6 +6913,10 @@ com-id3212341.info CNAME .
 *.com-id3212341.info CNAME .
 com-id3212341.info CNAME .
 *.com-id3212341.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -6959,6 +6965,12 @@ com-id02349.info CNAME .
 *.com-id02349.info CNAME .
 com-id02349.info CNAME .
 *.com-id02349.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -7747,8 +7759,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id129041.info CNAME .
 *.com-id129041.info CNAME .
 com-id129041.info CNAME .
@@ -7869,8 +7879,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -9249,8 +9257,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -9281,12 +9287,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -9509,8 +9509,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -9559,10 +9557,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
