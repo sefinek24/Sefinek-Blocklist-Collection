@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724113683805 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724249447772 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 19,043
-; Updated: 8/19/2024  18:31 (6:31 PM CST)
+; Domains: 19,045
+; Updated: 8/21/2024  08:43 (8:43 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -16851,6 +16851,8 @@ cmbestsrv.com CNAME .
 *.cmbestsrv.com CNAME .
 cmcgc.com CNAME .
 *.cmcgc.com CNAME .
+microsoft.com CNAME .
+*.microsoft.com CNAME .
 igaw.io CNAME .
 *.igaw.io CNAME .
 streamtheworld.com CNAME .
@@ -36785,6 +36787,8 @@ publish.link CNAME .
 *.publish.link CNAME .
 rake.ai CNAME .
 *.rake.ai CNAME .
+releasenotes.io CNAME .
+*.releasenotes.io CNAME .
 replain.cc CNAME .
 *.replain.cc CNAME .
 reviewability.com CNAME .
