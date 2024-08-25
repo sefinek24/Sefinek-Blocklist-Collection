@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724587914301 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724594974401 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-08-25 12:04:21 (UTC)                      ;
+; Last updated: 2024-08-25 14:02:09 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -124,8 +124,6 @@ com.do CNAME .
 *.com.do CNAME .
 cosmmcloud.com CNAME .
 *.cosmmcloud.com CNAME .
-blazemvpn.com CNAME .
-*.blazemvpn.com CNAME .
 cpanel-adminhost.com CNAME .
 *.cpanel-adminhost.com CNAME .
 com.br CNAME .
@@ -216,6 +214,8 @@ fussballclub-24.de CNAME .
 *.fussballclub-24.de CNAME .
 njanzen.de CNAME .
 *.njanzen.de CNAME .
+antharris.top CNAME .
+*.antharris.top CNAME .
 gsmcrackteam.com CNAME .
 *.gsmcrackteam.com CNAME .
 gxsicmj3l.top CNAME .
@@ -338,8 +338,6 @@ org.pk CNAME .
 *.org.pk CNAME .
 cdglobalclouds.com CNAME .
 *.cdglobalclouds.com CNAME .
-postaipay.top CNAME .
-*.postaipay.top CNAME .
 wetolink.com CNAME .
 *.wetolink.com CNAME .
 protechasia.com CNAME .
@@ -366,8 +364,6 @@ fihsifuiiusuiuduf.com CNAME .
 *.fihsifuiiusuiuduf.com CNAME .
 printondemandagency.com CNAME .
 *.printondemandagency.com CNAME .
-co.za CNAME .
-*.co.za CNAME .
 jishousc.shop CNAME .
 *.jishousc.shop CNAME .
 scratchedcards.com CNAME .
@@ -402,6 +398,8 @@ co.za CNAME .
 *.co.za CNAME .
 stagingbyvdveen.com CNAME .
 *.stagingbyvdveen.com CNAME .
+cz01.cn CNAME .
+*.cz01.cn CNAME .
 dinju.com CNAME .
 *.dinju.com CNAME .
 sudocumentodepago.click CNAME .
@@ -524,4 +522,4 @@ shavsl.com CNAME .
 *.shavsl.com CNAME .
 broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
-; Number of entries: 257
+; Number of entries: 256
