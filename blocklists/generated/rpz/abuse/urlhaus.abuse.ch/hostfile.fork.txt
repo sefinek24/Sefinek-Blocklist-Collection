@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724645460773 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724652750059 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-08-26 03:59:05 (UTC)                      ;
+; Last updated: 2024-08-26 06:04:11 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+0xf20b415.ru CNAME .
+*.0xf20b415.ru CNAME .
 kukulaa.cn CNAME .
 *.kukulaa.cn CNAME .
 qbgxl.com CNAME .
@@ -50,8 +52,6 @@ almrwad.com CNAME .
 *.almrwad.com CNAME .
 ambyverce.com CNAME .
 *.ambyverce.com CNAME .
-anchornorth.com CNAME .
-*.anchornorth.com CNAME .
 antharris.top CNAME .
 *.antharris.top CNAME .
 co.za CNAME .
@@ -100,8 +100,6 @@ fihsifuiiusuiuduf.com CNAME .
 *.fihsifuiiusuiuduf.com CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
-cajgtus.com CNAME .
-*.cajgtus.com CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
@@ -290,8 +288,6 @@ manjeetsteelproductions.com CNAME .
 *.manjeetsteelproductions.com CNAME .
 maso.ge CNAME .
 *.maso.ge CNAME .
-mastercompu.com CNAME .
-*.mastercompu.com CNAME .
 mbsngradnja.com CNAME .
 *.mbsngradnja.com CNAME .
 mcrogers.com CNAME .
@@ -366,8 +362,6 @@ sharecloud.is CNAME .
 *.sharecloud.is CNAME .
 dimitrimedia.com CNAME .
 *.dimitrimedia.com CNAME .
-silinast.ro CNAME .
-*.silinast.ro CNAME .
 siscorp.mx CNAME .
 *.siscorp.mx CNAME .
 intensegroupgt.com CNAME .
@@ -386,8 +380,6 @@ co.za CNAME .
 *.co.za CNAME .
 stagingbyvdveen.com CNAME .
 *.stagingbyvdveen.com CNAME .
-cz01.cn CNAME .
-*.cz01.cn CNAME .
 dinju.com CNAME .
 *.dinju.com CNAME .
 sudocumentodepago.click CNAME .
@@ -398,6 +390,8 @@ lifeboxtransfer.com CNAME .
 *.lifeboxtransfer.com CNAME .
 synexenergygroup.net CNAME .
 *.synexenergygroup.net CNAME .
+techniguitare.com CNAME .
+*.techniguitare.com CNAME .
 tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
 telegram.ninja CNAME .
@@ -454,8 +448,8 @@ innovativebuildingsolutions.in CNAME .
 *.innovativebuildingsolutions.in CNAME .
 jd-app177.com CNAME .
 *.jd-app177.com CNAME .
-jd288shopap.com CNAME .
-*.jd288shopap.com CNAME .
+jd-shop77.com CNAME .
+*.jd-shop77.com CNAME .
 jdapp388shop.com CNAME .
 *.jdapp388shop.com CNAME .
 linhkiem.com CNAME .
@@ -470,6 +464,8 @@ pe.kr CNAME .
 *.pe.kr CNAME .
 opolis.io CNAME .
 *.opolis.io CNAME .
+ordenata.org CNAME .
+*.ordenata.org CNAME .
 com.br CNAME .
 *.com.br CNAME .
 reifenquick.de CNAME .
@@ -504,4 +500,4 @@ shavsl.com CNAME .
 *.shavsl.com CNAME .
 broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
-; Number of entries: 247
+; Number of entries: 245
