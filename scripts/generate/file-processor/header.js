@@ -16,7 +16,7 @@ const processCategory = async ({ title, description, category, file }) => {
 	fileContent = fileContent.replace(/#.*/gm, '').trim();
 
 	const count = fileContent.split('\n').filter(line => line.startsWith('0.0.0.0')).length;
-	const headerContent = generateHeader(title, description, category, count);
+	const headerContent = generateHeader(title, description, count);
 
 	await fs.writeFile(filePath, `${headerContent}\n${fileContent}`, 'utf8');
 
