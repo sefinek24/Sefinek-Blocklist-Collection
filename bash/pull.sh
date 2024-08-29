@@ -25,9 +25,6 @@ mkdir -p "$logs_dir"
     if [ -d "$repo_path" ]; then
         cd "$repo_path" || exit
 
-        git --version
-        echo
-
         if git fetch && git pull; then
             npm install --omit=dev
             pm2 restart blocklist
