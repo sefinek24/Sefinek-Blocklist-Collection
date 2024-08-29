@@ -11,7 +11,8 @@
 <br>
 <div align="center">
     <img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection" alt="README.md views" title="Repository views" align="left">
-    <br><br>
+    <br><br><br><br><br>
+    <hr>
     <p>⭐ If you found this repository helpful or interesting, please consider giving it a star to show your support!</p>
     <b>Have fun and stay safe!</b> o(>ω<)o 👋
 </div>
