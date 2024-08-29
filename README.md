@@ -119,6 +119,7 @@ git clone --branch main --single-branch https://github.com/sefinek24/Sefinek-Blo
 ## 🌠 My other repositories
 1. [Cloudflare-WAF-Expressions](https://github.com/sefinek24/Cloudflare-WAF-Expressions)
 2. [Node-Cloudflare-WAF-AbuseIPDB](https://github.com/sefinek24/Node-Cloudflare-WAF-AbuseIPDB)
+3. [UFW-AbuseIPDB-Reporter](https://github.com/sefinek24/UFW-AbuseIPDB-Reporter)
 
 
 ## 🐈 Source of used images
