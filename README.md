@@ -1,8 +1,8 @@
 <img width="40%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
-    <h1>
+    <h2>
         The best Blocklist Collection<br> made by Sefinek ✋
-    </h1>
+    </h2>
     <img src="images/adlists.png" alt="Domains on Adlists" title="Screenshot from: 30.01.2024 (DD.MM.YYYY)">
     <br><br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
