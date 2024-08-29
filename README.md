@@ -8,7 +8,7 @@
     <br>
     <a href="https://blocklist.sefinek.net/#stats" target="_blank">View more stats... »</a>
 </div>
-<br>
+<br><br><br>
 <div align="center">
     <img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection" alt="README.md views" title="Repository views" align="left">
     <br>
