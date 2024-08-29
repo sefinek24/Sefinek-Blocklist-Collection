@@ -98,8 +98,8 @@ exports.CATEGORIES = [
 	{
 		title: 'Blocks websites related to gambling, betting, and casinos',
 		category: 'Gambling',
-		regex: /gamblingaddiction|sportsbetting|s(?:cratchcards|(?:weepstake|lot)s|portsbook)|horsebetting|(?:poker|bet)online|l(?:ivecasino|ottery)|blackjack|bookmaker|gambling|roulette|jackpot|betting|casino|poker|craps|wager|bingo|keno/gi,
-		// grex "casino" "poker" "betting" "roulette" "blackjack" "slots" "gambling" "wager" "lottery" "bingo" "jackpot" "sportsbook" "craps" "bookmaker" "keno" "sweepstakes" "pokeronline" "livecasino" "gamblingaddiction" "betonline" "scratchcards" "sportsbetting" "horsebetting"
+		regex: /s(?:cratchcard|(?:weepstake|lot))s|b(?:lackjack|ookmaker)|betonline|gambling|roulette|jackpot|lottery|betting|(?:casi|ke)no|craps|poker/gi,
+		// grex "casino" "poker" "betting" "roulette" "blackjack" "slots" "gambling" "lottery" "jackpot" "craps" "bookmaker" "keno" "sweepstakes" "betonline" "scratchcards"
 		file: 'gambling/sefinek.hosts2.txt'
 	},
 	{
