@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724940688099 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1724947882996 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-08-29 14:04:07 (UTC)                      ;
+; Last updated: 2024-08-29 14:59:06 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -170,6 +170,8 @@ kouken-kasei-jp.com CNAME .
 *.kouken-kasei-jp.com CNAME .
 pcclear.com CNAME .
 *.pcclear.com CNAME .
+com.cn CNAME .
+*.com.cn CNAME .
 caihong.com CNAME .
 *.caihong.com CNAME .
 pdf00.cn CNAME .
@@ -504,4 +506,4 @@ broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
 printondemandmerchandise.com CNAME .
 *.printondemandmerchandise.com CNAME .
-; Number of entries: 247
+; Number of entries: 248
