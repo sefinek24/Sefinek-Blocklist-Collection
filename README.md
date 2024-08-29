@@ -18,7 +18,7 @@
 
 ## 💸 Support me
 Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me. Thank you! 😹😻
-> https://sefinek.net/support-me  (Ko-fi, GitHub Sponsors, Stripe, Patreon)  
+> https://sefinek.net/support-me (Ko-fi, GitHub Sponsors, Stripe, Patreon)  
 > https://paypal.me/sefinek (PayPal: contact@sefinek.net)
 
 
