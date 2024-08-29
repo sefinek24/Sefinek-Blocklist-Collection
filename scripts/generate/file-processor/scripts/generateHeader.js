@@ -16,7 +16,7 @@ module.exports = (title, description, count) => {
 # Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
 # Modified by: Nobody
 # Source: N/A
-# License: Unknown
+# License: CC BY-NC-ND 4.0
 # Release: <Release>
 # Version: <Version>
 # Last update: <LastUpdate>
