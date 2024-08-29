@@ -78,12 +78,15 @@ jobs:
           git config user.name "Sefinek Actions"
           git config user.email "sefinek.actions@gmail.com"
           if [ -n "$(git status -s)" ]; then
+            MODIFIED_FILES=$(git diff --name-only HEAD | grep -v '^cache/')
             FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
-            MODIFIED_FILES=$(git diff --name-only HEAD)
-            git commit -am "Bi-hourly update of blocklists [$FILE_COUNT files] - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" -m "$MODIFIED_FILES"
-            git push origin main
+            if [ "$FILE_COUNT" -gt 0 ]; then
+              git commit -am "Bi-hourly update of blocklists [$FILE_COUNT files] - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" -m "$MODIFIED_FILES"
+              git push origin main
+            else
+              echo "Canceled. No files to commit after excluding cache/ files."
+            fi
           else
             echo "Canceled. No changes to commit."
-          fi
         env:
           GITHUB_TOKEN: ${{ secrets.SEFINEK_ACTIONS_PAT }}
