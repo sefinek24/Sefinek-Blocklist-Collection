@@ -28,5 +28,6 @@ exports.updateFrequency = (req, res) => {
 	const github = parseExpression('0 */2 * * *', tz);
 	const remote = parseExpression('0 1,6 * * *', tz);
 
+	res.set('Cache-Control', 'public, max-age=600, s-maxage=600');
 	res.render('update-frequency.ejs', { cron: { github: github.next().toISOString(), remote: remote.next().toISOString() }, version });
 };
