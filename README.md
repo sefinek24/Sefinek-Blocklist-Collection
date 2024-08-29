@@ -10,7 +10,6 @@
     <a href="https://blocklist.sefinek.net/#stats" target="_blank">View more stats... »</a>
     <br><br>
     <p>⭐ If you found this repository helpful or interesting, please consider giving it a star to show your support!</p>
-    <b>Have fun and stay safe!</b> o(>ω<)o 👋
 </div>
 
 ## 💸 Support me
