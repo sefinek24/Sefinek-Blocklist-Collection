@@ -29,6 +29,9 @@ mkdir -p "$logs_dir"
         echo
 
         if git fetch && git pull; then
+            npm install --omit=dev
+            pm2 restart blocklist
+
             echo -e "\nSuccess! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
         else
             echo -e "\nError during Git operations!"
