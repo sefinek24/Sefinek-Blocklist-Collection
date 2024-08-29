@@ -1,7 +1,7 @@
 <div align="center"><h1>The best Blocklist Collection<br> made by Sefinek ✋</h1></div>
 <img width="40%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
-    <br>
+    <br><br>
     <img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection" alt="README.md views" title="Repository views">
     <br>
     <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
