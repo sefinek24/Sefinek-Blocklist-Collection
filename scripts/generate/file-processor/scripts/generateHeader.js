@@ -1,4 +1,4 @@
-module.exports = (title, category, count) => {
+module.exports = (title, category, description, count) => {
 	return `#       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
 #      / ____| |  ____| |  ____| |_   _| | \\ | | |  ____| | |/ /       |  _ \\  | |       / __ \\   / ____| | |/ / | |      |_   _|  / ____| |__   __|
 #     | (___   | |__    | |__      | |   |  \\| | | |__    | ' /        | |_) | | |      | |  | | | |      | ' /  | |        | |   | (___      | |
@@ -11,7 +11,7 @@ module.exports = (title, category, count) => {
 #
 # Title: ${title || 'Unknown'}
 # Category: ${category || 'Unknown'}
-# Description: N/A
+# Description: ${description || 'N/A'}
 # Expires: 1 day
 # Count: ${count || 'Unknown'}
 # Author: Sefinek (https://sefinek.net) <contact@sefinek.net>

@@ -3,7 +3,7 @@ const fs = require('node:fs/promises');
 const { CATEGORIES } = require('./scripts/data.js');
 const generateHeader = require('./scripts/generateHeader.js');
 
-const processCategory = async ({ title, category, file }) => {
+const processCategory = async ({ title, description, category, file }) => {
 	const filePath = join(__dirname, `../../../blocklists/templates/${file}`);
 
 	try {
@@ -16,7 +16,7 @@ const processCategory = async ({ title, category, file }) => {
 	fileContent = fileContent.replace(/#.*/gm, '').trim();
 
 	const count = fileContent.split('\n').filter(line => line.startsWith('0.0.0.0')).length;
-	const headerContent = generateHeader(title || 'Unknown', category || 'Unknown', count);
+	const headerContent = generateHeader(title, description, category, count);
 
 	await fs.writeFile(filePath, `${headerContent}\n${fileContent}`, 'utf8');
 
