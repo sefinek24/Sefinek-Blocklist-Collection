@@ -1,6 +1,4 @@
-<h1>
-    The best Blocklist Collection<br> made by Sefinek ✋
-</h1>
+<div align="center"><h1>The best Blocklist Collection<br> made by Sefinek ✋</h1></div>
 <img width="40%" align="right" src="images/kitten.png" alt="Gigachad kitten">
 <div align="center">
     <img src="images/adlists.png" alt="Domains on Adlists" title="Screenshot from: 30.01.2024 (DD.MM.YYYY)">
