@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724415173480 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725158067630 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Mon, 12 Aug 2024 11:05:58 GMT
-; entries:        3545
+; entries:        3547
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -1526,6 +1526,8 @@ startappservice.com CNAME .
 *.startappservice.com CNAME .
 adsmogo.com CNAME .
 *.adsmogo.com CNAME .
+adsnative.com CNAME .
+*.adsnative.com CNAME .
 adsoftware.com CNAME .
 *.adsoftware.com CNAME .
 adsolut.in CNAME .
@@ -1704,6 +1706,8 @@ adyoulike.com CNAME .
 *.adyoulike.com CNAME .
 rashflash.com CNAME .
 *.rashflash.com CNAME .
+adz2you.com CNAME .
+*.adz2you.com CNAME .
 adzbazar.com CNAME .
 *.adzbazar.com CNAME .
 adzerk.net CNAME .
@@ -4014,8 +4018,6 @@ kanoodle.com CNAME .
 *.kanoodle.com CNAME .
 kargo.com CNAME .
 *.kargo.com CNAME .
-karonty.com CNAME .
-*.karonty.com CNAME .
 keymedia.hu CNAME .
 *.keymedia.hu CNAME .
 kindads.com CNAME .
@@ -4632,6 +4634,8 @@ mystat-in.net CNAME .
 *.mystat-in.net CNAME .
 mystat.pl CNAME .
 *.mystat.pl CNAME .
+mytop-in.net CNAME .
+*.mytop-in.net CNAME .
 mouseflow.com CNAME .
 *.mouseflow.com CNAME .
 n69.com CNAME .

@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1724839842611 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725158067630 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 28 Aug 2024 16:09 UTC+7
-; Version: 2408281609
-; Blocked: 20,443 domains
+; Last modified: 30 Aug 2024 10:35 UTC+7
+; Version: 2408301035
+; Blocked: 20,448 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -22081,6 +22081,27 @@ rmbl.ws CNAME .
 *.rmbl.ws CNAME .
 rmbl.ws CNAME .
 *.rmbl.ws CNAME .
+;[adjust]
+adjust.cn CNAME .
+*.adjust.cn CNAME .
+adjust.com CNAME .
+*.adjust.com CNAME .
+adjust.io CNAME .
+*.adjust.io CNAME .
+net.in CNAME .
+*.net.in CNAME .
+adjust.world CNAME .
+*.adjust.world CNAME .
+adjust.cn CNAME .
+*.adjust.cn CNAME .
+adjust.com CNAME .
+*.adjust.com CNAME .
+adjust.io CNAME .
+*.adjust.io CNAME .
+net.in CNAME .
+*.net.in CNAME .
+adjust.world CNAME .
+*.adjust.world CNAME .
 ; --- GroupVN block ---
 ;[adtimaserver]
 adtimaserver.vn CNAME .
@@ -41147,16 +41168,6 @@ apolloprogram.io CNAME .
 *.apolloprogram.io CNAME .
 app-analytics-services.com CNAME .
 *.app-analytics-services.com CNAME .
-adjust.cn CNAME .
-*.adjust.cn CNAME .
-adjust.com CNAME .
-*.adjust.com CNAME .
-adjust.io CNAME .
-*.adjust.io CNAME .
-net.in CNAME .
-*.net.in CNAME .
-adjust.world CNAME .
-*.adjust.world CNAME .
 posthog.com CNAME .
 *.posthog.com CNAME .
 camera360.com CNAME .
