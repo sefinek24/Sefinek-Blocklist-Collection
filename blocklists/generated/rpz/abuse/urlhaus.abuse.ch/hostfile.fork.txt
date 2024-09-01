@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725221476384 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725228646541 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-01 20:05:01 (UTC)                      ;
+; Last updated: 2024-09-01 22:05:01 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -150,6 +150,8 @@ creditunionfund.net CNAME .
 *.creditunionfund.net CNAME .
 com.br CNAME .
 *.com.br CNAME .
+crome-update-gr.com CNAME .
+*.crome-update-gr.com CNAME .
 crossback.cl CNAME .
 *.crossback.cl CNAME .
 qqzx.cc CNAME .
@@ -194,8 +196,6 @@ kouken-kasei-jp.com CNAME .
 *.kouken-kasei-jp.com CNAME .
 pcclear.com CNAME .
 *.pcclear.com CNAME .
-com.cn CNAME .
-*.com.cn CNAME .
 caihong.com CNAME .
 *.caihong.com CNAME .
 pdf00.cn CNAME .
@@ -406,8 +406,6 @@ personal-training.shop CNAME .
 *.personal-training.shop CNAME .
 pettravelcolombia.com CNAME .
 *.pettravelcolombia.com CNAME .
-shouhucj.com CNAME .
-*.shouhucj.com CNAME .
 pinnaclemoney.org CNAME .
 *.pinnaclemoney.org CNAME .
 org.pk CNAME .
@@ -452,8 +450,6 @@ servicesllc.top CNAME .
 *.servicesllc.top CNAME .
 servisaludocupacional.pe CNAME .
 *.servisaludocupacional.pe CNAME .
-servr-jkt.com CNAME .
-*.servr-jkt.com CNAME .
 dimitrimedia.com CNAME .
 *.dimitrimedia.com CNAME .
 silinast.ro CNAME .
@@ -676,6 +672,8 @@ specialoffersnow.net CNAME .
 *.specialoffersnow.net CNAME .
 specialpromoter.net CNAME .
 *.specialpromoter.net CNAME .
+starcountry.net CNAME .
+*.starcountry.net CNAME .
 co.jp CNAME .
 *.co.jp CNAME .
 synexenergygroup.net CNAME .
@@ -702,4 +700,4 @@ shavsl.com CNAME .
 *.shavsl.com CNAME .
 broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
-; Number of entries: 346
+; Number of entries: 345
