@@ -28,7 +28,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replaceAll(/::|#/gmu, '!')
 			.replace(/<Release>/gim, 'AdGuard [adguard.com]')
 			.replace(/<Version>/gim, date.timestamp.toString())
-			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);
+			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(fullNewFile, replacedFile);

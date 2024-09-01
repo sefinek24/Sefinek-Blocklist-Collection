@@ -33,7 +33,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replace(/〢 /g, '')
 			.replace(/<Release>/gim, 'RPZ')
 			.replace(/<Version>/gim, date.timestamp)
-			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now} | ${date.timezone}`);
+			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(fullNewFile, `$TTL 300\n@ SOA localhost. root.localhost. ${date.timestamp} 43200 3600 259200 300\n  NS  localhost.\n;\n${replacedFile}`);
