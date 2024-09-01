@@ -2,7 +2,7 @@ name: Generate lists
 
 on:
   schedule: # https://crontab.guru
-    - cron: '0 */3 * * *' # At minute 0 past every 4nd hour.
+    - cron: '0 */3 * * *' # At minute 0 past every 3nd hour.
 
   workflow_dispatch:
 
