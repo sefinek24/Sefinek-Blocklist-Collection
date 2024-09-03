@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1717251632243 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725323304258 43200 3600 259200 300
   NS  localhost.
 ;
 appspot.com CNAME .
@@ -302,6 +302,8 @@ brunoespiao.com CNAME .
 *.brunoespiao.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
+amazonaws.com CNAME .
+*.amazonaws.com CNAME .
 c-phone.ru CNAME .
 *.c-phone.ru CNAME .
 appjiagu.com CNAME .
