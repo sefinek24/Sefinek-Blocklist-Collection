@@ -35,7 +35,9 @@ const processChunk = async (start, end, chunkId) => {
 	rl.on('line', line => {
 		if (isDomainWhitelisted(line)) return console.log(`Line "${line}" is whitelisted and will be ignored`);
 
-		for (const { regex, file } of CATEGORIES) {
+		for (const { regex, file, whitelist } of CATEGORIES) {
+			if (whitelist && whitelist.test(line)) continue;
+
 			if (!regex.test(line)) continue;
 			writeStreams[file].write(`\n0.0.0.0 ${line}`);
 			domainCounters[file]++;
