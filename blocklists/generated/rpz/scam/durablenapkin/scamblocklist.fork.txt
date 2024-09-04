@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725343934463 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725430367069 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4736
+; Domains: 4739
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -371,10 +371,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -471,8 +467,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
@@ -639,8 +633,10 @@ com-id334112.com CNAME .
 *.com-id334112.com CNAME .
 com-id334112.com CNAME .
 *.com-id334112.com CNAME .
-com-id334112.com CNAME .
-*.com-id334112.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id15421.info CNAME .
 *.com-id15421.info CNAME .
 com-id15421.info CNAME .
@@ -1597,6 +1593,8 @@ cooeedesignshop.com CNAME .
 *.cooeedesignshop.com CNAME .
 cooeedesignshop.com CNAME .
 *.cooeedesignshop.com CNAME .
+cooeedesignshop.com CNAME .
+*.cooeedesignshop.com CNAME .
 cookietee.com CNAME .
 *.cookietee.com CNAME .
 cookietee.com CNAME .
@@ -1759,8 +1757,6 @@ ddzk513bd.com CNAME .
 *.ddzk513bd.com CNAME .
 deadlockbeta.com CNAME .
 *.deadlockbeta.com CNAME .
-deadlockplay.com CNAME .
-*.deadlockplay.com CNAME .
 deadlockplay.com CNAME .
 *.deadlockplay.com CNAME .
 decoryourhome.store CNAME .
@@ -2109,6 +2105,8 @@ faze5.com CNAME .
 *.faze5.com CNAME .
 faze5.com CNAME .
 *.faze5.com CNAME .
+faze67.com CNAME .
+*.faze67.com CNAME .
 faze67.com CNAME .
 *.faze67.com CNAME .
 faze67.com CNAME .
@@ -2669,6 +2667,8 @@ kms-full.com CNAME .
 *.kms-full.com CNAME .
 kms-full.com CNAME .
 *.kms-full.com CNAME .
+kms-full.com CNAME .
+*.kms-full.com CNAME .
 kms-pc.com CNAME .
 *.kms-pc.com CNAME .
 kms-pc.com CNAME .
@@ -2979,8 +2979,6 @@ miningco.site CNAME .
 *.miningco.site CNAME .
 miningco.site CNAME .
 *.miningco.site CNAME .
-miningpror.top CNAME .
-*.miningpror.top CNAME .
 miucart.com CNAME .
 *.miucart.com CNAME .
 miucart.com CNAME .
@@ -3119,8 +3117,6 @@ navi2.com CNAME .
 *.navi2.com CNAME .
 navi2.com CNAME .
 *.navi2.com CNAME .
-navi2.ru CNAME .
-*.navi2.ru CNAME .
 navi20.com CNAME .
 *.navi20.com CNAME .
 navi20.com CNAME .
@@ -3213,6 +3209,8 @@ navi40.com CNAME .
 *.navi40.com CNAME .
 navi40.com CNAME .
 *.navi40.com CNAME .
+navi42.ru CNAME .
+*.navi42.ru CNAME .
 navi42.ru CNAME .
 *.navi42.ru CNAME .
 navi43.ru CNAME .
@@ -3321,16 +3319,12 @@ navi88.com CNAME .
 *.navi88.com CNAME .
 navi88.com CNAME .
 *.navi88.com CNAME .
-navi91.ru CNAME .
-*.navi91.ru CNAME .
 navi94.com CNAME .
 *.navi94.com CNAME .
 navi94.com CNAME .
 *.navi94.com CNAME .
 navi94.com CNAME .
 *.navi94.com CNAME .
-navi95.ru CNAME .
-*.navi95.ru CNAME .
 navi99.com CNAME .
 *.navi99.com CNAME .
 navi99.com CNAME .
@@ -3471,6 +3465,8 @@ nip8.com CNAME .
 *.nip8.com CNAME .
 nip8.com CNAME .
 *.nip8.com CNAME .
+nip89.com CNAME .
+*.nip89.com CNAME .
 nip89.com CNAME .
 *.nip89.com CNAME .
 nip9.com CNAME .
@@ -5279,6 +5275,12 @@ queenscattery.com CNAME .
 *.queenscattery.com CNAME .
 queenscattery.com CNAME .
 *.queenscattery.com CNAME .
+quitasueno.com CNAME .
+*.quitasueno.com CNAME .
+quitasueno.com CNAME .
+*.quitasueno.com CNAME .
+quitasueno.com CNAME .
+*.quitasueno.com CNAME .
 com.in CNAME .
 *.com.in CNAME .
 com.in CNAME .
@@ -5481,6 +5483,8 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -6303,6 +6307,8 @@ com-id3212341.info CNAME .
 *.com-id3212341.info CNAME .
 com-id3212341.info CNAME .
 *.com-id3212341.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -6543,6 +6549,10 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id1800853.com CNAME .
 *.com-id1800853.com CNAME .
 com-id1800853.com CNAME .
@@ -6573,6 +6583,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -6771,6 +6783,8 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id90123.info CNAME .
 *.com-id90123.info CNAME .
 com-id90123.info CNAME .
@@ -7179,6 +7193,8 @@ com-id3212341.info CNAME .
 *.com-id3212341.info CNAME .
 com-id3212341.info CNAME .
 *.com-id3212341.info CNAME .
+com-id809712.com CNAME .
+*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
@@ -7641,6 +7657,10 @@ steamgateways.com CNAME .
 *.steamgateways.com CNAME .
 steamgateways.com CNAME .
 *.steamgateways.com CNAME .
+cn.com CNAME .
+*.cn.com CNAME .
+cn.com CNAME .
+*.cn.com CNAME .
 steamunlock.com CNAME .
 *.steamunlock.com CNAME .
 steamunlock.com CNAME .
@@ -7839,12 +7859,6 @@ teemax.store CNAME .
 *.teemax.store CNAME .
 teemax.store CNAME .
 *.teemax.store CNAME .
-teenimo.com CNAME .
-*.teenimo.com CNAME .
-teenimo.com CNAME .
-*.teenimo.com CNAME .
-teenimo.com CNAME .
-*.teenimo.com CNAME .
 teevpower.com CNAME .
 *.teevpower.com CNAME .
 teevpower.com CNAME .
@@ -8187,8 +8201,6 @@ wadahlapak.top CNAME .
 *.wadahlapak.top CNAME .
 wadahlapak.top CNAME .
 *.wadahlapak.top CNAME .
-watchmark.shop CNAME .
-*.watchmark.shop CNAME .
 wavetshirt.com CNAME .
 *.wavetshirt.com CNAME .
 wavetshirt.com CNAME .
@@ -8751,10 +8763,6 @@ com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -8947,8 +8955,6 @@ com-id334112.com CNAME .
 *.com-id334112.com CNAME .
 com-id334112.com CNAME .
 *.com-id334112.com CNAME .
-com-id809712.com CNAME .
-*.com-id809712.com CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
