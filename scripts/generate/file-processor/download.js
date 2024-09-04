@@ -9,7 +9,7 @@ const { pipeline } = require('node:stream/promises');
 const { fileUrls } = require('./scripts/data.js');
 
 const downloadFile = async (url, outputPath) => {
-	console.log(`Downloading file from ${url} to ${outputPath}...`);
+	console.log(`Downloading from ${url}...`);
 
 	try {
 		const res = await axios.get(url, { responseType: 'stream' });
@@ -21,7 +21,7 @@ const downloadFile = async (url, outputPath) => {
 };
 
 const extractZipFile = async (zipFilePath, extractToDir) => {
-	console.log('Extracting ZIP archive:', zipFilePath);
+	console.log(`Extracting ZIP archive ${zipFilePath}...`);
 
 	try {
 		await mkdir(extractToDir, { recursive: true });
