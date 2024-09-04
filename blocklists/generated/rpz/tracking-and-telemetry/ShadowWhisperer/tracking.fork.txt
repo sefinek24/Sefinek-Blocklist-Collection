@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725409747948 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725423109605 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 78,705
-; Updated: 9/3/2024  17:49 (5:49 PM CST)
+; Domains: 78,709
+; Updated: 9/3/2024  22:52 (10:52 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -363,6 +363,8 @@ yahoo.com CNAME .
 *.yahoo.com CNAME .
 yahoo.com CNAME .
 *.yahoo.com CNAME .
+3radical.com CNAME .
+*.3radical.com CNAME .
 sreanalyze.com CNAME .
 *.sreanalyze.com CNAME .
 3vr.com CNAME .
@@ -45439,6 +45441,8 @@ newsweek.com CNAME .
 *.newsweek.com CNAME .
 gcprivacy.com CNAME .
 *.gcprivacy.com CNAME .
+americanexpress.com CNAME .
+*.americanexpress.com CNAME .
 dallasobserver.com CNAME .
 *.dallasobserver.com CNAME .
 gdd.li CNAME .
@@ -59793,6 +59797,8 @@ loginhood.io CNAME .
 *.loginhood.io CNAME .
 loginradius.com CNAME .
 *.loginradius.com CNAME .
+internetat.tv CNAME .
+*.internetat.tv CNAME .
 logiq.com CNAME .
 *.logiq.com CNAME .
 logistimatics.com CNAME .
@@ -144545,6 +144551,8 @@ hwstatic.com CNAME .
 *.hwstatic.com CNAME .
 co.jp CNAME .
 *.co.jp CNAME .
+americanexpress.com CNAME .
+*.americanexpress.com CNAME .
 hypovereinsbank.de CNAME .
 *.hypovereinsbank.de CNAME .
 unicreditbanca.it CNAME .
