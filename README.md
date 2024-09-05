@@ -12,6 +12,9 @@
     <p>If you found this repository helpful or interesting, please consider giving it a star to show your support! ⭐</p>
 </div>
 
+## BIG UPDATE 📥
+New lists have been added to the generator as of September 5, 2024. Please update your collection on your end :)
+
 ## 💸 Support me
 Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me. Thank you! 😹😻
 > https://sefinek.net/support-me (Ko-fi, GitHub Sponsors, Stripe, Patreon)  
@@ -22,7 +25,7 @@ Unfortunately, **my home internet connection doesn't allow me to host a blocklis
 Visit the official website of the project [blocklist.sefinek.net](https://blocklist.sefinek.net) to get more details.
 
 
-## 📦 How to acquire the blocklist?
+## 📦 How to acquire the blocklist
 You have two options for acquiring the blocklist.
 - The first option is to [generate your own list](https://sefinek.net/blocklist-generator), which is recommended for all users as it allows for customization based on specific needs and preferences.
 - The second option is to utilize the [default list](https://github.com/sefinek24/Sefinek-Blocklist-Collection/tree/main/docs/lists/md) provided.
@@ -107,7 +110,7 @@ I appreciate your interest in contributing!
 If you have any suggestions or additions that you think would improve this project, please don't hesitate to share them with me.
 I warmly invite you to contribute to this project by submitting a Pull request, where you can contribute your changes.
 Your efforts and insights will be greatly valued and will contribute to making this project even better and more beneficial for others.<br>
-Thank you in advance for your valuable contribution!
+Thank you for your valuable contribution in advance!
 
 
 ## 📥 How to clone the repository?
