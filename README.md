@@ -12,7 +12,7 @@
     <p>If you found this repository helpful or interesting, please consider giving it a star to show your support! ⭐</p>
 </div>
 
-## BIG UPDATE 📥
+## BIG UPDATE (v1.3.1) 📥
 New lists have been added to the generator as of September 5, 2024. Please update your collection on your end :)
 
 ## 💸 Support me
