@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (Dnsmasq)</h1>
     <p>
         📄 » <b>Format: server=/domain.tld/</b><br>
-        📥 » <b>Last update: 21.07.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 05.09.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -28,7 +28,6 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/firebog/AdguardDNS.fork.t
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/firebog/Admiral.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/firebog/Easylist.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/firebog/Prigent-Ads.fork.txt
-https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/jerryn70/GoodbyeAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/MajkiIT/SmartTV-ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/r-a-y/AdguardMobileAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/ads/sefinek.hosts.txt

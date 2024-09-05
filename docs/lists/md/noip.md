@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (hosts)</h1>
     <p>
         📄 » <b>Format: domain.tld</b><br>
-        📥 » <b>Last update: 21.07.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 05.09.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -28,7 +28,6 @@ https://blocklist.sefinek.net/generated/v1/noip/ads/firebog/AdguardDNS.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/ads/firebog/Admiral.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/ads/firebog/Easylist.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/ads/firebog/Prigent-Ads.fork.txt
-https://blocklist.sefinek.net/generated/v1/noip/ads/jerryn70/GoodbyeAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/ads/MajkiIT/SmartTV-ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/ads/r-a-y/AdguardMobileAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/ads/sefinek.hosts.txt

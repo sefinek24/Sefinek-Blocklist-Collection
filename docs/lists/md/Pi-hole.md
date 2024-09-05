@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for Pi-hole</h1>
     <p>
         📄 » <b>Format: 0.0.0.0 domain.tld</b><br>
-        📥 » <b>Last update: 21.07.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 05.09.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -28,7 +28,6 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/firebog/AdguardDNS.fork.t
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/firebog/Admiral.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/firebog/Easylist.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/firebog/Prigent-Ads.fork.txt
-https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/jerryn70/GoodbyeAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/MajkiIT/SmartTV-ads.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/r-a-y/AdguardMobileAds.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/ads/sefinek.hosts.txt

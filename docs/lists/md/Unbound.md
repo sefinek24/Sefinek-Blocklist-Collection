@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for Unbound</h1>
     <p>
         📄 » <b>Format: local-zone: "domain.tld." always_nxdomain</b><br>
-        📥 » <b>Last update: 21.07.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 05.09.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -28,7 +28,6 @@ https://blocklist.sefinek.net/generated/v1/unbound/ads/firebog/AdguardDNS.fork.c
 https://blocklist.sefinek.net/generated/v1/unbound/ads/firebog/Admiral.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/ads/firebog/Easylist.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/ads/firebog/Prigent-Ads.fork.conf
-https://blocklist.sefinek.net/generated/v1/unbound/ads/jerryn70/GoodbyeAds.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/ads/MajkiIT/SmartTV-ads.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/ads/r-a-y/AdguardMobileAds.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/ads/sefinek.hosts.conf
