@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725444698161 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725523977007 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 04 Sep 2024 16:36 UTC+7
-; Version: 2409041636
-; Blocked: 20,473 domains
+; Last modified: 05 Sep 2024 14:03 UTC+7
+; Version: 2409051403
+; Blocked: 20,472 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -22151,6 +22151,11 @@ brdtnet.com CNAME .
 *.brdtnet.com CNAME .
 luminati.io CNAME .
 *.luminati.io CNAME .
+;[secureserver.net]
+secureserver.net CNAME .
+*.secureserver.net CNAME .
+secureserver.net CNAME .
+*.secureserver.net CNAME .
 ; --- GroupVN block ---
 ;[adtimaserver]
 adtimaserver.vn CNAME .
@@ -33254,8 +33259,6 @@ ilyf4amifh.com CNAME .
 *.ilyf4amifh.com CNAME .
 imagecash.net CNAME .
 *.imagecash.net CNAME .
-secureserver.net CNAME .
-*.secureserver.net CNAME .
 footballaddicts.se CNAME .
 *.footballaddicts.se CNAME .
 imageshh.com CNAME .
@@ -41379,8 +41382,6 @@ co.uk CNAME .
 *.co.uk CNAME .
 csdian.net CNAME .
 *.csdian.net CNAME .
-secureserver.net CNAME .
-*.secureserver.net CNAME .
 czx5eyk0exbhwp43ya.biz CNAME .
 *.czx5eyk0exbhwp43ya.biz CNAME .
 forbes.com CNAME .
@@ -41489,8 +41490,6 @@ twilio.com CNAME .
 *.twilio.com CNAME .
 apester.com CNAME .
 *.apester.com CNAME .
-secureserver.net CNAME .
-*.secureserver.net CNAME .
 attentivemobile.com CNAME .
 *.attentivemobile.com CNAME .
 jora.com CNAME .
