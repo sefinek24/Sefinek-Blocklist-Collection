@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725409747948 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725496167280 43200 3600 259200 300
   NS  localhost.
 ;
 00px.net CNAME .
@@ -2230,6 +2230,8 @@ micstatic.com CNAME .
 *.micstatic.com CNAME .
 appspot.com CNAME .
 *.appspot.com CNAME .
+petametrics.com CNAME .
+*.petametrics.com CNAME .
 skimresources.com CNAME .
 *.skimresources.com CNAME .
 purch.com CNAME .
