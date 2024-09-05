@@ -44,7 +44,6 @@ const pages = [
 	'What_is_Raspberry_Pi',
 	'What_is_Regex',
 	'Why_should_I_block_LoL',
-	'Why_should_I_block_Omegle',
 	'Why_should_I_block_Riot_Games',
 	'Why_should_I_block_Snapchat',
 	'Why_should_I_block_TikTok',
