@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725523977007 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725595875173 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 05 Sep 2024 14:03 UTC+7
-; Version: 2409051403
-; Blocked: 20,472 domains
+; Last modified: 06 Sep 2024 10:32 UTC+7
+; Version: 2409061032
+; Blocked: 20,481 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -22156,6 +22156,23 @@ secureserver.net CNAME .
 *.secureserver.net CNAME .
 secureserver.net CNAME .
 *.secureserver.net CNAME .
+;[lucead.com]
+lucead.com CNAME .
+*.lucead.com CNAME .
+lucead.com CNAME .
+*.lucead.com CNAME .
+lucead.com CNAME .
+*.lucead.com CNAME .
+;[adservrs.com]
+adservrs.com CNAME .
+*.adservrs.com CNAME .
+adservrs.com CNAME .
+*.adservrs.com CNAME .
+;[rwadx.com]
+rwadx.com CNAME .
+*.rwadx.com CNAME .
+rwadx.com CNAME .
+*.rwadx.com CNAME .
 ; --- GroupVN block ---
 ;[adtimaserver]
 adtimaserver.vn CNAME .
@@ -26925,6 +26942,8 @@ adlink.de CNAME .
 *.adlink.de CNAME .
 adlite.net CNAME .
 *.adlite.net CNAME .
+adlive.io CNAME .
+*.adlive.io CNAME .
 adloox.com CNAME .
 *.adloox.com CNAME .
 adlure.net CNAME .
@@ -28251,6 +28270,8 @@ groaxonsoow.net CNAME .
 *.groaxonsoow.net CNAME .
 oneegrou.net CNAME .
 *.oneegrou.net CNAME .
+ptailadsol.net CNAME .
+*.ptailadsol.net CNAME .
 ak0gsh40.com CNAME .
 *.ak0gsh40.com CNAME .
 akjotpoxwp.com CNAME .
@@ -29885,6 +29906,8 @@ causlesscauslessdisapproval.com CNAME .
 *.causlesscauslessdisapproval.com CNAME .
 cauvousy.net CNAME .
 *.cauvousy.net CNAME .
+cavbildi.com CNAME .
+*.cavbildi.com CNAME .
 virtuagirlhd.com CNAME .
 *.virtuagirlhd.com CNAME .
 cben1.net CNAME .
@@ -36569,8 +36592,6 @@ glotgrx.com CNAME .
 *.glotgrx.com CNAME .
 pre4sentre8dhf.com CNAME .
 *.pre4sentre8dhf.com CNAME .
-lucead.com CNAME .
-*.lucead.com CNAME .
 trustedstack.com CNAME .
 *.trustedstack.com CNAME .
 preciousawareness.pro CNAME .
