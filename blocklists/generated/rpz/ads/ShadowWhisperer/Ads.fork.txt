@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725423109605 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725582520238 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 19,099
-; Updated: 9/3/2024  22:52 (10:52 PM CST)
+; Domains: 19,102
+; Updated: 9/5/2024  17:24 (5:24 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -23703,6 +23703,8 @@ lanistaads.com CNAME .
 *.lanistaads.com CNAME .
 lapecorina.com CNAME .
 *.lapecorina.com CNAME .
+larapush.com CNAME .
+*.larapush.com CNAME .
 largetulip.com CNAME .
 *.largetulip.com CNAME .
 laseradvertising.com CNAME .
@@ -26711,6 +26713,8 @@ notificup.com CNAME .
 *.9gag.com CNAME .
 notifpush.com CNAME .
 *.notifpush.com CNAME .
+notifstation.com CNAME .
+*.notifstation.com CNAME .
 adobe.io CNAME .
 *.adobe.io CNAME .
 notifyai.io CNAME .
@@ -29493,6 +29497,8 @@ pushologies.com CNAME .
 *.pushologies.com CNAME .
 push.org CNAME .
 *.push.org CNAME .
+pushouse.com CNAME .
+*.pushouse.com CNAME .
 pushowl.com CNAME .
 *.pushowl.com CNAME .
 pushpad.xyz CNAME .

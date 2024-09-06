@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725343934463 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725582520238 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,803
-; Updated: 9/3/2024  00:46 (12:46 AM CST)
+; Domains: 13,804
+; Updated: 9/5/2024  17:24 (5:24 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -14235,6 +14235,8 @@ legitsdocumentts.com CNAME .
 *.legitsdocumentts.com CNAME .
 legitstraincannabis.com CNAME .
 *.legitstraincannabis.com CNAME .
+legitstraps.com CNAME .
+*.legitstraps.com CNAME .
 legitvendor.us CNAME .
 *.legitvendor.us CNAME .
 legitweeddispensary.com CNAME .
