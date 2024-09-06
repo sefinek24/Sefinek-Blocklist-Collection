@@ -85,58 +85,58 @@ exports.CATEGORIES = [
 		title: 'Blocks websites dedicated to anime, manga, cosplay, hentai, and other NSFW degeneracy',
 		description: 'Active + inactive domains',
 		category: 'Anime',
-		regex: /l(?:ightnovel|olicon)|(?:bishoun|s(?:ho|ei)n)en|(?:doujins|ecc)hi|fudanshi|tsundere|cosplay|bishojo|(?:yan|kuu)dere|doujin|seiyuu|w(?:otak|aif)u|(?:shou?j|meid)o|(?:henta|iseka|kawai|chib|genk|y(?:ao|ur))i|harem|manga|otaku|anime/gi,
 		// grex "anime" "manga" "hentai" "cosplay" "otaku" "shonen" "shoujo" "yuri" "yaoi" "ecchi" "isekai" "kawaii" "tsundere" "yandere" "waifu" "seinen" "doujinshi" "bishounen" "shojo" "chibi" "bishojo" "doujin" "seiyuu" "harem" "meido" "lolicon" "fudanshi" "kuudere" "genki" "lightnovel" "wotaku"
+		regex: /l(?:ightnovel|olicon)|(?:bishoun|s(?:ho|ei)n)en|(?:doujins|ecc)hi|fudanshi|tsundere|cosplay|bishojo|(?:yan|kuu)dere|doujin|seiyuu|w(?:otak|aif)u|(?:shou?j|meid)o|(?:henta|iseka|kawai|chib|genk|y(?:ao|ur))i|harem|manga|otaku|anime/gi,
 		file: 'anime/main.txt'
 	},
 	{
 		title: 'Blocks most LGBTQ+ websites or those that promote LGBTQ+ content',
 		description: 'Active and inactive domains. Some of them may also share pornographic content.',
 		category: 'LGBTQ+',
-		regex: /(?:nie(?:konformistycz|binar)n|(?:alloromantycz|(?:(?:poli|(?:allo|pan))|demi)seksual)n|transseksualn)[ay]|t(?:r(?:ansseksualistk?a|zecia\\-plec)|wo\\-spirit)|(?:queerplatoni|poliamory)czny|multi\\-seksualny|skoliose(?:ksualny|xual)|(?:demidziewczyn|poliamori|lesbijsk)a|inter(?:seksualn[aiy]|gender)|queer(?:platonic)?|n(?:onconforming|eutrois)|omnise(?:ksualny|xual)|(?:a(?:llo)?romanti|panromanti|biromanti)c|demichłopiec|(?:(?:third\\-|(?:(?:trans|(?:bi|a))|cis))|xeno)gender|aromantyczn[aiy]|(?:pangenderow|interplciow|ksenoplciow|(?:dwuduch|tranzyt)ow|(?:dwu|bez)płciow|polyamor|nonbinar|demibo|ga)y|ge(?:nderfluid|j(?:owski|e))|genderqueer|(?:bi|a)seksualn[aiy]|(?:(?:(?:(?:trans|(?:(?:(?:(?:allo|pan)|demi)|a)|bi))|tran)|(?:gra|pol)y)|multi)sexual|cispłciow[ay]|demigender|pangender|androgyne|lesbi(?:j(?:ek|k[ai])|an)|transow[ay]|demigirl|queers|pride|lgbt/gi,
 		// grex "lgbt" "pride" "gay" "geje" "gejowski" "lesbian" "lesbijka" "lesbijki" "lesbijek" "lesbijska" "bisexual" "biseksualny" "biseksualna" "biseksualni" "transgender" "transseksualista" "transseksualistka" "transowa" "transseksualny" "transseksualna" "transexual" "transsexual" "transexual" "transowy" "tranzytowy" "nonbinary" "niebinarny" "niebinarna" "asexual" "aseksualny" "aseksualna" "aseksualni" "pansexual" "panseksualny" "panseksualna" "aromantic" "aromantyczny" "aromantyczna" "aromantyczni" "demisexual" "demiseksualny" "demiseksualna" "cisgender" "cispłciowy" "cispłciowa" "genderfluid" "genderqueer" "queer" "queers" "lesbijka" "lesbijki" "aseksualny" "aseksualna" "interseksualny" "interseksualna" "interseksualni" "polyamory" "poliamoria" "poliamoryczny" "polysexual" "poliseksualny" "poliseksualna" "bigender" "dwupłciowy" "agender" "bezpłciowy" "two-spirit" "dwuduchowy" "allosexual" "alloseksualny" "alloseksualna" "alloromantic" "alloromantyczny" "alloromantyczna" "nonconforming" "niekonformistyczny" "niekonformistyczna" "pangender" "pangenderowy" "demiboy" "demichłopiec" "demigirl" "demidziewczyna" "intergender" "interplciowy" "multisexual" "multi-seksualny" "omnisexual" "omniseksualny" "queerplatonic" "queerplatoniczny" "skoliosexual" "skolioseksualny" "third-gender" "trzecia-plec" "xenogender" "ksenoplciowy" "graysexual" "demigender" "neutrois" "androgyne" "biromantic" "panromantic"
+		regex: /(?:nie(?:konformistycz|binar)n|(?:alloromantycz|(?:(?:poli|(?:allo|pan))|demi)seksual)n|transseksualn)[ay]|t(?:r(?:ansseksualistk?a|zecia\\-plec)|wo\\-spirit)|(?:queerplatoni|poliamory)czny|multi\\-seksualny|skoliose(?:ksualny|xual)|(?:demidziewczyn|poliamori|lesbijsk)a|inter(?:seksualn[aiy]|gender)|queer(?:platonic)?|n(?:onconforming|eutrois)|omnise(?:ksualny|xual)|(?:a(?:llo)?romanti|panromanti|biromanti)c|demichłopiec|(?:(?:third\\-|(?:(?:trans|(?:bi|a))|cis))|xeno)gender|aromantyczn[aiy]|(?:pangenderow|interplciow|ksenoplciow|(?:dwuduch|tranzyt)ow|(?:dwu|bez)płciow|polyamor|nonbinar|demibo|ga)y|ge(?:nderfluid|j(?:owski|e))|genderqueer|(?:bi|a)seksualn[aiy]|(?:(?:(?:(?:trans|(?:(?:(?:(?:allo|pan)|demi)|a)|bi))|tran)|(?:gra|pol)y)|multi)sexual|cispłciow[ay]|demigender|pangender|androgyne|lesbi(?:j(?:ek|k[ai])|an)|transow[ay]|demigirl|queers|pride|lgbt/gi,
 		file: 'sites/lgbtqplus2.txt'
 	},
 	{
 		title: 'Blocks websites related to gambling, betting, and casinos',
 		description: 'Active + inactive domains',
 		category: 'Gambling',
-		regex: /s(?:cratchcard|(?:weepstake|lot))s|b(?:lackjack|ookmaker)|betonline|gambling|roulette|jackpot|lottery|betting|(?:casi|ke)no|craps|poker/gi,
 		// grex "casino" "poker" "betting" "roulette" "blackjack" "slots" "gambling" "lottery" "jackpot" "craps" "bookmaker" "keno" "sweepstakes" "betonline" "scratchcards"
+		regex: /s(?:cratchcard|(?:weepstake|lot))s|b(?:lackjack|ookmaker)|betonline|gambling|roulette|jackpot|lottery|betting|(?:casi|ke)no|craps|poker/gi,
 		file: 'gambling/sefinek.hosts2.txt'
 	},
 	{
 		title: 'Blocks websites with adult content, pornography, and explicit material',
 		description: 'Active + inactive domains',
 		category: 'Adult',
-		regex: /bdsmcommunity|prostitution|h(?:ardcoreporn|entai)|adult(?:c(?:onten|ha)t|site)|p(?:olyamor|laybo)y|pornstars|s(?:tripclub|wingers)|tribbing|(?:lingeri|nud)e|eroti(?:sm|c)|hustler|camgirl|(?:pegg|sext)ing|voyeur|sexual|escort|(?:ecch|y(?:ao|ur))i|bdsm|porn|kink|xxx/gi,
 		// grex "porn" "xxx" "nude" "sexual" "erotic" "bdsm" "voyeur" "camgirl" "escort" "prostitution" "stripclub" "lingerie" "adultsite" "adultcontent" "playboy" "hustler" "sexting" "pornstars" "adultchat" "erotism" "hardcoreporn" "hentai" "yuri" "yaoi" "ecchi" "tribbing" "pegging" "polyamory" "bdsmcommunity" "swingers" "kink"
+		regex: /bdsmcommunity|prostitution|h(?:ardcoreporn|entai)|adult(?:c(?:onten|ha)t|site)|p(?:olyamor|laybo)y|pornstars|s(?:tripclub|wingers)|tribbing|(?:lingeri|nud)e|eroti(?:sm|c)|hustler|camgirl|(?:pegg|sext)ing|voyeur|sexual|escort|(?:ecch|y(?:ao|ur))i|bdsm|porn|kink|xxx/gi,
 		file: 'porn/sefinek.hosts2.txt'
 	},
 	{
 		title: 'Blocks websites related to piracy, illegal downloads, torrents, and copyright infringement',
 		description: 'Active + inactive domains',
 		category: 'Piracy',
-		regex: /illegal(?:download|stream)|piratebay|hack(?:tools|ing)|crackme|torrent|pirate|keygen|serial|crack|warez/gi,
 		// grex "torrent" "pirate" "crack" "warez" "keygen" "serial" "hacking" "illegaldownload" "hacktools" "illegalstream" "crackme" "piratebay"
+		regex: /illegal(?:download|stream)|piratebay|hack(?:tools|ing)|crackme|torrent|pirate|keygen|serial|crack|warez/gi,
 		file: 'piracy/sefinek.hosts.txt'
 	},
 	{
 		title: 'Blocks websites promoting racism, hate speech, and extremist ideologies',
 		description: 'Active + inactive domains',
 		category: 'Hate Speech',
-		regex: /ethnonationalism|white(?:nationalism|supremacy|pride)|h(?:olocaustdenial|atespeech)|antisemitism|islamophobia|a(?:ntisemite|lt\\-right)|kukluxklan|radicalism|(?:hom|xen)ophobia|supremacy|(?:neonazis|antiisla)m|(?:extrem|(?:fas|ra)c)ism|neonazi|nazi/gi,
 		// grex "racism" "nazi" "whitesupremacy" "whitenationalism" "antisemitism" "antiislam" "kukluxklan" "neonazi" "extremism" "radicalism" "hatespeech" "holocaustdenial" "xenophobia" "homophobia" "islamophobia" "antisemite" "fascism" "supremacy" "whitepride" "alt-right" "neonazism" "ethnonationalism"
+		regex: /ethnonationalism|white(?:nationalism|supremacy|pride)|h(?:olocaustdenial|atespeech)|antisemitism|islamophobia|a(?:ntisemite|lt\\-right)|kukluxklan|radicalism|(?:hom|xen)ophobia|supremacy|(?:neonazis|antiisla)m|(?:extrem|(?:fas|ra)c)ism|neonazi|nazi/gi,
 		file: 'hate-and-junk/sefinek.hosts.txt'
 	},
 	{
 		title: 'Blocks most sites related to e-sports, such as FaceIT and ESL',
 		description: 'Active + inactive domains',
 		category: 'E-Sport',
-		regex: /p(?:ubg\\-global\\-championship|atrik\\-lindberg|vpro\\.com)|(?:carl\\-martin\\-erik\\-larsso|(?:peter\\-rasmus|finn\\-ander)se|kyle\\-jackso)n|oleksandr\\-kostyliev|ch(?:ristopher\\-alesund|allengermode)|the\\-international|m(?:ichael\\-grzesiek|athieu\\-herbaut)|(?:overwatch\\-leagu|esl\\-pro\\-leagu|popflash\\.sit|intel\\-extrem)e|andreas\\-hojsleth|fifae\\-world\\-cup|l(?:adislav\\-kovacs|uka\\-perkovic)|j(?:esper\\-wecksell|ohan\\-sundstein)|gabriel\\-toledo|k(?:yle\\-giersdorf|enny\\-schrub)|nicolai\\-reedtz|(?:lee\\-sang\\-hyeo|sostron)k|rasmus\\-winther|marcelo\\-david|(?:blast\\-premi|olof\\-kajbj)er|danil\\-ishutin|nikola\\-kovac|gamersclub|tyson\\-ngo|pgl\\-major|(?:e(?:s(?:ea\\.ne|por)|\\-spor)|facei)t/gi,
 		// grex "esport" "e-sport" "the-international" "overwatch-league" "esl-pro-league" "intel-extreme" "blast-premier" "pgl-major" "pubg-global-championship" "fifae-world-cup" "faceit" "esea.net" "oleksandr-kostyliev" "nicolai-reedtz" "mathieu-herbaut" "nikola-kovac" "patrik-lindberg" "marcelo-david" "finn-andersen" "peter-rasmussen" "andreas-hojsleth" "gabriel-toledo" "olof-kajbjer" "michael-grzesiek" "lee-sang-hyeok" "danil-ishutin" "johan-sundstein" "tyson-ngo" "kyle-giersdorf" "kyle-jackson" "luka-perkovic" "rasmus-winther" "carl-martin-erik-larsson" "kenny-schrub" "christopher-alesund" "jesper-wecksell" "ladislav-kovacs" "challengermode" "sostronk" "gamersclub" "pvpro.com" "popflash.site"
-		whitelist: /livesports/gi,
-		// grex "livesports"
+		regex: /p(?:ubg\\-global\\-championship|atrik\\-lindberg|vpro\\.com)|(?:carl\\-martin\\-erik\\-larsso|(?:peter\\-rasmus|finn\\-ander)se|kyle\\-jackso)n|oleksandr\\-kostyliev|ch(?:ristopher\\-alesund|allengermode)|the\\-international|m(?:ichael\\-grzesiek|athieu\\-herbaut)|(?:overwatch\\-leagu|esl\\-pro\\-leagu|popflash\\.sit|intel\\-extrem)e|andreas\\-hojsleth|fifae\\-world\\-cup|l(?:adislav\\-kovacs|uka\\-perkovic)|j(?:esper\\-wecksell|ohan\\-sundstein)|gabriel\\-toledo|k(?:yle\\-giersdorf|enny\\-schrub)|nicolai\\-reedtz|(?:lee\\-sang\\-hyeo|sostron)k|rasmus\\-winther|marcelo\\-david|(?:blast\\-premi|olof\\-kajbj)er|danil\\-ishutin|nikola\\-kovac|gamersclub|tyson\\-ngo|pgl\\-major|(?:e(?:s(?:ea\\.ne|por)|\\-spor)|facei)t/gi,
+		// grex "livesports" "thesport"
+		whitelist: /livesports|thesport/gi,
 		file: 'sites/esport.txt'
 	}
 ];
