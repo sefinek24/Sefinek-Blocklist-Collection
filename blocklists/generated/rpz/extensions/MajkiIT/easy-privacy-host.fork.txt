@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725416911975 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725589696735 43200 3600 259200 300
   NS  localhost.
 ;
-;202409040303
+;202409060303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -8671,6 +8671,8 @@ luizalabs.com CNAME .
 *.luizalabs.com CNAME .
 320320.net CNAME .
 *.320320.net CNAME .
+co.kr CNAME .
+*.co.kr CNAME .
 co.jp CNAME .
 *.co.jp CNAME .
 aloodo.com CNAME .
@@ -9021,6 +9023,8 @@ bankofthewest.com CNAME .
 *.bankofthewest.com CNAME .
 kkguan.com CNAME .
 *.kkguan.com CNAME .
+toast.com CNAME .
+*.toast.com CNAME .
 adless.io CNAME .
 *.adless.io CNAME .
 com.com CNAME .
@@ -48839,6 +48843,8 @@ quantserve.com CNAME .
 *.quantserve.com CNAME .
 appspot.com CNAME .
 *.appspot.com CNAME .
+petametrics.com CNAME .
+*.petametrics.com CNAME .
 epoise.com CNAME .
 *.epoise.com CNAME .
 actonservice.com CNAME .
