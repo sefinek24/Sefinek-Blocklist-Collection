@@ -4,14 +4,14 @@ const { join } = require('node:path');
 const readline = require('node:readline');
 const cluster = require('node:cluster');
 const numCPUs = require('node:os').availableParallelism();
-const { CATEGORIES, WHITELIST } = require('./scripts/data.js');
+const { CATEGORIES, GLOBAL_WHITELIST } = require('./scripts/data.js');
 
 const matchesPattern = (pattern, domain) => {
 	const regexPattern = new RegExp('^' + pattern.replace(/\./g, '\\.').replace(/\*/g, '.*') + '$');
 	return regexPattern.test(domain);
 };
 
-const isDomainWhitelisted = domain => WHITELIST.some(pattern => matchesPattern(pattern, domain));
+const isDomainWhitelisted = domain => GLOBAL_WHITELIST.some(pattern => matchesPattern(pattern, domain));
 
 const tmpDir = join(__dirname, '..', '..', '..', 'tmp');
 const inputFilePath = join(tmpDir, 'global.txt');

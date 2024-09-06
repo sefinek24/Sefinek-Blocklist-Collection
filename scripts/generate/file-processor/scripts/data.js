@@ -141,6 +141,6 @@ exports.CATEGORIES = [
 	}
 ];
 
-exports.WHITELIST = [
+exports.GLOBAL_WHITELIST = [
 	'*.stoplgbt.pl'
 ];
