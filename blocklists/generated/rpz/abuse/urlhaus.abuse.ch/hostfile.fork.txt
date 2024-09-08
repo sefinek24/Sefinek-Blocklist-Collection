@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725804605600 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725811843421 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-08 14:04:06 (UTC)                      ;
+; Last updated: 2024-09-08 16:04:06 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -12,6 +12,8 @@ $TTL 300
 ;
 0xf20b415.ru CNAME .
 *.0xf20b415.ru CNAME .
+kukulaa.cn CNAME .
+*.kukulaa.cn CNAME .
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
 haory.cn CNAME .
@@ -52,8 +54,6 @@ cobainaja.id CNAME .
 *.cobainaja.id CNAME .
 52kkg.com CNAME .
 *.52kkg.com CNAME .
-co.il CNAME .
-*.co.il CNAME .
 atsegypt.com CNAME .
 *.atsegypt.com CNAME .
 aulist.com CNAME .
@@ -70,8 +70,6 @@ avastpx.com CNAME .
 *.avastpx.com CNAME .
 avastsf.com CNAME .
 *.avastsf.com CNAME .
-avocaldoperu.com CNAME .
-*.avocaldoperu.com CNAME .
 bahrabeauty.com CNAME .
 *.bahrabeauty.com CNAME .
 bazarganadero.com CNAME .
@@ -358,8 +356,8 @@ techniguitare.com CNAME .
 *.techniguitare.com CNAME .
 tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
-telegram.ninja CNAME .
-*.telegram.ninja CNAME .
+temirtau-adm.ru CNAME .
+*.temirtau-adm.ru CNAME .
 tengfeidn.com CNAME .
 *.tengfeidn.com CNAME .
 typoten.com CNAME .
@@ -398,6 +396,8 @@ carsmartag.com CNAME .
 *.594mu.com CNAME .
 almrwad.com CNAME .
 *.almrwad.com CNAME .
+aqianniao.com CNAME .
+*.aqianniao.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
 blackhattoolz.com CNAME .
@@ -406,8 +406,6 @@ bsafesafety.com CNAME .
 *.bsafesafety.com CNAME .
 chemsky.tn CNAME .
 *.chemsky.tn CNAME .
-com.pe CNAME .
-*.com.pe CNAME .
 elmipardaz.com CNAME .
 *.elmipardaz.com CNAME .
 globallaborsupply.com CNAME .
@@ -474,4 +472,4 @@ ysdjsrf.com CNAME .
 *.ysdjsrf.com CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
-; Number of entries: 232
+; Number of entries: 231
