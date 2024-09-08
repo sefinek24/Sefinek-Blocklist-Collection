@@ -89,5 +89,3 @@ jobs:
           else
             echo "Canceled. No changes to commit."
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.SEFINEK_ACTIONS_PAT }}
