@@ -13,7 +13,7 @@
 </div>
 
 ## BIG UPDATE (v1.3.1) 📥
-New lists have been added to the generator as of September 5, 2024. Please update your collection on your end :)
+New lists have been added to the [generator](https://sefinek.net/blocklist-generator) as of September 5, 2024. Please update your collection on your end :)
 
 ## 💸 Support me
 Unfortunately, **my home internet connection doesn't allow me to host a blocklist**, so I'm asking for your support. Every donation will be helpful, and the VPS server will be available all the time. Additionally, this project will be continuously supported by me. Thank you! 😹😻
