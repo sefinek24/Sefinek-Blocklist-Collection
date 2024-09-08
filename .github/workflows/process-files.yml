@@ -59,11 +59,14 @@ jobs:
         run: |
           git config user.name "Sefinek Actions"
           git config user.email "sefinek.actions@gmail.com"
+
+          if git diff --quiet; then
+            echo "Canceled. No files were modified."
+            exit 0
+          fi
+
           MODIFIED_FILES=$(git diff --name-only HEAD | grep -v '^cache/')
           FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
-          if [ "$FILE_COUNT" -gt 0 ]; then
-            git commit -am "Update of Sefinek's lists [$FILE_COUNT files]" -m "$MODIFIED_FILES"
-            git push origin main
-          else
-            echo "Canceled. No files to commit after excluding cache/ files."
-          fi
+
+          git commit -am "Update of Sefinek's lists [$FILE_COUNT files]" -m "$MODIFIED_FILES"
+          git push origin main
