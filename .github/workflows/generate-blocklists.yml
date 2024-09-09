@@ -72,16 +72,17 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          MODIFIED_FILES=$(git status --porcelain | grep -v '^cache/')
-          FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
-
-          if [[ $FILE_COUNT -eq 0 ]]; then
-            echo "Canceled. No files were modified."
-            exit 0
-          fi
-
           git config user.name "Sefinek Actions"
           git config user.email "sefinek.actions@gmail.com"
-
-          git commit -am "Update previously committed blocklists in $GITHUB_SHA [$FILE_COUNT files]" -m "$MODIFIED_FILES"
-          git push origin main
+          if [ -n "$(git status -s)" ]; then
+            MODIFIED_FILES=$(git diff --name-only HEAD | grep -v '^cache/')
+            FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
+            if [ "$FILE_COUNT" -gt 0 ]; then
+              git commit -am "Update previously committed blocklists in $GITHUB_SHA [$FILE_COUNT files]" -m "$MODIFIED_FILES"
+              git push origin main
+            else
+              echo "Canceled. No files to commit after excluding cache/ files."
+            fi
+          else
+            echo "Canceled. No changes to commit."
+          fi
