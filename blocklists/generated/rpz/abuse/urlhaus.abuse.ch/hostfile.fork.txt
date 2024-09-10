@@ -1,21 +1,25 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725928174822 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725935393568 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-10 00:19:10 (UTC)                      ;
+; Last updated: 2024-09-10 02:23:07 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+0xf20b415.ru CNAME .
+*.0xf20b415.ru CNAME .
 kukulaa.cn CNAME .
 *.kukulaa.cn CNAME .
 1312services.ru CNAME .
 *.1312services.ru CNAME .
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
+1000uc.com CNAME .
+*.1000uc.com CNAME .
 haory.cn CNAME .
 *.haory.cn CNAME .
 miiyun.cn CNAME .
@@ -24,8 +28,6 @@ qbgxl.com CNAME .
 *.qbgxl.com CNAME .
 abissnet.net CNAME .
 *.abissnet.net CNAME .
-adf6.com CNAME .
-*.adf6.com CNAME .
 antharris.top CNAME .
 *.antharris.top CNAME .
 aefieiaehfiaehr.top CNAME .
@@ -34,8 +36,6 @@ aeufoeahfouefhg.top CNAME .
 *.aeufoeahfouefhg.top CNAME .
 aiiaiafrzrueuedur.net CNAME .
 *.aiiaiafrzrueuedur.net CNAME .
-airhobi.com CNAME .
-*.airhobi.com CNAME .
 aldiablo.cl CNAME .
 *.aldiablo.cl CNAME .
 almrwad.com CNAME .
@@ -50,8 +50,6 @@ co.za CNAME .
 *.co.za CNAME .
 cobainaja.id CNAME .
 *.cobainaja.id CNAME .
-52kkg.com CNAME .
-*.52kkg.com CNAME .
 atsegypt.com CNAME .
 *.atsegypt.com CNAME .
 aulist.com CNAME .
@@ -72,8 +70,6 @@ avastpx.com CNAME .
 *.avastpx.com CNAME .
 avastsf.com CNAME .
 *.avastsf.com CNAME .
-avocaldoperu.com CNAME .
-*.avocaldoperu.com CNAME .
 bahrabeauty.com CNAME .
 *.bahrabeauty.com CNAME .
 bazarganadero.com CNAME .
@@ -92,6 +88,8 @@ haory.cn CNAME .
 *.haory.cn CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
+cajgtus.com CNAME .
+*.cajgtus.com CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
@@ -124,6 +122,8 @@ deauduafzgezzfgm.top CNAME .
 *.deauduafzgezzfgm.top CNAME .
 xueshenit.com CNAME .
 *.xueshenit.com CNAME .
+defgyma.com CNAME .
+*.defgyma.com CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
 diclegrup.org CNAME .
@@ -182,8 +182,6 @@ florenda.com CNAME .
 *.florenda.com CNAME .
 antharris.top CNAME .
 *.antharris.top CNAME .
-gsmcrackteam.com CNAME .
-*.gsmcrackteam.com CNAME .
 t1linux.com CNAME .
 *.t1linux.com CNAME .
 admini.website CNAME .
@@ -236,10 +234,10 @@ ac.in CNAME .
 *.ac.in CNAME .
 licocojambamarketplace.com CNAME .
 *.licocojambamarketplace.com CNAME .
+lindnerelektroanlagen.de CNAME .
+*.lindnerelektroanlagen.de CNAME .
 linhkiem.com CNAME .
 *.linhkiem.com CNAME .
-linkvilleplayers.org CNAME .
-*.linkvilleplayers.org CNAME .
 livetrack.in CNAME .
 *.livetrack.in CNAME .
 loeghaiofiehfihf.to CNAME .
@@ -260,6 +258,8 @@ mastercompu.com CNAME .
 *.mastercompu.com CNAME .
 meeweb.com CNAME .
 *.meeweb.com CNAME .
+microsecurityupdate.com CNAME .
+*.microsecurityupdate.com CNAME .
 protectorkrmnts.info CNAME .
 *.protectorkrmnts.info CNAME .
 msvolliff.info CNAME .
@@ -274,8 +274,6 @@ sohacz.info CNAME .
 *.sohacz.info CNAME .
 namthaibinh.net CNAME .
 *.namthaibinh.net CNAME .
-noithaticon.vn CNAME .
-*.noithaticon.vn CNAME .
 teracomm.mk CNAME .
 *.teracomm.mk CNAME .
 com.br CNAME .
@@ -294,8 +292,6 @@ org.pk CNAME .
 *.org.pk CNAME .
 popipg.com CNAME .
 *.popipg.com CNAME .
-wetolink.com CNAME .
-*.wetolink.com CNAME .
 protechasia.com CNAME .
 *.protechasia.com CNAME .
 protectorkrmnts.info CNAME .
@@ -320,14 +316,10 @@ fuerer-net.ru CNAME .
 *.fuerer-net.ru CNAME .
 servisaludocupacional.pe CNAME .
 *.servisaludocupacional.pe CNAME .
-dimitrimedia.com CNAME .
-*.dimitrimedia.com CNAME .
 silinast.ro CNAME .
 *.silinast.ro CNAME .
 intensegroupgt.com CNAME .
 *.intensegroupgt.com CNAME .
-110route.com CNAME .
-*.110route.com CNAME .
 softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
 sohacz.info CNAME .
@@ -340,16 +332,12 @@ co.za CNAME .
 *.co.za CNAME .
 dinju.com CNAME .
 *.dinju.com CNAME .
-clz.kr CNAME .
-*.clz.kr CNAME .
 synexenergygroup.net CNAME .
 *.synexenergygroup.net CNAME .
 techniguitare.com CNAME .
 *.techniguitare.com CNAME .
 tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
-telegram.ninja CNAME .
-*.telegram.ninja CNAME .
 temirtau-adm.ru CNAME .
 *.temirtau-adm.ru CNAME .
 tengfeidn.com CNAME .
@@ -384,12 +372,8 @@ warzone-meta.net CNAME .
 *.warzone-meta.net CNAME .
 carsmartag.com CNAME .
 *.carsmartag.com CNAME .
-594mu.com CNAME .
-*.594mu.com CNAME .
 almrwad.com CNAME .
 *.almrwad.com CNAME .
-aqianniao.com CNAME .
-*.aqianniao.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
 blackhattoolz.com CNAME .
@@ -412,8 +396,6 @@ jd-shop77.com CNAME .
 *.jd-shop77.com CNAME .
 jd288shopap.com CNAME .
 *.jd288shopap.com CNAME .
-jdapp388shop.com CNAME .
-*.jdapp388shop.com CNAME .
 linhkiem.com CNAME .
 *.linhkiem.com CNAME .
 luxurypropertiesfl.com CNAME .
@@ -428,6 +410,8 @@ opolis.io CNAME .
 *.opolis.io CNAME .
 protectorkrmnts.info CNAME .
 *.protectorkrmnts.info CNAME .
+qqqmy.com CNAME .
+*.qqqmy.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
 reifenquick.de CNAME .
@@ -438,8 +422,6 @@ saf-oil.ru CNAME .
 *.saf-oil.ru CNAME .
 lannaoke.com CNAME .
 *.lannaoke.com CNAME .
-starcountry.net CNAME .
-*.starcountry.net CNAME .
 co.jp CNAME .
 *.co.jp CNAME .
 synexenergygroup.net CNAME .
@@ -462,4 +444,6 @@ ysdjsrf.com CNAME .
 *.ysdjsrf.com CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
-; Number of entries: 226
+shavsl.com CNAME .
+*.shavsl.com CNAME .
+; Number of entries: 218
