@@ -30,7 +30,7 @@ app.use(timeout());
 
 
 // Stats
-app.use(updateStats);
+if (process.env.NODE_ENV === 'production') app.use(updateStats);
 
 // Endpoints
 app.use(require('./routes/Main.js'));
