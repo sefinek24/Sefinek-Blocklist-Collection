@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725582520238 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1725928174822 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,804
-; Updated: 9/5/2024  17:24 (5:24 PM CST)
+; Domains: 13,805
+; Updated: 9/9/2024  18:42 (6:42 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -18957,6 +18957,8 @@ platinumtradingfx.com CNAME .
 *.platinumtradingfx.com CNAME .
 plattenews.com CNAME .
 *.plattenews.com CNAME .
+plausible-analytics.xyz CNAME .
+*.plausible-analytics.xyz CNAME .
 play-album.com CNAME .
 *.play-album.com CNAME .
 playboxie.com CNAME .
