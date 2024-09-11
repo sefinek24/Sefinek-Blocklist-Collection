@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726014565934 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726027951681 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Ads
 ;    Info: Advertisements, Banners, Widgets & Push Notifications
-; Domains: 19,283
-; Updated: 9/10/2024  18:12 (6:12 PM CST)
+; Domains: 19,284
+; Updated: 9/10/2024  21:38 (9:38 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -17789,6 +17789,8 @@ cryptvalue.com CNAME .
 *.cryptvalue.com CNAME .
 crystall.io CNAME .
 *.crystall.io CNAME .
+crystalstatus.com CNAME .
+*.crystalstatus.com CNAME .
 cryteo.com CNAME .
 *.cryteo.com CNAME .
 cs30.net CNAME .
