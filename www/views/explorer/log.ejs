@@ -9,7 +9,7 @@
     canonical: currentPath,
     subpage: 'git-logs',
     libs: null,
-    style: 'auto-index'
+    style: 'explorer'
 }) %>
 
 <div class="cover">
@@ -40,7 +40,7 @@
                 <tr>
                     <td class="link">
                         <a href="<%= currentPath.replace(/\/$/, '') %>/<%= file.name %>" style="color:<%= file.isDirectory ? 'yellow' : 'cyan' %>">
-                            <img src="/images/flaticon/<%= file.isDirectory ? 'open-folder.png' : 'word.png' %>" class="link-img"> <%= file.name %>
+                            <img src="/images/flaticon/<%= file.icon %>" class="link-img"> <%= file.name %>
                         </a>
                     </td>
                     <td class="time" data-timestamp="<%= file.lastModified %>"></td>

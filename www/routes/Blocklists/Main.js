@@ -21,11 +21,16 @@ const TAGS_REGEX = /<!--\s*tags:\s*(.+?)\s*-->/;
 const CANONICAL_REGEX = /<!--\s*canonical:\s*(.+?)\s*-->/;
 
 const formatFileSize = bytes => {
+	if (bytes === 0) return 'Empty';
 	const factor = Math.floor(Math.log10(bytes) / 3) || 0;
 	return (bytes / Math.pow(1000, factor)).toFixed(2) + ' ' + SIZES[factor];
 };
 
-const getFileIcon = (fileName, isDirectory) => isDirectory ? 'open-folder.png' : TEXT_FILE_EXTENSIONS.has(path.extname(fileName).toLowerCase()) ? 'word.png' : 'unknown-mail.png';
+const getFileIcon = (fileName, isDirectory) => {
+	if (isDirectory) return 'open-folder.png';
+	const ext = path.extname(fileName).toLowerCase();
+	return TEXT_FILE_EXTENSIONS.has(ext) ? 'word.png' : 'unknown-mail.png';
+};
 
 const getDirectorySize = async dirPath => {
 	const files = await fs.readdir(dirPath, { withFileTypes: true });
@@ -39,7 +44,7 @@ const getDirectorySize = async dirPath => {
 
 const getCachedFiles = async dirPath => {
 	const cacheEntry = CACHE_MAP.get(dirPath);
-	if (cacheEntry && (Date.now() - cacheEntry.timestamp < CACHE_EXPIRATION)) return cacheEntry.data;
+	if (cacheEntry && Date.now() - cacheEntry.timestamp < CACHE_EXPIRATION) return cacheEntry.data;
 
 	const files = await fs.readdir(dirPath, { withFileTypes: true });
 	const fileList = await Promise.all(files.map(async file => {
