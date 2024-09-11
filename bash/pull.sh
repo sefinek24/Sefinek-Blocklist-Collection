@@ -27,7 +27,7 @@ mkdir -p "$logs_dir"
 
         if git pull; then
             npm ci --omit=dev
-            pm2 restart blocklist
+            # pm2 restart blocklist
 
             echo -e "\nSuccess! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
         else
