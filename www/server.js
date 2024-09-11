@@ -40,7 +40,7 @@ app.use(require('./routes/Blocklists/Main.js'));
 app.use(require('./routes/Blocklists/Deprecated.js'));
 
 // Markdown
-app.use(require('./routes/Markdown.js'));
+// app.use(require('./routes/Markdown.js'));
 
 // API
 app.use(require('./routes/API.js'));

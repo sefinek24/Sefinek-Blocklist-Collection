@@ -1,11 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const autoIndex = require('express-autoindex');
 const path = require('node:path');
 const fs = require('node:fs/promises');
 const { version } = require('../../package.json');
-
-const options = { customTemplate: path.join(__dirname, '..', 'views', 'autoindex', 'markdown.html'), dirAtTop: true };
 
 // Markdown
 const Marked = require('marked');
@@ -31,11 +28,33 @@ const extractMatch = (regex, text) => {
 	return match && match[1].trim() && match[1].trim() !== 'N/A' ? match[1].trim() : null;
 };
 
-// Routes
-router.get('/markdown', (req, res) => res.render('markdown.ejs', { version }));
-router.use('/markdown/lists', autoIndex(path.join(__dirname, '..', '..', 'docs', 'lists'), options));
-router.use('/markdown/info', autoIndex(path.join(__dirname, '..', '..', 'docs', 'info'), options));
-router.use('/markdown/tutorials', autoIndex(path.join(__dirname, '..', '..', 'docs', 'tutorials'), options));
+const listFiles = async (dir) => {
+	try {
+		const files = await fs.readdir(dir);
+		return files.map(file => ({
+			name: file,
+			path: path.join(dir, file)
+		}));
+	} catch (err) {
+		console.error(err);
+		return [];
+	}
+};
+
+router.get('/markdown/lists', async (req, res) => {
+	const files = await listFiles(path.join(__dirname, '..', '..', 'docs', 'lists'));
+	res.render('explorer/markdown.ejs', { files });
+});
+
+router.get('/markdown/info', async (req, res) => {
+	const files = await listFiles(path.join(__dirname, '..', '..', 'docs', 'info'));
+	res.render('explorer/markdown.ejs', { files });
+});
+
+router.get('/markdown/tutorials', async (req, res) => {
+	const files = await listFiles(path.join(__dirname, '..', '..', 'docs', 'tutorials'));
+	res.render('explorer/markdown.ejs', { files });
+});
 
 // Viewer
 const pages = [
@@ -48,7 +67,6 @@ const pages = [
 	'Why_should_I_block_Snapchat',
 	'Why_should_I_block_TikTok',
 	'Why_should_I_block_Valorant',
-
 	'How_to_install_Pi-hole',
 	'How_to_install_Unbound_for_Pi-hole'
 ];
@@ -86,6 +104,5 @@ router.use('/viewer/:category', async (req, res) => {
 		res.status(500).end();
 	}
 });
-
 
 module.exports = router;
