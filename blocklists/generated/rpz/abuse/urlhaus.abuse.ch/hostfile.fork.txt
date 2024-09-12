@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726121562898 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726128758321 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-12 06:04:36 (UTC)                      ;
+; Last updated: 2024-09-12 08:04:05 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+0xf20b415.ru CNAME .
+*.0xf20b415.ru CNAME .
 kukulaa.cn CNAME .
 *.kukulaa.cn CNAME .
 qbgxl.com CNAME .
@@ -72,8 +74,6 @@ avastpx.com CNAME .
 *.avastpx.com CNAME .
 avastsf.com CNAME .
 *.avastsf.com CNAME .
-avocaldoperu.com CNAME .
-*.avocaldoperu.com CNAME .
 bahrabeauty.com CNAME .
 *.bahrabeauty.com CNAME .
 bazarganadero.com CNAME .
@@ -94,14 +94,14 @@ haory.cn CNAME .
 *.haory.cn CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
-cajgtus.com CNAME .
-*.cajgtus.com CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
 chiptune.com CNAME .
 *.chiptune.com CNAME .
+ciscocdn.com CNAME .
+*.ciscocdn.com CNAME .
 antharris.top CNAME .
 *.antharris.top CNAME .
 coadymarine.com CNAME .
@@ -124,16 +124,12 @@ deauduafzgezzfgm.top CNAME .
 *.deauduafzgezzfgm.top CNAME .
 xueshenit.com CNAME .
 *.xueshenit.com CNAME .
-com.ar CNAME .
-*.com.ar CNAME .
 diclegrup.org CNAME .
 *.diclegrup.org CNAME .
 56a.com CNAME .
 *.56a.com CNAME .
 aginjector.com CNAME .
 *.aginjector.com CNAME .
-packetstormsecurity.net CNAME .
-*.packetstormsecurity.net CNAME .
 jxwan.com CNAME .
 *.jxwan.com CNAME .
 pcclear.com CNAME .
@@ -240,8 +236,6 @@ ac.in CNAME .
 *.ac.in CNAME .
 licocojambamarketplace.com CNAME .
 *.licocojambamarketplace.com CNAME .
-lindnerelektroanlagen.de CNAME .
-*.lindnerelektroanlagen.de CNAME .
 linhkiem.com CNAME .
 *.linhkiem.com CNAME .
 linkvilleplayers.org CNAME .
@@ -350,8 +344,6 @@ techniguitare.com CNAME .
 *.techniguitare.com CNAME .
 tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
-telegram.ninja CNAME .
-*.telegram.ninja CNAME .
 temirtau-adm.ru CNAME .
 *.temirtau-adm.ru CNAME .
 tengfeidn.com CNAME .
@@ -374,10 +366,6 @@ tricotexbacau.ro CNAME .
 *.tricotexbacau.ro CNAME .
 twizt.net CNAME .
 *.twizt.net CNAME .
-unicorpbrunei.com CNAME .
-*.unicorpbrunei.com CNAME .
-maolaoban.top CNAME .
-*.maolaoban.top CNAME .
 cg100iii.com CNAME .
 *.cg100iii.com CNAME .
 valapedia.com CNAME .
@@ -458,10 +446,16 @@ valapedia.com CNAME .
 *.valapedia.com CNAME .
 ysbaojia.com CNAME .
 *.ysbaojia.com CNAME .
+wynecare.com CNAME .
+*.wynecare.com CNAME .
 xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
-hnggzyjy.cn CNAME .
-*.hnggzyjy.cn CNAME .
+ysdjsrf.com CNAME .
+*.ysdjsrf.com CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
-; Number of entries: 227
+shavsl.com CNAME .
+*.shavsl.com CNAME .
+broadmediacloud.com CNAME .
+*.broadmediacloud.com CNAME .
+; Number of entries: 224
