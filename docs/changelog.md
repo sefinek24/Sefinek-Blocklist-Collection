@@ -1,3 +1,20 @@
+## Update v0.18.0 - 13.09.2024
+1. Added new lists of domains, collected using regular expressions. See [this file](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/scripts/generate/file-processor/scripts/data.js) for details.
+   - `anime/main.txt`
+   - `sites/lgbtqplus2.txt`
+   - `gambling/sefinek.hosts2.txt`
+   - `porn/sefinek.hosts2.txt`
+   - `piracy/sefinek.hosts.txt`
+   - `hate-and-junk/sefinek.hosts.txt`
+   - `sites/esport.txt`
+2. Updated Express.js to version 5.
+3. Adjusted code to support the new Express.js version.
+4. Uninstalled the `express-autoindex` module and implemented our own file-serving solution.
+5. Optimized file serving; files are now served about 500ms faster!
+6. Improved statistics collection and reduced database load.
+7. Various quality fixes and enhancements.
+8. Improved the list generator UI ([sefinek.net](https://sefinek.net/blocklist-generator)) and implemented other enhancements.
+
 ## Update v0.17.0 - 14.07.2024
 1. Added:
    - `dating-services/ShadowWhisperer/dating.fork.txt`

@@ -27,7 +27,7 @@ const updateStats = (req, res) => {
 			updateQuery.inc[`perMonth.${monthKey}-${yearKey}`] = 1;
 			updateQuery.inc[`perYear.${yearKey}`] = 1;
 
-			console.debug(`Updated stats for ${type}`);
+			// console.debug(`Updated stats for ${type}`);
 		}
 
 		process.send({ type: 'updateStats', data: updateQuery });
