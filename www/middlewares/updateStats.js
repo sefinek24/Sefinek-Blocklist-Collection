@@ -22,7 +22,7 @@ const updateStats = (req, res) => {
 			}
 		};
 
-		if (res.statusCode >= 200 && res.statusCode < 300 && category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
+		if (res.statusCode >= 200 && res.statusCode <= 304 && category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
 			updateQuery.inc.blocklists = 1;
 			if (listUrl) updateQuery.inc[`categories.${type}`] = 1;
 		}
