@@ -13,7 +13,7 @@ const CACHE_MAP = new Map();
 const CACHE_EXPIRATION = 6 * 60 * 60 * 1000;
 
 const SIZES = ['B', 'KB', 'MB'];
-const TEXT_FILE_EXTENSIONS = new Set(['.txt', '.log', '.md']);
+const TEXT_FILE_EXTENSIONS = new Set(['.txt', '.conf', '.log', '.md']);
 
 const TITLE_REGEX = /#\s(.+)/;
 const DESC_REGEX = /<!--\s*desc:\s*(.+?)\s*-->/;
@@ -108,7 +108,7 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 };
 
 router.get(/^\/logs\/v1(.*)$/, (req, res) => handleRequest(req, res, LOGS_PATH, '/logs/v1', ['.log'], 'explorer/log.ejs'));
-router.get(/^\/generated\/v1(.*)$/, (req, res) => handleRequest(req, res, GENERATED_PATH, '/generated/v1', ['.txt', '.conf'], 'explorer/file.ejs'));
+router.get(/^\/generated\/v1(.*)$/, (req, res) => handleRequest(req, res, GENERATED_PATH, '/generated/v1', [], 'explorer/file.ejs'));
 router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCS_PATH, '/markdown', ['.md'], 'explorer/markdown.ejs'));
 
 module.exports = router;
