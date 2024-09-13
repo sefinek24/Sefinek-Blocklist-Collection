@@ -5,11 +5,11 @@ module.exports = wss => {
 	wss.on('connection', ws => {
 		ws.on('error', console.error);
 
-		console.log('New WebSocket connection established.');
+		console.log('New WebSocket connection established');
 
 		// Set up an interval to periodically send data to the connected client
 		const interval = setInterval(async () => {
-			const db = await RequestStats.findOne({});
+			const db = await RequestStats.findOne({}).lean();
 
 			// Prepare and send JSON data to the client
 			ws.send(JSON.stringify({
@@ -27,7 +27,7 @@ module.exports = wss => {
 
 		// Handle client's connection closure
 		ws.on('close', () => {
-			console.log('WebSocket connection was closed.');
+			console.log('WebSocket connection was closed');
 
 			// Stop the interval when the connection is closed
 			clearInterval(interval);

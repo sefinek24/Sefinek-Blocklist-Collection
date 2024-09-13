@@ -1,6 +1,5 @@
 const express = require('express');
 const helmet = require('helmet');
-const path = require('node:path');
 
 // Middleware imports
 const timeout = require('./middlewares/timeout.js');
@@ -15,13 +14,13 @@ const app = express();
 // Set
 app.set('trust proxy', 1);
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', './www/views');
 
 // Use
 app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false }));
 
 // Static (public)
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static('./www/public'));
 
 // Morgan & ratelimits & timeout
 app.use(morgan.use);
