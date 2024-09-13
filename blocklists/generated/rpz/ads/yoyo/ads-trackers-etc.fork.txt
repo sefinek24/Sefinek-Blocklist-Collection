@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725898274056 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726229595628 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Mon, 09 Sep 2024 15:04:31 GMT
-; entries:        3543
+; entries:        3542
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -472,6 +472,8 @@ adhese.com CNAME .
 *.adhese.com CNAME .
 adhigh.net CNAME .
 *.adhigh.net CNAME .
+adhoc4.net CNAME .
+*.adhoc4.net CNAME .
 adhunter.media CNAME .
 *.adhunter.media CNAME .
 co.uk CNAME .
@@ -2424,8 +2426,6 @@ bharatmatrimony.com CNAME .
 *.bharatmatrimony.com CNAME .
 caniamedia.com CNAME .
 *.caniamedia.com CNAME .
-capablecows.com CNAME .
-*.capablecows.com CNAME .
 capriciouscorn.com CNAME .
 *.capriciouscorn.com CNAME .
 captainbicycle.com CNAME .
@@ -3908,6 +3908,8 @@ inspectlet.com CNAME .
 *.inspectlet.com CNAME .
 365-stream.com CNAME .
 *.365-stream.com CNAME .
+instantmadness.com CNAME .
+*.instantmadness.com CNAME .
 insticator.com CNAME .
 *.insticator.com CNAME .
 intelliads.com CNAME .
@@ -4086,6 +4088,8 @@ leadinfo.net CNAME .
 *.leadinfo.net CNAME .
 leadingedgecash.com CNAME .
 *.leadingedgecash.com CNAME .
+leadplace.fr CNAME .
+*.leadplace.fr CNAME .
 leadspace.com CNAME .
 *.leadspace.com CNAME .
 leadzupc.com CNAME .
@@ -5144,8 +5148,6 @@ presetrabbits.com CNAME .
 *.presetrabbits.com CNAME .
 previousplayground.com CNAME .
 *.previousplayground.com CNAME .
-previouspotato.com CNAME .
-*.previouspotato.com CNAME .
 prf.hn CNAME .
 *.prf.hn CNAME .
 priceypies.com CNAME .
@@ -6878,8 +6880,6 @@ webtraffic.se CNAME .
 *.webtraffic.se CNAME .
 webtraxx.de CNAME .
 *.webtraxx.de CNAME .
-webtrendslive.com CNAME .
-*.webtrendslive.com CNAME .
 webxcdn.com CNAME .
 *.webxcdn.com CNAME .
 wellmadefrog.com CNAME .
@@ -7090,8 +7090,6 @@ samsungelectronics.com CNAME .
 *.samsungelectronics.com CNAME .
 zqtk.net CNAME .
 *.zqtk.net CNAME .
-zukxd6fkxqn.com CNAME .
-*.zukxd6fkxqn.com CNAME .
 zy16eoat1w.com CNAME .
 *.zy16eoat1w.com CNAME .
 vnet.cn CNAME .
