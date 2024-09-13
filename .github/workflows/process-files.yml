@@ -37,7 +37,7 @@ jobs:
       - name: Prepare templates
         run: node scripts/prepare-templates.js
 
-      - name: Remove duplicates
+      - name: Prepare lines
         run: node scripts/prepare-lines.js
 
       - name: Remove domains that are on the whitelist
