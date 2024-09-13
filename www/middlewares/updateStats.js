@@ -9,7 +9,7 @@ const updateStats = (req, res) => {
 	if (userAgents.includes(ua) || excludedFiles.has(req.url)) return;
 
 	try {
-		const { url, listUrl, type, category } = parseCategoryFromLink(req.originalUrl || req.url);
+		const { url, type } = parseCategoryFromLink(req.originalUrl || req.url);
 		const { dateKey, yearKey, monthKey } = time.dateKey();
 
 		const updateQuery = {
@@ -22,9 +22,11 @@ const updateStats = (req, res) => {
 			}
 		};
 
-		if (res.statusCode >= 200 && res.statusCode <= 304 && category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
+		if (type && res.statusCode >= 200 && res.statusCode <= 304 && (url.endsWith('.txt') || url.endsWith('.conf'))) {
 			updateQuery.inc.blocklists = 1;
-			if (listUrl) updateQuery.inc[`categories.${type}`] = 1;
+			updateQuery.inc[`categories.${type}`] = 1;
+
+			// console.debug(`Updated stats for ${type}`);
 		}
 
 		process.send({ type: 'updateStats', data: updateQuery });

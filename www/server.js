@@ -29,8 +29,8 @@ app.use(timeout());
 
 
 // Stats
-if (process.env.NODE_ENV === 'production') app.use(updateStats);
-// app.use(updateStats);
+// if (process.env.NODE_ENV === 'production') app.use(updateStats);
+app.use(updateStats);
 
 // Endpoints
 app.use(require('./routes/Main.js'));
