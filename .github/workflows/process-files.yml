@@ -31,6 +31,9 @@ jobs:
       - name: Generate lists
         run: node scripts/generate/file-processor/generate.js
 
+      - name: Regex check
+        run: node scripts/generate/file-processor/regex.js
+
       - name: Generate header
         run: node scripts/generate/file-processor/header.js
 
