@@ -1,8 +1,8 @@
 const express = require('express');
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const { notFound } = require('../../middlewares/other/errors.js');
 const Marked = require('marked');
+const { notFound } = require('../../middlewares/other/errors.js');
 const router = express.Router();
 
 const GENERATED_PATH = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated');
@@ -10,7 +10,7 @@ const LOGS_PATH = path.join(__dirname, '..', '..', 'public', 'logs');
 const DOCS_PATH = path.join(__dirname, '..', '..', '..', 'docs');
 
 const CACHE_MAP = new Map();
-const CACHE_EXPIRATION = 8 * 60 * 60 * 1000;
+const CACHE_EXPIRATION = 6 * 60 * 60 * 1000;
 
 const SIZES = ['B', 'KB', 'MB'];
 const TEXT_FILE_EXTENSIONS = new Set(['.txt', '.log', '.md']);

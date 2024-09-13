@@ -16,7 +16,7 @@ const worker = async () => {
 				return dirent.isDirectory() ? getAllTxtFiles(res) : res;
 			})
 		);
-		return Array.prototype.concat(...filesPromise).filter((file) => {
+		return Array.prototype.concat(...filesPromise).filter(file => {
 			return file.endsWith('.txt') && file.includes('blocklists');
 		});
 	}
