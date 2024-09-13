@@ -15,10 +15,7 @@ const updateStats = (req, res) => {
 		const updateQuery = {
 			inc: {
 				total: 1,
-				[`responses.${res.statusCode || 'unknown'}`]: 1,
-				[`perDay.${dateKey}`]: 1,
-				[`perMonth.${monthKey}-${yearKey}`]: 1,
-				[`perYear.${yearKey}`]: 1
+				[`responses.${res.statusCode || 'unknown'}`]: 1
 			}
 		};
 
@@ -26,7 +23,11 @@ const updateStats = (req, res) => {
 			updateQuery.inc.blocklists = 1;
 			updateQuery.inc[`categories.${type}`] = 1;
 
-			// console.debug(`Updated stats for ${type}`);
+			updateQuery.inc[`perDay.${dateKey}`] = 1;
+			updateQuery.inc[`perMonth.${monthKey}-${yearKey}`] = 1;
+			updateQuery.inc[`perYear.${yearKey}`] = 1;
+
+			console.debug(`Updated stats for ${type}`);
 		}
 
 		process.send({ type: 'updateStats', data: updateQuery });
