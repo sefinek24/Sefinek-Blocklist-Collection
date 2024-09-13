@@ -40,7 +40,7 @@ a:active {
 
 /* Custom fonts */
 @font-face {
-    font-family: "Cascadia Mono";
+    font-family: 'Cascadia Mono';
     src: url('/fonts/CascadiaCode-2111.01/woff2/CascadiaMono.woff2') format('woff2'),
     url('/fonts/CascadiaCode-2111.01/static/CascadiaMono-Regular.otf') format('opentype');
 }
@@ -59,7 +59,7 @@ a:active {
 }
 
 .cover-text {
-    font-family: "Cascadia Mono", sans-serif;
+    font-family: 'Cascadia Mono', sans-serif;
     text-align: center;
     text-shadow: 0 0 4px #000;
 }

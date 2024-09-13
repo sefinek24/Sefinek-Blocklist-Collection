@@ -1,21 +1,14 @@
 const { Schema, model } = require('mongoose');
 
 const RequestStats = new Schema({
-	requests: {
-		all: { type: Number, default: 0 },
-		blocklist: { type: Number, default: 0 },
-		urls: {
-			type: Map,
-			of: new Schema({
-				total: { type: Number, default: 0 },
-				last: Date,
-				perYear: { type: Map, of: Number, default: {} },
-				perMonth: { type: Map, of: Number, default: {} },
-				perDay: { type: Map, of: Number, default: {} },
-				perHour: { type: Map, of: Number, default: {} }
-			}, { _id: false }),
-			default: {}
-		},
+	total: { type: Number, default: 0 },
+	blocklists: { type: Number, default: 0 },
+
+	perDay: { type: Map, of: Number, default: {} },
+	perMonth: { type: Map, of: Number, default: {} },
+	perYear: { type: Map, of: Number, default: {} },
+
+	categories: {
 		'0000': { type: Number, default: 0 },
 		'127001': { type: Number, default: 0 },
 		adguard: { type: Number, default: 0 },
@@ -24,11 +17,8 @@ const RequestStats = new Schema({
 		rpz: { type: Number, default: 0 },
 		unbound: { type: Number, default: 0 }
 	},
-	responses: {
-		type: Map,
-		of: Number,
-		default: {}
-	},
+
+	responses: { type: Map, of: Number, default: {} },
 	updateStatsFail: { type: Number, default: 0 }
 }, { timestamps: true, versionKey: false });
 

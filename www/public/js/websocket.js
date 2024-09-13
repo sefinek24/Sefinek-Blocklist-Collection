@@ -30,16 +30,16 @@ document.addEventListener('DOMContentLoaded', () => {
 		const parsedData = JSON.parse(event.data);
 
 		// Update elements on the page
-		updateStats('all-requests', parsedData.stats.requests.all);
-		updateStats('blocklist-requests', parsedData.stats.requests.blocklist);
+		updateStats('total-requests', parsedData.stats.total);
+		updateStats('blocklist-requests', parsedData.stats.blocklists);
 
-		updateStats('127001', parsedData.stats.requests['127001']);
-		updateStats('0000', parsedData.stats.requests['0000']);
-		updateStats('adguard', parsedData.stats.requests.adguard);
-		updateStats('dnsmasq', parsedData.stats.requests.dnsmasq);
-		updateStats('noip', parsedData.stats.requests.noip);
-		updateStats('unbound', parsedData.stats.requests.unbound);
-		updateStats('rpz', parsedData.stats.requests.rpz);
+		updateStats('127001', parsedData.stats.categories['127001']);
+		updateStats('0000', parsedData.stats.categories['0000']);
+		updateStats('adguard', parsedData.stats.categories.adguard);
+		updateStats('dnsmasq', parsedData.stats.categories.dnsmasq);
+		updateStats('noip', parsedData.stats.categories.noip);
+		updateStats('unbound', parsedData.stats.categories.unbound);
+		updateStats('rpz', parsedData.stats.categories.rpz);
 
 		updateStats('404', parsedData.stats.responses['404'] || 0);
 		updateStats('429', parsedData.stats.responses['429'] || 0);

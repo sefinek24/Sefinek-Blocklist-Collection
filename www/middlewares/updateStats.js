@@ -2,36 +2,34 @@ const { userAgents } = require('./morgan.js');
 const parseCategoryFromLink = require('../utils/parseCategoryFromLink.js');
 const time = require('../utils/time.js');
 
+const excludedFiles = new Set(['/favicon.ico', '/robots.txt', '/sitemap.xml']);
+
 const updateStats = (req, res) => {
 	const ua = req.headers['user-agent'];
-	if (userAgents.includes(ua)) return;
+	if (userAgents.includes(ua) || excludedFiles.has(req.url)) return;
 
 	try {
 		const { url, listUrl, type, category } = parseCategoryFromLink(req.originalUrl || req.url);
 		const { dateKey, yearKey, monthKey } = time.dateKey();
 
 		const updateQuery = {
-			inc: { 'requests.all': 1, [`responses.${res.statusCode || 'unknown'}`]: 1 },
-			set: {}
+			inc: {
+				total: 1,
+				[`responses.${res.statusCode || 'unknown'}`]: 1,
+				[`perDay.${dateKey}`]: 1,
+				[`perMonth.${monthKey}-${yearKey}`]: 1,
+				[`perYear.${yearKey}`]: 1
+			}
 		};
 
 		if (res.statusCode >= 200 && res.statusCode < 300 && category && (url.endsWith('.txt') || url.endsWith('.conf'))) {
-			updateQuery.inc[`requests.${type}`] = 1;
-			updateQuery.inc['requests.blocklist'] = 1;
-
-			if (listUrl) {
-				updateQuery.inc[`requests.urls.${listUrl}.total`] = 1;
-				updateQuery.set[`requests.urls.${listUrl}.last`] = new Date();
-				updateQuery.inc[`requests.urls.${listUrl}.perYear.${yearKey}`] = 1;
-				updateQuery.inc[`requests.urls.${listUrl}.perMonth.${monthKey}-${yearKey}`] = 1;
-				updateQuery.inc[`requests.urls.${listUrl}.perDay.${dateKey}`] = 1;
-				// updateQuery.inc[`requests.urls.${listUrl}.perHour.${dateKey}:${hourKey}`] = 1;
-			}
+			updateQuery.inc.blocklists = 1;
+			console.log(listUrl);
+			if (listUrl) updateQuery.inc[`categories.${type}`] = 1;
 		}
 
 		process.send({ type: 'updateStats', data: updateQuery });
-	} catch (err) {
-		console.error('[UpdateStats]: Error updating request stats.', err);
+	} catch {
 		process.send({ type: 'updateStats', data: { inc: { updateStatsFail: 1 } } });
 	}
 };

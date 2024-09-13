@@ -71,7 +71,7 @@ async function testLinks() {
 			try {
 				const fileContent = await fs.readFile(markdownFile, 'utf-8');
 				links.push(...extractLinks(fileContent));
-			} catch (err) {
+			} catch {
 				console.error(kleur.red('Error reading file:'), markdownFile);
 				invalidFiles++;
 			}

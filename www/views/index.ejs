@@ -191,61 +191,61 @@
         <div class="container-stats">
             <div class="card-stats">
                 <div class="category-big">All requests</div>
-                <div class="stats-content" id="stats-content-all-requests"><%= requests.all?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-total-requests"><%= db.total.toLocaleString() %></div>
             </div>
             <div class="card-stats">
                 <div class="category-big">Blocklist requests</div>
-                <div class="stats-content" id="stats-content-blocklist-requests"><%= requests.blocklist?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-blocklist-requests"><%= db.blocklists.toLocaleString() %></div>
             </div>
         </div>
 
         <div class="container-stats">
             <div>
                 <div class="category-small">127.0.0.1</div>
-                <div class="stats-content" id="stats-content-127001"><%= requests['127001']?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-127001"><%= db.categories['127001']?.toLocaleString() %></div>
             </div>
             <div>
                 <div class="category-small">0.0.0.0</div>
-                <div class="stats-content" id="stats-content-0000"><%= requests['0000']?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-0000"><%= db.categories['0000']?.toLocaleString() %></div>
             </div>
             <div>
                 <div class="category-small">AdGuard</div>
-                <div class="stats-content" id="stats-content-adguard"><%= requests.adguard?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-adguard"><%= db.categories.adguard?.toLocaleString() %></div>
             </div>
             <div>
                 <div class="category-small">Dnsmasq</div>
-                <div class="stats-content" id="stats-content-dnsmasq"><%= requests.dnsmasq?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-dnsmasq"><%= db.categories.dnsmasq?.toLocaleString() %></div>
             </div>
             <div>
                 <div class="category-small">No IP</div>
-                <div class="stats-content" id="stats-content-noip"><%= requests.noip?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-noip"><%= db.categories.noip?.toLocaleString() %></div>
             </div>
             <div>
                 <div class="category-small">Unbound format</div>
-                <div class="stats-content" id="stats-content-unbound"><%= requests.unbound?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-unbound"><%= db.categories.unbound?.toLocaleString() %></div>
             </div>
             <div>
                 <div class="category-small">RPZ format</div>
-                <div class="stats-content" id="stats-content-rpz"><%= requests.rpz?.toLocaleString() %></div>
+                <div class="stats-content" id="stats-content-rpz"><%= db.categories.rpz?.toLocaleString() %></div>
             </div>
         </div>
 
         <div class="container-stats">
             <div>
                 <div class="category-small">Responses 404</div>
-                <div class="stats-content" id="stats-content-404"><%= responses.get('404')?.toLocaleString() || 0  %></div>
+                <div class="stats-content" id="stats-content-404"><%= db.responses.get('404')?.toLocaleString() || 0 %></div>
             </div>
             <div>
                 <div class="category-small">Responses 429</div>
-                <div class="stats-content" id="stats-content-429"><%= responses.get('429')?.toLocaleString() || 0 %></div>
+                <div class="stats-content" id="stats-content-429"><%= db.responses.get('429')?.toLocaleString() || 0 %></div>
             </div>
             <div>
                 <div class="category-small">Responses 500</div>
-                <div class="stats-content" id="stats-content-500"><%= responses.get('500')?.toLocaleString() || 0 %></div>
+                <div class="stats-content" id="stats-content-500"><%= db.responses.get('500')?.toLocaleString() || 0 %></div>
             </div>
             <div>
                 <div class="category-small">Responses 503</div>
-                <div class="stats-content" id="stats-content-503"><%= responses.get('503')?.toLocaleString() || 0 %></div>
+                <div class="stats-content" id="stats-content-503"><%= db.responses.get('503')?.toLocaleString() || 0 %></div>
             </div>
         </div>
 
@@ -254,21 +254,20 @@
         </div>
     </section>
 
-
     <section>
         <h2 style="margin-top:40px">Our Server 🌍</h2>
         <div class="container-stats">
             <div>
                 <div>Uptime:</div>
-                <code id="stats-content-uptime"><%= formatTime.full(process.uptime()) %></code>
+                <code id="stats-content-uptime"><%= uptime %></code>
             </div>
             <div>
                 <div>Collection date:</div>
-                <code id="stats-content-coll-cAt"><%= date.created %></code>
+                <code id="stats-content-coll-cAt"><%= new Date(db.createdAt).toISOString() %></code>
             </div>
             <div>
                 <div>Last collection update:</div>
-                <code id="stats-content-coll-uAt"><%= date.updated %></code>
+                <code id="stats-content-coll-uAt"><%= new Date(db.updatedAt).toISOString() %></code>
             </div>
         </div>
     </section>

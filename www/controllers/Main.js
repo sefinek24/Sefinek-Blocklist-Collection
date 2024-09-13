@@ -9,7 +9,7 @@ const tz = { tz: 'Europe/Warsaw' };
 
 exports.index = async (req, res) => {
 	const db = await RequestStats.findOne({});
-	res.render('index.ejs', { version, requests: db.requests, responses: db.responses, date: { created: db.createdAt, updated: db.updatedAt }, formatTime });
+	res.render('index.ejs', { version, db, uptime: formatTime.full(process.uptime()) });
 };
 
 exports.api = (req, res) => res.render('api.ejs', { version });

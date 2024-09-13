@@ -14,7 +14,12 @@ module.exports = wss => {
 			// Prepare and send JSON data to the client
 			ws.send(JSON.stringify({
 				stats: {
-					requests: db.requests,
+					total: db.total,
+					blocklists: db.blocklists,
+					perDay: db.perDay,
+					perMonth: db.perMonth,
+					perYear: db.perYear,
+					categories: db.categories,
 					responses: db.responses
 				},
 				uptime: formatTime.full(process.uptime()),
