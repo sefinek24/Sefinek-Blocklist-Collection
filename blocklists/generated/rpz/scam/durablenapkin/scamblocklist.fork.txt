@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726207996782 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726294300929 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4934
+; Domains: 4936
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -39,6 +39,10 @@ clickbank.net CNAME .
 *.4556.de CNAME .
 4556.de CNAME .
 *.4556.de CNAME .
+com.cn CNAME .
+*.com.cn CNAME .
+com.cn CNAME .
+*.com.cn CNAME .
 5g-update.com CNAME .
 *.5g-update.com CNAME .
 5wzgtq8dpk.com CNAME .
@@ -183,6 +187,10 @@ uniwspapp.com CNAME .
 *.uniwspapp.com CNAME .
 uniwspapp.com CNAME .
 *.uniwspapp.com CNAME .
+apsehick.date CNAME .
+*.apsehick.date CNAME .
+apsehick.date CNAME .
+*.apsehick.date CNAME .
 eu.org CNAME .
 *.eu.org CNAME .
 eu.org CNAME .
@@ -1325,6 +1333,8 @@ bonrbox.com CNAME .
 *.bonrbox.com CNAME .
 bonrbox.com CNAME .
 *.bonrbox.com CNAME .
+boododa.com CNAME .
+*.boododa.com CNAME .
 com-id02349.info CNAME .
 *.com-id02349.info CNAME .
 com-id02349.info CNAME .
@@ -1355,8 +1365,6 @@ transaction-processing.one CNAME .
 *.transaction-processing.one CNAME .
 transaction-processing.one CNAME .
 *.transaction-processing.one CNAME .
-com-id334112.com CNAME .
-*.com-id334112.com CNAME .
 com-id334112.com CNAME .
 *.com-id334112.com CNAME .
 com-id334112.com CNAME .
@@ -2121,6 +2129,8 @@ fashionadid.com CNAME .
 *.fashionadid.com CNAME .
 fashionadid.com CNAME .
 *.fashionadid.com CNAME .
+fashionadid.com CNAME .
+*.fashionadid.com CNAME .
 fashionshawaii.com CNAME .
 *.fashionshawaii.com CNAME .
 fashionshawaii.com CNAME .
@@ -2277,8 +2287,6 @@ freedom-ca-5g.com CNAME .
 *.freedom-ca-5g.com CNAME .
 freedom-ca-5g.com CNAME .
 *.freedom-ca-5g.com CNAME .
-freedomgift50.com CNAME .
-*.freedomgift50.com CNAME .
 frest.info CNAME .
 *.frest.info CNAME .
 frest.info CNAME .
@@ -3143,8 +3151,6 @@ nationaladvancegroup.com CNAME .
 *.nationaladvancegroup.com CNAME .
 nationaladvancegroup.com CNAME .
 *.nationaladvancegroup.com CNAME .
-navi0.ru CNAME .
-*.navi0.ru CNAME .
 navi1.com CNAME .
 *.navi1.com CNAME .
 navi1.com CNAME .
@@ -3249,6 +3255,8 @@ navi36.ru CNAME .
 *.navi36.ru CNAME .
 navi36.ru CNAME .
 *.navi36.ru CNAME .
+navi38.com CNAME .
+*.navi38.com CNAME .
 navi38.ru CNAME .
 *.navi38.ru CNAME .
 navi38.ru CNAME .
@@ -3259,18 +3267,12 @@ navi39.ru CNAME .
 *.navi39.ru CNAME .
 navi4.com CNAME .
 *.navi4.com CNAME .
-navi4.com CNAME .
-*.navi4.com CNAME .
-navi4.com CNAME .
-*.navi4.com CNAME .
 navi40.com CNAME .
 *.navi40.com CNAME .
 navi40.com CNAME .
 *.navi40.com CNAME .
 navi40.com CNAME .
 *.navi40.com CNAME .
-navi42.ru CNAME .
-*.navi42.ru CNAME .
 navi45.ru CNAME .
 *.navi45.ru CNAME .
 navi45.ru CNAME .
@@ -3325,8 +3327,6 @@ navi7.com CNAME .
 *.navi7.com CNAME .
 navi7.com CNAME .
 *.navi7.com CNAME .
-navi70.ru CNAME .
-*.navi70.ru CNAME .
 navi72.com CNAME .
 *.navi72.com CNAME .
 navi72.com CNAME .
@@ -3343,6 +3343,8 @@ navi74.com CNAME .
 *.navi74.com CNAME .
 navi74.com CNAME .
 *.navi74.com CNAME .
+navi75.ru CNAME .
+*.navi75.ru CNAME .
 navi77.com CNAME .
 *.navi77.com CNAME .
 navi77.com CNAME .
@@ -3509,6 +3511,8 @@ nip8.com CNAME .
 *.nip8.com CNAME .
 nip8.com CNAME .
 *.nip8.com CNAME .
+nip81.com CNAME .
+*.nip81.com CNAME .
 nip89.com CNAME .
 *.nip89.com CNAME .
 nip89.com CNAME .
@@ -3551,8 +3555,6 @@ norgefotball.com CNAME .
 *.norgefotball.com CNAME .
 norgefotball.com CNAME .
 *.norgefotball.com CNAME .
-norgejakke.com CNAME .
-*.norgejakke.com CNAME .
 norgeshoes.com CNAME .
 *.norgeshoes.com CNAME .
 norgeshoes.com CNAME .
@@ -5301,6 +5303,8 @@ transaction-processing.one CNAME .
 *.transaction-processing.one CNAME .
 transaction-processing.one CNAME .
 *.transaction-processing.one CNAME .
+pictureoutdoor.com CNAME .
+*.pictureoutdoor.com CNAME .
 pictureoutdoor.com CNAME .
 *.pictureoutdoor.com CNAME .
 pictureoutdoor.com CNAME .
@@ -7197,6 +7201,8 @@ com-id334112.com CNAME .
 *.com-id334112.com CNAME .
 com-id334112.com CNAME .
 *.com-id334112.com CNAME .
+com-id334112.com CNAME .
+*.com-id334112.com CNAME .
 com-id01251.info CNAME .
 *.com-id01251.info CNAME .
 com-id01251.info CNAME .
@@ -7943,8 +7949,6 @@ startuplatte.com CNAME .
 *.startuplatte.com CNAME .
 startuplatte.com CNAME .
 *.startuplatte.com CNAME .
-steamcommnunjity.com CNAME .
-*.steamcommnunjity.com CNAME .
 steamcommunijtly.com CNAME .
 *.steamcommunijtly.com CNAME .
 steamgateways.com CNAME .
@@ -8001,6 +8005,8 @@ company.site CNAME .
 *.company.site CNAME .
 company.site CNAME .
 *.company.site CNAME .
+storeadid.com CNAME .
+*.storeadid.com CNAME .
 storeadid.com CNAME .
 *.storeadid.com CNAME .
 storeadid.com CNAME .
@@ -8129,6 +8135,8 @@ myshopify.com CNAME .
 *.myshopify.com CNAME .
 tbao684tryo.com CNAME .
 *.tbao684tryo.com CNAME .
+tbg-lmtd.xyz CNAME .
+*.tbg-lmtd.xyz CNAME .
 tdsintegrations11.online CNAME .
 *.tdsintegrations11.online CNAME .
 tdsintegrations11.online CNAME .
@@ -8271,12 +8279,6 @@ tlstoreonline.com CNAME .
 *.tlstoreonline.com CNAME .
 tlstoreonline.com CNAME .
 *.tlstoreonline.com CNAME .
-toddlershood.shop CNAME .
-*.toddlershood.shop CNAME .
-toddlershood.shop CNAME .
-*.toddlershood.shop CNAME .
-toddlershood.shop CNAME .
-*.toddlershood.shop CNAME .
 toko999.net CNAME .
 *.toko999.net CNAME .
 toko999.net CNAME .
@@ -8385,8 +8387,6 @@ ultrasonica.info CNAME .
 *.ultrasonica.info CNAME .
 unifully.com CNAME .
 *.unifully.com CNAME .
-uniqueshirt.shop CNAME .
-*.uniqueshirt.shop CNAME .
 godaddysites.com CNAME .
 *.godaddysites.com CNAME .
 godaddysites.com CNAME .
@@ -8443,6 +8443,12 @@ ussportpioneer.com CNAME .
 *.ussportpioneer.com CNAME .
 ussportpioneer.com CNAME .
 *.ussportpioneer.com CNAME .
+fyjkxzq.shop CNAME .
+*.fyjkxzq.shop CNAME .
+fyjkxzq.shop CNAME .
+*.fyjkxzq.shop CNAME .
+fyjkxzq.shop CNAME .
+*.fyjkxzq.shop CNAME .
 valeofoodsgroup.com CNAME .
 *.valeofoodsgroup.com CNAME .
 valeofoodsgroup.com CNAME .
@@ -8851,8 +8857,6 @@ com-id20341.info CNAME .
 *.com-id20341.info CNAME .
 com-id20341.info CNAME .
 *.com-id20341.info CNAME .
-com-id322712.com CNAME .
-*.com-id322712.com CNAME .
 com-id809702.com CNAME .
 *.com-id809702.com CNAME .
 com-id809702.com CNAME .
