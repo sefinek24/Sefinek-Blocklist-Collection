@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 06 Sep 2024 10:32 UTC+7
-# Version: 2409061032
-# Blocked: 20,481 domains
+# Last modified: 14 Sep 2024 17:42 UTC+7
+# Version: 2409141742
+# Blocked: 20,501 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -240,13 +240,6 @@
 #[live.com]
 0.0.0.0 analytics.live.com
 0.0.0.0 rad.live.com
-#[measure.office.com]
-0.0.0.0 measure.office.com
-0.0.0.0 config.fp.measure.office.com
-0.0.0.0 fp.measure.office.com
-0.0.0.0 upload.fp.measure.office.com
-0.0.0.0 upload2.fp.measure.office.com
-0.0.0.0 wan.measure.office.com
 #[windows.net]
 0.0.0.0 insitez.blob.core.windows.net
 0.0.0.0 tenmaxsgads.blob.core.windows.net
@@ -1668,6 +1661,7 @@
 0.0.0.0 config.ad-brix.com
 #[unity3d.com]
 0.0.0.0 events.iap.unity3d.com
+0.0.0.0 events.mz.unity3d.com
 0.0.0.0 hwstats.unity3d.com
 0.0.0.0 stats.unity3d.com
 #[analytics.unity3d.com]
@@ -1682,6 +1676,22 @@
 #[uca.cloud.unity3d.com]
 0.0.0.0 analytics.uca.cloud.unity3d.com
 0.0.0.0 data-optout-service.uca.cloud.unity3d.com
+#[iads.unity3d.com]
+0.0.0.0 iads.unity3d.com
+0.0.0.0 a-uap.iads.unity3d.com
+0.0.0.0 c.iads.unity3d.com
+0.0.0.0 cdn.iads.unity3d.com
+0.0.0.0 icon-uap.iads.unity3d.com
+0.0.0.0 o-pxt.iads.unity3d.com
+0.0.0.0 o.iads.unity3d.com
+#[mediation.unity3d.com]
+0.0.0.0 mediation.unity3d.com
+0.0.0.0 gw.mediation.unity3d.com
+0.0.0.0 i-adq.mediation.unity3d.com
+0.0.0.0 i-sdk.mediation.unity3d.com
+0.0.0.0 o-adq.mediation.unity3d.com
+0.0.0.0 o-iab.mediation.unity3d.com
+0.0.0.0 o-sdk.mediation.unity3d.com
 #[unityads.unity3d.com]
 0.0.0.0 admediator.unityads.unity3d.com
 0.0.0.0 ads-brand-postback.unityads.unity3d.com
@@ -1722,14 +1732,6 @@
 0.0.0.0 httpkafka-master.ads.prd.ie.internal.unity3d.com
 0.0.0.0 httpkafka.ads.prd.ie.internal.unity3d.com
 0.0.0.0 publisher-event.ads.prd.ie.internal.unity3d.com
-#[iads.unity3d.com]
-0.0.0.0 iads.unity3d.com
-0.0.0.0 a-uap.iads.unity3d.com
-0.0.0.0 c.iads.unity3d.com
-0.0.0.0 cdn.iads.unity3d.com
-0.0.0.0 icon-uap.iads.unity3d.com
-0.0.0.0 o-pxt.iads.unity3d.com
-0.0.0.0 o.iads.unity3d.com
 #[applvn.com]
 0.0.0.0 a.applvn.com
 0.0.0.0 applvn.com
@@ -11061,11 +11063,6 @@
 #[hubvisor.io]
 0.0.0.0 hubvisor.io
 0.0.0.0 cdn.hubvisor.io
-#[data.adobedc.net]
-0.0.0.0 data.adobedc.net
-0.0.0.0 adobecorp.data.adobedc.net
-0.0.0.0 adobemobiledev.data.adobedc.net
-0.0.0.0 esdk.data.adobedc.net
 #[edge.adobedc.net]
 0.0.0.0 edge.adobedc.net
 #[omtrdc.net]
@@ -11788,6 +11785,10 @@
 #[rwadx.com]
 0.0.0.0 ads.rwadx.com
 0.0.0.0 rwadx.com
+#[adnz.co]
+0.0.0.0 adnz.co
+0.0.0.0 api.adnz.co
+0.0.0.0 cdn.adnz.co
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -13588,6 +13589,7 @@
 0.0.0.0 analytics.digi8.vn
 0.0.0.0 analytics.evgcdn.net
 0.0.0.0 analytics.evn.com.vn
+0.0.0.0 analytics.explus.vn
 0.0.0.0 analytics.fsoft.com.vn
 0.0.0.0 analytics.gotama.link
 0.0.0.0 analytics.hapo.vn
@@ -13625,6 +13627,7 @@
 0.0.0.0 bubblyzucchini.com
 0.0.0.0 campaign.gitiho.com
 0.0.0.0 cdn.api-connect.io
+0.0.0.0 cdptracker.hocmai.com.vn
 0.0.0.0 clicker.chiaki.vn
 0.0.0.0 clientinfo.phimmoizz.net
 0.0.0.0 collect.ovp.vn
@@ -14352,6 +14355,7 @@
 0.0.0.0 ads-click.com
 0.0.0.0 ads-ios-sdk.ogury.co
 0.0.0.0 ads-static.conde.digital
+0.0.0.0 ads-to.click
 0.0.0.0 ads.4tube.com
 0.0.0.0 ads.5ci.lt
 0.0.0.0 ads.6789live.com
@@ -14674,6 +14678,7 @@
 0.0.0.0 adserversolutions.com
 0.0.0.0 adserving.unibet.com
 0.0.0.0 adservinginternational.com
+0.0.0.0 adsession.exacdn.com
 0.0.0.0 adsessionserv.com
 0.0.0.0 adsfac.eu
 0.0.0.0 adsfac.net
@@ -14979,6 +14984,7 @@
 0.0.0.0 alternativecpmgate.com
 0.0.0.0 altronopubacc.com
 0.0.0.0 altwi-cha.com
+0.0.0.0 alwingulla.com
 0.0.0.0 alxgtyqhio.com
 0.0.0.0 alxkpafhaka.com
 0.0.0.0 amanda-cle.info
@@ -16269,6 +16275,7 @@
 0.0.0.0 dckifhpovvbpb.com
 0.0.0.0 dcyaglnhuvf.com
 0.0.0.0 dd1xbevqx.com
+0.0.0.0 dead-put.com
 0.0.0.0 deadpantruck.com
 0.0.0.0 dealdotcom.com
 0.0.0.0 deanmediagroup.com
@@ -16656,6 +16663,7 @@
 0.0.0.0 eringosdye.com
 0.0.0.0 ermin-oxj.info
 0.0.0.0 erosyndc.com
+0.0.0.0 errantstetrole.com
 0.0.0.0 eryondistain.com
 0.0.0.0 escortlarbul.com
 0.0.0.0 esellerate.net
@@ -16914,6 +16922,7 @@
 0.0.0.0 ftte.xyz
 0.0.0.0 ftuaxqokbxow.com
 0.0.0.0 fubmalafdti.com
+0.0.0.0 fudukrujoa.com
 0.0.0.0 fuffscreigh.website
 0.0.0.0 fulgidbirls.life
 0.0.0.0 fullfilmolify.com
@@ -17672,6 +17681,7 @@
 0.0.0.0 jomtingi.net
 0.0.0.0 joopaish.com
 0.0.0.0 joredi.com
+0.0.0.0 joudauhee.com
 0.0.0.0 jouncystelar.guru
 0.0.0.0 joygaskin.com
 0.0.0.0 jpeavgtcixi.com
@@ -17680,6 +17690,7 @@
 0.0.0.0 js.xzjhome.cc
 0.0.0.0 jscdn.greeter.me
 0.0.0.0 jtkctpvlsilycn.com
+0.0.0.0 jtoabhvw.com
 0.0.0.0 jtokaxswunka.com
 0.0.0.0 jtujmyhhuo.com
 0.0.0.0 jucysh.com
@@ -18509,6 +18520,7 @@
 0.0.0.0 novem.pl
 0.0.0.0 novemberassimilate.com
 0.0.0.0 novemberseatsuccession.com
+0.0.0.0 npipajajn.com
 0.0.0.0 npugpilraku.com
 0.0.0.0 nqmanxtemqvlne.com
 0.0.0.0 nrc.tapas.net
@@ -18831,6 +18843,7 @@
 0.0.0.0 ozqoztrkoaj.com
 0.0.0.0 ozsoekwgy.com
 0.0.0.0 ozwvkazrik.com
+0.0.0.0 ozxakfawm.com
 0.0.0.0 p23hxejm1.com
 0.0.0.0 p4r24.eu
 0.0.0.0 pacekami.com
@@ -19622,6 +19635,7 @@
 0.0.0.0 ryeqnyvbncdvg.com
 0.0.0.0 rympsxilkdqywd.com
 0.0.0.0 rzaathjhibpe.com
+0.0.0.0 s.eunow4u.com
 0.0.0.0 s.nitropay.com
 0.0.0.0 s.zkcdn.net
 0.0.0.0 s2517.com
@@ -19775,6 +19789,7 @@
 0.0.0.0 shelvesparticipate.com
 0.0.0.0 shestour.net
 0.0.0.0 shhxgqpaxvdjn.com
+0.0.0.0 shiglangee.net
 0.0.0.0 shinystat.com
 0.0.0.0 shinystat.it
 0.0.0.0 shiowbafrrra.com
@@ -20474,6 +20489,7 @@
 0.0.0.0 trustedgatetocontent.com
 0.0.0.0 trustednotice.news
 0.0.0.0 trusterejecta.com
+0.0.0.0 trustisimportant.fun
 0.0.0.0 trustlearningclearly.com
 0.0.0.0 truthful-quote.pro
 0.0.0.0 tsiwqtng8huauw30n.com
@@ -20948,6 +20964,7 @@
 0.0.0.0 worn-brown.pro
 0.0.0.0 worriednumber.com
 0.0.0.0 worstideatum.com
+0.0.0.0 worstspotchafe.com
 0.0.0.0 wotlinkmeatmen.digital
 0.0.0.0 woubitpopess.life
 0.0.0.0 wouhaugiby.com
@@ -21563,6 +21580,7 @@
 0.0.0.0 events.launchdarkly.com
 0.0.0.0 events.mapbox.com
 0.0.0.0 events.newsroom.bi
+0.0.0.0 events.ocdn.eu
 0.0.0.0 events.redditmedia.com
 0.0.0.0 events.shoplytics.com
 0.0.0.0 events.split.io
@@ -21949,6 +21967,7 @@
 0.0.0.0 track.easeus.com
 0.0.0.0 track.gotprofits.com
 0.0.0.0 track.hubspot.com
+0.0.0.0 track.hydro.online
 0.0.0.0 track.lacunads.com
 0.0.0.0 track.lexico.com
 0.0.0.0 track.mobgc.com
@@ -22022,6 +22041,7 @@
 0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 wct-2.com
 0.0.0.0 web-t.9gag.com
+0.0.0.0 web-tracking.engagebay.com
 0.0.0.0 web.mxradon.com
 0.0.0.0 webmetrics.mayoclinic.org
 0.0.0.0 weborama.net

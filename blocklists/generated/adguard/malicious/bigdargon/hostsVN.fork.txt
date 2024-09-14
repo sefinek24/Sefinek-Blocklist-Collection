@@ -1,7 +1,7 @@
 ! Title: hostsVN
-! Last modified: 06 Sep 2024 10:32 UTC+7
-! Version: 2409061032
-! Blocked: 20,481 domains
+! Last modified: 14 Sep 2024 17:42 UTC+7
+! Version: 2409141742
+! Blocked: 20,501 domains
 ! Please report any ads or problems on GitHub
 ! Homepage: https://bigdargon.github.io/hostsVN/
 ! GitHub: https://github.com/bigdargon/hostsVN
@@ -240,13 +240,6 @@
 ![live.com]
 ||analytics.live.com^
 ||rad.live.com^
-![measure.office.com]
-||measure.office.com^
-||config.fp.measure.office.com^
-||fp.measure.office.com^
-||upload.fp.measure.office.com^
-||upload2.fp.measure.office.com^
-||wan.measure.office.com^
 ![windows.net]
 ||insitez.blob.core.windows.net^
 ||tenmaxsgads.blob.core.windows.net^
@@ -1668,6 +1661,7 @@
 ||config.ad-brix.com^
 ![unity3d.com]
 ||events.iap.unity3d.com^
+||events.mz.unity3d.com^
 ||hwstats.unity3d.com^
 ||stats.unity3d.com^
 ![analytics.unity3d.com]
@@ -1682,6 +1676,22 @@
 ![uca.cloud.unity3d.com]
 ||analytics.uca.cloud.unity3d.com^
 ||data-optout-service.uca.cloud.unity3d.com^
+![iads.unity3d.com]
+||iads.unity3d.com^
+||a-uap.iads.unity3d.com^
+||c.iads.unity3d.com^
+||cdn.iads.unity3d.com^
+||icon-uap.iads.unity3d.com^
+||o-pxt.iads.unity3d.com^
+||o.iads.unity3d.com^
+![mediation.unity3d.com]
+||mediation.unity3d.com^
+||gw.mediation.unity3d.com^
+||i-adq.mediation.unity3d.com^
+||i-sdk.mediation.unity3d.com^
+||o-adq.mediation.unity3d.com^
+||o-iab.mediation.unity3d.com^
+||o-sdk.mediation.unity3d.com^
 ![unityads.unity3d.com]
 ||admediator.unityads.unity3d.com^
 ||ads-brand-postback.unityads.unity3d.com^
@@ -1722,14 +1732,6 @@
 ||httpkafka-master.ads.prd.ie.internal.unity3d.com^
 ||httpkafka.ads.prd.ie.internal.unity3d.com^
 ||publisher-event.ads.prd.ie.internal.unity3d.com^
-![iads.unity3d.com]
-||iads.unity3d.com^
-||a-uap.iads.unity3d.com^
-||c.iads.unity3d.com^
-||cdn.iads.unity3d.com^
-||icon-uap.iads.unity3d.com^
-||o-pxt.iads.unity3d.com^
-||o.iads.unity3d.com^
 ![applvn.com]
 ||a.applvn.com^
 ||applvn.com^
@@ -11061,11 +11063,6 @@
 ![hubvisor.io]
 ||hubvisor.io^
 ||cdn.hubvisor.io^
-![data.adobedc.net]
-||data.adobedc.net^
-||adobecorp.data.adobedc.net^
-||adobemobiledev.data.adobedc.net^
-||esdk.data.adobedc.net^
 ![edge.adobedc.net]
 ||edge.adobedc.net^
 ![omtrdc.net]
@@ -11788,6 +11785,10 @@
 ![rwadx.com]
 ||ads.rwadx.com^
 ||rwadx.com^
+![adnz.co]
+||adnz.co^
+||api.adnz.co^
+||cdn.adnz.co^
 ! --- GroupVN block ---
 ![adtimaserver]
 ||adtimaserver.vn^
@@ -13588,6 +13589,7 @@
 ||analytics.digi8.vn^
 ||analytics.evgcdn.net^
 ||analytics.evn.com.vn^
+||analytics.explus.vn^
 ||analytics.fsoft.com.vn^
 ||analytics.gotama.link^
 ||analytics.hapo.vn^
@@ -13625,6 +13627,7 @@
 ||bubblyzucchini.com^
 ||campaign.gitiho.com^
 ||cdn.api-connect.io^
+||cdptracker.hocmai.com.vn^
 ||clicker.chiaki.vn^
 ||clientinfo.phimmoizz.net^
 ||collect.ovp.vn^
@@ -14352,6 +14355,7 @@
 ||ads-click.com^
 ||ads-ios-sdk.ogury.co^
 ||ads-static.conde.digital^
+||ads-to.click^
 ||ads.4tube.com^
 ||ads.5ci.lt^
 ||ads.6789live.com^
@@ -14674,6 +14678,7 @@
 ||adserversolutions.com^
 ||adserving.unibet.com^
 ||adservinginternational.com^
+||adsession.exacdn.com^
 ||adsessionserv.com^
 ||adsfac.eu^
 ||adsfac.net^
@@ -14979,6 +14984,7 @@
 ||alternativecpmgate.com^
 ||altronopubacc.com^
 ||altwi-cha.com^
+||alwingulla.com^
 ||alxgtyqhio.com^
 ||alxkpafhaka.com^
 ||amanda-cle.info^
@@ -16269,6 +16275,7 @@
 ||dckifhpovvbpb.com^
 ||dcyaglnhuvf.com^
 ||dd1xbevqx.com^
+||dead-put.com^
 ||deadpantruck.com^
 ||dealdotcom.com^
 ||deanmediagroup.com^
@@ -16656,6 +16663,7 @@
 ||eringosdye.com^
 ||ermin-oxj.info^
 ||erosyndc.com^
+||errantstetrole.com^
 ||eryondistain.com^
 ||escortlarbul.com^
 ||esellerate.net^
@@ -16914,6 +16922,7 @@
 ||ftte.xyz^
 ||ftuaxqokbxow.com^
 ||fubmalafdti.com^
+||fudukrujoa.com^
 ||fuffscreigh.website^
 ||fulgidbirls.life^
 ||fullfilmolify.com^
@@ -17672,6 +17681,7 @@
 ||jomtingi.net^
 ||joopaish.com^
 ||joredi.com^
+||joudauhee.com^
 ||jouncystelar.guru^
 ||joygaskin.com^
 ||jpeavgtcixi.com^
@@ -17680,6 +17690,7 @@
 ||js.xzjhome.cc^
 ||jscdn.greeter.me^
 ||jtkctpvlsilycn.com^
+||jtoabhvw.com^
 ||jtokaxswunka.com^
 ||jtujmyhhuo.com^
 ||jucysh.com^
@@ -18509,6 +18520,7 @@
 ||novem.pl^
 ||novemberassimilate.com^
 ||novemberseatsuccession.com^
+||npipajajn.com^
 ||npugpilraku.com^
 ||nqmanxtemqvlne.com^
 ||nrc.tapas.net^
@@ -18831,6 +18843,7 @@
 ||ozqoztrkoaj.com^
 ||ozsoekwgy.com^
 ||ozwvkazrik.com^
+||ozxakfawm.com^
 ||p23hxejm1.com^
 ||p4r24.eu^
 ||pacekami.com^
@@ -19622,6 +19635,7 @@
 ||ryeqnyvbncdvg.com^
 ||rympsxilkdqywd.com^
 ||rzaathjhibpe.com^
+||s.eunow4u.com^
 ||s.nitropay.com^
 ||s.zkcdn.net^
 ||s2517.com^
@@ -19775,6 +19789,7 @@
 ||shelvesparticipate.com^
 ||shestour.net^
 ||shhxgqpaxvdjn.com^
+||shiglangee.net^
 ||shinystat.com^
 ||shinystat.it^
 ||shiowbafrrra.com^
@@ -20474,6 +20489,7 @@
 ||trustedgatetocontent.com^
 ||trustednotice.news^
 ||trusterejecta.com^
+||trustisimportant.fun^
 ||trustlearningclearly.com^
 ||truthful-quote.pro^
 ||tsiwqtng8huauw30n.com^
@@ -20948,6 +20964,7 @@
 ||worn-brown.pro^
 ||worriednumber.com^
 ||worstideatum.com^
+||worstspotchafe.com^
 ||wotlinkmeatmen.digital^
 ||woubitpopess.life^
 ||wouhaugiby.com^
@@ -21563,6 +21580,7 @@
 ||events.launchdarkly.com^
 ||events.mapbox.com^
 ||events.newsroom.bi^
+||events.ocdn.eu^
 ||events.redditmedia.com^
 ||events.shoplytics.com^
 ||events.split.io^
@@ -21949,6 +21967,7 @@
 ||track.easeus.com^
 ||track.gotprofits.com^
 ||track.hubspot.com^
+||track.hydro.online^
 ||track.lacunads.com^
 ||track.lexico.com^
 ||track.mobgc.com^
@@ -22022,6 +22041,7 @@
 ||wc-tracking.lavasoft.com^
 ||wct-2.com^
 ||web-t.9gag.com^
+||web-tracking.engagebay.com^
 ||web.mxradon.com^
 ||webmetrics.mayoclinic.org^
 ||weborama.net^

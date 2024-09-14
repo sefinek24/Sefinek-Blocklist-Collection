@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 06 Sep 2024 10:32 UTC+7
-# Version: 2409061032
-# Blocked: 20,481 domains
+# Last modified: 14 Sep 2024 17:42 UTC+7
+# Version: 2409141742
+# Blocked: 20,501 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -240,13 +240,6 @@
 #[live.com]
 127.0.0.1 analytics.live.com
 127.0.0.1 rad.live.com
-#[measure.office.com]
-127.0.0.1 measure.office.com
-127.0.0.1 config.fp.measure.office.com
-127.0.0.1 fp.measure.office.com
-127.0.0.1 upload.fp.measure.office.com
-127.0.0.1 upload2.fp.measure.office.com
-127.0.0.1 wan.measure.office.com
 #[windows.net]
 127.0.0.1 insitez.blob.core.windows.net
 127.0.0.1 tenmaxsgads.blob.core.windows.net
@@ -1668,6 +1661,7 @@
 127.0.0.1 config.ad-brix.com
 #[unity3d.com]
 127.0.0.1 events.iap.unity3d.com
+127.0.0.1 events.mz.unity3d.com
 127.0.0.1 hwstats.unity3d.com
 127.0.0.1 stats.unity3d.com
 #[analytics.unity3d.com]
@@ -1682,6 +1676,22 @@
 #[uca.cloud.unity3d.com]
 127.0.0.1 analytics.uca.cloud.unity3d.com
 127.0.0.1 data-optout-service.uca.cloud.unity3d.com
+#[iads.unity3d.com]
+127.0.0.1 iads.unity3d.com
+127.0.0.1 a-uap.iads.unity3d.com
+127.0.0.1 c.iads.unity3d.com
+127.0.0.1 cdn.iads.unity3d.com
+127.0.0.1 icon-uap.iads.unity3d.com
+127.0.0.1 o-pxt.iads.unity3d.com
+127.0.0.1 o.iads.unity3d.com
+#[mediation.unity3d.com]
+127.0.0.1 mediation.unity3d.com
+127.0.0.1 gw.mediation.unity3d.com
+127.0.0.1 i-adq.mediation.unity3d.com
+127.0.0.1 i-sdk.mediation.unity3d.com
+127.0.0.1 o-adq.mediation.unity3d.com
+127.0.0.1 o-iab.mediation.unity3d.com
+127.0.0.1 o-sdk.mediation.unity3d.com
 #[unityads.unity3d.com]
 127.0.0.1 admediator.unityads.unity3d.com
 127.0.0.1 ads-brand-postback.unityads.unity3d.com
@@ -1722,14 +1732,6 @@
 127.0.0.1 httpkafka-master.ads.prd.ie.internal.unity3d.com
 127.0.0.1 httpkafka.ads.prd.ie.internal.unity3d.com
 127.0.0.1 publisher-event.ads.prd.ie.internal.unity3d.com
-#[iads.unity3d.com]
-127.0.0.1 iads.unity3d.com
-127.0.0.1 a-uap.iads.unity3d.com
-127.0.0.1 c.iads.unity3d.com
-127.0.0.1 cdn.iads.unity3d.com
-127.0.0.1 icon-uap.iads.unity3d.com
-127.0.0.1 o-pxt.iads.unity3d.com
-127.0.0.1 o.iads.unity3d.com
 #[applvn.com]
 127.0.0.1 a.applvn.com
 127.0.0.1 applvn.com
@@ -11061,11 +11063,6 @@
 #[hubvisor.io]
 127.0.0.1 hubvisor.io
 127.0.0.1 cdn.hubvisor.io
-#[data.adobedc.net]
-127.0.0.1 data.adobedc.net
-127.0.0.1 adobecorp.data.adobedc.net
-127.0.0.1 adobemobiledev.data.adobedc.net
-127.0.0.1 esdk.data.adobedc.net
 #[edge.adobedc.net]
 127.0.0.1 edge.adobedc.net
 #[omtrdc.net]
@@ -11788,6 +11785,10 @@
 #[rwadx.com]
 127.0.0.1 ads.rwadx.com
 127.0.0.1 rwadx.com
+#[adnz.co]
+127.0.0.1 adnz.co
+127.0.0.1 api.adnz.co
+127.0.0.1 cdn.adnz.co
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -13588,6 +13589,7 @@
 127.0.0.1 analytics.digi8.vn
 127.0.0.1 analytics.evgcdn.net
 127.0.0.1 analytics.evn.com.vn
+127.0.0.1 analytics.explus.vn
 127.0.0.1 analytics.fsoft.com.vn
 127.0.0.1 analytics.gotama.link
 127.0.0.1 analytics.hapo.vn
@@ -13625,6 +13627,7 @@
 127.0.0.1 bubblyzucchini.com
 127.0.0.1 campaign.gitiho.com
 127.0.0.1 cdn.api-connect.io
+127.0.0.1 cdptracker.hocmai.com.vn
 127.0.0.1 clicker.chiaki.vn
 127.0.0.1 clientinfo.phimmoizz.net
 127.0.0.1 collect.ovp.vn
@@ -14352,6 +14355,7 @@
 127.0.0.1 ads-click.com
 127.0.0.1 ads-ios-sdk.ogury.co
 127.0.0.1 ads-static.conde.digital
+127.0.0.1 ads-to.click
 127.0.0.1 ads.4tube.com
 127.0.0.1 ads.5ci.lt
 127.0.0.1 ads.6789live.com
@@ -14674,6 +14678,7 @@
 127.0.0.1 adserversolutions.com
 127.0.0.1 adserving.unibet.com
 127.0.0.1 adservinginternational.com
+127.0.0.1 adsession.exacdn.com
 127.0.0.1 adsessionserv.com
 127.0.0.1 adsfac.eu
 127.0.0.1 adsfac.net
@@ -14979,6 +14984,7 @@
 127.0.0.1 alternativecpmgate.com
 127.0.0.1 altronopubacc.com
 127.0.0.1 altwi-cha.com
+127.0.0.1 alwingulla.com
 127.0.0.1 alxgtyqhio.com
 127.0.0.1 alxkpafhaka.com
 127.0.0.1 amanda-cle.info
@@ -16269,6 +16275,7 @@
 127.0.0.1 dckifhpovvbpb.com
 127.0.0.1 dcyaglnhuvf.com
 127.0.0.1 dd1xbevqx.com
+127.0.0.1 dead-put.com
 127.0.0.1 deadpantruck.com
 127.0.0.1 dealdotcom.com
 127.0.0.1 deanmediagroup.com
@@ -16656,6 +16663,7 @@
 127.0.0.1 eringosdye.com
 127.0.0.1 ermin-oxj.info
 127.0.0.1 erosyndc.com
+127.0.0.1 errantstetrole.com
 127.0.0.1 eryondistain.com
 127.0.0.1 escortlarbul.com
 127.0.0.1 esellerate.net
@@ -16914,6 +16922,7 @@
 127.0.0.1 ftte.xyz
 127.0.0.1 ftuaxqokbxow.com
 127.0.0.1 fubmalafdti.com
+127.0.0.1 fudukrujoa.com
 127.0.0.1 fuffscreigh.website
 127.0.0.1 fulgidbirls.life
 127.0.0.1 fullfilmolify.com
@@ -17672,6 +17681,7 @@
 127.0.0.1 jomtingi.net
 127.0.0.1 joopaish.com
 127.0.0.1 joredi.com
+127.0.0.1 joudauhee.com
 127.0.0.1 jouncystelar.guru
 127.0.0.1 joygaskin.com
 127.0.0.1 jpeavgtcixi.com
@@ -17680,6 +17690,7 @@
 127.0.0.1 js.xzjhome.cc
 127.0.0.1 jscdn.greeter.me
 127.0.0.1 jtkctpvlsilycn.com
+127.0.0.1 jtoabhvw.com
 127.0.0.1 jtokaxswunka.com
 127.0.0.1 jtujmyhhuo.com
 127.0.0.1 jucysh.com
@@ -18509,6 +18520,7 @@
 127.0.0.1 novem.pl
 127.0.0.1 novemberassimilate.com
 127.0.0.1 novemberseatsuccession.com
+127.0.0.1 npipajajn.com
 127.0.0.1 npugpilraku.com
 127.0.0.1 nqmanxtemqvlne.com
 127.0.0.1 nrc.tapas.net
@@ -18831,6 +18843,7 @@
 127.0.0.1 ozqoztrkoaj.com
 127.0.0.1 ozsoekwgy.com
 127.0.0.1 ozwvkazrik.com
+127.0.0.1 ozxakfawm.com
 127.0.0.1 p23hxejm1.com
 127.0.0.1 p4r24.eu
 127.0.0.1 pacekami.com
@@ -19622,6 +19635,7 @@
 127.0.0.1 ryeqnyvbncdvg.com
 127.0.0.1 rympsxilkdqywd.com
 127.0.0.1 rzaathjhibpe.com
+127.0.0.1 s.eunow4u.com
 127.0.0.1 s.nitropay.com
 127.0.0.1 s.zkcdn.net
 127.0.0.1 s2517.com
@@ -19775,6 +19789,7 @@
 127.0.0.1 shelvesparticipate.com
 127.0.0.1 shestour.net
 127.0.0.1 shhxgqpaxvdjn.com
+127.0.0.1 shiglangee.net
 127.0.0.1 shinystat.com
 127.0.0.1 shinystat.it
 127.0.0.1 shiowbafrrra.com
@@ -20474,6 +20489,7 @@
 127.0.0.1 trustedgatetocontent.com
 127.0.0.1 trustednotice.news
 127.0.0.1 trusterejecta.com
+127.0.0.1 trustisimportant.fun
 127.0.0.1 trustlearningclearly.com
 127.0.0.1 truthful-quote.pro
 127.0.0.1 tsiwqtng8huauw30n.com
@@ -20948,6 +20964,7 @@
 127.0.0.1 worn-brown.pro
 127.0.0.1 worriednumber.com
 127.0.0.1 worstideatum.com
+127.0.0.1 worstspotchafe.com
 127.0.0.1 wotlinkmeatmen.digital
 127.0.0.1 woubitpopess.life
 127.0.0.1 wouhaugiby.com
@@ -21563,6 +21580,7 @@
 127.0.0.1 events.launchdarkly.com
 127.0.0.1 events.mapbox.com
 127.0.0.1 events.newsroom.bi
+127.0.0.1 events.ocdn.eu
 127.0.0.1 events.redditmedia.com
 127.0.0.1 events.shoplytics.com
 127.0.0.1 events.split.io
@@ -21949,6 +21967,7 @@
 127.0.0.1 track.easeus.com
 127.0.0.1 track.gotprofits.com
 127.0.0.1 track.hubspot.com
+127.0.0.1 track.hydro.online
 127.0.0.1 track.lacunads.com
 127.0.0.1 track.lexico.com
 127.0.0.1 track.mobgc.com
@@ -22022,6 +22041,7 @@
 127.0.0.1 wc-tracking.lavasoft.com
 127.0.0.1 wct-2.com
 127.0.0.1 web-t.9gag.com
+127.0.0.1 web-tracking.engagebay.com
 127.0.0.1 web.mxradon.com
 127.0.0.1 webmetrics.mayoclinic.org
 127.0.0.1 weborama.net

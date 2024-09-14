@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 06 Sep 2024 10:32 UTC+7
-# Version: 2409061032
-# Blocked: 20,481 domains
+# Last modified: 14 Sep 2024 17:42 UTC+7
+# Version: 2409141742
+# Blocked: 20,501 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -240,13 +240,6 @@ server=/fp.advertising.microsoft.com/
 #[live.com]
 server=/analytics.live.com/
 server=/rad.live.com/
-#[measure.office.com]
-server=/measure.office.com/
-server=/config.fp.measure.office.com/
-server=/fp.measure.office.com/
-server=/upload.fp.measure.office.com/
-server=/upload2.fp.measure.office.com/
-server=/wan.measure.office.com/
 #[windows.net]
 server=/insitez.blob.core.windows.net/
 server=/tenmaxsgads.blob.core.windows.net/
@@ -1668,6 +1661,7 @@ server=/campaign.ad-brix.com/
 server=/config.ad-brix.com/
 #[unity3d.com]
 server=/events.iap.unity3d.com/
+server=/events.mz.unity3d.com/
 server=/hwstats.unity3d.com/
 server=/stats.unity3d.com/
 #[analytics.unity3d.com]
@@ -1682,6 +1676,22 @@ server=/userreporting.cloud.unity3d.com/
 #[uca.cloud.unity3d.com]
 server=/analytics.uca.cloud.unity3d.com/
 server=/data-optout-service.uca.cloud.unity3d.com/
+#[iads.unity3d.com]
+server=/iads.unity3d.com/
+server=/a-uap.iads.unity3d.com/
+server=/c.iads.unity3d.com/
+server=/cdn.iads.unity3d.com/
+server=/icon-uap.iads.unity3d.com/
+server=/o-pxt.iads.unity3d.com/
+server=/o.iads.unity3d.com/
+#[mediation.unity3d.com]
+server=/mediation.unity3d.com/
+server=/gw.mediation.unity3d.com/
+server=/i-adq.mediation.unity3d.com/
+server=/i-sdk.mediation.unity3d.com/
+server=/o-adq.mediation.unity3d.com/
+server=/o-iab.mediation.unity3d.com/
+server=/o-sdk.mediation.unity3d.com/
 #[unityads.unity3d.com]
 server=/admediator.unityads.unity3d.com/
 server=/ads-brand-postback.unityads.unity3d.com/
@@ -1722,14 +1732,6 @@ server=/ads-game-configuration-master.ads.prd.ie.internal.unity3d.com/
 server=/httpkafka-master.ads.prd.ie.internal.unity3d.com/
 server=/httpkafka.ads.prd.ie.internal.unity3d.com/
 server=/publisher-event.ads.prd.ie.internal.unity3d.com/
-#[iads.unity3d.com]
-server=/iads.unity3d.com/
-server=/a-uap.iads.unity3d.com/
-server=/c.iads.unity3d.com/
-server=/cdn.iads.unity3d.com/
-server=/icon-uap.iads.unity3d.com/
-server=/o-pxt.iads.unity3d.com/
-server=/o.iads.unity3d.com/
 #[applvn.com]
 server=/a.applvn.com/
 server=/applvn.com/
@@ -11061,11 +11063,6 @@ server=/try.abtasty.com/
 #[hubvisor.io]
 server=/hubvisor.io/
 server=/cdn.hubvisor.io/
-#[data.adobedc.net]
-server=/data.adobedc.net/
-server=/adobecorp.data.adobedc.net/
-server=/adobemobiledev.data.adobedc.net/
-server=/esdk.data.adobedc.net/
 #[edge.adobedc.net]
 server=/edge.adobedc.net/
 #[omtrdc.net]
@@ -11788,6 +11785,10 @@ server=/tg1.adservrs.com/
 #[rwadx.com]
 server=/ads.rwadx.com/
 server=/rwadx.com/
+#[adnz.co]
+server=/adnz.co/
+server=/api.adnz.co/
+server=/cdn.adnz.co/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -13588,6 +13589,7 @@ server=/analytics.bkav.com.vn/
 server=/analytics.digi8.vn/
 server=/analytics.evgcdn.net/
 server=/analytics.evn.com.vn/
+server=/analytics.explus.vn/
 server=/analytics.fsoft.com.vn/
 server=/analytics.gotama.link/
 server=/analytics.hapo.vn/
@@ -13625,6 +13627,7 @@ server=/btrack.homedy.com/
 server=/bubblyzucchini.com/
 server=/campaign.gitiho.com/
 server=/cdn.api-connect.io/
+server=/cdptracker.hocmai.com.vn/
 server=/clicker.chiaki.vn/
 server=/clientinfo.phimmoizz.net/
 server=/collect.ovp.vn/
@@ -14352,6 +14355,7 @@ server=/ads-bi.zenkube.com/
 server=/ads-click.com/
 server=/ads-ios-sdk.ogury.co/
 server=/ads-static.conde.digital/
+server=/ads-to.click/
 server=/ads.4tube.com/
 server=/ads.5ci.lt/
 server=/ads.6789live.com/
@@ -14674,6 +14678,7 @@ server=/adserverpub.com/
 server=/adserversolutions.com/
 server=/adserving.unibet.com/
 server=/adservinginternational.com/
+server=/adsession.exacdn.com/
 server=/adsessionserv.com/
 server=/adsfac.eu/
 server=/adsfac.net/
@@ -14979,6 +14984,7 @@ server=/alstrome9riya10.com/
 server=/alternativecpmgate.com/
 server=/altronopubacc.com/
 server=/altwi-cha.com/
+server=/alwingulla.com/
 server=/alxgtyqhio.com/
 server=/alxkpafhaka.com/
 server=/amanda-cle.info/
@@ -16269,6 +16275,7 @@ server=/dc-storm.com/
 server=/dckifhpovvbpb.com/
 server=/dcyaglnhuvf.com/
 server=/dd1xbevqx.com/
+server=/dead-put.com/
 server=/deadpantruck.com/
 server=/dealdotcom.com/
 server=/deanmediagroup.com/
@@ -16656,6 +16663,7 @@ server=/ergadx.com/
 server=/eringosdye.com/
 server=/ermin-oxj.info/
 server=/erosyndc.com/
+server=/errantstetrole.com/
 server=/eryondistain.com/
 server=/escortlarbul.com/
 server=/esellerate.net/
@@ -16914,6 +16922,7 @@ server=/fteadcofpo.com/
 server=/ftte.xyz/
 server=/ftuaxqokbxow.com/
 server=/fubmalafdti.com/
+server=/fudukrujoa.com/
 server=/fuffscreigh.website/
 server=/fulgidbirls.life/
 server=/fullfilmolify.com/
@@ -17672,6 +17681,7 @@ server=/jollytestpartying.com/
 server=/jomtingi.net/
 server=/joopaish.com/
 server=/joredi.com/
+server=/joudauhee.com/
 server=/jouncystelar.guru/
 server=/joygaskin.com/
 server=/jpeavgtcixi.com/
@@ -17680,6 +17690,7 @@ server=/jpovulldaghw.com/
 server=/js.xzjhome.cc/
 server=/jscdn.greeter.me/
 server=/jtkctpvlsilycn.com/
+server=/jtoabhvw.com/
 server=/jtokaxswunka.com/
 server=/jtujmyhhuo.com/
 server=/jucysh.com/
@@ -18509,6 +18520,7 @@ server=/nougatdimetry.com/
 server=/novem.pl/
 server=/novemberassimilate.com/
 server=/novemberseatsuccession.com/
+server=/npipajajn.com/
 server=/npugpilraku.com/
 server=/nqmanxtemqvlne.com/
 server=/nrc.tapas.net/
@@ -18831,6 +18843,7 @@ server=/ozongees.com/
 server=/ozqoztrkoaj.com/
 server=/ozsoekwgy.com/
 server=/ozwvkazrik.com/
+server=/ozxakfawm.com/
 server=/p23hxejm1.com/
 server=/p4r24.eu/
 server=/pacekami.com/
@@ -19622,6 +19635,7 @@ server=/rxpsaofevrikmi.com/
 server=/ryeqnyvbncdvg.com/
 server=/rympsxilkdqywd.com/
 server=/rzaathjhibpe.com/
+server=/s.eunow4u.com/
 server=/s.nitropay.com/
 server=/s.zkcdn.net/
 server=/s2517.com/
@@ -19775,6 +19789,7 @@ server=/sheltermilligrammillions.com/
 server=/shelvesparticipate.com/
 server=/shestour.net/
 server=/shhxgqpaxvdjn.com/
+server=/shiglangee.net/
 server=/shinystat.com/
 server=/shinystat.it/
 server=/shiowbafrrra.com/
@@ -20474,6 +20489,7 @@ server=/trustedcpmrevenue.com/
 server=/trustedgatetocontent.com/
 server=/trustednotice.news/
 server=/trusterejecta.com/
+server=/trustisimportant.fun/
 server=/trustlearningclearly.com/
 server=/truthful-quote.pro/
 server=/tsiwqtng8huauw30n.com/
@@ -20948,6 +20964,7 @@ server=/worldwide-cash.net/
 server=/worn-brown.pro/
 server=/worriednumber.com/
 server=/worstideatum.com/
+server=/worstspotchafe.com/
 server=/wotlinkmeatmen.digital/
 server=/woubitpopess.life/
 server=/wouhaugiby.com/
@@ -21563,6 +21580,7 @@ server=/events.jora.com/
 server=/events.launchdarkly.com/
 server=/events.mapbox.com/
 server=/events.newsroom.bi/
+server=/events.ocdn.eu/
 server=/events.redditmedia.com/
 server=/events.shoplytics.com/
 server=/events.split.io/
@@ -21949,6 +21967,7 @@ server=/track.datetrck.com/
 server=/track.easeus.com/
 server=/track.gotprofits.com/
 server=/track.hubspot.com/
+server=/track.hydro.online/
 server=/track.lacunads.com/
 server=/track.lexico.com/
 server=/track.mobgc.com/
@@ -22022,6 +22041,7 @@ server=/wa.metro.co.uk/
 server=/wc-tracking.lavasoft.com/
 server=/wct-2.com/
 server=/web-t.9gag.com/
+server=/web-tracking.engagebay.com/
 server=/web.mxradon.com/
 server=/webmetrics.mayoclinic.org/
 server=/weborama.net/

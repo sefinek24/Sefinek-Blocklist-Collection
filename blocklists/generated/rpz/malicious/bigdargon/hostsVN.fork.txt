@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1725595875173 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726315985063 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 06 Sep 2024 10:32 UTC+7
-; Version: 2409061032
-; Blocked: 20,481 domains
+; Last modified: 14 Sep 2024 17:42 UTC+7
+; Version: 2409141742
+; Blocked: 20,501 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -447,19 +447,6 @@ live.com CNAME .
 *.live.com CNAME .
 live.com CNAME .
 *.live.com CNAME .
-;[measure.office.com]
-office.com CNAME .
-*.office.com CNAME .
-office.com CNAME .
-*.office.com CNAME .
-office.com CNAME .
-*.office.com CNAME .
-office.com CNAME .
-*.office.com CNAME .
-office.com CNAME .
-*.office.com CNAME .
-office.com CNAME .
-*.office.com CNAME .
 ;[windows.net]
 windows.net CNAME .
 *.windows.net CNAME .
@@ -3172,6 +3159,8 @@ unity3d.com CNAME .
 *.unity3d.com CNAME .
 unity3d.com CNAME .
 *.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
 ;[analytics.unity3d.com]
 unity3d.com CNAME .
 *.unity3d.com CNAME .
@@ -3189,6 +3178,36 @@ unity3d.com CNAME .
 unity3d.com CNAME .
 *.unity3d.com CNAME .
 ;[uca.cloud.unity3d.com]
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+;[iads.unity3d.com]
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+;[mediation.unity3d.com]
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
+unity3d.com CNAME .
+*.unity3d.com CNAME .
 unity3d.com CNAME .
 *.unity3d.com CNAME .
 unity3d.com CNAME .
@@ -3262,21 +3281,6 @@ unity3d.com CNAME .
 unity3d.com CNAME .
 *.unity3d.com CNAME .
 ;[ads.prd.ie.internal.unity3d.com]
-unity3d.com CNAME .
-*.unity3d.com CNAME .
-unity3d.com CNAME .
-*.unity3d.com CNAME .
-unity3d.com CNAME .
-*.unity3d.com CNAME .
-unity3d.com CNAME .
-*.unity3d.com CNAME .
-;[iads.unity3d.com]
-unity3d.com CNAME .
-*.unity3d.com CNAME .
-unity3d.com CNAME .
-*.unity3d.com CNAME .
-unity3d.com CNAME .
-*.unity3d.com CNAME .
 unity3d.com CNAME .
 *.unity3d.com CNAME .
 unity3d.com CNAME .
@@ -20860,15 +20864,6 @@ hubvisor.io CNAME .
 *.hubvisor.io CNAME .
 hubvisor.io CNAME .
 *.hubvisor.io CNAME .
-;[data.adobedc.net]
-adobedc.net CNAME .
-*.adobedc.net CNAME .
-adobedc.net CNAME .
-*.adobedc.net CNAME .
-adobedc.net CNAME .
-*.adobedc.net CNAME .
-adobedc.net CNAME .
-*.adobedc.net CNAME .
 ;[edge.adobedc.net]
 adobedc.net CNAME .
 *.adobedc.net CNAME .
@@ -22173,6 +22168,13 @@ rwadx.com CNAME .
 *.rwadx.com CNAME .
 rwadx.com CNAME .
 *.rwadx.com CNAME .
+;[adnz.co]
+adnz.co CNAME .
+*.adnz.co CNAME .
+adnz.co CNAME .
+*.adnz.co CNAME .
+adnz.co CNAME .
+*.adnz.co CNAME .
 ; --- GroupVN block ---
 ;[adtimaserver]
 adtimaserver.vn CNAME .
@@ -25574,6 +25576,8 @@ evgcdn.net CNAME .
 *.evgcdn.net CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
+explus.vn CNAME .
+*.explus.vn CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 gotama.link CNAME .
@@ -25648,6 +25652,8 @@ gitiho.com CNAME .
 *.gitiho.com CNAME .
 api-connect.io CNAME .
 *.api-connect.io CNAME .
+com.vn CNAME .
+*.com.vn CNAME .
 chiaki.vn CNAME .
 *.chiaki.vn CNAME .
 phimmoizz.net CNAME .
@@ -27100,6 +27106,8 @@ ogury.co CNAME .
 *.ogury.co CNAME .
 conde.digital CNAME .
 *.conde.digital CNAME .
+ads-to.click CNAME .
+*.ads-to.click CNAME .
 4tube.com CNAME .
 *.4tube.com CNAME .
 5ci.lt CNAME .
@@ -27744,6 +27752,8 @@ unibet.com CNAME .
 *.unibet.com CNAME .
 adservinginternational.com CNAME .
 *.adservinginternational.com CNAME .
+exacdn.com CNAME .
+*.exacdn.com CNAME .
 adsessionserv.com CNAME .
 *.adsessionserv.com CNAME .
 adsfac.eu CNAME .
@@ -28354,6 +28364,8 @@ altronopubacc.com CNAME .
 *.altronopubacc.com CNAME .
 altwi-cha.com CNAME .
 *.altwi-cha.com CNAME .
+alwingulla.com CNAME .
+*.alwingulla.com CNAME .
 alxgtyqhio.com CNAME .
 *.alxgtyqhio.com CNAME .
 alxkpafhaka.com CNAME .
@@ -30934,6 +30946,8 @@ dcyaglnhuvf.com CNAME .
 *.dcyaglnhuvf.com CNAME .
 dd1xbevqx.com CNAME .
 *.dd1xbevqx.com CNAME .
+dead-put.com CNAME .
+*.dead-put.com CNAME .
 deadpantruck.com CNAME .
 *.deadpantruck.com CNAME .
 dealdotcom.com CNAME .
@@ -31708,6 +31722,8 @@ ermin-oxj.info CNAME .
 *.ermin-oxj.info CNAME .
 erosyndc.com CNAME .
 *.erosyndc.com CNAME .
+errantstetrole.com CNAME .
+*.errantstetrole.com CNAME .
 eryondistain.com CNAME .
 *.eryondistain.com CNAME .
 escortlarbul.com CNAME .
@@ -32224,6 +32240,8 @@ ftuaxqokbxow.com CNAME .
 *.ftuaxqokbxow.com CNAME .
 fubmalafdti.com CNAME .
 *.fubmalafdti.com CNAME .
+fudukrujoa.com CNAME .
+*.fudukrujoa.com CNAME .
 fuffscreigh.website CNAME .
 *.fuffscreigh.website CNAME .
 fulgidbirls.life CNAME .
@@ -33740,6 +33758,8 @@ joopaish.com CNAME .
 *.joopaish.com CNAME .
 joredi.com CNAME .
 *.joredi.com CNAME .
+joudauhee.com CNAME .
+*.joudauhee.com CNAME .
 jouncystelar.guru CNAME .
 *.jouncystelar.guru CNAME .
 joygaskin.com CNAME .
@@ -33756,6 +33776,8 @@ greeter.me CNAME .
 *.greeter.me CNAME .
 jtkctpvlsilycn.com CNAME .
 *.jtkctpvlsilycn.com CNAME .
+jtoabhvw.com CNAME .
+*.jtoabhvw.com CNAME .
 jtokaxswunka.com CNAME .
 *.jtokaxswunka.com CNAME .
 jtujmyhhuo.com CNAME .
@@ -35414,6 +35436,8 @@ novemberassimilate.com CNAME .
 *.novemberassimilate.com CNAME .
 novemberseatsuccession.com CNAME .
 *.novemberseatsuccession.com CNAME .
+npipajajn.com CNAME .
+*.npipajajn.com CNAME .
 npugpilraku.com CNAME .
 *.npugpilraku.com CNAME .
 nqmanxtemqvlne.com CNAME .
@@ -36058,6 +36082,8 @@ ozsoekwgy.com CNAME .
 *.ozsoekwgy.com CNAME .
 ozwvkazrik.com CNAME .
 *.ozwvkazrik.com CNAME .
+ozxakfawm.com CNAME .
+*.ozxakfawm.com CNAME .
 p23hxejm1.com CNAME .
 *.p23hxejm1.com CNAME .
 p4r24.eu CNAME .
@@ -37640,6 +37666,8 @@ rympsxilkdqywd.com CNAME .
 *.rympsxilkdqywd.com CNAME .
 rzaathjhibpe.com CNAME .
 *.rzaathjhibpe.com CNAME .
+eunow4u.com CNAME .
+*.eunow4u.com CNAME .
 nitropay.com CNAME .
 *.nitropay.com CNAME .
 zkcdn.net CNAME .
@@ -37946,6 +37974,8 @@ shestour.net CNAME .
 *.shestour.net CNAME .
 shhxgqpaxvdjn.com CNAME .
 *.shhxgqpaxvdjn.com CNAME .
+shiglangee.net CNAME .
+*.shiglangee.net CNAME .
 shinystat.com CNAME .
 *.shinystat.com CNAME .
 shinystat.it CNAME .
@@ -39344,6 +39374,8 @@ trustednotice.news CNAME .
 *.trustednotice.news CNAME .
 trusterejecta.com CNAME .
 *.trusterejecta.com CNAME .
+trustisimportant.fun CNAME .
+*.trustisimportant.fun CNAME .
 trustlearningclearly.com CNAME .
 *.trustlearningclearly.com CNAME .
 truthful-quote.pro CNAME .
@@ -40292,6 +40324,8 @@ worriednumber.com CNAME .
 *.worriednumber.com CNAME .
 worstideatum.com CNAME .
 *.worstideatum.com CNAME .
+worstspotchafe.com CNAME .
+*.worstspotchafe.com CNAME .
 wotlinkmeatmen.digital CNAME .
 *.wotlinkmeatmen.digital CNAME .
 woubitpopess.life CNAME .
@@ -41521,6 +41555,8 @@ mapbox.com CNAME .
 *.mapbox.com CNAME .
 newsroom.bi CNAME .
 *.newsroom.bi CNAME .
+ocdn.eu CNAME .
+*.ocdn.eu CNAME .
 redditmedia.com CNAME .
 *.redditmedia.com CNAME .
 shoplytics.com CNAME .
@@ -42293,6 +42329,8 @@ gotprofits.com CNAME .
 *.gotprofits.com CNAME .
 hubspot.com CNAME .
 *.hubspot.com CNAME .
+hydro.online CNAME .
+*.hydro.online CNAME .
 lacunads.com CNAME .
 *.lacunads.com CNAME .
 lexico.com CNAME .
@@ -42439,6 +42477,8 @@ wct-2.com CNAME .
 *.wct-2.com CNAME .
 9gag.com CNAME .
 *.9gag.com CNAME .
+engagebay.com CNAME .
+*.engagebay.com CNAME .
 mxradon.com CNAME .
 *.mxradon.com CNAME .
 mayoclinic.org CNAME .
