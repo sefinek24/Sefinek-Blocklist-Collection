@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726416639658 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726423939936 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-15 16:04:07 (UTC)                      ;
+; Last updated: 2024-09-15 18:04:37 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+0xf20b415.ru CNAME .
+*.0xf20b415.ru CNAME .
 kukulaa.cn CNAME .
 *.kukulaa.cn CNAME .
 qbgxl.com CNAME .
@@ -24,8 +26,6 @@ miiyun.cn CNAME .
 *.3to1market.top CNAME .
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
-abissnet.net CNAME .
-*.abissnet.net CNAME .
 adf6.com CNAME .
 *.adf6.com CNAME .
 antharris.top CNAME .
@@ -48,8 +48,6 @@ antharris.top CNAME .
 *.antharris.top CNAME .
 aoesync.com CNAME .
 *.aoesync.com CNAME .
-co.za CNAME .
-*.co.za CNAME .
 cobainaja.id CNAME .
 *.cobainaja.id CNAME .
 52kkg.com CNAME .
@@ -74,12 +72,16 @@ avastsf.com CNAME .
 *.avastsf.com CNAME .
 bahrabeauty.com CNAME .
 *.bahrabeauty.com CNAME .
+banydox.com CNAME .
+*.banydox.com CNAME .
 bazarganadero.com CNAME .
 *.bazarganadero.com CNAME .
 biancolevrin.com CNAME .
 *.biancolevrin.com CNAME .
 bitkiselurunsiparis.com CNAME .
 *.bitkiselurunsiparis.com CNAME .
+lolzone.lol CNAME .
+*.lolzone.lol CNAME .
 com.br CNAME .
 *.com.br CNAME .
 brasstech.in CNAME .
@@ -92,12 +94,8 @@ diit.cl CNAME .
 *.diit.cl CNAME .
 haory.cn CNAME .
 *.haory.cn CNAME .
-shopland.cloud CNAME .
-*.shopland.cloud CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
-cajgtus.com CNAME .
-*.cajgtus.com CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 com.ar CNAME .
@@ -112,6 +110,8 @@ coadymarine.com CNAME .
 *.coadymarine.com CNAME .
 com.do CNAME .
 *.com.do CNAME .
+blazemvpn.com CNAME .
+*.blazemvpn.com CNAME .
 cpanel-adminhost.com CNAME .
 *.cpanel-adminhost.com CNAME .
 dancingwithbaker.com CNAME .
@@ -130,14 +130,14 @@ xueshenit.com CNAME .
 *.xueshenit.com CNAME .
 defgyma.com CNAME .
 *.defgyma.com CNAME .
-com.ar CNAME .
-*.com.ar CNAME .
 diclegrup.org CNAME .
 *.diclegrup.org CNAME .
 dicshopping.com CNAME .
 *.dicshopping.com CNAME .
 56a.com CNAME .
 *.56a.com CNAME .
+aginjector.com CNAME .
+*.aginjector.com CNAME .
 packetstormsecurity.net CNAME .
 *.packetstormsecurity.net CNAME .
 jxwan.com CNAME .
@@ -154,10 +154,16 @@ pdf00.cn CNAME .
 *.pdf00.cn CNAME .
 eguaheoghouughahsu.cc CNAME .
 *.eguaheoghouughahsu.cc CNAME .
+envimos.id CNAME .
+*.envimos.id CNAME .
 eoufaoeuhoauengi.su CNAME .
 *.eoufaoeuhoauengi.su CNAME .
+epanpano.com CNAME .
+*.epanpano.com CNAME .
 epsys.ro CNAME .
 *.epsys.ro CNAME .
+com.cn CNAME .
+*.com.cn CNAME .
 everythingyouwant.top CNAME .
 *.everythingyouwant.top CNAME .
 evokeedgellc.com CNAME .
@@ -206,12 +212,12 @@ hwthurmann.de CNAME .
 *.hwthurmann.de CNAME .
 hydewood.com CNAME .
 *.hydewood.com CNAME .
-iakovosioannidis.com CNAME .
-*.iakovosioannidis.com CNAME .
 com.sa CNAME .
 *.com.sa CNAME .
 idessit.com CNAME .
 *.idessit.com CNAME .
+imtoken8.cc CNAME .
+*.imtoken8.cc CNAME .
 sh-pp.com CNAME .
 *.sh-pp.com CNAME .
 inspirepk.org CNAME .
@@ -222,6 +228,8 @@ jahez.me CNAME .
 *.jahez.me CNAME .
 jeffdahlke.com CNAME .
 *.jeffdahlke.com CNAME .
+jobcity.com CNAME .
+*.jobcity.com CNAME .
 jointings.org CNAME .
 *.jointings.org CNAME .
 co.uk CNAME .
@@ -234,6 +242,8 @@ kaysons-group.com CNAME .
 *.kaysons-group.com CNAME .
 lamaisonquilting.com CNAME .
 *.lamaisonquilting.com CNAME .
+lflsoftware.com CNAME .
+*.lflsoftware.com CNAME .
 ac.in CNAME .
 *.ac.in CNAME .
 licocojambamarketplace.com CNAME .
@@ -280,8 +290,6 @@ navigation-anti-bot-windows.com CNAME .
 *.navigation-anti-bot-windows.com CNAME .
 fuerer-net.ru CNAME .
 *.fuerer-net.ru CNAME .
-or.tz CNAME .
-*.or.tz CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
 notariusnaydenova.eu CNAME .
@@ -308,16 +316,12 @@ shouhucj.com CNAME .
 *.shouhucj.com CNAME .
 abuser.eu CNAME .
 *.abuser.eu CNAME .
-org.pk CNAME .
-*.org.pk CNAME .
 cdglobalclouds.com CNAME .
 *.cdglobalclouds.com CNAME .
 wetolink.com CNAME .
 *.wetolink.com CNAME .
 protechasia.com CNAME .
 *.protechasia.com CNAME .
-co.za CNAME .
-*.co.za CNAME .
 com.br CNAME .
 *.com.br CNAME .
 chuitian.cn CNAME .
@@ -330,10 +334,10 @@ reusable-flex.com CNAME .
 *.reusable-flex.com CNAME .
 royalsuiting.com CNAME .
 *.royalsuiting.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 jishousc.shop CNAME .
 *.jishousc.shop CNAME .
-seburage.com CNAME .
-*.seburage.com CNAME .
 fuerer-net.ru CNAME .
 *.fuerer-net.ru CNAME .
 servisaludocupacional.pe CNAME .
@@ -352,12 +356,12 @@ vivi.sg CNAME .
 *.vivi.sg CNAME .
 soyjak.download CNAME .
 *.soyjak.download CNAME .
-co.za CNAME .
-*.co.za CNAME .
 shopland.cloud CNAME .
 *.shopland.cloud CNAME .
 dinju.com CNAME .
 *.dinju.com CNAME .
+stlx3.life CNAME .
+*.stlx3.life CNAME .
 clz.kr CNAME .
 *.clz.kr CNAME .
 tcgroup.it CNAME .
@@ -386,6 +390,8 @@ totalhorsehealth.com CNAME .
 *.totalhorsehealth.com CNAME .
 co.za CNAME .
 *.co.za CNAME .
+trerggreergd.cfd CNAME .
+*.trerggreergd.cfd CNAME .
 tricotexbacau.ro CNAME .
 *.tricotexbacau.ro CNAME .
 twizt.net CNAME .
@@ -410,8 +416,6 @@ wishtochoose.top CNAME .
 *.3to1market.top CNAME .
 almrwad.com CNAME .
 *.almrwad.com CNAME .
-aqianniao.com CNAME .
-*.aqianniao.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
 blackhattoolz.com CNAME .
@@ -426,6 +430,8 @@ everythingyouwant.top CNAME .
 *.everythingyouwant.top CNAME .
 globallaborsupply.com CNAME .
 *.globallaborsupply.com CNAME .
+hseda.com CNAME .
+*.hseda.com CNAME .
 illuminazioneproduzione.it CNAME .
 *.illuminazioneproduzione.it CNAME .
 ingonherbal.com CNAME .
@@ -446,6 +452,8 @@ maxmoney.com CNAME .
 *.maxmoney.com CNAME .
 co.kr CNAME .
 *.co.kr CNAME .
+moninediy.com CNAME .
+*.moninediy.com CNAME .
 navigation-anti-bot-windows.com CNAME .
 *.navigation-anti-bot-windows.com CNAME .
 opolis.io CNAME .
@@ -488,4 +496,4 @@ yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
-; Number of entries: 239
+; Number of entries: 243
