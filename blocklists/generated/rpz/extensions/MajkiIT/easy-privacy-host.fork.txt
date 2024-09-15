@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726194626763 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726367659116 43200 3600 259200 300
   NS  localhost.
 ;
-;202409130303
+;202409150303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -40189,6 +40189,8 @@ ricoh.no CNAME .
 *.ricoh.no CNAME .
 mdstats.info CNAME .
 *.mdstats.info CNAME .
+crateandbarrel.com CNAME .
+*.crateandbarrel.com CNAME .
 mydays.de CNAME .
 *.mydays.de CNAME .
 jdsports.de CNAME .
@@ -65413,8 +65415,6 @@ audion.fm CNAME .
 *.9gag.com CNAME .
 a3cloud.net CNAME .
 *.a3cloud.net CNAME .
-pandora.com CNAME .
-*.pandora.com CNAME .
 actemra.com CNAME .
 *.actemra.com CNAME .
 adlpo.com CNAME .
