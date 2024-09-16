@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726467178266 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726517778596 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,818
-; Updated: 9/16/2024  00:12 (12:12 AM CST)
+; Domains: 13,819
+; Updated: 9/16/2024  14:23 (2:23 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -5255,6 +5255,8 @@ chemiczone.com CNAME .
 *.chemiczone.com CNAME .
 chemiresource.com CNAME .
 *.chemiresource.com CNAME .
+chemistrynearby.com CNAME .
+*.chemistrynearby.com CNAME .
 chemist-store.com CNAME .
 *.chemist-store.com CNAME .
 chemlabshop-online.com CNAME .
