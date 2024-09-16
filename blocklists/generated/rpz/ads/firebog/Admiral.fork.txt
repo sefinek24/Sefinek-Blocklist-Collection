@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726236629212 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726495848688 43200 3600 259200 300
   NS  localhost.
 ;
 ; Admiral, parsed and mirrored by https://firebog.net
-; Updated 13SEP24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
+; Updated 16SEP24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
 ; This is sourced from an "adblock" style list which is flat-out NOT designed to work with DNS sinkholes
 ; There WILL be mistakes with how this is parsed, due to how domain names are extracted and exceptions handled
 ; Please bring any parsing issues up at https://github.com/WaLLy3K/wally3k.github.io/issues prior to raising a request upstream
@@ -40,8 +40,6 @@ abstractedauthority.com CNAME .
 *.abstractedauthority.com CNAME .
 absurdapple.com CNAME .
 *.absurdapple.com CNAME .
-acceptableauthority.com CNAME .
-*.acceptableauthority.com CNAME .
 accountsdoor.com CNAME .
 *.accountsdoor.com CNAME .
 accurateanimal.com CNAME .
@@ -128,8 +126,6 @@ ar1nvz5.com CNAME .
 *.ar1nvz5.com CNAME .
 archswimming.com CNAME .
 *.archswimming.com CNAME .
-argyresthia.com CNAME .
-*.argyresthia.com CNAME .
 aromamirror.com CNAME .
 *.aromamirror.com CNAME .
 arrivegrowth.com CNAME .
@@ -366,8 +362,6 @@ cloisteredcurve.com CNAME .
 *.cloisteredcurve.com CNAME .
 closedcows.com CNAME .
 *.closedcows.com CNAME .
-clovercabbage.com CNAME .
-*.clovercabbage.com CNAME .
 coachquartz.com CNAME .
 *.coachquartz.com CNAME .
 coatfood.com CNAME .
@@ -630,8 +624,6 @@ expansioneggnog.com CNAME .
 *.expansioneggnog.com CNAME .
 exuberantedge.com CNAME .
 *.exuberantedge.com CNAME .
-exultantdrop.com CNAME .
-*.exultantdrop.com CNAME .
 facilitatebreakfast.com CNAME .
 *.facilitatebreakfast.com CNAME .
 fadechildren.com CNAME .
@@ -716,8 +708,6 @@ fourfork.com CNAME .
 *.fourfork.com CNAME .
 frailfruit.com CNAME .
 *.frailfruit.com CNAME .
-frailoffer.com CNAME .
-*.frailoffer.com CNAME .
 frantictrail.com CNAME .
 *.frantictrail.com CNAME .
 frightenedpotato.com CNAME .
@@ -780,6 +770,8 @@ gracefulmilk.com CNAME .
 *.gracefulmilk.com CNAME .
 grainmass.com CNAME .
 *.grainmass.com CNAME .
+grandioseguide.com CNAME .
+*.grandioseguide.com CNAME .
 gravitygive.com CNAME .
 *.gravitygive.com CNAME .
 grayoranges.com CNAME .
@@ -1406,8 +1398,6 @@ sandstrophies.com CNAME .
 *.sandstrophies.com CNAME .
 satisfycork.com CNAME .
 *.satisfycork.com CNAME .
-satisfyingshirt.com CNAME .
-*.satisfyingshirt.com CNAME .
 savoryorange.com CNAME .
 *.savoryorange.com CNAME .
 scarceshock.com CNAME .
@@ -1668,8 +1658,6 @@ stormyfold.com CNAME .
 *.stormyfold.com CNAME .
 straightnest.com CNAME .
 *.straightnest.com CNAME .
-strangersponge.com CNAME .
-*.strangersponge.com CNAME .
 strangesink.com CNAME .
 *.strangesink.com CNAME .
 streetsort.com CNAME .
