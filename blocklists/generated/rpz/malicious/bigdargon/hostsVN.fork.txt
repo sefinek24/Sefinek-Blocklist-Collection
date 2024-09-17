@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726423939936 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726567874560 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 15 Sep 2024 23:13 UTC+7
-; Version: 2409152313
-; Blocked: 20,502 domains
+; Last modified: 17 Sep 2024 16:05 UTC+7
+; Version: 2409171605
+; Blocked: 20,511 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -22175,6 +22175,13 @@ adnz.co CNAME .
 *.adnz.co CNAME .
 adnz.co CNAME .
 *.adnz.co CNAME .
+;[lfeeder.com]
+lfeeder.com CNAME .
+*.lfeeder.com CNAME .
+lfeeder.com CNAME .
+*.lfeeder.com CNAME .
+lfeeder.com CNAME .
+*.lfeeder.com CNAME .
 ; --- GroupVN block ---
 ;[adtimaserver]
 adtimaserver.vn CNAME .
@@ -33772,6 +33779,12 @@ jpjmpqaupc.com CNAME .
 *.jpjmpqaupc.com CNAME .
 jpovulldaghw.com CNAME .
 *.jpovulldaghw.com CNAME .
+wpncdn.com CNAME .
+*.wpncdn.com CNAME .
+wpnjs.com CNAME .
+*.wpnjs.com CNAME .
+wpnsrv.com CNAME .
+*.wpnsrv.com CNAME .
 xzjhome.cc CNAME .
 *.xzjhome.cc CNAME .
 greeter.me CNAME .
@@ -41737,8 +41750,6 @@ leadzutw.com CNAME .
 *.leadzutw.com CNAME .
 lem-computers.net CNAME .
 *.lem-computers.net CNAME .
-lfeeder.com CNAME .
-*.lfeeder.com CNAME .
 ihago.net CNAME .
 *.ihago.net CNAME .
 litix.io CNAME .
@@ -42613,11 +42624,19 @@ appsflyer.com CNAME .
 *.appsflyer.com CNAME .
 appsflyer.com CNAME .
 *.appsflyer.com CNAME .
+;[appsflyersdk.com]
+appsflyersdk.com CNAME .
+*.appsflyersdk.com CNAME .
+appsflyersdk.com CNAME .
+*.appsflyersdk.com CNAME .
+appsflyersdk.com CNAME .
+*.appsflyersdk.com CNAME .
+appsflyersdk.com CNAME .
+*.appsflyersdk.com CNAME .
+appsflyersdk.com CNAME .
+*.appsflyersdk.com CNAME .
+appsflyersdk.com CNAME .
+*.appsflyersdk.com CNAME .
+appsflyersdk.com CNAME .
+*.appsflyersdk.com CNAME .
 ; CNAME Popup
-;[cds.h5z9g8y6.hwcdn.net]
-wpnjs.com CNAME .
-*.wpnjs.com CNAME .
-wpnsrv.com CNAME .
-*.wpnsrv.com CNAME .
-wpncdn.com CNAME .
-*.wpncdn.com CNAME .

@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 15 Sep 2024 23:13 UTC+7
-# Version: 2409152313
-# Blocked: 20,502 domains
+# Last modified: 17 Sep 2024 16:05 UTC+7
+# Version: 2409171605
+# Blocked: 20,511 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11789,6 +11789,10 @@ server=/rwadx.com/
 server=/adnz.co/
 server=/api.adnz.co/
 server=/cdn.adnz.co/
+#[lfeeder.com]
+server=/lfeeder.com/
+server=/sc.lfeeder.com/
+server=/tr.lfeeder.com/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -17688,6 +17692,9 @@ server=/joygaskin.com/
 server=/jpeavgtcixi.com/
 server=/jpjmpqaupc.com/
 server=/jpovulldaghw.com/
+server=/js.wpncdn.com/
+server=/js.wpnjs.com/
+server=/js.wpnsrv.com/
 server=/js.xzjhome.cc/
 server=/jscdn.greeter.me/
 server=/jtkctpvlsilycn.com/
@@ -21671,7 +21678,6 @@ server=/largeer.com/
 server=/lcs.loginfra.com/
 server=/leadzutw.com/
 server=/lem-computers.net/
-server=/lfeeder.com/
 server=/lgglobal.ihago.net/
 server=/litix.io/
 server=/live-tv.top/
@@ -22110,8 +22116,12 @@ server=/track.appsflyer.com/
 server=/validate.appsflyer.com/
 server=/wa.appsflyer.com/
 server=/websdk.appsflyer.com/
+#[appsflyersdk.com]
+server=/cdn-settings.appsflyersdk.com/
+server=/conversions.appsflyersdk.com/
+server=/dlsdk.appsflyersdk.com/
+server=/gcdsdk.appsflyersdk.com/
+server=/inapps.appsflyersdk.com/
+server=/launches.appsflyersdk.com/
+server=/register.appsflyersdk.com/
 # CNAME Popup
-#[cds.h5z9g8y6.hwcdn.net]
-server=/js.wpnjs.com/
-server=/js.wpnsrv.com/
-server=/js.wpncdn.com/

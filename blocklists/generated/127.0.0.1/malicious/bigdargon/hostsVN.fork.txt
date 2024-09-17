@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 15 Sep 2024 23:13 UTC+7
-# Version: 2409152313
-# Blocked: 20,502 domains
+# Last modified: 17 Sep 2024 16:05 UTC+7
+# Version: 2409171605
+# Blocked: 20,511 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11789,6 +11789,10 @@
 127.0.0.1 adnz.co
 127.0.0.1 api.adnz.co
 127.0.0.1 cdn.adnz.co
+#[lfeeder.com]
+127.0.0.1 lfeeder.com
+127.0.0.1 sc.lfeeder.com
+127.0.0.1 tr.lfeeder.com
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -17688,6 +17692,9 @@
 127.0.0.1 jpeavgtcixi.com
 127.0.0.1 jpjmpqaupc.com
 127.0.0.1 jpovulldaghw.com
+127.0.0.1 js.wpncdn.com
+127.0.0.1 js.wpnjs.com
+127.0.0.1 js.wpnsrv.com
 127.0.0.1 js.xzjhome.cc
 127.0.0.1 jscdn.greeter.me
 127.0.0.1 jtkctpvlsilycn.com
@@ -21671,7 +21678,6 @@
 127.0.0.1 lcs.loginfra.com
 127.0.0.1 leadzutw.com
 127.0.0.1 lem-computers.net
-127.0.0.1 lfeeder.com
 127.0.0.1 lgglobal.ihago.net
 127.0.0.1 litix.io
 127.0.0.1 live-tv.top
@@ -22110,8 +22116,12 @@
 127.0.0.1 validate.appsflyer.com
 127.0.0.1 wa.appsflyer.com
 127.0.0.1 websdk.appsflyer.com
+#[appsflyersdk.com]
+127.0.0.1 cdn-settings.appsflyersdk.com
+127.0.0.1 conversions.appsflyersdk.com
+127.0.0.1 dlsdk.appsflyersdk.com
+127.0.0.1 gcdsdk.appsflyersdk.com
+127.0.0.1 inapps.appsflyersdk.com
+127.0.0.1 launches.appsflyersdk.com
+127.0.0.1 register.appsflyersdk.com
 # CNAME Popup
-#[cds.h5z9g8y6.hwcdn.net]
-127.0.0.1 js.wpnjs.com
-127.0.0.1 js.wpnsrv.com
-127.0.0.1 js.wpncdn.com

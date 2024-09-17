@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 15 Sep 2024 23:13 UTC+7
-# Version: 2409152313
-# Blocked: 20,502 domains
+# Last modified: 17 Sep 2024 16:05 UTC+7
+# Version: 2409171605
+# Blocked: 20,511 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -11789,6 +11789,10 @@
 0.0.0.0 adnz.co
 0.0.0.0 api.adnz.co
 0.0.0.0 cdn.adnz.co
+#[lfeeder.com]
+0.0.0.0 lfeeder.com
+0.0.0.0 sc.lfeeder.com
+0.0.0.0 tr.lfeeder.com
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -17688,6 +17692,9 @@
 0.0.0.0 jpeavgtcixi.com
 0.0.0.0 jpjmpqaupc.com
 0.0.0.0 jpovulldaghw.com
+0.0.0.0 js.wpncdn.com
+0.0.0.0 js.wpnjs.com
+0.0.0.0 js.wpnsrv.com
 0.0.0.0 js.xzjhome.cc
 0.0.0.0 jscdn.greeter.me
 0.0.0.0 jtkctpvlsilycn.com
@@ -21671,7 +21678,6 @@
 0.0.0.0 lcs.loginfra.com
 0.0.0.0 leadzutw.com
 0.0.0.0 lem-computers.net
-0.0.0.0 lfeeder.com
 0.0.0.0 lgglobal.ihago.net
 0.0.0.0 litix.io
 0.0.0.0 live-tv.top
@@ -22110,8 +22116,12 @@
 0.0.0.0 validate.appsflyer.com
 0.0.0.0 wa.appsflyer.com
 0.0.0.0 websdk.appsflyer.com
+#[appsflyersdk.com]
+0.0.0.0 cdn-settings.appsflyersdk.com
+0.0.0.0 conversions.appsflyersdk.com
+0.0.0.0 dlsdk.appsflyersdk.com
+0.0.0.0 gcdsdk.appsflyersdk.com
+0.0.0.0 inapps.appsflyersdk.com
+0.0.0.0 launches.appsflyersdk.com
+0.0.0.0 register.appsflyersdk.com
 # CNAME Popup
-#[cds.h5z9g8y6.hwcdn.net]
-0.0.0.0 js.wpnjs.com
-0.0.0.0 js.wpnsrv.com
-0.0.0.0 js.wpncdn.com
