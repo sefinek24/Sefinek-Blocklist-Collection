@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726567874560 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726683174060 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 17 Sep 2024 16:05 UTC+7
-; Version: 2409171605
-; Blocked: 20,511 domains
+; Last modified: 18 Sep 2024 23:20 UTC+7
+; Version: 2409182320
+; Blocked: 20,514 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -22182,6 +22182,11 @@ lfeeder.com CNAME .
 *.lfeeder.com CNAME .
 lfeeder.com CNAME .
 *.lfeeder.com CNAME .
+;[twitch.tv]
+twitch.tv CNAME .
+*.twitch.tv CNAME .
+twitch.tv CNAME .
+*.twitch.tv CNAME .
 ; --- GroupVN block ---
 ;[adtimaserver]
 adtimaserver.vn CNAME .
@@ -28189,6 +28194,8 @@ agffrusilj.com CNAME .
 *.agffrusilj.com CNAME .
 aggestose.com CNAME .
 *.aggestose.com CNAME .
+agghriwaz.com CNAME .
+*.agghriwaz.com CNAME .
 aghastmardy.website CNAME .
 *.aghastmardy.website CNAME .
 agitated-potential.pro CNAME .
@@ -31521,8 +31528,6 @@ edaphonagaz.com CNAME .
 *.edaphonagaz.com CNAME .
 edgar2al2larngpoer.com CNAME .
 *.edgar2al2larngpoer.com CNAME .
-twitch.tv CNAME .
-*.twitch.tv CNAME .
 mdcgate.com CNAME .
 *.mdcgate.com CNAME .
 edgeio.com CNAME .
@@ -42048,6 +42053,8 @@ heytapmobi.com CNAME .
 *.heytapmobi.com CNAME .
 gannettinnovation.com CNAME .
 *.gannettinnovation.com CNAME .
+cdndex.io CNAME .
+*.cdndex.io CNAME .
 ubimo.com CNAME .
 *.ubimo.com CNAME .
 rfpx1.com CNAME .
