@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726229595628 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726748088331 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Mon, 09 Sep 2024 15:04:31 GMT
-; entries:        3542
+; last updated:   Thu, 19 Sep 2024 09:53:32 GMT
+; entries:        3550
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -1114,6 +1114,8 @@ program3.com CNAME .
 *.program3.com CNAME .
 psd2html.com CNAME .
 *.psd2html.com CNAME .
+pubmatic.com CNAME .
+*.pubmatic.com CNAME .
 quoka.de CNAME .
 *.quoka.de CNAME .
 radialserver.com CNAME .
@@ -2040,6 +2042,8 @@ axonix.com CNAME .
 *.axonix.com CNAME .
 ay.delivery CNAME .
 *.ay.delivery CNAME .
+ayads.co CNAME .
+*.ayads.co CNAME .
 aztracking.net CNAME .
 *.aztracking.net CNAME .
 tercept.com CNAME .
@@ -3502,6 +3506,8 @@ fwcdn2.com CNAME .
 *.fwcdn2.com CNAME .
 fxstyle.net CNAME .
 *.fxstyle.net CNAME .
+gumgum.com CNAME .
+*.gumgum.com CNAME .
 clearbit.com CNAME .
 *.clearbit.com CNAME .
 gadsbee.com CNAME .
@@ -4414,6 +4420,8 @@ bwinpartypartners.it CNAME .
 *.bwinpartypartners.it CNAME .
 mediasmart.io CNAME .
 *.mediasmart.io CNAME .
+mediasquare.fr CNAME .
+*.mediasquare.fr CNAME .
 mediatext.com CNAME .
 *.mediatext.com CNAME .
 mediavine.com CNAME .
@@ -4804,6 +4812,8 @@ offerforge.com CNAME .
 *.offerforge.com CNAME .
 offermatica.com CNAME .
 *.offermatica.com CNAME .
+googleapis.com CNAME .
+*.googleapis.com CNAME .
 posjetnica.com CNAME .
 *.posjetnica.com CNAME .
 ogury.com CNAME .
@@ -4930,6 +4940,8 @@ hillcountrytexas.com CNAME .
 *.hillcountrytexas.com CNAME .
 p-n.io CNAME .
 *.p-n.io CNAME .
+paa-reporting-advertising.amazon CNAME .
+*.paa-reporting-advertising.amazon CNAME .
 google.com CNAME .
 *.google.com CNAME .
 pagefair.com CNAME .
@@ -5516,6 +5528,8 @@ rhombusads.com CNAME .
 *.rhombusads.com CNAME .
 rhythmone.com CNAME .
 *.rhythmone.com CNAME .
+richaudience.com CNAME .
+*.richaudience.com CNAME .
 richmails.com CNAME .
 *.richmails.com CNAME .
 richstring.com CNAME .
@@ -5960,6 +5974,8 @@ srwww1.com CNAME .
 *.srwww1.com CNAME .
 pubmatic.com CNAME .
 *.pubmatic.com CNAME .
+sskzlabs.com CNAME .
+*.sskzlabs.com CNAME .
 dynamicyield.com CNAME .
 *.dynamicyield.com CNAME .
 pubmatic.com CNAME .
