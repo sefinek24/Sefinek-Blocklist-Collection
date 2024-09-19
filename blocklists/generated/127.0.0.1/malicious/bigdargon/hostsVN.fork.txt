@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 18 Sep 2024 23:20 UTC+7
-# Version: 2409182320
-# Blocked: 20,514 domains
+# Last modified: 19 Sep 2024 10:16 UTC+7
+# Version: 2409191016
+# Blocked: 20,523 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -360,6 +360,7 @@
 127.0.0.1 cdn-a.amazon-adsystem.com
 127.0.0.1 cdn-d.amazon-adsystem.com
 127.0.0.1 cdn-t.amazon-adsystem.com
+127.0.0.1 config.aps.amazon-adsystem.com
 127.0.0.1 da-cdn.amazon-adsystem.com
 127.0.0.1 dra.amazon-adsystem.com
 127.0.0.1 fls-cn.amazon-adsystem.com
@@ -587,16 +588,18 @@
 127.0.0.1 media.admob.com
 127.0.0.1 trac.admob.com
 127.0.0.1 r.l.admob.com
-#[inmobi]
+#[inmobi.com]
 127.0.0.1 ads.inmobi.com
 127.0.0.1 analytics-prod2.glance-internal.inmobi.com
 127.0.0.1 analytics.glance.inmobi.com
+127.0.0.1 api.cmp.inmobi.com
 127.0.0.1 api.glance.inmobi.com
 127.0.0.1 api.w.inmobi.com
 127.0.0.1 au.w.inmobi.com
 127.0.0.1 b.de.inmobi.com
 127.0.0.1 c-eus.w.inmobi.com
 127.0.0.1 carpet.pulse.inmobi.com
+127.0.0.1 cmp.inmobi.com
 127.0.0.1 config-ltvp.inmobi.com
 127.0.0.1 config.eastus-ssp.appgwv2.inmobi.com
 127.0.0.1 config.inmobi.com
@@ -2002,13 +2005,14 @@
 127.0.0.1 ebs.criteo.com
 127.0.0.1 gem.gbc.criteo.com
 127.0.0.1 go.criteo.com
+127.0.0.1 grid-bidder.criteo.com
 127.0.0.1 gum.criteo.com
 127.0.0.1 info.criteo.com
 127.0.0.1 labs.criteo.com
 127.0.0.1 marketing.criteo.com
 127.0.0.1 mug.criteo.com
-127.0.0.1 pubsdk-bin.criteo.com
 127.0.0.1 pub-sdk-cfg.criteo.com
+127.0.0.1 pubsdk-bin.criteo.com
 127.0.0.1 rdi.criteo.com
 127.0.0.1 rtax.criteo.com
 127.0.0.1 sftp.criteo.com
@@ -7822,6 +7826,7 @@
 127.0.0.1 js.vlitag.com
 127.0.0.1 logs.vlitag.com
 127.0.0.1 media.vlitag.com
+127.0.0.1 s3.vlitag.com
 127.0.0.1 services.vlitag.com
 127.0.0.1 stats.vlitag.com
 127.0.0.1 tag.vlitag.com
@@ -11765,7 +11770,6 @@
 #[bright]
 127.0.0.1 bright-sdk.com
 127.0.0.1 brightdata.com
-127.0.0.1 0.0.0.0
 127.0.0.1 brightdata.de
 127.0.0.1 perr.l-agent.me
 127.0.0.1 perr.l-err.biz
@@ -11796,6 +11800,12 @@
 #[twitch.tv]
 127.0.0.1 analytics.m7g.twitch.tv
 127.0.0.1 edge.ads.twitch.tv
+#[yellowblue.io]
+127.0.0.1 yellowblue.io
+127.0.0.1 hb.yellowblue.io
+#[quantumdex.io]
+127.0.0.1 sync.quantumdex.io
+127.0.0.1 useast.quantumdex.io
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -20168,7 +20178,6 @@
 127.0.0.1 syenitetatler.tech
 127.0.0.1 sylxisys.com
 127.0.0.1 sympathydistinguish.com
-127.0.0.1 sync.quantumdex.io
 127.0.0.1 syndapop.com
 127.0.0.1 syndetstermine.com
 127.0.0.1 syndicate.purch.com
@@ -20643,7 +20652,6 @@
 127.0.0.1 uruswan.com
 127.0.0.1 us.claroadsxml.com
 127.0.0.1 usapromotravel.com
-127.0.0.1 useast.quantumdex.io
 127.0.0.1 uselnk.com
 127.0.0.1 usemax.de
 127.0.0.1 useriq.com
@@ -21487,6 +21495,7 @@
 127.0.0.1 c-api-bit.shopeemobile.com
 127.0.0.1 c.riskified.com
 127.0.0.1 c2i-cdn.startappnetwork.com
+127.0.0.1 cadmus.script.ac
 127.0.0.1 cankaowang.com
 127.0.0.1 cc-api-data.adobe.io
 127.0.0.1 cc.swiftype.com
@@ -21651,6 +21660,7 @@
 127.0.0.1 iabusprivacy.pmc.com
 127.0.0.1 iaudienc.com
 127.0.0.1 ibd-as-api.iq.com
+127.0.0.1 id.a-mx.com
 127.0.0.1 idio.co
 127.0.0.1 ie8eamus.com
 127.0.0.1 ilogs.bytefence.com

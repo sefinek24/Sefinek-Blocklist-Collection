@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 18 Sep 2024 23:20 UTC+7
-# Version: 2409182320
-# Blocked: 20,514 domains
+# Last modified: 19 Sep 2024 10:16 UTC+7
+# Version: 2409191016
+# Blocked: 20,523 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -360,6 +360,7 @@ server=/c.amazon-adsystem.com/
 server=/cdn-a.amazon-adsystem.com/
 server=/cdn-d.amazon-adsystem.com/
 server=/cdn-t.amazon-adsystem.com/
+server=/config.aps.amazon-adsystem.com/
 server=/da-cdn.amazon-adsystem.com/
 server=/dra.amazon-adsystem.com/
 server=/fls-cn.amazon-adsystem.com/
@@ -587,16 +588,18 @@ server=/c.admob.com/
 server=/media.admob.com/
 server=/trac.admob.com/
 server=/r.l.admob.com/
-#[inmobi]
+#[inmobi.com]
 server=/ads.inmobi.com/
 server=/analytics-prod2.glance-internal.inmobi.com/
 server=/analytics.glance.inmobi.com/
+server=/api.cmp.inmobi.com/
 server=/api.glance.inmobi.com/
 server=/api.w.inmobi.com/
 server=/au.w.inmobi.com/
 server=/b.de.inmobi.com/
 server=/c-eus.w.inmobi.com/
 server=/carpet.pulse.inmobi.com/
+server=/cmp.inmobi.com/
 server=/config-ltvp.inmobi.com/
 server=/config.eastus-ssp.appgwv2.inmobi.com/
 server=/config.inmobi.com/
@@ -2002,13 +2005,14 @@ server=/dynamic.criteo.com/
 server=/ebs.criteo.com/
 server=/gem.gbc.criteo.com/
 server=/go.criteo.com/
+server=/grid-bidder.criteo.com/
 server=/gum.criteo.com/
 server=/info.criteo.com/
 server=/labs.criteo.com/
 server=/marketing.criteo.com/
 server=/mug.criteo.com/
-server=/pubsdk-bin.criteo.com/
 server=/pub-sdk-cfg.criteo.com/
+server=/pubsdk-bin.criteo.com/
 server=/rdi.criteo.com/
 server=/rtax.criteo.com/
 server=/sftp.criteo.com/
@@ -7822,6 +7826,7 @@ server=/assets.vlitag.com/
 server=/js.vlitag.com/
 server=/logs.vlitag.com/
 server=/media.vlitag.com/
+server=/s3.vlitag.com/
 server=/services.vlitag.com/
 server=/stats.vlitag.com/
 server=/tag.vlitag.com/
@@ -11765,7 +11770,6 @@ server=/api.moneyoyo.org/
 #[bright]
 server=/bright-sdk.com/
 server=/brightdata.com/
-
 server=/brightdata.de/
 server=/perr.l-agent.me/
 server=/perr.l-err.biz/
@@ -11796,6 +11800,12 @@ server=/tr.lfeeder.com/
 #[twitch.tv]
 server=/analytics.m7g.twitch.tv/
 server=/edge.ads.twitch.tv/
+#[yellowblue.io]
+server=/yellowblue.io/
+server=/hb.yellowblue.io/
+#[quantumdex.io]
+server=/sync.quantumdex.io/
+server=/useast.quantumdex.io/
 # --- GroupVN block ---
 #[adtimaserver]
 server=/adtimaserver.vn/
@@ -20168,7 +20178,6 @@ server=/sybostuff.com/
 server=/syenitetatler.tech/
 server=/sylxisys.com/
 server=/sympathydistinguish.com/
-server=/sync.quantumdex.io/
 server=/syndapop.com/
 server=/syndetstermine.com/
 server=/syndicate.purch.com/
@@ -20643,7 +20652,6 @@ server=/urlcash.net/
 server=/uruswan.com/
 server=/us.claroadsxml.com/
 server=/usapromotravel.com/
-server=/useast.quantumdex.io/
 server=/uselnk.com/
 server=/usemax.de/
 server=/useriq.com/
@@ -21487,6 +21495,7 @@ server=/burstly.com/
 server=/c-api-bit.shopeemobile.com/
 server=/c.riskified.com/
 server=/c2i-cdn.startappnetwork.com/
+server=/cadmus.script.ac/
 server=/cankaowang.com/
 server=/cc-api-data.adobe.io/
 server=/cc.swiftype.com/
@@ -21651,6 +21660,7 @@ server=/i.viafoura.co/
 server=/iabusprivacy.pmc.com/
 server=/iaudienc.com/
 server=/ibd-as-api.iq.com/
+server=/id.a-mx.com/
 server=/idio.co/
 server=/ie8eamus.com/
 server=/ilogs.bytefence.com/

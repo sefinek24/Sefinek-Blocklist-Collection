@@ -1,11 +1,11 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726683174060 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726719141780 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: hostsVN
-; Last modified: 18 Sep 2024 23:20 UTC+7
-; Version: 2409182320
-; Blocked: 20,514 domains
+; Last modified: 19 Sep 2024 10:16 UTC+7
+; Version: 2409191016
+; Blocked: 20,523 domains
 ; Please report any ads or problems on GitHub
 ; Homepage: https://bigdargon.github.io/hostsVN/
 ; GitHub: https://github.com/bigdargon/hostsVN
@@ -773,6 +773,8 @@ amazon-adsystem.com CNAME .
 *.amazon-adsystem.com CNAME .
 amazon-adsystem.com CNAME .
 *.amazon-adsystem.com CNAME .
+amazon-adsystem.com CNAME .
+*.amazon-adsystem.com CNAME .
 ;[amazon-adsystems.com]
 amazon-adsystems.com CNAME .
 *.amazon-adsystems.com CNAME .
@@ -1094,7 +1096,11 @@ admob.com CNAME .
 *.admob.com CNAME .
 admob.com CNAME .
 *.admob.com CNAME .
-;[inmobi]
+;[inmobi.com]
+inmobi.com CNAME .
+*.inmobi.com CNAME .
+inmobi.com CNAME .
+*.inmobi.com CNAME .
 inmobi.com CNAME .
 *.inmobi.com CNAME .
 inmobi.com CNAME .
@@ -3774,6 +3780,8 @@ criteo.net CNAME .
 criteo.net CNAME .
 *.criteo.net CNAME .
 ;[criteo.com]
+criteo.com CNAME .
+*.criteo.com CNAME .
 criteo.com CNAME .
 *.criteo.com CNAME .
 criteo.com CNAME .
@@ -14968,6 +14976,8 @@ vlitag.com CNAME .
 *.vlitag.com CNAME .
 vlitag.com CNAME .
 *.vlitag.com CNAME .
+vlitag.com CNAME .
+*.vlitag.com CNAME .
 ;[vliplatform.com]
 vliplatform.com CNAME .
 *.vliplatform.com CNAME .
@@ -22132,8 +22142,6 @@ bright-sdk.com CNAME .
 *.bright-sdk.com CNAME .
 brightdata.com CNAME .
 *.brightdata.com CNAME .
-0.0 CNAME .
-*.0.0 CNAME .
 brightdata.de CNAME .
 *.brightdata.de CNAME .
 l-agent.me CNAME .
@@ -22187,6 +22195,16 @@ twitch.tv CNAME .
 *.twitch.tv CNAME .
 twitch.tv CNAME .
 *.twitch.tv CNAME .
+;[yellowblue.io]
+yellowblue.io CNAME .
+*.yellowblue.io CNAME .
+yellowblue.io CNAME .
+*.yellowblue.io CNAME .
+;[quantumdex.io]
+quantumdex.io CNAME .
+*.quantumdex.io CNAME .
+quantumdex.io CNAME .
+*.quantumdex.io CNAME .
 ; --- GroupVN block ---
 ;[adtimaserver]
 adtimaserver.vn CNAME .
@@ -38730,8 +38748,6 @@ sylxisys.com CNAME .
 *.sylxisys.com CNAME .
 sympathydistinguish.com CNAME .
 *.sympathydistinguish.com CNAME .
-quantumdex.io CNAME .
-*.quantumdex.io CNAME .
 syndapop.com CNAME .
 *.syndapop.com CNAME .
 syndetstermine.com CNAME .
@@ -39680,8 +39696,6 @@ claroadsxml.com CNAME .
 *.claroadsxml.com CNAME .
 usapromotravel.com CNAME .
 *.usapromotravel.com CNAME .
-quantumdex.io CNAME .
-*.quantumdex.io CNAME .
 uselnk.com CNAME .
 *.uselnk.com CNAME .
 usemax.de CNAME .
@@ -41367,6 +41381,8 @@ riskified.com CNAME .
 *.riskified.com CNAME .
 startappnetwork.com CNAME .
 *.startappnetwork.com CNAME .
+script.ac CNAME .
+*.script.ac CNAME .
 cankaowang.com CNAME .
 *.cankaowang.com CNAME .
 adobe.io CNAME .
@@ -41695,6 +41711,8 @@ iaudienc.com CNAME .
 *.iaudienc.com CNAME .
 iq.com CNAME .
 *.iq.com CNAME .
+a-mx.com CNAME .
+*.a-mx.com CNAME .
 idio.co CNAME .
 *.idio.co CNAME .
 ie8eamus.com CNAME .

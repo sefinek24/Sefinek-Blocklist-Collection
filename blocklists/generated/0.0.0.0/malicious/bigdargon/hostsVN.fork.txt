@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 18 Sep 2024 23:20 UTC+7
-# Version: 2409182320
-# Blocked: 20,514 domains
+# Last modified: 19 Sep 2024 10:16 UTC+7
+# Version: 2409191016
+# Blocked: 20,523 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -360,6 +360,7 @@
 0.0.0.0 cdn-a.amazon-adsystem.com
 0.0.0.0 cdn-d.amazon-adsystem.com
 0.0.0.0 cdn-t.amazon-adsystem.com
+0.0.0.0 config.aps.amazon-adsystem.com
 0.0.0.0 da-cdn.amazon-adsystem.com
 0.0.0.0 dra.amazon-adsystem.com
 0.0.0.0 fls-cn.amazon-adsystem.com
@@ -587,16 +588,18 @@
 0.0.0.0 media.admob.com
 0.0.0.0 trac.admob.com
 0.0.0.0 r.l.admob.com
-#[inmobi]
+#[inmobi.com]
 0.0.0.0 ads.inmobi.com
 0.0.0.0 analytics-prod2.glance-internal.inmobi.com
 0.0.0.0 analytics.glance.inmobi.com
+0.0.0.0 api.cmp.inmobi.com
 0.0.0.0 api.glance.inmobi.com
 0.0.0.0 api.w.inmobi.com
 0.0.0.0 au.w.inmobi.com
 0.0.0.0 b.de.inmobi.com
 0.0.0.0 c-eus.w.inmobi.com
 0.0.0.0 carpet.pulse.inmobi.com
+0.0.0.0 cmp.inmobi.com
 0.0.0.0 config-ltvp.inmobi.com
 0.0.0.0 config.eastus-ssp.appgwv2.inmobi.com
 0.0.0.0 config.inmobi.com
@@ -2002,13 +2005,14 @@
 0.0.0.0 ebs.criteo.com
 0.0.0.0 gem.gbc.criteo.com
 0.0.0.0 go.criteo.com
+0.0.0.0 grid-bidder.criteo.com
 0.0.0.0 gum.criteo.com
 0.0.0.0 info.criteo.com
 0.0.0.0 labs.criteo.com
 0.0.0.0 marketing.criteo.com
 0.0.0.0 mug.criteo.com
-0.0.0.0 pubsdk-bin.criteo.com
 0.0.0.0 pub-sdk-cfg.criteo.com
+0.0.0.0 pubsdk-bin.criteo.com
 0.0.0.0 rdi.criteo.com
 0.0.0.0 rtax.criteo.com
 0.0.0.0 sftp.criteo.com
@@ -7822,6 +7826,7 @@
 0.0.0.0 js.vlitag.com
 0.0.0.0 logs.vlitag.com
 0.0.0.0 media.vlitag.com
+0.0.0.0 s3.vlitag.com
 0.0.0.0 services.vlitag.com
 0.0.0.0 stats.vlitag.com
 0.0.0.0 tag.vlitag.com
@@ -11765,7 +11770,6 @@
 #[bright]
 0.0.0.0 bright-sdk.com
 0.0.0.0 brightdata.com
-0.0.0.0 0.0.0.0
 0.0.0.0 brightdata.de
 0.0.0.0 perr.l-agent.me
 0.0.0.0 perr.l-err.biz
@@ -11796,6 +11800,12 @@
 #[twitch.tv]
 0.0.0.0 analytics.m7g.twitch.tv
 0.0.0.0 edge.ads.twitch.tv
+#[yellowblue.io]
+0.0.0.0 yellowblue.io
+0.0.0.0 hb.yellowblue.io
+#[quantumdex.io]
+0.0.0.0 sync.quantumdex.io
+0.0.0.0 useast.quantumdex.io
 # --- GroupVN block ---
 #[adtimaserver]
 0.0.0.0 adtimaserver.vn
@@ -20168,7 +20178,6 @@
 0.0.0.0 syenitetatler.tech
 0.0.0.0 sylxisys.com
 0.0.0.0 sympathydistinguish.com
-0.0.0.0 sync.quantumdex.io
 0.0.0.0 syndapop.com
 0.0.0.0 syndetstermine.com
 0.0.0.0 syndicate.purch.com
@@ -20643,7 +20652,6 @@
 0.0.0.0 uruswan.com
 0.0.0.0 us.claroadsxml.com
 0.0.0.0 usapromotravel.com
-0.0.0.0 useast.quantumdex.io
 0.0.0.0 uselnk.com
 0.0.0.0 usemax.de
 0.0.0.0 useriq.com
@@ -21487,6 +21495,7 @@
 0.0.0.0 c-api-bit.shopeemobile.com
 0.0.0.0 c.riskified.com
 0.0.0.0 c2i-cdn.startappnetwork.com
+0.0.0.0 cadmus.script.ac
 0.0.0.0 cankaowang.com
 0.0.0.0 cc-api-data.adobe.io
 0.0.0.0 cc.swiftype.com
@@ -21651,6 +21660,7 @@
 0.0.0.0 iabusprivacy.pmc.com
 0.0.0.0 iaudienc.com
 0.0.0.0 ibd-as-api.iq.com
+0.0.0.0 id.a-mx.com
 0.0.0.0 idio.co
 0.0.0.0 ie8eamus.com
 0.0.0.0 ilogs.bytefence.com

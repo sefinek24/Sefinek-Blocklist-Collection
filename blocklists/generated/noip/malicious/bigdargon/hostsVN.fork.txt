@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 18 Sep 2024 23:20 UTC+7
-# Version: 2409182320
-# Blocked: 20,514 domains
+# Last modified: 19 Sep 2024 10:16 UTC+7
+# Version: 2409191016
+# Blocked: 20,523 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -360,6 +360,7 @@ c.amazon-adsystem.com
 cdn-a.amazon-adsystem.com
 cdn-d.amazon-adsystem.com
 cdn-t.amazon-adsystem.com
+config.aps.amazon-adsystem.com
 da-cdn.amazon-adsystem.com
 dra.amazon-adsystem.com
 fls-cn.amazon-adsystem.com
@@ -587,16 +588,18 @@ c.admob.com
 media.admob.com
 trac.admob.com
 r.l.admob.com
-#[inmobi]
+#[inmobi.com]
 ads.inmobi.com
 analytics-prod2.glance-internal.inmobi.com
 analytics.glance.inmobi.com
+api.cmp.inmobi.com
 api.glance.inmobi.com
 api.w.inmobi.com
 au.w.inmobi.com
 b.de.inmobi.com
 c-eus.w.inmobi.com
 carpet.pulse.inmobi.com
+cmp.inmobi.com
 config-ltvp.inmobi.com
 config.eastus-ssp.appgwv2.inmobi.com
 config.inmobi.com
@@ -2002,13 +2005,14 @@ dynamic.criteo.com
 ebs.criteo.com
 gem.gbc.criteo.com
 go.criteo.com
+grid-bidder.criteo.com
 gum.criteo.com
 info.criteo.com
 labs.criteo.com
 marketing.criteo.com
 mug.criteo.com
-pubsdk-bin.criteo.com
 pub-sdk-cfg.criteo.com
+pubsdk-bin.criteo.com
 rdi.criteo.com
 rtax.criteo.com
 sftp.criteo.com
@@ -7822,6 +7826,7 @@ assets.vlitag.com
 js.vlitag.com
 logs.vlitag.com
 media.vlitag.com
+s3.vlitag.com
 services.vlitag.com
 stats.vlitag.com
 tag.vlitag.com
@@ -11765,7 +11770,6 @@ api.moneyoyo.org
 #[bright]
 bright-sdk.com
 brightdata.com
-
 brightdata.de
 perr.l-agent.me
 perr.l-err.biz
@@ -11796,6 +11800,12 @@ tr.lfeeder.com
 #[twitch.tv]
 analytics.m7g.twitch.tv
 edge.ads.twitch.tv
+#[yellowblue.io]
+yellowblue.io
+hb.yellowblue.io
+#[quantumdex.io]
+sync.quantumdex.io
+useast.quantumdex.io
 # --- GroupVN block ---
 #[adtimaserver]
 adtimaserver.vn
@@ -20168,7 +20178,6 @@ sybostuff.com
 syenitetatler.tech
 sylxisys.com
 sympathydistinguish.com
-sync.quantumdex.io
 syndapop.com
 syndetstermine.com
 syndicate.purch.com
@@ -20643,7 +20652,6 @@ urlcash.net
 uruswan.com
 us.claroadsxml.com
 usapromotravel.com
-useast.quantumdex.io
 uselnk.com
 usemax.de
 useriq.com
@@ -21487,6 +21495,7 @@ burstly.com
 c-api-bit.shopeemobile.com
 c.riskified.com
 c2i-cdn.startappnetwork.com
+cadmus.script.ac
 cankaowang.com
 cc-api-data.adobe.io
 cc.swiftype.com
@@ -21651,6 +21660,7 @@ i.viafoura.co
 iabusprivacy.pmc.com
 iaudienc.com
 ibd-as-api.iq.com
+id.a-mx.com
 idio.co
 ie8eamus.com
 ilogs.bytefence.com
