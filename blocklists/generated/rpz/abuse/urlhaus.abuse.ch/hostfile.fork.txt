@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726719141780 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726726393640 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-19 04:04:11 (UTC)                      ;
+; Last updated: 2024-09-19 06:04:43 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+0xf20b415.ru CNAME .
+*.0xf20b415.ru CNAME .
 kukulaa.cn CNAME .
 *.kukulaa.cn CNAME .
 qbgxl.com CNAME .
@@ -54,8 +56,6 @@ antharris.top CNAME .
 *.antharris.top CNAME .
 aoesync.com CNAME .
 *.aoesync.com CNAME .
-cobainaja.id CNAME .
-*.cobainaja.id CNAME .
 52kkg.com CNAME .
 *.52kkg.com CNAME .
 atsegypt.com CNAME .
@@ -88,6 +88,8 @@ bsafesafety.com CNAME .
 *.bsafesafety.com CNAME .
 diit.cl CNAME .
 *.diit.cl CNAME .
+haory.cn CNAME .
+*.haory.cn CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
 emergencepsychservices.com CNAME .
@@ -124,8 +126,6 @@ xueshenit.com CNAME .
 *.xueshenit.com CNAME .
 dedify.de CNAME .
 *.dedify.de CNAME .
-defgyma.com CNAME .
-*.defgyma.com CNAME .
 com.ar CNAME .
 *.com.ar CNAME .
 diclegrup.org CNAME .
@@ -134,14 +134,12 @@ diclegrup.org CNAME .
 *.56a.com CNAME .
 aginjector.com CNAME .
 *.aginjector.com CNAME .
+packetstormsecurity.net CNAME .
+*.packetstormsecurity.net CNAME .
 jxwan.com CNAME .
 *.jxwan.com CNAME .
 pcclear.com CNAME .
 *.pcclear.com CNAME .
-com.cn CNAME .
-*.com.cn CNAME .
-caihong.com CNAME .
-*.caihong.com CNAME .
 doumaibiji.cn CNAME .
 *.doumaibiji.cn CNAME .
 pdf00.cn CNAME .
@@ -196,8 +194,6 @@ t1linux.com CNAME .
 *.t1linux.com CNAME .
 hitman-pro.ru CNAME .
 *.hitman-pro.ru CNAME .
-hitstation.nl CNAME .
-*.hitstation.nl CNAME .
 emergencepsychservices.com CNAME .
 *.emergencepsychservices.com CNAME .
 vrcom7.com CNAME .
@@ -208,12 +204,8 @@ hwthurmann.de CNAME .
 *.hwthurmann.de CNAME .
 hydewood.com CNAME .
 *.hydewood.com CNAME .
-iakovosioannidis.com CNAME .
-*.iakovosioannidis.com CNAME .
 illuminazioneproduzione.it CNAME .
 *.illuminazioneproduzione.it CNAME .
-imtoken8.cc CNAME .
-*.imtoken8.cc CNAME .
 sh-pp.com CNAME .
 *.sh-pp.com CNAME .
 innovaxingenieros.com CNAME .
@@ -244,16 +236,10 @@ kaysons-group.com CNAME .
 *.kaysons-group.com CNAME .
 lamaisonquilting.com CNAME .
 *.lamaisonquilting.com CNAME .
-lflsoftware.com CNAME .
-*.lflsoftware.com CNAME .
 yjjxz.com CNAME .
 *.yjjxz.com CNAME .
-ac.in CNAME .
-*.ac.in CNAME .
 licocojambamarketplace.com CNAME .
 *.licocojambamarketplace.com CNAME .
-lindnerelektroanlagen.de CNAME .
-*.lindnerelektroanlagen.de CNAME .
 linhkiem.com CNAME .
 *.linhkiem.com CNAME .
 linkvilleplayers.org CNAME .
@@ -288,6 +274,12 @@ mussangroup.com CNAME .
 *.mussangroup.com CNAME .
 namthaibinh.net CNAME .
 *.namthaibinh.net CNAME .
+nasionaltv.com CNAME .
+*.nasionaltv.com CNAME .
+navigation-anti-bot-windows.com CNAME .
+*.navigation-anti-bot-windows.com CNAME .
+or.tz CNAME .
+*.or.tz CNAME .
 noithaticon.vn CNAME .
 *.noithaticon.vn CNAME .
 notariusnaydenova.eu CNAME .
@@ -310,6 +302,8 @@ wetolink.com CNAME .
 *.wetolink.com CNAME .
 protechasia.com CNAME .
 *.protechasia.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 com.br CNAME .
 *.com.br CNAME .
 chuitian.cn CNAME .
@@ -332,8 +326,6 @@ showmest.site CNAME .
 *.showmest.site CNAME .
 silinast.ro CNAME .
 *.silinast.ro CNAME .
-intensegroupgt.com CNAME .
-*.intensegroupgt.com CNAME .
 110route.com CNAME .
 *.110route.com CNAME .
 softcatalog.ru CNAME .
@@ -358,6 +350,8 @@ tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
 tecunonline.com CNAME .
 *.tecunonline.com CNAME .
+telegram.ninja CNAME .
+*.telegram.ninja CNAME .
 temirtau-adm.ru CNAME .
 *.temirtau-adm.ru CNAME .
 tengfeidn.com CNAME .
@@ -392,8 +386,6 @@ warzone-meta.net CNAME .
 *.warzone-meta.net CNAME .
 almrwad.com CNAME .
 *.almrwad.com CNAME .
-com.br CNAME .
-*.com.br CNAME .
 blackhattoolz.com CNAME .
 *.blackhattoolz.com CNAME .
 bsafesafety.com CNAME .
@@ -402,6 +394,8 @@ chemsky.tn CNAME .
 *.chemsky.tn CNAME .
 globallaborsupply.com CNAME .
 *.globallaborsupply.com CNAME .
+hseda.com CNAME .
+*.hseda.com CNAME .
 indigosurgicals.com CNAME .
 *.indigosurgicals.com CNAME .
 ingonherbal.com CNAME .
@@ -412,6 +406,8 @@ jd-shop77.com CNAME .
 *.jd-shop77.com CNAME .
 jd288shopap.com CNAME .
 *.jd288shopap.com CNAME .
+jdapp388shop.com CNAME .
+*.jdapp388shop.com CNAME .
 linhkiem.com CNAME .
 *.linhkiem.com CNAME .
 maxmoney.com CNAME .
@@ -432,10 +428,6 @@ reifenquick.de CNAME .
 *.reifenquick.de CNAME .
 rockcreekdds.com CNAME .
 *.rockcreekdds.com CNAME .
-saf-oil.ru CNAME .
-*.saf-oil.ru CNAME .
-lannaoke.com CNAME .
-*.lannaoke.com CNAME .
 starcountry.net CNAME .
 *.starcountry.net CNAME .
 co.jp CNAME .
@@ -444,8 +436,6 @@ tecunonline.com CNAME .
 *.tecunonline.com CNAME .
 valapedia.com CNAME .
 *.valapedia.com CNAME .
-ysbaojia.com CNAME .
-*.ysbaojia.com CNAME .
 coulmandental.com CNAME .
 *.coulmandental.com CNAME .
 wynecare.com CNAME .
@@ -454,8 +444,10 @@ emergencepsychservices.com CNAME .
 *.emergencepsychservices.com CNAME .
 xiangshunjy.com CNAME .
 *.xiangshunjy.com CNAME .
+hnggzyjy.cn CNAME .
+*.hnggzyjy.cn CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
-; Number of entries: 224
+; Number of entries: 220
