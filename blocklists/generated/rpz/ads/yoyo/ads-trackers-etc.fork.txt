@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726748088331 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726834442980 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Thu, 19 Sep 2024 09:53:32 GMT
-; entries:        3550
+; entries:        3547
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -228,8 +228,6 @@ domainfactory.de CNAME .
 *.domainfactory.de CNAME .
 exyws.org CNAME .
 *.exyws.org CNAME .
-foxnetworks.com CNAME .
-*.foxnetworks.com CNAME .
 grafika.cz CNAME .
 *.grafika.cz CNAME .
 ad.gt CNAME .
@@ -438,8 +436,6 @@ adetracking.com CNAME .
 *.adetracking.com CNAME .
 adeure.com CNAME .
 *.adeure.com CNAME .
-adexc.net CNAME .
-*.adexc.net CNAME .
 adexchangegate.com CNAME .
 *.adexchangegate.com CNAME .
 adexchangeprediction.com CNAME .
@@ -720,6 +716,8 @@ administrator.de CNAME .
 *.administrator.de CNAME .
 adred.de CNAME .
 *.adred.de CNAME .
+adsbtc.fun CNAME .
+*.adsbtc.fun CNAME .
 com.ro CNAME .
 *.com.ro CNAME .
 adultfriendfinder.com CNAME .
@@ -898,8 +896,6 @@ fortunecity.com CNAME .
 *.fortunecity.com CNAME .
 fotosidan.se CNAME .
 *.fotosidan.se CNAME .
-foxnetworks.com CNAME .
-*.foxnetworks.com CNAME .
 friendfinder.com CNAME .
 *.friendfinder.com CNAME .
 gamecity.net CNAME .
@@ -6204,8 +6200,6 @@ taboola.com CNAME .
 *.taboola.com CNAME .
 mention-me.com CNAME .
 *.mention-me.com CNAME .
-links-analytics.com CNAME .
-*.links-analytics.com CNAME .
 mention-me.com CNAME .
 *.mention-me.com CNAME .
 tagcommander.com CNAME .
