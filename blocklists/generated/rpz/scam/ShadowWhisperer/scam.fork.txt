@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726705790391 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726820010010 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,822
-; Updated: 9/18/2024  17:38 (5:38 PM CST)
+; Domains: 13,823
+; Updated: 9/20/2024  01:23 (1:23 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -3529,6 +3529,8 @@ bourbon-nets.com CNAME .
 *.bourbon-nets.com CNAME .
 bourbonshops.com CNAME .
 *.bourbonshops.com CNAME .
+bousalutend.com CNAME .
+*.bousalutend.com CNAME .
 bousardoffer.com CNAME .
 *.bousardoffer.com CNAME .
 boutiqueondemand.com CNAME .
