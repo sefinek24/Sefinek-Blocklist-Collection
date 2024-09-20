@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726626598431 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726799525351 43200 3600 259200 300
   NS  localhost.
 ;
-;202409180303
+;202409200303
 ; Adguard Mobile Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -255,6 +255,8 @@ appsgeyser.com CNAME .
 *.appsgeyser.com CNAME .
 waze.com CNAME .
 *.waze.com CNAME .
+truecaller.com CNAME .
+*.truecaller.com CNAME .
 mattel163.com CNAME .
 *.mattel163.com CNAME .
 nianticlabs.com CNAME .
