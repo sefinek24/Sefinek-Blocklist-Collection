@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726820010010 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726848687216 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Scam
 ;    Info: Fake freight, gift cards, products, support, pet sales, news, etc  *Not directly malware
-; Domains: 13,823
-; Updated: 9/20/2024  01:23 (1:23 AM CST)
+; Domains: 13,824
+; Updated: 9/20/2024  09:40 (9:40 AM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -12039,6 +12039,8 @@ highcokefarm.com CNAME .
 *.highcokefarm.com CNAME .
 highcountrytimes.com CNAME .
 *.highcountrytimes.com CNAME .
+high-endcosmetics.click CNAME .
+*.high-endcosmetics.click CNAME .
 highendwomenclothes.com CNAME .
 *.highendwomenclothes.com CNAME .
 highereducationtribune.com CNAME .
