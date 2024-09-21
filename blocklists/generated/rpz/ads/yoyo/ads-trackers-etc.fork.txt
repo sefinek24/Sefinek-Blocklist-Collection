@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726834442980 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726956656237 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Thu, 19 Sep 2024 09:53:32 GMT
-; entries:        3547
+; last updated:   Sat, 21 Sep 2024 21:18:08 GMT
+; entries:        3548
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -4448,6 +4448,8 @@ meltmilk.com CNAME .
 *.meltmilk.com CNAME .
 memorizeneck.com CNAME .
 *.memorizeneck.com CNAME .
+merequartz.com CNAME .
+*.merequartz.com CNAME .
 messagenovice.com CNAME .
 *.messagenovice.com CNAME .
 co.uk CNAME .
