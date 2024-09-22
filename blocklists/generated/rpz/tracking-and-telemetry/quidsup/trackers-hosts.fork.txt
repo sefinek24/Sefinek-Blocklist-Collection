@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726956656237 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727043017132 43200 3600 259200 300
   NS  localhost.
 ;
 ; Title: NoTrack Tracker Blocklist
@@ -8,9 +8,9 @@ $TTL 300
 ; License: GNU General Public License v3.0
 ; Home: https://quidsup.net/notrack/blocklist.php
 ; @ GitLab : https://gitlab.com/quidsup/notrack-blocklists
-; Updated: 21 Sep 2024
+; Updated: 22 Sep 2024
 ; LatestVersion 24.01
-; Domain Count: 15948
+; Domain Count: 15944
 ;===============================================================
 01mspmd5yalky8.com CNAME .
 *.01mspmd5yalky8.com CNAME .
@@ -98,8 +98,6 @@ $TTL 300
 *.7eer.net CNAME .
 8s32e590un.com CNAME .
 *.8s32e590un.com CNAME .
-9mediaonline.com CNAME .
-*.9mediaonline.com CNAME .
 9nl.com CNAME .
 *.9nl.com CNAME .
 a-ads.com CNAME .
@@ -364,8 +362,6 @@ adjust.world CNAME .
 *.adjust.world CNAME .
 adkernel.com CNAME .
 *.adkernel.com CNAME .
-com.tr CNAME .
-*.com.tr CNAME .
 adkmob.com CNAME .
 *.adkmob.com CNAME .
 adkontekst.pl CNAME .
@@ -658,8 +654,6 @@ adskeeper.com CNAME .
 *.adskeeper.com CNAME .
 adsloboclick.com CNAME .
 *.adsloboclick.com CNAME .
-adsmatcher.com CNAME .
-*.adsmatcher.com CNAME .
 adsmediabox.com CNAME .
 *.adsmediabox.com CNAME .
 adsmoloco.com CNAME .
@@ -744,8 +738,6 @@ adunity.com CNAME .
 *.adunity.com CNAME .
 ccb.com CNAME .
 *.ccb.com CNAME .
-dlh.net CNAME .
-*.dlh.net CNAME .
 ettoday.net CNAME .
 *.ettoday.net CNAME .
 r7.com CNAME .
