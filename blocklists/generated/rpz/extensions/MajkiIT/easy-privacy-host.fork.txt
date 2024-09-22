@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726799525351 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1726972514031 43200 3600 259200 300
   NS  localhost.
 ;
-;202409200303
+;202409220303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -8439,6 +8439,10 @@ ipro.net CNAME .
 *.ipro.net CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
+shop-pro.jp CNAME .
+*.shop-pro.jp CNAME .
+shop-pro.jp CNAME .
+*.shop-pro.jp CNAME .
 bppeloqua.com CNAME .
 *.bppeloqua.com CNAME .
 frbservices.org CNAME .
@@ -10823,6 +10827,8 @@ southpointcasino.com CNAME .
 *.southpointcasino.com CNAME .
 co.nz CNAME .
 *.co.nz CNAME .
+spearly.com CNAME .
+*.spearly.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
 strangeloopnetworks.com CNAME .
@@ -16551,6 +16557,8 @@ mts.ru CNAME .
 *.mts.ru CNAME .
 box.com CNAME .
 *.box.com CNAME .
+karte.io CNAME .
+*.karte.io CNAME .
 salemove.com CNAME .
 *.salemove.com CNAME .
 salemove.com CNAME .
@@ -33967,6 +33975,8 @@ dg-home.ru CNAME .
 *.dg-home.ru CNAME .
 bauhaus.at CNAME .
 *.bauhaus.at CNAME .
+bigcrunch.com CNAME .
+*.bigcrunch.com CNAME .
 lyst.ca CNAME .
 *.lyst.ca CNAME .
 actonservice.com CNAME .
@@ -44189,6 +44199,8 @@ idlookmall.com CNAME .
 *.idlookmall.com CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
+imgur.com CNAME .
+*.imgur.com CNAME .
 pitchero.com CNAME .
 *.pitchero.com CNAME .
 theepochtimes.com CNAME .
@@ -65771,8 +65783,6 @@ com.cn CNAME .
 *.com.cn CNAME .
 com.au CNAME .
 *.com.au CNAME .
-imgur.com CNAME .
-*.imgur.com CNAME .
 indeed.com CNAME .
 *.indeed.com CNAME .
 ionos.com CNAME .
