@@ -20,7 +20,7 @@ Unfortunately, **my home internet connection doesn't allow me to host a blocklis
 
 ## 📝 More information
 Visit the official website of the project [blocklist.sefinek.net](https://blocklist.sefinek.net) to get more details.  
-New lists have been added to the [generator](https://sefinek.net/blocklist-generator) as of September 5, 2024. Please update your collection on your end :)
+New lists have been added to the [generator](https://sefinek.net/blocklist-generator) as of **September 5, 2024**. Please update your collection on your end :)
 
 
 ## 📦 How to acquire the blocklist
