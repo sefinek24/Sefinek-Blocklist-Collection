@@ -83,15 +83,15 @@ exports.fileUrls = [
 exports.CATEGORIES = [
 	{
 		title: 'Blocks websites dedicated to anime, manga, cosplay, vtubers, hentai, and other NSFW degeneracy',
-		description: 'Active, inactive and parked domains. Nekomimi, otaku, shonen, yuri, yaoi, bishounen, ecchi, kawaii, tsundere, yandere, waifu, etc.',
+		description: 'Active, inactive, and parked domains. Nekomimi, otaku, shonen, yuri, yaoi, bishounen, ecchi, kawaii, tsundere, yandere, waifu, isekai, and other popular anime-related terms. Also blocks websites promoting or featuring explicit content, NSFW materials (hentai), and communities revolving around anime fan culture, including cosplayers and vtubers.',
 		category: 'Anime',
 		// grex "anime" "manga" "nekomimi" "nekomusume" "hentai" "vtuber" "cosplay" "otaku" "shonen" "shoujo" "yuri" "yaoi" "ecchi" "isekai" "kawaii" "tsundere" "yandere" "waifu" "seinen" "doujinshi" "bishounen" "shojo" "chibi" "bishojo" "doujin" "seiyuu" "harem" "meido" "lolicon" "fudanshi" "kuudere" "genki" "lightnovel" "wotaku" "gawr-gura" "mori-calliope" "inugami-korone" "usada-pekora" "shirakami-fubuki" "houshou-marine" "ninomae-inanis" "amelia-watson" "kizuna-ai" "nyanners" "ironmouse" "veibae" "projekt-melody" "tokino-sora" "sakura-miko" "takanashi-kiara" "watson-amelia" "akai-haato" "ayunda-risu" "moona-hoshinova" "pavolia-reine" "oozora-subaru" "roboco-san" "himemori-luna" "nekomiya-hinata" "nekoha-shizuku" "kureiji-ollie" "shylily" "selen-tatsuki"
 		regex: /(?:s(?:hirakami\\-fub|elen\\-tats)uk|k(?:izuna\\-a|awai)|(?:doujins|ecc)h|fudansh|(?:hent|isek)a|chib|genk|y(?:ao|ur))i|(?:m(?:oona\\-hoshinov|ang)|nekomiya\\-hinat|himemori\\-lun|watson\\-ameli)a|(?:takanashi\\-kia|gawr\\-gu)ra|n(?:eko(?:ha\\-shizuku|mimi)|inomae\\-inanis|yanners)|inugami\\-korone|houshou\\-marine|p(?:rojekt\\-melody|avolia\\-reine)|(?:oozora\\-subar|ayunda\\-ris|seiyu|waif)u|(?:amelia\\-watso|(?:bishoun|s(?:ho|ei)n)e|lolico)n|(?:mori\\-calliop|kureiji\\-olli|nekomusum|ironmous|tsunder|(?:yan|kuu)der|veiba|anim)e|usada\\-pekora|(?:s(?:akura\\-mik|hou?j)|akai\\-haat|meid)o|tokino\\-sora|lightnovel|roboco\\-san|bishojo|(?:cospla|shylil)y|doujin|vtuber|w?otaku|harem/i,
 		file: 'anime/main.txt'
 	},
 	{
-		title: 'Blocks most LGBTQ+ websites or those that promote LGBTQ+ content',
-		description: 'Active + inactive domains + parked domains. Some of them may also share pornographic content.',
+		title: 'Blocks most LGBTQ+ websites, including those that promote or oppose LGBTQ+ content',
+		description: 'Active, inactive, and parked domains. Some of them may also share pornographic content.',
 		category: 'LGBTQ+',
 		// grex "lgbt" "pride" "gay" "geje" "gejowski" "lesbian" "lesbijka" "lesbijki" "lesbijek" "lesbijska" "bisexual" "biseksualny" "biseksualna" "biseksualni" "transgender" "transseksualista" "transseksualistka" "transowa" "transseksualny" "transseksualna" "transexual" "transsexual" "transexual" "transowy" "tranzytowy" "nonbinary" "niebinarny" "niebinarna" "asexual" "aseksualny" "aseksualna" "aseksualni" "pansexual" "panseksualny" "panseksualna" "aromantic" "aromantyczny" "aromantyczna" "aromantyczni" "demisexual" "demiseksualny" "demiseksualna" "cisgender" "cispłciowy" "cispłciowa" "genderfluid" "genderqueer" "queer" "queers" "lesbijka" "lesbijki" "aseksualny" "aseksualna" "interseksualny" "interseksualna" "interseksualni" "polyamory" "poliamoria" "poliamoryczny" "polysexual" "poliseksualny" "poliseksualna" "bigender" "dwupłciowy" "agender" "bezpłciowy" "two-spirit" "dwuduchowy" "allosexual" "alloseksualny" "alloseksualna" "alloromantic" "alloromantyczny" "alloromantyczna" "nonconforming" "niekonformistyczny" "niekonformistyczna" "pangender" "pangenderowy" "demiboy" "demichłopiec" "demigirl" "demidziewczyna" "intergender" "interplciowy" "multisexual" "multi-seksualny" "omnisexual" "omniseksualny" "queerplatonic" "queerplatoniczny" "skoliosexual" "skolioseksualny" "third-gender" "trzecia-plec" "xenogender" "ksenoplciowy" "graysexual" "demigender" "neutrois" "androgyne" "biromantic" "panromantic"
 		regex: /(?:nie(?:konformistycz|binar)n|(?:alloromantycz|(?:(?:poli|(?:allo|pan))|demi)seksual)n|transseksualn)[ay]|t(?:r(?:ansseksualistk?a|zecia\\-plec)|wo\\-spirit)|(?:queerplatoni|poliamory)czny|multi\\-seksualny|skoliose(?:ksualny|xual)|(?:demidziewczyn|poliamori|lesbijsk)a|inter(?:seksualn[aiy]|gender)|queer(?:platonic)?|n(?:onconforming|eutrois)|omnise(?:ksualny|xual)|(?:a(?:llo)?romanti|panromanti|biromanti)c|demichłopiec|(?:(?:third\\-|(?:(?:trans|(?:bi|a))|cis))|xeno)gender|aromantyczn[aiy]|(?:pangenderow|interplciow|ksenoplciow|(?:dwuduch|tranzyt)ow|(?:dwu|bez)płciow|polyamor|nonbinar|demibo|ga)y|ge(?:nderfluid|j(?:owski|e))|genderqueer|(?:bi|a)seksualn[aiy]|(?:(?:(?:(?:trans|(?:(?:(?:(?:allo|pan)|demi)|a)|bi))|tran)|(?:gra|pol)y)|multi)sexual|cispłciow[ay]|demigender|pangender|androgyne|lesbi(?:j(?:ek|k[ai])|an)|transow[ay]|demigirl|queers|pride|lgbt/i,
@@ -100,7 +100,7 @@ exports.CATEGORIES = [
 	},
 	{
 		title: 'Blocks websites related to gambling, betting, and casinos',
-		description: 'Active, inactive and parked domains',
+		description: 'Active, inactive, and parked domains. Includes websites related to online casinos, poker, sports betting, lottery, slot machines, blackjack, roulette, and other forms of gambling and betting activities.',
 		category: 'Gambling',
 		// grex "casino" "poker" "betting" "roulette" "blackjack" "slots" "gambling" "lottery" "jackpot" "craps" "bookmaker" "keno" "sweepstakes" "betonline" "scratchcards"
 		regex: /s(?:cratchcard|(?:weepstake|lot))s|b(?:lackjack|ookmaker)|betonline|gambling|roulette|jackpot|lottery|betting|(?:casi|ke)no|craps|poker/i,
@@ -108,7 +108,7 @@ exports.CATEGORIES = [
 	},
 	{
 		title: 'Blocks websites with adult content, pornography, and explicit material',
-		description: 'Active, inactive and parked domains',
+		description: 'Active, inactive, and parked domains. Includes websites featuring pornography, erotic material, camgirl platforms, escort services, BDSM communities, swingers, and other explicit content related to adult entertainment.',
 		category: 'Adult',
 		// grex "porn" "xxx" "nude" "sexual" "erotic" "bdsm" "voyeur" "camgirl" "escort" "prostitution" "stripclub" "lingerie" "adultsite" "adultcontent" "playboy" "hustler" "sexting" "pornstars" "adultchat" "erotism" "hardcoreporn" "hentai" "yuri" "yaoi" "ecchi" "tribbing" "pegging" "polyamory" "bdsmcommunity" "swingers" "kink"
 		regex: /bdsmcommunity|prostitution|h(?:ardcoreporn|entai)|adult(?:c(?:onten|ha)t|site)|p(?:olyamor|laybo)y|pornstars|s(?:tripclub|wingers)|tribbing|(?:lingeri|nud)e|eroti(?:sm|c)|hustler|camgirl|(?:pegg|sext)ing|voyeur|sexual|escort|(?:ecch|y(?:ao|ur))i|bdsm|porn|kink|xxx/i,
@@ -116,7 +116,7 @@ exports.CATEGORIES = [
 	},
 	{
 		title: 'Blocks websites related to piracy, illegal downloads, torrents, and copyright infringement',
-		description: 'Active, inactive and parked domains',
+		description: 'Active, inactive, and parked domains. Includes websites offering illegal downloads, torrent files, cracked software, serial keys, hacking tools, and other content related to copyright infringement and piracy.',
 		category: 'Piracy',
 		// grex "torrent" "pirate" "crack" "warez" "keygen" "serial" "hacking" "illegaldownload" "hacktools" "illegalstream" "crackme" "piratebay"
 		regex: /illegal(?:download|stream)|piratebay|hack(?:tools|ing)|crackme|torrent|pirate|keygen|serial|crack|warez/i,
@@ -124,15 +124,15 @@ exports.CATEGORIES = [
 	},
 	{
 		title: 'Blocks websites promoting racism, hate speech, and extremist ideologies',
-		description: 'Active, inactive and parked domains',
+		description: 'Active, inactive, and parked domains. Includes websites promoting racism, white supremacy, xenophobia, homophobia, antisemitism, islamophobia, and other forms of hate speech and extremist ideologies, such as neo-Nazism and fascism.',
 		category: 'Hate Speech',
 		// grex "racism" "nazi" "whitesupremacy" "whitenationalism" "antisemitism" "antiislam" "kukluxklan" "neonazi" "extremism" "radicalism" "hatespeech" "holocaustdenial" "xenophobia" "homophobia" "islamophobia" "antisemite" "fascism" "supremacy" "whitepride" "alt-right" "neonazism" "ethnonationalism"
 		regex: /ethnonationalism|white(?:nationalism|supremacy|pride)|h(?:olocaustdenial|atespeech)|antisemitism|islamophobia|a(?:ntisemite|lt\\-right)|kukluxklan|radicalism|(?:hom|xen)ophobia|supremacy|(?:neonazis|antiisla)m|(?:extrem|(?:fas|ra)c)ism|neonazi|nazi/i,
 		file: 'hate-and-junk/sefinek.hosts.txt'
 	},
 	{
-		title: 'Blocks most sites related to e-sports, such as FaceIT and ESL',
-		description: 'Active, inactive and parked domains',
+		title: 'Blocks most sites related to e-sport',
+		description: 'Active, inactive, and parked domains. Includes websites related to major e-sports tournaments, platforms for competitive gaming, and organizations such as ESL, FaceIT, The International, and Overwatch League.',
 		category: 'E-Sport',
 		// grex "esport" "e-sport" "the-international" "overwatch-league" "esl-pro-league" "intel-extreme" "blast-premier" "pgl-major" "pubg-global-championship" "fifae-world-cup" "faceit" "esea.net" "oleksandr-kostyliev" "nicolai-reedtz" "mathieu-herbaut" "nikola-kovac" "patrik-lindberg" "marcelo-david" "finn-andersen" "peter-rasmussen" "andreas-hojsleth" "gabriel-toledo" "olof-kajbjer" "michael-grzesiek" "lee-sang-hyeok" "danil-ishutin" "johan-sundstein" "tyson-ngo" "kyle-giersdorf" "kyle-jackson" "luka-perkovic" "rasmus-winther" "carl-martin-erik-larsson" "kenny-schrub" "christopher-alesund" "jesper-wecksell" "ladislav-kovacs" "challengermode" "sostronk" "gamersclub" "pvpro.com" "popflash.site"
 		regex: /p(?:ubg\\-global\\-championship|atrik\\-lindberg|vpro\\.com)|(?:carl\\-martin\\-erik\\-larsso|(?:peter\\-rasmus|finn\\-ander)se|kyle\\-jackso)n|oleksandr\\-kostyliev|ch(?:ristopher\\-alesund|allengermode)|the\\-international|m(?:ichael\\-grzesiek|athieu\\-herbaut)|(?:overwatch\\-leagu|esl\\-pro\\-leagu|popflash\\.sit|intel\\-extrem)e|andreas\\-hojsleth|fifae\\-world\\-cup|l(?:adislav\\-kovacs|uka\\-perkovic)|j(?:esper\\-wecksell|ohan\\-sundstein)|gabriel\\-toledo|k(?:yle\\-giersdorf|enny\\-schrub)|nicolai\\-reedtz|(?:lee\\-sang\\-hyeo|sostron)k|rasmus\\-winther|marcelo\\-david|(?:blast\\-premi|olof\\-kajbj)er|danil\\-ishutin|nikola\\-kovac|gamersclub|tyson\\-ngo|pgl\\-major|(?:e(?:s(?:ea\\.ne|por)|\\-spor)|facei)t/i,
