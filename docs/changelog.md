@@ -1,5 +1,5 @@
 ## Update v0.18.0 - 13.09.2024
-1. Added new lists of domains, collected using regular expressions. See [this file](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/scripts/generate/file-processor/scripts/data.js) for details.
+1. Added new lists of domains, collected using regular expressions. See [this file](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/scripts/generate/file-processor/scripts/data.js) for more details.
    - `anime/main.txt`
    - `sites/lgbtqplus2.txt`
    - `gambling/sefinek.hosts2.txt`
