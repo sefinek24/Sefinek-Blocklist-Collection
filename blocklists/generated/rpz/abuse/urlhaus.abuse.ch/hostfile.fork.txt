@@ -1,15 +1,17 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727028689180 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727035844219 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-22 18:04:06 (UTC)                      ;
+; Last updated: 2024-09-22 19:56:05 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;
+0xf20b415.ru CNAME .
+*.0xf20b415.ru CNAME .
 kukulaa.cn CNAME .
 *.kukulaa.cn CNAME .
 funian.life CNAME .
@@ -20,6 +22,8 @@ qbgxl.com CNAME .
 *.1000uc.com CNAME .
 haory.cn CNAME .
 *.haory.cn CNAME .
+miiyun.cn CNAME .
+*.miiyun.cn CNAME .
 qbgxl.com CNAME .
 *.qbgxl.com CNAME .
 abissnet.net CNAME .
@@ -74,8 +78,6 @@ co.za CNAME .
 *.co.za CNAME .
 ceprone.com CNAME .
 *.ceprone.com CNAME .
-cobainaja.id CNAME .
-*.cobainaja.id CNAME .
 52kkg.com CNAME .
 *.52kkg.com CNAME .
 arctus.ca CNAME .
@@ -102,8 +104,6 @@ avastpx.com CNAME .
 *.avastpx.com CNAME .
 avastsf.com CNAME .
 *.avastsf.com CNAME .
-avocaldoperu.com CNAME .
-*.avocaldoperu.com CNAME .
 bahrabeauty.com CNAME .
 *.bahrabeauty.com CNAME .
 banydox.com CNAME .
@@ -132,8 +132,6 @@ haory.cn CNAME .
 *.haory.cn CNAME .
 szcoolgame.com CNAME .
 *.szcoolgame.com CNAME .
-cajgtus.com CNAME .
-*.cajgtus.com CNAME .
 com.vn CNAME .
 *.com.vn CNAME .
 catkinlows.info CNAME .
@@ -190,14 +188,14 @@ diclegrup.org CNAME .
 *.56a.com CNAME .
 aginjector.com CNAME .
 *.aginjector.com CNAME .
-packetstormsecurity.net CNAME .
-*.packetstormsecurity.net CNAME .
 jxwan.com CNAME .
 *.jxwan.com CNAME .
 dnarchitetti.com CNAME .
 *.dnarchitetti.com CNAME .
 dnvk1.info CNAME .
 *.dnvk1.info CNAME .
+fwqlt.com CNAME .
+*.fwqlt.com CNAME .
 pcclear.com CNAME .
 *.pcclear.com CNAME .
 com.cn CNAME .
@@ -222,6 +220,8 @@ com.ar CNAME .
 *.com.ar CNAME .
 epsys.ro CNAME .
 *.epsys.ro CNAME .
+com.cn CNAME .
+*.com.cn CNAME .
 ethadalkhayr.com CNAME .
 *.ethadalkhayr.com CNAME .
 evinizicinsanat.xyz CNAME .
@@ -244,6 +244,8 @@ fallaeltro.es CNAME .
 *.fallaeltro.es CNAME .
 fchaneliere.com CNAME .
 *.fchaneliere.com CNAME .
+co.za CNAME .
+*.co.za CNAME .
 blackint3.com CNAME .
 *.blackint3.com CNAME .
 uludagbilisim.com CNAME .
@@ -494,8 +496,6 @@ sema-sa.com CNAME .
 *.sema-sa.com CNAME .
 serbacetak.com CNAME .
 *.serbacetak.com CNAME .
-servisaludocupacional.pe CNAME .
-*.servisaludocupacional.pe CNAME .
 dimitrimedia.com CNAME .
 *.dimitrimedia.com CNAME .
 sikkacrownofnoida.com CNAME .
@@ -508,8 +508,6 @@ smartnepali.com CNAME .
 *.smartnepali.com CNAME .
 110route.com CNAME .
 *.110route.com CNAME .
-softcatalog.ru CNAME .
-*.softcatalog.ru CNAME .
 vivi.sg CNAME .
 *.vivi.sg CNAME .
 soyjak.download CNAME .
@@ -560,8 +558,6 @@ topkale.me CNAME .
 *.topkale.me CNAME .
 topsecret.world CNAME .
 *.topsecret.world CNAME .
-totalhorsehealth.com CNAME .
-*.totalhorsehealth.com CNAME .
 co.za CNAME .
 *.co.za CNAME .
 tricotexbacau.ro CNAME .
@@ -644,8 +640,6 @@ hercvlesconcrete.com CNAME .
 *.hercvlesconcrete.com CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
-edu.co CNAME .
-*.edu.co CNAME .
 ingonherbal.com CNAME .
 *.ingonherbal.com CNAME .
 innovativebuildingsolutions.in CNAME .
@@ -706,8 +700,6 @@ ceprone.com CNAME .
 *.ceprone.com CNAME .
 lannaoke.com CNAME .
 *.lannaoke.com CNAME .
-starcountry.net CNAME .
-*.starcountry.net CNAME .
 ceprone.com CNAME .
 *.ceprone.com CNAME .
 co.jp CNAME .
@@ -740,10 +732,12 @@ yeniakillitelefonlar.xyz CNAME .
 *.yeniakillitelefonlar.xyz CNAME .
 yflogistics.net CNAME .
 *.yflogistics.net CNAME .
+hnggzyjy.cn CNAME .
+*.hnggzyjy.cn CNAME .
 yzkzixun.com CNAME .
 *.yzkzixun.com CNAME .
 co.ke CNAME .
 *.co.ke CNAME .
 broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
-; Number of entries: 368
+; Number of entries: 365
