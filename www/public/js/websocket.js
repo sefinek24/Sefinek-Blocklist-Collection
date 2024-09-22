@@ -33,12 +33,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		updateStats('total-requests', parsedData.stats.total);
 		updateStats('blocklist-requests', parsedData.stats.blocklists);
 
-		updateStats('127001', parsedData.stats.categories['127001']);
 		updateStats('0000', parsedData.stats.categories['0000']);
-		updateStats('adguard', parsedData.stats.categories.adguard);
-		updateStats('dnsmasq', parsedData.stats.categories.dnsmasq);
+		updateStats('127001', parsedData.stats.categories['127001']);
 		updateStats('noip', parsedData.stats.categories.noip);
+		updateStats('adguard', parsedData.stats.categories.adguard);
 		updateStats('unbound', parsedData.stats.categories.unbound);
+		updateStats('dnsmasq', parsedData.stats.categories.dnsmasq);
 		updateStats('rpz', parsedData.stats.categories.rpz);
 
 		updateStats('404', parsedData.stats.responses['404'] || 0);
