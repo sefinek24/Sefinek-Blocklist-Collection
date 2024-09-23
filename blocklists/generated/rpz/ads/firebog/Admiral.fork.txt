@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726495848688 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727100659718 43200 3600 259200 300
   NS  localhost.
 ;
 ; Admiral, parsed and mirrored by https://firebog.net
-; Updated 16SEP24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
+; Updated 23SEP24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
 ; This is sourced from an "adblock" style list which is flat-out NOT designed to work with DNS sinkholes
 ; There WILL be mistakes with how this is parsed, due to how domain names are extracted and exceptions handled
 ; Please bring any parsing issues up at https://github.com/WaLLy3K/wally3k.github.io/issues prior to raising a request upstream
@@ -1754,6 +1754,8 @@ thirstytwig.com CNAME .
 *.thirstytwig.com CNAME .
 thomastorch.com CNAME .
 *.thomastorch.com CNAME .
+thrivecover.com CNAME .
+*.thrivecover.com CNAME .
 ticketaunt.com CNAME .
 *.ticketaunt.com CNAME .
 ticklesign.com CNAME .
