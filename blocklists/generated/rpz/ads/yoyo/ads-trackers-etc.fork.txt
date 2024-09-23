@@ -1,13 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726956656237 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727051445713 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
 ;
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
-; last updated:   Sat, 21 Sep 2024 21:18:08 GMT
-; entries:        3548
+; last updated:   Sun, 22 Sep 2024 22:57:26 GMT
+; entries:        3550
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -2630,6 +2630,8 @@ click2freemoney.com CNAME .
 *.click2freemoney.com CNAME .
 azurewebsites.net CNAME .
 *.azurewebsites.net CNAME .
+clickadddilla.com CNAME .
+*.clickadddilla.com CNAME .
 clickadz.com CNAME .
 *.clickadz.com CNAME .
 clickagents.com CNAME .
@@ -3036,6 +3038,8 @@ discountclick.com CNAME .
 *.discountclick.com CNAME .
 discreetfield.com CNAME .
 *.discreetfield.com CNAME .
+displayvertising.com CNAME .
+*.displayvertising.com CNAME .
 disqusads.com CNAME .
 *.disqusads.com CNAME .
 belnk.com CNAME .
