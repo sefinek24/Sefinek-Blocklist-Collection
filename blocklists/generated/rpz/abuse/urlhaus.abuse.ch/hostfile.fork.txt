@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727079195871 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727086289381 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-23 08:04:25 (UTC)                      ;
+; Last updated: 2024-09-23 09:59:05 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -12,6 +12,8 @@ $TTL 300
 ;
 0xf20b415.ru CNAME .
 *.0xf20b415.ru CNAME .
+kukulaa.cn CNAME .
+*.kukulaa.cn CNAME .
 funian.life CNAME .
 *.funian.life CNAME .
 qbgxl.com CNAME .
@@ -90,8 +92,6 @@ automaticwebui.com CNAME .
 *.automaticwebui.com CNAME .
 avast-antivirus.com CNAME .
 *.avast-antivirus.com CNAME .
-avast-antivirusdownload.com CNAME .
-*.avast-antivirusdownload.com CNAME .
 avastcsw.com CNAME .
 *.avastcsw.com CNAME .
 avastop.com CNAME .
@@ -106,6 +106,8 @@ bahrabeauty.com CNAME .
 *.bahrabeauty.com CNAME .
 banydox.com CNAME .
 *.banydox.com CNAME .
+bazarganadero.com CNAME .
+*.bazarganadero.com CNAME .
 com.br CNAME .
 *.com.br CNAME .
 betrothrow.art CNAME .
@@ -284,6 +286,8 @@ hitstation.nl CNAME .
 *.hitstation.nl CNAME .
 homes121s.in CNAME .
 *.homes121s.in CNAME .
+vrcom7.com CNAME .
+*.vrcom7.com CNAME .
 hseda.com CNAME .
 *.hseda.com CNAME .
 hwthurmann.de CNAME .
@@ -492,6 +496,8 @@ intensegroupgt.com CNAME .
 *.intensegroupgt.com CNAME .
 smartnepali.com CNAME .
 *.smartnepali.com CNAME .
+110route.com CNAME .
+*.110route.com CNAME .
 softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
 vivi.sg CNAME .
@@ -726,4 +732,4 @@ co.ke CNAME .
 *.co.ke CNAME .
 broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
-; Number of entries: 358
+; Number of entries: 361
