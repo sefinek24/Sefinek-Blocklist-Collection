@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1726985482058 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727072034000 43200 3600 259200 300
   NS  localhost.
 ;
 ; Scam Blocklist by DurableNapkin
-; Domains: 4202
+; Domains: 4210
 ; -
 ; Source: https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/hosts.txt
 ; Home: https://github.com/durablenapkin/scamblocklist
@@ -95,6 +95,8 @@ ahenana.com CNAME .
 *.ahenana.com CNAME .
 ahenana.com CNAME .
 *.ahenana.com CNAME .
+akatee.com CNAME .
+*.akatee.com CNAME .
 akebicycle.com CNAME .
 *.akebicycle.com CNAME .
 akebicycle.com CNAME .
@@ -1613,6 +1615,8 @@ deytee.com CNAME .
 *.deytee.com CNAME .
 deytee.com CNAME .
 *.deytee.com CNAME .
+deytee.com CNAME .
+*.deytee.com CNAME .
 dezpez.com CNAME .
 *.dezpez.com CNAME .
 dezpez.com CNAME .
@@ -1727,8 +1731,6 @@ ed0.it CNAME .
 *.ed0.it CNAME .
 ed0.it CNAME .
 *.ed0.it CNAME .
-eggdy.shop CNAME .
-*.eggdy.shop CNAME .
 ekommmedia.com CNAME .
 *.ekommmedia.com CNAME .
 ekommmedia.com CNAME .
@@ -2433,6 +2435,8 @@ jonausa.com CNAME .
 *.jonausa.com CNAME .
 jourl.live CNAME .
 *.jourl.live CNAME .
+co.kr CNAME .
+*.co.kr CNAME .
 karanpc.com CNAME .
 *.karanpc.com CNAME .
 karanpc.com CNAME .
@@ -2501,8 +2505,6 @@ knightmods.com CNAME .
 *.knightmods.com CNAME .
 knightmods.com CNAME .
 *.knightmods.com CNAME .
-kohlerofficial.com CNAME .
-*.kohlerofficial.com CNAME .
 koinprime.com CNAME .
 *.koinprime.com CNAME .
 koinprime.com CNAME .
@@ -2895,10 +2897,12 @@ navi1.com CNAME .
 *.navi1.com CNAME .
 navi1.com CNAME .
 *.navi1.com CNAME .
-navi10.ru CNAME .
-*.navi10.ru CNAME .
-navi10.ru CNAME .
-*.navi10.ru CNAME .
+navi10.com CNAME .
+*.navi10.com CNAME .
+navi10.com CNAME .
+*.navi10.com CNAME .
+navi10.com CNAME .
+*.navi10.com CNAME .
 navi10.ru CNAME .
 *.navi10.ru CNAME .
 navi100.com CNAME .
@@ -2917,6 +2921,8 @@ navi18.com CNAME .
 *.navi18.com CNAME .
 navi18.com CNAME .
 *.navi18.com CNAME .
+navi19.ru CNAME .
+*.navi19.ru CNAME .
 navi2.com CNAME .
 *.navi2.com CNAME .
 navi2.com CNAME .
@@ -2949,6 +2955,8 @@ navi23.com CNAME .
 *.navi23.com CNAME .
 navi23.com CNAME .
 *.navi23.com CNAME .
+navi23.ru CNAME .
+*.navi23.ru CNAME .
 navi23.ru CNAME .
 *.navi23.ru CNAME .
 navi23.ru CNAME .
@@ -3005,8 +3013,6 @@ navi4.com CNAME .
 *.navi4.com CNAME .
 navi4.com CNAME .
 *.navi4.com CNAME .
-navi4.com CNAME .
-*.navi4.com CNAME .
 navi40.com CNAME .
 *.navi40.com CNAME .
 navi40.com CNAME .
@@ -3027,8 +3033,6 @@ navi5.com CNAME .
 *.navi5.com CNAME .
 navi50.com CNAME .
 *.navi50.com CNAME .
-navi50.ru CNAME .
-*.navi50.ru CNAME .
 navi53.com CNAME .
 *.navi53.com CNAME .
 navi53.com CNAME .
@@ -3093,6 +3097,10 @@ navi8.com CNAME .
 *.navi8.com CNAME .
 navi8.com CNAME .
 *.navi8.com CNAME .
+navi8.ru CNAME .
+*.navi8.ru CNAME .
+navi81.ru CNAME .
+*.navi81.ru CNAME .
 navi86.ru CNAME .
 *.navi86.ru CNAME .
 navi88.com CNAME .
@@ -3369,6 +3377,8 @@ online-binomo.com CNAME .
 *.online-binomo.com CNAME .
 online-binomo.com CNAME .
 *.online-binomo.com CNAME .
+onlineadid.com CNAME .
+*.onlineadid.com CNAME .
 onlineadid.com CNAME .
 *.onlineadid.com CNAME .
 onlineadid.com CNAME .
@@ -6729,8 +6739,6 @@ signpify.com CNAME .
 *.signpify.com CNAME .
 signpify.com CNAME .
 *.signpify.com CNAME .
-sikaripod.com CNAME .
-*.sikaripod.com CNAME .
 silverlanetrading.com CNAME .
 *.silverlanetrading.com CNAME .
 singingfiles.com CNAME .
@@ -6771,6 +6779,8 @@ snaklenest.com CNAME .
 *.snaklenest.com CNAME .
 snaklenest.com CNAME .
 *.snaklenest.com CNAME .
+snowroxy.com CNAME .
+*.snowroxy.com CNAME .
 snowroxy.com CNAME .
 *.snowroxy.com CNAME .
 snowroxy.com CNAME .
@@ -6899,6 +6909,8 @@ company.site CNAME .
 *.company.site CNAME .
 company.site CNAME .
 *.company.site CNAME .
+storeadid.com CNAME .
+*.storeadid.com CNAME .
 storeadid.com CNAME .
 *.storeadid.com CNAME .
 storeadid.com CNAME .
@@ -8335,6 +8347,10 @@ ygtube.xyz CNAME .
 *.ygtube.xyz CNAME .
 ygtube.xyz CNAME .
 *.ygtube.xyz CNAME .
+yhdshop.com CNAME .
+*.yhdshop.com CNAME .
+yhdshop.com CNAME .
+*.yhdshop.com CNAME .
 yofi-yofi.com CNAME .
 *.yofi-yofi.com CNAME .
 yofi-yofi.com CNAME .
