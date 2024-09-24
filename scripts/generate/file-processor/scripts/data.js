@@ -63,7 +63,7 @@ exports.CATEGORIES = [
 		category: 'Social Media',
 		// grex "facebook" "twitter" "instagram" "tiktok" "snapchat" "linkedin" "pinterest" "reddit" "tumblr"
 		regex: /instagram|pinterest|facebook|linkedin|(?:snapcha|reddi)t|t(?:(?:witte|umbl)r|iktok)/i,
-		file: 'social_media/sefinek.hosts.txt'
+		file: 'sites/social-media.txt'
 	},
 	{
 		title: 'Blocks streaming media platforms like YouTube, Netflix, Spotify, and others (beta)',
@@ -71,7 +71,7 @@ exports.CATEGORIES = [
 		category: 'Streaming Media',
 		// grex "youtube" "netflix" "spotify" "disneyplus" "hulu" "twitch" "vimeo" "soundcloud" "hbo"
 		regex: /s(?:oundcloud|potify)|disneyplus|netflix|youtube|twitch|vimeo|h(?:ulu|bo)/i,
-		file: 'streaming_media/sefinek.hosts.txt'
+		file: 'sites/streaming-media.txt'
 	},
 	{
 		title: 'Blocks e-commerce websites and online shopping platforms (beta)',
@@ -79,7 +79,7 @@ exports.CATEGORIES = [
 		category: 'Shopping',
 		// grex "amazon" "ebay" "aliexpress" "etsy" "wish" "shopify" "zalando" "ikea" "alibaba" "ebay-kleinanzeigen" "olx" "allegro"
 		regex: /ebay\\-kleinanzeigen|a(?:li(?:express|baba)|mazon)|shopify|allegro|zalando|ebay|wish|ikea|etsy|olx/i,
-		file: 'shopping/sefinek.hosts.txt'
+		file: 'sites/shopping.txt'
 	},
 	{
 		title: 'Blocks news websites and media outlets (beta)',
@@ -87,7 +87,7 @@ exports.CATEGORIES = [
 		category: 'News Media',
 		// grex "cnn" "bbc" "foxnews" "aljazeera" "rt" "reuters" "nytimes" "washingtonpost" "guardian" "thetimes" "dw" "bloomberg"
 		regex: /washingtonpost|b(?:loomberg|bc)|aljazeera|guardian|thetimes|(?:reuter|foxnew)s|nytimes|cnn|dw|rt/i,
-		file: 'news_media/sefinek.hosts.txt'
+		file: 'sites/news-media.txt'
 	},
 	{
 		title: 'Blocks productivity tools and collaboration platforms (beta)',
@@ -95,7 +95,7 @@ exports.CATEGORIES = [
 		category: 'Productivity',
 		// grex "googledocs" "office365" "slack" "zoom" "trello" "notion" "asana" "microsoftteams" "dropbox" "confluence" "jira" "clickup"
 		regex: /microsoftteams|c(?:onfluence|lickup)|googledocs|office365|dropbox|notion|trello|asana|slack|zoom|jira/i,
-		file: 'productivity/sefinek.hosts.txt'
+		file: 'sites/productivity.txt'
 	}
 ];
 
