@@ -85,8 +85,8 @@ exports.CATEGORIES = [
 		title: 'Blocks news websites and media outlets (beta)',
 		description: 'Active, inactive, and parked domains. Blocks websites of popular news outlets such as CNN, BBC, Fox News, Al Jazeera, RT, and others.',
 		category: 'News Media',
-		// grex "cnn" "bbc" "foxnews" "aljazeera" "rt" "reuters" "nytimes" "washingtonpost" "guardian" "thetimes" "dw" "bloomberg"
-		regex: /washingtonpost|b(?:loomberg|bc)|aljazeera|guardian|thetimes|(?:reuter|foxnew)s|nytimes|cnn|dw|rt/i,
+		// grex "foxnews" "aljazeera" "reuters" "nytimes" "washingtonpost" "thetimes" "bloomberg"
+		regex: /washingtonpost|aljazeera|bloomberg|(?:thetime|(?:(?:foxnew|reuter)|nytime))s/i,
 		file: 'sites/news-media.txt'
 	},
 	{
