@@ -3,8 +3,8 @@ exports.CATEGORIES = [
 		title: 'Blocks websites dedicated to anime, manga, cosplay, vtubers, hentai, and other NSFW degeneracy',
 		description: 'Active, inactive, and parked domains. Nekomimi, otaku, shonen, yuri, yaoi, bishounen, ecchi, kawaii, tsundere, yandere, waifu, isekai, and other popular anime-related terms. Also blocks websites promoting or featuring explicit content, NSFW materials (hentai), and communities revolving around anime fan culture, including cosplayers and vtubers.',
 		category: 'Anime',
-		// grex "anime" "manga" "nekomimi" "nekomusume" "hentai" "vtuber" "cosplay" "otaku" "shonen" "shoujo" "yuri" "yaoi" "ecchi" "isekai" "kawaii" "tsundere" "yandere" "waifu" "seinen" "doujinshi" "bishounen" "shojo" "chibi" "bishojo" "doujin" "seiyuu" "harem" "meido" "lolicon" "fudanshi" "kuudere" "genki" "lightnovel" "wotaku" "gawr-gura" "mori-calliope" "inugami-korone" "usada-pekora" "shirakami-fubuki" "houshou-marine" "ninomae-inanis" "amelia-watson" "kizuna-ai" "nyanners" "ironmouse" "veibae" "projekt-melody" "tokino-sora" "sakura-miko" "takanashi-kiara" "watson-amelia" "akai-haato" "ayunda-risu" "moona-hoshinova" "pavolia-reine" "oozora-subaru" "roboco-san" "himemori-luna" "nekomiya-hinata" "nekoha-shizuku" "kureiji-ollie" "shylily" "selen-tatsuki"
-		regex: /(?:s(?:hirakami\\-fub|elen\\-tats)uk|k(?:izuna\\-a|awai)|(?:doujins|ecc)h|fudansh|(?:hent|isek)a|chib|genk|y(?:ao|ur))i|(?:m(?:oona\\-hoshinov|ang)|nekomiya\\-hinat|himemori\\-lun|watson\\-ameli)a|(?:takanashi\\-kia|gawr\\-gu)ra|n(?:eko(?:ha\\-shizuku|mimi)|inomae\\-inanis|yanners)|inugami\\-korone|houshou\\-marine|p(?:rojekt\\-melody|avolia\\-reine)|(?:oozora\\-subar|ayunda\\-ris|seiyu|waif)u|(?:amelia\\-watso|(?:bishoun|s(?:ho|ei)n)e|lolico)n|(?:mori\\-calliop|kureiji\\-olli|nekomusum|ironmous|tsunder|(?:yan|kuu)der|veiba|anim)e|usada\\-pekora|(?:s(?:akura\\-mik|hou?j)|akai\\-haat|meid)o|tokino\\-sora|lightnovel|roboco\\-san|bishojo|(?:cospla|shylil)y|doujin|vtuber|w?otaku|harem/i,
+		// grex "anime" "manga" "nekomimi" "nekomusume" "hentai" "vtuber" "cosplay" "otaku" "shonen" "shoujo" "yuri" "yaoi" "ecchi" "isekai" "kawaii" "tsundere" "yandere" "yande.re" "waifu" "seinen" "doujinshi" "bishounen" "shojo" "chibi" "bishojo" "doujin" "seiyuu" "harem" "meido" "lolicon" "fudanshi" "kuudere" "genki" "lightnovel" "wotaku" "gawr-gura" "mori-calliope" "inugami-korone" "usada-pekora" "shirakami-fubuki" "houshou-marine" "ninomae-inanis" "amelia-watson" "kizuna-ai" "nyanners" "ironmouse" "veibae" "projekt-melody" "tokino-sora" "sakura-miko" "takanashi-kiara" "watson-amelia" "akai-haato" "ayunda-risu" "moona-hoshinova" "pavolia-reine" "oozora-subaru" "roboco-san" "himemori-luna" "nekomiya-hinata" "nekoha-shizuku" "kureiji-ollie" "shylily" "selen-tatsuki"
+		regex: /(?:s(?:hirakami\\-fub|elen\\-tats)uk|k(?:izuna\\-a|awai)|(?:doujins|ecc)h|fudansh|(?:hent|isek)a|chib|genk|y(?:ao|ur))i|(?:m(?:oona\\-hoshinov|ang)|nekomiya\\-hinat|himemori\\-lun|watson\\-ameli)a|(?:takanashi\\-kia|gawr\\-gu)ra|n(?:eko(?:ha\\-shizuku|mimi)|inomae\\-inanis|yanners)|inugami\\-korone|houshou\\-marine|p(?:rojekt\\-melody|avolia\\-reine)|(?:oozora\\-subar|ayunda\\-ris|seiyu|waif)u|(?:amelia\\-watso|(?:bishoun|s(?:ho|ei)n)e|lolico)n|(?:mori\\-calliop|kureiji\\-olli|nekomusum|ironmous|yande\.r|tsunder|yander|kuuder|veiba|anim)e|usada\\-pekora|(?:s(?:akura\\-mik|hou?j)|akai\\-haat|meid)o|tokino\\-sora|lightnovel|roboco\\-san|bishojo|(?:cospla|shylil)y|doujin|vtuber|w?otaku|harem/i,
 		file: 'anime/main.txt'
 	},
 	{
@@ -56,12 +56,50 @@ exports.CATEGORIES = [
 		// grex "finesport" "livesport" "thesport" "familjenesport" "simplesport" "cyclesport" "teamsport" "worldsport" "allsport" "realsport" "prosport" "schoolsport" "football" "basketball" "volleyball" "baseball" "athletics" "olympics" "marathon" "runningsport" "watersport" "motorsport" "outdoorsport"
 		whitelist: /(?:f(?:amilje|i)n|liv|th)esport|(?:running|(?:outdo|mot)or|w(?:ater|orld)|team|(?:rea|al)l|pro)sport|s(?:chool|imple)sport|(?:bas(?:ket|e)|foot)ball|volleyball|cyclesport|athletics|marathon|olympics/i,
 		file: 'sites/esport.txt'
+	},
+	{
+		title: 'Blocks most social media platforms and related services (beta)',
+		description: 'Active, inactive, and parked domains. Blocks websites such as Facebook, Instagram, Twitter, TikTok, and other social media platforms.',
+		category: 'Social Media',
+		// grex "facebook" "twitter" "instagram" "tiktok" "snapchat" "linkedin" "pinterest" "reddit" "tumblr"
+		regex: /instagram|pinterest|facebook|linkedin|(?:snapcha|reddi)t|t(?:(?:witte|umbl)r|iktok)/i,
+		file: 'social_media/sefinek.hosts.txt'
+	},
+	{
+		title: 'Blocks streaming media platforms like YouTube, Netflix, Spotify, and others (beta)',
+		description: 'Active, inactive, and parked domains. Blocks websites for video and audio streaming services such as YouTube, Netflix, Spotify, Disney+, Hulu, and Twitch.',
+		category: 'Streaming Media',
+		// grex "youtube" "netflix" "spotify" "disneyplus" "hulu" "twitch" "vimeo" "soundcloud" "hbo"
+		regex: /s(?:oundcloud|potify)|disneyplus|netflix|youtube|twitch|vimeo|h(?:ulu|bo)/i,
+		file: 'streaming_media/sefinek.hosts.txt'
+	},
+	{
+		title: 'Blocks e-commerce websites and online shopping platforms (beta)',
+		description: 'Active, inactive, and parked domains. Blocks online shopping websites like Amazon, eBay, AliExpress, Etsy, Wish, and others.',
+		category: 'Shopping',
+		// grex "amazon" "ebay" "aliexpress" "etsy" "wish" "shopify" "zalando" "ikea" "alibaba" "ebay-kleinanzeigen" "olx" "allegro"
+		regex: /ebay\\-kleinanzeigen|a(?:li(?:express|baba)|mazon)|shopify|allegro|zalando|ebay|wish|ikea|etsy|olx/i,
+		file: 'shopping/sefinek.hosts.txt'
+	},
+	{
+		title: 'Blocks news websites and media outlets (beta)',
+		description: 'Active, inactive, and parked domains. Blocks websites of popular news outlets such as CNN, BBC, Fox News, Al Jazeera, RT, and others.',
+		category: 'News Media',
+		// grex "cnn" "bbc" "foxnews" "aljazeera" "rt" "reuters" "nytimes" "washingtonpost" "guardian" "thetimes" "dw" "bloomberg"
+		regex: /washingtonpost|b(?:loomberg|bc)|aljazeera|guardian|thetimes|(?:reuter|foxnew)s|nytimes|cnn|dw|rt/i,
+		file: 'news_media/sefinek.hosts.txt'
+	},
+	{
+		title: 'Blocks productivity tools and collaboration platforms (beta)',
+		description: 'Active, inactive, and parked domains. Blocks websites for productivity tools such as Google Docs, Office365, Slack, Zoom, Trello, Notion, and others.',
+		category: 'Productivity',
+		// grex "googledocs" "office365" "slack" "zoom" "trello" "notion" "asana" "microsoftteams" "dropbox" "confluence" "jira" "clickup"
+		regex: /microsoftteams|c(?:onfluence|lickup)|googledocs|office365|dropbox|notion|trello|asana|slack|zoom|jira/i,
+		file: 'productivity/sefinek.hosts.txt'
 	}
 ];
 
-exports.GLOBAL_WHITELIST = [
-
-];
+exports.GLOBAL_WHITELIST = [];
 
 exports.fileUrls = [
 	// Misc
