@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727280714117 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727439250441 43200 3600 259200 300
   NS  localhost.
 ;
 ; Blocklist for use with hosts files to block ads, trackers, and other nasty things
@@ -7,7 +7,7 @@ $TTL 300
 ; For more information about this list, see: https://pgl.yoyo.org/adservers/
 ; ----
 ; last updated:   Wed, 25 Sep 2024 14:12:10 GMT
-; entries:        3553
+; entries:        3546
 ; format:         hosts (hosts -- in hosts file format)
 ; credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
 ; this URL:       https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
@@ -690,8 +690,6 @@ ads-twitter.com CNAME .
 *.ads-twitter.com CNAME .
 365.mk CNAME .
 *.365.mk CNAME .
-4tube.com CNAME .
-*.4tube.com CNAME .
 5ci.lt CNAME .
 *.5ci.lt CNAME .
 73dpi.com CNAME .
@@ -754,8 +752,6 @@ avazu.net CNAME .
 *.avazu.net CNAME .
 bb59.ru CNAME .
 *.bb59.ru CNAME .
-belointeractive.com CNAME .
-*.belointeractive.com CNAME .
 betfair.com CNAME .
 *.betfair.com CNAME .
 bigchurch.com CNAME .
@@ -2764,8 +2760,6 @@ compiledoctor.com CNAME .
 *.compiledoctor.com CNAME .
 comprabanner.it CNAME .
 *.comprabanner.it CNAME .
-concernedchange.com CNAME .
-*.concernedchange.com CNAME .
 conditionchange.com CNAME .
 *.conditionchange.com CNAME .
 conductrics.com CNAME .
@@ -2926,8 +2920,6 @@ customads.co CNAME .
 *.customads.co CNAME .
 kameleoon.com CNAME .
 *.kameleoon.com CNAME .
-cutcurrent.com CNAME .
-*.cutcurrent.com CNAME .
 cutechin.com CNAME .
 *.cutechin.com CNAME .
 cxense.com CNAME .
@@ -5316,8 +5308,6 @@ qnsr.com CNAME .
 *.qnsr.com CNAME .
 qrlsx.com CNAME .
 *.qrlsx.com CNAME .
-quacksquirrel.com CNAME .
-*.quacksquirrel.com CNAME .
 quaintcan.com CNAME .
 *.quaintcan.com CNAME .
 quantcast.com CNAME .
@@ -5664,8 +5654,6 @@ scarfsmash.com CNAME .
 *.scarfsmash.com CNAME .
 scatteredheat.com CNAME .
 *.scatteredheat.com CNAME .
-scatteredquiver.com CNAME .
-*.scatteredquiver.com CNAME .
 scintillatingscissors.com CNAME .
 *.scintillatingscissors.com CNAME .
 scintillatingsilver.com CNAME .
@@ -6084,8 +6072,6 @@ steelhouse.com CNAME .
 *.steelhouse.com CNAME .
 steelhousemedia.com CNAME .
 *.steelhousemedia.com CNAME .
-steepscale.com CNAME .
-*.steepscale.com CNAME .
 stickyadstv.com CNAME .
 *.stickyadstv.com CNAME .
 stiffgame.com CNAME .
