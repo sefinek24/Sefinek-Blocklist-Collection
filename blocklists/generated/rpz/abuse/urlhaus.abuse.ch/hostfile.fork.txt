@@ -1,10 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727633506413 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727640638439 43200 3600 259200 300
   NS  localhost.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; abuse.ch URLhaus Host file                                   ;
-; Last updated: 2024-09-29 18:04:06 (UTC)                      ;
+; Last updated: 2024-09-29 20:04:18 (UTC)                      ;
 ;                                                              ;
 ; Terms Of Use: https://urlhaus.abuse.ch/api/                  ;
 ; For questions please contact urlhaus [at] abuse.ch           ;
@@ -26,6 +26,8 @@ haory.cn CNAME .
 *.haory.cn CNAME .
 miiyun.cn CNAME .
 *.miiyun.cn CNAME .
+qbgxl.com CNAME .
+*.qbgxl.com CNAME .
 abissnet.net CNAME .
 *.abissnet.net CNAME .
 adf6.com CNAME .
@@ -84,8 +86,6 @@ banydox.com CNAME .
 *.banydox.com CNAME .
 baruopas.com CNAME .
 *.baruopas.com CNAME .
-bazarganadero.com CNAME .
-*.bazarganadero.com CNAME .
 bitkiselurunsiparis.com CNAME .
 *.bitkiselurunsiparis.com CNAME .
 o7lab.me CNAME .
@@ -158,12 +158,16 @@ packetstormsecurity.net CNAME .
 *.packetstormsecurity.net CNAME .
 zerotheme.ir CNAME .
 *.zerotheme.ir CNAME .
+jxwan.com CNAME .
+*.jxwan.com CNAME .
 dnvk1.info CNAME .
 *.dnvk1.info CNAME .
 fwqlt.com CNAME .
 *.fwqlt.com CNAME .
 pcclear.com CNAME .
 *.pcclear.com CNAME .
+com.cn CNAME .
+*.com.cn CNAME .
 caihong.com CNAME .
 *.caihong.com CNAME .
 doumaibiji.cn CNAME .
@@ -216,6 +220,8 @@ fussballclub-24.de CNAME .
 *.fussballclub-24.de CNAME .
 florenda.com CNAME .
 *.florenda.com CNAME .
+antharris.top CNAME .
+*.antharris.top CNAME .
 graficaminervaa.shop CNAME .
 *.graficaminervaa.shop CNAME .
 hailcocks.ru CNAME .
@@ -348,6 +354,8 @@ abuser.eu CNAME .
 *.abuser.eu CNAME .
 org.pk CNAME .
 *.org.pk CNAME .
+cdglobalclouds.com CNAME .
+*.cdglobalclouds.com CNAME .
 protechasia.com CNAME .
 *.protechasia.com CNAME .
 chuitian.cn CNAME .
@@ -388,6 +396,8 @@ softcatalog.ru CNAME .
 *.softcatalog.ru CNAME .
 vivi.sg CNAME .
 *.vivi.sg CNAME .
+soundfrost.org CNAME .
+*.soundfrost.org CNAME .
 soyjak.download CNAME .
 *.soyjak.download CNAME .
 co.za CNAME .
@@ -406,8 +416,6 @@ clz.kr CNAME .
 *.clz.kr CNAME .
 thebitmeister.com CNAME .
 *.thebitmeister.com CNAME .
-techniguitare.com CNAME .
-*.techniguitare.com CNAME .
 tecni-soft.com CNAME .
 *.tecni-soft.com CNAME .
 tecunonline.com CNAME .
@@ -438,8 +446,6 @@ twizt.net CNAME .
 *.twizt.net CNAME .
 unicorpbrunei.com CNAME .
 *.unicorpbrunei.com CNAME .
-maolaoban.top CNAME .
-*.maolaoban.top CNAME .
 cg100iii.com CNAME .
 *.cg100iii.com CNAME .
 30x.ru CNAME .
@@ -524,6 +530,8 @@ starcountry.net CNAME .
 *.starcountry.net CNAME .
 sumerda.com CNAME .
 *.sumerda.com CNAME .
+co.jp CNAME .
+*.co.jp CNAME .
 sumonare.com CNAME .
 *.sumonare.com CNAME .
 technecare.com CNAME .
@@ -550,4 +558,4 @@ emergencepsychservices.com CNAME .
 *.emergencepsychservices.com CNAME .
 broadmediacloud.com CNAME .
 *.broadmediacloud.com CNAME .
-; Number of entries: 270
+; Number of entries: 274
