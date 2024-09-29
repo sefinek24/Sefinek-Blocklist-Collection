@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727201587032 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727604620311 43200 3600 259200 300
   NS  localhost.
 ;
 ;       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
@@ -15,14 +15,14 @@ $TTL 300
 ; Title: Blocks productivity tools and collaboration platforms (beta)
 ; Description: Active, inactive, and parked domains. Blocks websites for productivity tools such as Google Docs, Office365, Slack, Zoom, Trello, Notion, and others.
 ; Expires: 1 day
-; Count: 85076
+; Count: 85079
 ; Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
 ; Modified by: Nobody
 ; Source: N/A
 ; License: CC BY-NC-ND 4.0
 ; Release: RPZ
-; Version: 1727201587032
-; Last update: September 24, 2024 at 6:13 PM UTC | 2024-09-24T18:13:07.032+00:00
+; Version: 1727604620311
+; Last update: September 29, 2024 at 10:10 AM UTC | 2024-09-29T10:10:20.311+00:00
 ;
 ; About:
 ; This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
@@ -170184,3 +170184,9 @@ wachslack.at CNAME .
 *.wachslack.at CNAME .
 market-zoom.at CNAME .
 *.market-zoom.at CNAME .
+4notion.ee CNAME .
+*.4notion.ee CNAME .
+libellasanatorium.sk CNAME .
+*.libellasanatorium.sk CNAME .
+confluence.ee CNAME .
+*.confluence.ee CNAME .
