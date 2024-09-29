@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727404430499 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727577333905 43200 3600 259200 300
   NS  localhost.
 ;
-;202409270303
+;202409290303
 ; EasyPrivacy Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -9911,8 +9911,16 @@ xavierrosee.com CNAME .
 *.xavierrosee.com CNAME .
 yesnetwork.com CNAME .
 *.yesnetwork.com CNAME .
+3751chat.com CNAME .
+*.3751chat.com CNAME .
+shalove.net CNAME .
+*.shalove.net CNAME .
 co.jp CNAME .
 *.co.jp CNAME .
+luvul.net CNAME .
+*.luvul.net CNAME .
+skypemeet.net CNAME .
+*.skypemeet.net CNAME .
 tv5unis.ca CNAME .
 *.tv5unis.ca CNAME .
 anwalt.de CNAME .
@@ -48359,6 +48367,8 @@ actonservice.com CNAME .
 *.actonservice.com CNAME .
 actonservice.com CNAME .
 *.actonservice.com CNAME .
+midjourney.com CNAME .
+*.midjourney.com CNAME .
 dzeio.com CNAME .
 *.dzeio.com CNAME .
 trysavvy.com CNAME .
