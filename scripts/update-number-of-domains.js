@@ -16,8 +16,7 @@ const ignoreQuestion = process.argv.includes('--ignore-question');
 		rl.close();
 
 		if (answer.toLowerCase() === 'no') {
-			console.log(red('[INFO]: Procedure aborted by the user.'));
-			return;
+			return console.log(red('[INFO]: Procedure aborted by the user.'));
 		}
 	}
 

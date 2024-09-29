@@ -14,24 +14,28 @@ const markdownFiles = [
 	'./docs/lists/md/Unbound.md'
 ];
 
-const headers = {
-	headers: { 'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklists/${version}; +https://blocklist.sefinek.net)` }
-};
-
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
-
 const URL_REGEX = /https:\/\/blocklist\.sefinek\.net\/generated\/v1\/(0\.0\.0\.0|127\.0\.0\.1|adguard|dnsmasq|noip|rpz|unbound)\/(?:[\w-]+\/)+[\w\\.-]+\.\w+/gi;
+const headers = { headers: { 'User-Agent': `Mozilla/5.0 (compatible; SefinekBlocklists/${version}; +https://blocklist.sefinek.net)` } };
+
 let failedLinks = 0, invalidFiles = 0, retriesFails = 0, successfulLinks = 0, totalLinks = 0;
 const invalidLinks = [];
 
-function serveUrl(link) {
-	return process.env.NODE_ENV === 'production'
-		? link
-		: link.replace('https://blocklist.sefinek.net', `${process.env.DOMAIN}${process.env.PORT ? `:${process.env.PORT}` : ''}`);
-}
+const serveUrl = link => process.env.NODE_ENV === 'production'
+	? link
+	: link.replace('https://blocklist.sefinek.net', `${process.env.DOMAIN}${process.env.PORT ? `:${process.env.PORT}` : ''}`);
 
-async function testLinks() {
+const extractLinks = content => {
+	const links = [];
+	let match;
+	while ((match = URL_REGEX.exec(content))) links.push(match[0]);
+	return links;
+};
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const testLinks = async () => {
 	console.log(kleur.white('=== Testing URLs collection ===\n'));
 	const links = [];
 
@@ -65,15 +69,15 @@ async function testLinks() {
 				if (retriesFails >= MAX_RETRIES * 4) process.exit(1);
 				console.log(kleur.blue(`> Waiting ${RETRY_DELAY_MS / 1000} seconds...`));
 				await sleep(RETRY_DELAY_MS);
+
 				try {
-					console.log(kleur.blue('> Retrying...'));
 					const response = await axios.head(processedLink, headers);
 					console.log(`${kleur.bgGreen(response.status)} ${kleur.green(`Status: ${response.statusText}`)}`);
 					successfulLinks++;
 					success = true;
 					break;
 				} catch (err) {
-					console.warn(`${kleur.bgRed(err.response.status)} ${kleur.red(`Status: ${err.response.statusText}`)}`);
+					console.warn(`${kleur.bgRed(err.response?.status || err.message.toUpperCase())} (${err.response?.statusText || 'Unknown status'})`);
 					retries++;
 					retriesFails++;
 				}
@@ -90,18 +94,7 @@ async function testLinks() {
 	console.log(kleur.yellow(`Invalid files: ${invalidFiles}`));
 	console.log(kleur.yellow(`Invalid links: ${invalidLinks.length}`));
 	console.log(kleur.yellow('Invalid links list:'), invalidLinks);
-}
-
-function extractLinks(content) {
-	const links = [];
-	let match;
-	while ((match = URL_REGEX.exec(content))) links.push(match[0]);
-	return links;
-}
-
-function sleep(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
-}
+};
 
 (async () => {
 	try {
