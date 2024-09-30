@@ -1,9 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727100659718 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727705456548 43200 3600 259200 300
   NS  localhost.
 ;
 ; Admiral, parsed and mirrored by https://firebog.net
-; Updated 23SEP24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
+; Updated 30SEP24 from https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt
 ; This is sourced from an "adblock" style list which is flat-out NOT designed to work with DNS sinkholes
 ; There WILL be mistakes with how this is parsed, due to how domain names are extracted and exceptions handled
 ; Please bring any parsing issues up at https://github.com/WaLLy3K/wally3k.github.io/issues prior to raising a request upstream
@@ -18,8 +18,6 @@ $TTL 300
 *.6ldu6qa.com CNAME .
 82o9v830.com CNAME .
 *.82o9v830.com CNAME .
-abandonedaction.com CNAME .
-*.abandonedaction.com CNAME .
 aboardamusement.com CNAME .
 *.aboardamusement.com CNAME .
 aboardkettle.com CNAME .
@@ -76,8 +74,6 @@ aheadmachine.com CNAME .
 *.aheadmachine.com CNAME .
 ak0gsh40.com CNAME .
 *.ak0gsh40.com CNAME .
-alertarithmetic.com CNAME .
-*.alertarithmetic.com CNAME .
 alikeaddition.com CNAME .
 *.alikeaddition.com CNAME .
 alikearm.com CNAME .
@@ -208,8 +204,6 @@ bleachscarecrow.com CNAME .
 *.bleachscarecrow.com CNAME .
 blushingbeast.com CNAME .
 *.blushingbeast.com CNAME .
-blushingboundary.com CNAME .
-*.blushingboundary.com CNAME .
 blushingwar.com CNAME .
 *.blushingwar.com CNAME .
 boatsvest.com CNAME .
@@ -218,8 +212,6 @@ boilingbeetle.com CNAME .
 *.boilingbeetle.com CNAME .
 boilingcredit.com CNAME .
 *.boilingcredit.com CNAME .
-boilingumbrella.com CNAME .
-*.boilingumbrella.com CNAME .
 boredcrown.com CNAME .
 *.boredcrown.com CNAME .
 bouncyfront.com CNAME .
@@ -438,8 +430,6 @@ cumbersomecar.com CNAME .
 *.cumbersomecar.com CNAME .
 cumbersomecarpenter.com CNAME .
 *.cumbersomecarpenter.com CNAME .
-cumbersomecloud.com CNAME .
-*.cumbersomecloud.com CNAME .
 curiouschalk.com CNAME .
 *.curiouschalk.com CNAME .
 curioussuccess.com CNAME .
@@ -510,8 +500,6 @@ deliciousducks.com CNAME .
 *.deliciousducks.com CNAME .
 delightdriving.com CNAME .
 *.delightdriving.com CNAME .
-desertedrat.com CNAME .
-*.desertedrat.com CNAME .
 desirebucket.com CNAME .
 *.desirebucket.com CNAME .
 desiredirt.com CNAME .
@@ -572,8 +560,6 @@ elasticchange.com CNAME .
 *.elasticchange.com CNAME .
 elderlyinsect.com CNAME .
 *.elderlyinsect.com CNAME .
-elderlyscissors.com CNAME .
-*.elderlyscissors.com CNAME .
 elderlytown.com CNAME .
 *.elderlytown.com CNAME .
 elephantqueue.com CNAME .
@@ -666,8 +652,6 @@ feeblestamp.com CNAME .
 *.feeblestamp.com CNAME .
 feignedfaucet.com CNAME .
 *.feignedfaucet.com CNAME .
-fertilefeeling.com CNAME .
-*.fertilefeeling.com CNAME .
 fewkittens.com CNAME .
 *.fewkittens.com CNAME .
 finalizeforce.com CNAME .
@@ -872,10 +856,10 @@ hystericalcloth.com CNAME .
 *.hystericalcloth.com CNAME .
 hystericalfinger.com CNAME .
 *.hystericalfinger.com CNAME .
-hystericalhelp.com CNAME .
-*.hystericalhelp.com CNAME .
 i9w8p.pw CNAME .
 *.i9w8p.pw CNAME .
+icebergindigo.com CNAME .
+*.icebergindigo.com CNAME .
 illinvention.com CNAME .
 *.illinvention.com CNAME .
 illustriousoatmeal.com CNAME .
@@ -944,8 +928,6 @@ kaputquill.com CNAME .
 *.kaputquill.com CNAME .
 kitesquirrel.com CNAME .
 *.kitesquirrel.com CNAME .
-laboredlight.com CNAME .
-*.laboredlight.com CNAME .
 laboredlocket.com CNAME .
 *.laboredlocket.com CNAME .
 lameletters.com CNAME .
@@ -960,8 +942,6 @@ leftliquid.com CNAME .
 *.leftliquid.com CNAME .
 liftedknowledge.com CNAME .
 *.liftedknowledge.com CNAME .
-lightcushion.com CNAME .
-*.lightcushion.com CNAME .
 literatelight.com CNAME .
 *.literatelight.com CNAME .
 livelumber.com CNAME .
@@ -992,8 +972,6 @@ maddeningpowder.com CNAME .
 *.maddeningpowder.com CNAME .
 magnetairport.com CNAME .
 *.magnetairport.com CNAME .
-magnificentmist.com CNAME .
-*.magnificentmist.com CNAME .
 maniacalappliance.com CNAME .
 *.maniacalappliance.com CNAME .
 markedmeasure.com CNAME .
@@ -1044,8 +1022,6 @@ mixedreading.com CNAME .
 *.mixedreading.com CNAME .
 modularmental.com CNAME .
 *.modularmental.com CNAME .
-moldyicicle.com CNAME .
-*.moldyicicle.com CNAME .
 moorshoes.com CNAME .
 *.moorshoes.com CNAME .
 motionflowers.com CNAME .
@@ -1060,8 +1036,6 @@ mundanepollution.com CNAME .
 *.mundanepollution.com CNAME .
 mushywaste.com CNAME .
 *.mushywaste.com CNAME .
-mysteriousmonth.com CNAME .
-*.mysteriousmonth.com CNAME .
 naivestatement.com CNAME .
 *.naivestatement.com CNAME .
 nappyattack.com CNAME .
@@ -1096,8 +1070,6 @@ nulldiscussion.com CNAME .
 *.nulldiscussion.com CNAME .
 nullnorth.com CNAME .
 *.nullnorth.com CNAME .
-numberlessring.com CNAME .
-*.numberlessring.com CNAME .
 oafishobservation.com CNAME .
 *.oafishobservation.com CNAME .
 obscenesidewalk.com CNAME .
@@ -1114,8 +1086,6 @@ oppositeoperation.com CNAME .
 *.oppositeoperation.com CNAME .
 optimallimit.com CNAME .
 *.optimallimit.com CNAME .
-outgoinggiraffe.com CNAME .
-*.outgoinggiraffe.com CNAME .
 overconfidentfood.com CNAME .
 *.overconfidentfood.com CNAME .
 overratedchalk.com CNAME .
@@ -1262,8 +1232,6 @@ punyplant.com CNAME .
 *.punyplant.com CNAME .
 puzzlingproperty.com CNAME .
 *.puzzlingproperty.com CNAME .
-quacksquirrel.com CNAME .
-*.quacksquirrel.com CNAME .
 quaintcan.com CNAME .
 *.quaintcan.com CNAME .
 quantumlagoon.com CNAME .
@@ -1324,8 +1292,6 @@ reconditerespect.com CNAME .
 *.reconditerespect.com CNAME .
 referdriving.com CNAME .
 *.referdriving.com CNAME .
-reflectivestatement.com CNAME .
-*.reflectivestatement.com CNAME .
 regularplants.com CNAME .
 *.regularplants.com CNAME .
 relationrest.com CNAME .
@@ -1654,8 +1620,6 @@ stockingsneeze.com CNAME .
 *.stockingsneeze.com CNAME .
 stormyachiever.com CNAME .
 *.stormyachiever.com CNAME .
-stormyfold.com CNAME .
-*.stormyfold.com CNAME .
 straightnest.com CNAME .
 *.straightnest.com CNAME .
 strangesink.com CNAME .
@@ -1774,10 +1738,6 @@ torpidtongue.com CNAME .
 *.torpidtongue.com CNAME .
 toweringanswer.com CNAME .
 *.toweringanswer.com CNAME .
-tranquilamulet.com CNAME .
-*.tranquilamulet.com CNAME .
-tranquilcanyon.com CNAME .
-*.tranquilcanyon.com CNAME .
 tranquilside.com CNAME .
 *.tranquilside.com CNAME .
 trappush.com CNAME .
