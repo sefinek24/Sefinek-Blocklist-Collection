@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 19 Sep 2024 10:16 UTC+7
-# Version: 2409191016
-# Blocked: 20,523 domains
+# Last modified: 01 Oct 2024 15:44 UTC+7
+# Version: 2410011544
+# Blocked: 20,550 domains
 # Please report any ads or problems on GitHub
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -174,6 +174,7 @@
 127.0.0.1 clouderrorreporting.googleapis.com
 127.0.0.1 crashlyticsreports-pa.googleapis.com
 127.0.0.1 firebaselogging.googleapis.com
+127.0.0.1 ogads-pa.googleapis.com
 #[l.google.com]
 127.0.0.1 pagead-googlehosted.l.google.com
 127.0.0.1 pagead-tpc.l.google.com
@@ -4004,6 +4005,7 @@
 127.0.0.1 se.o-s.io
 127.0.0.1 sync.o-s.io
 127.0.0.1 t.o-s.io
+127.0.0.1 tr.o-s.io
 127.0.0.1 x.o-s.io
 #[aralego.net]
 127.0.0.1 apac-hk-ads.aralego.net
@@ -5188,6 +5190,7 @@
 127.0.0.1 b.scorecardresearch.com
 127.0.0.1 beacon.scorecardresearch.com
 127.0.0.1 c.scorecardresearch.com
+127.0.0.1 census-app-x.scorecardresearch.com
 127.0.0.1 d.scorecardresearch.com
 127.0.0.1 sa.scorecardresearch.com
 127.0.0.1 sb.scorecardresearch.com
@@ -11763,10 +11766,6 @@
 127.0.0.1 app.adjust.io
 127.0.0.1 app.adjust.net.in
 127.0.0.1 app.adjust.world
-#[moneyoyo]
-127.0.0.1 ads.moneyoyo.com
-127.0.0.1 sdk.moneyoyo.com
-127.0.0.1 api.moneyoyo.org
 #[bright]
 127.0.0.1 bright-sdk.com
 127.0.0.1 brightdata.com
@@ -11806,6 +11805,13 @@
 #[quantumdex.io]
 127.0.0.1 sync.quantumdex.io
 127.0.0.1 useast.quantumdex.io
+#[ads.tvb.com]
+127.0.0.1 ads.tvb.com
+127.0.0.1 img.ads.tvb.com
+#[ettoday.net]
+127.0.0.1 ad.ettoday.net
+127.0.0.1 ad1.ettoday.net
+127.0.0.1 ad2.ettoday.net
 # --- GroupVN block ---
 #[adtimaserver]
 127.0.0.1 adtimaserver.vn
@@ -13462,6 +13468,7 @@
 127.0.0.1 an.dongphim.net
 127.0.0.1 an.xemvtv.net
 127.0.0.1 api.boclinkads.com
+127.0.0.1 api.moneyoyo.org
 127.0.0.1 api2.boclinkads.com
 127.0.0.1 apia.headlines.pw
 127.0.0.1 avoadsservices.com
@@ -13537,6 +13544,7 @@
 127.0.0.1 s1.zzz.vn
 127.0.0.1 sbbanner.com
 127.0.0.1 sda.tamdiem247.com
+127.0.0.1 sdk.moneyoyo.com
 127.0.0.1 server.zmedia.vn
 127.0.0.1 serving-ad.tv24.vn
 127.0.0.1 sharks.vn
@@ -14111,7 +14119,6 @@
 127.0.0.1 ad.cooks.com
 127.0.0.1 ad.digitallook.com
 127.0.0.1 ad.domainfactory.de
-127.0.0.1 ad.ettoday.net
 127.0.0.1 ad.foxitsoftware.com
 127.0.0.1 ad.foxnetworks.com
 127.0.0.1 ad.garenanow.com
@@ -14591,7 +14598,6 @@
 127.0.0.1 ads.trinitymirror.co.uk
 127.0.0.1 ads.tripod.com
 127.0.0.1 ads.tso.dennisnet.co.uk
-127.0.0.1 ads.tvb.com
 127.0.0.1 ads.ultimate-guitar.com
 127.0.0.1 ads.uncrate.com
 127.0.0.1 ads.usatoday.com
@@ -15154,6 +15160,7 @@
 127.0.0.1 artax-evn.com
 127.0.0.1 artistestate.com
 127.0.0.1 artpever.com
+127.0.0.1 arvigorothan.com
 127.0.0.1 as.sexad.net
 127.0.0.1 as.webmd.com
 127.0.0.1 as5000.com
@@ -17335,6 +17342,7 @@
 127.0.0.1 hlvndpqwiwnyq.com
 127.0.0.1 hmepalobfn.com
 127.0.0.1 hoanoola.net
+127.0.0.1 hoardhopefullypromptly.com
 127.0.0.1 hockeyhavoc.com
 127.0.0.1 hoddlegamey.com
 127.0.0.1 holahupa.com
@@ -17382,6 +17390,7 @@
 127.0.0.1 hukojlbrijtu.com
 127.0.0.1 humandemand.com
 127.0.0.1 humilityanytime.com
+127.0.0.1 hunchlastlysluice.com
 127.0.0.1 hundiantick.com
 127.0.0.1 hundredscultureenjoyed.com
 127.0.0.1 hunlikeswanned.digital
@@ -17513,6 +17522,7 @@
 127.0.0.1 industrybrains.com
 127.0.0.1 inertimpuredeadlock.com
 127.0.0.1 inetlog.ru
+127.0.0.1 infamousfine.com
 127.0.0.1 infidelbima.uno
 127.0.0.1 infinite-ads.com
 127.0.0.1 infinityads.com
@@ -17876,6 +17886,7 @@
 127.0.0.1 leadplace.fr
 127.0.0.1 leadzu.com
 127.0.0.1 leadzupc.com
+127.0.0.1 leafy-feel.com
 127.0.0.1 lean.com
 127.0.0.1 leapfaucet.com
 127.0.0.1 leaplunchroom.com
@@ -17966,6 +17977,7 @@
 127.0.0.1 localspantle.com
 127.0.0.1 lockerdomecdn.com
 127.0.0.1 locketarloup.com
+127.0.0.1 locketcattishson.com
 127.0.0.1 loftsbaacad.com
 127.0.0.1 log.btopenworld.com
 127.0.0.1 logger.snackly.co
@@ -18093,10 +18105,12 @@
 127.0.0.1 marketron.com
 127.0.0.1 markofathenaluk.com
 127.0.0.1 markreptiloid.com
+127.0.0.1 marriagegray.com
 127.0.0.1 marriedvalue.com
 127.0.0.1 mars.media
 127.0.0.1 martyrcontrol.com
 127.0.0.1 mas.sector.sk
+127.0.0.1 mascaraowners.com
 127.0.0.1 massive-dark.pro
 127.0.0.1 mastermind.com
 127.0.0.1 mat.luckyspin666.com
@@ -18188,6 +18202,7 @@
 127.0.0.1 meshpetrols.com
 127.0.0.1 messagenovice.com
 127.0.0.1 messenger-notify.digital
+127.0.0.1 messsomehow.com
 127.0.0.1 messybusyrental.com
 127.0.0.1 metaffiliation.com
 127.0.0.1 metahv.xyz
@@ -18541,6 +18556,7 @@
 127.0.0.1 novem.pl
 127.0.0.1 novemberassimilate.com
 127.0.0.1 novemberseatsuccession.com
+127.0.0.1 nowheresank.com
 127.0.0.1 npipajajn.com
 127.0.0.1 npugpilraku.com
 127.0.0.1 nqmanxtemqvlne.com
@@ -18592,6 +18608,7 @@
 127.0.0.1 obdshyohcog.com
 127.0.0.1 obituaryfuneral.com
 127.0.0.1 obiyoluxjjzgy.com
+127.0.0.1 objectionsunited.com
 127.0.0.1 oboletcart.com
 127.0.0.1 obpofhtura.com
 127.0.0.1 obradjgifja.com
@@ -18949,6 +18966,8 @@
 127.0.0.1 pelagicmismate.com
 127.0.0.1 pelfsgarote.com
 127.0.0.1 peltastglaires.uno
+127.0.0.1 penbouncingmagpie.com
+127.0.0.1 pencilcongress.com
 127.0.0.1 pencilmoralturkey.com
 127.0.0.1 pennilesscomingall.com
 127.0.0.1 pennyweb.com
@@ -19023,6 +19042,7 @@
 127.0.0.1 pimproll.com
 127.0.0.1 pingpepa.xyz
 127.0.0.1 pinnalincuss.life
+127.0.0.1 pinpricktuxedokept.com
 127.0.0.1 pippio.com
 127.0.0.1 piquantpigs.com
 127.0.0.1 pisanguttate.com
@@ -19084,6 +19104,7 @@
 127.0.0.1 pollstover.guru
 127.0.0.1 pompadawe.com
 127.0.0.1 pontiflex.com
+127.0.0.1 ponysomebodymartyr.com
 127.0.0.1 pop-under.ru
 127.0.0.1 pop.bid
 127.0.0.1 pop5sjhspear.com
@@ -19100,10 +19121,12 @@
 127.0.0.1 popupmoney.com
 127.0.0.1 popupnation.com
 127.0.0.1 popuptraffic.com
+127.0.0.1 popuserapparatus.com
 127.0.0.1 porcatenonform.com
 127.0.0.1 porngraph.com
 127.0.0.1 porntrack.com
 127.0.0.1 pornve.sexyadsrun.com
+127.0.0.1 portlysingkenneth.com
 127.0.0.1 portybanders.digital
 127.0.0.1 poseidthewave.com
 127.0.0.1 poshhateful.com
@@ -19116,6 +19139,7 @@
 127.0.0.1 poucoaga.com
 127.0.0.1 pouptouch.com
 127.0.0.1 powerad.ai
+127.0.0.1 powershatchet.com
 127.0.0.1 ppfrlfe.com
 127.0.0.1 ppixufsalgm.com
 127.0.0.1 ppoommhizazn.com
@@ -19125,6 +19149,7 @@
 127.0.0.1 pr-ten.de
 127.0.0.1 praddpro.de
 127.0.0.1 praght.tech
+127.0.0.1 praiseddisintegrate.com
 127.0.0.1 prakritinfixed.com
 127.0.0.1 pramviable.com
 127.0.0.1 pranavafolksey.com
@@ -19339,6 +19364,7 @@
 127.0.0.1 quaintcan.com
 127.0.0.1 quakemarketing.com
 127.0.0.1 qualificationdishliquidate.com
+127.0.0.1 qualityadverse.com
 127.0.0.1 quallyrimers.com
 127.0.0.1 quantcast.com
 127.0.0.1 quantummetric.com
@@ -19712,6 +19738,7 @@
 127.0.0.1 scarofnght.com
 127.0.0.1 scashwl.com
 127.0.0.1 scatteredheat.com
+127.0.0.1 scatteredhecheaper.com
 127.0.0.1 scenescrockery.com
 127.0.0.1 schoolboyfingernail.com
 127.0.0.1 schoonnonform.com
@@ -21934,6 +21961,7 @@
 127.0.0.1 stats.pusher.com
 127.0.0.1 stats.searchftps.net
 127.0.0.1 stats.symptoma.com
+127.0.0.1 stats.ultraffic.info
 127.0.0.1 stats.unlimapps.com
 127.0.0.1 stats.vk-portal.net
 127.0.0.1 stats.wp.com
