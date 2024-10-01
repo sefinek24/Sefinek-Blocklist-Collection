@@ -1,12 +1,12 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727742820495 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1727750230593 43200 3600 259200 300
   NS  localhost.
 ;
 ;
 ;    File: Tracking
 ;    Info: Analytics, Diagnostics, Metrics, Public IP, Location
-; Domains: 79,336
-; Updated: 9/30/2024  18:48 (6:48 PM CST)
+; Domains: 79,370
+; Updated: 9/30/2024  21:01 (9:01 PM CST)
 ;
 ;     RAW: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking
 ;     Git: https://github.com/ShadowWhisperer/BlockLists.git
@@ -57523,6 +57523,8 @@ iptrackeronline.com CNAME .
 *.iptrackeronline.com CNAME .
 iptrack.io CNAME .
 *.iptrack.io CNAME .
+webinatech.com CNAME .
+*.webinatech.com CNAME .
 tyk.nu CNAME .
 *.tyk.nu CNAME .
 u8u7.cn CNAME .
@@ -75807,6 +75809,8 @@ mkt11728.com CNAME .
 *.mkt11728.com CNAME .
 mkt11729.com CNAME .
 *.mkt11729.com CNAME .
+mkt11730.com CNAME .
+*.mkt11730.com CNAME .
 mkt11731.com CNAME .
 *.mkt11731.com CNAME .
 mkt11732.com CNAME .
@@ -75855,6 +75859,8 @@ mkt11755.com CNAME .
 *.mkt11755.com CNAME .
 mkt11756.com CNAME .
 *.mkt11756.com CNAME .
+mkt11757.com CNAME .
+*.mkt11757.com CNAME .
 mkt11758.com CNAME .
 *.mkt11758.com CNAME .
 mkt11759.com CNAME .
@@ -75891,6 +75897,8 @@ mkt11809.com CNAME .
 *.mkt11809.com CNAME .
 mkt11810.com CNAME .
 *.mkt11810.com CNAME .
+mkt11811.com CNAME .
+*.mkt11811.com CNAME .
 mkt11812.com CNAME .
 *.mkt11812.com CNAME .
 mkt11813.com CNAME .
@@ -75921,6 +75929,8 @@ mkt11825.com CNAME .
 *.mkt11825.com CNAME .
 mkt11826.com CNAME .
 *.mkt11826.com CNAME .
+mkt11827.com CNAME .
+*.mkt11827.com CNAME .
 mkt11828.com CNAME .
 *.mkt11828.com CNAME .
 mkt11829.com CNAME .
@@ -76065,6 +76075,8 @@ mkt11900.com CNAME .
 *.mkt11900.com CNAME .
 mkt11901.com CNAME .
 *.mkt11901.com CNAME .
+mkt11902.com CNAME .
+*.mkt11902.com CNAME .
 mkt11903.com CNAME .
 *.mkt11903.com CNAME .
 mkt11904.com CNAME .
@@ -76137,6 +76149,8 @@ mkt11938.com CNAME .
 *.mkt11938.com CNAME .
 mkt11939.com CNAME .
 *.mkt11939.com CNAME .
+mkt11940.com CNAME .
+*.mkt11940.com CNAME .
 mkt11941.com CNAME .
 *.mkt11941.com CNAME .
 mkt11942.com CNAME .
@@ -76161,6 +76175,8 @@ mkt11955.com CNAME .
 *.mkt11955.com CNAME .
 mkt11956.com CNAME .
 *.mkt11956.com CNAME .
+mkt11957.com CNAME .
+*.mkt11957.com CNAME .
 mkt11959.com CNAME .
 *.mkt11959.com CNAME .
 mkt11960.com CNAME .
@@ -76169,18 +76185,32 @@ mkt11962.com CNAME .
 *.mkt11962.com CNAME .
 mkt11963.com CNAME .
 *.mkt11963.com CNAME .
+mkt11965.com CNAME .
+*.mkt11965.com CNAME .
 mkt11974.com CNAME .
 *.mkt11974.com CNAME .
+mkt11975.com CNAME .
+*.mkt11975.com CNAME .
 mkt11976.com CNAME .
 *.mkt11976.com CNAME .
+mkt11978.com CNAME .
+*.mkt11978.com CNAME .
+mkt11981.com CNAME .
+*.mkt11981.com CNAME .
 mkt11983.com CNAME .
 *.mkt11983.com CNAME .
 mkt11984.com CNAME .
 *.mkt11984.com CNAME .
+mkt11985.com CNAME .
+*.mkt11985.com CNAME .
 mkt11986.com CNAME .
 *.mkt11986.com CNAME .
 mkt11988.com CNAME .
 *.mkt11988.com CNAME .
+mkt11992.com CNAME .
+*.mkt11992.com CNAME .
+mkt11993.com CNAME .
+*.mkt11993.com CNAME .
 mkt12000.com CNAME .
 *.mkt12000.com CNAME .
 mkt12001.com CNAME .
@@ -76191,6 +76221,8 @@ mkt12004.com CNAME .
 *.mkt12004.com CNAME .
 mkt12007.com CNAME .
 *.mkt12007.com CNAME .
+mkt12008.com CNAME .
+*.mkt12008.com CNAME .
 mkt12010.com CNAME .
 *.mkt12010.com CNAME .
 mkt12013.com CNAME .
@@ -76199,8 +76231,12 @@ mkt12014.com CNAME .
 *.mkt12014.com CNAME .
 mkt12015.com CNAME .
 *.mkt12015.com CNAME .
+mkt12017.com CNAME .
+*.mkt12017.com CNAME .
 mkt12018.com CNAME .
 *.mkt12018.com CNAME .
+mkt12019.com CNAME .
+*.mkt12019.com CNAME .
 mkt12020.com CNAME .
 *.mkt12020.com CNAME .
 mkt12022.com CNAME .
@@ -76209,10 +76245,18 @@ mkt12025.com CNAME .
 *.mkt12025.com CNAME .
 mkt12026.com CNAME .
 *.mkt12026.com CNAME .
+mkt12028.com CNAME .
+*.mkt12028.com CNAME .
+mkt12029.com CNAME .
+*.mkt12029.com CNAME .
+mkt12031.com CNAME .
+*.mkt12031.com CNAME .
 mkt12032.com CNAME .
 *.mkt12032.com CNAME .
 mkt12033.com CNAME .
 *.mkt12033.com CNAME .
+mkt12034.com CNAME .
+*.mkt12034.com CNAME .
 mkt12043.com CNAME .
 *.mkt12043.com CNAME .
 mkt12044.com CNAME .
@@ -76227,6 +76271,10 @@ mkt12049.com CNAME .
 *.mkt12049.com CNAME .
 mkt12051.com CNAME .
 *.mkt12051.com CNAME .
+mkt12054.com CNAME .
+*.mkt12054.com CNAME .
+mkt12056.com CNAME .
+*.mkt12056.com CNAME .
 mkt12057.com CNAME .
 *.mkt12057.com CNAME .
 mkt12059.com CNAME .
@@ -76237,6 +76285,8 @@ mkt12061.com CNAME .
 *.mkt12061.com CNAME .
 mkt12063.com CNAME .
 *.mkt12063.com CNAME .
+mkt12064.com CNAME .
+*.mkt12064.com CNAME .
 mkt12065.com CNAME .
 *.mkt12065.com CNAME .
 mkt12067.com CNAME .
@@ -76245,14 +76295,22 @@ mkt12068.com CNAME .
 *.mkt12068.com CNAME .
 mkt12069.com CNAME .
 *.mkt12069.com CNAME .
+mkt12070.com CNAME .
+*.mkt12070.com CNAME .
 mkt12072.com CNAME .
 *.mkt12072.com CNAME .
+mkt12075.com CNAME .
+*.mkt12075.com CNAME .
 mkt12076.com CNAME .
 *.mkt12076.com CNAME .
 mkt12077.com CNAME .
 *.mkt12077.com CNAME .
+mkt12078.com CNAME .
+*.mkt12078.com CNAME .
 mkt12079.com CNAME .
 *.mkt12079.com CNAME .
+mkt12080.com CNAME .
+*.mkt12080.com CNAME .
 mkt12081.com CNAME .
 *.mkt12081.com CNAME .
 mkt12082.com CNAME .
@@ -76291,16 +76349,26 @@ mkt12102.com CNAME .
 *.mkt12102.com CNAME .
 mkt12106.com CNAME .
 *.mkt12106.com CNAME .
+mkt12110.com CNAME .
+*.mkt12110.com CNAME .
 mkt12111.com CNAME .
 *.mkt12111.com CNAME .
+mkt12112.com CNAME .
+*.mkt12112.com CNAME .
+mkt12115.com CNAME .
+*.mkt12115.com CNAME .
 mkt12116.com CNAME .
 *.mkt12116.com CNAME .
 mkt12118.com CNAME .
 *.mkt12118.com CNAME .
+mkt12121.com CNAME .
+*.mkt12121.com CNAME .
 mkt12123.com CNAME .
 *.mkt12123.com CNAME .
 mkt12125.com CNAME .
 *.mkt12125.com CNAME .
+mkt12130.com CNAME .
+*.mkt12130.com CNAME .
 mkt12136.com CNAME .
 *.mkt12136.com CNAME .
 mkt12140.com CNAME .
