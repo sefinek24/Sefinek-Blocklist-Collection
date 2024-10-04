@@ -1,8 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1727836471833 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1728009212069 43200 3600 259200 300
   NS  localhost.
 ;
-;202410020303
+;202410040303
 ; Adguard Mobile Host filters for Pi hole
 ; Collaborators: xxcriticxx, MajkiIT
 ; Homepage: https://www.certyficate.it/
@@ -97,6 +97,8 @@ mail.ru CNAME .
 *.mail.ru CNAME .
 co.kr CNAME .
 *.co.kr CNAME .
+mobiuspace.net CNAME .
+*.mobiuspace.net CNAME .
 nvdvr.cn CNAME .
 *.nvdvr.cn CNAME .
 ohmyad.co CNAME .
@@ -111,6 +113,8 @@ smaad.jp CNAME .
 *.smaad.jp CNAME .
 snappea.com CNAME .
 *.snappea.com CNAME .
+snaptube.app CNAME .
+*.snaptube.app CNAME .
 smartclip.net CNAME .
 *.smartclip.net CNAME .
 tencentmusic.com CNAME .
@@ -215,6 +219,8 @@ admulti.com CNAME .
 *.admulti.com CNAME .
 ucweb.com CNAME .
 *.ucweb.com CNAME .
+adnami.io CNAME .
+*.adnami.io CNAME .
 adonly.com CNAME .
 *.adonly.com CNAME .
 adpies.com CNAME .
@@ -451,6 +457,8 @@ opera.com CNAME .
 *.opera.com CNAME .
 wps.com CNAME .
 *.wps.com CNAME .
+falconnet.app CNAME .
+*.falconnet.app CNAME .
 ad-locus.com CNAME .
 *.ad-locus.com CNAME .
 newsdigest.jp CNAME .
