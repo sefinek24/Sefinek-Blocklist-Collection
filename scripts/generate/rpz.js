@@ -18,16 +18,23 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 		// Content
 		const fileContent = await fs.readFile(thisFileName, 'utf8');
 
-		const seenDomains = new Set();
-		const [, domain] = fileContent.split(' ');
-		if (seenDomains.has(domain)) return;
+		const outputLines = fileContent
+			.split('\n')
+			.reduce((acc, line) => {
+				const match = line.match(/^(?:127\.0\.0\.1|0\.0\.0\.0) (\S+)/);
+				if (match) {
+					const domain = match[1];
+					const domainParts = domain.split('.');
 
-		const replacedFile = fileContent
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) (\S+)/gmu, (_, data) => {
-				const rootDomain = data.split('.').slice(-2).join('.');
-				seenDomains.add(rootDomain);
-				return `${rootDomain} CNAME .\n*.${rootDomain} CNAME .`;
-			})
+					if (domainParts.length > 2 && !acc.seenDomains.has(domain)) {
+						acc.seenDomains.add(domain);
+						acc.output.push(`${domain} CNAME .\n*.${domain} CNAME .`);
+					}
+				}
+				return acc;
+			}, { seenDomains: new Set(), output: [] });
+
+		const replacedFile = outputLines.output.join('\n')
 			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /gmu, '; ')
 			.replaceAll(/#/gmu, ';')
 			.replace(/〢 /g, '')
@@ -36,7 +43,10 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
-		await fs.writeFile(fullNewFile, `$TTL 300\n@ SOA localhost. root.localhost. ${date.timestamp} 43200 3600 259200 300\n  NS  localhost.\n;\n${replacedFile}`);
+		await fs.writeFile(
+			fullNewFile,
+			`$TTL 300\n@ SOA localhost. root.localhost. ${date.timestamp} 43200 3600 259200 300\n  NS  localhost.\n;\n${replacedFile}`
+		);
 
 		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
