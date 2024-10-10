@@ -1,11 +1,13 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1728555088418 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1728562500888 43200 3600 259200 300
   NS  localhost.
 ;
+1.bdl99down.kukulaa.cn CNAME .
+*.1.bdl99down.kukulaa.cn CNAME .
 139520.aioc.qbgxl.com CNAME .
 *.139520.aioc.qbgxl.com CNAME .
-1717.1000uc.com CNAME .
-*.1717.1000uc.com CNAME .
+2.haory.cn CNAME .
+*.2.haory.cn CNAME .
 360down7.miiyun.cn CNAME .
 *.360down7.miiyun.cn CNAME .
 912648.aioc.qbgxl.com CNAME .
@@ -14,8 +16,6 @@ adf6.adf6.com CNAME .
 *.adf6.adf6.com CNAME .
 af.peertube.red CNAME .
 *.af.peertube.red CNAME .
-aosafrica.co.za CNAME .
-*.aosafrica.co.za CNAME .
 api.52kkg.com CNAME .
 *.api.52kkg.com CNAME .
 bot.haluodq.cc CNAME .
@@ -100,12 +100,12 @@ jtpdev.co.uk CNAME .
 *.jtpdev.co.uk CNAME .
 kale.amwebsolution.com CNAME .
 *.kale.amwebsolution.com CNAME .
-lh.yjjxz.com CNAME .
-*.lh.yjjxz.com CNAME .
 library.arihantmbainstitute.ac.in CNAME .
 *.library.arihantmbainstitute.ac.in CNAME .
 lide.omernisar.com CNAME .
 *.lide.omernisar.com CNAME .
+lostheaven.com.cn CNAME .
+*.lostheaven.com.cn CNAME .
 lyojj.outfit.dianamercer.com CNAME .
 *.lyojj.outfit.dianamercer.com CNAME .
 mail.bsa.bsafesafety.com CNAME .
@@ -148,6 +148,8 @@ rd.chuitian.cn CNAME .
 *.rd.chuitian.cn CNAME .
 sc.jishousc.shop CNAME .
 *.sc.jishousc.shop CNAME .
+sistema.intensegroupgt.com CNAME .
+*.sistema.intensegroupgt.com CNAME .
 soft.110route.com CNAME .
 *.soft.110route.com CNAME .
 sos.vivi.sg CNAME .
@@ -166,6 +168,8 @@ telesavers.co.za CNAME .
 *.telesavers.co.za CNAME .
 test.typoten.com CNAME .
 *.test.typoten.com CNAME .
+transfer.adttemp.com.br CNAME .
+*.transfer.adttemp.com.br CNAME .
 travelwithmanta.co.za CNAME .
 *.travelwithmanta.co.za CNAME .
 up.maolaoban.top CNAME .
@@ -216,14 +220,14 @@ www.maxmoney.com CNAME .
 *.www.maxmoney.com CNAME .
 www.medises.co.kr CNAME .
 *.www.medises.co.kr CNAME .
+www.ojang.pe.kr CNAME .
+*.www.ojang.pe.kr CNAME .
 www.opolis.io CNAME .
 *.www.opolis.io CNAME .
 www.qqqmy.com CNAME .
 *.www.qqqmy.com CNAME .
 www.reifenquick.de CNAME .
 *.www.reifenquick.de CNAME .
-www.saf-oil.ru CNAME .
-*.www.saf-oil.ru CNAME .
 www.soft.lannaoke.com CNAME .
 *.www.soft.lannaoke.com CNAME .
 www.starcountry.net CNAME .
