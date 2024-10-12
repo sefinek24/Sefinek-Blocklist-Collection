@@ -1,7 +1,9 @@
 $TTL 300
-@ SOA localhost. root.localhost. 1728763856510 43200 3600 259200 300
+@ SOA localhost. root.localhost. 1728771025183 43200 3600 259200 300
   NS  localhost.
 ;
+1.bdl99down.kukulaa.cn CNAME .
+*.1.bdl99down.kukulaa.cn CNAME .
 139520.aioc.qbgxl.com CNAME .
 *.139520.aioc.qbgxl.com CNAME .
 1717.1000uc.com CNAME .
@@ -224,10 +226,10 @@ www.jd-shop77.com CNAME .
 *.www.jd-shop77.com CNAME .
 www.jd288shopap.com CNAME .
 *.www.jd288shopap.com CNAME .
-www.jdapp388shop.com CNAME .
-*.www.jdapp388shop.com CNAME .
 www.luxurypropertiesfl.com CNAME .
 *.www.luxurypropertiesfl.com CNAME .
+www.maxmoney.com CNAME .
+*.www.maxmoney.com CNAME .
 www.medises.co.kr CNAME .
 *.www.medises.co.kr CNAME .
 www.ojang.pe.kr CNAME .
