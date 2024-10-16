@@ -1,4 +1,4 @@
-<div align="center"><h1>The best Blocklist Collection<br>made by Sefinek ✋</h1></div>
+<div align="center"><h1>The best Blocklist Collection ✋<br>made by Sefinek</h1></div>
 <img width="37%" align="right" src="images/kitten.png" alt="Orange kittyo">
 <div align="center">
     <br><br>
