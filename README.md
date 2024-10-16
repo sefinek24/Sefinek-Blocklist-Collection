@@ -120,9 +120,8 @@ git clone --branch main --single-branch https://github.com/sefinek24/Sefinek-Blo
 
 
 ## 🔒 License
-CC BY-NC-ND 4.0
-
 <div align="center">
+  <code>CC BY-NC-ND 4.0</code><br><br>
   <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fsefinek24%2FSefinek-Blocklist-Collection?ref=badge_large">
     <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsefinek24%2FSefinek-Blocklist-Collection.svg?type=large" alt="FOSSA Status">
   </a>
