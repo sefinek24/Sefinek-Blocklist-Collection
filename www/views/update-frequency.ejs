@@ -43,16 +43,16 @@
 <script>
     const showCronInfo = () => {
         const userTimezone = luxon.DateTime.local().zoneName;
-        document.getElementById('user-timezone').innerHTML = userTimezone;
+        document.getElementById('user-timezone').textContent = userTimezone;
 
         const github = luxon.DateTime.fromISO('<%= cron.github %>').setZone(userTimezone);
         const remote = luxon.DateTime.fromISO('<%= cron.remote %>').setZone(userTimezone);
 
-        document.getElementById('github').innerHTML = github.toLocaleString(luxon.DateTime.DATETIME_MED);
-        document.getElementById('remote').innerHTML = remote.toLocaleString(luxon.DateTime.DATETIME_MED);
+        document.getElementById('github').textContent = github.toLocaleString(luxon.DateTime.DATETIME_MED);
+        document.getElementById('remote').textContent = remote.toLocaleString(luxon.DateTime.DATETIME_MED);
     }
 
-   document.addEventListener('DOMContentLoaded', showCronInfo);
+    document.addEventListener('DOMContentLoaded', showCronInfo);
 </script>
 
 <%- include('./includes/footer.ejs') %>

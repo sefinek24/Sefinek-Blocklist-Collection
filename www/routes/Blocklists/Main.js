@@ -1,7 +1,7 @@
 const express = require('express');
+const Marked = require('marked');
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const Marked = require('marked');
 const { notFound } = require('../../middlewares/other/errors.js');
 const router = express.Router();
 
