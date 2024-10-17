@@ -45,7 +45,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(
 			fullNewFile,
-			`$TTL 300\n@ SOA localhost. root.localhost. ${date.timestamp} 43200 3600 259200 300\n  NS  localhost.\n;\n${replacedFile}`
+			`$TTL 300\n@ SOA localhost. root.localhost. ${date.timestamp} 43200 3600 259200 300\n  NS  localhost.\n${replacedFile}`
 		);
 
 		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
