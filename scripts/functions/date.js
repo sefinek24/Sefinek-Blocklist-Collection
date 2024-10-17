@@ -1,6 +1,6 @@
 const { DateTime } = require('luxon');
 
-const getDate = () => {
+module.exports = () => {
 	const now = DateTime.local();
 	const timezone = now.toFormat('ZZZZ');
 
@@ -8,8 +8,7 @@ const getDate = () => {
 		timestamp: now.ts,
 		now: now.toISO(),
 		full: now.toLocaleString(DateTime.DATETIME_FULL),
+		serialNumber: now.toFormat('yyyyLLdd') + '01',
 		timezone
 	};
 };
-
-module.exports = getDate();
