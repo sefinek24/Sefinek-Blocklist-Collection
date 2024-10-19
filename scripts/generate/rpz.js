@@ -24,14 +24,12 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 		fileContent.split('\n').forEach(line => {
 			const match = line.match(/^(?:127\.0\.0\.1|0\.0\.0\.0) (\S+)/);
 			if (match) {
-				const domain = match[1];
+				let domain = match[1];
+				if (domain.startsWith('www.')) domain = domain.slice(4);
+
 				if (!seenDomains.has(domain)) {
 					seenDomains.add(domain);
-					if (domain.startsWith('www.')) {
-						outputLines.push(`*.${domain.slice(4)} CNAME .`);
-					} else {
-						outputLines.push(`${domain} CNAME .`, `*.${domain} CNAME .`);
-					}
+					outputLines.push(`${domain} CNAME .`, `*.${domain} CNAME .`);
 				}
 			}
 		});
