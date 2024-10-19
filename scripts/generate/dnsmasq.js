@@ -20,15 +20,15 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		const date = getDate();
 		const replacedFile = fileContent
-			.replaceAll(
+			.replace(
 				/127\.0\.0\.1 localhost\.localdomain|255\.255\.255\.255 broadcasthost|ff0(?:0::0 ip6-mcastprefix|2::(?:2 ip6-allrouter|(?:1 ip6-allnode|3 ip6-allhost))s)|(?:fe80::1%lo0 |(?:(?:127\.0\.0\.|::)1 {2}|::1 (?:ip6-)?))localhost|ff00::0 ip6-localnet|127\.0\.0\.1 local(?:host)?|::1 ip6-loopback|0\.0\.0\.0 0\.0\.0\.0/gi,
 				''
 			)
-			.replaceAll('#=====', '# =====')
-			.replaceAll('# Custom host records are listed here.', '# Custom host records are listed here.\n\n')
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) (.*?)( .*)?$/, '0.0.0.0 $1/$2')
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /, 'server=/')
-			.replaceAll(/::|#/, '#')
+			.replace('#=====', '# =====')
+			.replace('# Custom host records are listed here.', '# Custom host records are listed here.\n\n')
+			.replace(/^(?:127\.0\.0\.1|0\.0\.0\.0) (.*?)( .*)?$/, '0.0.0.0 $1/$2')
+			.replace(/^(?:127\.0\.0\.1|0\.0\.0\.0) /, 'server=/')
+			.replace(/::|#/, '#')
 			.replace(/<Release>/, 'Dnsmasq')
 			.replace(/<Version>/, date.timestamp)
 			.replace(/<LastUpdate>/, `${date.full} | ${date.now}`);

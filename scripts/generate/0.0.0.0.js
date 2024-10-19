@@ -20,8 +20,8 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		const date = getDate();
 		const replacedFile = fileContent
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /, '0.0.0.0 ')
-			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /, '# 0.0.0.0 ')
+			.replace(/^(?:127\.0\.0\.1|0\.0\.0\.0) /, '0.0.0.0 ')
+			.replace(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /, '# 0.0.0.0 ')
 			.replace(/<Release>/, '0.0.0.0 before each domain')
 			.replace(/<Version>/, date.timestamp)
 			.replace(/<LastUpdate>/, `${date.full} | ${date.now}`);

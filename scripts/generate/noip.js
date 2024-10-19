@@ -20,13 +20,13 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		const date = getDate();
 		const replacedFile = fileContent
-			.replaceAll(
+			.replace(
 				/127\.0\.0\.1 localhost\.localdomain|255\.255\.255\.255 broadcasthost|ff0(?:0::0 ip6-mcastprefix|2::(?:2 ip6-allrouter|(?:1 ip6-allnode|3 ip6-allhost))s)|(?:fe80::1%lo0 |(?:(?:127\.0\.0\.|::)1 {2}|::1 (?:ip6-)?))localhost|ff00::0 ip6-localnet|127\.0\.0\.1 local(?:host)?|::1 ip6-loopback|0\.0\.0\.0 0\.0\.0\.0/gi,
 				''
 			)
-			.replaceAll('#=====', '# =====')
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /, '') // grex "0.0.0.0 " "127.0.0.1 "
-			.replaceAll(/::|#/, '#') // grex "#" "::"
+			.replace('#=====', '# =====')
+			.replace(/^(?:127\.0\.0\.1|0\.0\.0\.0) /, '') // grex "0.0.0.0 " "127.0.0.1 "
+			.replace(/::|#/, '#') // grex "#" "::"
 			.replace(/<Release>/, 'No IP (only domains)')
 			.replace(/<Version>/, date.timestamp)
 			.replace(/<LastUpdate>/, `${date.full} | ${date.now}`);
