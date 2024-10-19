@@ -5,7 +5,7 @@ const sha256 = require('../functions/sha512.js');
 const txtFilter = require('../functions/txtFilter.js');
 const process = require('../functions/process.js');
 
-const SKIP_FILES = ['pi-blocklist-porn-all.fork.txt'];
+const SKIP_FILES = ['gambling-indonesia.fork.txt', 'pi-blocklist-porn-all.fork.txt'];
 
 const convert = async (folderPath = path.join(__dirname, '../../blocklists/templates'), relativePath = '') => {
 	const { format, allFiles, txtFiles, generatedPath } = await txtFilter('rpz', path, fs, relativePath, folderPath);
