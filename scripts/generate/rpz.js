@@ -1,6 +1,6 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
-const { splitFile, MAX_MB, MAX_FILE_SIZE } = require('./file-processor/split.js');
+const splitFile = require('./file-processor/split.js');
 const getDate = require('../functions/date.js');
 const sha256 = require('../functions/sha512.js');
 const txtFilter = require('../functions/txtFilter.js');
@@ -10,8 +10,9 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 	const { format, allFiles, txtFiles, generatedPath } = await txtFilter('rpz', path, fs, relativePath, folderPath);
 
 	await Promise.all(txtFiles.map(async file => {
-		// Cache
 		const thisFileName = path.join(folderPath, file.name);
+
+		// Cache
 		const { cacheHash, stop } = await sha256(thisFileName, format, file);
 		if (stop) return;
 
@@ -46,15 +47,8 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 		const header = `$TTL 300\n@ SOA localhost. root.localhost. ${date.serialNumber} 43200 3600 259200 300\n  NS  localhost.\n`;
 		await fs.writeFile(fullNewFile, header + replacedFile);
 
-		const fileStats = await fs.stat(fullNewFile);
-		if (fileStats.size > MAX_FILE_SIZE) {
-			const mainContent = (header + replacedFile).slice(0, MAX_FILE_SIZE) + `\n; This file has a second part: ${file.name.replace('.txt', '_2.txt')}`;
-			await fs.writeFile(fullNewFile, mainContent, 'utf8');
-			console.log(`📑 File trimmed to ${MAX_MB}MB and updated: ${fullNewFile}`);
-			await splitFile(fullNewFile, header + replacedFile, header);
-		} else {
-			console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
-		}
+		const isSplit = await splitFile(fullNewFile, replacedFile, header);
+		if (!isSplit) console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
 	await process(convert, allFiles, path, relativePath, folderPath);
