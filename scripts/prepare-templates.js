@@ -65,11 +65,11 @@ const processDirectory = async dirPath => {
 
 
 						// 0.0.0.0 ||example.com^ -> 0.0.0.0 example.com
-						if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#') && (/\|\||\^/gim).test(line)) {
+						if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#') && (/\|\||\^/i).test(line)) {
 							const words = line.split(' ');
 							if (words.length !== 1) return;
 
-							line = `0.0.0.0 ${words[0].replace(/[|^]/gim, '').replace(/!/gim, '#').replace(/[\\[]/gim, '# [')}`;
+							line = `0.0.0.0 ${words[0].replace(/[|^]/i, '').replace(/!/i, '#').replace(/[\\[]/i, '# [')}`;
 							modifiedLines++;
 						}
 
