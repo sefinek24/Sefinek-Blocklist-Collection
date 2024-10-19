@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 07 Oct 2024 20:13:49 +0100
+# Last converted - Mon, 14 Oct 2024 20:26:22 +0100
 #
 127.0.0.1 adeventtracker.spotify.com
 127.0.0.1 do-not-tracker.org
@@ -119,15 +119,14 @@
 127.0.0.1 int.vlancaa.site
 127.0.0.1 int.vlancaa.fun
 127.0.0.1 tok.vaicore.xyz
+127.0.0.1 mediation.mwmadnetworks.com
 127.0.0.1 xplosion.de
 127.0.0.1 theadex.com
 127.0.0.1 adui.tg.meitu.com
 127.0.0.1 meitustat.com
 127.0.0.1 analysis.vesync.com
-127.0.0.1 log16-normal-useast5.tiktokv.us
 127.0.0.1 insights.zennioptical.com
 127.0.0.1 proxy.telemetry.us-ashburn-1.oci.oraclecloud.com
-127.0.0.1 sf16-telemetry-proxy-oci.tiktokcdn-us.com
 127.0.0.1 stats.rustore.ru
 127.0.0.1 vk-analytics.ru
 127.0.0.1 tracking.iwhop.cn
@@ -388,7 +387,6 @@
 127.0.0.1 ali-stats.jpush.cn
 127.0.0.1 msg.simeji.me
 127.0.0.1 msg.simeji.baidu.jp
-127.0.0.1 log.tiktokv.com
 127.0.0.1 post-log.pushwoosh.com
 127.0.0.1 line1-log.biligame.net
 127.0.0.1 log-upload-eur.mihoyo.com
@@ -724,6 +722,17 @@
 127.0.0.1 yadro.ru
 127.0.0.1 ymtracking.com
 127.0.0.1 zdbb.net
+127.0.0.1 log16-normal-useast5.tiktokv.us
+127.0.0.1 sf16-telemetry-proxy-oci.tiktokcdn-us.com
+127.0.0.1 log.tiktokv.com
+127.0.0.1 rtc-logger-va.tiktokv.com
+127.0.0.1 rtlog.tiktokv.com
+127.0.0.1 mon.us.tiktokv.com
+127.0.0.1 mon.tiktokv.com
+127.0.0.1 xlog.tiktokv.com
+127.0.0.1 xlog-va.tiktokv.com
+127.0.0.1 mcs-va.tiktokv.com
+127.0.0.1 analytics.tiktok.com
 127.0.0.1 localytics.com
 127.0.0.1 upoll.umengcloud.com
 127.0.0.1 utop.umengcloud.com
