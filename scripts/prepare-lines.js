@@ -29,7 +29,7 @@ const isPrivateIP = ip => {
 
 		return false;
 	} catch (err) {
-		console.error(`⚠️ Error checking if IP is private (${ip}): ${err.message}`);
+		console.warn(`⚠️ Error checking if IP is private (${ip}): ${err.message}`);
 		return false;
 	}
 };
