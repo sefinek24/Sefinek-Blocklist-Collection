@@ -1,7 +1,7 @@
 ! AdguardMobileSpyware
 !
 ! Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-! Last converted - Mon, 07 Oct 2024 20:13:49 +0100
+! Last converted - Mon, 14 Oct 2024 20:26:22 +0100
 !
 ||adeventtracker.spotify.com^
 ||do-not-tracker.org^
@@ -119,15 +119,14 @@
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||mediation.mwmadnetworks.com^
 ||xplosion.de^
 ||theadex.com^
 ||adui.tg.meitu.com^
 ||meitustat.com^
 ||analysis.vesync.com^
-||log16-normal-useast5.tiktokv.us^
 ||insights.zennioptical.com^
 ||proxy.telemetry.us-ashburn-1.oci.oraclecloud.com^
-||sf16-telemetry-proxy-oci.tiktokcdn-us.com^
 ||stats.rustore.ru^
 ||vk-analytics.ru^
 ||tracking.iwhop.cn^
@@ -388,7 +387,6 @@
 ||ali-stats.jpush.cn^
 ||msg.simeji.me^
 ||msg.simeji.baidu.jp^
-||log.tiktokv.com^
 ||post-log.pushwoosh.com^
 ||line1-log.biligame.net^
 ||log-upload-eur.mihoyo.com^
@@ -724,6 +722,17 @@
 ||yadro.ru^
 ||ymtracking.com^
 ||zdbb.net^
+||log16-normal-useast5.tiktokv.us^
+||sf16-telemetry-proxy-oci.tiktokcdn-us.com^
+||log.tiktokv.com^
+||rtc-logger-va.tiktokv.com^
+||rtlog.tiktokv.com^
+||mon.us.tiktokv.com^
+||mon.tiktokv.com^
+||xlog.tiktokv.com^
+||xlog-va.tiktokv.com^
+||mcs-va.tiktokv.com^
+||analytics.tiktok.com^
 ||localytics.com^
 ||upoll.umengcloud.com^
 ||utop.umengcloud.com^

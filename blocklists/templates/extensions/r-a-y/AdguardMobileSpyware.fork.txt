@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 07 Oct 2024 20:13:49 +0100
+# Last converted - Mon, 14 Oct 2024 20:26:22 +0100
 #
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 do-not-tracker.org
@@ -119,15 +119,14 @@
 0.0.0.0 int.vlancaa.site
 0.0.0.0 int.vlancaa.fun
 0.0.0.0 tok.vaicore.xyz
+0.0.0.0 mediation.mwmadnetworks.com
 0.0.0.0 xplosion.de
 0.0.0.0 theadex.com
 0.0.0.0 adui.tg.meitu.com
 0.0.0.0 meitustat.com
 0.0.0.0 analysis.vesync.com
-0.0.0.0 log16-normal-useast5.tiktokv.us
 0.0.0.0 insights.zennioptical.com
 0.0.0.0 proxy.telemetry.us-ashburn-1.oci.oraclecloud.com
-0.0.0.0 sf16-telemetry-proxy-oci.tiktokcdn-us.com
 0.0.0.0 stats.rustore.ru
 0.0.0.0 vk-analytics.ru
 0.0.0.0 tracking.iwhop.cn
@@ -388,7 +387,6 @@
 0.0.0.0 ali-stats.jpush.cn
 0.0.0.0 msg.simeji.me
 0.0.0.0 msg.simeji.baidu.jp
-0.0.0.0 log.tiktokv.com
 0.0.0.0 post-log.pushwoosh.com
 0.0.0.0 line1-log.biligame.net
 0.0.0.0 log-upload-eur.mihoyo.com
@@ -724,6 +722,17 @@
 0.0.0.0 yadro.ru
 0.0.0.0 ymtracking.com
 0.0.0.0 zdbb.net
+0.0.0.0 log16-normal-useast5.tiktokv.us
+0.0.0.0 sf16-telemetry-proxy-oci.tiktokcdn-us.com
+0.0.0.0 log.tiktokv.com
+0.0.0.0 rtc-logger-va.tiktokv.com
+0.0.0.0 rtlog.tiktokv.com
+0.0.0.0 mon.us.tiktokv.com
+0.0.0.0 mon.tiktokv.com
+0.0.0.0 xlog.tiktokv.com
+0.0.0.0 xlog-va.tiktokv.com
+0.0.0.0 mcs-va.tiktokv.com
+0.0.0.0 analytics.tiktok.com
 0.0.0.0 localytics.com
 0.0.0.0 upoll.umengcloud.com
 0.0.0.0 utop.umengcloud.com
