@@ -5,13 +5,16 @@ const sha256 = require('../functions/sha512.js');
 const txtFilter = require('../functions/txtFilter.js');
 const process = require('../functions/process.js');
 
+const SKIP_FILES = ['gambling-indonesia.fork.txt', 'pi-blocklist-porn-all.fork.txt'];
+
 const convert = async (folderPath = path.join(__dirname, '../../blocklists/templates'), relativePath = '') => {
 	const { format, allFiles, txtFiles, generatedPath } = await txtFilter('rpz', path, fs, relativePath, folderPath);
 
 	await Promise.all(txtFiles.map(async file => {
 		const thisFileName = path.join(folderPath, file.name);
 
-		// Cache
+		if (SKIP_FILES.includes(file.name)) return console.log(`🍅 Skipped ${thisFileName}`);
+
 		const { cacheHash, stop } = await sha256(thisFileName, format, file);
 		if (stop) return;
 
