@@ -17,42 +17,42 @@
 # Source: N/A
 # License: CC BY-NC-ND 4.0
 # Release: Dnsmasq
-# Version: 1729307071337
-# Last update: October 19, 2024 at 3:04 AM UTC | 2024-10-19T03:04:31.337+00:00
+# Version: 1724959811496
+# Last update: August 29, 2024 at 7:30 PM UTC | 2024-08-29T19:30:11.496+00:00 | UTC
 #
-# About:
+# 〢 About:
 # This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
 # If you come across any false positives, please create a new Issue or Pull request on GitHub. Thank you!
 #
-# Warning:
+# 〢 Warning:
 # By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
 #
 # -------------------------------------------------------------------------------------------------------------------------------------------------------
-0.0.0.0 access.soap.riotgames.com
-0.0.0.0 cdn.valorant-api.com
-0.0.0.0 content.valorant-api.com
-0.0.0.0 entitlements.auth.api.riotgames.com
-0.0.0.0 entitlements.auth.riotgames.com.edgesuite.net
-0.0.0.0 launcher-website-prod07.ol.epicgames.com
-0.0.0.0 pd.ap.a.pvp.net
-0.0.0.0 pd.eu.a.pvp.net
-0.0.0.0 pd.kr.a.pvp.net
-0.0.0.0 pd.na.a.pvp.net
-0.0.0.0 playvalorant.com
-0.0.0.0 riot-client-api-prod.ap.p.razerzone.com
-0.0.0.0 riot-client-api-prod.eu.p.razerzone.com
-0.0.0.0 riot-client-api-prod.kr.p.razerzone.com
-0.0.0.0 riot-client-api-prod.na.p.razerzone.com
-0.0.0.0 riot.dualstack.ap-northeast-1.amazon.com
-0.0.0.0 riot.dualstack.ap-southeast-1.amazon.com
-0.0.0.0 riot.dualstack.eu-west-1.amazon.com
-0.0.0.0 riot.dualstack.sa-east-1.amazon.com
-0.0.0.0 riot.dualstack.us-central-1.amazon.com
-0.0.0.0 riot.dualstack.us-west-2.amazon.com
-0.0.0.0 riotcdn.net
-0.0.0.0 riotgames.com
-0.0.0.0 riotgames.net
-0.0.0.0 riotstatic.net
-0.0.0.0 rso-auth.riotgames.com.edgesuite.net
-0.0.0.0 rso.api.riotgames.com.edgesuite.net
-0.0.0.0 valorant-api.com
+server=/access.soap.riotgames.com/
+server=/cdn.valorant-api.com/
+server=/content.valorant-api.com/
+server=/entitlements.auth.api.riotgames.com/
+server=/entitlements.auth.riotgames.com.edgesuite.net/
+server=/launcher-website-prod07.ol.epicgames.com/
+server=/pd.ap.a.pvp.net/
+server=/pd.eu.a.pvp.net/
+server=/pd.kr.a.pvp.net/
+server=/pd.na.a.pvp.net/
+server=/playvalorant.com/
+server=/riot-client-api-prod.ap.p.razerzone.com/
+server=/riot-client-api-prod.eu.p.razerzone.com/
+server=/riot-client-api-prod.kr.p.razerzone.com/
+server=/riot-client-api-prod.na.p.razerzone.com/
+server=/riot.dualstack.ap-northeast-1.amazon.com/
+server=/riot.dualstack.ap-southeast-1.amazon.com/
+server=/riot.dualstack.eu-west-1.amazon.com/
+server=/riot.dualstack.sa-east-1.amazon.com/
+server=/riot.dualstack.us-central-1.amazon.com/
+server=/riot.dualstack.us-west-2.amazon.com/
+server=/riotcdn.net/
+server=/riotgames.com/
+server=/riotgames.net/
+server=/riotstatic.net/
+server=/rso-auth.riotgames.com.edgesuite.net/
+server=/rso.api.riotgames.com.edgesuite.net/
+server=/valorant-api.com/
