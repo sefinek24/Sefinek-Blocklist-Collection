@@ -1,55 +1,55 @@
 !       _____   ______   ______   _____   _   _   ______   _  __        ____    _         ____     _____   _  __  _        _____    _____   _______
-!      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
-!     | (___   | |__    | |__      | |   |  \| | | |__    | ' /        | |_) | | |      | |  | | | |      | ' /  | |        | |   | (___      | |
-!      \___ \  |  __|   |  __|     | |   | . ` | |  __|   |  <         |  _ <  | |      | |  | | | |      |  <   | |        | |    \___ \     | |
-!      ____) | | |____  | |       _| |_  | |\  | | |____  | . \        | |_) | | |____  | |__| | | |____  | . \  | |____   _| |_   ____) |    | |
-!     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
-!
-!                                             The best collection of blocklists for your DNS server
-!                                                       https://blocklist.sefinek.net
-!
-! Title: Block all Twitter domains
-! Description: N/A
-! Expires: 1 day
-! Count: 25
-! Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
-! Modified by: Nobody
-! Source: N/A
-! License: CC BY-NC-ND 4.0
-! Release: AdGuard [adguard.com]
-! Version: 1724959810389
-! Last update: August 29, 2024 at 7:30 PM UTC | 2024-08-29T19:30:10.389+00:00 | UTC
-!
-! 〢 About:
-! This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
-! If you come across any false positives, please create a new Issue or Pull request on GitHub. Thank you!
-!
-! 〢 Warning:
-! By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
-!
-! -------------------------------------------------------------------------------------------------------------------------------------------------------
-||abs-0.twimg.com^
-||abs.twimg.com^
-||api.twitter.com^
-||blog.twitter.co^
-||cdn.cms-twdigitalassets.com^
-||developers.twitter.com^
-||fonts.twitter.com^
-||help.twitter.com^
-||mobile.twitter.co^
-||mobile.twitter.co.uk^
-||mobile.twitter.com^
-||mobile.twitter.com.au^
-||pbs.twimg.com^
-||platform.twitter.com^
-||syndication.twitter.com^
-||twitter.co^
-||twitter.co.uk^
-||twitter.com^
-||twitter.com.au^
-||twitterinc.tt.omtrdc.net^
-||video.twimg.com^
-||www.twitter.co^
-||www.twitter.co.uk^
-||www.twitter.com^
+#      / ____| |  ____| |  ____| |_   _| | \ | | |  ____| | |/ /       |  _ \  | |       / __ \   / ____| | |/ / | |      |_   _|  / ____| |__   __|
+#     | (___   | |__    | |__      | |   |  \| | | |__    | ' /        | |_) | | |      | |  | | | |      | ' /  | |        | |   | (___      | |
+#      \___ \  |  __|   |  __|     | |   | . ` | |  __|   |  <         |  _ <  | |      | |  | | | |      |  <   | |        | |    \___ \     | |
+#      ____) | | |____  | |       _| |_  | |\  | | |____  | . \        | |_) | | |____  | |__| | | |____  | . \  | |____   _| |_   ____) |    | |
+#     |_____/  |______| |_|      |_____| |_| \_| |______| |_|\_\       |____/  |______|  \____/   \_____| |_|\_\ |______| |_____| |_____/     |_|
+#
+#                                             The best collection of blocklists for your DNS server
+#                                                       https://blocklist.sefinek.net
+#
+# Title: Block all Twitter domains
+# Description: N/A
+# Expires: 1 day
+# Count: 25
+# Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
+# Modified by: Nobody
+# Source: N/A
+# License: CC BY-NC-ND 4.0
+# Release: AdGuard [adguard.com]
+# Version: 1729307070089
+# Last update: October 19, 2024 at 3:04 AM UTC | 2024-10-19T03:04:30.089+00:00
+#
+# About:
+# This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
+# If you come across any false positives, please create a new Issue or Pull request on GitHub. Thank you!
+#
+# Warning:
+# By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
+#
+# -------------------------------------------------------------------------------------------------------------------------------------------------------
+0.0.0.0 abs-0.twimg.com
+0.0.0.0 abs.twimg.com
+0.0.0.0 api.twitter.com
+0.0.0.0 blog.twitter.co
+0.0.0.0 cdn.cms-twdigitalassets.com
+0.0.0.0 developers.twitter.com
+0.0.0.0 fonts.twitter.com
+0.0.0.0 help.twitter.com
+0.0.0.0 mobile.twitter.co
+0.0.0.0 mobile.twitter.co.uk
+0.0.0.0 mobile.twitter.com
+0.0.0.0 mobile.twitter.com.au
+0.0.0.0 pbs.twimg.com
+0.0.0.0 platform.twitter.com
+0.0.0.0 syndication.twitter.com
+0.0.0.0 twitter.co
+0.0.0.0 twitter.co.uk
+0.0.0.0 twitter.com
+0.0.0.0 twitter.com.au
+0.0.0.0 twitterinc.tt.omtrdc.net
+0.0.0.0 video.twimg.com
+0.0.0.0 www.twitter.co
+0.0.0.0 www.twitter.co.uk
+0.0.0.0 www.twitter.com
 ||www.twitter.com.au^

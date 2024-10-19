@@ -17,81 +17,81 @@
 # Source: N/A
 # License: CC BY-NC-ND 4.0
 # Release: Dnsmasq
-# Version: 1724959811496
-# Last update: August 29, 2024 at 7:30 PM UTC | 2024-08-29T19:30:11.496+00:00 | UTC
+# Version: 1729307071346
+# Last update: October 19, 2024 at 3:04 AM UTC | 2024-10-19T03:04:31.346+00:00
 #
-# 〢 About:
+# About:
 # This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
 # If you come across any false positives, please create a new Issue or Pull request on GitHub. Thank you!
 #
-# 〢 Warning:
+# Warning:
 # By using this file, you acknowledge that the author is not liable for any damages or losses that may arise from its use, although the likelihood of such events is low.
 #
 # -------------------------------------------------------------------------------------------------------------------------------------------------------
-server=/auth.riotgames.com/
-server=/authenticate.riotgames.com/
-server=/bacon.secure.dyn.riotcdn.net/
-server=/chat.euw1.lol.riotgames.com/
-server=/chat.na1.lol.riotgames.com/
-server=/chat.oce1.lol.riotgames.com/
-server=/chat.pbe1.lol.riotgames.com/
-server=/chat.tr1.lol.riotgames.com/
-server=/clientconfig.rpg.riotgames.com/
-server=/data.riotgames.com/
-server=/dc.lol.riotgames.com/
-server=/entitlements.auth.riotgames.com/
-server=/eu.edge.rms.si.riotgames.com/
-server=/eun1.chat.si.riotgames.com/
-server=/ks-foundation.secure.dyn.riotcdn.net/
-server=/lol.riotgames.com/
-server=/lol.secure.dyn.riotcdn.net/
-server=/lq.euw1.lol.riotgames.com/
-server=/lq.na1.lol.riotgames.com/
-server=/lq.oc1.lol.riotgames.com/
-server=/lq.oc2.lol.riotgames.com/
-server=/lq.oc3.lol.riotgames.com/
-server=/lq.oce1.lol.riotgames.com/
-server=/lq.pbe1.lol.riotgames.com/
-server=/lq.tr1.lol.riotgames.com/
-server=/matchhistory.euw1.lol.riotgames.com/
-server=/matchhistory.na1.lol.riotgames.com/
-server=/matchhistory.oce1.lol.riotgames.com/
-server=/matchhistory.tr1.lol.riotgames.com/
-server=/oc1.lol.riotgames.com/
-server=/oc2.lol.riotgames.com/
-server=/oc3.lol.riotgames.com/
-server=/pbe1.lol.riotgames.com/
-server=/prod.euw1.lol.riotgames.com/
-server=/prod.na1.lol.riotgames.com/
-server=/prod.oc1.lol.riotgames.com/
-server=/prod.oc2.lol.riotgames.com/
-server=/prod.oc3.lol.riotgames.com/
-server=/prod.oce1.lol.riotgames.com/
-server=/prod.pbe1.lol.riotgames.com/
-server=/prod.tr1.lol.riotgames.com/
-server=/riot-client.dyn.riotcdn.net/
-server=/riot-client.secure.dyn.riotcdn.net/
-server=/riotgames.com/
-server=/ritoplus.secure.dyn.riotcdn.net/
-server=/s.lol.riotgames.com/
-server=/spectator.euw1.lol.riotgames.com/
-server=/spectator.na1.lol.riotgames.com/
-server=/spectator.oc1.lol.riotgames.com/
-server=/spectator.oc2.lol.riotgames.com/
-server=/spectator.oc3.lol.riotgames.com/
-server=/spectator.oce1.lol.riotgames.com/
-server=/spectator.pbe1.lol.riotgames.com/
-server=/spectator.tr1.lol.riotgames.com/
-server=/store.euw1.lol.riotgames.com/
-server=/store.na1.lol.riotgames.com/
-server=/store.oc1.lol.riotgames.com/
-server=/store.oc2.lol.riotgames.com/
-server=/store.oc3.lol.riotgames.com/
-server=/store.oce1.lol.riotgames.com/
-server=/store.pbe1.lol.riotgames.com/
-server=/store.tr1.lol.riotgames.com/
-server=/tr1.lol.riotgames.com/
-server=/valorant.secure.dyn.riotcdn.net/
-server=/wildrift.secure.dyn.riotcdn.net/
-server=/www.riotgames.com/
-server=/xsso.riotgames.com/
+0.0.0.0 auth.riotgames.com
+0.0.0.0 authenticate.riotgames.com
+0.0.0.0 bacon.secure.dyn.riotcdn.net
+0.0.0.0 chat.euw1.lol.riotgames.com
+0.0.0.0 chat.na1.lol.riotgames.com
+0.0.0.0 chat.oce1.lol.riotgames.com
+0.0.0.0 chat.pbe1.lol.riotgames.com
+0.0.0.0 chat.tr1.lol.riotgames.com
+0.0.0.0 clientconfig.rpg.riotgames.com
+0.0.0.0 data.riotgames.com
+0.0.0.0 dc.lol.riotgames.com
+0.0.0.0 entitlements.auth.riotgames.com
+0.0.0.0 eu.edge.rms.si.riotgames.com
+0.0.0.0 eun1.chat.si.riotgames.com
+0.0.0.0 ks-foundation.secure.dyn.riotcdn.net
+0.0.0.0 lol.riotgames.com
+0.0.0.0 lol.secure.dyn.riotcdn.net
+0.0.0.0 lq.euw1.lol.riotgames.com
+0.0.0.0 lq.na1.lol.riotgames.com
+0.0.0.0 lq.oc1.lol.riotgames.com
+0.0.0.0 lq.oc2.lol.riotgames.com
+0.0.0.0 lq.oc3.lol.riotgames.com
+0.0.0.0 lq.oce1.lol.riotgames.com
+0.0.0.0 lq.pbe1.lol.riotgames.com
+0.0.0.0 lq.tr1.lol.riotgames.com
+0.0.0.0 matchhistory.euw1.lol.riotgames.com
+0.0.0.0 matchhistory.na1.lol.riotgames.com
+0.0.0.0 matchhistory.oce1.lol.riotgames.com
+0.0.0.0 matchhistory.tr1.lol.riotgames.com
+0.0.0.0 oc1.lol.riotgames.com
+0.0.0.0 oc2.lol.riotgames.com
+0.0.0.0 oc3.lol.riotgames.com
+0.0.0.0 pbe1.lol.riotgames.com
+0.0.0.0 prod.euw1.lol.riotgames.com
+0.0.0.0 prod.na1.lol.riotgames.com
+0.0.0.0 prod.oc1.lol.riotgames.com
+0.0.0.0 prod.oc2.lol.riotgames.com
+0.0.0.0 prod.oc3.lol.riotgames.com
+0.0.0.0 prod.oce1.lol.riotgames.com
+0.0.0.0 prod.pbe1.lol.riotgames.com
+0.0.0.0 prod.tr1.lol.riotgames.com
+0.0.0.0 riot-client.dyn.riotcdn.net
+0.0.0.0 riot-client.secure.dyn.riotcdn.net
+0.0.0.0 riotgames.com
+0.0.0.0 ritoplus.secure.dyn.riotcdn.net
+0.0.0.0 s.lol.riotgames.com
+0.0.0.0 spectator.euw1.lol.riotgames.com
+0.0.0.0 spectator.na1.lol.riotgames.com
+0.0.0.0 spectator.oc1.lol.riotgames.com
+0.0.0.0 spectator.oc2.lol.riotgames.com
+0.0.0.0 spectator.oc3.lol.riotgames.com
+0.0.0.0 spectator.oce1.lol.riotgames.com
+0.0.0.0 spectator.pbe1.lol.riotgames.com
+0.0.0.0 spectator.tr1.lol.riotgames.com
+0.0.0.0 store.euw1.lol.riotgames.com
+0.0.0.0 store.na1.lol.riotgames.com
+0.0.0.0 store.oc1.lol.riotgames.com
+0.0.0.0 store.oc2.lol.riotgames.com
+0.0.0.0 store.oc3.lol.riotgames.com
+0.0.0.0 store.oce1.lol.riotgames.com
+0.0.0.0 store.pbe1.lol.riotgames.com
+0.0.0.0 store.tr1.lol.riotgames.com
+0.0.0.0 tr1.lol.riotgames.com
+0.0.0.0 valorant.secure.dyn.riotcdn.net
+0.0.0.0 wildrift.secure.dyn.riotcdn.net
+0.0.0.0 www.riotgames.com
+0.0.0.0 xsso.riotgames.com
