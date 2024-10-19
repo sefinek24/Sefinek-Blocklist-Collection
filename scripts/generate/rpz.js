@@ -42,9 +42,9 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /gmu, '; ')
 			.replaceAll(/#/gmu, ';')
 			.replace(/〢 /g, '')
-			.replace(/<Release>/gim, 'RPZ')
-			.replace(/<Version>/gim, date.timestamp)
-			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now}`);
+			.replace(/<Release>/i, 'RPZ')
+			.replace(/<Version>/i, date.timestamp)
+			.replace(/<LastUpdate>/i, `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(

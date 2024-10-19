@@ -29,9 +29,9 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) (.*?)( .*)?$/gmu, '0.0.0.0 $1/$2')
 			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /gmu, 'server=/')
 			.replaceAll(/::|#/gmu, '#')
-			.replace(/<Release>/gim, 'Dnsmasq')
-			.replace(/<Version>/gim, date.timestamp)
-			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now}`);
+			.replace(/<Release>/i, 'Dnsmasq')
+			.replace(/<Version>/i, date.timestamp)
+			.replace(/<LastUpdate>/i, `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(fullNewFile, replacedFile);
