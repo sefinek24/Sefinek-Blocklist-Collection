@@ -1,6 +1,6 @@
 const { promises: fs } = require('node:fs');
 
-const MAX_MB = 96;
+const MAX_MB = 99;
 const MAX_FILE_SIZE = MAX_MB * 1024 * 1024;
 
 const splitFile = async (filePath, content, header = '') => {
