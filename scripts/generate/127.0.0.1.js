@@ -1,6 +1,6 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
-const date = require('../functions/date.js');
+const getDate = require('../functions/date.js');
 const sha256 = require('../functions/sha512.js');
 const txtFilter = require('../functions/txtFilter.js');
 const process = require('../functions/process.js');
@@ -17,11 +17,13 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		// Content
 		const fileContent = await fs.readFile(thisFileName, 'utf8');
+
+		const date = getDate();
 		const replacedFile = fileContent
 			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /gmu, '127.0.0.1 ')
 			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /gmu, '# 127.0.0.1 ')
 			.replace(/<Release>/gim, '127.0.0.1 before each domain')
-			.replace(/<Version>/gim, date.timestamp.toString())
+			.replace(/<Version>/gim, date.timestamp)
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);

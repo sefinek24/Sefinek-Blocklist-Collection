@@ -1,6 +1,6 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
-const date = require('../functions/date.js');
+const getDate = require('../functions/date.js');
 const sha256 = require('../functions/sha512.js');
 const txtFilter = require('../functions/txtFilter.js');
 const process = require('../functions/process.js');
@@ -17,6 +17,8 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		// Content
 		const fileContent = await fs.readFile(thisFileName, 'utf8');
+
+		const date = getDate();
 		const replacedFile = fileContent
 			.replaceAll(
 				/127\.0\.0\.1 localhost\.localdomain|255\.255\.255\.255 broadcasthost|ff0(?:0::0 ip6-mcastprefix|2::(?:2 ip6-allrouter|(?:1 ip6-allnode|3 ip6-allhost))s)|(?:fe80::1%lo0 |(?:(?:127\.0\.0\.|::)1 {2}|::1 (?:ip6-)?))localhost|ff00::0 ip6-localnet|127\.0\.0\.1 local(?:host)?|::1 ip6-loopback|0\.0\.0\.0 0\.0\.0\.0/gi,
@@ -27,7 +29,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replace(/0\.0\.0\.0 (.*?)$/gmu, '||$1^')
 			.replaceAll(/::|#/gmu, '!')
 			.replace(/<Release>/gim, 'AdGuard [adguard.com]')
-			.replace(/<Version>/gim, date.timestamp.toString())
+			.replace(/<Version>/gim, date.timestamp)
 			.replace(/<LastUpdate>/gim, `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
