@@ -30,7 +30,7 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 		const header = 'server:\n';
 		await fs.writeFile(fullNewFile, header + replacedFile);
 
-		const isSplit = await splitFile(fullNewFile, replacedFile, header);
+		const isSplit = await splitFile(fullNewFile, replacedFile, '#', header);
 		if (!isSplit) console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
