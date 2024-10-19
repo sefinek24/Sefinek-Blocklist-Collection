@@ -63,7 +63,6 @@ https://blocklist.sefinek.net/generated/v1/noip/gambling/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/noip/gambling/sefinek.hosts2.txt
 https://blocklist.sefinek.net/generated/v1/noip/gambling/StevenBlack/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/gambling/TrustPositif/gambling-indonesia.fork.txt
-https://blocklist.sefinek.net/generated/v1/noip/gambling/TrustPositif/gambling-indonesia.fork_2.txt
 https://blocklist.sefinek.net/generated/v1/noip/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/v1/noip/games/valorant.txt
 https://blocklist.sefinek.net/generated/v1/noip/hate-and-junk/developerdan/extended.fork.txt
@@ -96,7 +95,6 @@ https://blocklist.sefinek.net/generated/v1/noip/piracy/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/noip/porn/4skinSkywalker/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/porn/blocklistproject/porn.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/porn/chadmayfield/pi-blocklist-porn-all.fork.txt
-https://blocklist.sefinek.net/generated/v1/noip/porn/chadmayfield/pi-blocklist-porn-all.fork_2.txt
 https://blocklist.sefinek.net/generated/v1/noip/porn/oisd/nsfw.fork.txt
 https://blocklist.sefinek.net/generated/v1/noip/porn/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/noip/porn/sefinek.hosts2.txt
