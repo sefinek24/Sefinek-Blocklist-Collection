@@ -2,9 +2,10 @@ const { promises: fs } = require('node:fs');
 const path = require('node:path');
 const { createHash } = require('node:crypto');
 
+const BASE_PATH = path.join(__dirname, '../../blocklists/templates');
+
 module.exports = async (thisFileName, type) => {
-	const basePath = path.join(__dirname, '../../blocklists/templates');
-	const relativePath = path.relative(basePath, path.dirname(thisFileName));
+	const relativePath = path.relative(BASE_PATH, path.dirname(thisFileName));
 	const cacheFolder = path.join(__dirname, `../../cache/${type}`, relativePath);
 
 	await fs.mkdir(cacheFolder, { recursive: true }).catch(err => console.error(`❌ Error creating cache folder: ${err}`));
