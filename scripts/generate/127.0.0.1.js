@@ -20,11 +20,11 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		const date = getDate();
 		const replacedFile = fileContent
-			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /gmu, '127.0.0.1 ')
-			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /gmu, '# 127.0.0.1 ')
-			.replace(/<Release>/i, '127.0.0.1 before each domain')
-			.replace(/<Version>/i, date.timestamp)
-			.replace(/<LastUpdate>/i, `${date.full} | ${date.now}`);
+			.replaceAll(/^(?:127\.0\.0\.1|0\.0\.0\.0) /, '127.0.0.1 ')
+			.replaceAll(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /, '# 127.0.0.1 ')
+			.replace(/<Release>/, '127.0.0.1 before each domain')
+			.replace(/<Version>/, date.timestamp)
+			.replace(/<LastUpdate>/, `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(fullNewFile, replacedFile);
