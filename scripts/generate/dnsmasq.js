@@ -26,16 +26,15 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			)
 			.replace('#=====', '# =====')
 			.replace('# Custom host records are listed here.', '# Custom host records are listed here.\n\n')
-			.replace(/^(?:127\.0\.0\.1|0\.0\.0\.0) (.*?)( .*)?$/, '0.0.0.0 $1/$2')
-			.replace(/^(?:127\.0\.0\.1|0\.0\.0\.0) /, 'server=/')
+			.replace(/(?:127\.0\.0\.1|0\.0\.0\.0) (.*?)( .*)?$/gm, '0.0.0.0 $1/$2')
+			.replace(/(?:127\.0\.0\.1|0\.0\.0\.0) /gm, 'server=/')
 			.replace(/::|#/, '#')
-			.replace(/<Release>/, 'Dnsmasq')
-			.replace(/<Version>/, date.timestamp)
-			.replace(/<LastUpdate>/, `${date.full} | ${date.now}`);
+			.replace('<Release>', 'Dnsmasq')
+			.replace('<Version>', date.timestamp)
+			.replace('<LastUpdate>', `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(fullNewFile, replacedFile);
-
 		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
