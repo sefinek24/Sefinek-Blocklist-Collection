@@ -44,7 +44,6 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		const fullNewFile = path.join(generatedPath, file.name);
 		const header = `$TTL 300\n@ SOA localhost. root.localhost. ${date.serialNumber} 43200 3600 259200 300\n  NS  localhost.\n`;
-
 		await fs.writeFile(fullNewFile, header + replacedFile);
 
 		const fileStats = await fs.stat(fullNewFile);
