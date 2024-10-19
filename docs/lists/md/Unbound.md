@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for Unbound</h1>
     <p>
         📄 » <b>Format: local-zone: "domain.tld." always_nxdomain</b><br>
-        📥 » <b>Last update: 05.09.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 19.10.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -63,6 +63,7 @@ https://blocklist.sefinek.net/generated/v1/unbound/gambling/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/gambling/sefinek.hosts2.conf
 https://blocklist.sefinek.net/generated/v1/unbound/gambling/StevenBlack/hosts.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/gambling/TrustPositif/gambling-indonesia.fork.conf
+https://blocklist.sefinek.net/generated/v1/unbound/gambling/TrustPositif/gambling-indonesia.fork_2.conf
 https://blocklist.sefinek.net/generated/v1/unbound/games/league-of-legends.conf
 https://blocklist.sefinek.net/generated/v1/unbound/games/valorant.conf
 https://blocklist.sefinek.net/generated/v1/unbound/hate-and-junk/developerdan/extended.fork.conf
@@ -95,6 +96,7 @@ https://blocklist.sefinek.net/generated/v1/unbound/piracy/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/4skinSkywalker/hosts.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/blocklistproject/porn.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/chadmayfield/pi-blocklist-porn-all.fork.conf
+https://blocklist.sefinek.net/generated/v1/unbound/porn/chadmayfield/pi-blocklist-porn-all.fork_2.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/oisd/nsfw.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/sefinek.hosts2.conf

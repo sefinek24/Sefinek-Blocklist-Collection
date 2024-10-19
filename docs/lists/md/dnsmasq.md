@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (Dnsmasq)</h1>
     <p>
         📄 » <b>Format: server=/domain.tld/</b><br>
-        📥 » <b>Last update: 05.09.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 19.10.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -63,6 +63,7 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/sefinek.hosts2.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/StevenBlack/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/TrustPositif/gambling-indonesia.fork.txt
+https://blocklist.sefinek.net/generated/v1/dnsmasq/gambling/TrustPositif/gambling-indonesia.fork_2.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/games/valorant.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/hate-and-junk/developerdan/extended.fork.txt
@@ -95,6 +96,7 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/piracy/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/porn/4skinSkywalker/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/porn/blocklistproject/porn.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/porn/chadmayfield/pi-blocklist-porn-all.fork.txt
+https://blocklist.sefinek.net/generated/v1/dnsmasq/porn/chadmayfield/pi-blocklist-porn-all.fork_2.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/porn/oisd/nsfw.fork.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/porn/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/porn/sefinek.hosts2.txt

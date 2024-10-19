@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (RPZ)</h1>
     <p>
         📄 » <b>Format: domain.tld CNAME .</b><br>
-        📥 » <b>Last update: 05.09.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 19.10.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -63,6 +63,7 @@ https://blocklist.sefinek.net/generated/v1/rpz/gambling/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/rpz/gambling/sefinek.hosts2.txt
 https://blocklist.sefinek.net/generated/v1/rpz/gambling/StevenBlack/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/gambling/TrustPositif/gambling-indonesia.fork.txt
+https://blocklist.sefinek.net/generated/v1/rpz/gambling/TrustPositif/gambling-indonesia.fork_2.txt
 https://blocklist.sefinek.net/generated/v1/rpz/games/league-of-legends.txt
 https://blocklist.sefinek.net/generated/v1/rpz/games/valorant.txt
 https://blocklist.sefinek.net/generated/v1/rpz/hate-and-junk/developerdan/extended.fork.txt
@@ -95,6 +96,7 @@ https://blocklist.sefinek.net/generated/v1/rpz/piracy/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/rpz/porn/4skinSkywalker/hosts.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/porn/blocklistproject/porn.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/porn/chadmayfield/pi-blocklist-porn-all.fork.txt
+https://blocklist.sefinek.net/generated/v1/rpz/porn/chadmayfield/pi-blocklist-porn-all.fork_2.txt
 https://blocklist.sefinek.net/generated/v1/rpz/porn/oisd/nsfw.fork.txt
 https://blocklist.sefinek.net/generated/v1/rpz/porn/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/rpz/porn/sefinek.hosts2.txt
