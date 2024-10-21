@@ -1,6 +1,5 @@
 const { mkdir, readdir, readFile, writeFile } = require('node:fs/promises');
 const { join } = require('node:path');
-const patterns = ['[Adblock Plus]', '! Version:', '! Description:', '! Title:', '! Last modified:', '! Expires:', '! Homepage:', '! Syntax:'];
 
 const processDirectory = async dirPath => {
 	try {
@@ -10,7 +9,7 @@ const processDirectory = async dirPath => {
 		const txtFiles = fileNames.filter(fileName => fileName.endsWith('.txt'));
 
 		await Promise.all(
-			txtFiles.map(async (fileName) => {
+			txtFiles.map(async fileName => {
 				const filePath = join(dirPath, fileName);
 				let fileContents = await readFile(filePath, 'utf8');
 
@@ -42,7 +41,6 @@ const processDirectory = async dirPath => {
 							if (modifiedLine !== line) {
 								convertedDomains++;
 								modifiedLines++;
-
 								line = modifiedLine;
 							}
 						}
@@ -65,24 +63,19 @@ const processDirectory = async dirPath => {
 
 
 						// 0.0.0.0 ||example.com^ -> 0.0.0.0 example.com
-						if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#') && (/\|\||\^/).test(line)) {
+						if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#') && (/\|\||\^/gim).test(line)) {
 							const words = line.split(' ');
 							if (words.length !== 1) return;
 
-							line = `0.0.0.0 ${words[0].replace(/[|^]/, '').replace(/!/, '#').replace(/[\\[]/, '# [')}`;
+							line = `0.0.0.0 ${words[0].replace(/[|^]/gim, '').replace(/!/, '#').replace(/[\\[]/gim, '# [').toLowerCase()}`;
 							modifiedLines++;
 						}
 
 						// ! -> #
-						if (patterns.some(pattern => line.startsWith(pattern))) {
+						if (line.startsWith('! ')) {
 							line = line.replace('!', '#');
 
-							if (line === '[Adblock Plus]') {
-								line = '# [Adblock Plus]';
-							} else if (line === '# Syntax: Adblock Plus Filter List') {
-								line = '# Syntax: 0.0.0.0 <domain>';
-							}
-
+							if (line === '# Syntax: Adblock Plus Filter List') line = '# Syntax: 0.0.0.0 <domain>';
 							modifiedLines++;
 						}
 
@@ -140,6 +133,12 @@ const processDirectory = async dirPath => {
 						if (line === '127.0.0.1') {
 							modifiedLines++;
 							line = line.replace('127.0.0.1', '');
+						}
+
+						// [Adblock Plus] -> nothing
+						if (line === '[Adblock Plus]') {
+							modifiedLines++;
+							line = line.replace('[Adblock Plus]', '');
 						}
 
 
