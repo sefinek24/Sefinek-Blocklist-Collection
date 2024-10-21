@@ -65,11 +65,11 @@ const processDirectory = async dirPath => {
 
 
 						// 0.0.0.0 ||example.com^ -> 0.0.0.0 example.com
-						if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#') && (/\|\||\^/g).test(line)) {
+						if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#') && (/\|\||\^/).test(line)) {
 							const words = line.split(' ');
 							if (words.length !== 1) return;
 
-							line = `0.0.0.0 ${words[0].replace(/[|^]/g, '').replace(/!/g, '#').replace(/[\\[]/g, '# [')}`;
+							line = `0.0.0.0 ${words[0].replace(/[|^]/, '').replace(/!/, '#').replace(/[\\[]/, '# [')}`;
 							modifiedLines++;
 						}
 
@@ -165,8 +165,8 @@ const processDirectory = async dirPath => {
 
 		await Promise.all(
 			subDirectories
-				.filter((subDir) => subDir.isDirectory())
-				.map((subDir) => processDirectory(join(dirPath, subDir.name)))
+				.filter(subDir => subDir.isDirectory())
+				.map(subDir => processDirectory(join(dirPath, subDir.name)))
 		);
 	} catch (err) {
 		console.error(`❌ An error occurred while processing ${dirPath} directory.`, err);
