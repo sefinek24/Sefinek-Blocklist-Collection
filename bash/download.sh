@@ -130,7 +130,7 @@ urls=(
   "https://v.firebog.net/hosts/static/w3kbl.txt suspicious/firebog/w3kbl.fork.txt"
 
   ## Extension
-  "https://big.oisd.nl extensions/oisd/big.fork.txt"
+  "https://big.oisd.nl/domainswild2 extensions/oisd/big.fork.txt"
   "https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt extensions/justdomains/adguarddns-justdomains.fork.txt"
   "https://raw.githubusercontent.com/cbuijs/ut1/master/adult/ips.original extensions/cbuijs/adult-domains-24733.fork.txt"
   "https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CountryCodesLists/France.txt extensions/deathbybandaid/CountryCodesLists-France.fork.txt"
