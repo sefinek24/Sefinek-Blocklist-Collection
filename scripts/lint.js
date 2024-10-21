@@ -30,7 +30,7 @@ const worker = async () => {
 			}
 
 			return null;
-		}).filter((a) => a !== null && !!a);
+		}).filter(a => a !== null && !!a);
 
 		fileContents.split('\n').forEach((line, index) => {
 			// Ensuring that no version/date might confuse users that read the raw text-file(s)
