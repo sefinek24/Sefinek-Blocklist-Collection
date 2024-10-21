@@ -85,7 +85,7 @@ urls=(
 
   ## Porn & Adult
   "https://blocklistproject.github.io/Lists/porn.txt porn/blocklistproject/porn.fork.txt"
-  "https://nsfw.oisd.nl porn/oisd/nsfw.fork.txt"
+  "https://nsfw.oisd.nl/domainswild2 porn/oisd/nsfw.fork.txt"
   "https://raw.githubusercontent.com/4skinSkywalker/Anti-Porn-HOSTS-File/master/HOSTS.txt porn/4skinSkywalker/hosts.fork.txt"
   "https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list porn/chadmayfield/pi-blocklist-porn-all.fork.txt"
   "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Adult porn/ShadowWhisperer/adult.fork.txt"
