@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 14 Oct 2024 20:26:22 +0100
+# Last converted - Tue, 22 Oct 2024 00:10:04 +0100
 #
 127.0.0.1 adeventtracker.spotify.com
 127.0.0.1 do-not-tracker.org
@@ -119,6 +119,13 @@
 127.0.0.1 int.vlancaa.site
 127.0.0.1 int.vlancaa.fun
 127.0.0.1 tok.vaicore.xyz
+127.0.0.1 events-api.towneers.prod.data.krmt.io
+127.0.0.1 event.karrotmarket.com
+127.0.0.1 iot-in-logser.realme.com
+127.0.0.1 push-api.topaz-analytics.com
+127.0.0.1 analytics.wildlifestudios.com
+127.0.0.1 opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
+127.0.0.1 rabbit.meitustat.com
 127.0.0.1 mediation.mwmadnetworks.com
 127.0.0.1 xplosion.de
 127.0.0.1 theadex.com
@@ -130,9 +137,6 @@
 127.0.0.1 stats.rustore.ru
 127.0.0.1 vk-analytics.ru
 127.0.0.1 tracking.iwhop.cn
-127.0.0.1 push-api.topaz-analytics.com
-127.0.0.1 analytics.wildlifestudios.com
-127.0.0.1 opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
 127.0.0.1 log-verify.mob.com
 127.0.0.1 app-analytics-services.com
 127.0.0.1 sg.log.ulivetv.net
@@ -251,6 +255,7 @@
 127.0.0.1 wsmetrics.batch.com
 127.0.0.1 log.isnssdk.com
 127.0.0.1 log-tb.isnssdk.com
+127.0.0.1 rtlog.isnssdk.com
 127.0.0.1 mon.isnssdk.com
 127.0.0.1 event.togothermany.com
 127.0.0.1 oldevent.togothermany.com
@@ -490,7 +495,7 @@
 127.0.0.1 sensors.snappea.com
 127.0.0.1 analytics.snaptube.app
 127.0.0.1 px.ucweb.com
-127.0.0.1 collector1.afreecatv.com
+127.0.0.1 collector1.sooplive.co.kr
 127.0.0.1 adtima-static.zadn.vn
 127.0.0.1 akstat.io
 127.0.0.1 chartbeat.net
@@ -722,7 +727,7 @@
 127.0.0.1 yadro.ru
 127.0.0.1 ymtracking.com
 127.0.0.1 zdbb.net
-127.0.0.1 log16-normal-useast5.tiktokv.us
+127.0.0.1 log-boot.tiktokv.com
 127.0.0.1 sf16-telemetry-proxy-oci.tiktokcdn-us.com
 127.0.0.1 log.tiktokv.com
 127.0.0.1 rtc-logger-va.tiktokv.com

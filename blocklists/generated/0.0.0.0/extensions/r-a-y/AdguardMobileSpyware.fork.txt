@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 14 Oct 2024 20:26:22 +0100
+# Last converted - Tue, 22 Oct 2024 00:10:04 +0100
 #
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 do-not-tracker.org
@@ -119,6 +119,13 @@
 0.0.0.0 int.vlancaa.site
 0.0.0.0 int.vlancaa.fun
 0.0.0.0 tok.vaicore.xyz
+0.0.0.0 events-api.towneers.prod.data.krmt.io
+0.0.0.0 event.karrotmarket.com
+0.0.0.0 iot-in-logser.realme.com
+0.0.0.0 push-api.topaz-analytics.com
+0.0.0.0 analytics.wildlifestudios.com
+0.0.0.0 opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
+0.0.0.0 rabbit.meitustat.com
 0.0.0.0 mediation.mwmadnetworks.com
 0.0.0.0 xplosion.de
 0.0.0.0 theadex.com
@@ -130,9 +137,6 @@
 0.0.0.0 stats.rustore.ru
 0.0.0.0 vk-analytics.ru
 0.0.0.0 tracking.iwhop.cn
-0.0.0.0 push-api.topaz-analytics.com
-0.0.0.0 analytics.wildlifestudios.com
-0.0.0.0 opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
 0.0.0.0 log-verify.mob.com
 0.0.0.0 app-analytics-services.com
 0.0.0.0 sg.log.ulivetv.net
@@ -251,6 +255,7 @@
 0.0.0.0 wsmetrics.batch.com
 0.0.0.0 log.isnssdk.com
 0.0.0.0 log-tb.isnssdk.com
+0.0.0.0 rtlog.isnssdk.com
 0.0.0.0 mon.isnssdk.com
 0.0.0.0 event.togothermany.com
 0.0.0.0 oldevent.togothermany.com
@@ -490,7 +495,7 @@
 0.0.0.0 sensors.snappea.com
 0.0.0.0 analytics.snaptube.app
 0.0.0.0 px.ucweb.com
-0.0.0.0 collector1.afreecatv.com
+0.0.0.0 collector1.sooplive.co.kr
 0.0.0.0 adtima-static.zadn.vn
 0.0.0.0 akstat.io
 0.0.0.0 chartbeat.net
@@ -722,7 +727,7 @@
 0.0.0.0 yadro.ru
 0.0.0.0 ymtracking.com
 0.0.0.0 zdbb.net
-0.0.0.0 log16-normal-useast5.tiktokv.us
+0.0.0.0 log-boot.tiktokv.com
 0.0.0.0 sf16-telemetry-proxy-oci.tiktokcdn-us.com
 0.0.0.0 log.tiktokv.com
 0.0.0.0 rtc-logger-va.tiktokv.com

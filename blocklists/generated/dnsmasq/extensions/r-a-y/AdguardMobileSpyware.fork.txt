@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 14 Oct 2024 20:26:22 +0100
+# Last converted - Tue, 22 Oct 2024 00:10:04 +0100
 #
 server=/adeventtracker.spotify.com/
 server=/do-not-tracker.org/
@@ -119,6 +119,13 @@ server=/int.vaicore.xyz/
 server=/int.vlancaa.site/
 server=/int.vlancaa.fun/
 server=/tok.vaicore.xyz/
+server=/events-api.towneers.prod.data.krmt.io/
+server=/event.karrotmarket.com/
+server=/iot-in-logser.realme.com/
+server=/push-api.topaz-analytics.com/
+server=/analytics.wildlifestudios.com/
+server=/opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io/
+server=/rabbit.meitustat.com/
 server=/mediation.mwmadnetworks.com/
 server=/xplosion.de/
 server=/theadex.com/
@@ -130,9 +137,6 @@ server=/proxy.telemetry.us-ashburn-1.oci.oraclecloud.com/
 server=/stats.rustore.ru/
 server=/vk-analytics.ru/
 server=/tracking.iwhop.cn/
-server=/push-api.topaz-analytics.com/
-server=/analytics.wildlifestudios.com/
-server=/opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io/
 server=/log-verify.mob.com/
 server=/app-analytics-services.com/
 server=/sg.log.ulivetv.net/
@@ -251,6 +255,7 @@ server=/node.aibeacon.jp/
 server=/wsmetrics.batch.com/
 server=/log.isnssdk.com/
 server=/log-tb.isnssdk.com/
+server=/rtlog.isnssdk.com/
 server=/mon.isnssdk.com/
 server=/event.togothermany.com/
 server=/oldevent.togothermany.com/
@@ -490,7 +495,7 @@ server=/sdk-log-inter.youdao.com/
 server=/sensors.snappea.com/
 server=/analytics.snaptube.app/
 server=/px.ucweb.com/
-server=/collector1.afreecatv.com/
+server=/collector1.sooplive.co.kr/
 server=/adtima-static.zadn.vn/
 server=/akstat.io/
 server=/chartbeat.net/
@@ -722,7 +727,7 @@ server=/www-google-analytics.l.google.com/
 server=/yadro.ru/
 server=/ymtracking.com/
 server=/zdbb.net/
-server=/log16-normal-useast5.tiktokv.us/
+server=/log-boot.tiktokv.com/
 server=/sf16-telemetry-proxy-oci.tiktokcdn-us.com/
 server=/log.tiktokv.com/
 server=/rtc-logger-va.tiktokv.com/

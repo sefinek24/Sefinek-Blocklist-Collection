@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024101901 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024102201 43200 3600 259200 300
   NS  localhost.
 adx-open-service.youku.com CNAME .
 *.adx-open-service.youku.com CNAME .
@@ -153,18 +153,24 @@ plugin.mobopay.baidu.com CNAME .
 *.plugin.mobopay.baidu.com CNAME .
 mo.freeindoapp.com CNAME .
 *.mo.freeindoapp.com CNAME .
-reqde.afreecatv.com CNAME .
-*.reqde.afreecatv.com CNAME .
-adballoon.afreecatv.com CNAME .
-*.adballoon.afreecatv.com CNAME .
-deapi.afreecatv.com CNAME .
-*.deapi.afreecatv.com CNAME .
+vod-mplayer.sooplive.co.kr CNAME .
+*.vod-mplayer.sooplive.co.kr CNAME .
+reqde.sooplive.co.kr CNAME .
+*.reqde.sooplive.co.kr CNAME .
+adballoon.sooplive.co.kr CNAME .
+*.adballoon.sooplive.co.kr CNAME .
+deapi.sooplive.co.kr CNAME .
+*.deapi.sooplive.co.kr CNAME .
 startup.mobile.yandex.net CNAME .
 *.startup.mobile.yandex.net CNAME .
 startup.mobile.webvisor.com CNAME .
 *.startup.mobile.webvisor.com CNAME .
 startup-mobile.ap.yandex-net.ru CNAME .
 *.startup-mobile.ap.yandex-net.ru CNAME .
+a.07aa269c0e76550c929640c170af557c7371753ba1b580236d7fa0a4.com CNAME .
+*.a.07aa269c0e76550c929640c170af557c7371753ba1b580236d7fa0a4.com CNAME .
+a.64e98469810bd13e2b45e52d19d6fddfe333b3528350d8cfa792d478.com CNAME .
+*.a.64e98469810bd13e2b45e52d19d6fddfe333b3528350d8cfa792d478.com CNAME .
 ad.zijieapi.com CNAME .
 *.ad.zijieapi.com CNAME .
 frontier100-toutiao-lf.fqnovel.com CNAME .

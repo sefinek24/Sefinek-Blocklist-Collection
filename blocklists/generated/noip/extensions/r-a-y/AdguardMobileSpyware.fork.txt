@@ -1,7 +1,7 @@
 # AdguardMobileSpyware
 #
 # Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-# Last converted - Mon, 14 Oct 2024 20:26:22 +0100
+# Last converted - Tue, 22 Oct 2024 00:10:04 +0100
 #
 adeventtracker.spotify.com
 do-not-tracker.org
@@ -119,6 +119,13 @@ int.vaicore.xyz
 int.vlancaa.site
 int.vlancaa.fun
 tok.vaicore.xyz
+events-api.towneers.prod.data.krmt.io
+event.karrotmarket.com
+iot-in-logser.realme.com
+push-api.topaz-analytics.com
+analytics.wildlifestudios.com
+opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
+rabbit.meitustat.com
 mediation.mwmadnetworks.com
 xplosion.de
 theadex.com
@@ -130,9 +137,6 @@ proxy.telemetry.us-ashburn-1.oci.oraclecloud.com
 stats.rustore.ru
 vk-analytics.ru
 tracking.iwhop.cn
-push-api.topaz-analytics.com
-analytics.wildlifestudios.com
-opentelemetry-collector.shared-services.us-east-1.general.prod.wildlife.io
 log-verify.mob.com
 app-analytics-services.com
 sg.log.ulivetv.net
@@ -251,6 +255,7 @@ node.aibeacon.jp
 wsmetrics.batch.com
 log.isnssdk.com
 log-tb.isnssdk.com
+rtlog.isnssdk.com
 mon.isnssdk.com
 event.togothermany.com
 oldevent.togothermany.com
@@ -490,7 +495,7 @@ sdk-log-inter.youdao.com
 sensors.snappea.com
 analytics.snaptube.app
 px.ucweb.com
-collector1.afreecatv.com
+collector1.sooplive.co.kr
 adtima-static.zadn.vn
 akstat.io
 chartbeat.net
@@ -722,7 +727,7 @@ www-google-analytics.l.google.com
 yadro.ru
 ymtracking.com
 zdbb.net
-log16-normal-useast5.tiktokv.us
+log-boot.tiktokv.com
 sf16-telemetry-proxy-oci.tiktokcdn-us.com
 log.tiktokv.com
 rtc-logger-va.tiktokv.com
