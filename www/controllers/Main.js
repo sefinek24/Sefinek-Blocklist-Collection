@@ -11,8 +11,6 @@ exports.index = async (req, res) => {
 	res.render('index.ejs', { version, db, uptime: formatTime.full(process.uptime()) });
 };
 
-exports.api = (req, res) => res.render('api.ejs', { version });
-
 exports.updateSchedule = (req, res) => {
 	const tz = { tz: 'Europe/Warsaw', currentDate: Date.now() };
 	const github = parseExpression('0 */2 * * *', tz);

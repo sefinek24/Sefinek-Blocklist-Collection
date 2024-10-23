@@ -2,37 +2,40 @@ const audioElement = new Audio('/sound/404.mp3');
 const playButtonElement = document.getElementById('play-button');
 let isAudioPlaying = false;
 
-const toggleAudioPlayback = () => {
-	if (isAudioPlaying) {
-		audioElement.pause();
-		isAudioPlaying = false;
-		playButtonElement.textContent = '🎵 Play Music';
-	} else {
-		audioElement.play().then(() => {
-			playButtonElement.textContent = '🔇 Pause Music';
+const labels = {
+	play: '🎵 Play music',
+	pause: '🔇 Pause music'
+};
+
+const updateButtonLabel = () => playButtonElement.textContent = isAudioPlaying ? labels.pause : labels.play;
+
+const toggleAudioPlayback = async () => {
+	try {
+		if (isAudioPlaying) {
+			audioElement.pause();
+			isAudioPlaying = false;
+		} else {
+			await audioElement.play();
 			isAudioPlaying = true;
-		}).catch(err => {
-			if (err.name === 'NotAllowedError') {
-				playButtonElement.textContent = '🎵 Play Music';
-				isAudioPlaying = false;
-			}
-		});
+		}
+	} catch (err) {
+		if (err.name === 'NotAllowedError') {
+			isAudioPlaying = false;
+		}
+	} finally {
+		updateButtonLabel();
 	}
 };
 
-playButtonElement.addEventListener('click', () => toggleAudioPlayback());
+playButtonElement.addEventListener('click', toggleAudioPlayback);
 
-
-const autoStartAudio = () => {
-	audioElement.play().then(() => {
-		playButtonElement.textContent = '🔇 Pause Music';
+(async () => {
+	try {
+		await audioElement.play();
 		isAudioPlaying = true;
-	}).catch(err => {
-		if (err.name === 'NotAllowedError') {
-			playButtonElement.textContent = '🎵 Play Music';
-			isAudioPlaying = false;
-		}
-	});
-};
-
-autoStartAudio();
+	} catch (err) {
+		if (err.name === 'NotAllowedError') isAudioPlaying = false;
+	} finally {
+		updateButtonLabel();
+	}
+})();

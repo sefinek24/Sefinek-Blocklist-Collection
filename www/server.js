@@ -38,9 +38,6 @@ app.use(require('./routes/Main.js'));
 app.use(require('./routes/Blocklists/Main.js'));
 app.use(require('./routes/Blocklists/Deprecated.js'));
 
-// API
-app.use(require('./routes/API.js'));
-
 
 // Errors
 app.use(notFound);
