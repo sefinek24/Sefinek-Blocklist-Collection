@@ -41,7 +41,7 @@ The blocklists on the primary server ([blocklist.sefinek.net](https://blocklist.
 - **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):**  
   Synchronization occurs daily at `01:00` and `06:00` (24-hour clock, Poland time zone: `GMT+01:00`). Cron: `0 1,6 * * *` (at minute 0 past hour 1 and 6).
 > [!IMPORTANT]  
-> Visit [this website](https://blocklist.sefinek.net/update-frequency) to check the next repository synchronization schedule in your time zone.  
+> Visit [this website](https://blocklist.sefinek.net/update-schedule) to check the next repository synchronization schedule in your time zone.  
 > This will help you set the optimal time for the cron job on your [Pi-hole](https://pi-hole.net) instance or other blocking software, including DNS servers.
 
 

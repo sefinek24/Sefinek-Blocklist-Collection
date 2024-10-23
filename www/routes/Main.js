@@ -5,6 +5,6 @@ const MainController = require('../controllers/Main.js');
 
 router.get('/', MainController.index);
 router.get('/api', MainController.api);
-router.get('/update-frequency', MainController.updateFrequency);
+router.get('/update-schedule', MainController.updateSchedule);
 
 module.exports = router;

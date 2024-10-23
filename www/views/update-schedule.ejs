@@ -1,12 +1,12 @@
 <%- include('./includes/header.ejs', {
-    title: 'Update frequency - Sefinek Blocklists',
+    title: 'Update schedule - Sefinek Blocklists',
     meta: {
         desc: 'This subpage displays the update time of repositories containing the list of blocklists for your time zone. You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.',
         tags: 'update, frequency, pi-hole, cron, time, timezone, date, sefinek, blocklist, collection',
         siteName: 'Made by Sefinek♥',
         color: '#000103'
     },
-    canonical: '/update-frequency',
+    canonical: '/update-schedule',
     subpage: 'update-frequency',
     libs: 'luxon',
     style: 'update-frequency'
@@ -14,14 +14,14 @@
 
 <div class="cover">
     <header class="cover-text">
-        <h1>Update frequency ⏰</h1>
+        <h1>Update schedule ⏰</h1>
     </header>
 </div>
 
 <main>
     <div class="container-box">
         <div class="container-text">
-            <div style="padding-bottom: 15px">
+            <div style="padding-bottom:10px">
                 <b>Your timezone:</b> <span id="user-timezone"></span>
             </div>
 
@@ -33,10 +33,17 @@
     </div>
 
     <div class="header-text">
-        <code>
-            This subpage displays the update time of repositories containing the list of blocklists for your time zone.<br>
-            You can refer to it to set up a suitable cron job for updating the blocklist on your instance, such as Pi-hole.
-        </code>
+        <h2>Information</h2>
+        <div style="padding-bottom:20px">
+            This subpage shows the upcoming task for updating blocklist repositories based on the specified time zone.<br>
+            You can use it to configure a cron job for automatically updating the blocklist on services such as Pi-hole.
+        </div>
+
+        <h2>IMPORTANT!</h2>
+        <div>
+            Do not download the lists too often. Downloading them too frequently may result in a permanent IP address block.<br>
+            The blocklists are updated daily on the main server at 1:00 AM, so downloading them every hour is unnecessary.
+        </div>
     </div>
 </main>
 

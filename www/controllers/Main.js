@@ -13,10 +13,10 @@ exports.index = async (req, res) => {
 
 exports.api = (req, res) => res.render('api.ejs', { version });
 
-exports.updateFrequency = (req, res) => {
+exports.updateSchedule = (req, res) => {
 	const tz = { tz: 'Europe/Warsaw', currentDate: Date.now() };
 	const github = parseExpression('0 */2 * * *', tz);
 	const remote = parseExpression('0 1,6 * * *', tz);
 
-	res.render('update-frequency.ejs', { cron: { github: github.next().toISOString(), remote: remote.next().toISOString() }, version });
+	res.render('update-schedule.ejs', { cron: { github: github.next().toISOString(), remote: remote.next().toISOString() }, version });
 };
