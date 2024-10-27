@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024102501 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024102701 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -1205,6 +1205,8 @@ api-analytics-prd.pelcro.com CNAME .
 *.api-analytics-prd.pelcro.com CNAME .
 api.autopilothq.com CNAME .
 *.api.autopilothq.com CNAME .
+api.june.so CNAME .
+*.api.june.so CNAME .
 api.wipmania.com CNAME .
 *.api.wipmania.com CNAME .
 apple.www.letv.com CNAME .
@@ -78027,6 +78029,8 @@ r.kleertjes.com CNAME .
 *.r.kleertjes.com CNAME .
 sat.sanoma.fi CNAME .
 *.sat.sanoma.fi CNAME .
+statistiek.rijksoverheid.nl CNAME .
+*.statistiek.rijksoverheid.nl CNAME .
 stats.fd.nl CNAME .
 *.stats.fd.nl CNAME .
 topspin.npo.nl CNAME .
