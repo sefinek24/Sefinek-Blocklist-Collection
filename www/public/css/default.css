@@ -72,30 +72,29 @@ a:active {
     margin-bottom: 24px;
 }
 
-button {
+.button {
     padding: 10px 20px;
-    font-size: 1.2rem;
+    font-size: 17px;
     background: linear-gradient(90deg, rgba(0, 10, 24, 0.5), rgba(0, 10, 24, 0.6));
     color: #fff;
     border: none;
     border-radius: 17px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 0 4px rgba(0, 10, 24, 0.66);
+    transition: background 0.5s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 4px rgba(0, 10, 24, 0.6);
     backdrop-filter: blur(2px);
     margin: 6px;
 }
 
-button:hover {
-    background: linear-gradient(90deg, rgba(0, 10, 24, 0.45), rgba(0, 10, 24, 0.7));
-    transform: scale(1.05);
-    box-shadow: 0 0 7px rgba(0, 10, 24, 0.66);
+.button:hover {
+    background: linear-gradient(90deg, rgba(0, 10, 24, 0.55), rgba(0, 10, 24, 0.8));
+    box-shadow: 0 0 6px rgba(0, 10, 24, 0.7);
+    text-shadow: none;
+    text-decoration: none;
 }
 
-button:active {
-    background: rgba(0, 10, 24, 0.2);
-    transform: scale(0.98);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+.button:active {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12);
 }
 
 /* Navigation menu styling */
@@ -149,15 +148,16 @@ nav #selected {
 .menu-toggle {
     display: none;
     position: fixed;
-    top: 25px;
+    top: 15px;
     right: 1px;
+    padding: 10px 15px;
+    margin-right: 15px;
     background: linear-gradient(180deg, rgba(11, 121, 191, 0.1), rgba(11, 121, 191, 0.14));
     color: #fff;
     border: none;
-    border-radius: 12px;
+    border-radius: 9px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
 
 /* Content section styling */
@@ -255,7 +255,7 @@ main {
         font-size: 15px;
     }
 
-    button {
+    .button {
         font-size: 1rem;
         margin: 5px;
     }
@@ -274,8 +274,11 @@ main {
         font-size: 14px;
     }
 
-    button {
-        margin: 3px;
+    .button {
+        width: 90%;
+        padding: 10px 0;
+        margin: 9px auto;
+        display: block;
     }
 
     .container-text {
@@ -291,5 +294,13 @@ main {
     .cover-text {
         font-size: 14px;
         margin: 0 5px;
+    }
+
+    .button {
+        width: 100%;
+        font-size: 15px;
+        padding: 7px 0;
+        margin: 10px auto;
+        border-radius: 22px;
     }
 }
