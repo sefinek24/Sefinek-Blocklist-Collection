@@ -43,6 +43,22 @@ main h2 {
     padding: 7px 0;
 }
 
+#advertisement {
+    right: 7px;
+    bottom: 7px;
+    font-size: 16px;
+    position: absolute;
+    color: #d8d8fc;
+    text-shadow: 0 0 4px #000;
+}
+
+#advertisement img {
+    margin-left: 5px;
+    height: 45px;
+    width: 45px;
+    vertical-align: middle;
+}
+
 /* Card */
 .card {
     display: flex;

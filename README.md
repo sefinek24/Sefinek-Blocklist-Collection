@@ -12,16 +12,16 @@
     <p>If you found this repository helpful or interesting, please consider giving it a star to show your support! ⭐</p>
 </div>
 
-## 💸 Support Me
-Unfortunately, my home internet connection doesn't allow me to host a blocklist, so I'm asking for your support. **Any donation would be greatly appreciated**, and with your help, the VPS server will remain online 24/7. I will also continue to actively maintain this project. Thank you! 😹😻
-> https://sefinek.net/support-me (Ko-fi, GitHub Sponsors, Stripe, Patreon, CS2 Skins)  
-> https://paypal.me/sefinek (PayPal: contact@sefinek.net)
-
-
-## 📝 More Information
+## 📝 Information
 Visit the official website of the project at [blocklist.sefinek.net](https://blocklist.sefinek.net) for more details.  
 New lists were added to the [generator](https://sefinek.net/blocklist-generator) on **October 19, 2024**. Please update your collection on your end :)
 
+<h2>💗 Powered by Storm Server Hosting</h2>
+<div align="center">
+  <a href="https://stormserverhosting.com" target="_blank">
+    <img src="www/public/images/stormserverhosting-banner.png" height="130" alt="Storm Server Hosting">
+  </a>
+</div>
 
 ## 📦 How to Acquire the Blocklist
 - The first option is to [generate your own list](https://sefinek.net/blocklist-generator), which is recommended for all users as it allows for customization based on specific needs and preferences.
