@@ -82,16 +82,12 @@ The blocklists on the primary server ([blocklist.sefinek.net](https://blocklist.
     🔡 <a href="docs/lists/Regex.md">View the regex list »</a>
 </h3>
 
+
 ## ✋ Warning
 It is important to regularly check this repository for updates and potential changes.
 Please note that while this blocklist can enhance your privacy and security, it may unintentionally block legitimate content or services.
 
 New lists are added periodically. You can install the [Sefinek Blocklists](https://apps.microsoft.com/detail/9p3tnt3pjd0j) app from the Microsoft Store for quick and easy access to these lists.
-
-
-## 🤔 Tutorials
-- [How to install Pi-hole?](https://blocklist.sefinek.net/viewer/tutorials/How_to_install_Pi-hole)
-- [How to install Unbound for Pi-hole?](https://blocklist.sefinek.net/viewer/tutorials/How_to_install_Unbound_for_Pi-hole)
 
 
 ## 🤝 Contributing
