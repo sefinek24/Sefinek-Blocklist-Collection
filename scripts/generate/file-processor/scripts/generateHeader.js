@@ -22,7 +22,7 @@ module.exports = (title, description, count) => {
 # Last update: <LastUpdate>
 #
 # 〢 About:
-# This file is part of the Sefinek Blocklist Collection, maintained by github.com/sefinek24.
+# This file is part of the Sefinek Blocklist Collection, maintained by Sefinek.
 # If you come across any false positives, please create a new Issue or Pull request on GitHub. Thank you!
 #
 # 〢 Warning:

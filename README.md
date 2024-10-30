@@ -4,8 +4,8 @@
     <br><br>
     <img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection" alt="README.md views" title="Repository views">
     <br>
-    <img src="https://img.shields.io/github/stars/sefinek24/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
-    <img src="https://img.shields.io/github/commit-activity/m/sefinek24/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
+    <img src="https://img.shields.io/github/stars/sefinek/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/commit-activity/m/sefinek/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
     <br>
     <a href="https://blocklist.sefinek.net/#stats" target="_blank">View more stats... »</a>
     <br><br>
@@ -25,11 +25,11 @@ New lists were added to the [generator](https://sefinek.net/blocklist-generator)
 
 ## 📦 How to Acquire the Blocklist
 - The first option is to [generate your own list](https://sefinek.net/blocklist-generator), which is recommended for all users as it allows for customization based on specific needs and preferences.
-- The second option is to use the [default list](https://github.com/sefinek24/Sefinek-Blocklist-Collection/tree/main/docs/lists/md) provided. This option is ideal for users who prefer a quick, straightforward solution without customization.
+- The second option is to use the [default list](https://github.com/sefinek/Sefinek-Blocklist-Collection/tree/main/docs/lists/md) provided. This option is ideal for users who prefer a quick, straightforward solution without customization.
 
 
 ## ❌ How to Report a False Positive?
-You can report a false positive by creating a new [Issue](https://github.com/sefinek24/Sefinek-Blocklist-Collection/issues), [creating a new PR](https://github.com/sefinek24/Sefinek-Blocklist-Collection/pulls) (just remember to follow the required syntax, see [whitelists/main.txt](https://github.com/sefinek24/Sefinek-Blocklist-Collection/blob/main/whitelists/main.txt#L10)), sending me a message on [Discord](https://sefinek.net), or contacting me via [email](https://sefinek.net).
+You can report a false positive by creating a new [Issue](https://github.com/sefinek/Sefinek-Blocklist-Collection/issues), [creating a new PR](https://github.com/sefinek/Sefinek-Blocklist-Collection/pulls) (just remember to follow the required syntax, see [whitelists/main.txt](https://github.com/sefinek/Sefinek-Blocklist-Collection/blob/main/whitelists/main.txt#L10)), sending me a message on [Discord](https://sefinek.net), or contacting me via [email](https://sefinek.net).
 Within 48 hours, I will add the domain or subdomain to the [whitelist](whitelists/main.txt).
 Shortly afterward, the false positive will be automatically removed from the blocklist via [GitHub Actions](.github/workflows/generate-blocklists.yml).
 The blocklists on the primary server ([blocklist.sefinek.net](https://blocklist.sefinek.net)) are updated every 25 hours (cron schedule: 0 1,6 * * *).
@@ -93,21 +93,21 @@ New lists are added periodically. You can install the [Sefinek Blocklists](https
 ## 🤝 Contributing
 I truly appreciate your interest in contributing!
 If you have any suggestions or ideas that could enhance this project, please feel free to share them with me.
-I warmly encourage you to contribute by submitting a [Pull request](https://github.com/sefinek24/Sefinek-Blocklist-Collection) with your proposed changes.
+I warmly encourage you to contribute by submitting a [Pull request](https://github.com/sefinek/Sefinek-Blocklist-Collection) with your proposed changes.
 Your efforts and insights are highly valued and will help make this project even better and more useful for others.
 Thank you in advance for your valuable contribution!
 
 
 ## 📥 How to Clone the Repository?
 ```bash
-git clone --branch main --single-branch https://github.com/sefinek24/Sefinek-Blocklist-Collection
+git clone --branch main --single-branch https://github.com/sefinek/Sefinek-Blocklist-Collection
 ```
 
 
 ## 🌠 My Other Repositories
-1. [Cloudflare-WAF-Expressions](https://github.com/sefinek24/Cloudflare-WAF-Expressions)
-2. [Node-Cloudflare-WAF-AbuseIPDB](https://github.com/sefinek24/Node-Cloudflare-WAF-AbuseIPDB)
-3. [UFW-AbuseIPDB-Reporter](https://github.com/sefinek24/UFW-AbuseIPDB-Reporter)
+1. [Cloudflare-WAF-Expressions](https://github.com/sefinek/Cloudflare-WAF-Expressions)
+2. [Node-Cloudflare-WAF-AbuseIPDB](https://github.com/sefinek/Node-Cloudflare-WAF-AbuseIPDB)
+3. [UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
 
 
 ## 🐈 Sources of Images Used
@@ -118,7 +118,7 @@ git clone --branch main --single-branch https://github.com/sefinek24/Sefinek-Blo
 ## 🔒 License
 <div align="center">
   <code>CC BY-NC-ND 4.0</code><br><br>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fsefinek24%2FSefinek-Blocklist-Collection?ref=badge_large">
-    <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsefinek24%2FSefinek-Blocklist-Collection.svg?type=large" alt="FOSSA Status">
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fsefinek%2FSefinek-Blocklist-Collection?ref=badge_large">
+    <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsefinek%2FSefinek-Blocklist-Collection.svg?type=large" alt="FOSSA Status">
   </a>
 </div>

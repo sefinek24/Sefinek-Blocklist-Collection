@@ -13,6 +13,6 @@ jobs:
       - name: Auto-assign issue
         uses: pozil/auto-assign-issue@v2
         with:
-          assignees: sefinek24
+          assignees: sefinek
           numOfAssignee: 1
           allowSelfAssign: false
