@@ -15,11 +15,11 @@ const RequestStats = new Schema({
 		dnsmasq: { type: Number, default: 0 },
 		noip: { type: Number, default: 0 },
 		rpz: { type: Number, default: 0 },
-		unbound: { type: Number, default: 0 }
+		unbound: { type: Number, default: 0 },
 	},
 
 	responses: { type: Map, of: Number, default: {} },
-	updateStatsFail: { type: Number, default: 0 }
+	updateStatsFail: { type: Number, default: 0 },
 }, { timestamps: true, versionKey: false });
 
 module.exports = model('request-stats', RequestStats);

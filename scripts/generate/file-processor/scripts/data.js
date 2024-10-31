@@ -5,7 +5,7 @@ exports.CATEGORIES = [
 		category: 'Anime',
 		// grex "anime" "manga" "nekomimi" "nekomusume" "hentai" "vtuber" "cosplay" "otaku" "shonen" "shoujo" "yuri" "yaoi" "ecchi" "isekai" "kawaii" "tsundere" "yandere" "yande.re" "waifu" "seinen" "doujinshi" "bishounen" "shojo" "chibi" "bishojo" "doujin" "seiyuu" "harem" "meido" "lolicon" "fudanshi" "kuudere" "genki" "lightnovel" "wotaku" "gawr-gura" "mori-calliope" "inugami-korone" "usada-pekora" "shirakami-fubuki" "houshou-marine" "ninomae-inanis" "amelia-watson" "kizuna-ai" "nyanners" "ironmouse" "veibae" "projekt-melody" "tokino-sora" "sakura-miko" "takanashi-kiara" "watson-amelia" "akai-haato" "ayunda-risu" "moona-hoshinova" "pavolia-reine" "oozora-subaru" "roboco-san" "himemori-luna" "nekomiya-hinata" "nekoha-shizuku" "kureiji-ollie" "shylily" "selen-tatsuki"
 		regex: /(?:s(?:hirakami\\-fub|elen\\-tats)uk|k(?:izuna\\-a|awai)|(?:doujins|ecc)h|fudansh|(?:hent|isek)a|chib|genk|y(?:ao|ur))i|(?:m(?:oona\\-hoshinov|ang)|nekomiya\\-hinat|himemori\\-lun|watson\\-ameli)a|(?:takanashi\\-kia|gawr\\-gu)ra|n(?:eko(?:ha\\-shizuku|mimi)|inomae\\-inanis|yanners)|inugami\\-korone|houshou\\-marine|p(?:rojekt\\-melody|avolia\\-reine)|(?:oozora\\-subar|ayunda\\-ris|seiyu|waif)u|(?:amelia\\-watso|(?:bishoun|s(?:ho|ei)n)e|lolico)n|(?:mori\\-calliop|kureiji\\-olli|nekomusum|ironmous|yande\.r|tsunder|yander|kuuder|veiba|anim)e|usada\\-pekora|(?:s(?:akura\\-mik|hou?j)|akai\\-haat|meid)o|tokino\\-sora|lightnovel|roboco\\-san|bishojo|(?:cospla|shylil)y|doujin|vtuber|w?otaku|harem/i,
-		file: 'anime/main.txt'
+		file: 'anime/main.txt',
 	},
 	{
 		title: 'Blocks most LGBTQ+ websites, including those that promote or oppose LGBTQ+ content',
@@ -13,7 +13,7 @@ exports.CATEGORIES = [
 		category: 'LGBTQ+',
 		// grex "lgbt" "pride" "gay" "geje" "gejowski" "lesbian" "lesbijka" "lesbijki" "lesbijek" "lesbijska" "bisexual" "biseksualny" "biseksualna" "biseksualni" "transgender" "transseksualista" "transseksualistka" "transowa" "transseksualny" "transseksualna" "transexual" "transsexual" "transexual" "transowy" "tranzytowy" "nonbinary" "niebinarny" "niebinarna" "asexual" "aseksualny" "aseksualna" "aseksualni" "pansexual" "panseksualny" "panseksualna" "aromantic" "aromantyczny" "aromantyczna" "aromantyczni" "demisexual" "demiseksualny" "demiseksualna" "cisgender" "cispłciowy" "cispłciowa" "genderfluid" "genderqueer" "queer" "queers" "lesbijka" "lesbijki" "aseksualny" "aseksualna" "interseksualny" "interseksualna" "interseksualni" "polyamory" "poliamoria" "poliamoryczny" "polysexual" "poliseksualny" "poliseksualna" "bigender" "dwupłciowy" "agender" "bezpłciowy" "two-spirit" "dwuduchowy" "allosexual" "alloseksualny" "alloseksualna" "alloromantic" "alloromantyczny" "alloromantyczna" "nonconforming" "niekonformistyczny" "niekonformistyczna" "pangender" "pangenderowy" "demiboy" "demichłopiec" "demigirl" "demidziewczyna" "intergender" "interplciowy" "multisexual" "multi-seksualny" "omnisexual" "omniseksualny" "queerplatonic" "queerplatoniczny" "skoliosexual" "skolioseksualny" "third-gender" "trzecia-plec" "xenogender" "ksenoplciowy" "graysexual" "demigender" "neutrois" "androgyne" "biromantic" "panromantic"
 		regex: /(?:nie(?:konformistycz|binar)n|(?:alloromantycz|(?:(?:poli|(?:allo|pan))|demi)seksual)n|transseksualn)[ay]|t(?:r(?:ansseksualistk?a|zecia\\-plec)|wo\\-spirit)|(?:queerplatoni|poliamory)czny|multi\\-seksualny|skoliose(?:ksualny|xual)|(?:demidziewczyn|poliamori|lesbijsk)a|inter(?:seksualn[aiy]|gender)|queer(?:platonic)?|n(?:onconforming|eutrois)|omnise(?:ksualny|xual)|(?:a(?:llo)?romanti|panromanti|biromanti)c|demichłopiec|(?:(?:third\\-|(?:(?:trans|(?:bi|a))|cis))|xeno)gender|aromantyczn[aiy]|(?:pangenderow|interplciow|ksenoplciow|(?:dwuduch|tranzyt)ow|(?:dwu|bez)płciow|polyamor|nonbinar|demibo|ga)y|ge(?:nderfluid|j(?:owski|e))|genderqueer|(?:bi|a)seksualn[aiy]|(?:(?:(?:(?:trans|(?:(?:(?:(?:allo|pan)|demi)|a)|bi))|tran)|(?:gra|pol)y)|multi)sexual|cispłciow[ay]|demigender|pangender|androgyne|lesbi(?:j(?:ek|k[ai])|an)|transow[ay]|demigirl|queers|pride|lgbt/i,
-		file: 'sites/lgbtqplus2.txt'
+		file: 'sites/lgbtqplus2.txt',
 	},
 	{
 		title: 'Blocks websites related to gambling, betting, and casinos',
@@ -21,7 +21,7 @@ exports.CATEGORIES = [
 		category: 'Gambling',
 		// grex "casino" "poker" "betting" "roulette" "blackjack" "slots" "gambling" "lottery" "jackpot" "craps" "bookmaker" "keno" "sweepstakes" "betonline" "scratchcards"
 		regex: /s(?:cratchcard|(?:weepstake|lot))s|b(?:lackjack|ookmaker)|betonline|gambling|roulette|jackpot|lottery|betting|(?:casi|ke)no|craps|poker/i,
-		file: 'gambling/sefinek.hosts2.txt'
+		file: 'gambling/sefinek.hosts2.txt',
 	},
 	{
 		title: 'Blocks websites with adult content, pornography, and explicit material',
@@ -29,7 +29,7 @@ exports.CATEGORIES = [
 		category: 'Adult',
 		// grex "porn" "xxx" "nude" "sexual" "erotic" "bdsm" "voyeur" "camgirl" "escort" "prostitution" "stripclub" "lingerie" "adultsite" "adultcontent" "playboy" "hustler" "sexting" "pornstars" "adultchat" "erotism" "hardcoreporn" "hentai" "yuri" "yaoi" "ecchi" "tribbing" "pegging" "polyamory" "bdsmcommunity" "swingers" "kink"
 		regex: /bdsmcommunity|prostitution|h(?:ardcoreporn|entai)|adult(?:c(?:onten|ha)t|site)|p(?:olyamor|laybo)y|pornstars|s(?:tripclub|wingers)|tribbing|(?:lingeri|nud)e|eroti(?:sm|c)|hustler|camgirl|(?:pegg|sext)ing|voyeur|sexual|escort|(?:ecch|y(?:ao|ur))i|bdsm|porn|kink|xxx/i,
-		file: 'porn/sefinek.hosts2.txt'
+		file: 'porn/sefinek.hosts2.txt',
 	},
 	{
 		title: 'Blocks websites related to piracy, illegal downloads, torrents, and copyright infringement',
@@ -37,7 +37,7 @@ exports.CATEGORIES = [
 		category: 'Piracy',
 		// grex "torrent" "pirate" "crack" "warez" "keygen" "serial" "hacking" "illegaldownload" "hacktools" "illegalstream" "crackme" "piratebay"
 		regex: /illegal(?:download|stream)|piratebay|hack(?:tools|ing)|crackme|torrent|pirate|keygen|serial|crack|warez/i,
-		file: 'piracy/sefinek.hosts.txt'
+		file: 'piracy/sefinek.hosts.txt',
 	},
 	{
 		title: 'Blocks websites promoting racism, hate speech, and extremist ideologies',
@@ -45,7 +45,7 @@ exports.CATEGORIES = [
 		category: 'Hate Speech',
 		// grex "racism" "nazi" "whitesupremacy" "whitenationalism" "antisemitism" "antiislam" "kukluxklan" "neonazi" "extremism" "radicalism" "hatespeech" "holocaustdenial" "xenophobia" "homophobia" "islamophobia" "antisemite" "fascism" "supremacy" "whitepride" "alt-right" "neonazism" "ethnonationalism"
 		regex: /ethnonationalism|white(?:nationalism|supremacy|pride)|h(?:olocaustdenial|atespeech)|antisemitism|islamophobia|a(?:ntisemite|lt\\-right)|kukluxklan|radicalism|(?:hom|xen)ophobia|supremacy|(?:neonazis|antiisla)m|(?:extrem|(?:fas|ra)c)ism|neonazi|nazi/i,
-		file: 'hate-and-junk/sefinek.hosts.txt'
+		file: 'hate-and-junk/sefinek.hosts.txt',
 	},
 	{
 		title: 'Blocks most sites related to e-sport',
@@ -55,7 +55,7 @@ exports.CATEGORIES = [
 		regex: /p(?:ubg\\-global\\-championship|atrik\\-lindberg|vpro\\.com)|(?:carl\\-martin\\-erik\\-larsso|(?:peter\\-rasmus|finn\\-ander)se|kyle\\-jackso)n|oleksandr\\-kostyliev|ch(?:ristopher\\-alesund|allengermode)|the\\-international|m(?:ichael\\-grzesiek|athieu\\-herbaut)|(?:overwatch\\-leagu|esl\\-pro\\-leagu|popflash\\.sit|intel\\-extrem)e|andreas\\-hojsleth|fifae\\-world\\-cup|l(?:adislav\\-kovacs|uka\\-perkovic)|j(?:esper\\-wecksell|ohan\\-sundstein)|gabriel\\-toledo|k(?:yle\\-giersdorf|enny\\-schrub)|nicolai\\-reedtz|(?:lee\\-sang\\-hyeo|sostron)k|rasmus\\-winther|marcelo\\-david|(?:blast\\-premi|olof\\-kajbj)er|danil\\-ishutin|nikola\\-kovac|gamersclub|tyson\\-ngo|pgl\\-major|(?:e(?:s(?:ea\\.ne|por)|\\-spor)|facei)t/i,
 		// grex "finesport" "livesport" "thesport" "familjenesport" "simplesport" "cyclesport" "teamsport" "worldsport" "allsport" "realsport" "prosport" "schoolsport" "football" "basketball" "volleyball" "baseball" "athletics" "olympics" "marathon" "runningsport" "watersport" "motorsport" "outdoorsport"
 		whitelist: /(?:f(?:amilje|i)n|liv|th)esport|(?:running|(?:outdo|mot)or|w(?:ater|orld)|team|(?:rea|al)l|pro)sport|s(?:chool|imple)sport|(?:bas(?:ket|e)|foot)ball|volleyball|cyclesport|athletics|marathon|olympics/i,
-		file: 'sites/esport.txt'
+		file: 'sites/esport.txt',
 	},
 	{
 		title: 'Blocks most social media platforms and related services (beta)',
@@ -63,7 +63,7 @@ exports.CATEGORIES = [
 		category: 'Social Media',
 		// grex "facebook" "twitter" "instagram" "tiktok" "snapchat" "linkedin" "pinterest" "reddit" "tumblr"
 		regex: /instagram|pinterest|facebook|linkedin|(?:snapcha|reddi)t|t(?:(?:witte|umbl)r|iktok)/i,
-		file: 'sites/social-media.txt'
+		file: 'sites/social-media.txt',
 	},
 	{
 		title: 'Blocks streaming media platforms like YouTube, Netflix, Spotify, and others (beta)',
@@ -71,7 +71,7 @@ exports.CATEGORIES = [
 		category: 'Streaming Media',
 		// grex "youtube" "netflix" "spotify" "disneyplus" "hulu" "twitch" "vimeo" "soundcloud" "hbo"
 		regex: /s(?:oundcloud|potify)|disneyplus|netflix|youtube|twitch|vimeo|h(?:ulu|bo)/i,
-		file: 'sites/streaming-media.txt'
+		file: 'sites/streaming-media.txt',
 	},
 	{
 		title: 'Blocks e-commerce websites and online shopping platforms (beta)',
@@ -79,7 +79,7 @@ exports.CATEGORIES = [
 		category: 'Shopping',
 		// grex "amazon" "ebay" "aliexpress" "etsy" "wish" "shopify" "zalando" "ikea" "alibaba" "ebay-kleinanzeigen" "olx" "allegro"
 		regex: /ebay\\-kleinanzeigen|a(?:li(?:express|baba)|mazon)|shopify|allegro|zalando|ebay|wish|ikea|etsy|olx/i,
-		file: 'sites/shopping.txt'
+		file: 'sites/shopping.txt',
 	},
 	{
 		title: 'Blocks news websites and media outlets (beta)',
@@ -87,7 +87,7 @@ exports.CATEGORIES = [
 		category: 'News Media',
 		// grex "foxnews" "aljazeera" "reuters" "nytimes" "washingtonpost" "thetimes" "bloomberg"
 		regex: /washingtonpost|aljazeera|bloomberg|(?:thetime|(?:(?:foxnew|reuter)|nytime))s/i,
-		file: 'sites/news-media.txt'
+		file: 'sites/news-media.txt',
 	},
 	{
 		title: 'Blocks productivity tools and collaboration platforms (beta)',
@@ -95,8 +95,8 @@ exports.CATEGORIES = [
 		category: 'Productivity',
 		// grex "googledocs" "office365" "slack" "zoom" "trello" "notion" "asana" "microsoftteams" "dropbox" "confluence" "jira" "clickup"
 		regex: /microsoftteams|c(?:onfluence|lickup)|googledocs|office365|dropbox|notion|trello|asana|slack|zoom|jira/i,
-		file: 'sites/productivity.txt'
-	}
+		file: 'sites/productivity.txt',
+	},
 ];
 
 exports.GLOBAL_WHITELIST = [];
@@ -180,5 +180,5 @@ exports.fileUrls = [
 	{ url: 'https://github.com/tb0hdan/domains/raw/master/data/netherlands/domain2multi-nl00.txt.xz', name: 'tb0hdan_d2m-nl00.xz' },
 	{ url: 'https://github.com/tb0hdan/domains/raw/master/data/netherlands/domain2multi-nl01.txt.xz', name: 'tb0hdan_d2m-nl01.xz' },
 
-	{ url: 'https://github.com/tb0hdan/domains/raw/master/data/iceland/domain2multi-is00.txt.xz', name: 'tb0hdan_d2m-is00.xz' }
+	{ url: 'https://github.com/tb0hdan/domains/raw/master/data/iceland/domain2multi-is00.txt.xz', name: 'tb0hdan_d2m-is00.xz' },
 ];

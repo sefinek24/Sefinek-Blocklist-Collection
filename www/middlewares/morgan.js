@@ -1,7 +1,7 @@
 const morgan = require('morgan');
 
 const userAgentsToSkip = [
-	'Better Uptime Bot Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36'
+	'Better Uptime Bot Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36',
 ];
 
 const userAgents = [
@@ -35,7 +35,7 @@ const userAgents = [
 	'Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)',
 	'Mozilla/5.0 (compatible; proximic; +https://www.comscore.com/Web-Crawler)',
 	'Mozilla/5.0 (compatible; TTD-Content; +https://www.thetradedesk.com/general/ttd-content)',
-	'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)'
+	'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)',
 ];
 
 const skipUserAgent = () => req => {
@@ -45,5 +45,5 @@ const skipUserAgent = () => req => {
 
 module.exports = {
 	use: morgan('[:status :method :response-time ms] :url :user-agent ":referrer"', { skip: skipUserAgent() }),
-	userAgents
+	userAgents,
 };

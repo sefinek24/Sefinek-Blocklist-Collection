@@ -9,6 +9,6 @@ module.exports = () => {
 		now: now.toISO(),
 		full: now.toLocaleString(DateTime.DATETIME_FULL),
 		serialNumber: now.toFormat('yyyyLLdd') + '01',
-		timezone
+		timezone,
 	};
 };

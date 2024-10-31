@@ -58,7 +58,7 @@ const getCachedFiles = async dirPath => {
 			size,
 			lastModified: stats.mtime.getTime(),
 			icon: getFileIcon(file.name, file.isDirectory()),
-			formattedSize: formatFileSize(size)
+			formattedSize: formatFileSize(size),
 		};
 	}));
 
@@ -84,7 +84,7 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 					title: extractMatch(TITLE_REGEX, mdFile),
 					desc: extractMatch(DESC_REGEX, mdFile),
 					tags: extractMatch(TAGS_REGEX, mdFile),
-					canonical: extractMatch(CANONICAL_REGEX, mdFile)
+					canonical: extractMatch(CANONICAL_REGEX, mdFile),
 				});
 			} catch {
 				return notFound(req, res);

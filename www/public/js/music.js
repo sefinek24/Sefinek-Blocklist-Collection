@@ -4,7 +4,7 @@ let isAudioPlaying = false;
 
 const labels = {
 	play: '🎵 Play music',
-	pause: '🔇 Pause music'
+	pause: '🔇 Pause music',
 };
 
 const updateButtonLabel = () => playButtonElement.textContent = isAudioPlaying ? labels.pause : labels.play;

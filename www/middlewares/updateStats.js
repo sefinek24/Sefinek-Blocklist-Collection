@@ -15,8 +15,8 @@ const updateStats = (req, res) => {
 		const updateQuery = {
 			inc: {
 				total: 1,
-				[`responses.${res.statusCode || 'unknown'}`]: 1
-			}
+				[`responses.${res.statusCode || 'unknown'}`]: 1,
+			},
 		};
 
 		if (type && res.statusCode >= 200 && res.statusCode <= 304 && (url.endsWith('.txt') || url.endsWith('.conf'))) {

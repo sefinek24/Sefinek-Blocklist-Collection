@@ -20,13 +20,13 @@ module.exports = wss => {
 					perMonth: db.perMonth,
 					perYear: db.perYear,
 					categories: db.categories,
-					responses: db.responses
+					responses: db.responses,
 				},
 				uptime: formatTime.full(process.uptime()),
 				coll: {
 					createdAt: db.createdAt,
-					updatedAt: db.updatedAt
-				}
+					updatedAt: db.updatedAt,
+				},
 			}));
 		}, 4000);
 

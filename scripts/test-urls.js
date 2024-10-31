@@ -11,7 +11,7 @@ const markdownFiles = [
 	'./docs/lists/md/noip.md',
 	'./docs/lists/md/Pi-hole.md',
 	'./docs/lists/md/RPZ.md',
-	'./docs/lists/md/Unbound.md'
+	'./docs/lists/md/Unbound.md',
 ];
 
 const MAX_RETRIES = 3;

@@ -11,9 +11,9 @@ module.exports = {
 
 		max_restarts          : 4,
 		restart_delay         : 6000,
-		wait_ready            : true
+		wait_ready            : true,
 
 		// instances             : 'max',
 		// exec_mode             : 'cluster',
-	}]
+	}],
 };

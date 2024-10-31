@@ -1,6 +1,6 @@
 const types = {
 	'0.0.0.0': '0000',
-	'127.0.0.1': '127001'
+	'127.0.0.1': '127001',
 };
 
 module.exports = url => {
@@ -12,6 +12,6 @@ module.exports = url => {
 	return {
 		url,
 		array: segments,
-		type
+		type,
 	};
 };

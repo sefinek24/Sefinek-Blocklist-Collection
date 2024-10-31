@@ -6,11 +6,11 @@ const { join } = require('node:path');
 const privateSubnets4 = [
 	new Address4('10.0.0.0/8'),
 	new Address4('172.16.0.0/12'),
-	new Address4('192.168.0.0/16')
+	new Address4('192.168.0.0/16'),
 ];
 
 const privateSubnets6 = [
-	new Address6('fc00::/7')
+	new Address6('fc00::/7'),
 ];
 
 const isPrivateIP = ip => {
