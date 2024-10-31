@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024103001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024103101 43200 3600 259200 300
   NS  localhost.
 0063450bb8e5e3369ef8c167a463d15c01527283b79bd266bb19b23e.com CNAME .
 *.0063450bb8e5e3369ef8c167a463d15c01527283b79bd266bb19b23e.com CNAME .
@@ -6375,6 +6375,8 @@ adserver1.vest-netz.net CNAME .
 *.adserver1.vest-netz.net CNAME .
 adserver2016.hempelbs.org CNAME .
 *.adserver2016.hempelbs.org CNAME .
+adserver-2084671375.us-east-1.elb.amazonaws.com CNAME .
+*.adserver-2084671375.us-east-1.elb.amazonaws.com CNAME .
 adserver.20nine.nl CNAME .
 *.adserver.20nine.nl CNAME .
 adserver21.paperlesspto.com CNAME .
@@ -29653,6 +29655,8 @@ primate-digital.com CNAME .
 *.primate-digital.com CNAME .
 primead.jp CNAME .
 *.primead.jp CNAME .
+primeads.io CNAME .
+*.primeads.io CNAME .
 primebid.pro CNAME .
 *.primebid.pro CNAME .
 primeclickmarketing.com CNAME .
