@@ -14,7 +14,7 @@
 
 ## 📝 Information
 Visit the official website of the project at [blocklist.sefinek.net](https://blocklist.sefinek.net) for more details.  
-New lists were added to the [generator](https://sefinek.net/blocklist-generator) on **October 19, 2024**. Please update your collection on your end :)
+New lists were added to the [generator](https://sefinek.net/blocklist-generator) on **October 19, 2024**. Please update your collection on your end ;)
 
 <h2>💗 Powered by Storm Server Hosting</h2>
 <div align="center">
