@@ -4,8 +4,8 @@
     <br><br>
     <img src="https://api.sefinek.net/api/v2/moecounter/@Sefinek-Blocklist-Collection" alt="README.md views" title="Repository views">
     <br>
-    <img src="https://img.shields.io/github/stars/sefinek/PiHole-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
-    <img src="https://img.shields.io/github/commit-activity/m/sefinek/PiHole-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
+    <img src="https://img.shields.io/github/stars/sefinek/Sefinek-Blocklist-Collection?label=STARS&style=for-the-badge" alt="Stars">
+    <img src="https://img.shields.io/github/commit-activity/m/sefinek/Sefinek-Blocklist-Collection?label=COMMIT+ACTIVITY&style=for-the-badge" alt="Commit activity">
     <br>
     <a href="https://blocklist.sefinek.net/#stats" target="_blank">View more stats... »</a>
     <br><br>
