@@ -38,10 +38,7 @@ const userAgents = [
 	'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)',
 ];
 
-const skip = () => req => {
-	const userAgent = req.headers['user-agent'];
-	return userAgentsToSkip.includes(userAgent);
-};
+const skip = req => userAgentsToSkip.includes(req.headers['user-agent']);
 
 module.exports = {
 	use: morgan('[:status :method :response-time ms] :url :user-agent ":referrer"', { skip }),
