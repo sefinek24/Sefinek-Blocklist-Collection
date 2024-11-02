@@ -3,11 +3,11 @@ require('dotenv').config();
 const cluster = require('node:cluster');
 const { availableParallelism } = require('node:os');
 const path = require('node:path');
+const WebSocket = require('ws');
 const createDir = require('./scripts/functions/createDir.js');
 const connectToDatabase = require('./www/database/mongoose.js');
 const mergeUpdates = require('./www/cluster/mergeUpdates.js');
 const RequestStats = require('./www/database/models/RequestStats');
-const WebSocket = require('ws');
 
 if (!process.env.NODE_ENV || !process.env.DOMAIN || !process.env.PORT) {
 	throw new Error('Environment variables are null or undefined');

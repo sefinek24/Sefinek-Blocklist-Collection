@@ -15,33 +15,14 @@ const CACHE_EXPIRATION = 6 * 60 * 60 * 1000;
 const SIZES = ['B', 'KB', 'MB'];
 const TEXT_FILE_EXTENSIONS = new Set(['.txt', '.conf', '.log', '.md']);
 
-const TITLE_REGEX = /#\s(.+)/;
-const DESC_REGEX = /<!--\s*desc:\s*(.+?)\s*-->/;
-const TAGS_REGEX = /<!--\s*tags:\s*(.+?)\s*-->/;
-const CANONICAL_REGEX = /<!--\s*canonical:\s*(.+?)\s*-->/;
+const formatFileSize = bytes => bytes === 0 ? 'Empty' : (bytes / Math.pow(1000, Math.floor(Math.log10(bytes) / 3) || 0)).toFixed(2) + ' ' + SIZES[Math.floor(Math.log10(bytes) / 3) || 0];
 
-const formatFileSize = bytes => {
-	if (bytes === 0) return 'Empty';
-	const factor = Math.floor(Math.log10(bytes) / 3) || 0;
-	return (bytes / Math.pow(1000, factor)).toFixed(2) + ' ' + SIZES[factor];
-};
+const getFileIcon = (fileName, isDirectory) => isDirectory ? 'open-folder.png' : TEXT_FILE_EXTENSIONS.has(path.extname(fileName).toLowerCase()) ? 'word.png' : 'unknown-mail.png';
 
-const getFileIcon = (fileName, isDirectory) => {
-	if (isDirectory) return 'open-folder.png';
-	const ext = path.extname(fileName).toLowerCase();
-	return TEXT_FILE_EXTENSIONS.has(ext) ? 'word.png' : 'unknown-mail.png';
-};
-
-const getDirectorySize = async dirPath => {
-	const files = await fs.readdir(dirPath, { withFileTypes: true });
-	let totalSize = 0;
-	for (const file of files) {
-		const filePath = path.join(dirPath, file.name);
-		const stats = await fs.stat(filePath);
-		totalSize += stats.isDirectory() ? await getDirectorySize(filePath) : stats.size;
-	}
-	return totalSize;
-};
+const getDirectorySize = async dirPath => (await Promise.all((await fs.readdir(dirPath, { withFileTypes: true })).map(async file => {
+	const stats = await fs.stat(path.join(dirPath, file.name));
+	return stats.isDirectory() ? await getDirectorySize(path.join(dirPath, file.name)) : stats.size;
+}))).reduce((a, b) => a + b, 0);
 
 const getCachedFiles = async dirPath => {
 	const cacheEntry = CACHE_MAP.get(dirPath);
@@ -68,49 +49,46 @@ const getCachedFiles = async dirPath => {
 	return fileList;
 };
 
-const sendFileOrNotFound = (filePath, res, req) => {
-	try {
-		res.sendFile(filePath);
-	} catch {
-		notFound(req, res);
-	}
-};
-
 const extractMatch = (regex, content) => regex.exec(content)?.[1] ?? null;
 
 const handleRequest = async (req, res, baseDir, basePath, validExtensions, template) => {
 	const relativePath = (req.params[0] || '').replace(/\/$/, '');
-	const currentPath = path.join(basePath, relativePath).replace(/\\/g, '/');
 	const filePath = path.join(baseDir, relativePath);
 
 	try {
+		// Blocklists
+		if (validExtensions.some(ext => relativePath.endsWith(ext))) return res.sendFile(filePath);
+
+		// Folders
 		const stats = await fs.stat(filePath);
 		if (stats.isDirectory()) {
+			const currentPath = path.join(basePath, relativePath).replace(/\\/g, '/');
 			const files = await getCachedFiles(filePath);
-			res.render(template, { files, currentPath });
-		} else if (validExtensions.some(ext => relativePath.endsWith(ext))) {
-			if (relativePath.endsWith('.md')) {
-				const mdFile = await fs.readFile(filePath, 'utf-8');
-				res.render('markdown-viewer.ejs', {
-					html: Marked.parse(mdFile),
-					title: extractMatch(TITLE_REGEX, mdFile),
-					desc: extractMatch(DESC_REGEX, mdFile),
-					tags: extractMatch(TAGS_REGEX, mdFile),
-					canonical: extractMatch(CANONICAL_REGEX, mdFile),
-				});
-			} else {
-				sendFileOrNotFound(filePath, res, req);
-			}
-		} else {
-			sendFileOrNotFound(filePath, res, req);
+			return res.render(template, { files, currentPath });
 		}
+
+		// Markdown
+		if (validExtensions.some(ext => relativePath.endsWith(ext))) {
+			if (!relativePath.endsWith('.md')) return res.sendFile(filePath);
+
+			const mdFile = await fs.readFile(filePath, 'utf-8');
+			return res.render('markdown-viewer.ejs', {
+				html: Marked.parse(mdFile),
+				title: extractMatch(/#\s(.+)/, mdFile),
+				desc: extractMatch(/<!--\s*desc:\s*(.+?)\s*-->/, mdFile),
+				tags: extractMatch(/<!--\s*tags:\s*(.+?)\s*-->/, mdFile),
+				canonical: extractMatch(/<!--\s*canonical:\s*(.+?)\s*-->/, mdFile),
+			});
+		}
+
+		res.sendStatus(404);
 	} catch {
-		notFound(req, res);
+		res.status(404).end();
 	}
 };
 
+router.get(/^\/generated\/v1(.*)$/, (req, res) => handleRequest(req, res, GENERATED_PATH, '/generated/v1', ['.txt', '.conf'], 'explorer/file.ejs'));
 router.get(/^\/logs\/v1(.*)$/, (req, res) => handleRequest(req, res, LOGS_PATH, '/logs/v1', ['.log'], 'explorer/log.ejs'));
-router.get(/^\/generated\/v1(.*)$/, (req, res) => handleRequest(req, res, GENERATED_PATH, '/generated/v1', [], 'explorer/file.ejs'));
-router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCS_PATH, '/markdown', ['.md'], 'explorer/markdown.ejs'));
+router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCS_PATH, '/markdown', ['.md', '.txt'], 'explorer/markdown.ejs'));
 
 module.exports = router;
