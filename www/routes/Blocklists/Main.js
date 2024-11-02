@@ -34,12 +34,13 @@ const getFileIcon = (fileName, isDirectory) => {
 
 const getDirectorySize = async dirPath => {
 	const files = await fs.readdir(dirPath, { withFileTypes: true });
-	const sizes = await Promise.all(files.map(async file => {
+	let totalSize = 0;
+	for (const file of files) {
 		const filePath = path.join(dirPath, file.name);
 		const stats = await fs.stat(filePath);
-		return stats.isDirectory() ? getDirectorySize(filePath) : stats.size;
-	}));
-	return sizes.reduce((total, size) => total + size, 0);
+		totalSize += stats.isDirectory() ? await getDirectorySize(filePath) : stats.size;
+	}
+	return totalSize;
 };
 
 const getCachedFiles = async dirPath => {
@@ -62,12 +63,19 @@ const getCachedFiles = async dirPath => {
 		};
 	}));
 
-	const sortedFileList = fileList.sort((a, b) => a.isDirectory === b.isDirectory ? a.name.localeCompare(b.name) : a.isDirectory ? -1 : 1);
-	CACHE_MAP.set(dirPath, { data: sortedFileList, timestamp: Date.now() });
-	return sortedFileList;
+	fileList.sort((a, b) => a.isDirectory === b.isDirectory ? a.name.localeCompare(b.name) : a.isDirectory ? -1 : 1);
+	CACHE_MAP.set(dirPath, { data: fileList, timestamp: Date.now() });
+	return fileList;
 };
 
-const sendFileOrNotFound = (filePath, res, req) => res.sendFile(filePath, err => err && notFound(req, res));
+const sendFileOrNotFound = (filePath, res, req) => {
+	try {
+		res.sendFile(filePath);
+	} catch {
+		notFound(req, res);
+	}
+};
+
 const extractMatch = (regex, content) => regex.exec(content)?.[1] ?? null;
 
 const handleRequest = async (req, res, baseDir, basePath, validExtensions, template) => {
@@ -75,35 +83,29 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 	const currentPath = path.join(basePath, relativePath).replace(/\\/g, '/');
 	const filePath = path.join(baseDir, relativePath);
 
-	if (validExtensions.some(ext => relativePath.endsWith(ext))) {
-		if (relativePath.endsWith('.md')) {
-			try {
+	try {
+		const stats = await fs.stat(filePath);
+		if (stats.isDirectory()) {
+			const files = await getCachedFiles(filePath);
+			res.render(template, { files, currentPath });
+		} else if (validExtensions.some(ext => relativePath.endsWith(ext))) {
+			if (relativePath.endsWith('.md')) {
 				const mdFile = await fs.readFile(filePath, 'utf-8');
-				return res.render('markdown-viewer.ejs', {
+				res.render('markdown-viewer.ejs', {
 					html: Marked.parse(mdFile),
 					title: extractMatch(TITLE_REGEX, mdFile),
 					desc: extractMatch(DESC_REGEX, mdFile),
 					tags: extractMatch(TAGS_REGEX, mdFile),
 					canonical: extractMatch(CANONICAL_REGEX, mdFile),
 				});
-			} catch {
-				return notFound(req, res);
+			} else {
+				sendFileOrNotFound(filePath, res, req);
 			}
 		} else {
-			return sendFileOrNotFound(filePath, res, req);
-		}
-	}
-
-	try {
-		const stats = await fs.stat(filePath);
-		if (stats.isDirectory()) {
-			const files = await getCachedFiles(filePath);
-			return res.render(template, { files, currentPath });
-		} else {
-			return sendFileOrNotFound(filePath, res, req);
+			sendFileOrNotFound(filePath, res, req);
 		}
 	} catch {
-		return notFound(req, res);
+		notFound(req, res);
 	}
 };
 
