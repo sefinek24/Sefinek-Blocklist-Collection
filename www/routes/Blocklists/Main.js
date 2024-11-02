@@ -59,7 +59,7 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 		// Blocklists
 		if (validExtensions.some(ext => relativePath.endsWith(ext))) return res.sendFile(filePath);
 
-		// Folders
+		// Handle directory requests
 		const stats = await fs.stat(filePath);
 		if (stats.isDirectory()) {
 			const currentPath = path.join(basePath, relativePath).replace(/\\/g, '/');
@@ -67,10 +67,8 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 			return res.render(template, { files, currentPath });
 		}
 
-		// Markdown
-		if (validExtensions.some(ext => relativePath.endsWith(ext))) {
-			if (!relativePath.endsWith('.md')) return res.sendFile(filePath);
-
+		// Markdown files
+		if (relativePath.endsWith('.md')) {
 			const mdFile = await fs.readFile(filePath, 'utf-8');
 			return res.render('markdown-viewer.ejs', {
 				html: Marked.parse(mdFile),
@@ -81,7 +79,7 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 			});
 		}
 
-		res.sendStatus(404);
+		res.sendFile(filePath);
 	} catch {
 		res.status(404).end();
 	}
@@ -89,6 +87,6 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 
 router.get(/^\/generated\/v1(.*)$/, (req, res) => handleRequest(req, res, GENERATED_PATH, '/generated/v1', ['.txt', '.conf'], 'explorer/file.ejs'));
 router.get(/^\/logs\/v1(.*)$/, (req, res) => handleRequest(req, res, LOGS_PATH, '/logs/v1', ['.log'], 'explorer/log.ejs'));
-router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCS_PATH, '/markdown', ['.md', '.txt'], 'explorer/markdown.ejs'));
+router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCS_PATH, '/markdown', '.md', 'explorer/markdown.ejs'));
 
 module.exports = router;
