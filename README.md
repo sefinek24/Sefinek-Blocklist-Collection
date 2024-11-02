@@ -19,7 +19,7 @@ New lists were added to the [generator](https://sefinek.net/blocklist-generator)
 <h2>💗 Powered by Storm Server Hosting</h2>
 <div align="center">
   <a href="https://stormserverhosting.com" target="_blank">
-    <img src="www/public/images/stormserverhosting-banner.png" height="130" alt="Storm Server Hosting">
+    <img src="https://cdn.sefinek.net/images/stormserverhosting/banner-white.png" height="130" alt="Storm Server Hosting">
   </a>
 </div>
 
