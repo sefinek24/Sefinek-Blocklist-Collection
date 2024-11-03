@@ -11,27 +11,27 @@ const updateStats = (req, res) => {
 
 	try {
 		const { url, type } = parseCategoryFromLink(req.originalUrl || req.url);
-		if (!type || res.statusCode < 200 || res.statusCode > 304) return;
+		const { dateKey, yearKey, monthKey } = time.dateKey();
 
-		if (url.endsWith('.txt') || url.endsWith('.conf')) {
-			const updateQuery = {
-				inc: {
-					total: 1,
-					[`responses.${res.statusCode || 'unknown'}`]: 1,
-				},
-			};
+		const updateQuery = {
+			inc: {
+				total: 1,
+				[`responses.${res.statusCode || 'unknown'}`]: 1,
+			},
+		};
 
-			const { dateKey, yearKey, monthKey } = time.dateKey();
-			Object.assign(updateQuery.inc, {
-				blocklists: 1,
-				[`categories.${type}`]: 1,
-				[`perDay.${dateKey}`]: 1,
-				[`perMonth.${monthKey}-${yearKey}`]: 1,
-				[`perYear.${yearKey}`]: 1,
-			});
+		if (type && res.statusCode >= 200 && res.statusCode <= 304 && (url.endsWith('.txt') || url.endsWith('.conf'))) {
+			updateQuery.inc.blocklists = 1;
+			updateQuery.inc[`categories.${type}`] = 1;
 
-			process.send({ type: 'updateStats', data: updateQuery });
+			updateQuery.inc[`perDay.${dateKey}`] = 1;
+			updateQuery.inc[`perMonth.${monthKey}-${yearKey}`] = 1;
+			updateQuery.inc[`perYear.${yearKey}`] = 1;
+
+			console.debug(`Updated stats for ${type}`);
 		}
+
+		process.send({ type: 'updateStats', data: updateQuery });
 	} catch {
 		process.send({ type: 'updateStats', data: { inc: { updateStatsFail: 1 } } });
 	}
