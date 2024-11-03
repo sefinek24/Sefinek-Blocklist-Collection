@@ -1,50 +1,53 @@
 const express = require('express');
-const Marked = require('marked');
+const marked = require('marked');
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const router = express.Router();
 
-const GENERATED_PATH = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated');
-const LOGS_PATH = path.join(__dirname, '..', '..', 'public', 'logs');
-const DOCS_PATH = path.join(__dirname, '..', '..', '..', 'docs');
+const GENERATED_DIR_PATH = path.join(__dirname, '..', '..', '..', 'blocklists', 'generated');
+const LOGS_DIR_PATH = path.join(__dirname, '..', '..', 'public', 'logs');
+const DOCUMENTATION_DIR_PATH = path.join(__dirname, '..', '..', '..', 'docs');
 
-const CACHE_MAP = new Map();
-const CACHE_EXPIRATION = 5 * 60 * 60 * 1000;
+const FILE_CACHE = new Map();
+const FILE_EXISTENCE_CACHE = new Map();
+const CACHE_EXPIRATION_TIME = 5 * 60 * 60 * 1000;
 
-const SIZES = ['B', 'KB', 'MB'];
+const SIZE_UNITS = ['B', 'KB', 'MB'];
 const TEXT_FILE_EXTENSIONS = new Set(['.txt', '.conf', '.log', '.md']);
 
-const formatFileSize = bytes => bytes === 0 ? 'Empty' : (bytes / Math.pow(1000, Math.floor(Math.log10(bytes) / 3) || 0)).toFixed(2) + ' ' + SIZES[Math.floor(Math.log10(bytes) / 3) || 0];
+const formatFileSize = bytes =>
+	bytes === 0 ? 'Empty' : (bytes / Math.pow(1000, Math.floor(Math.log10(bytes) / 3) || 0)).toFixed(2) + ' ' + SIZE_UNITS[Math.floor(Math.log10(bytes) / 3) || 0];
 
-const getFileIcon = (fileName, isDirectory) => isDirectory ? 'open-folder.png' : TEXT_FILE_EXTENSIONS.has(path.extname(fileName).toLowerCase()) ? 'word.png' : 'unknown-mail.png';
+const getFileIcon = (fileName, isDirectory) =>
+	isDirectory ? 'open-folder.png' : TEXT_FILE_EXTENSIONS.has(path.extname(fileName).toLowerCase()) ? 'word.png' : 'unknown-file.png';
 
-const getDirectorySize = async dirPath => (await Promise.all((await fs.readdir(dirPath, { withFileTypes: true })).map(async file => {
-	const stats = await fs.stat(path.join(dirPath, file.name));
-	return stats.isDirectory() ? await getDirectorySize(path.join(dirPath, file.name)) : stats.size;
-}))).reduce((a, b) => a + b, 0);
+const getDirectorySize = async directoryPath => (await Promise.all((await fs.readdir(directoryPath, { withFileTypes: true })).map(async file => {
+	const fileStats = await fs.stat(path.join(directoryPath, file.name));
+	return fileStats.isDirectory() ? await getDirectorySize(path.join(directoryPath, file.name)) : fileStats.size;
+}))).reduce((totalSize, currentSize) => totalSize + currentSize, 0);
 
-const getCachedFiles = async dirPath => {
-	const cacheEntry = CACHE_MAP.get(dirPath);
-	if (cacheEntry && Date.now() - cacheEntry.timestamp < CACHE_EXPIRATION) return cacheEntry.data;
+const getCachedFiles = async directoryPath => {
+	const cacheEntry = FILE_CACHE.get(directoryPath);
+	if (cacheEntry && Date.now() - cacheEntry.timestamp < CACHE_EXPIRATION_TIME) return cacheEntry.data;
 
-	const files = await fs.readdir(dirPath, { withFileTypes: true });
+	const files = await fs.readdir(directoryPath, { withFileTypes: true });
 	const fileList = await Promise.all(files.map(async file => {
-		const filePath = path.join(dirPath, file.name);
-		const stats = await fs.stat(filePath);
-		const size = file.isDirectory() ? await getDirectorySize(filePath) : stats.size;
+		const filePath = path.join(directoryPath, file.name);
+		const fileStats = await fs.stat(filePath);
+		const fileSize = file.isDirectory() ? await getDirectorySize(filePath) : fileStats.size;
 
 		return {
 			name: file.name,
 			isDirectory: file.isDirectory(),
-			size,
-			lastModified: stats.mtime.getTime(),
+			size: fileSize,
+			lastModified: fileStats.mtime.getTime(),
 			icon: getFileIcon(file.name, file.isDirectory()),
-			formattedSize: formatFileSize(size),
+			formattedSize: formatFileSize(fileSize),
 		};
 	}));
 
 	fileList.sort((a, b) => a.isDirectory === b.isDirectory ? a.name.localeCompare(b.name) : a.isDirectory ? -1 : 1);
-	CACHE_MAP.set(dirPath, { data: fileList, timestamp: Date.now() });
+	FILE_CACHE.set(directoryPath, { data: fileList, timestamp: Date.now() });
 	return fileList;
 };
 
@@ -52,40 +55,49 @@ const extractMatch = (regex, content) => regex.exec(content)?.[1] ?? null;
 
 const handleRequest = async (req, res, baseDir, basePath, validExtensions, template) => {
 	const relativePath = (req.params[0] || '').replace(/\/$/, '');
-	const filePath = path.join(baseDir, relativePath);
+	const requestedFilePath = path.join(baseDir, relativePath);
 
 	try {
-		// Blocklists
-		if (validExtensions.some(ext => relativePath.endsWith(ext))) return res.sendFile(filePath);
+		// Cache Handling
+		const cachedData = FILE_EXISTENCE_CACHE.get(requestedFilePath);
+		let fileStats;
+		if (cachedData && (Date.now() - cachedData.timestamp) < CACHE_EXPIRATION_TIME) {
+			fileStats = cachedData.stats;
+		} else {
+			fileStats = await fs.stat(requestedFilePath);
+			FILE_EXISTENCE_CACHE.set(requestedFilePath, { stats: fileStats, timestamp: Date.now() });
+		}
 
-		// Handle directory requests
-		const stats = await fs.stat(filePath);
-		if (stats.isDirectory()) {
+		// Blocklists
+		if (validExtensions.some(ext => relativePath.endsWith(ext)) && fileStats.isFile()) return res.sendFile(requestedFilePath);
+
+		// Handle Directory Requests
+		if (fileStats.isDirectory()) {
 			const currentPath = path.join(basePath, relativePath).replace(/\\/g, '/');
-			const files = await getCachedFiles(filePath);
+			const files = await getCachedFiles(requestedFilePath);
 			return res.render(template, { files, currentPath });
 		}
 
-		// Markdown files
+		// Handle Markdown Files
 		if (relativePath.endsWith('.md')) {
-			const mdFile = await fs.readFile(filePath, 'utf-8');
+			const markdownContent = await fs.readFile(requestedFilePath, 'utf-8');
 			return res.render('markdown-viewer.ejs', {
-				html: Marked.parse(mdFile),
-				title: extractMatch(/#\s(.+)/, mdFile),
-				desc: extractMatch(/<!--\s*desc:\s*(.+?)\s*-->/, mdFile),
-				tags: extractMatch(/<!--\s*tags:\s*(.+?)\s*-->/, mdFile),
-				canonical: extractMatch(/<!--\s*canonical:\s*(.+?)\s*-->/, mdFile),
+				html: marked.parse(markdownContent),
+				title: extractMatch(/#\s(.+)/, markdownContent),
+				desc: extractMatch(/<!--\s*desc:\s*(.+?)\s*-->/, markdownContent),
+				tags: extractMatch(/<!--\s*tags:\s*(.+?)\s*-->/, markdownContent),
+				canonical: extractMatch(/<!--\s*canonical:\s*(.+?)\s*-->/, markdownContent),
 			});
 		}
 
-		res.sendFile(filePath);
-	} catch {
-		res.status(404).end();
+		res.sendFile(requestedFilePath);
+	} catch (err) {
+		res.status(err.code === 'ENOENT' ? 404 : 500).end();
 	}
 };
 
-router.get(/^\/generated\/v1(.*)$/, (req, res) => handleRequest(req, res, GENERATED_PATH, '/generated/v1', ['.txt', '.conf'], 'explorer/file.ejs'));
-router.get(/^\/logs\/v1(.*)$/, (req, res) => handleRequest(req, res, LOGS_PATH, '/logs/v1', ['.log'], 'explorer/log.ejs'));
-router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCS_PATH, '/markdown', '.md', 'explorer/markdown.ejs'));
+router.get(/^\/generated\/v1(.*)$/, (req, res) => handleRequest(req, res, GENERATED_DIR_PATH, '/generated/v1', ['.txt', '.conf'], 'explorer/file.ejs'));
+router.get(/^\/logs\/v1(.*)$/, (req, res) => handleRequest(req, res, LOGS_DIR_PATH, '/logs/v1', ['.log'], 'explorer/log.ejs'));
+router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCUMENTATION_DIR_PATH, '/markdown', '.md', 'explorer/markdown.ejs'));
 
 module.exports = router;

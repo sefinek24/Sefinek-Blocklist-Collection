@@ -35,8 +35,8 @@ if (process.env.NODE_ENV === 'production') app.use(updateStats);
 app.use(require('./routes/Main.js'));
 
 // Blocklists
-app.use(require('./routes/Blocklists/Main.js'));
 app.use(require('./routes/Blocklists/Deprecated.js'));
+app.use(require('./routes/Blocklists/Main.js'));
 
 
 // Errors
