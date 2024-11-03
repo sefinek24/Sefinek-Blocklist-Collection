@@ -27,7 +27,7 @@ router.get('/generated/0.0.0.0/forks/firebog.AdguardDNS.txt', (req, res) => res.
 router.get('/generated/0.0.0.0/forks/firebog.Admiral.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/firebog/Admiral.fork.txt`));
 router.get('/generated/0.0.0.0/forks/firebog.Easylist.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/0Zinc/easylist.fork.txt`));
 router.get('/generated/0.0.0.0/forks/firebog.Prigent-Ads.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/firebog/Prigent-Ads.fork.txt`));
-router.get('/generated/0.0.0.0/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(200));
+router.get('/generated/0.0.0.0/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(404));
 router.get('/generated/0.0.0.0/forks/MajkiIT.SmartTV_ads.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/MajkiIT/SmartTV-ads.fork.txt`));
 router.get('/generated/0.0.0.0/forks/r-a-y.AdguardMobileAds.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/ads/r-a-y/AdguardMobileAds.fork.txt`));
 
@@ -148,6 +148,7 @@ router.get('/generated/0.0.0.0/forks/marktron.fakenews.txt', (req, res) => res.s
 router.get('/generated/0.0.0.0/forks/blocklistproject.gambling.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/gambling/blocklistproject/hosts.fork.txt`));
 router.get('/generated/0.0.0.0/forks/MajkiIT.gambling-hosts.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/gambling/MajkiIT/gambling-hosts.fork.txt`));
 router.get('/generated/0.0.0.0/gambling.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/gambling/sefinek.hosts.txt`));
+router.get('/generated/v1/0.0.0.0/gambling.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/gambling/sefinek.hosts.txt`));
 
 // Dating Services
 router.get('/generated/0.0.0.0/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${ZeroZeroZeroZero}/dating-services/developerdan/extended.fork.txt`));
@@ -211,7 +212,7 @@ router.get('/generated/127.0.0.1/forks/firebog.AdguardDNS.txt', (req, res) => re
 router.get('/generated/127.0.0.1/forks/firebog.Admiral.txt', (req, res) => res.sendFile(`${localhost}/ads/firebog/Admiral.fork.txt`));
 router.get('/generated/127.0.0.1/forks/firebog.Easylist.txt', (req, res) => res.sendFile(`${localhost}/ads/0Zinc/easylist.fork.txt`));
 router.get('/generated/127.0.0.1/forks/firebog.Prigent-Ads.txt', (req, res) => res.sendFile(`${localhost}/ads/firebog/Prigent-Ads.fork.txt`));
-router.get('/generated/127.0.0.1/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(200));
+router.get('/generated/127.0.0.1/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(404));
 router.get('/generated/127.0.0.1/forks/MajkiIT.SmartTV_ads.txt', (req, res) => res.sendFile(`${localhost}/ads/MajkiIT/SmartTV-ads.fork.txt`));
 router.get('/generated/127.0.0.1/forks/r-a-y.AdguardMobileAds.txt', (req, res) => res.sendFile(`${localhost}/ads/r-a-y/AdguardMobileAds.fork.txt`));
 
@@ -332,6 +333,7 @@ router.get('/generated/127.0.0.1/forks/marktron.fakenews.txt', (req, res) => res
 router.get('/generated/127.0.0.1/forks/blocklistproject.gambling.txt', (req, res) => res.sendFile(`${localhost}/gambling/blocklistproject/hosts.fork.txt`));
 router.get('/generated/127.0.0.1/forks/MajkiIT.gambling-hosts.txt', (req, res) => res.sendFile(`${localhost}/gambling/MajkiIT/gambling-hosts.fork.txt`));
 router.get('/generated/127.0.0.1/gambling.txt', (req, res) => res.sendFile(`${localhost}/gambling/sefinek.hosts.txt`));
+router.get('/generated/v1/127.0.0.1/gambling.txt', (req, res) => res.sendFile(`${localhost}/gambling/sefinek.hosts.txt`));
 
 // Dating Services
 router.get('/generated/127.0.0.1/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${localhost}/dating-services/developerdan/extended.fork.txt`));
@@ -394,7 +396,7 @@ router.get('/generated/noip/forks/firebog.AdguardDNS.txt', (req, res) => res.sen
 router.get('/generated/noip/forks/firebog.Admiral.txt', (req, res) => res.sendFile(`${noIp}/ads/firebog/Admiral.fork.txt`));
 router.get('/generated/noip/forks/firebog.Easylist.txt', (req, res) => res.sendFile(`${noIp}/ads/0Zinc/easylist.fork.txt`));
 router.get('/generated/noip/forks/firebog.Prigent-Ads.txt', (req, res) => res.sendFile(`${noIp}/ads/firebog/Prigent-Ads.fork.txt`));
-router.get('/generated/noip/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(200));
+router.get('/generated/noip/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(404));
 router.get('/generated/noip/forks/MajkiIT.SmartTV_ads.txt', (req, res) => res.sendFile(`${noIp}/ads/MajkiIT/SmartTV-ads.fork.txt`));
 router.get('/generated/noip/forks/r-a-y.AdguardMobileAds.txt', (req, res) => res.sendFile(`${noIp}/ads/r-a-y/AdguardMobileAds.fork.txt`));
 
@@ -515,6 +517,7 @@ router.get('/generated/noip/forks/marktron.fakenews.txt', (req, res) => res.send
 router.get('/generated/noip/forks/blocklistproject.gambling.txt', (req, res) => res.sendFile(`${noIp}/gambling/blocklistproject/hosts.fork.txt`));
 router.get('/generated/noip/forks/MajkiIT.gambling-hosts.txt', (req, res) => res.sendFile(`${noIp}/gambling/MajkiIT/gambling-hosts.fork.txt`));
 router.get('/generated/noip/gambling.txt', (req, res) => res.sendFile(`${noIp}/gambling/sefinek.hosts.txt`));
+router.get('/generated/v1/noip/gambling.txt', (req, res) => res.sendFile(`${noIp}/gambling/sefinek.hosts.txt`));
 
 // Dating Services
 router.get('/generated/noip/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${noIp}/dating-services/developerdan/extended.fork.txt`));
@@ -577,7 +580,7 @@ router.get('/generated/adguard/forks/firebog.AdguardDNS.txt', (req, res) => res.
 router.get('/generated/adguard/forks/firebog.Admiral.txt', (req, res) => res.sendFile(`${adguard}/ads/firebog/Admiral.fork.txt`));
 router.get('/generated/adguard/forks/firebog.Easylist.txt', (req, res) => res.sendFile(`${adguard}/ads/0Zinc/easylist.fork.txt`));
 router.get('/generated/adguard/forks/firebog.Prigent-Ads.txt', (req, res) => res.sendFile(`${adguard}/ads/firebog/Prigent-Ads.fork.txt`));
-router.get('/generated/adguard/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(200));
+router.get('/generated/adguard/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(404));
 router.get('/generated/adguard/forks/MajkiIT.SmartTV_ads.txt', (req, res) => res.sendFile(`${adguard}/ads/MajkiIT/SmartTV-ads.fork.txt`));
 router.get('/generated/adguard/forks/r-a-y.AdguardMobileAds.txt', (req, res) => res.sendFile(`${adguard}/ads/r-a-y/AdguardMobileAds.fork.txt`));
 
@@ -698,6 +701,7 @@ router.get('/generated/adguard/forks/marktron.fakenews.txt', (req, res) => res.s
 router.get('/generated/adguard/forks/blocklistproject.gambling.txt', (req, res) => res.sendFile(`${adguard}/gambling/blocklistproject/hosts.fork.txt`));
 router.get('/generated/adguard/forks/MajkiIT.gambling-hosts.txt', (req, res) => res.sendFile(`${adguard}/gambling/MajkiIT/gambling-hosts.fork.txt`));
 router.get('/generated/adguard/gambling.txt', (req, res) => res.sendFile(`${adguard}/gambling/sefinek.hosts.txt`));
+router.get('/generated/v1/adguard/gambling.txt', (req, res) => res.sendFile(`${adguard}/gambling/sefinek.hosts.txt`));
 
 // Dating Services
 router.get('/generated/adguard/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${adguard}/dating-services/developerdan/extended.fork.txt`));
@@ -760,7 +764,7 @@ router.get('/generated/dnsmasq/forks/firebog.AdguardDNS.txt', (req, res) => res.
 router.get('/generated/dnsmasq/forks/firebog.Admiral.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/firebog/Admiral.fork.txt`));
 router.get('/generated/dnsmasq/forks/firebog.Easylist.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/0Zinc/easylist.fork.txt`));
 router.get('/generated/dnsmasq/forks/firebog.Prigent-Ads.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/firebog/Prigent-Ads.fork.txt`));
-router.get('/generated/dnsmasq/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(200));
+router.get('/generated/dnsmasq/forks/MajkiIT.Ad_filter_list_by_Disconnect.txt', (req, res) => res.sendStatus(404));
 router.get('/generated/dnsmasq/forks/MajkiIT.SmartTV_ads.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/MajkiIT/SmartTV-ads.fork.txt`));
 router.get('/generated/dnsmasq/forks/r-a-y.AdguardMobileAds.txt', (req, res) => res.sendFile(`${dnsmasq}/ads/r-a-y/AdguardMobileAds.fork.txt`));
 
@@ -881,6 +885,7 @@ router.get('/generated/dnsmasq/forks/marktron.fakenews.txt', (req, res) => res.s
 router.get('/generated/dnsmasq/forks/blocklistproject.gambling.txt', (req, res) => res.sendFile(`${dnsmasq}/gambling/blocklistproject/hosts.fork.txt`));
 router.get('/generated/dnsmasq/forks/MajkiIT.gambling-hosts.txt', (req, res) => res.sendFile(`${dnsmasq}/gambling/MajkiIT/gambling-hosts.fork.txt`));
 router.get('/generated/dnsmasq/gambling.txt', (req, res) => res.sendFile(`${dnsmasq}/gambling/sefinek.hosts.txt`));
+router.get('/generated/v1/dnsmasq/gambling.txt', (req, res) => res.sendFile(`${dnsmasq}/gambling/sefinek.hosts.txt`));
 
 // Dating Services
 router.get('/generated/dnsmasq/forks/developerdan.dating-services-extended.txt', (req, res) => res.sendFile(`${dnsmasq}/dating-services/developerdan/extended.fork.txt`));
