@@ -1,7 +1,7 @@
 const parseCategoryFromLink = require('../../utils/parseCategoryFromLink.js');
 const time = require('../../utils/time.js');
 
-const BOT_REGEX1 = /i(?:a_archiv|ndex)er|(?:s(?:c(?:ann|rap)|pid)|fetch)er|crawl|bot/i;
+const BOT_REGEX1 = /s(?:cr(?:eaming frog|apy)|istrix|lurp)|i(?:a_archiv|ndex)er|facebook|scraper|(?:s(?:cann|pid)|fetch)er|crawl|yahoo|bot/i;
 
 const updateStats = (req, res) => {
 	if (BOT_REGEX1.test(req.headers['user-agent'])) return;
