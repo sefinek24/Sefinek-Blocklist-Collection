@@ -4,10 +4,7 @@ const time = require('../../utils/time.js');
 const BOT_REGEX1 = /i(?:a_archiv|ndex)er|(?:s(?:c(?:ann|rap)|pid)|fetch)er|crawl|bot/i;
 
 const updateStats = (req, res) => {
-	if (BOT_REGEX1.test(req.headers['user-agent'])) {
-		console.log('return--------');
-		return;
-	}
+	if (BOT_REGEX1.test(req.headers['user-agent'])) return;
 
 	try {
 		const { url, type } = parseCategoryFromLink(req.originalUrl || req.url);
@@ -28,7 +25,7 @@ const updateStats = (req, res) => {
 			updateQuery.inc[`perMonth.${monthKey}-${yearKey}`] = 1;
 			updateQuery.inc[`perYear.${yearKey}`] = 1;
 
-			console.debug(`Updated stats for ${type}`);
+			// console.debug(`Updated stats for ${type}`);
 		}
 
 		process.send({ type: 'updateStats', data: updateQuery });
