@@ -23,7 +23,7 @@ app.use(helmet({ contentSecurityPolicy: false, crossOriginResourcePolicy: false 
 app.use(express.static('./www/public'));
 
 // Morgan & ratelimits & timeout
-app.use(morgan.use);
+app.use(morgan);
 app.use(limiter);
 app.use(timeout());
 
