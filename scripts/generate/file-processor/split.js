@@ -1,7 +1,7 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
 
-const MAX_MB = 92;
+const MAX_MB = 99;
 const MAX_FILE_SIZE = MAX_MB * 1024 * 1024;
 
 module.exports = async (fullNewFile, replacedFile, comment = '#', header = null) => {
