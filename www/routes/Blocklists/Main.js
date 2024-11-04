@@ -98,6 +98,6 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 
 router.get(/^\/generated\/v1(.*)$/, (req, res) => handleRequest(req, res, GENERATED_DIR_PATH, '/generated/v1', ['.txt', '.conf'], 'explorer/file.ejs'));
 router.get(/^\/logs\/v1(.*)$/, (req, res) => handleRequest(req, res, LOGS_DIR_PATH, '/logs/v1', ['.log'], 'explorer/log.ejs'));
-router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCUMENTATION_DIR_PATH, '/markdown', '.md', 'explorer/markdown.ejs'));
+router.get(/^\/markdown(.*)$/, (req, res) => handleRequest(req, res, DOCUMENTATION_DIR_PATH, '/markdown', ['.md'], 'explorer/markdown.ejs'));
 
 module.exports = router;
