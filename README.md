@@ -116,4 +116,6 @@ git clone --branch main --single-branch https://github.com/sefinek/Sefinek-Block
 
 
 ## 🔒 License
-<code align="center">CC BY-NC-ND 4.0</code>
+<div align="center">
+  <code>CC BY-NC-ND 4.0</code>
+</div>
