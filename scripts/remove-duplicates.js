@@ -5,7 +5,7 @@ const isPrivateIP = require('./functions/isPrivateIP.js');
 const processLine = (line, existingDomains) => {
 	if (line === '') return { shouldKeep: false, reason: 'emptyLine' };
 	if (line.startsWith('# [')) return { shouldKeep: false, reason: 'uselessComment' };
-	if (line.startsWith('##') || line.startsWith('#') || line.startsWith('!') || line.match(/localhost$/)) return { shouldKeep: true };
+	if (line.startsWith('##') || line.startsWith('#') || line.startsWith('!') || (/(?:broadcast|local)host/i).test(line) || line === '0.0.0.0 0.0.0.0') return { shouldKeep: true };
 
 	const [ip, domain] = line.split(/\s+/);
 	if (ip && !isPrivateIP(ip)) return { shouldKeep: true };

@@ -29,7 +29,7 @@ const processDirectory = async dirPath => {
 				if (line.includes('127.0.0.1 localhost.localdomain')) line = '0.0.0.0 localhost.localdomain';
 				if (line.includes('127.0.0.1 local')) line = '0.0.0.0 local';
 
-				if ((/localhost/i).test(line)) {
+				if ((/(?:broadcast|local)host/i).test(line)) {
 					processedLines.push(line);
 					commentsPreserved++;
 					continue;
