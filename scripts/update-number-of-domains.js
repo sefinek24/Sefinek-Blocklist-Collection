@@ -3,7 +3,7 @@ const { createReadStream } = require('node:fs');
 const { red, yellow, blue, green } = require('kleur');
 const readline = require('readline');
 const { join } = require('node:path');
-const getAllTxtFiles = require('./functions/getAllTxtFiles.js');
+const getAllTxtFiles = require('./utils/getAllTxtFiles.js');
 
 const ignoreQuestion = process.argv.includes('--ignore-question');
 

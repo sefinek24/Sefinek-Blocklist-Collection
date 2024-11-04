@@ -1,6 +1,7 @@
 const { mkdir, readdir, readFile, writeFile } = require('node:fs/promises');
 const { join } = require('node:path');
 const validator = require('validator');
+const local = require('./utils/local.js');
 
 const processDirectory = async dirPath => {
 	try {
@@ -15,7 +16,7 @@ const processDirectory = async dirPath => {
 
 			let modifiedLines = 0;
 			let convertedDomains = 0;
-			let invalidDomainsRemoved = 0;
+			const invalidDomainsRemoved = 0;
 			let ipsReplaced = 0;
 			let commentsPreserved = 0;
 
@@ -29,7 +30,8 @@ const processDirectory = async dirPath => {
 				if (line.includes('127.0.0.1 localhost.localdomain')) line = '0.0.0.0 localhost.localdomain';
 				if (line.includes('127.0.0.1 local')) line = '0.0.0.0 local';
 
-				if ((/(?:broadcast|local)host/i).test(line)) {
+				// grex "localhost" "broadcasthost" "::1" "ff00::0" "ff02::1" "ff02::2" "ff02::3" "0.0.0.0 local"
+				if (local.test(line)) {
 					processedLines.push(line);
 					commentsPreserved++;
 					continue;
@@ -52,8 +54,7 @@ const processDirectory = async dirPath => {
 				}
 
 				// Remove invalid domains
-				if (domain && !validator.isFQDN(domain, { require_tld: false, allow_underscores: true })) {
-					invalidDomainsRemoved++;
+				if (domain && !validator.isURL(domain, { require_valid_protocol: false, allow_underscores: true })) {
 					modifiedLines++;
 					continue;
 				}

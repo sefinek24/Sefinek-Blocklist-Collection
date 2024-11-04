@@ -1,10 +1,10 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
 const splitFile = require('./file-processor/split.js');
-const getDate = require('../functions/date.js');
-const sha256 = require('../functions/sha512.js');
-const txtFilter = require('../functions/txtFilter.js');
-const process = require('../functions/process.js');
+const getDate = require('../utils/date.js');
+const sha256 = require('../utils/sha512.js');
+const txtFilter = require('../utils/txtFilter.js');
+const process = require('../utils/process.js');
 
 const convert = async (folderPath = path.join(__dirname, '../../blocklists/templates'), relativePath = '') => {
 	const { format, allFiles, txtFiles, generatedPath } = await txtFilter('127.0.0.1', path, fs, relativePath, folderPath);
