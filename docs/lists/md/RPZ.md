@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (RPZ)</h1>
     <p>
         📄 » <b>Format: domain.tld CNAME .</b><br>
-        📥 » <b>Last update: 19.10.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 04.11.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -113,7 +113,7 @@ https://blocklist.sefinek.net/generated/v1/rpz/sites/esport.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/gamebanana.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/lgbtqplus.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/lgbtqplus2.txt
-https://blocklist.sefinek.net/generated/v1/rpz/sites/omegle.txt
+https://blocklist.sefinek.net/generated/v1/rpz/sites/ometv.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/patreon.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/pixiv.txt
 https://blocklist.sefinek.net/generated/v1/rpz/sites/riotgames.txt

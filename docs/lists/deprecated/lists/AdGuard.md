@@ -110,7 +110,7 @@ https://blocklist.sefinek.net/generated/adguard/malicious/phishing.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/reported-by-norton.txt
 https://blocklist.sefinek.net/generated/adguard/malicious/web-attacks.txt
 https://blocklist.sefinek.net/generated/adguard/porn.txt
-https://blocklist.sefinek.net/generated/adguard/sites/omegle.txt
+https://blocklist.sefinek.net/generated/adguard/sites/ometv.txt
 https://blocklist.sefinek.net/generated/adguard/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/adguard/social/snapchat.txt
 https://blocklist.sefinek.net/generated/adguard/social/tiktok.txt

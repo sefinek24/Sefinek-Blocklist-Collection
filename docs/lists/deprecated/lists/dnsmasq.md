@@ -109,7 +109,7 @@ https://blocklist.sefinek.net/generated/dnsmasq/malicious/phishing.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/reported-by-norton.txt
 https://blocklist.sefinek.net/generated/dnsmasq/malicious/web-attacks.txt
 https://blocklist.sefinek.net/generated/dnsmasq/porn.txt
-https://blocklist.sefinek.net/generated/dnsmasq/sites/omegle.txt
+https://blocklist.sefinek.net/generated/dnsmasq/sites/ometv.txt
 https://blocklist.sefinek.net/generated/dnsmasq/sites/riotgames.txt
 https://blocklist.sefinek.net/generated/dnsmasq/social/snapchat.txt
 https://blocklist.sefinek.net/generated/dnsmasq/social/tiktok.txt

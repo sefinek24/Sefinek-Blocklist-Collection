@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for Pi-hole</h1>
     <p>
         📄 » <b>Format: 0.0.0.0 domain.tld</b><br>
-        📥 » <b>Last update: 19.10.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 04.11.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -111,7 +111,7 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/esport.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/gamebanana.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/lgbtqplus.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/lgbtqplus2.txt
-https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/omegle.txt
+https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/ometv.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/patreon.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/pixiv.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/sites/riotgames.txt

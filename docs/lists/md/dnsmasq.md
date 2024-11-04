@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection (Dnsmasq)</h1>
     <p>
         📄 » <b>Format: server=/domain.tld/</b><br>
-        📥 » <b>Last update: 19.10.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 04.11.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -111,7 +111,7 @@ https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/esport.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/gamebanana.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/lgbtqplus.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/lgbtqplus2.txt
-https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/omegle.txt
+https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/ometv.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/patreon.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/pixiv.txt
 https://blocklist.sefinek.net/generated/v1/dnsmasq/sites/riotgames.txt

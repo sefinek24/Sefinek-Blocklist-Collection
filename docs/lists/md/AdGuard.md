@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for AdGuard</h1>
     <p>
         📄 » <b>Format: ||domain.tld^</b><br>
-        📥 » <b>Last update: 19.10.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 04.11.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -111,7 +111,7 @@ https://blocklist.sefinek.net/generated/v1/adguard/sites/esport.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/gamebanana.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/lgbtqplus.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/lgbtqplus2.txt
-https://blocklist.sefinek.net/generated/v1/adguard/sites/omegle.txt
+https://blocklist.sefinek.net/generated/v1/adguard/sites/ometv.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/patreon.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/pixiv.txt
 https://blocklist.sefinek.net/generated/v1/adguard/sites/riotgames.txt
