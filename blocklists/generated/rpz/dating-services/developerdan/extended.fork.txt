@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024101901 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024110401 43200 3600 259200 300
   NS  localhost.
 chatdate.app CNAME .
 *.chatdate.app CNAME .
@@ -31543,6 +31543,8 @@ pop3.stripchat.com CNAME .
 *.pop3.stripchat.com CNAME .
 pornode.stripchat.com CNAME .
 *.pornode.stripchat.com CNAME .
+preview-.stripchat.com CNAME .
+*.preview-.stripchat.com CNAME .
 preview-cdn.stripchat.com CNAME .
 *.preview-cdn.stripchat.com CNAME .
 preview-eu1.stripchat.com CNAME .
@@ -35643,6 +35645,8 @@ static.ace.date CNAME .
 *.static.ace.date CNAME .
 track.ace.date CNAME .
 *.track.ace.date CNAME .
+dating CNAME .
+*.dating CNAME .
 wwv.18.dating CNAME .
 *.wwv.18.dating CNAME .
 20.dating CNAME .
