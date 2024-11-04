@@ -1,5 +1,6 @@
 const { promises: fs } = require('node:fs');
 const path = require('node:path');
+const splitFile = require('./file-processor/split.js');
 const getDate = require('../functions/date.js');
 const sha256 = require('../functions/sha512.js');
 const txtFilter = require('../functions/txtFilter.js');
@@ -35,7 +36,9 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 
 		const fullNewFile = path.join(generatedPath, file.name);
 		await fs.writeFile(fullNewFile, replacedFile);
-		console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
+
+		const isSplit = await splitFile(fullNewFile, replacedFile, '#');
+		if (!isSplit) console.log(`✔️ ${cacheHash || file.name} ++ ${fullNewFile}`);
 	}));
 
 	await process(convert, allFiles, path, relativePath, folderPath);
