@@ -63,7 +63,6 @@ https://blocklist.sefinek.net/generated/v1/unbound/gambling/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/gambling/sefinek.hosts2.conf
 https://blocklist.sefinek.net/generated/v1/unbound/gambling/StevenBlack/hosts.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/gambling/TrustPositif/gambling-indonesia.fork.conf
-https://blocklist.sefinek.net/generated/v1/unbound/gambling/TrustPositif/gambling-indonesia.fork_2.conf
 https://blocklist.sefinek.net/generated/v1/unbound/games/league-of-legends.conf
 https://blocklist.sefinek.net/generated/v1/unbound/games/valorant.conf
 https://blocklist.sefinek.net/generated/v1/unbound/hate-and-junk/developerdan/extended.fork.conf
@@ -96,7 +95,6 @@ https://blocklist.sefinek.net/generated/v1/unbound/piracy/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/4skinSkywalker/hosts.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/blocklistproject/porn.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/chadmayfield/pi-blocklist-porn-all.fork.conf
-https://blocklist.sefinek.net/generated/v1/unbound/porn/chadmayfield/pi-blocklist-porn-all.fork_2.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/oisd/nsfw.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/porn/sefinek.hosts2.conf
@@ -113,7 +111,7 @@ https://blocklist.sefinek.net/generated/v1/unbound/sites/esport.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/gamebanana.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/lgbtqplus.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/lgbtqplus2.conf
-https://blocklist.sefinek.net/generated/v1/unbound/sites/omegle.conf
+https://blocklist.sefinek.net/generated/v1/unbound/sites/ometv.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/patreon.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/pixiv.conf
 https://blocklist.sefinek.net/generated/v1/unbound/sites/riotgames.conf
