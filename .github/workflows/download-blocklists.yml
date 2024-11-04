@@ -81,7 +81,7 @@ jobs:
             MODIFIED_FILES=$(git diff --name-only HEAD | grep -v '^cache/')
             FILE_COUNT=$(echo "$MODIFIED_FILES" | wc -l)
             if [ "$FILE_COUNT" -gt 0 ]; then
-              git commit -am "Main blocklist update every 3 hours [$FILE_COUNT files] - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" -m "$MODIFIED_FILES"
+              git commit -am "Main blocklist update every 3h [$FILE_COUNT files] - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" -m "$MODIFIED_FILES"
               git push origin main
             else
               echo "Canceled. No files to commit after excluding cache/ files."
