@@ -104,7 +104,7 @@ git clone --branch main --single-branch https://github.com/sefinek/Sefinek-Block
 ```
 
 
-## 🌠 My Other Repositories
+## 🌠 Other Repositories
 1. [Cloudflare-WAF-Expressions](https://github.com/sefinek/Cloudflare-WAF-Expressions)
 2. [Node-Cloudflare-WAF-AbuseIPDB](https://github.com/sefinek/Node-Cloudflare-WAF-AbuseIPDB)
 3. [UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
