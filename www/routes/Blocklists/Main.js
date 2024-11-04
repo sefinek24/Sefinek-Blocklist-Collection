@@ -69,7 +69,7 @@ const handleRequest = async (req, res, baseDir, basePath, validExtensions, templ
 		}
 
 		// Blocklists
-		if (validExtensions.some(ext => relativePath.endsWith(ext)) && fileStats.isFile()) return res.sendFile(requestedFilePath);
+		if (validExtensions.includes(relativePath) && fileStats.isFile()) return res.sendFile(requestedFilePath);
 
 		// Handle Directory Requests
 		if (fileStats.isDirectory()) {
