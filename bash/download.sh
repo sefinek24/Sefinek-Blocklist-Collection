@@ -63,7 +63,7 @@ urls=(
 
   ## Malicious
   "https://blocklistproject.github.io/Lists/malware.txt malicious/blocklistproject/malware.fork.txt"
-  "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt malicious/quidsup/notrack-malware.fork.txt"
+  "https://gitlab.com/quidsup/notrack-blocklists/raw/master/malware.list malicious/quidsup/notrack-malware.fork.txt"
   "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts-online.txt malicious/malware-filter/urlhaus-filter-hosts-online.fork.txt"
   "https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt malicious/digitalside/latestdomains.fork.txt"
   "https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts malicious/AssoEchap/stalkerware-indicators.fork.txt"
