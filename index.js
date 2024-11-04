@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const cluster = require('node:cluster');
-const { availableParallelism } = require('node:os');
+const numCPUs = require('node:os').availableParallelism();
 const path = require('node:path');
 const WebSocket = require('ws');
 const createDir = require('./scripts/utils/createDir.js');
@@ -51,8 +51,7 @@ createDir(path.join(__dirname, 'www', 'public', 'logs'));
 		setInterval(flushBuffer, 4000);
 
 		// Fork workers
-		const numberCPUs = availableParallelism();
-		for (let i = 0; i < numberCPUs; i++) {
+		for (let i = 0; i < numCPUs; i++) {
 			cluster.fork();
 		}
 
@@ -63,7 +62,8 @@ createDir(path.join(__dirname, 'www', 'public', 'logs'));
 
 		// On exit
 		cluster.on('exit', (worker, code, signal) => {
-			console.log(`Worker ${worker.process.pid} died with code ${code} from signal ${signal}.`);
+			console.error(`Worker ${worker.process.pid} died (code: ${code}, signal: ${signal}). Restarting...`);
+			cluster.fork();
 		});
 
 		console.log(`Primary ${process.pid} is running: http://127.0.0.1:${process.env.PORT}`);
