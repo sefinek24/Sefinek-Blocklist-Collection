@@ -98,7 +98,7 @@ Your efforts and insights are highly valued and will help make this project even
 Thank you in advance for your valuable contribution!
 
 
-## 📥 How to Clone the Repository?
+## 📥 How to Clone?
 ```bash
 git clone --branch main --single-branch https://github.com/sefinek/Sefinek-Blocklist-Collection.git
 ```
