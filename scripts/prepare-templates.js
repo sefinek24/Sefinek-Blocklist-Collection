@@ -9,13 +9,6 @@ const processDirectory = async dirPath => {
 		const fileNames = await readdir(dirPath);
 		const txtFiles = fileNames.filter(fileName => fileName.endsWith('.txt'));
 
-		const totalModifiedLines = 0;
-		const totalConvertedDomains = 0;
-		const totalInvalidDomainsRemoved = 0;
-		const totalIPsReplaced = 0;
-		const totalProcessedFiles = 0;
-		const totalCommentsPreserved = 0;
-
 		for (const fileName of txtFiles) {
 			const filePath = join(dirPath, fileName);
 			const fileContents = await readFile(filePath, 'utf8');
