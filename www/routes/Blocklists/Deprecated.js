@@ -526,7 +526,7 @@ router.get('/generated/noip/forks/developerdan.dating-services-extended.txt', (r
 
 // Useless Websites
 router.get('/generated/noip/useless-websites.txt', (req, res) => res.sendFile(`${noIp}/useless-websites/sefinek.hosts.txt`));
-router.get('/generated/v1/noip/useless-websites.txt', (req, res) => res.sendFile(`${noip}/useless-websites/sefinek.hosts.txt`));
+router.get('/generated/v1/noip/useless-websites.txt', (req, res) => res.sendFile(`${noIp}/useless-websites/sefinek.hosts.txt`));
 
 // Anime
 router.get('/generated/noip/anime/shinden.pl.txt', (req, res) => res.sendFile(`${noIp}/anime/shinden.pl.txt`));
