@@ -100,7 +100,7 @@ Thank you in advance for your valuable contribution!
 
 ## 📥 How to Clone the Repository?
 ```bash
-git clone --branch main --single-branch https://github.com/sefinek/Sefinek-Blocklist-Collection
+git clone --branch main --single-branch https://github.com/sefinek/Sefinek-Blocklist-Collection.git
 ```
 
 
