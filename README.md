@@ -74,7 +74,7 @@ The blocklists on the primary server ([blocklist.sefinek.net](https://blocklist.
 - **Spyware:** Blocks domains distributing spyware or adware.
 - **Telemetry & Tracking:** Blocks domains that track user activity for analytics purposes.
 - **Useless Websites:** Blocks low-value or parked domains that offer little to no value to users.
-- **Websites & Games:** TikTok, Snapchat, Omegle, Riot Games, Valorant, and League of Legends.
+- **Websites & Games:** TikTok, Snapchat, OmeTV, Riot Games, Valorant, and League of Legends.
 
 
 <h3 align="right">
