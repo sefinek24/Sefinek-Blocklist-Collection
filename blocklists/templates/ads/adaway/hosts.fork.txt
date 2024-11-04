@@ -18,8 +18,8 @@
 # Contribute:
 # Create an issue at https://github.com/AdAway/adaway.github.io/issues
 #
-0.0.0.0 localhost
-::1 localhost
+127.0.0.1  localhost
+::1  localhost
 0.0.0.0 analytics.163.com
 0.0.0.0 crash.163.com
 0.0.0.0 iad.g.163.com
@@ -3534,7 +3534,7 @@
 0.0.0.0 static.locallogic.co
 0.0.0.0 merciless.localstars.com
 0.0.0.0 adserver.merciless.localstars.com
-127.0.0.1 localytics.com
+0.0.0.0 local
 0.0.0.0 53.localytics.com
 0.0.0.0 api.53.localytics.com
 0.0.0.0 manifest.53.localytics.com
@@ -4507,7 +4507,7 @@
 0.0.0.0 api-n.outgrow.co
 0.0.0.0 prod-collecticon.outlookmobile.com
 0.0.0.0 px.owneriq.net
-127.0.0.1 local.ownlocal.com
+0.0.0.0 local
 0.0.0.0 secure.ownlocal.com
 0.0.0.0 origami.secure.ownlocal.com
 0.0.0.0 widget.secure.ownlocal.com
@@ -5971,7 +5971,7 @@
 0.0.0.0 ads.uberads.com
 0.0.0.0 serve.uberads.com
 0.0.0.0 serve-prod1204.uberads.com
-127.0.0.1 local-analytics.uberinternal.com
+0.0.0.0 local
 0.0.0.0 reports.ubimo.com
 0.0.0.0 applog.uc.cn
 0.0.0.0 gj.applog.uc.cn

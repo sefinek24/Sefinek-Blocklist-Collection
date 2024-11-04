@@ -1,8 +1,6 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024101901 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024110401 43200 3600 259200 300
   NS  localhost.
-localhost CNAME .
-*.localhost CNAME .
 analytics.163.com CNAME .
 *.analytics.163.com CNAME .
 crash.163.com CNAME .
@@ -7025,8 +7023,8 @@ merciless.localstars.com CNAME .
 *.merciless.localstars.com CNAME .
 adserver.merciless.localstars.com CNAME .
 *.adserver.merciless.localstars.com CNAME .
-localytics.com CNAME .
-*.localytics.com CNAME .
+local CNAME .
+*.local CNAME .
 53.localytics.com CNAME .
 *.53.localytics.com CNAME .
 api.53.localytics.com CNAME .
@@ -7053,6 +7051,8 @@ web.localytics.com CNAME .
 *.web.localytics.com CNAME .
 webanalytics.localytics.com CNAME .
 *.webanalytics.localytics.com CNAME .
+localytics.com CNAME .
+*.localytics.com CNAME .
 api.locately.com CNAME .
 *.api.locately.com CNAME .
 sparkle.locationlabs.com CNAME .
@@ -8969,8 +8969,6 @@ prod-collecticon.outlookmobile.com CNAME .
 *.prod-collecticon.outlookmobile.com CNAME .
 px.owneriq.net CNAME .
 *.px.owneriq.net CNAME .
-local.ownlocal.com CNAME .
-*.local.ownlocal.com CNAME .
 secure.ownlocal.com CNAME .
 *.secure.ownlocal.com CNAME .
 origami.secure.ownlocal.com CNAME .
@@ -11895,8 +11893,6 @@ serve.uberads.com CNAME .
 *.serve.uberads.com CNAME .
 serve-prod1204.uberads.com CNAME .
 *.serve-prod1204.uberads.com CNAME .
-local-analytics.uberinternal.com CNAME .
-*.local-analytics.uberinternal.com CNAME .
 reports.ubimo.com CNAME .
 *.reports.ubimo.com CNAME .
 applog.uc.cn CNAME .
