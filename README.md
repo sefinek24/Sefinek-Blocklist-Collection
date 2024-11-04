@@ -37,7 +37,7 @@ The blocklists on the primary server ([blocklist.sefinek.net](https://blocklist.
 
 ## 📥 Update Schedule
 - **This repository:**  
-  The blocklists in this repository are updated every `2 hours` by [GitHub Actions](.github/workflows/download-blocklists.yml).
+  The blocklists in this repository are updated every `3 hours` by [GitHub Actions](.github/workflows/download-blocklists.yml).
 - **Remote ([blocklist.sefinek.net](https://blocklist.sefinek.net)):**  
   Synchronization occurs daily at `01:00` and `06:00` (24-hour clock, Poland time zone: `GMT+01:00`). Cron: `0 1,6 * * *` (at minute 0 past hour 1 and 6).
 > [!IMPORTANT]  
