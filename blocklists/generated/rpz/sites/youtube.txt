@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024103001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024110401 43200 3600 259200 300
   NS  localhost.
 about.youtube.com CNAME .
 *.about.youtube.com CNAME .
@@ -21,8 +21,6 @@ m.youtube.com CNAME .
 *.m.youtube.com CNAME .
 music.youtube.com CNAME .
 *.music.youtube.com CNAME .
-music.youtube.com/artist CNAME .
-*.music.youtube.com/artist CNAME .
 partners.youtube.com CNAME .
 *.partners.youtube.com CNAME .
 r2---sn-a5mlrnes.googlevideo.com CNAME .
