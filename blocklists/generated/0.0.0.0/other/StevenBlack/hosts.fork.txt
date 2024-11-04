@@ -12,7 +12,7 @@
 #
 # ===============================================================
 0.0.0.0 localhost
-0.0.0.0 localhost.localdomain
+0.0.0.0 localhost
 0.0.0.0 local
 255.255.255.255 broadcasthost
 ::1 localhost
@@ -24,7 +24,6 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
 # Custom host records are listed here.
 # End of custom host records.
 # Start StevenBlack
@@ -118454,7 +118453,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ywxww.net
 0.0.0.0 yzkzixun.com
 0.0.0.0 zunigarquitectura.com
-# Number of entries: 120198
+# Number of entries: 120200
 # End URLHaus
 # Start yoyo.org
 # Blocklist for use with hosts files to block ads, trackers, and other nasty things

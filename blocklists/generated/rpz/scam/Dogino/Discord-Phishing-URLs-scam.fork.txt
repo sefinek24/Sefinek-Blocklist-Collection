@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024102401 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024110401 43200 3600 259200 300
   NS  localhost.
 02ip.ru CNAME .
 *.02ip.ru CNAME .
@@ -275,8 +275,6 @@ $TTL 300
 *.3psil0n.fr CNAME .
 4-chess.online CNAME .
 *.4-chess.online CNAME .
-40%40%@zk-bridge.network CNAME .
-*.40%40%@zk-bridge.network CNAME .
 411medias.com CNAME .
 *.411medias.com CNAME .
 418055.xyz CNAME .
@@ -4303,8 +4301,6 @@ captcha-login.id CNAME .
 *.captcha-login.id CNAME .
 captcha-lookup.xyz CNAME .
 *.captcha-lookup.xyz CNAME .
-captcha-lookup.xyz?path=verification CNAME .
-*.captcha-lookup.xyz?path=verification CNAME .
 captcha-mee6.com CNAME .
 *.captcha-mee6.com CNAME .
 captcha-mee6.xyz CNAME .
