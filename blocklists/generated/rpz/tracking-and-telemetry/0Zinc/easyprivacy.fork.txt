@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024110401 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024110501 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -4877,6 +4877,8 @@ error-collector.ted.com CNAME .
 *.error-collector.ted.com CNAME .
 errorreports.couponcabin.com CNAME .
 *.errorreports.couponcabin.com CNAME .
+errors.darkreader.app CNAME .
+*.errors.darkreader.app CNAME .
 espy.boehs.org CNAME .
 *.espy.boehs.org CNAME .
 et.nytimes.com CNAME .
@@ -5449,6 +5451,8 @@ stat.turb.pw CNAME .
 *.stat.turb.pw CNAME .
 stat.vulkanvegas.com CNAME .
 *.stat.vulkanvegas.com CNAME .
+statistics.darkreader.app CNAME .
+*.statistics.darkreader.app CNAME .
 statistics.streamdav.com CNAME .
 *.statistics.streamdav.com CNAME .
 stats.aerotime.aero CNAME .
@@ -5461,6 +5465,8 @@ stats.chromatone.center CNAME .
 *.stats.chromatone.center CNAME .
 stats.codeur.com CNAME .
 *.stats.codeur.com CNAME .
+stats.darkreader.app CNAME .
+*.stats.darkreader.app CNAME .
 stats.davidickedelivery.com CNAME .
 *.stats.davidickedelivery.com CNAME .
 stats.gateio.ch CNAME .
