@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for AdGuard</h1>
     <p>
         📄 » <b>Format: ||domain.tld^</b><br>
-        📥 » <b>Last update: 04.11.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 06.11.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -48,7 +48,6 @@ https://blocklist.sefinek.net/generated/v1/adguard/extensions/deathbybandaid/Par
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/deathbybandaid/ParsedBlacklists-EasyList.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/FadeMind/add-2o7Net.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/hagezi/pro.fork.txt
-https://blocklist.sefinek.net/generated/v1/adguard/extensions/justdomains/adguarddns-justdomains.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/MajkiIT/adguard-host.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/MajkiIT/easy-privacy-host.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/extensions/oisd/big.fork.txt
