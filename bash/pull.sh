@@ -26,7 +26,7 @@ mkdir -p "$logs_dir"
         cd "$repo_path" || exit
 
         if git pull; then
-            npm i --omit=dev
+            npm install --omit=dev
             # pm2 restart blocklist
 
             echo -e "\nSuccess! Finished at: $(date +'%Y-%m-%d %H:%M:%S')"
