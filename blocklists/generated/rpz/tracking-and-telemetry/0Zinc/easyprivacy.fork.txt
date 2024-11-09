@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024110801 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024110901 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -5497,6 +5497,8 @@ stats.synedat.io CNAME .
 *.stats.synedat.io CNAME .
 stats.trimbles.ie CNAME .
 *.stats.trimbles.ie CNAME .
+stats.vidbinge.com CNAME .
+*.stats.vidbinge.com CNAME .
 stats.vk-portal.net CNAME .
 *.stats.vk-portal.net CNAME .
 stats.wordpress.com CNAME .
