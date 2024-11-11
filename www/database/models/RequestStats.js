@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const RequestStats = new Schema({
+const RequestStatsSchema = new Schema({
 	total: { type: Number, default: 0 },
 	blocklists: { type: Number, default: 0 },
 
@@ -22,4 +22,4 @@ const RequestStats = new Schema({
 	updateStatsFail: { type: Number, default: 0 },
 }, { timestamps: true, versionKey: false });
 
-module.exports = model('request-stats', RequestStats);
+module.exports = model('request-stats', RequestStatsSchema);
