@@ -114,10 +114,5 @@ Join our [Discord server](https://discord.gg/53DBjTuzgZ) or open a new [Issue](h
 3. [UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
 
 
-## 🐈 Sources of Images Used
-- https://pinterest.com
-- https://www.freepik.com
-
-
 ## 🔒 CC BY-NC-ND 4.0
 [Attribution-NonCommercial-NoDerivatives 4.0 International](LICENSE)
