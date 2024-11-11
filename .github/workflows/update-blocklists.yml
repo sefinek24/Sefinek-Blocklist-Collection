@@ -1,4 +1,4 @@
-name: Generate new committed blocklists
+name: Update manually approved blocklists
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate:
+  update:
     runs-on: ubuntu-latest
 
     steps:

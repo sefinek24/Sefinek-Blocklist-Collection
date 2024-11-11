@@ -30,7 +30,7 @@ New lists were added to the [generator](https://sefinek.net/blocklist-generator)
 
 ## ❌ How to Report a False Positive?
 False positives can be reported by creating a new [Issue](https://github.com/sefinek/Sefinek-Blocklist-Collection/issues), submitting a [new PR](https://github.com/sefinek/Sefinek-Blocklist-Collection/pulls) (just remember to follow the required syntax, see [whitelists/main.txt](https://github.com/sefinek/Sefinek-Blocklist-Collection/blob/main/whitelists/main.txt#L10)), on our [Discord](https://sefinek.net) server, or by contacting me via [email](https://sefinek.net/contact-me).  
-Within 96 hours, I will add the domain to the [whitelist](whitelists/main.txt). Shortly after, the false positive will be automatically removed from the blocklist by [GitHub Actions](.github/workflows/generate-blocklists.yml).
+Within 96 hours, I will add the domain to the [whitelist](whitelists/main.txt). Shortly after, the false positive will be automatically removed from the blocklist by [GitHub Actions](.github/workflows/update-blocklists.yml).
 
 
 ## 📥 Update Schedule
