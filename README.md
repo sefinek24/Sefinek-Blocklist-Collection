@@ -16,7 +16,7 @@
 Visit the official website of the project at [blocklist.sefinek.net](https://blocklist.sefinek.net) for more details.  
 New lists were added to the [generator](https://sefinek.net/blocklist-generator) on **October 19, 2024**. Please make sure to update your collection on your end. 😉
 
-<h2>💗 Powered by Storm Server Hosting</h2>
+<h3>💗 Powered by Storm Server Hosting</h3>
 <div align="center">
   <a href="https://stormserverhosting.com" target="_blank">
     <img src="https://cdn.sefinek.net/images/stormserverhosting/banner-white.png" height="130" alt="Storm Server Hosting">
