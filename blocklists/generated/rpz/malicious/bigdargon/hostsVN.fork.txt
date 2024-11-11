@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024111001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024111101 43200 3600 259200 300
   NS  localhost.
 api-adservices.apple.com CNAME .
 *.api-adservices.apple.com CNAME .
@@ -22051,6 +22051,8 @@ adnetwork-core-lb7.aiactiv.io CNAME .
 *.adnetwork-core-lb7.aiactiv.io CNAME .
 adnetwork-core.aiactiv.io CNAME .
 *.adnetwork-core.aiactiv.io CNAME .
+adnetwork-tracking-proxy.aiactiv.io CNAME .
+*.adnetwork-tracking-proxy.aiactiv.io CNAME .
 aiactiv.io CNAME .
 *.aiactiv.io CNAME .
 identify.aiactiv.io CNAME .
@@ -30259,6 +30261,8 @@ gtop100.com CNAME .
 *.gtop100.com CNAME .
 gtsmobi.com CNAME .
 *.gtsmobi.com CNAME .
+gtubumgalb.com CNAME .
+*.gtubumgalb.com CNAME .
 guardedschool.com CNAME .
 *.guardedschool.com CNAME .
 guatocut.live CNAME .
