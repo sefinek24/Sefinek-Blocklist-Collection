@@ -52,29 +52,32 @@ This will help you schedule the cron job for optimal timing.
 
 
 ## ✨ Default Blocklist
-- **Abuse:** Blocks known domains involved in online abuse or harassment.
-- **Advertising:** Blocks domains that serve advertisements to visitors.
-- **AMP Hosts:** Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
-- **CryptoJacking:** Blocks domains that hijack your device to mine cryptocurrency.
-- **Dating Services:** Blocks domains of dating websites and apps.
-- **Drugs:** Blocks domains that sell or promote drugs.
-- **Fake News:** Blocks domains known for publishing fake or misleading news.
-- **Gambling:** Blocks domains of online gambling websites.
-- **Hate & Junk:** Blocks domains promoting hate speech or spreading misinformation.
-- **LGBTQ+ Content:** Blocks domains related to LGBTQ+ content.
-- **Malicious:** Blocks domains considered dangerous or malicious.
-- **Phishing:** Blocks domains involved in phishing attempts.
-- **Piracy:** Blocks domains distributing pirated software, etc.
-- **Porn:** Blocks domains of adult websites.
-- **Ransomware:** Blocks domains involved in ransomware attacks.
-- **Redirect:** Blocks domains that redirect users to unintended websites.
-- **Scam:** Blocks domains known for promoting scams or fraudulent activities.
-- **Spam Mails:** Blocks domains that send unsolicited emails.
-- **Spyware:** Blocks domains distributing spyware or adware.
-- **Telemetry & Tracking:** Blocks domains that track user activity for analytics purposes.
-- **Useless Websites:** Blocks low-value or parked domains that offer little to no value to users.
-- **Websites & Games:** TikTok, Snapchat, OmeTV, Riot Games, Valorant, and League of Legends.
+<details>
+  <summary>Click here to see</summary>
 
+  - **Abuse:** Blocks known domains involved in online abuse or harassment.
+  - **Advertising:** Blocks domains that serve advertisements to visitors.
+  - **AMP Hosts:** Blocks Accelerated Mobile Pages (AMP) hosts that often serve ads and track user behavior.
+  - **CryptoJacking:** Blocks domains that hijack your device to mine cryptocurrency.
+  - **Dating Services:** Blocks domains of dating websites and apps.
+  - **Drugs:** Blocks domains that sell or promote drugs.
+  - **Fake News:** Blocks domains known for publishing fake or misleading news.
+  - **Gambling:** Blocks domains of online gambling websites.
+  - **Hate & Junk:** Blocks domains promoting hate speech or spreading misinformation.
+  - **LGBTQ+ Content:** Blocks domains related to LGBTQ+ content.
+  - **Malicious:** Blocks domains considered dangerous or malicious.
+  - **Phishing:** Blocks domains involved in phishing attempts.
+  - **Piracy:** Blocks domains distributing pirated software, etc.
+  - **Porn:** Blocks domains of adult websites.
+  - **Ransomware:** Blocks domains involved in ransomware attacks.
+  - **Redirect:** Blocks domains that redirect users to unintended websites.
+  - **Scam:** Blocks domains known for promoting scams or fraudulent activities.
+  - **Spam Mails:** Blocks domains that send unsolicited emails.
+  - **Spyware:** Blocks domains distributing spyware or adware.
+  - **Telemetry & Tracking:** Blocks domains that track user activity for analytics purposes.
+  - **Useless Websites:** Blocks low-value or parked domains that offer little to no value to users.
+  - **Websites & Games:** TikTok, Snapchat, OmeTV, Riot Games, Valorant, and League of Legends.
+</details>
 
 <h3 align="right">
     📃 <a href="docs/lists/Index.md">Select your DNS server and copy the URLs »</a><br>
