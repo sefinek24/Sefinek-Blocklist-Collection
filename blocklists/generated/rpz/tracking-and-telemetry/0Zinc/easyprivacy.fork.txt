@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024110901 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024111201 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -1349,6 +1349,8 @@ cdn-channels-pixel.ex.co CNAME .
 *.cdn-channels-pixel.ex.co CNAME .
 cdn.ravm.tv CNAME .
 *.cdn.ravm.tv CNAME .
+cf-pixelfront-analytics.widencdn.net CNAME .
+*.cf-pixelfront-analytics.widencdn.net CNAME .
 cf.overblog.com CNAME .
 *.cf.overblog.com CNAME .
 cgicounter.oneandone.co.uk CNAME .
