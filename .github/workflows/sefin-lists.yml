@@ -2,7 +2,7 @@ name: Update Sefinek's lists
 
 on:
   schedule: # https://crontab.guru
-    - cron: '0 9 */2 * *' # At 09:00 on every 2nd day-of-month.
+    - cron: '0 10 * * *' # At 10:00.
 
   workflow_dispatch:
 
