@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024111301 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024111401 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -5057,6 +5057,8 @@ in.brilliant.org CNAME .
 *.in.brilliant.org CNAME .
 indmetric.rediff.com CNAME .
 *.indmetric.rediff.com CNAME .
+ingest.coincodex.com CNAME .
+*.ingest.coincodex.com CNAME .
 ingest.make.rvohealth.com CNAME .
 *.ingest.make.rvohealth.com CNAME .
 ingress.linktr.ee CNAME .
