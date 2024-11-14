@@ -112,9 +112,11 @@ Join our [Discord server](https://discord.gg/53DBjTuzgZ) or open a new [Issue](h
 
 
 ## 🌠 Other Repositories
-1. [Cloudflare-WAF-Expressions](https://github.com/sefinek/Cloudflare-WAF-Expressions)
-2. [Node-Cloudflare-WAF-AbuseIPDB](https://github.com/sefinek/Node-Cloudflare-WAF-AbuseIPDB)
-3. [UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
+1. [Malicious-IP-Addresses](https://github.com/sefinek/Malicious-IP-Addresses)
+2. [Blacklisted-Emails](https://github.com/sefinek/Blacklisted-Emails)
+3. [Cloudflare-WAF-Expressions](https://github.com/sefinek/Cloudflare-WAF-Expressions)
+4. [Cloudflare-WAF-To-AbuseIPDB](https://github.com/sefinek/Cloudflare-WAF-To-AbuseIPDB)
+5. [UFW-AbuseIPDB-Reporter](https://github.com/sefinek/UFW-AbuseIPDB-Reporter)
 
 
 ## 🔒 CC BY-NC-ND 4.0
