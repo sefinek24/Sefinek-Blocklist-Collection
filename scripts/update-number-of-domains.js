@@ -6,7 +6,7 @@ const { join } = require('node:path');
 const getAllTxtFiles = require('./utils/getAllTxtFiles.js');
 
 const createUpdatedContents = (lines, domainCount) => {
-	const countText = domainCount?.toLocaleString('en-US') || 'N/A';
+	const countText = domainCount?.toLocaleString('en-US') || 'Unknown';
 	return lines.join('\n')
 		.replace(
 			/^(#\s*)(Domains|Count|Entries|Number of entries|Number of unique domains|Total number of network filters)(:\s*)(\d*[\d,]*)$/im,
