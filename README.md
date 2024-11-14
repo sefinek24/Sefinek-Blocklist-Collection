@@ -96,7 +96,7 @@ Feel free to join my [Discord server](https://discord.gg/53DBjTuzgZ), where I po
 
 ## 🤝 Contributing
 If you have any suggestions or ideas that could improve this project, please don't hesitate to share them with me.
-I encourage you to contribute by submitting a [pull request](https://github.com/sefinek/Sefinek-Blocklist-Collection) with your proposed changes.
+I encourage you to contribute by submitting a [Pull request](https://github.com/sefinek/Sefinek-Blocklist-Collection) with your proposed changes.
 Your efforts and insights are greatly appreciated and will help make this project even better and more valuable for others.
 Thank you in advance for your valuable contributions!
 
