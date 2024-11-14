@@ -47,7 +47,7 @@ jobs:
         run: node scripts/whitelist.js
 
       - name: Count domains
-        run: node scripts/update-number-of-domains.js --ignore-question
+        run: node scripts/update-number-of-domains.js
 
       - name: Run git pull
         run: git pull origin main

@@ -41,7 +41,7 @@ jobs:
         run: node scripts/set-valid-encoding.js
 
       - name: Count domains
-        run: node scripts/update-number-of-domains.js --ignore-question
+        run: node scripts/update-number-of-domains.js
 
       - name: Generate No IP list
         run: node scripts/generate/noip.js
