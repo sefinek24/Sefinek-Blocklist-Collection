@@ -6,14 +6,13 @@ const { join } = require('node:path');
 const getAllTxtFiles = require('./utils/getAllTxtFiles.js');
 
 const createUpdatedContents = (lines, domainCount) => {
+	const countText = domainCount?.toLocaleString('en-US') || 'N/A';
 	return lines.join('\n')
-		.replace(/^# Count: ?(\d*)$/gim, `# Count: ${domainCount || 'N/A'}`)
-		.replace(/^# Entries: ?(\d*)$/gim, `# Entries: ${domainCount || 'N/A'}`)
-		.replace(/^(# Entries:\s*)(\d+)$/gim, (_, prefix) => `${prefix}${domainCount || 'N/A'}`)
-		.replace('# Count       : N/A', `# Count       : ${domainCount || 'N/A'}`)
-		.replace(/^# Number of entries: ?(\d*)$/gim, `# Number of entries: ${domainCount || 'N/A'}`)
-		.replace(/^# Number of unique domains: ?(\d*)$/gim, `# Number of unique domains: ${domainCount || 'N/A'}`)
-		.replace(/^# Total number of network filters: ?(\d*)$/gim, `# Total number of network filters: ${domainCount || 'N/A'}`);
+		.replace(
+			/^(#\s*)(Domains|Count|Entries|Number of entries|Number of unique domains|Total number of network filters)(:\s*)(\d*[\d,]*)$/im,
+			(_, prefix, key, separator) => `${prefix}${key}${separator}${countText}`
+		);
+	// .replace(/^# last updated:.*GMT.*$/im, (match) => match + ` (Sefinek lists: ${new Date().toUTCString()})`);
 };
 
 const processFile = async file => {
@@ -28,8 +27,7 @@ const processFile = async file => {
 
 	const updatedFileContents = createUpdatedContents(lines, domainCount);
 	await writeFile(file, updatedFileContents, 'utf8');
-	const formattedCount = domainCount.toLocaleString('en-US', { minimumIntegerDigits: 8, useGrouping: true }).replace(/,/g, ' ');
-	console.log(green('[INFO]:'), `${formattedCount} domains: ${file}`);
+	console.log(green('[INFO]:'), `${domainCount.toLocaleString('en-US', { minimumIntegerDigits: 8, useGrouping: true }).replace(/,/g, ' ')} domains: ${file}`);
 };
 
 (async () => {
@@ -40,9 +38,7 @@ const processFile = async file => {
 		const files = await getAllTxtFiles(blockListDir);
 		console.log(blue('[INFO]:'), `Processing ${files.length} txt files...`);
 
-		for (const file of files) {
-			await processFile(file);
-		}
+		await Promise.all(files.map(processFile));
 	} catch (err) {
 		console.error(red('[FAIL]:'), err.message);
 	}
