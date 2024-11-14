@@ -86,12 +86,10 @@ This will help you schedule the cron job for optimal timing.
 
 
 ## ✅ Good to Know
-Regularly checking this repository for updates and potential changes is recommended.
-While this blocklist can enhance your privacy and security, it may occasionally block legitimate content or services unintentionally.
-
-New lists are added periodically. You can also install the [Sefinek Blocklists](https://apps.microsoft.com/detail/9p3tnt3pjd0j) app from the Microsoft Store for quick and easy access to these lists.
-
-Feel free to join my [Discord server](https://discord.gg/53DBjTuzgZ), where I post the latest announcements and other important updates!
+- Regularly checking this repository for updates and potential changes is recommended.
+- While this blocklist can enhance your privacy and security, it may occasionally block legitimate content or services unintentionally.
+- New lists are added periodically. You can also install the [Sefinek Blocklists](https://apps.microsoft.com/detail/9p3tnt3pjd0j) app from the Microsoft Store for quick and easy access to these lists.
+- Feel free to join my [Discord server](https://discord.gg/53DBjTuzgZ), where I post the latest announcements and other important updates!
 
 
 ## 🤝 Contributing
