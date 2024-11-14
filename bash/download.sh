@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# Each blocklist is stored in a directory named after its author
-# and the downloaded file is prefixed with "fork" to indicate that it has been forked.
-
-# List of URLs for blocklists. Each entry includes the URL and the desired path.
-# The path now includes an author-specific folder and a "fork" prefix for the filename.
+# Each blocklist is stored in a directory named after the author, and the downloaded file has a 'fork' prefix to indicate that it has been forked.
+# Below, you'll find a list of URLs for the blocklists. Each entry provides both the URL and the corresponding path.
 urls=(
   ## Abuse
   "https://blocklistproject.github.io/Lists/abuse.txt abuse/blocklistproject/hosts.fork.txt"
