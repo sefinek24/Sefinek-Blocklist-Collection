@@ -35,6 +35,6 @@ const updateStats = (req, res) => {
 };
 
 module.exports = (req, res, next) => {
-	res.on('finish', updateStats);
+	res.on('finish', () => updateStats());
 	next();
 };
