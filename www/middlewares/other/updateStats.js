@@ -1,10 +1,10 @@
 const parseCategoryFromLink = require('../../utils/parseCategoryFromLink.js');
 const time = require('../../utils/time.js');
 
-const BOT_REGEX1 = /s(?:cr(?:eaming frog|apy)|istrix|lurp)|i(?:a_archiv|ndex)er|facebook|scraper|(?:s(?:cann|pid)|fetch)er|crawl|yahoo|bot/i;
+const BOT_REGEX1 = /netcraftsurveyagent|domainsproject\.org|f(?:reepublicapis|acebook)|screaming frog|i(?:a_archiv|ndex)er|s(?:istrix|crapy|lurp)|scraper|(?:s(?:cann|pid)|fetch)er|crawl|jest\/|yahoo|bot/i;
 
 const updateStats = (req, res) => {
-	if (BOT_REGEX1.test(req.headers['user-agent'])) return;
+	if (BOT_REGEX1.test(req.headers['user-agent']) || req.method !== 'GET') return;
 
 	try {
 		const { url, type } = parseCategoryFromLink(req.originalUrl || req.url);
@@ -35,6 +35,6 @@ const updateStats = (req, res) => {
 };
 
 module.exports = (req, res, next) => {
-	if (req.method === 'GET') res.on('finish', () => updateStats(req, res));
+	res.on('finish', updateStats);
 	next();
 };
