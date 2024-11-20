@@ -110,6 +110,9 @@ const processDirectory = async dirPath => {
 					modifiedLines++;
 				}
 
+				// Delete 0.0.0.0
+				if (line === '0.0.0.0') continue;
+
 				// Remove invalid domains
 				if (line.match(/^(0\.0\.0\.0|127\.0\.0\.1)\s+/)) {
 					const words = line.split(/\s+/);
