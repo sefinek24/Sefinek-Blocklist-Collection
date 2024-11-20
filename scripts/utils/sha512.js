@@ -16,7 +16,7 @@ module.exports = async (thisFileName, type) => {
 	const buff = await fs.readFile(thisFileName);
 	const hash = createHash('sha512').update(buff).digest('hex');
 	if (hash === hashFromCacheFile) {
-		console.log(`⏭️ ${hash} / ${type}:${path.basename(thisFileName)} / skipped`);
+		// console.log(`⏭️ ${hash} / ${type}:${path.basename(thisFileName)} / skipped`);
 		return { stop: true };
 	}
 

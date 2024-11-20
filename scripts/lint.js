@@ -21,7 +21,7 @@ const worker = async () => {
 		});
 	}
 
-	await Promise.all(files.filter((file) => file !== 'everything.txt').map(async file => {
+	await Promise.all(files.filter(file => file !== 'everything.txt').map(async file => {
 		const fileContents = await readFile(join(file), 'utf8');
 
 		fileContents.split('\n').map((line) => {

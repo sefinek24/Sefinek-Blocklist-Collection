@@ -18,7 +18,6 @@ const processDirectory = async dirPath => {
 			let convertedDomains = 0;
 			const invalidDomainsRemoved = 0;
 			let ipsReplaced = 0;
-			let commentsPreserved = 0;
 
 			const lines = fileContents.split('\n');
 			const processedLines = [];
@@ -33,14 +32,12 @@ const processDirectory = async dirPath => {
 				// grex "localhost" "broadcasthost" "::1" "ff00::0" "ff02::1" "ff02::2" "ff02::3" "0.0.0.0 local"
 				if (local.test(line)) {
 					processedLines.push(line);
-					commentsPreserved++;
 					continue;
 				}
 
 				// Preserve comments
 				if (line.startsWith('#')) {
 					processedLines.push(line);
-					commentsPreserved++;
 					continue;
 				}
 
@@ -51,12 +48,6 @@ const processDirectory = async dirPath => {
 					line = `${ip} ${domain.toLowerCase()} ${comment.join(' ').trim()}`.trim();
 					convertedDomains++;
 					modifiedLines++;
-				}
-
-				// Remove invalid domains
-				if (domain && !validator.isURL(domain, { require_valid_protocol: false, allow_underscores: true })) {
-					modifiedLines++;
-					continue;
 				}
 
 				// 127.0.0.1 || 195.187.6.33 || 195.187.6.34  || 195.187.6.35 -> 0.0.0.0
@@ -73,17 +64,18 @@ const processDirectory = async dirPath => {
 					modifiedLines++;
 				}
 
-				// 0.0.0.0 ||example.com^ -> 0.0.0.0 example.com
-				if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#') && (/\|\||\^/gim).test(line)) {
-					const words = line.split(' ');
-					if (words.length === 1) {
-						line = `0.0.0.0 ${words[0].replace(/[|^]/gim, '').replace(/!/, '#').replace(/[\\[]/gim, '# [').toLowerCase()}`;
-						modifiedLines++;
-					}
+				// AdGuard
+				if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#') && line.startsWith('||')) {
+					line = `0.0.0.0 ${line.replace(/^(\|\|)/, '').replace(/\^$/, '')}`;
+					modifiedLines++;
+				}else if (line.startsWith('0.0.0.0 ||')) {
+					// Zmieniamy linię zaczynającą się od '0.0.0.0 ||' na '||example.com^'
+					line = line.replace(/^0\.0\.0\.0\s\|\|/, '||');
+					modifiedLines++;
 				}
 
 				// ! -> #
-				if (line.startsWith('! ')) {
+				if (line.startsWith('!')) {
 					line = line.replace('!', '#');
 					if (line === '# Syntax: Adblock Plus Filter List') line = '# Syntax: 0.0.0.0 <domain>';
 					modifiedLines++;
@@ -121,6 +113,12 @@ const processDirectory = async dirPath => {
 					continue;
 				}
 
+				// Remove invalid domains
+				if (domain && !validator.isURL(domain, { require_valid_protocol: false, allow_underscores: true })) {
+					modifiedLines++;
+					continue;
+				}
+
 				processedLines.push(line);
 			}
 
@@ -131,8 +129,7 @@ const processDirectory = async dirPath => {
 					`📝 ${fileName}: ${modifiedLines} ${modifiedLines === 1 ? 'line' : 'lines'} modified, ` +
 					`${convertedDomains} ${convertedDomains === 1 ? 'domain' : 'domains'} converted to lowercase, ` +
 					`${invalidDomainsRemoved} invalid ${invalidDomainsRemoved === 1 ? 'domain' : 'domains'} removed, ` +
-					`${ipsReplaced} ${ipsReplaced === 1 ? 'IP' : 'IPs'} replaced, ` +
-					`${commentsPreserved} ${commentsPreserved === 1 ? 'comment' : 'comments'} preserved`
+					`${ipsReplaced} ${ipsReplaced === 1 ? 'IP' : 'IPs'} replaced`
 				);
 			}
 		}
