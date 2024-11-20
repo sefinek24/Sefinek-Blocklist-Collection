@@ -1,0 +1,11 @@
+$TTL 300
+@ SOA localhost. root.localhost. 2024112001 43200 3600 259200 300
+  NS  localhost.
+cdn.myanimelist.net CNAME .
+*.cdn.myanimelist.net CNAME .
+fal.myanimelist.net CNAME .
+*.fal.myanimelist.net CNAME .
+mxj.myanimelist.net CNAME .
+*.mxj.myanimelist.net CNAME .
+myanimelist.net CNAME .
+*.myanimelist.net CNAME .
