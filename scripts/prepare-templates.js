@@ -60,7 +60,7 @@ const processDirectory = async dirPath => {
 				}
 
 				// 0.0.0.0\t -> 0.0.0.0 ||  0.0.0.0		-> 0.0.0.0
-				if (line.includes('0.0.0.0\t') || line.includes('0.0.0.0  ')) {
+				if (line.startsWith('0.0.0.0\t') || line.startsWith('0.0.0.0  ')) {
 					line = line.replace(/0\.0\.0\.0\s+/, '0.0.0.0 ');
 					modifiedLines++;
 				}
