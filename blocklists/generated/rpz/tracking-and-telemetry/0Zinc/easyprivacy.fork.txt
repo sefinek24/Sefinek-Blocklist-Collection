@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024112001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024112101 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -291,6 +291,8 @@ g12083144435.co CNAME .
 *.g12083144435.co CNAME .
 g12281228770.co CNAME .
 *.g12281228770.co CNAME .
+g1386590346.co CNAME .
+*.g1386590346.co CNAME .
 g1584674682.co CNAME .
 *.g1584674682.co CNAME .
 g1584674684.co CNAME .
@@ -2855,6 +2857,8 @@ tracker.nocodelytics.com CNAME .
 *.tracker.nocodelytics.com CNAME .
 tracker.novage.com.ua CNAME .
 *.tracker.novage.com.ua CNAME .
+tracker.prod.ams3.k8s.hyperia.sk CNAME .
+*.tracker.prod.ams3.k8s.hyperia.sk CNAME .
 tracker.services.vaix.ai CNAME .
 *.tracker.services.vaix.ai CNAME .
 tracker.smartframe.io CNAME .
