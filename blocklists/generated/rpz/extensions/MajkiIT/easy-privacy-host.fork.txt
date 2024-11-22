@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024112001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024112201 43200 3600 259200 300
   NS  localhost.
 0.myikas.com CNAME .
 *.0.myikas.com CNAME .
@@ -24403,6 +24403,8 @@ events.blackboard.com CNAME .
 *.events.blackboard.com CNAME .
 events.brightline.tv CNAME .
 *.events.brightline.tv CNAME .
+events.bsky.app CNAME .
+*.events.bsky.app CNAME .
 events.btw.so CNAME .
 *.events.btw.so CNAME .
 events.careallies.com CNAME .
@@ -25867,6 +25869,8 @@ g12083144435.co CNAME .
 *.g12083144435.co CNAME .
 g12281228770.co CNAME .
 *.g12281228770.co CNAME .
+g1386590346.co CNAME .
+*.g1386590346.co CNAME .
 g1584674682.co CNAME .
 *.g1584674682.co CNAME .
 g1584674684.co CNAME .
@@ -64739,8 +64743,6 @@ strawberry.basf.com CNAME .
 *.strawberry.basf.com CNAME .
 stream-log.dditscdn.com CNAME .
 *.stream-log.dditscdn.com CNAME .
-stream.9now.com.au CNAME .
-*.stream.9now.com.au CNAME .
 stream.corporatefinanceinstitute.com CNAME .
 *.stream.corporatefinanceinstitute.com CNAME .
 streams.cablecar.sph.com.sg CNAME .
@@ -71047,6 +71049,8 @@ tracker.nocodelytics.com CNAME .
 *.tracker.nocodelytics.com CNAME .
 tracker.novage.com.ua CNAME .
 *.tracker.novage.com.ua CNAME .
+tracker.prod.ams3.k8s.hyperia.sk CNAME .
+*.tracker.prod.ams3.k8s.hyperia.sk CNAME .
 tracker.prom.ua CNAME .
 *.tracker.prom.ua CNAME .
 tracker.providence.org CNAME .
@@ -74191,6 +74195,8 @@ utexas.actonservice.com CNAME .
 *.utexas.actonservice.com CNAME .
 utgckq.reductionrevolution.com.au CNAME .
 *.utgckq.reductionrevolution.com.au CNAME .
+utics.nodejibi.in CNAME .
+*.utics.nodejibi.in CNAME .
 utjzyz.phillips.com CNAME .
 *.utjzyz.phillips.com CNAME .
 utklhk.kojima.net CNAME .
