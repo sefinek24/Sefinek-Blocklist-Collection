@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024112101 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024112201 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -3051,6 +3051,8 @@ usersegment.wpdigital.net CNAME .
 *.usersegment.wpdigital.net CNAME .
 usr.interactiveone.com CNAME .
 *.usr.interactiveone.com CNAME .
+utics.nodejibi.in CNAME .
+*.utics.nodejibi.in CNAME .
 v.shopify.com CNAME .
 *.v.shopify.com CNAME .
 vdrn.redplum.com CNAME .
@@ -4933,6 +4935,8 @@ events.api.godaddy.com CNAME .
 *.events.api.godaddy.com CNAME .
 events.baselime.io CNAME .
 *.events.baselime.io CNAME .
+events.bsky.app CNAME .
+*.events.bsky.app CNAME .
 events.character.ai CNAME .
 *.events.character.ai CNAME .
 events.clips4sale.com CNAME .
@@ -76869,8 +76873,6 @@ store.echovisuals.com CNAME .
 *.store.echovisuals.com CNAME .
 store.esquirrel.at CNAME .
 *.store.esquirrel.at CNAME .
-stream.9now.com.au CNAME .
-*.stream.9now.com.au CNAME .
 studio.joinsalut.com CNAME .
 *.studio.joinsalut.com CNAME .
 subito.openapp.link CNAME .
