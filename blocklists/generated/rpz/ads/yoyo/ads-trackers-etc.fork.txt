@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024112101 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024112201 43200 3600 259200 300
   NS  localhost.
 1-1ads.com CNAME .
 *.1-1ads.com CNAME .
@@ -9,8 +9,6 @@ $TTL 300
 *.180hits.de CNAME .
 180searchassistant.com CNAME .
 *.180searchassistant.com CNAME .
-1link2020.com CNAME .
-*.1link2020.com CNAME .
 1rx.io CNAME .
 *.1rx.io CNAME .
 207.net CNAME .
@@ -787,8 +785,6 @@ ads.com.com CNAME .
 *.ads.com.com CNAME .
 ads.comeon.com CNAME .
 *.ads.comeon.com CNAME .
-ads.contactmusic.com CNAME .
-*.ads.contactmusic.com CNAME .
 ads.creative-serving.com CNAME .
 *.ads.creative-serving.com CNAME .
 ads.cybersales.cz CNAME .
