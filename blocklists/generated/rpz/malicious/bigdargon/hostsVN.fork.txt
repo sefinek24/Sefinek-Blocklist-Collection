@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024112001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024112401 43200 3600 259200 300
   NS  localhost.
 api-adservices.apple.com CNAME .
 *.api-adservices.apple.com CNAME .
@@ -23767,6 +23767,10 @@ a135.wftv.com CNAME .
 *.a135.wftv.com CNAME .
 a2tw6yoodsag.com CNAME .
 *.a2tw6yoodsag.com CNAME .
+a300.adstattrack.com CNAME .
+*.a300.adstattrack.com CNAME .
+a400.adstattrack.com CNAME .
+*.a400.adstattrack.com CNAME .
 a9.com CNAME .
 *.a9.com CNAME .
 aaddzz.com CNAME .
@@ -31891,6 +31895,8 @@ link-booster.de CNAME .
 *.link-booster.de CNAME .
 link4ads.com CNAME .
 *.link4ads.com CNAME .
+linkads.xyz CNAME .
+*.linkads.xyz CNAME .
 linkadvdirect.com CNAME .
 *.linkadvdirect.com CNAME .
 linkbuddies.com CNAME .
