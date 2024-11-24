@@ -133,7 +133,7 @@ const processDirectory = async dirPath => {
 				console.log(
 					`📝 ${fileName}: ${modifiedLines} ${modifiedLines === 1 ? 'line' : 'lines'} modified; ` +
 					`${convertedDomains} ${convertedDomains === 1 ? 'domain' : 'domains'} converted to lowercase; ` +
-					`${invalidDomainsRemoved} invalid ${invalidDomainsRemoved === 1 ? 'domain' : 'domains'} removed; ` +
+					`${invalidDomainsRemoved} invalid ${invalidDomainsRemoved === 1 ? 'line' : 'lines'} removed; ` +
 					`${ipsReplaced} ${ipsReplaced === 1 ? 'IP' : 'IPs'} replaced`
 				);
 			}
