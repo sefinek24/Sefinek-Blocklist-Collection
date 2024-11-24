@@ -30,7 +30,6 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replace(/0\.0\.0\.0 (.*?)$/gm, '||$1^')
 			.replace(/::|#/gm, '!')
 			.replace('<Release>', 'AdGuard [adguard.com]')
-			.replace('<Version>', date.timestamp)
 			.replace('<LastUpdate>', `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);

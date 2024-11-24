@@ -28,7 +28,6 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replace('#=====', '# =====')
 			.replace(/(?:127\.0\.0\.1|0\.0\.0\.0) /gm, '') // grex "0.0.0.0 " "127.0.0.1 "
 			.replace('<Release>', 'No IP (only domains)')
-			.replace('<Version>', date.timestamp)
 			.replace('<LastUpdate>', `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);

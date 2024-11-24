@@ -18,7 +18,6 @@ module.exports = (title, description, count) => {
 # Source: N/A
 # License: CC BY-NC-ND 4.0
 # Release: <Release>
-# Version: <Version>
 # Last update: <LastUpdate>
 #
 # 〢 About:

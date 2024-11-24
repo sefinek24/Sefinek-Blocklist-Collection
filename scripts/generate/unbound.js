@@ -23,7 +23,6 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 		const replacedFile = fileContent
 			.replace(/(?:127\.0\.0\.1|0\.0\.0\.0) (\S+)/gm, 'local-zone: "$1." always_nxdomain')
 			.replace('<Release>', 'Unbound')
-			.replace('<Version>', date.timestamp)
 			.replace('<LastUpdate>', `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name.replace('.txt', '.conf'));

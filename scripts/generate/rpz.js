@@ -40,7 +40,6 @@ const convert = async (folderPath = path.join(__dirname, '../../blocklists/templ
 			.replace(/#(?: ?127\.0\.0\.1| ?0\.0\.0\.0) |:: /gm, '; ')
 			.replace(/#/gm, ';')
 			.replace('<Release>', 'RPZ')
-			.replace('<Version>', date.timestamp)
 			.replace('<LastUpdate>', `${date.full} | ${date.now}`);
 
 		const fullNewFile = path.join(generatedPath, file.name);
