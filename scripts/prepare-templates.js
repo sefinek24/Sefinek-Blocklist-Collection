@@ -41,7 +41,10 @@ const processDirectory = async dirPath => {
 				}
 
 				// Remove 0.0.0.0
-				if (line === '0.0.0.0') continue;
+				if (line === '0.0.0.0') {
+					invalidDomainsRemoved++;
+					continue;
+				}
 
 				// doMAin.tld -> domain.tld
 				if (line.match(/^(0\.0\.0\.0|127\.0\.0\.1)\s+/)) {
