@@ -15,10 +15,7 @@ const processDirectory = async dirPath => {
 			const filePath = join(dirPath, fileName);
 			const fileContents = await readFile(filePath, 'utf8');
 
-			let modifiedLines = 0;
-			let convertedDomains = 0;
-			let invalidDomainsRemoved = 0;
-			let ipsReplaced = 0;
+			let convertedDomains = 0, invalidDomainsRemoved = 0, ipsReplaced = 0, modifiedLines = 0;
 
 			const lines = fileContents.split('\n');
 			const processedLines = [];
