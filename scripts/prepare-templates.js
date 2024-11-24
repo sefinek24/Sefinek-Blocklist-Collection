@@ -2,7 +2,7 @@ const { mkdir, readdir, readFile, writeFile } = require('node:fs/promises');
 const { join } = require('node:path');
 const validator = require('validator');
 const local = require('./utils/local.js');
-const ipsToReplace = /(195\.187\.6\.3[3-5]|127\.0\.0\.1)/;
+const ipsToReplace = /0\.0\.0\.0 local|broadcasthost|localhost|ff0(?:0::0|2::[1-3])|::1/;
 
 const processDirectory = async dirPath => {
 	try {
@@ -23,6 +23,12 @@ const processDirectory = async dirPath => {
 			for (let line of lines) {
 				line = line.trim();
 
+				// Remove 0.0.0.0
+				if (line === '0.0.0.0') {
+					invalidDomainsRemoved++;
+					continue;
+				}
+
 				// Replace localhost entries with 0.0.0.0
 				if (line.includes('127.0.0.1 localhost')) line = '0.0.0.0 localhost';
 				if (line.includes('127.0.0.1 localhost.localdomain')) line = '0.0.0.0 localhost.localdomain';
@@ -40,10 +46,13 @@ const processDirectory = async dirPath => {
 					continue;
 				}
 
-				// Remove 0.0.0.0
-				if (line === '0.0.0.0') {
-					invalidDomainsRemoved++;
-					continue;
+				// domain -> 0.0.0.0 domain
+				if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#')) {
+					const words = line.split(/\s+/);
+					if (words.length === 1 && words[0] !== '') {
+						line = `0.0.0.0 ${words[0].toLowerCase()}`;
+						modifiedLines++;
+					}
 				}
 
 				// doMAin.tld -> domain.tld
@@ -79,15 +88,6 @@ const processDirectory = async dirPath => {
 					line = line.replace('!', '#');
 					if (line === '# Syntax: Adblock Plus Filter List') line = '# Syntax: 0.0.0.0 domain.tld';
 					modifiedLines++;
-				}
-
-				// domain -> 0.0.0.0 domain
-				if (!(line.startsWith('0.0.0.0') || line.startsWith('127.0.0.1')) && !line.includes('#')) {
-					const words = line.split(/\s+/);
-					if (words.length === 1 && words[0] !== '') {
-						line = `0.0.0.0 ${words[0].toLowerCase()}`;
-						modifiedLines++;
-					}
 				}
 
 				// 0.0.0.0 example1.com example2.com -> split into multiple lines
