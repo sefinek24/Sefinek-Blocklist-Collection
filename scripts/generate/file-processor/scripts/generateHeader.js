@@ -14,7 +14,7 @@ module.exports = (title, description, count) => {
 # Expires: 1 day
 # Count: ${count || 'Unknown'}
 # Author: Sefinek (https://sefinek.net) <contact@sefinek.net>
-# Modified by: Nobody
+# Modified by: N/A
 # Source: N/A
 # License: CC BY-NC-ND 4.0
 # Release: <Release>
