@@ -43,6 +43,9 @@ const processDirectory = async dirPath => {
 					continue;
 				}
 
+				// Remove 0.0.0.0
+				if (line === '0.0.0.0') continue;
+
 				// doMAin.tld -> domain.tld
 				if (line.match(/^(0\.0\.0\.0|127\.0\.0\.1)\s+/)) {
 					const words = line.split(/\s+/);
@@ -109,9 +112,6 @@ const processDirectory = async dirPath => {
 					line = `0.0.0.0 ${line.replace(/^\S+\s*/, '')}`;
 					modifiedLines++;
 				}
-
-				// Delete 0.0.0.0
-				if (line === '0.0.0.0') continue;
 
 				// Remove invalid domains
 				if (line.match(/^(0\.0\.0\.0|127\.0\.0\.1)\s+/)) {
