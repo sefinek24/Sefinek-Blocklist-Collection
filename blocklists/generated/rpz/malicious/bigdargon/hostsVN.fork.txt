@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024112401 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024112701 43200 3600 259200 300
   NS  localhost.
 api-adservices.apple.com CNAME .
 *.api-adservices.apple.com CNAME .
@@ -16625,16 +16625,18 @@ tag.userreport.com CNAME .
 *.tag.userreport.com CNAME .
 userreport.com CNAME .
 *.userreport.com CNAME .
+api.exc.mob.com CNAME .
+*.api.exc.mob.com CNAME .
 api.share.mob.com CNAME .
 *.api.share.mob.com CNAME .
+log-verify.mob.com CNAME .
+*.log-verify.mob.com CNAME .
+data.mob.com CNAME .
+*.data.mob.com CNAME .
 m.data.mob.com CNAME .
 *.m.data.mob.com CNAME .
 c.data.mob.com CNAME .
 *.c.data.mob.com CNAME .
-api.exc.mob.com CNAME .
-*.api.exc.mob.com CNAME .
-api.adnet.mob.com CNAME .
-*.api.adnet.mob.com CNAME .
 4dex.io CNAME .
 *.4dex.io CNAME .
 c.4dex.io CNAME .
@@ -23115,6 +23117,8 @@ log-en.sggp.org.vn CNAME .
 *.log-en.sggp.org.vn CNAME .
 log-video.baotintuc.vn CNAME .
 *.log-video.baotintuc.vn CNAME .
+log.1vn.app CNAME .
+*.log.1vn.app CNAME .
 log.247post.vn CNAME .
 *.log.247post.vn CNAME .
 log.anninhthudo.vn CNAME .
@@ -25913,6 +25917,8 @@ aphidsclee.com CNAME .
 *.aphidsclee.com CNAME .
 aphycolourses.info CNAME .
 *.aphycolourses.info CNAME .
+api-ad-adapter.wps.com CNAME .
+*.api-ad-adapter.wps.com CNAME .
 api-gdpr.voodoo-tech.io CNAME .
 *.api-gdpr.voodoo-tech.io CNAME .
 api.52youtu.com CNAME .
@@ -39927,6 +39933,8 @@ sjremetrics.java.com CNAME .
 *.sjremetrics.java.com CNAME .
 smart-dmp.com CNAME .
 *.smart-dmp.com CNAME .
+smartop-sdkapi.jiguang.cn CNAME .
+*.smartop-sdkapi.jiguang.cn CNAME .
 smetrics.bestbuy.com CNAME .
 *.smetrics.bestbuy.com CNAME .
 smetrics.boston.com CNAME .
