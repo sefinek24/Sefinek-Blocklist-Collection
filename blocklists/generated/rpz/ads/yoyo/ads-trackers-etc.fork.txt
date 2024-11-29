@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024112701 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024112901 43200 3600 259200 300
   NS  localhost.
 1-1ads.com CNAME .
 *.1-1ads.com CNAME .
@@ -2213,6 +2213,8 @@ bidclix.net CNAME .
 *.bidclix.net CNAME .
 bidr.io CNAME .
 *.bidr.io CNAME .
+bidsopt.com CNAME .
+*.bidsopt.com CNAME .
 bidswitch.net CNAME .
 *.bidswitch.net CNAME .
 bidtellect.com CNAME .
@@ -2261,8 +2263,6 @@ blogtoplist.se CNAME .
 *.blogtoplist.se CNAME .
 blogtopsites.com CNAME .
 *.blogtopsites.com CNAME .
-blueadvertise.com CNAME .
-*.blueadvertise.com CNAME .
 blueconic.com CNAME .
 *.blueconic.com CNAME .
 blueconic.net CNAME .
@@ -6495,8 +6495,6 @@ trackingsoft.com CNAME .
 *.trackingsoft.com CNAME .
 trackmysales.com CNAME .
 *.trackmysales.com CNAME .
-trackuhub.com CNAME .
-*.trackuhub.com CNAME .
 tradeadexchange.com CNAME .
 *.tradeadexchange.com CNAME .
 tradedoubler.com CNAME .
