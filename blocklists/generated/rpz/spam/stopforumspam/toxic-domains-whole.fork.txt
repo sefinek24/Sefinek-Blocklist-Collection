@@ -1,10 +1,8 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024113001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024120101 43200 3600 259200 300
   NS  localhost.
 00-tv.com CNAME .
 *.00-tv.com CNAME .
-00.0.gmail.com.gmail.8.3.gmail.35.cad.creou.dev CNAME .
-*.00.0.gmail.com.gmail.8.3.gmail.35.cad.creou.dev CNAME .
 00.pe CNAME .
 *.00.pe CNAME .
 000728.xyz CNAME .
@@ -65139,6 +65137,8 @@ my-mail.site CNAME .
 *.my-mail.site CNAME .
 my-mail.top CNAME .
 *.my-mail.top CNAME .
+my-toms.store CNAME .
+*.my-toms.store CNAME .
 my-turism.info CNAME .
 *.my-turism.info CNAME .
 my-yda.com CNAME .
