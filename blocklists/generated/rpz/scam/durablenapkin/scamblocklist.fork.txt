@@ -1,8 +1,10 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024120201 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024120301 43200 3600 259200 300
   NS  localhost.
 1000fapvids.online CNAME .
 *.1000fapvids.online CNAME .
+store.1000fapvids.online CNAME .
+*.store.1000fapvids.online CNAME .
 1bmo-reactivemyaccount0.com CNAME .
 *.1bmo-reactivemyaccount0.com CNAME .
 1stireland.com CNAME .
@@ -271,8 +273,6 @@ balticpipe.wordpress.com CNAME .
 *.balticpipe.wordpress.com CNAME .
 store.balticpipe.wordpress.com CNAME .
 *.store.balticpipe.wordpress.com CNAME .
-banregio.com CNAME .
-*.banregio.com CNAME .
 bcb.game CNAME .
 *.bcb.game CNAME .
 beacon.apsehick.date CNAME .
@@ -419,8 +419,6 @@ bsnl-tower.in CNAME .
 *.bsnl-tower.in CNAME .
 bsnl5gtower.com CNAME .
 *.bsnl5gtower.com CNAME .
-bsnltower.com CNAME .
-*.bsnltower.com CNAME .
 bsnltowerinstallations.com CNAME .
 *.bsnltowerinstallations.com CNAME .
 bsnltowersite.in CNAME .
@@ -817,8 +815,6 @@ store.emberio.com CNAME .
 *.store.emberio.com CNAME .
 en407etr.com CNAME .
 *.en407etr.com CNAME .
-store.en407etr.com CNAME .
-*.store.en407etr.com CNAME .
 enchantestore.myshopify.com CNAME .
 *.enchantestore.myshopify.com CNAME .
 store.enchantestore.myshopify.com CNAME .
@@ -1241,6 +1237,8 @@ ikoee.com CNAME .
 *.ikoee.com CNAME .
 ilpollenza-sorso23.it CNAME .
 *.ilpollenza-sorso23.it CNAME .
+store.ilpollenza-sorso23.it CNAME .
+*.store.ilpollenza-sorso23.it CNAME .
 imagemotorcycles.co.nz CNAME .
 *.imagemotorcycles.co.nz CNAME .
 imlb2c.com CNAME .
@@ -1437,6 +1435,8 @@ kisserine.com CNAME .
 *.kisserine.com CNAME .
 kitchendecor.shop CNAME .
 *.kitchendecor.shop CNAME .
+kms-full.com CNAME .
+*.kms-full.com CNAME .
 kms-pc.com CNAME .
 *.kms-pc.com CNAME .
 kms-tool.com CNAME .
@@ -1789,12 +1789,16 @@ navi39.ru CNAME .
 *.navi39.ru CNAME .
 navi4.com CNAME .
 *.navi4.com CNAME .
+store.navi4.com CNAME .
+*.store.navi4.com CNAME .
 navi40.com CNAME .
 *.navi40.com CNAME .
 store.navi40.com CNAME .
 *.store.navi40.com CNAME .
 navi42.ru CNAME .
 *.navi42.ru CNAME .
+store.navi42.ru CNAME .
+*.store.navi42.ru CNAME .
 navi45.ru CNAME .
 *.navi45.ru CNAME .
 navi5.com CNAME .
@@ -1843,14 +1847,14 @@ navi8.com CNAME .
 *.navi8.com CNAME .
 store.navi8.com CNAME .
 *.store.navi8.com CNAME .
+navi83.ru CNAME .
+*.navi83.ru CNAME .
 navi86.ru CNAME .
 *.navi86.ru CNAME .
 navi88.com CNAME .
 *.navi88.com CNAME .
 store.navi88.com CNAME .
 *.store.navi88.com CNAME .
-navi98.ru CNAME .
-*.navi98.ru CNAME .
 navi99.com CNAME .
 *.navi99.com CNAME .
 store.navi99.com CNAME .
@@ -2061,10 +2065,6 @@ pambi.tech CNAME .
 *.pambi.tech CNAME .
 pandzee.com CNAME .
 *.pandzee.com CNAME .
-paquetsuivi7noti.com CNAME .
-*.paquetsuivi7noti.com CNAME .
-store.paquetsuivi7noti.com CNAME .
-*.store.paquetsuivi7noti.com CNAME .
 paradisevs.com CNAME .
 *.paradisevs.com CNAME .
 parcelprocessingredelivery1.info CNAME .
@@ -2089,14 +2089,12 @@ pay.pay.booklng.com-id334112.com CNAME .
 *.pay.pay.booklng.com-id334112.com CNAME .
 store.pay.pay.booklng.com-id334112.com CNAME .
 *.store.pay.pay.booklng.com-id334112.com CNAME .
+pay.pay.www.booklng.com-id129041.info CNAME .
+*.pay.pay.www.booklng.com-id129041.info CNAME .
 pay.sberbank.www.booklng.com-id334112.com CNAME .
 *.pay.sberbank.www.booklng.com-id334112.com CNAME .
 store.pay.sberbank.www.booklng.com-id334112.com CNAME .
 *.store.pay.sberbank.www.booklng.com-id334112.com CNAME .
-paypartc.top CNAME .
-*.paypartc.top CNAME .
-store.paypartc.top CNAME .
-*.store.paypartc.top CNAME .
 pekanbaru.one CNAME .
 *.pekanbaru.one CNAME .
 peppatees.com CNAME .
@@ -2131,16 +2129,12 @@ pinjamanduit.lol CNAME .
 *.pinjamanduit.lol CNAME .
 pinjamanelit.top CNAME .
 *.pinjamanelit.top CNAME .
-store.pinjamanelit.top CNAME .
-*.store.pinjamanelit.top CNAME .
 pinjamanplus.com CNAME .
 *.pinjamanplus.com CNAME .
 pinjamnow.my.id CNAME .
 *.pinjamnow.my.id CNAME .
 pinjamteman.top CNAME .
 *.pinjamteman.top CNAME .
-store.pinjamteman.top CNAME .
-*.store.pinjamteman.top CNAME .
 pinjamuang.top CNAME .
 *.pinjamuang.top CNAME .
 pipopi.com CNAME .
@@ -2171,10 +2165,6 @@ powerboostup.com CNAME .
 *.powerboostup.com CNAME .
 store.powerboostup.com CNAME .
 *.store.powerboostup.com CNAME .
-prcrypt.top CNAME .
-*.prcrypt.top CNAME .
-store.prcrypt.top CNAME .
-*.store.prcrypt.top CNAME .
 premiumqualityblanket.com CNAME .
 *.premiumqualityblanket.com CNAME .
 presale-friday.cloud CNAME .
@@ -2185,10 +2175,6 @@ presale-friday.ink CNAME .
 *.presale-friday.ink CNAME .
 presale-friday.pro CNAME .
 *.presale-friday.pro CNAME .
-prestamex.top CNAME .
-*.prestamex.top CNAME .
-store.prestamex.top CNAME .
-*.store.prestamex.top CNAME .
 primeleech.com CNAME .
 *.primeleech.com CNAME .
 printazest.com CNAME .
@@ -2625,8 +2611,6 @@ store.tartannewzealand.myshopify.com CNAME .
 *.store.tartannewzealand.myshopify.com CNAME .
 tbao684tryo.com CNAME .
 *.tbao684tryo.com CNAME .
-tbg-lmtd.xyz CNAME .
-*.tbg-lmtd.xyz CNAME .
 tdsintegrations11.online CNAME .
 *.tdsintegrations11.online CNAME .
 store.tdsintegrations11.online CNAME .
@@ -2947,10 +2931,6 @@ ww25.utilify.me CNAME .
 *.ww25.utilify.me CNAME .
 store.ww25.utilify.me CNAME .
 *.store.ww25.utilify.me CNAME .
-wyzia-orderdeposits.com CNAME .
-*.wyzia-orderdeposits.com CNAME .
-store.wyzia-orderdeposits.com CNAME .
-*.store.wyzia-orderdeposits.com CNAME .
 x2-promo.net CNAME .
 *.x2-promo.net CNAME .
 store.x2-promo.net CNAME .
@@ -3041,6 +3021,10 @@ store.zaz4o.securesolidlink.com CNAME .
 *.store.zaz4o.securesolidlink.com CNAME .
 zedbubble.com CNAME .
 *.zedbubble.com CNAME .
+zerowasteinitiative.com CNAME .
+*.zerowasteinitiative.com CNAME .
+store.zerowasteinitiative.com CNAME .
+*.store.zerowasteinitiative.com CNAME .
 zillify.cfd CNAME .
 *.zillify.cfd CNAME .
 zolrqw.palatlaldate.com CNAME .
