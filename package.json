@@ -48,23 +48,23 @@
     "up": "ncu -u && npm i && npm update && npm audit fix"
   },
   "dependencies": {
-    "axios": "^1.7.7",
+    "axios": "^1.7.9",
     "cron-parser": "^4.9.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
     "express": "^5.0.1",
     "express-rate-limit": "^7.4.1",
     "express-timeout-handler": "^2.2.2",
     "helmet": "^8.0.0",
     "lzma-native": "^8.0.6",
-    "marked": "^15.0.2",
+    "marked": "^15.0.3",
     "mongoose": "^8.8.3",
     "morgan": "^1.10.0",
     "ws": "^8.18.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.15.0",
-    "globals": "^15.12.0",
+    "@eslint/js": "^9.16.0",
+    "globals": "^15.13.0",
     "ipaddr.js": "^2.2.0",
     "kleur": "^4.1.5",
     "luxon": "^3.5.0",
