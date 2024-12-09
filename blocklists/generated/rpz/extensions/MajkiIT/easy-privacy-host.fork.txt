@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024120801 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024120901 43200 3600 259200 300
   NS  localhost.
 0.myikas.com CNAME .
 *.0.myikas.com CNAME .
@@ -16869,8 +16869,6 @@ cnsecurity.actonservice.com CNAME .
 *.cnsecurity.actonservice.com CNAME .
 cnstats.cdev.eu CNAME .
 *.cnstats.cdev.eu CNAME .
-cnstrc.com CNAME .
-*.cnstrc.com CNAME .
 cnt.3dmy.net CNAME .
 *.cnt.3dmy.net CNAME .
 cnt.hd21.com CNAME .
