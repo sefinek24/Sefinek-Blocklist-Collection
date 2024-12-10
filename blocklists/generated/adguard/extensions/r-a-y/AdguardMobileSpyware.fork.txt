@@ -1,7 +1,7 @@
 ! AdguardMobileSpyware
 !
 ! Converted from - https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/mobile.txt
-! Last converted - Sun, 01 Dec 2024 05:41:34 +0000
+! Last converted - Tue, 10 Dec 2024 15:27:47 +0000
 !
 0.0.0.0
 ||adeventtracker.spotify.com^
@@ -108,6 +108,7 @@
 ||int.vlancaa.site^
 ||int.vlancaa.fun^
 ||tok.vaicore.xyz^
+||logs-ingress.svc.vinted.com^
 ||analytics.baliusuperapp.xyz^
 ||log-va-us-looki.capcutapi.com^
 ||analytics.hardlightgames.com^
@@ -428,7 +429,6 @@
 ||adtracker.oilpainting.colorbynumber.veraxen.com^
 ||adtracker.mkjigsaw.com^
 ||stats.oilpainting.colorbynumber.veraxen.com^
-||snowplow-collector.apartmentlist.io^
 ||qa-events-schema.viacom.tech^
 ||dns-clientinfo.cbsivideo.com^
 ||trace.qq.com^

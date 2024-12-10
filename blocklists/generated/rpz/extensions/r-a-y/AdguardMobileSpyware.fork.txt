@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024120801 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024121001 43200 3600 259200 300
   NS  localhost.
 adeventtracker.spotify.com CNAME .
 *.adeventtracker.spotify.com CNAME .
@@ -209,6 +209,8 @@ int.vlancaa.fun CNAME .
 *.int.vlancaa.fun CNAME .
 tok.vaicore.xyz CNAME .
 *.tok.vaicore.xyz CNAME .
+logs-ingress.svc.vinted.com CNAME .
+*.logs-ingress.svc.vinted.com CNAME .
 analytics.baliusuperapp.xyz CNAME .
 *.analytics.baliusuperapp.xyz CNAME .
 log-va-us-looki.capcutapi.com CNAME .
@@ -849,8 +851,6 @@ adtracker.mkjigsaw.com CNAME .
 *.adtracker.mkjigsaw.com CNAME .
 stats.oilpainting.colorbynumber.veraxen.com CNAME .
 *.stats.oilpainting.colorbynumber.veraxen.com CNAME .
-snowplow-collector.apartmentlist.io CNAME .
-*.snowplow-collector.apartmentlist.io CNAME .
 qa-events-schema.viacom.tech CNAME .
 *.qa-events-schema.viacom.tech CNAME .
 dns-clientinfo.cbsivideo.com CNAME .
