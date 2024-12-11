@@ -56,7 +56,7 @@ This will help you schedule the cron job for optimal timing.
 
 ## ✨ Default Blocklist
 <details>
-  <summary>Click here to see</summary>
+  <summary>Click here to see 👀</summary>
 
   - **Abuse:** Blocks known domains involved in online abuse or harassment.
   - **Advertising:** Blocks domains that serve advertisements to visitors.
