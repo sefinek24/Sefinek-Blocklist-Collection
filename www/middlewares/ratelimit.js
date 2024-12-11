@@ -7,7 +7,7 @@ const limiter = rateLimit({
 	standardHeaders: 'draft-7',
 	legacyHeaders: false,
 
-	skip: req => req.ip === '::ffff:127.0.0.1' && process.env.NODE_ENV === 'development',
+	skip: () => process.env.NODE_ENV === 'development',
 	handler: (req, res) => error.rateLimit(req, res),
 });
 
