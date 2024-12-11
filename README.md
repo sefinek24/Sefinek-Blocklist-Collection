@@ -22,10 +22,8 @@ The collection of lists was updated on **December 11, 2024**.
 
 
 <a href="https://stormserverhosting.com" target="_blank">
-  <img src="https://cdn.sefinek.net/images/stormserverhosting/banner-white.png" align="right" height="130" alt="Storm Server Hosting">
+  <img src="https://cdn.sefinek.net/images/stormserverhosting/banner-white-gh.png" align="center" alt="Storm Server Hosting">
 </a>
-
-<div align="center"><h3>💗 Powered by Storm Server Hosting</h3></div>
 
 
 ## 📦 How to Acquire the Blocklist
