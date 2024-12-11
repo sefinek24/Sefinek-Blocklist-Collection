@@ -17,8 +17,8 @@ Visit the official website of the project at [blocklist.sefinek.net](https://blo
 The collection of lists was updated on **December 11, 2024**.
 
 > [!WARNING]  
-> **I do not allow the commercial use of my lists (CC BY-NC-ND 4.0)!** Other lists that are not authored by me are shared under the same license, in accordance with the wishes of their original authors.
-> If you wish to use Sefinek Blocklists for commercial purposes, please contact me via Discord or email. Any abuse or misconduct will inevitably be detected by me sooner or later.
+> **I do not permit commercial use of my lists (licensed under CC BY-NC-ND 4.0).** Lists that I am not the author of are shared under the licensing terms specified by their original creators.
+> If you wish to use Sefinek Blocklists for commercial purposes, please contact me via Discord or email. Any misuse or inappropriate actions will eventually be detected.
 
 
 <a href="https://stormserverhosting.com" target="_blank">
