@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for AdGuard</h1>
     <p>
         📄 » <b>Format: ||domain.tld^</b><br>
-        📥 » <b>Last update: 06.11.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 11.12.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -123,7 +123,6 @@ https://blocklist.sefinek.net/generated/v1/adguard/suspicious/firebog/w3kbl.fork
 https://blocklist.sefinek.net/generated/v1/adguard/suspicious/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/adguard/test.txt
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/0Zinc/easyprivacy.fork.txt
-https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/ente-dev/tv.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.txt
 https://blocklist.sefinek.net/generated/v1/adguard/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.txt

@@ -2,7 +2,7 @@
     <h1>📝 Default blocklist collection for Unbound</h1>
     <p>
         📄 » <b>Format: local-zone: "domain.tld." always_nxdomain</b><br>
-        📥 » <b>Last update: 06.11.2024 / DD.MM.YYYY</b><br>
+        📥 » <b>Last update: 11.12.2024 / DD.MM.YYYY</b><br>
         ⭐ » <b>Mark this repository with a star if you find it useful.</b>
     </p>
 </div>
@@ -125,7 +125,6 @@ https://blocklist.sefinek.net/generated/v1/unbound/suspicious/firebog/w3kbl.fork
 https://blocklist.sefinek.net/generated/v1/unbound/suspicious/sefinek.hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/test.conf
 https://blocklist.sefinek.net/generated/v1/unbound/tracking-and-telemetry/0Zinc/easyprivacy.fork.conf
-https://blocklist.sefinek.net/generated/v1/unbound/tracking-and-telemetry/ente-dev/tv.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/tracking-and-telemetry/frogeye/firstparty-trackers-hosts.conf
 https://blocklist.sefinek.net/generated/v1/unbound/tracking-and-telemetry/MajkiIT/adguard-mobile-host.fork.conf
 https://blocklist.sefinek.net/generated/v1/unbound/tracking-and-telemetry/mitchellkrogza/INACTIVE.fork.conf
