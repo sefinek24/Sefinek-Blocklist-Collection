@@ -21,12 +21,11 @@ The collection of lists was updated on **December 11, 2024**.
 > If you wish to use Sefinek Blocklists for commercial purposes, please contact me via Discord or email. Any abuse or misconduct will inevitably be detected by me sooner or later.
 
 
-<h3>💗 Powered by Storm Server Hosting</h3>
-<div align="center">
-  <a href="https://stormserverhosting.com" target="_blank">
-    <img src="https://cdn.sefinek.net/images/stormserverhosting/banner-white.png" height="130" alt="Storm Server Hosting">
-  </a>
-</div>
+<a href="https://stormserverhosting.com" target="_blank">
+  <img src="https://cdn.sefinek.net/images/stormserverhosting/banner-white.png" align="right" height="130" alt="Storm Server Hosting">
+</a>
+
+<div align="center"><h3>💗 Powered by Storm Server Hosting</h3></div>
 
 
 ## 📦 How to Acquire the Blocklist
