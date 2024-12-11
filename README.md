@@ -14,7 +14,12 @@
 
 ## 📝 Information
 Visit the official website of the project at [blocklist.sefinek.net](https://blocklist.sefinek.net) for more details.  
-New lists were added to the [generator](https://sefinek.net/blocklist-generator) on **October 19, 2024**.
+The collection of lists was updated on **December 11, 2024**.
+
+> [!WARNING]  
+> **I do not allow the commercial use of my lists (CC BY-NC-ND 4.0)!** Other lists that are not authored by me are shared under the same license, in accordance with the wishes of their original authors.
+> If you wish to use Sefinek Blocklists for commercial purposes, please contact me via Discord or email. Any abuse or misconduct will inevitably be detected by me sooner or later.
+
 
 <h3>💗 Powered by Storm Server Hosting</h3>
 <div align="center">
