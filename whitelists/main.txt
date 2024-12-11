@@ -247,3 +247,7 @@ arquivo.pt phishing/blocklistproject/phishing.fork.txt
 
 # scholar.google.com
 scholar.google.com ads/jerryn70/GoodbyeAds.fork.txt
+
+# Samsung (Blocking these subdomains prevents adding a Samsung refrigerator to the SmartThings app)
+eu-auth2.samsungosp.com tracking-and-telemetry/ente-dev/tv.fork.txt
+ocfconnect-shard-eu02-euwest1.samsungiotcloud.com tracking-and-telemetry/ente-dev/tv.fork.txt
