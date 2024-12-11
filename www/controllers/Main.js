@@ -11,6 +11,10 @@ exports.index = async (req, res) => {
 	res.render('index.ejs', { version, db, uptime: formatTime.full(process.uptime()) });
 };
 
+exports.falsePositives = (req, res) => {
+	res.render('false-positives.ejs');
+};
+
 exports.updateSchedule = (req, res) => {
 	const tz = { tz: 'Europe/Warsaw', currentDate: Date.now() };
 	const github = parseExpression('0 */3 * * *', tz);
