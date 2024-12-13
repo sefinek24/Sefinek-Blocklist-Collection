@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024121101 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024121301 43200 3600 259200 300
   NS  localhost.
 0063450bb8e5e3369ef8c167a463d15c01527283b79bd266bb19b23e.com CNAME .
 *.0063450bb8e5e3369ef8c167a463d15c01527283b79bd266bb19b23e.com CNAME .
@@ -7521,6 +7521,8 @@ adserv.henrytek.com CNAME .
 *.adserv.henrytek.com CNAME .
 adservice.ccra.com CNAME .
 *.adservice.ccra.com CNAME .
+adservice.cm.bloomberg.com CNAME .
+*.adservice.cm.bloomberg.com CNAME .
 adservice.com CNAME .
 *.adservice.com CNAME .
 adservice.dk CNAME .
@@ -20489,6 +20491,8 @@ emarketingsuite.net CNAME .
 *.emarketingsuite.net CNAME .
 emarketuganda.com CNAME .
 *.emarketuganda.com CNAME .
+embeds.nerdwallet.com CNAME .
+*.embeds.nerdwallet.com CNAME .
 embed.tumblr.com CNAME .
 *.embed.tumblr.com CNAME .
 emberwhisper.com CNAME .
