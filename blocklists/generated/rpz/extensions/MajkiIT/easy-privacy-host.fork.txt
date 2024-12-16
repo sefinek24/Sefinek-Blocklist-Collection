@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024121501 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024121601 43200 3600 259200 300
   NS  localhost.
 0.myikas.com CNAME .
 *.0.myikas.com CNAME .
@@ -36145,6 +36145,8 @@ logs-partners.coupang.com CNAME .
 *.logs-partners.coupang.com CNAME .
 logs.51cto.com CNAME .
 *.logs.51cto.com CNAME .
+logs.adplay.ru CNAME .
+*.logs.adplay.ru CNAME .
 logs.animaapp.com CNAME .
 *.logs.animaapp.com CNAME .
 logs.chatboost-cv.algoage.co.jp CNAME .
@@ -62645,6 +62647,8 @@ stat.detelefoongids.nl CNAME .
 *.stat.detelefoongids.nl CNAME .
 stat.eagleplatform.com CNAME .
 *.stat.eagleplatform.com CNAME .
+stat.fly.codes CNAME .
+*.stat.fly.codes CNAME .
 stat.funshion.net CNAME .
 *.stat.funshion.net CNAME .
 stat.glaze.ai CNAME .
