@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024121301 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024121601 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -4319,6 +4319,8 @@ ip.up66.ru CNAME .
 *.ip.up66.ru CNAME .
 kraken.rambler.ru CNAME .
 *.kraken.rambler.ru CNAME .
+logs.adplay.ru CNAME .
+*.logs.adplay.ru CNAME .
 logs.viavideo.digital CNAME .
 *.logs.viavideo.digital CNAME .
 metrics.aviasales.ru CNAME .
@@ -4339,6 +4341,8 @@ st.hbrd.io CNAME .
 *.st.hbrd.io CNAME .
 stat.eagleplatform.com CNAME .
 *.stat.eagleplatform.com CNAME .
+stat.fly.codes CNAME .
+*.stat.fly.codes CNAME .
 stat.rum.cdnvideo.ru CNAME .
 *.stat.rum.cdnvideo.ru CNAME .
 stat.sputnik.ru CNAME .
