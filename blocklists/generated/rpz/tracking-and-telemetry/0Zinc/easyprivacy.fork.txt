@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024121601 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024121801 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -5445,6 +5445,8 @@ sapphire-api.target.com CNAME .
 *.sapphire-api.target.com CNAME .
 search.anonymous.ads.brave.com CNAME .
 *.search.anonymous.ads.brave.com CNAME .
+service.techzine.eu CNAME .
+*.service.techzine.eu CNAME .
 shopmetric.rediff.com CNAME .
 *.shopmetric.rediff.com CNAME .
 sid.nordstrom.com CNAME .

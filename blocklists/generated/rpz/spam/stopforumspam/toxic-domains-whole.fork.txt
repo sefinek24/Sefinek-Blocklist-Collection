@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024121701 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024121801 43200 3600 259200 300
   NS  localhost.
 00-tv.com CNAME .
 *.00-tv.com CNAME .
@@ -29539,6 +29539,8 @@ dnspublick.com CNAME .
 *.dnspublick.com CNAME .
 dnszones.com CNAME .
 *.dnszones.com CNAME .
+do-not-respond.me CNAME .
+*.do-not-respond.me CNAME .
 do.cowsnbullz.com CNAME .
 *.do.cowsnbullz.com CNAME .
 do.hammerhandz.com CNAME .
