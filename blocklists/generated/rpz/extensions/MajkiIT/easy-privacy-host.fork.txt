@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024122201 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024122301 43200 3600 259200 300
   NS  localhost.
 0.myikas.com CNAME .
 *.0.myikas.com CNAME .
@@ -43911,6 +43911,8 @@ mix-omniture.rbs.com CNAME .
 *.mix-omniture.rbs.com CNAME .
 mixomniture.rbs.com CNAME .
 *.mixomniture.rbs.com CNAME .
+mixpanel-proxy.coingecko.com CNAME .
+*.mixpanel-proxy.coingecko.com CNAME .
 mixpanel-proxy.ted.com CNAME .
 *.mixpanel-proxy.ted.com CNAME .
 mixxuo.sportys.gr CNAME .
