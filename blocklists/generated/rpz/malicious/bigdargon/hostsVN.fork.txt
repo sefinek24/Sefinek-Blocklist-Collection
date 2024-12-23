@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024122201 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024122301 43200 3600 259200 300
   NS  localhost.
 api-adservices.apple.com CNAME .
 *.api-adservices.apple.com CNAME .
@@ -19965,6 +19965,10 @@ bodis.com CNAME .
 *.bodis.com CNAME .
 tracking.bodis.com CNAME .
 *.tracking.bodis.com CNAME .
+ad-m.asia CNAME .
+*.ad-m.asia CNAME .
+sync-dsp.ad-m.asia CNAME .
+*.sync-dsp.ad-m.asia CNAME .
 adtimaserver.vn CNAME .
 *.adtimaserver.vn CNAME .
 api.adtimaserver.vn CNAME .
@@ -27117,6 +27121,8 @@ bridgetrack.com CNAME .
 *.bridgetrack.com CNAME .
 brightadnetwork.com CNAME .
 *.brightadnetwork.com CNAME .
+brightcriticism.com CNAME .
+*.brightcriticism.com CNAME .
 brightgluttony.com CNAME .
 *.brightgluttony.com CNAME .
 brightinfo.com CNAME .
