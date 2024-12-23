@@ -1,5 +1,5 @@
 $TTL 300
-@ SOA localhost. root.localhost. 2024122001 43200 3600 259200 300
+@ SOA localhost. root.localhost. 2024122301 43200 3600 259200 300
   NS  localhost.
 00px.net CNAME .
 *.00px.net CNAME .
@@ -5225,6 +5225,8 @@ miao.baidu.com CNAME .
 *.miao.baidu.com CNAME .
 midas.chase.com CNAME .
 *.midas.chase.com CNAME .
+mixpanel-proxy.coingecko.com CNAME .
+*.mixpanel-proxy.coingecko.com CNAME .
 mixpanel-proxy.ted.com CNAME .
 *.mixpanel-proxy.ted.com CNAME .
 mktcs.cloudapps.cisco.com CNAME .
