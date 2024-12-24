@@ -13,6 +13,9 @@ jobs:
       issues: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          ref: main
 
       - name: Link Checker
         id: lychee
