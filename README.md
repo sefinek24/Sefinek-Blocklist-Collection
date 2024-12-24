@@ -13,8 +13,9 @@
 </div>
 
 ## 📝 Information
-Visit the official website of the project at [blocklist.sefinek.net](https://blocklist.sefinek.net) for more details.  
-The collection of lists was updated on **December 11, 2024**.
+- Visit the official website of the project at [blocklist.sefinek.net](https://blocklist.sefinek.net) for more details.  
+- You're welcome to join my [Discord server](https://discord.gg/53DBjTuzgZ), where I post the latest announcements and important updates.
+
 
 > [!WARNING]  
 > **I do not permit commercial use of my lists (CC BY-NC-ND 4.0).** Lists that I did not author are shared under the licensing terms specified by their original creators.
@@ -89,7 +90,6 @@ This will help you schedule the cron job for optimal timing.
 
 
 ## ✅ Good to Know
-- You're welcome to join my [Discord server](https://discord.gg/53DBjTuzgZ), where I post the latest announcements and important updates.
 - New lists are added periodically. You can also install the [Sefinek Blocklists](https://apps.microsoft.com/detail/9p3tnt3pjd0j) app from the Microsoft Store for quick and convenient access to these lists.
 - Regularly checking this repository for updates and possible changes is recommended.
 - While this blocklist can improve your privacy and security, it may occasionally block legitimate content or services unintentionally.
